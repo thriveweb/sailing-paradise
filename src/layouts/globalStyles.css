@@ -1,13 +1,17 @@
+@import url('https://fonts.googleapis.com/css?family=Maven+Pro:400,500,700,900|Work+Sans:300,400,500,600,700');
+
+
 :root {
-  --primary: rebeccapurple;
-  --secondary: #212121;
-  --lightGrey: whitesmoke;
-  --midGrey: #cacaca;
-  --darkGrey: #272727;
-  --danger: #ff3d3d;
-  --font-primary: 'Open Sans', sans-serif;
+  --primary: #212121;
+  --secondary: rgba(65,63,71,0.7);
+  --offWhite: #484848;
+  --lightGrey: rgba(65,63,71,0.6);
+  --darkGrey: #413F47;
+  --midBlue: #3E4458;
+  --darkGBlue: #2C3140;
   --font-system: system-ui; /* postcssPresetEnv */
-  --borderRadius: 3px;
+  --fontMain: 'Work Sans', sans-serif;
+  --fontSecondary: 'Maven Pro', sans-serif;
 }
 
 html {
@@ -32,6 +36,7 @@ body {
 
 a {
   color: var(--primary);
+  text-decoration: none;
 }
 
 strong {
