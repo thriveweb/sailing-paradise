@@ -59,9 +59,6 @@ export const pageQuery = graphql`
         featuredImage {
           ...FluidImage
         }
-        testImage {
-          ...FluidImage
-        }
         section1
         section2
       }
