@@ -137,9 +137,6 @@ export const pageQuery = graphql`
         featuredImage {
           ...FluidImage
         }
-        videoSection {
-          contentTwo
-        }
       }
     }
 

@@ -159,7 +159,7 @@ collections: # A list of collections the CMS should be able to edit
         required: false
         fields:
           - {label: Video, name: video, widget: string, required: false}
-          - {label: Content Two, name: contentTwo, widget: markdown, required: false}
+          - {label: Content Secondary, name: contentSecondary, widget: markdown, required: false}
       - label: "Meta"
         required: false
         name: "meta"
