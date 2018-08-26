@@ -147,7 +147,7 @@ collections: # A list of collections the CMS should be able to edit
         widget: "object"
         required: false
         fields:
-          - {label: Video, name: video, widget: file, required: false}
+          - {label: Video, name: video, widget: string, required: false}
           - {label: Content Two, name: contentTwo, widget: markdown, required: false}
       - label: "Categories"
         name: "categories"
