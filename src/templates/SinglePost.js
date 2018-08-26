@@ -7,6 +7,7 @@ import { ChevronLeft } from 'react-feather'
 
 import Content from '../components/Content'
 import Image from '../components/Image'
+import SocialShare from '../components/SocialShare'
 import './SinglePost.css'
 
 export const SinglePostTemplate = ({
@@ -73,6 +74,7 @@ export const SinglePostTemplate = ({
 
         <div className="SinglePost--InnerContent">
           <Content source={body} />
+          <SocialShare />
         </div>
 
         <div className="SinglePost--Pagination">
