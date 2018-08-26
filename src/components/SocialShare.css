@@ -28,3 +28,16 @@
 .share-buttons svg {
 	height: 1.25rem;
 }
+
+
+.share-buttons svg path {
+	transition: all ease-in-out .2s;
+}
+
+.share-buttons a:hover {
+	background-color: var(--primary);
+}
+
+.share-buttons a:hover svg * {
+	fill: white;
+}

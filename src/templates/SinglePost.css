@@ -2,7 +2,7 @@
 }
 
 .SinglePost--BackgroundImage {
-  height: 50rem;
+  height: 40rem;
 }
 
 .SinglePost--BackButton {
@@ -13,6 +13,7 @@
   font-weight: 600;
   text-decoration: none;
   letter-spacing: 0.1em;
+  padding: 1rem;
 }
 
 .SinglePost--BackButton svg {
@@ -28,7 +29,7 @@
 
 .SinglePost--Content {
   background: white;
-  margin-top: 50rem;
+  margin-top: 40rem;
 }
 
 .SinglePost--Meta {
