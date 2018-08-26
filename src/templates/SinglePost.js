@@ -48,10 +48,10 @@ export const SinglePostTemplate = ({
               itemProp="dateCreated pubdate datePublished"
               date={date}
             >
-              {_format(date, 'MMMM Do, YYYY')}
+              {_format(date, 'D.MM.YYYY')}
             </time>
           )}
-          {categories && (
+          {categories.length && (
             <Fragment>
               <span>|</span>
               {categories.map((cat, index) => (

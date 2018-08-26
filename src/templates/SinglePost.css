@@ -29,17 +29,10 @@
 .SinglePost--Content {
   background: white;
   margin-top: 50rem;
-  padding: 8rem 8rem 4rem 8rem;
-}
-
-@media screen and (max-width: 750px) {
-  .SinglePost--Content {
-    padding: 4rem 2rem;
-  }
 }
 
 .SinglePost--Meta {
-  font-size: 1rem;
+  font-size: 1.4rem;
   margin: 0 0 2rem 0;
   text-align: center;
 }
@@ -51,16 +44,14 @@
 .SinglePost--Title {
   text-align: center;
   line-height: 1.2;
+  color: var(--primary);
+  text-transform: uppercase;
+  font-size: 3.6rem;
+  font-weight: 400;
 }
 
 .SinglePost--InnerContent {
   padding: 0 8rem;
-}
-
-@media screen and (max-width: 750px) {
-  .SinglePost--InnerContent {
-    padding: 0;
-  }
 }
 
 .SinglePost--Pagination {
@@ -79,4 +70,9 @@
 
 .SinglePost--Pagination--Link.next {
   margin-left: auto;
+}
+
+.gatsby-resp-image-wrapper {
+  max-width: 100% !important;
+  margin: 2rem 0;
 }

@@ -142,6 +142,13 @@ collections: # A list of collections the CMS should be able to edit
       - {label: Featured Image, name: featuredImage, widget: image, required: false}
       - {label: Excerpt, name: excerpt, widget: text}
       - {label: Content, name: body, widget: markdown}
+      - label: "Video Section"
+        name: "videoSection"
+        widget: "object"
+        required: false
+        fields:
+          - {label: Video, name: video, widget: file, required: false}
+          - {label: Content Two, name: contentTwo, widget: markdown, required: false}
       - label: "Categories"
         name: "categories"
         widget: "list"
