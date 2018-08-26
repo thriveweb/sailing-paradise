@@ -17,7 +17,7 @@ export const SinglePostTemplate = ({
   body,
   nextPostURL,
   prevPostURL,
-  categories = []
+  categories = [],
 }) => (
   <article
     className="SinglePost section light"
