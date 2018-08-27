@@ -9,7 +9,6 @@ import './AboutPage.css'
 // Export Template for use in CMS preview
 export const AboutPageTemplate = ({
   title,
-  subtitle,
   featuredImage,
   section1,
   section2,
@@ -22,7 +21,6 @@ export const AboutPageTemplate = ({
     </Helmet>
     <PageHeader
       title={title}
-      subtitle={subtitle}
       backgroundImage={featuredImage}
     />
 
@@ -55,7 +53,6 @@ export const pageQuery = graphql`
       frontmatter {
         title
         template
-        subtitle
         featuredImage {
           ...FluidImage
         }
