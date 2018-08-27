@@ -22,6 +22,7 @@ collections: # A list of collections the CMS should be able to edit
           - {label: Slug, name: slug, widget: hidden, default: 'contact'}
           - {label: Title, name: title, widget: string}
           - {label: Featured Image, name: featuredImage, widget: image}
+          - {label: Intro, name: intro, widget: markdown, required: false}
           - {label: Phone, name: phone, widget: markdown, required: false}
           - {label: Address, name: address, widget: markdown, required: false}
           - {label: Hours, name: hours, widget: markdown, required: false}
