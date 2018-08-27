@@ -13,9 +13,9 @@ const PostCard = ({
   slug,
   categories = [],
   className = '',
+  name,
   ...props
 }) => 
-
 
   <Link to={slug} className={`PostCard ${className}`}>
     {featuredImage && (
@@ -25,7 +25,7 @@ const PostCard = ({
     )}
     <div className="PostCard--Content">
       <div className="SinglePost--Meta">
-        {date && (
+        {date && 
           <time
             className="SinglePost--Meta--Date"
             itemProp="dateCreated pubdate datePublished"
@@ -33,8 +33,8 @@ const PostCard = ({
           >
             {_format(date, 'D.MM.YYYY')}
           </time>
-        )}
-        {categories.length && (
+        }
+        {!!categories.length && (
           <Fragment>
             <span>|</span>
             {categories.map((cat, index) => (
@@ -48,7 +48,9 @@ const PostCard = ({
         )}
       </div>
       {title && <h3 className="PostCard--Title">{title}</h3>}
+      {name && <p className="PostCard--Subtitle">{name}</p>}
     </div>
   </Link>
+
 
 export default PostCard
