@@ -1,6 +1,7 @@
-import React from 'react'
+import React, { Fragment } from 'react'
 import Link from 'gatsby-link'
 import _map from 'lodash/map'
+import _format from 'date-fns/format'
 
 import Image from './Image'
 import './PostCard.css'
@@ -8,12 +9,14 @@ import './PostCard.css'
 const PostCard = ({
   featuredImage,
   title,
-  excerpt,
+  date,
   slug,
   categories = [],
   className = '',
   ...props
-}) => (
+}) => 
+
+
   <Link to={slug} className={`PostCard ${className}`}>
     {featuredImage && (
       <div className="PostCard--Image relative">
@@ -21,13 +24,31 @@ const PostCard = ({
       </div>
     )}
     <div className="PostCard--Content">
-      {title && <h3 className="PostCard--Title">{title}</h3>}
-      <div className="PostCard--Category">
-        {categories && categories.map(cat => cat.category).join(', ')}
+      <div className="SinglePost--Meta">
+        {date && (
+          <time
+            className="SinglePost--Meta--Date"
+            itemProp="dateCreated pubdate datePublished"
+            date={date}
+          >
+            {_format(date, 'D.MM.YYYY')}
+          </time>
+        )}
+        {categories.length && (
+          <Fragment>
+            <span>|</span>
+            {categories.map((cat, index) => (
+              <span key={cat.category} className="SinglePost--Meta--Category">
+                {cat.category}
+                {/* Add a comma on all but last category */}
+                {index !== categories.length - 1 ? ',' : ''}
+              </span>
+            ))}
+          </Fragment>
+        )}
       </div>
-      {excerpt && <div className="PostCard--Excerpt">{excerpt}</div>}
+      {title && <h3 className="PostCard--Title">{title}</h3>}
     </div>
   </Link>
-)
 
 export default PostCard

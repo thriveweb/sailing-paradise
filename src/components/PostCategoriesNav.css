@@ -22,22 +22,3 @@
 .PostCategoriesNav > * + * {
   margin-left: 1rem;
 }
-
-.NavLink {
-  padding: 0.5rem 1rem;
-  display: block;
-  font-weight: 500;
-  color: inherit;
-  opacity: .8;
-}
-
-.NavLink + .NavLink {
-  margin-left: 1rem;
-}
-
-.NavLink:hover,
-.NavLink.active,
-.NavLink:focus {
-  color: var(--primary);
-  opacity: 1;
-}

@@ -2,31 +2,44 @@
   text-decoration: none;
   background: white;
   color: inherit;
-  border: 1px solid var(--lightGrey);
-  border-radius: var(--borderRadius);
-  box-shadow: 0 2px 15px rgba(0, 0, 0, 0.1);
   transition: all 0.15s ease-in-out;
   overflow: hidden;
 }
 
-.PostCard:hover,
-.PostCard:focus {
-  transform: translateY(-1px);
-  box-shadow: 0 2px 30px rgba(0, 0, 0, 0.15);
+.PostCard--Image {
+  margin: 0 0 1rem;
+  width: 100%;
+  height: 20rem;
+  position: relative;
 }
 
-.PostCard--Image {
-  margin: 0 0 2rem 0;
+.PostCard--Image:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
   width: 100%;
-  height: 15rem;
+  background-color: rgba(0,0,0,0.5);
+  z-index: 1;
+  opacity: 0;
+  transition: all ease-in-out .2s;
 }
 
 .PostCard--Title {
   margin: 0;
+  font-size: 1.8rem;
+  font-weight: 400;
+  text-transform: uppercase;
 }
 
 .PostCard--Content {
-  padding: 0 2.5rem 2.5rem;
+  padding: 0 0 2.5rem;
+}
+
+.PostCard--Content .SinglePost--Meta {
+  text-align: left;
+  margin: 0 0 .5rem;
 }
 
 .PostCard--Category {
@@ -34,4 +47,9 @@
   min-height: 1.2em;
   line-height: 1;
   margin: 0.5em 0;
+}
+
+.PostCard:hover .PostCard--Image:before,
+.PostCard:focus .PostCard--Image:before {
+  opacity: 1;
 }
