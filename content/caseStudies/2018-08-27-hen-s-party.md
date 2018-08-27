@@ -1,6 +1,6 @@
 ---
 template: SingleCaseStudy
-name: 'LAura, sophie and anna'
+name: 'Laura, Sophie and Anna'
 title: Hen's Party
 date: '2018-08-27'
 featuredImage: /images/uploads/girls-img7.jpg
