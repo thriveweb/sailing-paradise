@@ -19,25 +19,3 @@
 	font-size: 2rem;
 }
 
-/*Button*/
-
-.secondary-banner .button {
-	display: inline-block;
-	margin-top: 3rem;
-}
-
-.secondary-banner .button {
-	border-color: white;
-}
-
-.secondary-banner .button:after {
-	background-color: white;
-}
-
-.secondary-banner .button svg {
-	margin-left: 4rem;
-}
-
-.secondary-banner .button svg * {
-	fill: white;
-}

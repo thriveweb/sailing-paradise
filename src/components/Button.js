@@ -2,9 +2,15 @@ import React from 'react'
 import Link from 'gatsby-link'
 import { ICONButtonArrows } from './Icons'
 
-export default ({ title, url }) => 
-	<Link className='button' to={url}>
-		{title}
-		<ICONButtonArrows/>
-	</Link>
+import './Button.css'
+
+export default ({ title, url, white, className = '' }) => {
+	
+	if(white) className += ' buttonWhite'
+
+	return <Link className={`button ${className}`} to={url}>
+			{title}
+			<ICONButtonArrows/>
+		</Link>
+}
  

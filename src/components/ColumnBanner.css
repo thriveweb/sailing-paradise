@@ -1,0 +1,15 @@
+.columnsBanner {
+	display: flex;
+}
+
+.bannerColumn {
+	flex: 1;
+	text-align: center;
+	padding: 15rem 12rem;
+}
+
+.bannerColumn h2 {
+	font-weight: 800;
+	line-height: 1.2;
+	margin-bottom: 0;
+}

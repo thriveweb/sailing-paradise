@@ -11,6 +11,6 @@ export default ({ title, subtitle, featuredImage, buttonTitle, buttonUrl }) =>
 		<div className='container'>
 			{title && <h2 className='title-gradient'>{title}</h2>}
 			{subtitle && <h4>{subtitle}</h4>}
-			{buttonTitle && buttonUrl && <Button title={buttonTitle} url={buttonUrl} />}
+			{buttonTitle && buttonUrl && <Button white title={buttonTitle} url={buttonUrl} />}
 		</div>
 	</div>

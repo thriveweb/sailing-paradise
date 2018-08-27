@@ -5,6 +5,7 @@ import PageHeader from '../components/PageHeader'
 import Image from '../components/Image'
 import Content from '../components/Content.js'
 import PostSection from '../components/PostSection.js'
+import ColumnBanner from '../components/ColumnBanner.js'
 
 
 // Export Template for use in CMS preview
@@ -12,8 +13,10 @@ export const CaseStudiesTemplate = ({
   title,
   subtitle,
   featuredImage,
-  posts = []
+  posts = [],
+  columnBanner
 }) => {
+
 
   return <main className="Blog CaseStudies">
     <Helmet>
@@ -24,7 +27,6 @@ export const CaseStudiesTemplate = ({
       title={title}
       backgroundImage={featuredImage}
     />
-
     {!!posts.length && (
       <section className="section">
         <div className="container">
@@ -37,6 +39,7 @@ export const CaseStudiesTemplate = ({
         </div>
       </section>
     )}
+    <ColumnBanner columnBanner={columnBanner} />
   </main>
 }
 
@@ -49,7 +52,8 @@ const CaseStudies = ({ data }) => (
       ...post.node,
       ...post.node.frontmatter,
       ...post.node.fields
-    }))} 
+    }))}
+    {...data.columns}
   />
 )
 
@@ -80,6 +84,14 @@ export const pageQuery = graphql`
             }
           }
         }
+      }
+    }
+    columns: settingsYaml {
+      columnBanner {
+        buttonTitle
+        buttonUrl
+        featuredImage
+        title
       }
     }
   }
