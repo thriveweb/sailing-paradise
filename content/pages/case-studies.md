@@ -12,6 +12,6 @@ columnBanner:
   - buttonTitle: See More
     buttonUrl: cruises
     title: Are you interested in our set cruises through the beautiful Broadwater?
-    featuredImage: /images/uploads/girl-img1.jpg
+    featuredImage: /images/uploads/girl-img4.jpg
 ---
 
