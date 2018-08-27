@@ -76,7 +76,6 @@ collections: # A list of collections the CMS should be able to edit
           - {label: Subtitle, name: subtitle, widget: string}
           - {label: Featured Image, name: featuredImage, widget: image}
           - label: "Column Banner"
-            required: false
             name: "columnBanner"
             widget: "list"
             required: false
