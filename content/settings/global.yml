@@ -8,5 +8,10 @@ socialMediaCard:
 columnBanner:
   - buttonTitle: See More
     buttonUrl: private-charters
+    featuredImage: /images/uploads/boat-img8.jpg
     title: Are you interested in private charters catered for all sorts of occasions?
+  - buttonTitle: See More
+    buttonUrl: cruises
+    featuredImage: /images/uploads/girl-img4.jpg
+    title: Are you interested in our set cruises through the beautiful Broadwater?
 headerScripts: <!-- Add your analytics scripts / verification meta here -->
