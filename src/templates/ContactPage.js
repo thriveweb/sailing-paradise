@@ -3,7 +3,7 @@ import Helmet from 'react-helmet'
 import { MapPin, Smartphone, Mail } from 'react-feather'
 
 import PageHeader from '../components/PageHeader'
-import FormSimpleAjax from '../components/FormSimpleAjax'
+import IntroText from '../components/IntroText'
 import Content from '../components/Content'
 import './ContactPage.css'
 
@@ -12,9 +12,12 @@ export const ContactPageTemplate = ({
   body,
   title,
   featuredImage,
+  intro,
   address,
   phone,
-  email
+  hours, 
+  map,
+  secondaryBanner
 }) => (
   <main className="Contact">
     <Helmet>
@@ -28,26 +31,22 @@ export const ContactPageTemplate = ({
 
     <section className="section Contact--Section1">
       <div className="container Contact--Section1--Container">
+        <IntroText content={intro} center />
         <div className="Contact--Details">
           {phone && (
-            <a className="Contact--Details--Item" href={`tel:${phone}`}>
-              <Smartphone /> {phone}
-            </a>
+            <Content className="Contact--Details--Item" src={phone} />
           )}
           {address && (
-            <a
-              className="Contact--Details--Item"
-              href={`https://www.google.com.au/maps/search/${encodeURI(
-                address
-              )}`}
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <MapPin /> {address}
-            </a>
+            <Content className="Contact--Details--Item" src={address} />
+          )}
+          {hours && (
+            <Content className="Contact--Details--Item" src={hours} />
           )}
         </div>
-        <Content source={body} />
+        <div className='contact-body'>
+          {map && <img src={map.absolutePath} alt='map image' />}
+          {body && <Content source={body} />}
+        </div>  
       </div>
     </section>
   </main>
@@ -69,9 +68,22 @@ export const pageQuery = graphql`
         featuredImage {
           ...FluidImage
         }
+        intro
         address
         phone
-        email
+        hours
+        map {
+          absolutePath
+        }
+        secondaryBanner {
+          buttonTitle
+          buttonUrl
+          subtitle
+          title
+          featuredImage {
+            absolutePath
+          }
+        }
       }
     }
   }
