@@ -20,6 +20,7 @@
   display: block;
   font-size: 1.8rem;
   color: var(--primary);
+  margin-bottom: 2rem;
 }
 
 .Contact--Details--Item a:hover {
