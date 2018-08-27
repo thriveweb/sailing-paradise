@@ -28,7 +28,9 @@ export const pageQuery = graphql`
       frontmatter {
         title
         subtitle
-        featuredImage 
+        featuredImage {
+          ...FluidImage
+        }
         columnBanner {
           buttonTitle
           buttonUrl
