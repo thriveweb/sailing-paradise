@@ -13,12 +13,12 @@ const PageHeader = ({
 }) => {
   if (large) className += ' PageHeader-large'
   return (
-    <div className={`PageHeader relative ${className}`}>
+    <div className={`PageHeader relative overlay ${className}`}>
       {backgroundImage && (
         <Image background src={backgroundImage} alt={title} size="cover" />
       )}
       <div className="container relative">
-        <h1 className="PageHeader--Title">{title}</h1>
+        <h1 className="PageHeader--Title title-gradient">{title}</h1>
       </div>
     </div>
   )

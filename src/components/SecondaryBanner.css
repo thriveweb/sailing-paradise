@@ -1,0 +1,43 @@
+.secondary-banner {
+	padding: 8rem 0;
+}
+
+.secondary-banner .container {
+	display: block !important;
+	text-align: center;
+}
+
+.secondary-banner .container * {
+	color: white;
+}
+
+.secondary-banner h2 {
+	margin-bottom: 0;
+}
+
+.secondary-banner h4 {
+	font-size: 2rem;
+}
+
+/*Button*/
+
+.secondary-banner .button {
+	display: inline-block;
+	margin-top: 3rem;
+}
+
+.secondary-banner .button {
+	border-color: white;
+}
+
+.secondary-banner .button:after {
+	background-color: white;
+}
+
+.secondary-banner .button svg {
+	margin-left: 4rem;
+}
+
+.secondary-banner .button svg * {
+	fill: white;
+}

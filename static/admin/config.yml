@@ -66,6 +66,36 @@ collections: # A list of collections the CMS should be able to edit
               - {label: Canonical Link, name: canonicalLink, widget: string, required: false}
               - {label: Noindex, name: noindex, widget: boolean, required: false}
 
+      - file: "content/pages/case-studies.md"
+        label: "Case Studies"
+        name: "caseStudies"
+        fields:
+          - {label: Template, name: template, widget: hidden, default: CaseStudies}
+          - {label: Slug, name: slug, widget: hidden, default: 'case-studies'}
+          - {label: Title, name: title, widget: string}
+          - {label: Subtitle, name: subtitle, widget: string}
+          - {label: Featured Image, name: featuredImage, widget: image}
+          - label: "Column Banner"
+            required: false
+            name: "columnBanner"
+            widget: "list"
+            required: false
+            fields:
+              - {label: Title, name: title, widget: string}
+              - {label: Featured Image, name: featuredImage, widget: image}
+              - {label: Button Title, name: buttonTitle, widget: string}
+              - {label: Button Url, name: buttonUrl, widget: string}
+
+          - label: "Meta"
+            required: false
+            name: "meta"
+            widget: "object"
+            fields:
+              - {label: Title, name: title, widget: string, required: false}
+              - {label: Description, name: description, widget: text, required: false, pattern: [".{,300}", "Must not exceed 300 characters"]}
+              - {label: Canonical Link, name: canonicalLink, widget: string, required: false}
+              - {label: Noindex, name: noindex, widget: boolean, required: false}        
+
       - file: "content/pages/about.md"
         label: "About Page"
         name: "about-page"
