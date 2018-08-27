@@ -31,14 +31,6 @@ export const pageQuery = graphql`
         featuredImage {
           ...FluidImage
         }
-        columnBanner {
-          buttonTitle
-          buttonUrl
-          title
-          featuredImage {
-            absolutePath
-          }
-        }
       }
     }
   }
