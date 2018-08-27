@@ -33,6 +33,14 @@
   line-height: 1.2;
 }
 
+.load-more {
+  margin: 4rem 0 12rem;
+}
+
+.load-more .button {
+  margin: 0 auto;
+}
+
 @media screen and (max-width: 888px) {
   .PostSection--Grid > * {
     width: 100%;
