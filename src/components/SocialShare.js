@@ -5,7 +5,7 @@ import './SocialShare.css'
 
 export default () =>
 
-	<ul class="share-buttons">
+	<ul className="share-buttons">
 		<p>SHARE ON</p>
 		<li>
 			<a href="https://www.facebook.com/sharer/sharer.php?u=&quote=" target="_blank" title="Share on Facebook">

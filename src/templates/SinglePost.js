@@ -6,6 +6,7 @@ import Link from 'gatsby-link'
 import { ChevronLeft } from 'react-feather'
 
 import Content from '../components/Content'
+import Video from '../components/Video'
 import Image from '../components/Image'
 import SocialShare from '../components/SocialShare'
 import './SinglePost.css'
@@ -15,6 +16,8 @@ export const SinglePostTemplate = ({
   date,
   featuredImage,
   body,
+  video,
+  contentSecondary,
   nextPostURL,
   prevPostURL,
   categories = [],
@@ -74,6 +77,8 @@ export const SinglePostTemplate = ({
 
         <div className="SinglePost--InnerContent">
           <Content source={body} />
+          <Video videoUrl={video} />
+          <Content source={contentSecondary} />
           <SocialShare />
         </div>
 
@@ -137,6 +142,8 @@ export const pageQuery = graphql`
         featuredImage {
           ...FluidImage
         }
+        video
+        contentSecondary
       }
     }
 
