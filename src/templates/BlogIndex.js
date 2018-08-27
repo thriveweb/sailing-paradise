@@ -8,7 +8,6 @@ import PostCategoriesNav from '../components/PostCategoriesNav'
 // Export Template for use in CMS preview
 export const BlogIndexTemplate = ({
   title,
-  subtitle,
   featuredImage,
   posts = [],
   postCategories = [],
@@ -28,7 +27,6 @@ export const BlogIndexTemplate = ({
 
       <PageHeader
         title={title}
-        subtitle={subtitle}
         backgroundImage={featuredImage}
       />
 
@@ -85,7 +83,6 @@ export const pageQuery = graphql`
       frontmatter {
         title
         template
-        subtitle
         featuredImage {
           ...FluidImage
         }
