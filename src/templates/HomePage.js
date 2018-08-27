@@ -9,7 +9,6 @@ export const HomePageTemplate = ({ title, featuredImage, body }) => (
     <PageHeader
       large
       title={title}
-      subtitle={subtitle}
       backgroundImage={featuredImage}
     />
 
