@@ -11,7 +11,7 @@ intro: >-
   scelerisque ex interdum cursus. In hac habitasse platea dictumst.
 phone: |-
   **CALL US ON**
-  +61 0438 915 222
+  [+61 0438 915 222](tel:610438915222)
 address: >-
   **WHERE WE ARE**
 
