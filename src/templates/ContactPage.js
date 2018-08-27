@@ -4,6 +4,7 @@ import { MapPin, Smartphone, Mail } from 'react-feather'
 
 import PageHeader from '../components/PageHeader'
 import IntroText from '../components/IntroText'
+import Image from '../components/Image'
 import Content from '../components/Content'
 import './ContactPage.css'
 
@@ -18,8 +19,9 @@ export const ContactPageTemplate = ({
   hours, 
   map,
   secondaryBanner
-}) => (
-  <main className="Contact">
+}) => {
+
+  return <main className="Contact">
     <Helmet>
       <title>{title}</title>
     </Helmet>
@@ -44,13 +46,17 @@ export const ContactPageTemplate = ({
           )}
         </div>
         <div className='contact-body'>
-          {map && <img src={map.absolutePath} alt='map image' />}
+          {map && 
+            <div className='image-container'>
+              <Image background src={map} alt='map image' size="cover" />
+            </div>
+          }
           {body && <Content source={body} />}
         </div>  
       </div>
     </section>
   </main>
-)
+}
 
 const ContactPage = ({ data: { page } }) => (
   <ContactPageTemplate {...page.frontmatter} body={page.html} />
@@ -73,7 +79,7 @@ export const pageQuery = graphql`
         phone
         hours
         map {
-          absolutePath
+          ...FluidImage
         }
         secondaryBanner {
           buttonTitle
@@ -81,7 +87,7 @@ export const pageQuery = graphql`
           subtitle
           title
           featuredImage {
-            absolutePath
+            ...FluidImage
           }
         }
       }

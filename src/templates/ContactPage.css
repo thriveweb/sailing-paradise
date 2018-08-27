@@ -4,7 +4,6 @@
 }
 
 .Contact--Details {
-  margin-top: 3rem;
   display: flex;
   justify-content: center;
   flex: 0 0 100%;
@@ -17,17 +16,34 @@
   border-right: 1px solid var(--lightGrey);
 }
 
+.Contact p strong {
+  display: block;
+  font-size: 1.8rem;
+  color: var(--primary);
+  margin-bottom: 2rem;
+}
+
+.Contact--Details--Item a:hover {
+  text-decoration: underline;
+}
+
 .Contact--Details--Item:last-of-type {
   border: none;
 }
 
-.Contact--Details--Item:hover,
-.Contact--Details--Item:focus {
-  color: var(--primary);
+.contact-body {
+  margin: 7.5rem 0;
+  display: flex;
+  align-items: center;
 }
 
-.Contact--Details--Item svg {
-  margin-right: 1.5rem;
-  color: var(--primary);
+.contact-body > * {
+  flex: 1;
 }
+
+.contact-body .image-container {
+  min-height: 40rem;
+  margin-right: 6rem;
+}
+
 
