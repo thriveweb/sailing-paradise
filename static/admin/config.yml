@@ -22,11 +22,11 @@ collections: # A list of collections the CMS should be able to edit
           - {label: Slug, name: slug, widget: hidden, default: 'contact'}
           - {label: Title, name: title, widget: string}
           - {label: Featured Image, name: featuredImage, widget: image}
-          - {label: Subtitle, name: subtitle, widget: markdown}
-          - {label: Body, name: body, widget: markdown}
-          - {label: Address, name: address, widget: text}
-          - {label: Phone, name: phone, widget: string}
-          - {label: Email Address, name: email, widget: string}
+          - {label: Phone, name: phone, widget: markdown, required: false}
+          - {label: Address, name: address, widget: markdown, required: false}
+          - {label: Hours, name: hours, widget: markdown, required: false}
+          - {label: Map, name: map, widget: image, required: false}
+          - {label: Body, name: body, widget: markdown, required: false}
           - label: "Meta"
             required: false
             name: "meta"
@@ -45,7 +45,6 @@ collections: # A list of collections the CMS should be able to edit
           - {label: Slug, name: slug, widget: hidden, default: 'blog'}
           - {label: Title, name: title, widget: string}
           - {label: Featured Image, name: featuredImage, widget: image}
-          - {label: Subtitle, name: subtitle, widget: markdown}
           - label: "Meta"
             required: false
             name: "meta"
@@ -64,7 +63,6 @@ collections: # A list of collections the CMS should be able to edit
           - {label: Slug, name: slug, widget: hidden, default: 'about'}
           - {label: Title, name: title, widget: string}
           - {label: Featured Image, name: featuredImage, widget: image}
-          - {label: Subtitle, name: subtitle, widget: markdown}
           - {label: Section 1, name: section1, widget: markdown}
           - {label: Section 2, name: section2, widget: markdown}
           - {label: Test Image, name: testImage, widget: image}
@@ -86,7 +84,6 @@ collections: # A list of collections the CMS should be able to edit
           - {label: Slug, name: slug, widget: hidden, default: ''}
           - {label: Title, name: title, widget: string}
           - {label: Featured Image, name: featuredImage, widget: image}
-          - {label: Subtitle, name: subtitle, widget: markdown}
           - {label: Body, name: body, widget: markdown}
           - label: "Meta"
             required: false
@@ -176,7 +173,6 @@ collections: # A list of collections the CMS should be able to edit
     fields: # The fields each document in this collection have
       - {label: Template, name: template, widget: hidden, default: BlogIndex}
       - {label: Title, name: title, widget: string}
-      - {label: Subtitle, name: subtitle, widget: string, required: false}
       - {label: Featured Image, name: featuredImage, widget: image, required: false}
       # - label: "Meta"
       #   required: false
