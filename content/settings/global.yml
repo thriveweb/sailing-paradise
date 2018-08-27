@@ -5,4 +5,8 @@ siteDescription: >-
   CMS.
 socialMediaCard:
   image: /images/uploads/card-og.png
+columnBanner:
+  - buttonTitle: See More
+    buttonUrl: private-charters
+    title: Are you interested in private charters catered for all sorts of occasions?
 headerScripts: <!-- Add your analytics scripts / verification meta here -->
