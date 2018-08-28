@@ -13,3 +13,7 @@
 	line-height: 1.2;
 	margin-bottom: 0;
 }
+
+.bannerColumn .button svg {
+  margin-left: 2rem;
+}

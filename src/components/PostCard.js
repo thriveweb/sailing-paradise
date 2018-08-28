@@ -47,8 +47,8 @@ const PostCard = ({
           </Fragment>
         )}
       </div>
-      {title && <h3 className="PostCard--Title">{title}</h3>}
       {name && <p className="PostCard--Subtitle">{name}</p>}
+      {title && <h3 className="PostCard--Title">{title}</h3>}
     </div>
   </Link>
 

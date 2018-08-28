@@ -7,6 +7,8 @@ import Content from '../components/Content.js'
 import PostSection from '../components/PostSection.js'
 import ColumnBanner from '../components/ColumnBanner.js'
 
+import './CaseStudies.css'
+
 
 // Export Template for use in CMS preview
 export const CaseStudiesTemplate = ({

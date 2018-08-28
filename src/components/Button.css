@@ -69,10 +69,6 @@
   background-color: white;
 }
 
-.buttonWhite.button svg {
-  margin-left: 4rem;
-}
-
 .buttonWhite.button svg * {
   fill: white;
 }
