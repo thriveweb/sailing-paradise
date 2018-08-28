@@ -1,7 +1,7 @@
 ---
 template: AboutPage
 slug: about
-title: About page title
+title: About Us
 featuredImage: /images/uploads/booking-banner.jpg
 intro: >-
   ## Welcome Aboard
