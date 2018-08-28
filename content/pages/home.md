@@ -1,26 +1,39 @@
 ---
 template: HomePage
 slug: ''
-title: Hello World!
-featuredImage: /images/uploads/paint1.jpg
-subtitle: This is the home page subtitle test
+title: True Paradise
+buttonTitle: Find your perfect cruise
+buttonUrl: cruise
+featuredImage: /images/uploads/home-banner.jpg
+featuredSlider:
+  - description: 2 hour morning or afternoon cruise
+    title: Sailing & Sights Cruise
+    buttonTitle: Know More
+    buttonUrl: cruise
+  - description: 3 hour afternoon cruise
+    title: Island Adventure Cruise
+    buttonTitle: Know More
+    buttonUrl: cruise
+  - description: 2 hour sunset cruise
+    title: Sunset & City Lights
+    buttonTitle: Know More
+    buttonUrl: cruise
+featuredBanner:
+  image: /images/uploads/img-backflip.jpg
+  title: Gift Cards Now Available
+  buttonTitle: Discover More
+  buttonUrl: contact
+services:
+  - image: /images/uploads/boat-img8.jpg
+    serviceContent:
+      description: >-
+        Sailing in Paradise invites you to step aboard ‘The Spirit of Gwonda’ a
+        luxury, resort style, catamaran for up to 30 guests.
+      icon: /images/uploads/cake.svg
+      title: Private Boat Hire
+      buttonTitle: Know More
+      buttonUrl: cruise
 meta:
   title: ''
 ---
 
-# Whitesmoke
-
-An opinionated starter project for creating lightning-fast websites with [Gatsby](https://gatsbyjs.org) and [Netlify CMS](https://netlifycms.org).
-
-- **[Gatsby](https://gatsbyjs.org)** static site generator
-- **[Netlify CMS](https://github.com/netlify/netlify-cms)** for content management
-
-## See also
-
-[Netlify CMS Docs](https://www.netlifycms.org/docs/)  
-[Netlify CMS Repo](https://github.com/netlify/netlify-cms)  
-[Gatsby + Netlify CMS Starter](https://github.com/AustinGreen/gatsby-starter-netlify-cms)
-
-## Get going
-
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/thriveweb/whitesmoke&stack=cms)
