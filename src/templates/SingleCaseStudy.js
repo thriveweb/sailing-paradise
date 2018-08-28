@@ -26,8 +26,6 @@ export const SingleCaseStudyTemplate = ({
   videoSection
 }) => {
 
-	console.log(videoSection)
-
   return <article className="SingleCaseStudy">
     <Helmet>
       <title>{title}</title>
