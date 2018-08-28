@@ -93,9 +93,55 @@ collections: # A list of collections the CMS should be able to edit
           - {label: Slug, name: slug, widget: hidden, default: 'about'}
           - {label: Title, name: title, widget: string}
           - {label: Featured Image, name: featuredImage, widget: image}
-          - {label: Section 1, name: section1, widget: markdown}
-          - {label: Section 2, name: section2, widget: markdown}
-          - {label: Test Image, name: testImage, widget: image}
+          - {label: Intro, name: intro, widget: markdown, required: false}
+          - label: "Gallery"
+            required: false
+            name: "gallery"
+            widget: "list"
+            fields:
+              - {label: Image, name: image, widget: image, required: false}
+          - {label: Captains Intro, name: captainsIntro, widget: markdown, required: false}    
+          - label: "Captains"
+            name: "captains"
+            widget: "list"
+            required: false
+            fields:
+              - label: "Captain"
+                name: "captain"
+                widget: "relation"
+                collection: "crewMembers"
+                searchFields: ["name"]
+                valueField: "name"
+          - {label: Crew Intro, name: crewIntro, widget: markdown, required: false}    
+          - label: "Crew Members"
+            name: "crewMembers"
+            widget: "list"
+            required: false
+            fields:
+              - label: "Crew Member"
+                name: "crewMember"
+                widget: "relation"
+                collection: "crewMembers"
+                searchFields: ["name"]
+                valueField: "name"  
+          - label: "Secondary Banner"
+            required: false
+            name: "secondaryBanner"
+            widget: "object"
+            fields:
+              - {label: Title, name: title, widget: string}
+              - {label: Subtitle, name: subtitle, widget: string}
+              - {label: Button Title, name: buttonTitle, widget: string}
+              - {label: Button Url, name: buttonUrl, widget: string}
+              - {label: Featured Image, name: featuredImage, widget: image}
+          - label: "Column Banner"
+            name: "columnBanner"
+            widget: "list"
+            fields:
+              - {label: Title, name: title, widget: string}
+              - {label: Featured Image, name: featuredImage, widget: image}
+              - {label: Button Title, name: buttonTitle, widget: string}
+              - {label: Button Url, name: buttonUrl, widget: string}   
           - label: "Meta"
             required: false
             name: "meta"
@@ -192,6 +238,20 @@ collections: # A list of collections the CMS should be able to edit
           - {label: Canonical Link, name: canonicalLink, widget: string, required: false}
           - {label: Noindex, name: noindex, widget: boolean, required: false}
 
+
+  - name: postCategories
+    label: Post Category
+    editor:
+      preview: false
+    folder: content/postCategories
+    slug: "{{slug}}"
+    create: true # Allow users to create new documents in this collection
+    fields: # The fields each document in this collection have
+      - {label: Template, name: template, widget: hidden, default: BlogIndex}
+      - {label: Title, name: title, widget: string}
+      - {label: Featured Image, name: featuredImage, widget: image, required: false}
+
+
   - name: caseStudy
     label: Case Study
     editor:
@@ -225,27 +285,25 @@ collections: # A list of collections the CMS should be able to edit
           - {label: Noindex, name: noindex, widget: boolean, required: false}
 
 
-  - name: postCategories
-    label: Post Category
+  - name: crewMembers
+    label: Crew Members
     editor:
-      preview: false
-    folder: content/postCategories
-    slug: "{{slug}}"
+      preview: true
+    folder: content/crew-members
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     create: true # Allow users to create new documents in this collection
     fields: # The fields each document in this collection have
-      - {label: Template, name: template, widget: hidden, default: BlogIndex}
-      - {label: Title, name: title, widget: string}
-      - {label: Featured Image, name: featuredImage, widget: image, required: false}
-      # - label: "Meta"
-      #   required: false
-      #   name: "meta"
-      #   widget: "object"
-      #   fields:
-      #     - {label: Title, name: title, widget: string, required: false}
-      #     - {label: Description, name: description, widget: text, required: false, pattern: [".{,300}", "Must not exceed 300 characters"]}
-      #     - {label: Canonical Link, name: canonicalLink, widget: string, required: false}
-      #     - {label: Noindex, name: noindex, widget: boolean, required: false}
-
+      - {label: Profile Image, name: profileImage, widget: image, required: false}
+      - {label: Name, name: name, widget: string, required: false}
+      - {label: Title, name: title, widget: string, required: false}
+      - {label: Description, name: description, widget: markdown, required: false}
+      - label: "Social Media"
+        required: false
+        name: "socialMedia"
+        widget: "object"
+        fields:
+          - {label: Instagram, name: instagram, widget: string, required: false}
+          - {label: Twitter, name: twitter, widget: string, required: false}
 
   - name: "settings"
     label: "Settings"

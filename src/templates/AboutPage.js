@@ -10,9 +10,6 @@ import './AboutPage.css'
 export const AboutPageTemplate = ({
   title,
   featuredImage,
-  section1,
-  section2,
-  testImage,
   body
 }) => (
   <main className="About">
@@ -23,20 +20,6 @@ export const AboutPageTemplate = ({
       title={title}
       backgroundImage={featuredImage}
     />
-
-    <section className="section">
-      <div className="container">
-        <Content source={section1} />
-      </div>
-    </section>
-
-    <section className="section">
-      <div className="container">
-        <Content source={section2} />
-        <p>The image below is a {'<Image />'}</p>
-        <Image src={testImage} alt="Image" />
-      </div>
-    </section>
   </main>
 )
 
@@ -56,8 +39,6 @@ export const pageQuery = graphql`
         featuredImage {
           ...FluidImage
         }
-        section1
-        section2
       }
     }
   }
