@@ -173,14 +173,14 @@ collections: # A list of collections the CMS should be able to edit
           - {label: Title, name: title, widget: string}
           - {label: Button Title, name: buttonTitle, widget: string, required: false}
           - {label: Button Url, name: buttonUrl, widget: string, required: false}
-          - {label: Featured Image, name: featuredImage, widget: image}
+          - {label: Featured Video, name: featuredVideo, widget: file}
           - label: "Featured Slider"
             required: false
             name: "featuredSlider"
             widget: "list"
             fields:
               - {label: Title, name: title, widget: string, required: false}
-              - {label: Description, name: description, widget: string, required: false}
+              - {label: Description, name: description, widget: text, required: false}
               - {label: Button Url, name: buttonUrl, widget: string, required: false}
           - label: "Featured Banner"
             required: false
@@ -203,7 +203,7 @@ collections: # A list of collections the CMS should be able to edit
                 fields:
                   - {label: Icon, name: icon, widget: image}
                   - {label: Title, name: title, widget: string}
-                  - {label: Description, name: description, widget: string, required: false}
+                  - {label: Description, name: description, widget: text, required: false}
                   - {label: Button Url, name: buttonUrl, widget: string, required: false}
               - {label: Image, name: image, widget: image, required: false}
           - label: "Service Banner"
@@ -332,7 +332,7 @@ collections: # A list of collections the CMS should be able to edit
       - {label: Featured Image, name: featuredImage, widget: image, required: false}
       - {label: Excerpt, name: excerpt, widget: text}
       - {label: Content, name: body, widget: markdown}
-      - {label: Video, name: video, widget: string, required: false}
+      - {label: Video, name: video, widget: file, required: false}
       - {label: Content Secondary, name: contentSecondary, widget: markdown, required: false}
       - label: "Meta"
         required: false
@@ -370,7 +370,7 @@ collections: # A list of collections the CMS should be able to edit
       - {label: Title, name: title, widget: string}
       - {label: Date / Order, name: date, widget: date}
       - {label: Featured Image, name: featuredImage, widget: image, required: false}
-      - {label: Video, name: video, widget: string, required: false}
+      - {label: Video, name: video, widget: file, required: false}
       - {label: Content, name: body, widget: markdown}
       - {label: Excerpt, name: excerpt, widget: text}
       - label: "Gallery"
@@ -421,5 +421,5 @@ collections: # A list of collections the CMS should be able to edit
             widget: object
             fields:
               - {label: Title, name: title, widget: string}
-              - {label: Video, name: video, widget: string, required: false}
+              - {label: Video, name: video, widget: file, required: false}
           - {label: Header Meta / Scripts, name: headerScripts, widget: text, required: false}
