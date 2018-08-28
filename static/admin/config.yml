@@ -181,7 +181,6 @@ collections: # A list of collections the CMS should be able to edit
             fields:
               - {label: Title, name: title, widget: string, required: false}
               - {label: Description, name: description, widget: string, required: false}
-              - {label: Button Title, name: buttonTitle, widget: string, required: false}
               - {label: Button Url, name: buttonUrl, widget: string, required: false}
           - label: "Featured Banner"
             required: false
@@ -205,7 +204,6 @@ collections: # A list of collections the CMS should be able to edit
                   - {label: Icon, name: icon, widget: image}
                   - {label: Title, name: title, widget: string}
                   - {label: Description, name: description, widget: string, required: false}
-                  - {label: Button Title, name: buttonTitle, widget: string, required: false}
                   - {label: Button Url, name: buttonUrl, widget: string, required: false}
               - {label: Image, name: image, widget: image, required: false}
           - label: "Service Banner"
