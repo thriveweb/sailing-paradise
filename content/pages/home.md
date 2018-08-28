@@ -8,15 +8,12 @@ featuredImage: /images/uploads/home-banner.jpg
 featuredSlider:
   - description: 2 hour morning or afternoon cruise
     title: Sailing & Sights Cruise
-    buttonTitle: Know More
     buttonUrl: cruise
   - description: 3 hour afternoon cruise
     title: Island Adventure Cruise
-    buttonTitle: Know More
     buttonUrl: cruise
   - description: 2 hour sunset cruise
     title: Sunset & City Lights
-    buttonTitle: Know More
     buttonUrl: cruise
 featuredBanner:
   image: /images/uploads/img-backflip.jpg
@@ -29,10 +26,108 @@ services:
       description: >-
         Sailing in Paradise invites you to step aboard ‘The Spirit of Gwonda’ a
         luxury, resort style, catamaran for up to 30 guests.
-      icon: /images/uploads/cake.svg
+      icon: /images/uploads/wheel.svg
       title: Private Boat Hire
-      buttonTitle: Know More
       buttonUrl: cruise
+  - image: /images/uploads/girl-img1.jpg
+    serviceContent:
+      description: >-
+        Join Sailing in Paradise on a cruise of the Gold Coast Broadwater aboard
+        a beautiful Seawind 1050 Sailing Catamaran. With no more than 30 guests.
+      icon: /images/uploads/boat2.svg
+      title: Sails & Sights Cruise
+      buttonUrl: cruise
+  - image: /images/uploads/girl-img2.jpg
+    serviceContent:
+      description: >-
+        A unique hen’s party idea on the Gold Coast. Whether you are looking for
+        a relaxing day on the water with some delicious food and drinks, an
+        elegant morning tea cruise.
+      icon: /images/uploads/wine.svg
+      title: Hens Party Specialists
+      buttonUrl: cruise
+serviceBanner:
+  subtitle: Let’s Get The Party Started !
+  title: Ready to book your Gold Coast Boat Hire?
+  buttonTitle: Find your Perfect Cruise
+  buttonUrl: cruise
+  featuredImage: /images/uploads/waves-img1.jpg
+secondaryBanner:
+  subtitle: Special Offer
+  title: Adults at Kids prices
+  buttonTitle: Know More
+  buttonUrl: cruise
+  featuredImage: /images/uploads/beach-img1.jpg
+aboutSection:
+  buttons:
+    - buttonTitle: More about us
+      buttonUrl: about
+    - buttonTitle: See our boats
+      buttonUrl: boats
+  content: >-
+    Measuring 10.5m long by 6.5m wide, there is ample space for up to 30 people
+    (plus 2 crew), approx 60 square metres of deck space in fact. 
+
+
+    You will be amazed at the room available inside this smooth and stable boat.
+
+
+    The ‘Spirit Of Gwonda’ is a Seawind 1050 Resort sailing catamaran which has
+    been purpose built for entertaining and day cruises.
+
+
+    The open plan layout ensures all your guests can interact with each other
+    without having the wasted space of bedrooms, kitchens etc.
+  title: Meet Us
+  featuredImage: /images/uploads/ppl-boat.jpg
+  subtitle: Our Boats and Crew
+highlights:
+  - icon: /images/uploads/crew.svg
+    title: 'Fun, friendly and professional crew'
+  - icon: /images/uploads/photos.svg
+    title: FREE photos of your time aboard
+  - icon: /images/uploads/boat.svg
+    title: Spacious Catamarans + Calm Water Sailing
+  - icon: /images/uploads/beachball.svg
+    title: 'Easy island & beach stops with FREE SUPs, inflatables and beach games'
+  - icon: /images/uploads/champagne.svg
+    title: Fully licensed & catered or BYO
+  - icon: /images/uploads/speakers.svg
+    title: 'Fully equipped with Sound System (w Spotify), BBQ, Eskies, and Restroom'
+Testimonials:
+  description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.'
+  title: Happy Sailors
+  buttonTitle: See more testimonials
+  buttonUrl: case-studies
+  featuredTestimonials:
+    - content: >-
+        “We used Sailing in Paradise for a friends bridal shower. Steve was
+        excellent with his communication in the lead up to our event and made
+        sure we all felt very looked after. On the day of our sail all staff
+        were extremely friendly and accommodating of all our requests. Needless
+        to say the bride and all guests had an amazing time.”
+      image: /images/uploads/girl-img12.jpg
+      name: Maggie B
+    - content: >-
+        “We used Sailing in Paradise for a friends bridal shower. Steve was
+        excellent with his communication in the lead up to our event and made
+        sure we all felt very looked after. On the day of our sail all staff
+        were extremely friendly and accommodating of all our requests. Needless
+        to say the bride and all guests had an amazing time. On the day of our
+        sail all staff were extremely friendly and accommodating of all our
+        requests. Needless to say the bride and all guests had an amazing time."
+      image: /images/uploads/girl-img9.jpg
+      name: Jane
+    - content: >-
+        “We used Sailing in Paradise for a friends bridal shower. Steve was
+        excellent with his communication in the lead up to our event and made
+        sure we all felt very looked after.”
+      image: /images/uploads/girl-img4.jpg
+      name: Jessica
+latestNews: |-
+  ## Latest News
+
+  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 meta:
   title: ''
 ---
