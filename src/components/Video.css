@@ -1,13 +1,10 @@
-.video {
-  width: 100%;
-  margin: 2rem 0;
-  border: none;
-  display: block;
-  min-height: 50rem;
+.video-section {
+	 margin: 2rem 0;
 }
 
 .video-section.videoOverlay {
 	position: relative;
+	margin: 0;
 }
 
 .video-section.videoOverlay h2, .video-section.videoOverlay p {
@@ -28,8 +25,15 @@
 }
 
 .video-section.videoOverlay .video {
-	min-height: 50rem;
+	min-height: 55rem;
 	position: relative;
 	margin: 0;
+}
+
+.video {
+  width: 100%;
+  border: none;
+  display: block;
+  min-height: 50rem;
 }
 

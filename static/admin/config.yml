@@ -171,8 +171,104 @@ collections: # A list of collections the CMS should be able to edit
           - {label: Template, name: template, widget: hidden, default: HomePage}
           - {label: Slug, name: slug, widget: hidden, default: ''}
           - {label: Title, name: title, widget: string}
+          - {label: Button Title, name: buttonTitle, widget: string, required: false}
+          - {label: Button Url, name: buttonUrl, widget: string, required: false}
           - {label: Featured Image, name: featuredImage, widget: image}
-          - {label: Body, name: body, widget: markdown}
+          - label: "Featured Slider"
+            required: false
+            name: "featuredSlider"
+            widget: "list"
+            fields:
+              - {label: Title, name: title, widget: string, required: false}
+              - {label: Description, name: description, widget: string, required: false}
+              - {label: Button Title, name: buttonTitle, widget: string, required: false}
+              - {label: Button Url, name: buttonUrl, widget: string, required: false}
+          - label: "Featured Banner"
+            required: false
+            name: "featuredBanner"
+            widget: "object"
+            fields:
+              - {label: Title, name: title, widget: string, required: false}
+              - {label: Image, name: image, widget: image, required: false}
+              - {label: Button Title, name: buttonTitle, widget: string, required: false}
+              - {label: Button Url, name: buttonUrl, widget: string, required: false}
+          - label: "Services"
+            required: false
+            name: "services"
+            widget: "list"
+            fields:
+              - label: "Service Content"
+                required: false
+                name: "serviceContent"
+                widget: "object"
+                fields:
+                  - {label: Icon, name: icon, widget: image}
+                  - {label: Title, name: title, widget: string}
+                  - {label: Description, name: description, widget: string, required: false}
+                  - {label: Button Title, name: buttonTitle, widget: string, required: false}
+                  - {label: Button Url, name: buttonUrl, widget: string, required: false}
+              - {label: Image, name: image, widget: image, required: false}
+          - label: "Service Banner"
+            required: false
+            name: "serviceBanner"
+            widget: "object"
+            fields:
+              - {label: Title, name: title, widget: string}
+              - {label: Subtitle, name: subtitle, widget: string}
+              - {label: Button Title, name: buttonTitle, widget: string}
+              - {label: Button Url, name: buttonUrl, widget: string}
+              - {label: Featured Image, name: featuredImage, widget: image}
+          - label: "Secondary Banner"
+            required: false
+            name: "secondaryBanner"
+            widget: "object"
+            fields:
+              - {label: Title, name: title, widget: string}
+              - {label: Subtitle, name: subtitle, widget: string}
+              - {label: Button Title, name: buttonTitle, widget: string}
+              - {label: Button Url, name: buttonUrl, widget: string}
+              - {label: Featured Image, name: featuredImage, widget: image}
+          - label: "About Section"
+            required: false
+            name: "aboutSection"
+            widget: "object"
+            fields:
+              - {label: Featured Image, name: featuredImage, widget: image}
+              - {label: Title, name: title, widget: string}
+              - {label: Subtitle, name: subtitle, widget: string}
+              - {label: Content, name: content, widget: markdown}
+              - label: "Buttons"
+                required: false
+                name: "buttons"
+                widget: "list"
+                fields:
+                  - {label: Button Title, name: buttonTitle, widget: string}
+                  - {label: Button Url, name: buttonUrl, widget: string}
+          - label: "Highlights"
+            required: false
+            name: "highlights"
+            widget: "list"
+            fields:
+              - {label: Icon, name: icon, widget: image}
+              - {label: Title, name: title, widget: string}
+          - label: "Testimonials"
+            required: false
+            name: "Testimonials"
+            widget: "object"
+            fields:
+              - {label: Title, name: title, widget: string}
+              - {label: Description, name: description, widget: string}
+              - {label: Button Title, name: buttonTitle, widget: string}
+              - {label: Button Url, name: buttonUrl, widget: string}
+              - label: "Featured Testimonials"
+                required: false
+                name: "featuredTestimonials"
+                widget: "list"
+                fields:
+                  - {label: Image, name: image, widget: image}
+                  - {label: Name, name: name, widget: string}
+                  - {label: Content, name: content, widget: markdown}
+          - {label: Latest News, name: latestNews, widget: markdown, required: false}        
           - label: "Meta"
             required: false
             name: "meta"

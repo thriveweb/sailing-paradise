@@ -2,6 +2,10 @@
 	padding: 8rem 0;
 }
 
+.secondary-banner.bannerLarge {
+	padding: 20rem 0;
+}
+
 .secondary-banner .container {
 	display: block !important;
 	text-align: center;

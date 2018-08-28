@@ -2,6 +2,13 @@ import React from 'react'
 import Helmet from 'react-helmet'
 
 import PageHeader from '../components/PageHeader'
+import IntroText from '../components/IntroText'
+import GallerySlider from '../components/GallerySlider'
+import CaptainListing from '../components/CaptainListing'
+import CrewGallery from '../components/CrewGallery'
+import SecondaryBanner from '../components/SecondaryBanner'
+import ColumnBanner from '../components/ColumnBanner'
+import Video from '../components/Video'
 import Image from '../components/Image'
 import Content from '../components/Content.js'
 import './AboutPage.css'
@@ -9,22 +16,37 @@ import './AboutPage.css'
 // Export Template for use in CMS preview
 export const AboutPageTemplate = ({
   title,
+  intro,
+  gallery,
   featuredImage,
-  body
-}) => (
-  <main className="About">
-    <Helmet>
-      <title>{title}</title>
-    </Helmet>
-    <PageHeader
-      title={title}
-      backgroundImage={featuredImage}
-    />
-  </main>
-)
+  captainSection,
+  crewSection,
+  secondaryBanner,
+  columnBanner,
+  videoSection,
+  body,
+}) => 
 
-const AboutPage = ({ data: { page } }) => (
-  <AboutPageTemplate {...page} {...page.frontmatter} body={page.html} />
+    <main className="About">
+      <Helmet>
+        <title>{title}</title>
+      </Helmet>
+      <PageHeader
+        title={title}
+        backgroundImage={featuredImage}
+      />
+      <IntroText content={intro} center />
+      <GallerySlider gallery={gallery} />
+      <CaptainListing {...captainSection} />
+      <CrewGallery {...crewSection} />
+      <SecondaryBanner {...secondaryBanner} large />
+      <Video {...videoSection} videoOverlay />
+      <ColumnBanner columnBanner={columnBanner} />
+    </main>
+
+
+const AboutPage = ({ data: { page, videoSection } }) => (
+  <AboutPageTemplate {...page} {...page.frontmatter} body={page.html} {...videoSection} />
 )
 
 export default AboutPage
@@ -35,10 +57,63 @@ export const pageQuery = graphql`
       html
       frontmatter {
         title
-        template
         featuredImage {
           ...FluidImage
         }
+        intro
+        gallery {
+          image {
+            ...FluidImage
+          }
+        }
+        captainSection {
+          captainIntro
+          captain {
+            description
+            name
+            title
+            image {
+              ...FluidImage
+            }
+            socialMedia {
+              instagram
+              twitter
+            }
+          }
+        }
+        crewSection {
+          crewIntro
+          crew {
+            name
+            title
+            image {
+              ...FluidImage
+            }
+          }
+        }
+        secondaryBanner {
+          buttonTitle
+          buttonUrl
+          title
+          subtitle
+          featuredImage {
+            ...FluidImage
+          } 
+        }
+        columnBanner {
+          buttonTitle
+          buttonUrl
+          title
+          featuredImage {
+            ...FluidImage
+          }
+        }
+      }
+    }
+    videoSection: settingsYaml {
+      videoSection {
+        title
+          video
       }
     }
   }
