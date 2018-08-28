@@ -4,7 +4,6 @@ import _get from 'lodash/get'
 import _format from 'date-fns/format'
 import Link from 'gatsby-link'
 
-
 import { ICONQuotes } from '../components/Icons'
 import PageHeader from '../components/PageHeader'
 import Content from '../components/Content'
