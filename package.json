@@ -29,14 +29,16 @@
     "netlify-cms": "^1.9.3",
     "postcss-preset-env": "^5.1.0",
     "prop-types": "^15.6.0",
-    "react": "^16.4.1",
-    "react-dom": "^16.4.1",
+    "react": "^16.4.2",
+    "react-dom": "^16.4.2",
     "react-feather": "^1.1.0",
     "react-helmet": "^5.2.0",
     "react-intersection-observer": "^6.1.1",
     "react-markdown": "^3.3.2",
     "react-slick": "^0.23.1",
-    "slick-carousel": "^1.8.1"
+    "redux": "^4.0.0",
+    "slick-carousel": "^1.8.1",
+    "video-react": "^0.13.0"
   },
   "keywords": [
     "gatsby"

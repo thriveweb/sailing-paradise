@@ -2,11 +2,20 @@ import React from 'react'
 
 import './Video.css'
 
-export default ({videoUrl = ''}) => {
+export default ({ video = '', title, videoOverlay = '', className }) => {
 
-	if(!videoUrl) return null
+	if(!video) return null
 
-	const newUrl = videoUrl.replace(/^.+v=/,'').replace(/\&.*/,'')
+	if (videoOverlay) className += ' videoOverlay'
+	const url = video.replace(/^.+v=/,'').replace(/\&.*/,'')
 
-	return <iframe className='video' src={`https://www.youtube.com/embed/${newUrl}`}></iframe>
+	return <div className={`video-section ${className}`}>
+		{title && 
+			<div className='overlay-content'>
+				<h2 className='title-gradient'>{title}</h2>
+				<p className='button buttonWhite'>Watch Video</p>
+			</div>
+		}
+		<iframe className='video' src={`https://www.youtube.com/embed/${url}`}></iframe>
+	</div>
 }

@@ -22,8 +22,11 @@ export const SingleCaseStudyTemplate = ({
   excerpt,
   video,
   gallery,
-  banner
+  banner,
+  videoSection
 }) => {
+
+	console.log(videoSection)
 
   return <article className="SingleCaseStudy">
     <Helmet>
@@ -60,7 +63,7 @@ export const SingleCaseStudyTemplate = ({
         <div className="SingleCaseStudy--Body">
         	<div className='columnLeft'>
         		<Image src={featuredImage} alt={title} />
-        	    <Video videoUrl={video} />
+        	    <Video video={video} />
         	</div>
         	<div className='columnRight'>
           		<Content source={body} />
@@ -76,17 +79,19 @@ export const SingleCaseStudyTemplate = ({
       </div>
     </div>
     <GallerySlider gallery={gallery} />
+    <Video {...videoSection} videoOverlay />
   </article>
 }
 
 // Export Default SinglePost for front-end
 const SingleCaseStudy = ({ data, pathContext }) => {
-  const { post, archiveBanner } = data
+  const { post, archiveBanner, videoSection } = data
   const banner = archiveBanner ? archiveBanner.edges.map(edge => ({ ...edge.node })) : []
   return (
     <SingleCaseStudyTemplate
       {...post}
       {...post.frontmatter}
+      {...videoSection}
       banner={banner}
       body={post.html}
     />
@@ -100,32 +105,38 @@ export const pageQuery = graphql`
   query SingleCaseStudy($id: String!) {
     post: markdownRemark(id: { eq: $id }) {
       html
-      frontmatter {
-        title
-        name
-        date
-        excerpt
-        featuredImage {
-          ...FluidImage
-        }
-        video
-        gallery {
-        	image {
-        		...FluidImage
+      	frontmatter {
+        	title
+        	name
+        	date
+        	excerpt
+        	featuredImage {
+          	...FluidImage
         	}
-        }
-      }
+        	video
+        	gallery {
+        		image {
+        			...FluidImage
+        		}
+        	}
+      	}
     }
     archiveBanner: allMarkdownRemark(filter: { frontmatter: {title: { eq: "Case Studies"} }}) {
 	    edges {
-	      node {
-	        frontmatter {
-	          title
-	          featuredImage {
-	            ...FluidImage
-	          }
-	        }
-	      }
+		    node {
+		        frontmatter {
+		          	title
+		          	featuredImage {
+		            	...FluidImage
+		          	}
+		        }
+		    }
+	    }
+	}
+	videoSection: settingsYaml {
+	    videoSection {
+	    	title
+	        video
 	    }
 	}
   }
