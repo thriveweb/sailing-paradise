@@ -80,5 +80,16 @@ crewSection:
 
     Aenean blandit urna sit amet nisi elementum auctor. Quisque quis justo a dui
     rutrum vestibulum sed eget nulla. Proin volutpat faucibus ante id mattis.
+secondaryBanner:
+  buttonTitle: Know More
+  buttonUrl: private-charters
+  title: check out our amazing catamarans
+  featuredImage: /images/uploads/boat-img5.jpg
+columnBanner:
+  - buttonTitle: See More
+    buttonUrl: private-charters
+    title: Are you interested in private charters catered for all sorts of occasions?
+    featuredImage: /images/uploads/boat-img8.jpg
+  - featuredImage: /images/uploads/guy-img1.jpg
 ---
 
