@@ -136,6 +136,24 @@ collections: # A list of collections the CMS should be able to edit
                   - {label: Image, name: image, widget: image, required: false}
                   - {label: Name, name: name, widget: string, required: false}
                   - {label: Title, name: title, widget: string, required: false}
+          - label: "Secondary Banner"
+            required: false
+            name: "secondaryBanner"
+            widget: "object"
+            fields:
+              - {label: Title, name: title, widget: string}
+              - {label: Subtitle, name: subtitle, widget: string}
+              - {label: Button Title, name: buttonTitle, widget: string}
+              - {label: Button Url, name: buttonUrl, widget: string}
+              - {label: Featured Image, name: featuredImage, widget: image}
+          - label: "Column Banner"
+            name: "columnBanner"
+            widget: "list"
+            fields:
+              - {label: Title, name: title, widget: string}
+              - {label: Featured Image, name: featuredImage, widget: image}
+              - {label: Button Title, name: buttonTitle, widget: string}
+              - {label: Button Url, name: buttonUrl, widget: string}  
           - label: "Meta"
             required: false
             name: "meta"
