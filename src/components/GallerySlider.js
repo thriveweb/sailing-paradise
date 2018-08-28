@@ -6,6 +6,7 @@ import "slick-carousel/slick/slick-theme.css";
 import mediumZoom from 'medium-zoom'
 
 import Image from './Image'
+import { ICONMagnify } from './Icons'
 import './GallerySlider.css'
 
 class GallerySlider extends Component {
@@ -24,12 +25,13 @@ class GallerySlider extends Component {
 
 	    const { gallery = [] } = this.props
 		
-		if(!gallery.length) return null
+		if(!gallery) return null
 
 		return <Slider {...settings} className='gallery'>
     		{gallery.map(({ image }, index) => {
     			return <div className='galleryImage' key={`image-${index}`}>
 	    			<Image background src={image} alt='' />
+	    			<ICONMagnify />
 	    		</div>
     		})}
     	</Slider>
