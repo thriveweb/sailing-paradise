@@ -7,7 +7,6 @@ export default ({ video = '', title, videoOverlay = '', className }) => {
 	if(!video) return null
 
 	if (videoOverlay) className += ' videoOverlay'
-	const url = video.replace(/^.+v=/,'').replace(/\&.*/,'')
 
 	return <div className={`video-section ${className}`}>
 		{title && 
@@ -16,6 +15,8 @@ export default ({ video = '', title, videoOverlay = '', className }) => {
 				<p className='button buttonWhite'>Watch Video</p>
 			</div>
 		}
-		<iframe className='video' src={`https://www.youtube.com/embed/${url}`}></iframe>
+		<video className='video'>
+			<source src={video} type="video/mp3"/>
+		</video>
 	</div>
 }

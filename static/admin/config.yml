@@ -332,7 +332,7 @@ collections: # A list of collections the CMS should be able to edit
       - {label: Featured Image, name: featuredImage, widget: image, required: false}
       - {label: Excerpt, name: excerpt, widget: text}
       - {label: Content, name: body, widget: markdown}
-      - {label: Video, name: video, widget: file, required: false}
+      - {label: Video, name: video, widget: string, required: false}
       - {label: Content Secondary, name: contentSecondary, widget: markdown, required: false}
       - label: "Meta"
         required: false
