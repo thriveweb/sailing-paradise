@@ -16,7 +16,7 @@ export default ({ video = '', title, videoOverlay = '', className }) => {
 			</div>
 		}
 		<video className='video'>
-			<source src={video} type="video/mp3"/>
+			<source src={video} type="video/mp4"/>
 		</video>
 	</div>
 }

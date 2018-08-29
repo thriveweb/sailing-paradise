@@ -1,5 +1,9 @@
 .video-section {
-	 margin: 2rem 0;
+	margin: 2rem 0;
+}
+
+.video-section > * {
+	max-width: 100% !important;
 }
 
 .video-section.videoOverlay {
@@ -36,4 +40,5 @@
   display: block;
   min-height: 50rem;
 }
+
 
