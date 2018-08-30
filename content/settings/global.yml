@@ -15,6 +15,7 @@ columnBanner:
     featuredImage: /images/uploads/girl-img4.jpg
     title: Are you interested in our set cruises through the beautiful Broadwater?
 videoSection:
+  imageOverlay: /images/uploads/boat-img6.jpg
   title: Climb Aboard and get to know us
   video: 'https://www.youtube.com/watch?v=EILqvdxdc5c'
 headerScripts: <!-- Add your analytics scripts / verification meta here -->
