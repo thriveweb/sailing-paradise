@@ -4,7 +4,8 @@ slug: ''
 title: True Paradise
 buttonTitle: Find your perfect cruise
 buttonUrl: cruise
-featuredImage: /images/uploads/home-banner.jpg
+featuredVideo: >-
+  https://www.youtube.com/watch?v=vr0qNXmkUJ8&list=PLNhzc-Os3JK8ExayVzzoHVvP2c0-4_oqt
 featuredSlider:
   - description: 2 hour morning or afternoon cruise
     title: Sailing & Sights Cruise
@@ -78,9 +79,9 @@ aboutSection:
 
     The open plan layout ensures all your guests can interact with each other
     without having the wasted space of bedrooms, kitchens etc.
-  title: Meet Us
   featuredImage: /images/uploads/ppl-boat.jpg
   subtitle: Our Boats and Crew
+  title: Meet Us
 highlights:
   - icon: /images/uploads/crew.svg
     title: 'Fun, friendly and professional crew'
