@@ -426,8 +426,8 @@ collections: # A list of collections the CMS should be able to edit
               - {label: Featured Image, name: featuredImage, widget: image}
               - {label: Button Title, name: buttonTitle, widget: string}
               - {label: Button Url, name: buttonUrl, widget: string}
-          - label: Video Section
-            name: videoSection
+          - label: Global Video
+            name: globalVideo
             required: false
             widget: object
             fields:

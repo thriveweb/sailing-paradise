@@ -23,8 +23,10 @@ export const SingleCaseStudyTemplate = ({
   videoSection,
   gallery,
   banner,
-  globalVideo
+  settings
 }) => {
+
+  console.log(settings)
 
   return <article className="SingleCaseStudy">
     <Helmet>
@@ -77,19 +79,19 @@ export const SingleCaseStudyTemplate = ({
       </div>
     </div>
     <GallerySlider gallery={gallery} />
-    <Video {...globalVideo} />
+    <Video />
   </article>
 }
 
 // Export Default SinglePost for front-end
 const SingleCaseStudy = ({ data, pathContext }) => {
-  const { post, archiveBanner, globalVideo } = data
+  const { post, archiveBanner, settings} = data
   const banner = archiveBanner ? archiveBanner.edges.map(edge => ({ ...edge.node })) : []
   return (
     <SingleCaseStudyTemplate
       {...post}
       {...post.frontmatter}
-      {...globalVideo}
+      {...settings}
       banner={banner}
       body={post.html}
     />
@@ -136,12 +138,12 @@ export const pageQuery = graphql`
 		    }
 	    }
 	  }
-	  globalVideo: settingsYaml {
-	    videoSection {
-	    	title
-	      video
+    settings: settingsYaml {
+      videoSection {
         imageOverlay
-	    }
-	  }
+        title
+        video
+      }
+    }
   }
 `
