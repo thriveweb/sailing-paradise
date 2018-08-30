@@ -15,6 +15,7 @@ export const SinglePostTemplate = ({
   title,
   date,
   featuredImage,
+  videoSection,
   body,
   contentSecondary,
   nextPostURL,
@@ -76,7 +77,7 @@ export const SinglePostTemplate = ({
 
         <div className="SinglePost--InnerContent">
           <Content source={body} />
-          <Video  />
+          <Video {...videoSection}  />
           <Content source={contentSecondary} />
           <SocialShare />
         </div>
@@ -139,6 +140,12 @@ export const pageQuery = graphql`
         }
         featuredImage {
           ...FluidImage
+        }
+        videoSection {
+          video
+          imageOverlay {
+            ...FluidImage
+          }
         }
         contentSecondary
       }

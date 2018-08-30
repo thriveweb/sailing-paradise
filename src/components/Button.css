@@ -12,6 +12,7 @@
   justify-content: space-between;
   cursor: pointer;
   transition: all ease-in-out .2s;
+  line-height: 1;
 }
 
 .button:after {
@@ -25,6 +26,7 @@
 }
 
 .button svg {
+  height: 1rem;
   margin-left: 1rem;
   transition: all ease-in-out .2s;
 }
@@ -59,7 +61,6 @@
 /*Button White*/
 
 .buttonWhite.button {
-  display: inline-block;
   margin-top: 3rem;
   border-color: white;
   color: white;

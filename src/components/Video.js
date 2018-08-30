@@ -1,6 +1,8 @@
 import React, { Component } from 'react'
 import Image from './Image'
 import { ICONPlay } from './Icons'
+import Button from './Button'
+import FeaturedSlider from './FeaturedSlider'
 
 import './Video.css'
 
@@ -21,20 +23,36 @@ class Video extends Component {
 	}
 
 	render() {
-		const { title, video, imageOverlay } = this.props
+		const { title, video, imageOverlay, videoBanner, homeVideo, buttonTitle, buttonUrl, featuredSlider, featuredBanner } = this.props
 		const { videoPlaying } = this.state
 
 		if(!video) return null
 
 		const url = video.replace(/^.+v=/,'').replace(/\&.*/,'')
 
+		if(homeVideo) return <div className={`video-section homeVideo`}>
+				{!videoPlaying &&
+					<div className='overlay-content'>
+						<div className='container'>
+							{title && <h1 className='title-gradient'>{title}</h1>}
+							{buttonTitle && buttonUrl && <Button title={buttonTitle} url={buttonUrl} white />}
+						</div>	
+					</div>
+				}
+				<iframe 
+					src={`https://www.youtube.com/embed/${url}?autoplay=1&start=0&mute=1&modestbranding=1&rel=0&controls=0&loop=1&showinfo=0`} 
+					frameBorder="0" 
+				>
+				</iframe>
+				<FeaturedSlider featuredSlider={featuredSlider} featuredBanner={featuredBanner} />
+			</div>
 
-		return <div className={`video-section`} onClick={() => this.handleVideo(url)}>
+		return <div className={`video-section ${videoBanner ? 'videoBanner' : ''}`} onClick={() => this.handleVideo(url)}>
 			{!videoPlaying &&
 				<div className='overlay-content'>
 					<Image background src={imageOverlay} />
 					{title && <h2 className='title-gradient'>{title}</h2>}
-					<ICONPlay />
+					<ICONPlay className='playButton' />
 				</div>
 			}
 			<iframe 

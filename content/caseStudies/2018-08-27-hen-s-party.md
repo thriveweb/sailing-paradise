@@ -5,6 +5,7 @@ title: Hen's Party
 date: '2018-08-27'
 featuredImage: /images/uploads/girls-img7.jpg
 videoSection:
+  title: ''
   imageOverlay: /images/uploads/boat-img6.jpg
   video: >-
     https://www.youtube.com/watch?v=vr0qNXmkUJ8&list=PLNhzc-Os3JK8ExayVzzoHVvP2c0-4_oqt

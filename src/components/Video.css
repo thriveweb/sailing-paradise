@@ -3,11 +3,30 @@
 	position: relative;
 	height: 0;
 	padding-bottom: 56.25%;
+	cursor: pointer;
 }
 
 .video-section > * {
 	max-width: 100% !important;
 }
+
+.video {
+  width: 100%;
+  border: none;
+  display: block;
+  min-height: 50rem;
+}
+
+.video-section iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+
+/*Video Overlay*/
 
 .video-section .overlay-content {
 	position: absolute;
@@ -30,11 +49,11 @@
 	left: 0;
 	width: 100%;
 	height: 100%;
-	background-color: rgba(0,0,0,0.5);
+	background-color: rgba(0,0,0,0.4);
 	z-index: 2;
 }
 
-.video-section .overlay-content h2, .video-section .overlay-content svg {
+.video-section .overlay-content h2, .video-section .overlay-content .playButton {
 	position: absolute;
 	top: 50%;
 	transform: translateY(-50%);
@@ -47,8 +66,13 @@
 }
 
 .video-section .overlay-content h2 {
-	top: 25%;
+	top: auto;
+	bottom: 65%;
 	text-align: center;
+	width: 100%;
+	height: auto;
+	font-size: 4rem;
+	font-weight: 600;
 }
 
 .video-section.videoOverlay .video {
@@ -57,18 +81,47 @@
 	margin: 0;
 }
 
-.video {
-  width: 100%;
-  border: none;
-  display: block;
-  min-height: 50rem;
+
+/*Video Banner*/
+
+.video-section.videoBanner {
+	padding-bottom: 30%;
+	margin: 0;
 }
 
-.video-section iframe {
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
+
+/*Home Video*/
+
+.video-section.homeVideo {
+	cursor: default;
+	margin: 0;
 }
+
+.video-section.homeVideo .overlay-content {
+	justify-content: flex-start;
+}
+
+.video-section.homeVideo .overlay-content .container {
+	max-width: 65%;
+	padding-top: 15rem;
+	margin: 0 0 0 auto;
+}
+
+
+.video-section.homeVideo .overlay-content h1, .video-section.homeVideo .overlay-content .button {
+	position: relative;
+	z-index: 3;
+	text-align: left;
+	line-height: 1;
+	display: inline-block;
+} 
+
+
+.video-section.homeVideo .overlay-content h1 {
+	font-size: 18rem;
+	font-weight: 800;
+	margin: 0;
+}
+
+
 

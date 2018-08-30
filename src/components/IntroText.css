@@ -11,13 +11,13 @@
 	font-weight: 400;
 }
 
-.fancy-title h2 {
+.fancy-title h2, .fancy-title h4 {
 	position: relative;
 	padding: 0 0 1rem;
 	margin-bottom: 3.5rem;
 }
 
-.fancy-title h2:before {
+.fancy-title h2:before, .fancy-title h4:before {
 	content: '';
 	position: absolute;
 	bottom: 0;
@@ -27,7 +27,7 @@
 	background-color: var(--primary);
 }
 
-.fancy-title h2:after {
+.fancy-title h2:after, .fancy-title h4:after {
 	content: '';
 	position: absolute;
 	bottom: -.5rem;

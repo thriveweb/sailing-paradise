@@ -1,22 +1,26 @@
 import React from 'react'
 
-import PageHeader from '../components/PageHeader'
-import Content from '../components/Content'
+import Video from '../components/Video'
+import ServiceColumns from '../components/ServiceColumns'
+
 
 // Export Template for use in CMS preview
-export const HomePageTemplate = ({ title, featuredImage, body }) => (
+export const HomePageTemplate = ({ title, featuredVideo, body, buttonTitle, buttonUrl, featuredSlider, featuredBanner, services, serviceBanner }) => (
+
   <main className="Home">
-    <PageHeader
-      large
-      title={title}
-      backgroundImage={featuredImage}
+    <Video 
+      video={featuredVideo} 
+      homeVideo title={title} 
+      buttonTitle={buttonTitle} 
+      buttonUrl={buttonUrl} 
+      featuredSlider={featuredSlider} 
+      featuredBanner={featuredBanner} 
+    />
+    <ServiceColumns 
+      services={services} 
+      serviceBanner={serviceBanner}
     />
 
-    <section className="section">
-      <div className="container">
-        <Content source={body} />
-      </div>
-    </section>
   </main>
 )
 
@@ -39,6 +43,7 @@ export const pageQuery = graphql`
         title
         buttonTitle
         buttonUrl
+        featuredVideo
         featuredSlider {
           description
           title
@@ -49,20 +54,20 @@ export const pageQuery = graphql`
           buttonTitle
           buttonUrl
           image {
-            id
+            ...FluidImage
           }
         }
         services {
           serviceContent {
             icon {
-              id
+              ...FluidImage
             }
             description
             title
             buttonUrl
           }
           image {
-            id
+            ...FluidImage
           }
         }
         serviceBanner {
@@ -71,7 +76,7 @@ export const pageQuery = graphql`
           buttonTitle
           buttonUrl
           featuredImage {
-            id
+            ...FluidImage
           }
         }
         secondaryBanner {
@@ -80,7 +85,7 @@ export const pageQuery = graphql`
           title
           subtitle
           featuredImage {
-            id
+            ...FluidImage
           }
         }
         aboutSection {
@@ -88,7 +93,7 @@ export const pageQuery = graphql`
           title
           subtitle
           featuredImage {
-            id
+            ...FluidImage
           }
           buttons {
             buttonTitle
@@ -98,7 +103,7 @@ export const pageQuery = graphql`
         highlights {
           title
           icon {
-            id
+            ...FluidImage
           }
         }
         Testimonials {
@@ -110,7 +115,7 @@ export const pageQuery = graphql`
             content
             name
             image {
-              id
+              ...FluidImage
             }
           }
         }
