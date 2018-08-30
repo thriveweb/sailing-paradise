@@ -22,7 +22,7 @@ featuredBanner:
   buttonTitle: Discover More
   buttonUrl: contact
 services:
-  - image: /images/uploads/boat-img8.jpg
+  - image: /images/uploads/sail-img1.jpg
     serviceContent:
       description: >-
         Sailing in Paradise invites you to step aboard ‘The Spirit of Gwonda’ a
