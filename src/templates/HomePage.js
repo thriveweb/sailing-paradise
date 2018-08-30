@@ -37,9 +37,6 @@ export const pageQuery = graphql`
       html
       frontmatter {
         title
-        featuredImage {
-          id
-        }
         buttonTitle
         buttonUrl
         featuredSlider {

@@ -336,7 +336,6 @@ collections: # A list of collections the CMS should be able to edit
         name: videoSection
         widget: object
         fields:
-          - {label: Title, name: title, widget: string, required: false}
           - {label: Image Overlay, name: imageOverlay, widget: image, required: false}
           - {label: Video, name: video, widget: string, required: false}
       - {label: Content Secondary, name: contentSecondary, widget: markdown, required: false}
@@ -380,10 +379,8 @@ collections: # A list of collections the CMS should be able to edit
         name: videoSection
         widget: object
         fields:
-          - {label: Title, name: title, widget: string, required: false}
           - {label: Image Overlay, name: imageOverlay, widget: image, required: false}
           - {label: Video, name: video, widget: string, required: false}
-      - {label: Image Overlay, name: imageOverlay, widget: image, required: false}
       - {label: Content, name: body, widget: markdown}
       - {label: Excerpt, name: excerpt, widget: text}
       - label: "Gallery"
@@ -431,9 +428,10 @@ collections: # A list of collections the CMS should be able to edit
               - {label: Button Url, name: buttonUrl, widget: string}
           - label: Video Section
             name: videoSection
+            required: false
             widget: object
             fields:
-              - {label: Title, name: title, widget: string, required: false}
-              - {label: Image Overlay, name: imageOverlay, widget: image, required: false}
-              - {label: Video, name: video, widget: string, required: false}
+              - {label: Title, name: title, widget: string}
+              - {label: Image Overlay, name: imageOverlay, widget: image}
+              - {label: Video, name: video, widget: string}
           - {label: Header Meta / Scripts, name: headerScripts, widget: text, required: false}
