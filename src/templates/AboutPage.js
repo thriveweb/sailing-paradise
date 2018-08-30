@@ -23,7 +23,6 @@ export const AboutPageTemplate = ({
   crewSection,
   secondaryBanner,
   columnBanner,
-  videoSection,
   body,
 }) => 
 
@@ -40,13 +39,13 @@ export const AboutPageTemplate = ({
       <CaptainListing {...captainSection} />
       <CrewGallery {...crewSection} />
       <SecondaryBanner {...secondaryBanner} large />
-      <Video {...videoSection} videoOverlay />
+      <Video />
       <ColumnBanner columnBanner={columnBanner} />
     </main>
 
 
-const AboutPage = ({ data: { page, videoSection } }) => (
-  <AboutPageTemplate {...page} {...page.frontmatter} body={page.html} {...videoSection} />
+const AboutPage = ({ data: { page } }) => (
+  <AboutPageTemplate {...page} {...page.frontmatter} body={page.html} />
 )
 
 export default AboutPage
@@ -108,12 +107,6 @@ export const pageQuery = graphql`
             ...FluidImage
           }
         }
-      }
-    }
-    videoSection: settingsYaml {
-      videoSection {
-        title
-          video
       }
     }
   }
