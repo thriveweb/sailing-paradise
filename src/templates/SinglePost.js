@@ -77,7 +77,7 @@ export const SinglePostTemplate = ({
 
         <div className="SinglePost--InnerContent">
           <Content source={body} />
-          <Video video={video} />
+          <Video video={video} imageOverlay={imageOverlay} />
           <Content source={contentSecondary} />
           <SocialShare />
         </div>

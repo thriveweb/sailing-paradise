@@ -77,7 +77,7 @@ export const SingleCaseStudyTemplate = ({
       </div>
     </div>
     <GallerySlider gallery={gallery} />
-    <Video {...videoSection} videoOverlay />
+    <Video {...videoSection} />
   </article>
 }
 
@@ -103,39 +103,39 @@ export const pageQuery = graphql`
   query SingleCaseStudy($id: String!) {
     post: markdownRemark(id: { eq: $id }) {
       html
-      	frontmatter {
-        	title
-        	name
-        	date
-        	excerpt
-        	featuredImage {
-          	...FluidImage
-        	}
-        	video
-        	gallery {
-        		image {
-        			...FluidImage
-        		}
-        	}
+    	frontmatter {
+      	title
+      	name
+      	date
+      	excerpt
+      	featuredImage {
+        	...FluidImage
       	}
+      	video
+      	gallery {
+      		image {
+      			...FluidImage
+      		}
+      	}
+    	}
     }
     archiveBanner: allMarkdownRemark(filter: { frontmatter: {title: { eq: "Case Studies"} }}) {
 	    edges {
 		    node {
-		        frontmatter {
-		          	title
-		          	featuredImage {
-		            	...FluidImage
-		          	}
-		        }
+	        frontmatter {
+          	title
+          	featuredImage {
+            	...FluidImage
+          	}
+	        }
 		    }
 	    }
-	}
-	videoSection: settingsYaml {
+	  }
+	  videoSection: settingsYaml {
 	    videoSection {
 	    	title
-	        video
+	      video
 	    }
-	}
+	  }
   }
 `
