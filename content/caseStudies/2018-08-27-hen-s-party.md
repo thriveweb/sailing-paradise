@@ -4,8 +4,10 @@ name: 'Laura, Sophie and Anna'
 title: Hen's Party
 date: '2018-08-27'
 featuredImage: /images/uploads/girls-img7.jpg
-video: >-
-  https://www.youtube.com/watch?v=vr0qNXmkUJ8&list=PLNhzc-Os3JK8ExayVzzoHVvP2c0-4_oqt
+videoSection:
+  imageOverlay: /images/uploads/boat-img6.jpg
+  video: >-
+    https://www.youtube.com/watch?v=vr0qNXmkUJ8&list=PLNhzc-Os3JK8ExayVzzoHVvP2c0-4_oqt
 imageOverlay: /images/uploads/ppl-boat-img2.jpg
 excerpt: >-
   Laura
