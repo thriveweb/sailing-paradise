@@ -14,8 +14,9 @@ columnBanner:
     buttonUrl: cruises
     featuredImage: /images/uploads/girl-img4.jpg
     title: Are you interested in our set cruises through the beautiful Broadwater?
-videoSection:
-  imageOverlay: /images/uploads/boat-img6.jpg
-  title: Climb Aboard and get to know us
-  video: 'https://www.youtube.com/watch?v=EILqvdxdc5c'
+globalVideo:
+  imageOverlay: /images/uploads/home-banner.jpg
+  title: Climb aboard and get to know us
+  video: >-
+    https://www.youtube.com/watch?v=vr0qNXmkUJ8&list=PLNhzc-Os3JK8ExayVzzoHVvP2c0-4_oqt
 headerScripts: <!-- Add your analytics scripts / verification meta here -->
