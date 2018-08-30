@@ -431,7 +431,7 @@ collections: # A list of collections the CMS should be able to edit
             required: false
             widget: object
             fields:
-              - {label: Title, name: title, widget: string}
+              - {label: Title, name: title, widget: string, required: false, default: ''}
               - {label: Image Overlay, name: imageOverlay, widget: image}
               - {label: Video, name: video, widget: string}
           - {label: Header Meta / Scripts, name: headerScripts, widget: text, required: false}
