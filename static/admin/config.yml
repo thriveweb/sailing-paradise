@@ -252,7 +252,7 @@ collections: # A list of collections the CMS should be able to edit
               - {label: Title, name: title, widget: string}
           - label: "Testimonials"
             required: false
-            name: "Testimonials"
+            name: "testimonials"
             widget: "object"
             fields:
               - {label: Title, name: title, widget: string}
@@ -401,6 +401,86 @@ collections: # A list of collections the CMS should be able to edit
           - {label: Description, name: description, widget: text, required: false, pattern: [".{,300}", "Must not exceed 300 characters"]}
           - {label: Canonical Link, name: canonicalLink, widget: string, required: false}
           - {label: Noindex, name: noindex, widget: boolean, required: false}
+
+  - name: boatTours
+    label: Boat Tours
+    editor:
+      preview: true
+    folder: content/boat-tours
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    create: true # Allow users to create new documents in this collection
+    fields: # The fields each document in this collection have
+      - {label: Template, name: template, widget: hidden, default: SingleBoatTour}
+      - label: "Tour Type"
+        name: "tourType"
+        widget: "select"
+        options: ["Cruise", "Private Charter"]
+      - {label: Title, name: title, widget: string}
+      - {label: Featured Image, name: featuredImage, widget: image}
+      - {label: Intro, name: intro, widget: markdown, required: false}
+      - label: "Content Box"
+        required: false
+        name: "contentBox"
+        widget: "object"
+        fields:
+          - {label: Title, name: title, widget: string}
+          - {label: Button Title, name: buttonTitle, widget: string}
+          - {label: Button Url, name: buttonUrl, widget: string}
+      - label: "Gallery"
+        required: false
+        name: "gallery"
+        widget: "list"
+        fields:
+          - {label: Image, name: image, widget: image, required: false}
+      - {label: Content Column, name: contentColumn, widget: markdown}
+      - label: Accordion Section
+        name: accordionSection
+        required: false
+        widget: list
+        fields:
+          - {label: Title, name: title, widget: string, required: false}
+          - label: Accordion
+            name: accordion
+            required: false
+            widget: list
+            fields:
+              - {label: Title, name: title, widget: string, required: false}
+              - {label: Content, name: content, widget: markdown, required: false}
+      - label: "Column Banner"
+        name: "columnBanner"
+        widget: "list"
+        fields:
+          - {label: Title, name: title, widget: string}
+          - {label: Content, name: content, widget: markdown}
+          - {label: Featured Image, name: featuredImage, widget: image}
+          - {label: Button Title, name: buttonTitle, widget: string}
+          - {label: Button Url, name: buttonUrl, widget: string}
+      - label: "Testimonials"
+        required: false
+        name: "testimonials"
+        widget: "object"
+        fields:
+          - {label: Title, name: title, widget: string}
+          - {label: Description, name: description, widget: string}
+          - {label: Button Title, name: buttonTitle, widget: string}
+          - {label: Button Url, name: buttonUrl, widget: string}
+          - label: "Featured Testimonials"
+            required: false
+            name: "featuredTestimonials"
+            widget: "list"
+            fields:
+              - {label: Image, name: image, widget: image}
+              - {label: Name, name: name, widget: string}
+              - {label: Content, name: content, widget: markdown}    
+      - label: "Meta"
+            required: false
+            name: "meta"
+            widget: "object"
+            fields:
+              - {label: Title, name: title, widget: string, required: false}
+              - {label: Description, name: description, widget: text, required: false, pattern: [".{,300}", "Must not exceed 300 characters"]}
+              - {label: Canonical Link, name: canonicalLink, widget: string, required: false}
+              - {label: Noindex, name: noindex, widget: boolean, required: false}        
 
 
   - name: "settings"
