@@ -1,5 +1,6 @@
 ---
 title: Private Charters
+slug: private-charters
 featuredImage: /images/uploads/boat-banner.jpg
 intro: >-
   ## Private Charters

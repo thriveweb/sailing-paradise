@@ -4,7 +4,7 @@ import Helmet from 'react-helmet'
 import PageHeader from '../components/PageHeader'
 
 // Export Template for use in CMS preview
-export const PrivateChartersTemplate = ({
+export const ChartersTemplate = ({
   title,
   featuredImage,
 }) => {
@@ -22,20 +22,20 @@ export const PrivateChartersTemplate = ({
   )
 }
 
-// Export Default PrivateCharters for front-end
-const PrivateCharters = ({ data }) => (
-  <PrivateChartersTemplate
+// Export Default Charters for front-end
+const Charters = ({ data }) => (
+  <ChartersTemplate
     {...data.page}
     {...data.page.fields}
     {...data.page.frontmatter}
   />
 )
 
-export default PrivateCharters
+export default Charters
 
 export const pageQuery = graphql`
-  ## Query for PrivateCharters data
-  query PrivateCharters($id: String!) {
+  ## Query for Charters data
+  query Charters($id: String!) {
     page: markdownRemark(id: { eq: $id }) {
       frontmatter {
         title
