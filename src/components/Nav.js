@@ -53,6 +53,9 @@ export default class Nav extends Component {
             <NavLink to="/case-studies/" exact>
               Case Studies
             </NavLink>
+            <NavLink to="/private-charters/" exact>
+              Private Charters
+            </NavLink>
           </div>
           <button
             className="Button-blank Nav--MenuButton"

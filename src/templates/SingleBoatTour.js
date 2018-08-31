@@ -14,7 +14,7 @@ export const SingleBoatTourTemplate = ({
 }
 
 // Export Default SinglePost for front-end
-const SingleBoatTourStudy = ({ data, pathContext }) => {
+const SingleBoatTour = ({ data, pathContext }) => {
   const { post } = data
   return (
     <SingleBoatTourTemplate
@@ -25,13 +25,55 @@ const SingleBoatTourStudy = ({ data, pathContext }) => {
   )
 }
 
-export default SingleBoatTourStudy
+export default SingleBoatTour
 
 export const pageQuery = graphql`
   ## Query for SingleBoatTour data
   query SingleBoatTour($id: String!) {
     post: markdownRemark(id: { eq: $id }) {
       html
+      frontmatter {
+        tourType
+        intro
+        contentBox {
+          buttonTitle
+          buttonUrl
+          title
+        }
+        gallery {
+          image {
+            id
+          }
+        }
+        contentColumn
+        accordionSection {
+          title
+          accordion {
+            content
+            title
+          }
+        }
+        columnBanner {
+          buttonTitle
+          buttonUrl
+          content
+          title
+          featuredImage {
+            id
+          }
+        }
+        testimonials {
+          description
+          title
+          featuredTestimonials {
+            content
+            name
+            image {
+              id
+            }
+          }
+        }
+      }
     }
   }
 `
