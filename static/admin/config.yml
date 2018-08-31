@@ -254,7 +254,7 @@ collections: # A list of collections the CMS should be able to edit
               - {label: Title, name: title, widget: string}
           - label: "Testimonials"
             required: false
-            name: "testimonials"
+            name: "Testimonials"
             widget: "object"
             fields:
               - {label: Title, name: title, widget: string}
