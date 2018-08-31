@@ -438,7 +438,7 @@ collections: # A list of collections the CMS should be able to edit
       - label: Accordion Section
         name: accordionSection
         required: false
-        widget: list
+        widget: object
         fields:
           - {label: Title, name: title, widget: string, required: false}
           - label: Accordion
@@ -464,7 +464,7 @@ collections: # A list of collections the CMS should be able to edit
         widget: "object"
         fields:
           - {label: Title, name: title, widget: string}
-          - {label: Description, name: description, widget: string}
+          - {label: Description, name: description, widget: markdown}
           - {label: Button Title, name: buttonTitle, widget: string}
           - {label: Button Url, name: buttonUrl, widget: string}
           - label: "Featured Testimonials"
