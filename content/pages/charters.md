@@ -1,0 +1,5 @@
+---
+template: Charters
+slug: charters
+---
+

@@ -66,6 +66,14 @@ collections: # A list of collections the CMS should be able to edit
               - {label: Canonical Link, name: canonicalLink, widget: string, required: false}
               - {label: Noindex, name: noindex, widget: boolean, required: false}
 
+      - file: "content/pages/charters.md"
+        label: "Charters"
+        name: "charters"
+        fields:
+          - {label: Template, name: template, widget: hidden, default: Charters}
+          - {label: Slug, name: slug, widget: hidden, default: 'charters'}
+          - {label: Title, name: title, widget: string}
+          # - {label: Featured Image, name: featuredImage, widget: image}
       # - file: "content/pages/charters.md"
       #   label: "Charters"
       #   name: "charters"
