@@ -82,6 +82,7 @@ aboutSection:
   featuredImage: /images/uploads/ppl-boat.jpg
   subtitle: Our Boats and Crew
   title: Meet Us
+highlightsIntro: '## PRIVATE CHARTER HIGHLIGHTS'
 highlights:
   - icon: /images/uploads/crew.svg
     title: 'Fun, friendly and professional crew'
