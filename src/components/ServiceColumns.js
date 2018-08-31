@@ -22,7 +22,7 @@ export default ({ services, serviceBanner }) => {
 						{buttonUrl && <Button title='Know More' url={buttonUrl} />}
 					</div>
 					<div className='serviceImage relative'>
-						<Image background src={image} />
+						{image && <Image background src={image} />}
 					</div>
 				</Fragment>
 			})}
@@ -30,9 +30,9 @@ export default ({ services, serviceBanner }) => {
 		<div className='serviceBanner'>
 			<Image background src={featuredImage} />
 			<div className='serviceBanner-Content'>
-				<p>{title}</p>
-				<h3>{subtitle}</h3>
-				<Button title={buttonTitle} url={buttonUrl} white />
+				{title && <p>{title}</p>}
+				{subtitle && <h3>{subtitle}</h3>}
+				{buttonTitle && buttonUrl && <Button title={buttonTitle} url={buttonUrl} white />}
 			</div>	
 		</div>
 	</section>

@@ -2,10 +2,6 @@
 	padding: 8rem 0;
 }
 
-.secondary-banner.bannerLarge {
-	padding: 20rem 0;
-}
-
 .secondary-banner .container {
 	display: block !important;
 	text-align: center;
@@ -23,3 +19,36 @@
 	font-size: 2rem;
 }
 
+
+/*Banner Large*/
+
+.secondary-banner.bannerLarge {
+	padding: 20rem 0;
+}
+
+
+/*Content Box*/
+
+.secondary-banner.contentBox:before {
+	display: none;
+}
+
+.secondary-banner.contentBox .container {
+	background-color: rgba(0,0,0,0.4);
+	width: 40%;
+	padding: 4rem;
+}
+
+.secondary-banner.contentBox .button {
+	display: inline-block;
+	margin: 0;
+}
+
+.secondary-banner.contentBox h2 {
+	font-size: 2rem;
+}
+
+.secondary-banner.contentBox h4 {
+	font-size: 4.6rem;
+	margin-bottom: .5rem;
+}

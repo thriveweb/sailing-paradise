@@ -2,27 +2,57 @@ import React from 'react'
 
 import Video from '../components/Video'
 import ServiceColumns from '../components/ServiceColumns'
+import SecondaryBanner from '../components/SecondaryBanner'
+import HomeAboutBanner from '../components/HomeAboutBanner'
+import HighlightChart from '../components/HighlightChart'
+import TestimonialSlider from '../components/TestimonialSlider'
 
 
 // Export Template for use in CMS preview
-export const HomePageTemplate = ({ title, featuredVideo, body, buttonTitle, buttonUrl, featuredSlider, featuredBanner, services, serviceBanner }) => (
+export const HomePageTemplate = ({ 
+  title, 
+  featuredVideo, 
+  body, 
+  buttonTitle, 
+  buttonUrl, 
+  featuredSlider, 
+  featuredBanner, 
+  services, 
+  serviceBanner, 
+  secondaryBanner,
+  aboutSection,
+  highlights,
+  Testimonials
+}) => {
 
-  <main className="Home">
-    <Video 
-      video={featuredVideo} 
-      homeVideo title={title} 
-      buttonTitle={buttonTitle} 
-      buttonUrl={buttonUrl} 
-      featuredSlider={featuredSlider} 
-      featuredBanner={featuredBanner} 
-    />
-    <ServiceColumns 
-      services={services} 
-      serviceBanner={serviceBanner}
-    />
-
-  </main>
-)
+  return <main className="Home">
+      <Video 
+        video={featuredVideo} 
+        homeVideo title={title} 
+        buttonTitle={buttonTitle} 
+        buttonUrl={buttonUrl} 
+        featuredSlider={featuredSlider} 
+        featuredBanner={featuredBanner} 
+      />
+      <ServiceColumns 
+        services={services} 
+        serviceBanner={serviceBanner}
+      />
+      <SecondaryBanner
+        {...secondaryBanner}
+        contentBox
+      />
+      <HomeAboutBanner
+        {...aboutSection}
+      />
+      <HighlightChart
+        highlights={highlights}
+      />
+      <TestimonialSlider
+        {...Testimonials}
+      />
+    </main>
+}
 
 // Export Default HomePage for front-end
 const HomePage = ({ data: { page } }) => (

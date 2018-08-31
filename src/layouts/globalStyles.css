@@ -3,7 +3,7 @@
 :root {
   --primary: #212121;
   --secondary: rgba(65,63,71,0.7);
-  --offWhite: #484848;
+  --offWhite: #f8f8f8;
   --lightGrey: rgba(65,63,71,0.6);
   --darkGrey: #413F47;
   --midBlue: #3E4458;
@@ -24,13 +24,21 @@ body {
   font-family: var(--fontMain);
   min-height: 100%;
   position: relative;
-  background: white;
+  background-color: var(--offWhite);;
   color: var(--secondary);
   font-size: 1.6em;
   font-weight: 400;
   letter-spacing: 0.01em;
   line-height: 1.6;
   -webkit-font-smoothing: antialiased;
+}
+
+body, html {
+  overflow-x: hidden;
+}
+
+* {
+  box-sizing: border-box;
 }
 
 .container {
@@ -131,6 +139,42 @@ blockquote p {
   background: linear-gradient(to right, #D0EFF4, #FFECCE, #FFFBF5);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+
+.fancy-title h2, .fancy-title h4, .fancy-title h3 {
+  position: relative;
+  padding: 0 0 1rem;
+  margin-bottom: 3.5rem;
+}
+
+.fancy-title h2:before, .fancy-title h4:before, .fancy-title h3:before {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 8rem;
+  height: .1rem;
+  background-color: var(--primary);
+}
+
+.fancy-title h2:after, .fancy-title h4:after, .fancy-title h3:after {
+  content: '';
+  position: absolute;
+  bottom: -.5rem;
+  left: 0;
+  width: 8rem;
+  height: .1rem;
+  background-color: var(--primary);
+}
+
+.alignCenter.fancy-title {
+  text-align: center;
+  margin: 0 auto;
+}
+
+.alignCenter.fancy-title h2:before, .alignCenter.fancy-title h2:after {
+  right: 0;
+  margin: 0 auto;
 }
 
 .overlay .container {

@@ -34,6 +34,10 @@
 	width: 100%;
 }
 
+.featuredSlider.fancy-title h4:before, .featuredSlider.fancy-title h4:after {
+	display: none;
+}
+
 .featuredSlider h4 {
 	margin: 0;
 }
