@@ -404,21 +404,21 @@ collections: # A list of collections the CMS should be able to edit
           - {label: Canonical Link, name: canonicalLink, widget: string, required: false}
           - {label: Noindex, name: noindex, widget: boolean, required: false}
 
-  # - name: boatTours
-  #   label: Boat Tours
-  #   editor:
-  #     preview: true
-  #   folder: content/boat-tours
-  #   slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
-  #   create: true # Allow users to create new documents in this collection
-  #   fields: # The fields each document in this collection have
-  #     - {label: Template, name: template, widget: hidden, default: SingleBoatTour}
-  #     - label: "Tour Type"
-  #       name: "tourType"
-  #       widget: "select"
-  #       options: ["Cruise", "Private Charter"]
-  #     - {label: Title, name: title, widget: string}
-  #     - {label: Featured Image, name: featuredImage, widget: image}
+  - name: boatTours
+    label: Boat Tours
+    editor:
+      preview: true
+    folder: content/boatTours
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    create: true # Allow users to create new documents in this collection
+    fields: # The fields each document in this collection have
+      - {label: Template, name: template, widget: hidden, default: SingleBoatTour}
+      - label: "Tour Type"
+        name: "tourType"
+        widget: "select"
+        options: ["Cruise", "Private Charter"]
+      - {label: Title, name: title, widget: string}
+      - {label: Featured Image, name: featuredImage, widget: image}
   #     - {label: Intro, name: intro, widget: markdown, required: false}
   #     - label: "Content Box"
   #       required: false
