@@ -71,7 +71,7 @@ collections: # A list of collections the CMS should be able to edit
         name: "private-charters"
         fields:
           - {label: Template, name: template, widget: hidden, default: PrivateCharters}
-          - {label: Slug, name: slug, widget: hidden, default: 'charters'}
+          - {label: Slug, name: slug, widget: hidden, default: 'private-charters'}
           - {label: Title, name: title, widget: string}
           - {label: Featured Image, name: featuredImage, widget: image}
           - {label: Intro, name: intro, widget: markdown}
