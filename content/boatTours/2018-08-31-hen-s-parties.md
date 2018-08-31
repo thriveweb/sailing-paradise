@@ -47,6 +47,99 @@ contentColumn: >-
   Or an elegant morning tea cruise with champagne and delicious cupcakes. Even a
   raucous hens party with a butler in the buff and all the trimmings we are here
   for you. We have some great Gold Coast hens night ideas also.
+accordionSection:
+  accordion:
+    - content: >-
+        Why settle for ordinary when you can sail away on the Gold Coast’s most
+        luxurious and unique sailing catamaran.
+
+
+        Our stable sailing catamaran is ideal for groups of up to 30 ladies. The
+        large trampoline-style fore-deck is perfect for lazing in the sunshine
+        or dancing, while we sail the calm, clear waters of the Gold Coast. The
+        ample undercover space makes the vessel perfect for those seeking shade.
+        Facilities are plentiful to ensure you have everything on hand to enjoy
+        a perfect day! Definitely the boat to be seen on and with room for up to
+        30 passengers, this smooth and stable yacht is the ideal venue for a
+        wonderful cruise.  Let the crew pamper you the way you deserve with our
+        Ultimate VIP Hens Party Cruise.
+      title: What to expect
+    - content: >-
+        Why settle for ordinary when you can sail away on the Gold Coast’s most
+        luxurious and unique sailing catamaran.
+
+
+        Our stable sailing catamaran is ideal for groups of up to 30 ladies. The
+        large trampoline-style fore-deck is perfect for lazing in the sunshine
+        or dancing, while we sail the calm, clear waters of the Gold Coast. The
+        ample undercover space makes the vessel perfect for those seeking shade.
+        Facilities are plentiful to ensure you have everything on hand to enjoy
+        a perfect day! Definitely the boat to be seen on and with room for up to
+        30 passengers, this smooth and stable yacht is the ideal venue for a
+        wonderful cruise.  Let the crew pamper you the way you deserve with our
+        Ultimate VIP Hens Party Cruise.
+      title: What to Bring
+    - content: >-
+        Why settle for ordinary when you can sail away on the Gold Coast’s most
+        luxurious and unique sailing catamaran.
+
+
+        Our stable sailing catamaran is ideal for groups of up to 30 ladies. The
+        large trampoline-style fore-deck is perfect for lazing in the sunshine
+        or dancing, while we sail the calm, clear waters of the Gold Coast. The
+        ample undercover space makes the vessel perfect for those seeking shade.
+        Facilities are plentiful to ensure you have everything on hand to enjoy
+        a perfect day! Definitely the boat to be seen on and with room for up to
+        30 passengers, this smooth and stable yacht is the ideal venue for a
+        wonderful cruise.  Let the crew pamper you the way you deserve with our
+        Ultimate VIP Hens Party Cruise.
+      title: Considerations
+    - content: >-
+        Why settle for ordinary when you can sail away on the Gold Coast’s most
+        luxurious and unique sailing catamaran.
+
+
+        Our stable sailing catamaran is ideal for groups of up to 30 ladies. The
+        large trampoline-style fore-deck is perfect for lazing in the sunshine
+        or dancing, while we sail the calm, clear waters of the Gold Coast. The
+        ample undercover space makes the vessel perfect for those seeking shade.
+        Facilities are plentiful to ensure you have everything on hand to enjoy
+        a perfect day! Definitely the boat to be seen on and with room for up to
+        30 passengers, this smooth and stable yacht is the ideal venue for a
+        wonderful cruise.  Let the crew pamper you the way you deserve with our
+        Ultimate VIP Hens Party Cruise.
+      title: VIP Packages
+    - content: >-
+        Why settle for ordinary when you can sail away on the Gold Coast’s most
+        luxurious and unique sailing catamaran.
+
+
+        Our stable sailing catamaran is ideal for groups of up to 30 ladies. The
+        large trampoline-style fore-deck is perfect for lazing in the sunshine
+        or dancing, while we sail the calm, clear waters of the Gold Coast. The
+        ample undercover space makes the vessel perfect for those seeking shade.
+        Facilities are plentiful to ensure you have everything on hand to enjoy
+        a perfect day! Definitely the boat to be seen on and with room for up to
+        30 passengers, this smooth and stable yacht is the ideal venue for a
+        wonderful cruise.  Let the crew pamper you the way you deserve with our
+        Ultimate VIP Hens Party Cruise.
+      title: More Hen's Ideas
+    - content: >-
+        Why settle for ordinary when you can sail away on the Gold Coast’s most
+        luxurious and unique sailing catamaran.
+
+
+        Our stable sailing catamaran is ideal for groups of up to 30 ladies. The
+        large trampoline-style fore-deck is perfect for lazing in the sunshine
+        or dancing, while we sail the calm, clear waters of the Gold Coast. The
+        ample undercover space makes the vessel perfect for those seeking shade.
+        Facilities are plentiful to ensure you have everything on hand to enjoy
+        a perfect day! Definitely the boat to be seen on and with room for up to
+        30 passengers, this smooth and stable yacht is the ideal venue for a
+        wonderful cruise.  Let the crew pamper you the way you deserve with our
+        Ultimate VIP Hens Party Cruise.
+      title: Hens Party FAQ's
+  title: Hen's Party Info
 columnBanner:
   - buttonTitle: Make Enquiry
     buttonUrl: /enquiry
@@ -54,9 +147,13 @@ columnBanner:
       Let our friendly and experienced team tailor a VIP Gold Coast Hens Party
       Experience that you and she won’t forget.
     title: Give your hen the party she deserves!
-    featuredImage: /images/uploads/girl-img11.jpg
+    featuredImage: /images/uploads/girl-img-column2.jpg
+  - featuredImage: /images/uploads/girl-img-column.jpg
 testimonials:
   description: >-
+    **Hen's Party**
+
+
     See our five start Trip Advisor reviews for more testimonial feedback from
     our satisfied clients.
   featuredTestimonials:
