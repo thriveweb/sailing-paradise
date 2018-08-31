@@ -92,6 +92,7 @@ collections: # A list of collections the CMS should be able to edit
           - {label: Template, name: template, widget: hidden, default: AboutPage}
           - {label: Slug, name: slug, widget: hidden, default: 'about'}
           - {label: Title, name: title, widget: string}
+          - {label: Icon, name: icon, widget: image}
           - {label: Featured Image, name: featuredImage, widget: image}
           - {label: Intro, name: intro, widget: markdown, required: false}
           - label: "Gallery"
@@ -148,6 +149,7 @@ collections: # A list of collections the CMS should be able to edit
               - {label: Featured Image, name: featuredImage, widget: image}
           - label: "Column Banner"
             name: "columnBanner"
+            required: false
             widget: "list"
             fields:
               - {label: Title, name: title, widget: string}
@@ -432,7 +434,7 @@ collections: # A list of collections the CMS should be able to edit
         widget: "list"
         fields:
           - {label: Image, name: image, widget: image, required: false}
-      - {label: Content Column, name: contentColumn, widget: markdown}
+      - {label: Content Column, name: contentColumn, widget: markdown, required: false}
       - label: Accordion Section
         name: accordionSection
         required: false
@@ -448,6 +450,7 @@ collections: # A list of collections the CMS should be able to edit
               - {label: Content, name: content, widget: markdown, required: false}
       - label: "Column Banner"
         name: "columnBanner"
+        required: false
         widget: "list"
         fields:
           - {label: Title, name: title, widget: string}
@@ -503,6 +506,7 @@ collections: # A list of collections the CMS should be able to edit
               - {label: Image, name: image, widget: image, required: false}
           - label: "Column Banner"
             name: "columnBanner"
+            required: false
             widget: "list"
             fields:
               - {label: Title, name: title, widget: string}
