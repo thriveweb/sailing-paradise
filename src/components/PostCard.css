@@ -1,6 +1,5 @@
 .PostCard {
   text-decoration: none;
-  background: white;
   color: inherit;
   transition: all 0.15s ease-in-out;
   overflow: hidden;
@@ -54,3 +53,32 @@
 .PostCard:focus .PostCard--Image:before {
   opacity: 1;
 }
+
+/*Featured Home*/
+
+.PostCard.featuredHome {
+  position: relative;
+}
+
+.PostCard.featuredHome .PostCard--Image {
+  height: 45rem;
+}
+
+.PostCard.featuredHome .excerpt {
+  margin-bottom: 4rem;
+}
+
+.PostCard.featuredHome .button {
+  display: inline-block;
+  border-bottom: none;
+  padding-left: .5rem;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.PostCard.featuredHome .button:after {
+  display: none;
+}
+
+

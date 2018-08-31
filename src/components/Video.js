@@ -52,7 +52,7 @@ class Video extends Component {
 				<div className='overlay-content'>
 					<Image background src={imageOverlay} />
 					{title && <h2 className='title-gradient'>{title}</h2>}
-					<ICONPlay className='playButton' />
+					<div className='playButton'><ICONPlay /></div>
 				</div>
 			}
 			<iframe 

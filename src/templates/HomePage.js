@@ -6,6 +6,8 @@ import SecondaryBanner from '../components/SecondaryBanner'
 import HomeAboutBanner from '../components/HomeAboutBanner'
 import HighlightChart from '../components/HighlightChart'
 import TestimonialSlider from '../components/TestimonialSlider'
+import FeaturedPosts from '../components/FeaturedPosts'
+import SubscribeForm from '../components/SubscribeForm'
 
 
 // Export Template for use in CMS preview
@@ -21,8 +23,11 @@ export const HomePageTemplate = ({
   serviceBanner, 
   secondaryBanner,
   aboutSection,
+  highlightsIntro,
   highlights,
-  Testimonials
+  Testimonials,
+  latestNews,
+  posts
 }) => {
 
   return <main className="Home">
@@ -47,16 +52,31 @@ export const HomePageTemplate = ({
       />
       <HighlightChart
         highlights={highlights}
+        highlightsIntro={highlightsIntro}
       />
       <TestimonialSlider
         {...Testimonials}
       />
+      <FeaturedPosts 
+        latestNews={latestNews}
+        posts={posts}
+      />
+      <SubscribeForm />
     </main>
 }
 
 // Export Default HomePage for front-end
-const HomePage = ({ data: { page } }) => (
-  <HomePageTemplate {...page} {...page.frontmatter} body={page.html} />
+const HomePage = ({ data: { page, posts } }) => (
+  <HomePageTemplate 
+    {...page} 
+    {...page.frontmatter} 
+    body={page.html}
+    posts={posts.edges.map(post => ({
+      ...post.node,
+      ...post.node.frontmatter,
+      ...post.node.fields
+    }))}
+  />
 )
 
 export default HomePage
@@ -130,6 +150,7 @@ export const pageQuery = graphql`
             buttonUrl
           }
         }
+        highlightsIntro
         highlights {
           title
           icon {
@@ -145,6 +166,27 @@ export const pageQuery = graphql`
             content
             name
             image {
+              ...FluidImage
+            }
+          }
+        }
+        latestNews
+      }
+    }
+    posts: allMarkdownRemark(limit : 3
+      filter: { fields: { contentType: { eq: "posts" } } }
+      sort: { order: DESC, fields: [frontmatter___date] }
+      
+    ) {
+      edges {
+        node {
+          fields {
+            slug
+          }
+          frontmatter {
+            title
+            excerpt
+            featuredImage {
               ...FluidImage
             }
           }
