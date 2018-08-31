@@ -53,7 +53,7 @@ export default class Nav extends Component {
             <NavLink to="/case-studies/" exact>
               Case Studies
             </NavLink>
-            <NavLink to="/private-charters/" exact>
+            <NavLink to="/charters/" exact>
               Private Charters
             </NavLink>
           </div>
