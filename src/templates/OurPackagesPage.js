@@ -14,7 +14,7 @@ const OurPackagesPage = ({ data: { page } }) => (
   <HomePageTemplate {...page} {...page.frontmatter} body={page.html} />
 )
 
-export default HomePage
+export default OurPackagesPage
 
 export const pageQuery = graphql`
   ## Query for HomePage data
