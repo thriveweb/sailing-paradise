@@ -5,18 +5,4 @@ siteDescription: >-
   CMS.
 socialMediaCard:
   image: /images/uploads/card-og.png
-columnBanner:
-  - buttonTitle: See More
-    buttonUrl: private-charters
-    featuredImage: /images/uploads/boat-img8.jpg
-    title: Are you interested in private charters catered for all sorts of occasions?
-  - buttonTitle: See More
-    buttonUrl: cruises
-    featuredImage: /images/uploads/girl-img4.jpg
-    title: Are you interested in our set cruises through the beautiful Broadwater?
-globalVideo:
-  imageOverlay: /images/uploads/home-banner.jpg
-  title: climb aboard and get to know us
-  video: >-
-    https://www.youtube.com/watch?v=vr0qNXmkUJ8&list=PLNhzc-Os3JK8ExayVzzoHVvP2c0-4_oqt
 headerScripts: <!-- Add your analytics scripts / verification meta here -->

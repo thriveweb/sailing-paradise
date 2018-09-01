@@ -1,8 +1,8 @@
 ---
 template: BlogIndex
 slug: blog
-title: Latest News
-featuredImage: /images/uploads/news-banner.jpg
-subtitle: sgsdg
+title: Blog
+featuredImage: /images/uploads/ng-32703.jpg
+subtitle: Blog subtitle
 ---
 

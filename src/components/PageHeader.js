@@ -7,18 +7,22 @@ import './PageHeader.css'
 
 const PageHeader = ({
   title,
+  subtitle,
   backgroundImage,
   large,
   className = ''
 }) => {
   if (large) className += ' PageHeader-large'
   return (
-    <div className={`PageHeader relative overlay ${className}`}>
+    <div className={`PageHeader relative ${className}`}>
       {backgroundImage && (
         <Image background src={backgroundImage} alt={title} size="cover" />
       )}
       <div className="container relative">
-        <h1 className="PageHeader--Title title-gradient">{title}</h1>
+        <h1 className="PageHeader--Title">{title}</h1>
+        {subtitle && (
+          <Content className="PageHeader--Subtitle" src={subtitle} />
+        )}
       </div>
     </div>
   )

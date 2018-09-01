@@ -7,6 +7,7 @@ import Content from '../components/Content'
 // Export Template for use in CMS preview
 export const DefaultPageTemplate = ({
   title,
+  subtitle,
   featuredImage,
   body
 }) => (
@@ -17,6 +18,7 @@ export const DefaultPageTemplate = ({
 
     <PageHeader
       title={title}
+      subtitle={subtitle}
       backgroundImage={featuredImage}
     />
 
@@ -39,6 +41,7 @@ export const pageQuery = graphql`
       html
       frontmatter {
         title
+        subtitle
         featuredImage {
           ...FluidImage
         }

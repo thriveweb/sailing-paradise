@@ -1,10 +1,8 @@
 .Nav {
   background: white;
-  position: fixed;
+  position: sticky;
   top: 0;
-  left: 0;
-  width: 100%;
-  z-index: 999;
+  z-index: 1;
   border-bottom: 1px solid var(--lightGrey);
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.025);
 }
@@ -22,6 +20,10 @@
   flex-direction: row;
 }
 
+.Nav--Links > * + * {
+  margin-left: 1rem;
+}
+
 .Nav .Logo {
   margin-right: 3rem;
   position: relative;
@@ -29,6 +31,24 @@
 
 .Nav--MenuButton {
   display: none;
+}
+
+.NavLink {
+  padding: 0.5rem 1rem;
+  display: block;
+  font-weight: 500;
+  transition: color 0.2s, border-bottom-color 0.2s;
+  color: inherit;
+  text-decoration: none;
+  border-bottom: 2px solid;
+  border-bottom-color: transparent;
+}
+
+.NavLink:hover,
+.NavLink.active,
+.NavLink:focus {
+  color: var(--primary);
+  border-bottom-color: currentColor;
 }
 
 @media (max-width: 600px) {

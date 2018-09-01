@@ -1,5 +1,5 @@
 import React from 'react'
-import { ICONButtonArrows } from './Icons'
+
 import PostCard from '../components/PostCard'
 import './PostSection.css'
 
@@ -9,7 +9,7 @@ class PostSection extends React.Component {
     title: '',
     limit: 12,
     showLoadMore: true,
-    loadMoreTitle: 'See More',
+    loadMoreTitle: 'Load More',
     perPageLimit: 12
   }
 
@@ -40,10 +40,9 @@ class PostSection extends React.Component {
         )}
         {showLoadMore &&
           visiblePosts.length < posts.length && (
-            <div className="load-more">
+            <div className="taCenter">
               <button className="button" onClick={this.increaseLimit}>
                 {loadMoreTitle}
-                <ICONButtonArrows />
               </button>
             </div>
           )}

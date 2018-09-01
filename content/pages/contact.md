@@ -1,48 +1,20 @@
 ---
 template: ContactPage
 slug: contact
-title: Contact Us
-featuredImage: /images/uploads/contact-banner.jpg
-intro: >-
-  ## get in touch with us
-
-
-  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean elementum
-  scelerisque ex interdum cursus. In hac habitasse platea dictumst.
-phone: |-
-  **CALL US ON**
-  [+61 0438 915 222](tel:610438915222)
-address: >-
-  **WHERE WE ARE**
-
-
-  We are located in berth D11 at the Marina Mirage, 74 Seaworld Drive, Main
-  Beach.
-
-
-  [view larger map](http://google.com)
-hours: |-
-  **OPEN HOURS**
-
-  Mon - Fri: 7AM - 10PM
-
-  Sat - Sun: 7AM - 8PM
-map: /images/uploads/map-img.jpg
-secondaryBanner:
-  buttonTitle: Book and enquiry now
-  buttonUrl: book
-  subtitle: Make a booking now
-  title: Let’s go sailing in paradise
-  featuredImage: /images/uploads/home-banner.jpg
+title: Contact
+featuredImage: /images/uploads/paint2.jpg
+subtitle: Contact Page has a subtitle
+address: '404 James St, Burleigh Heads QLD 4220'
+phone: 0987 123 456
+email: example@example.com
 ---
-**HOW TO FIND US**
 
-When you reach the marina please take ramp on the right, through the black gates, that leads downwards to the long floating wharf.
+# Example contact form
 
-Please do not go down the pier with the big yellow arches as that is Mariners Cove and you will not be able to access the boat from this side.
+This form is setup to use Netlify's form handling:
 
-If you can’t find us you can always call us and we will be happy to guide you.
+- the form action is set to the current absolute url: `action: '/contact/'`
+- a name attribute is sent with the form's data `'form-name': 'Contact'`
+- netlify data attributes are added to the form `data-netlify data-netlify-honeypot`
 
-**PARKING**
-
-There is plentiful free parking which you are invited to use alongside and beneath the Marina Mirage Shopping Centre.
+Find out more in the [Netlify Docs](https://www.netlify.com/docs/form-handling/).

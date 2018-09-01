@@ -6,24 +6,20 @@ import Link from 'gatsby-link'
 import { ChevronLeft } from 'react-feather'
 
 import Content from '../components/Content'
-import Video from '../components/Video'
 import Image from '../components/Image'
-import SocialShare from '../components/SocialShare'
 import './SinglePost.css'
 
 export const SinglePostTemplate = ({
   title,
   date,
   featuredImage,
-  videoSection,
   body,
-  contentSecondary,
   nextPostURL,
   prevPostURL,
-  categories = [],
+  categories = []
 }) => (
   <article
-    className="SinglePost"
+    className="SinglePost section light"
     itemScope
     itemType="http://schema.org/BlogPosting"
   >
@@ -52,10 +48,10 @@ export const SinglePostTemplate = ({
               itemProp="dateCreated pubdate datePublished"
               date={date}
             >
-              {_format(date, 'D.MM.YYYY')}
+              {_format(date, 'MMMM Do, YYYY')}
             </time>
           )}
-          {categories.length && (
+          {categories && (
             <Fragment>
               <span>|</span>
               {categories.map((cat, index) => (
@@ -77,9 +73,6 @@ export const SinglePostTemplate = ({
 
         <div className="SinglePost--InnerContent">
           <Content source={body} />
-          <Video {...videoSection}  />
-          <Content source={contentSecondary} />
-          <SocialShare />
         </div>
 
         <div className="SinglePost--Pagination">
@@ -88,7 +81,7 @@ export const SinglePostTemplate = ({
               className="SinglePost--Pagination--Link prev"
               to={prevPostURL}
             >
-              Prev
+              Previous Post
             </Link>
           )}
           {nextPostURL && (
@@ -96,7 +89,7 @@ export const SinglePostTemplate = ({
               className="SinglePost--Pagination--Link next"
               to={nextPostURL}
             >
-              Next
+              Next Post
             </Link>
           )}
         </div>
@@ -134,6 +127,7 @@ export const pageQuery = graphql`
       frontmatter {
         title
         template
+        subtitle
         date
         categories {
           category
@@ -141,13 +135,6 @@ export const pageQuery = graphql`
         featuredImage {
           ...FluidImage
         }
-        videoSection {
-          video
-          imageOverlay {
-            ...FluidImage
-          }
-        }
-        contentSecondary
       }
     }
 

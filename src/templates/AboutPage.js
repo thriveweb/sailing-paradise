@@ -2,13 +2,6 @@ import React from 'react'
 import Helmet from 'react-helmet'
 
 import PageHeader from '../components/PageHeader'
-import IntroText from '../components/IntroText'
-import GallerySlider from '../components/GallerySlider'
-import CaptainListing from '../components/CaptainListing'
-import CrewGallery from '../components/CrewGallery'
-import SecondaryBanner from '../components/SecondaryBanner'
-import ColumnBanner from '../components/ColumnBanner'
-import Video from '../components/Video'
 import Image from '../components/Image'
 import Content from '../components/Content.js'
 import './AboutPage.css'
@@ -16,37 +9,41 @@ import './AboutPage.css'
 // Export Template for use in CMS preview
 export const AboutPageTemplate = ({
   title,
-  intro,
-  gallery,
+  subtitle,
   featuredImage,
-  captainSection,
-  crewSection,
-  secondaryBanner,
-  columnBanner,
-  globalVideo,
-  body,
-}) => 
+  section1,
+  section2,
+  testImage,
+  body
+}) => (
+  <main className="About">
+    <Helmet>
+      <title>{title}</title>
+    </Helmet>
+    <PageHeader
+      title={title}
+      subtitle={subtitle}
+      backgroundImage={featuredImage}
+    />
 
-    <main className="About">
-      <Helmet>
-        <title>{title}</title>
-      </Helmet>
-      <PageHeader
-        title={title}
-        backgroundImage={featuredImage}
-      />
-      <IntroText content={intro} center />
-      <GallerySlider gallery={gallery} />
-      <CaptainListing {...captainSection} />
-      <CrewGallery {...crewSection} />
-      <SecondaryBanner {...secondaryBanner} large />
-      <Video {...globalVideo} videoBanner />
-      <ColumnBanner columnBanner={columnBanner} />
-    </main>
+    <section className="section">
+      <div className="container">
+        <Content source={section1} />
+      </div>
+    </section>
 
+    <section className="section">
+      <div className="container">
+        <Content source={section2} />
+        <p>The image below is a {'<Image />'}</p>
+        <Image src={testImage} alt="Image" />
+      </div>
+    </section>
+  </main>
+)
 
-const AboutPage = ({ data: { page, globalVideo } }) => (
-  <AboutPageTemplate {...page} {...page.frontmatter} body={page.html} {...globalVideo} />
+const AboutPage = ({ data: { page } }) => (
+  <AboutPageTemplate {...page} {...page.frontmatter} body={page.html} />
 )
 
 export default AboutPage
@@ -57,64 +54,16 @@ export const pageQuery = graphql`
       html
       frontmatter {
         title
+        template
+        subtitle
         featuredImage {
           ...FluidImage
         }
-        intro
-        gallery {
-          image {
-            ...FluidImage
-          }
+        testImage {
+          ...FluidImage
         }
-        captainSection {
-          captainIntro
-          captain {
-            description
-            name
-            title
-            image {
-              ...FluidImage
-            }
-            socialMedia {
-              instagram
-              twitter
-            }
-          }
-        }
-        crewSection {
-          crewIntro
-          crew {
-            name
-            title
-            image {
-              ...FluidImage
-            }
-          }
-        }
-        secondaryBanner {
-          buttonTitle
-          buttonUrl
-          title
-          subtitle
-          featuredImage {
-            ...FluidImage
-          } 
-        }
-        columnBanner {
-          buttonTitle
-          buttonUrl
-          title
-          featuredImage {
-            ...FluidImage
-          }
-        }
-      }
-    }
-    globalVideo: settingsYaml {
-      globalVideo {
-        imageOverlay
-        title
-        video
+        section1
+        section2
       }
     }
   }

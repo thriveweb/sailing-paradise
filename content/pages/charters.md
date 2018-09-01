@@ -1,5 +1,0 @@
----
-template: Charters
-slug: charters
----
-

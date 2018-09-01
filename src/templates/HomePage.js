@@ -1,82 +1,29 @@
 import React from 'react'
 
-import Video from '../components/Video'
-import ServiceColumns from '../components/ServiceColumns'
-import SecondaryBanner from '../components/SecondaryBanner'
-import HomeAboutBanner from '../components/HomeAboutBanner'
-import HighlightChart from '../components/HighlightChart'
-import TestimonialSlider from '../components/TestimonialSlider'
-import FeaturedPosts from '../components/FeaturedPosts'
-import SubscribeForm from '../components/SubscribeForm'
-
+import PageHeader from '../components/PageHeader'
+import Content from '../components/Content'
 
 // Export Template for use in CMS preview
-export const HomePageTemplate = ({ 
-  title, 
-  featuredVideo, 
-  body, 
-  buttonTitle, 
-  buttonUrl, 
-  featuredSlider, 
-  featuredBanner, 
-  services, 
-  serviceBanner, 
-  secondaryBanner,
-  aboutSection,
-  highlightsIntro,
-  highlights,
-  Testimonials,
-  latestNews,
-  posts
-}) => {
+export const HomePageTemplate = ({ title, subtitle, featuredImage, body }) => (
+  <main className="Home">
+    <PageHeader
+      large
+      title={title}
+      subtitle={subtitle}
+      backgroundImage={featuredImage}
+    />
 
-  return <main className="Home">
-      <Video 
-        video={featuredVideo} 
-        homeVideo title={title} 
-        buttonTitle={buttonTitle} 
-        buttonUrl={buttonUrl} 
-        featuredSlider={featuredSlider} 
-        featuredBanner={featuredBanner} 
-      />
-      <ServiceColumns 
-        services={services} 
-        serviceBanner={serviceBanner}
-      />
-      <SecondaryBanner
-        {...secondaryBanner}
-        contentBox
-      />
-      <HomeAboutBanner
-        {...aboutSection}
-      />
-      <HighlightChart
-        highlights={highlights}
-        highlightsIntro={highlightsIntro}
-      />
-      <TestimonialSlider
-        {...Testimonials}
-      />
-      <FeaturedPosts 
-        latestNews={latestNews}
-        posts={posts}
-      />
-      <SubscribeForm />
-    </main>
-}
+    <section className="section">
+      <div className="container">
+        <Content source={body} />
+      </div>
+    </section>
+  </main>
+)
 
 // Export Default HomePage for front-end
-const HomePage = ({ data: { page, posts } }) => (
-  <HomePageTemplate 
-    {...page} 
-    {...page.frontmatter} 
-    body={page.html}
-    posts={posts.edges.map(post => ({
-      ...post.node,
-      ...post.node.frontmatter,
-      ...post.node.fields
-    }))}
-  />
+const HomePage = ({ data: { page } }) => (
+  <HomePageTemplate {...page} {...page.frontmatter} body={page.html} />
 )
 
 export default HomePage
@@ -91,105 +38,9 @@ export const pageQuery = graphql`
       html
       frontmatter {
         title
-        buttonTitle
-        buttonUrl
-        featuredVideo
-        featuredSlider {
-          description
-          title
-          buttonUrl
-        }
-        featuredBanner {
-          title
-          buttonTitle
-          buttonUrl
-          image {
-            ...FluidImage
-          }
-        }
-        services {
-          serviceContent {
-            icon {
-              ...FluidImage
-            }
-            description
-            title
-            buttonUrl
-          }
-          image {
-            ...FluidImage
-          }
-        }
-        serviceBanner {
-          subtitle
-          title
-          buttonTitle
-          buttonUrl
-          featuredImage {
-            ...FluidImage
-          }
-        }
-        secondaryBanner {
-          buttonTitle
-          buttonUrl
-          title
-          subtitle
-          featuredImage {
-            ...FluidImage
-          }
-        }
-        aboutSection {
-          content
-          title
-          subtitle
-          featuredImage {
-            ...FluidImage
-          }
-          buttons {
-            buttonTitle
-            buttonUrl
-          }
-        }
-        highlightsIntro
-        highlights {
-          title
-          icon {
-            ...FluidImage
-          }
-        }
-        Testimonials {
-          description
-          title
-          buttonTitle
-          buttonUrl
-          featuredTestimonials {
-            content
-            name
-            image {
-              ...FluidImage
-            }
-          }
-        }
-        latestNews
-      }
-    }
-    posts: allMarkdownRemark(limit : 3
-      filter: { fields: { contentType: { eq: "posts" } } }
-      sort: { order: DESC, fields: [frontmatter___date] }
-      
-    ) {
-      edges {
-        node {
-          fields {
-            slug
-          }
-          frontmatter {
-            title
-            excerpt
-            featuredImage {
-              ...FluidImage
-            }
-          }
+        subtitle
+        featuredImage {
+          ...FluidImage
         }
       }
     }

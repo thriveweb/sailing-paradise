@@ -2,7 +2,7 @@
 }
 
 .SinglePost--BackgroundImage {
-  height: 40rem;
+  height: 50rem;
 }
 
 .SinglePost--BackButton {
@@ -13,7 +13,6 @@
   font-weight: 600;
   text-decoration: none;
   letter-spacing: 0.1em;
-  padding: 1rem;
 }
 
 .SinglePost--BackButton svg {
@@ -29,11 +28,18 @@
 
 .SinglePost--Content {
   background: white;
-  margin-top: 40rem;
+  margin-top: 30rem;
+  padding: 8rem 8rem 4rem 8rem;
+}
+
+@media screen and (max-width: 750px) {
+  .SinglePost--Content {
+    padding: 4rem 2rem;
+  }
 }
 
 .SinglePost--Meta {
-  font-size: 1.4rem;
+  font-size: 1rem;
   margin: 0 0 2rem 0;
   text-align: center;
 }
@@ -45,17 +51,20 @@
 .SinglePost--Title {
   text-align: center;
   line-height: 1.2;
-  color: var(--primary);
-  text-transform: uppercase;
-  font-size: 3.6rem;
 }
 
 .SinglePost--InnerContent {
   padding: 0 8rem;
 }
 
+@media screen and (max-width: 750px) {
+  .SinglePost--InnerContent {
+    padding: 0;
+  }
+}
+
 .SinglePost--Pagination {
-  margin: 4rem 0;
+  margin: 4rem 0 0 0;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -70,9 +79,4 @@
 
 .SinglePost--Pagination--Link.next {
   margin-left: auto;
-}
-
-.gatsby-resp-image-wrapper {
-  max-width: 100% !important;
-  margin: 2rem 0;
 }

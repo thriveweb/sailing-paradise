@@ -22,22 +22,11 @@ collections: # A list of collections the CMS should be able to edit
           - {label: Slug, name: slug, widget: hidden, default: 'contact'}
           - {label: Title, name: title, widget: string}
           - {label: Featured Image, name: featuredImage, widget: image}
-          - {label: Intro, name: intro, widget: markdown, required: false}
-          - {label: Phone, name: phone, widget: markdown, required: false}
-          - {label: Address, name: address, widget: markdown, required: false}
-          - {label: Hours, name: hours, widget: markdown, required: false}
-          - {label: Map, name: map, widget: image, required: false}
-          - {label: Body, name: body, widget: markdown, required: false}
-          - label: "Secondary Banner"
-            required: false
-            name: "secondaryBanner"
-            widget: "object"
-            fields:
-              - {label: Title, name: title, widget: string}
-              - {label: Subtitle, name: subtitle, widget: string}
-              - {label: Button Title, name: buttonTitle, widget: string}
-              - {label: Button Url, name: buttonUrl, widget: string}
-              - {label: Featured Image, name: featuredImage, widget: image}
+          - {label: Subtitle, name: subtitle, widget: markdown}
+          - {label: Body, name: body, widget: markdown}
+          - {label: Address, name: address, widget: text}
+          - {label: Phone, name: phone, widget: string}
+          - {label: Email Address, name: email, widget: string}
           - label: "Meta"
             required: false
             name: "meta"
@@ -56,6 +45,7 @@ collections: # A list of collections the CMS should be able to edit
           - {label: Slug, name: slug, widget: hidden, default: 'blog'}
           - {label: Title, name: title, widget: string}
           - {label: Featured Image, name: featuredImage, widget: image}
+          - {label: Subtitle, name: subtitle, widget: markdown}
           - label: "Meta"
             required: false
             name: "meta"
@@ -66,52 +56,6 @@ collections: # A list of collections the CMS should be able to edit
               - {label: Canonical Link, name: canonicalLink, widget: string, required: false}
               - {label: Noindex, name: noindex, widget: boolean, required: false}
 
-      - file: "content/pages/charters.md"
-        label: "Charters"
-        name: "charters"
-        fields:
-          - {label: Template, name: template, widget: hidden, default: Charters}
-          - {label: Slug, name: slug, widget: hidden, default: 'charters'}
-          - {label: Title, name: title, widget: string}
-          # - {label: Featured Image, name: featuredImage, widget: image}
-      # - file: "content/pages/charters.md"
-      #   label: "Charters"
-      #   name: "charters"
-      #   fields:
-      #     - {label: Template, name: template, widget: hidden, default: Charters}
-      #     - {label: Slug, name: slug, widget: hidden, default: 'charters'}
-      #     - {label: Title, name: title, widget: string}
-      #     - {label: Featured Image, name: featuredImage, widget: image}
-      #     - {label: Intro, name: intro, widget: markdown}
-      #     - label: "Meta"
-      #       required: false
-      #       name: "meta"
-      #       widget: "object"
-      #       fields:
-      #         - {label: Title, name: title, widget: string, required: false}
-      #         - {label: Description, name: description, widget: text, required: false, pattern: [".{,300}", "Must not exceed 300 characters"]}
-      #         - {label: Canonical Link, name: canonicalLink, widget: string, required: false}
-      #         - {label: Noindex, name: noindex, widget: boolean, required: false}
-
-      - file: "content/pages/case-studies.md"
-        label: "Case Studies"
-        name: "case-studies-page"
-        fields:
-          - {label: Template, name: template, widget: hidden, default: CaseStudies}
-          - {label: Slug, name: slug, widget: hidden, default: 'case-studies'}
-          - {label: Title, name: title, widget: string}
-          - {label: Subtitle, name: subtitle, widget: string}
-          - {label: Featured Image, name: featuredImage, widget: image}
-          - label: "Meta"
-            required: false
-            name: "meta"
-            widget: "object"
-            fields:
-              - {label: Title, name: title, widget: string, required: false}
-              - {label: Description, name: description, widget: text, required: false, pattern: [".{,300}", "Must not exceed 300 characters"]}
-              - {label: Canonical Link, name: canonicalLink, widget: string, required: false}
-              - {label: Noindex, name: noindex, widget: boolean, required: false}        
-
       - file: "content/pages/about.md"
         label: "About Page"
         name: "about-page"
@@ -120,68 +64,10 @@ collections: # A list of collections the CMS should be able to edit
           - {label: Slug, name: slug, widget: hidden, default: 'about'}
           - {label: Title, name: title, widget: string}
           - {label: Featured Image, name: featuredImage, widget: image}
-          - {label: Intro, name: intro, widget: markdown, required: false}
-          - label: "Gallery"
-            required: false
-            name: "gallery"
-            widget: "list"
-            fields:
-              - {label: Image, name: image, widget: image, required: false}
-          - label: "Captain Section"
-            required: false
-            name: "captainSection"
-            widget: "object"
-            fields:
-              - {label: Captain Intro, name: captainIntro, widget: markdown, required: false}
-              - label: "Captain"
-                required: false
-                name: "captain"
-                widget: "list"
-                fields:
-                  - {label: Image, name: image, widget: image, required: false}
-                  - {label: Name, name: name, widget: string, required: false}
-                  - {label: Title, name: title, widget: string, required: false}
-                  - {label: Description, name: description, widget: markdown, required: false}
-                  - label: "Social Media"
-                    required: false
-                    name: "socialMedia"
-                    widget: "object"
-                    fields:
-                      - {label: Instagram, name: instagram, widget: string, required: false}
-                      - {label: Twitter, name: twitter, widget: string, required: false}
-          - label: "Crew Section"
-            required: false
-            name: "crewSection"
-            widget: "object"
-            fields:
-              - {label: Crew Intro, name: crewIntro, widget: markdown, required: false}
-              - label: "Crew"
-                required: false
-                name: "crew"
-                widget: "list"
-                fields:
-                  - {label: Image, name: image, widget: image, required: false}
-                  - {label: Name, name: name, widget: string, required: false}
-                  - {label: Title, name: title, widget: string, required: false}
-          - label: "Secondary Banner"
-            required: false
-            name: "secondaryBanner"
-            widget: "object"
-            fields:
-              - {label: Title, name: title, widget: string}
-              - {label: Subtitle, name: subtitle, widget: string}
-              - {label: Button Title, name: buttonTitle, widget: string}
-              - {label: Button Url, name: buttonUrl, widget: string}
-              - {label: Featured Image, name: featuredImage, widget: image}
-          - label: "Column Banner"
-            name: "columnBanner"
-            required: false
-            widget: "list"
-            fields:
-              - {label: Title, name: title, widget: string}
-              - {label: Featured Image, name: featuredImage, widget: image}
-              - {label: Button Title, name: buttonTitle, widget: string}
-              - {label: Button Url, name: buttonUrl, widget: string}  
+          - {label: Subtitle, name: subtitle, widget: markdown}
+          - {label: Section 1, name: section1, widget: markdown}
+          - {label: Section 2, name: section2, widget: markdown}
+          - {label: Test Image, name: testImage, widget: image}
           - label: "Meta"
             required: false
             name: "meta"
@@ -199,103 +85,9 @@ collections: # A list of collections the CMS should be able to edit
           - {label: Template, name: template, widget: hidden, default: HomePage}
           - {label: Slug, name: slug, widget: hidden, default: ''}
           - {label: Title, name: title, widget: string}
-          - {label: Button Title, name: buttonTitle, widget: string, required: false}
-          - {label: Button Url, name: buttonUrl, widget: string, required: false}
-          - {label: Featured Video, name: featuredVideo, widget: string}
-          - label: "Featured Slider"
-            required: false
-            name: "featuredSlider"
-            widget: "list"
-            fields:
-              - {label: Title, name: title, widget: string, required: false}
-              - {label: Description, name: description, widget: text, required: false, pattern: [".{,80}", "Must not exceed 300 characters"]}
-              - {label: Button Url, name: buttonUrl, widget: string, required: false}
-          - label: "Featured Banner"
-            required: false
-            name: "featuredBanner"
-            widget: "object"
-            fields:
-              - {label: Title, name: title, widget: string, required: false}
-              - {label: Image, name: image, widget: image, required: false}
-              - {label: Button Title, name: buttonTitle, widget: string, required: false}
-              - {label: Button Url, name: buttonUrl, widget: string, required: false}
-          - label: "Services"
-            required: false
-            name: "services"
-            widget: "list"
-            fields:
-              - label: "Service Content"
-                required: false
-                name: "serviceContent"
-                widget: "object"
-                fields:
-                  - {label: Icon, name: icon, widget: image}
-                  - {label: Title, name: title, widget: string}
-                  - {label: Description, name: description, widget: text, required: false, pattern: [".{,170}", "Must not exceed 300 characters"]}
-                  - {label: Button Url, name: buttonUrl, widget: string, required: false}
-              - {label: Image, name: image, widget: image, required: false}
-          - label: "Service Banner"
-            required: false
-            name: "serviceBanner"
-            widget: "object"
-            fields:
-              - {label: Title, name: title, widget: string}
-              - {label: Subtitle, name: subtitle, widget: string}
-              - {label: Button Title, name: buttonTitle, widget: string}
-              - {label: Button Url, name: buttonUrl, widget: string}
-              - {label: Featured Image, name: featuredImage, widget: image}
-          - label: "Secondary Banner"
-            required: false
-            name: "secondaryBanner"
-            widget: "object"
-            fields:
-              - {label: Title, name: title, widget: string}
-              - {label: Subtitle, name: subtitle, widget: string}
-              - {label: Button Title, name: buttonTitle, widget: string}
-              - {label: Button Url, name: buttonUrl, widget: string}
-              - {label: Featured Image, name: featuredImage, widget: image}
-          - label: "About Section"
-            required: false
-            name: "aboutSection"
-            widget: "object"
-            fields:
-              - {label: Featured Image, name: featuredImage, widget: image}
-              - {label: Title, name: title, widget: string}
-              - {label: Subtitle, name: subtitle, widget: string}
-              - {label: Content, name: content, widget: markdown}
-              - label: "Buttons"
-                required: false
-                name: "buttons"
-                widget: "list"
-                fields:
-                  - {label: Button Title, name: buttonTitle, widget: string}
-                  - {label: Button Url, name: buttonUrl, widget: string}
-          - {label: Highlights Intro, name: highlightsIntro, widget: markdown, required: false }
-          - label: "Highlights"
-            required: false
-            name: "highlights"
-            widget: "list"
-            fields:
-              - {label: Icon, name: icon, widget: image}
-              - {label: Title, name: title, widget: string}
-          - label: "Testimonials"
-            required: false
-            name: "Testimonials"
-            widget: "object"
-            fields:
-              - {label: Title, name: title, widget: string}
-              - {label: Description, name: description, widget: string}
-              - {label: Button Title, name: buttonTitle, widget: string}
-              - {label: Button Url, name: buttonUrl, widget: string}
-              - label: "Featured Testimonials"
-                required: false
-                name: "featuredTestimonials"
-                widget: "list"
-                fields:
-                  - {label: Image, name: image, widget: image}
-                  - {label: Name, name: name, widget: string}
-                  - {label: Content, name: content, widget: markdown}
-          - {label: Latest News, name: latestNews, widget: markdown, required: false}        
+          - {label: Featured Image, name: featuredImage, widget: image}
+          - {label: Subtitle, name: subtitle, widget: markdown}
+          - {label: Body, name: body, widget: markdown}
           - label: "Meta"
             required: false
             name: "meta"
@@ -347,6 +139,9 @@ collections: # A list of collections the CMS should be able to edit
         options: ["Published", "Featured", "Draft"]
         default: 'Published'
       - {label: Date / Order, name: date, widget: date}
+      - {label: Featured Image, name: featuredImage, widget: image, required: false}
+      - {label: Excerpt, name: excerpt, widget: text}
+      - {label: Content, name: body, widget: markdown}
       - label: "Categories"
         name: "categories"
         widget: "list"
@@ -358,17 +153,6 @@ collections: # A list of collections the CMS should be able to edit
             collection: "postCategories"
             searchFields: ["title"]
             valueField: "title"
-      - {label: Featured Image, name: featuredImage, widget: image, required: false}
-      - {label: Excerpt, name: excerpt, widget: text}
-      - {label: Content, name: body, widget: markdown}
-      - label: Video Section
-        name: videoSection
-        required: false
-        widget: object
-        fields:
-          - {label: Image Overlay, name: imageOverlay, widget: image}
-          - {label: Video, name: video, widget: string}
-      - {label: Content Secondary, name: contentSecondary, widget: markdown, required: false}
       - label: "Meta"
         required: false
         name: "meta"
@@ -378,6 +162,7 @@ collections: # A list of collections the CMS should be able to edit
           - {label: Description, name: description, widget: text, required: false, pattern: [".{,300}", "Must not exceed 300 characters"]}
           - {label: Canonical Link, name: canonicalLink, widget: string, required: false}
           - {label: Noindex, name: noindex, widget: boolean, required: false}
+
 
   - name: postCategories
     label: Post Category
@@ -389,128 +174,17 @@ collections: # A list of collections the CMS should be able to edit
     fields: # The fields each document in this collection have
       - {label: Template, name: template, widget: hidden, default: BlogIndex}
       - {label: Title, name: title, widget: string}
+      - {label: Subtitle, name: subtitle, widget: string, required: false}
       - {label: Featured Image, name: featuredImage, widget: image, required: false}
-
-
-  - name: caseStudy
-    label: Case Study
-    editor:
-      preview: true
-    folder: content/caseStudies
-    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
-    create: true # Allow users to create new documents in this collection
-    fields: # The fields each document in this collection have
-      - {label: Template, name: template, widget: hidden, default: SingleCaseStudy}
-      - {label: Name, name: name, widget: string}
-      - {label: Title, name: title, widget: string}
-      - {label: Date / Order, name: date, widget: date}
-      - {label: Featured Image, name: featuredImage, widget: image, required: false}
-      - label: Video Section
-        name: videoSection
-        required: false
-        widget: object
-        fields:
-          - {label: Image Overlay, name: imageOverlay, widget: image}
-          - {label: Video, name: video, widget: string}
-      - {label: Content, name: body, widget: markdown}
-      - {label: Excerpt, name: excerpt, widget: text}
-      - label: "Gallery"
-        required: false
-        name: "gallery"
-        widget: "list"
-        fields:
-          - {label: Image, name: image, widget: image, required: false}
-      - label: "Meta"
-        required: false
-        name: "meta"
-        widget: "object"
-        fields:
-          - {label: Title, name: title, widget: string, required: false}
-          - {label: Description, name: description, widget: text, required: false, pattern: [".{,300}", "Must not exceed 300 characters"]}
-          - {label: Canonical Link, name: canonicalLink, widget: string, required: false}
-          - {label: Noindex, name: noindex, widget: boolean, required: false}
-
-  - name: boatTours
-    label: Boat Tours
-    editor:
-      preview: true
-    folder: content/boatTours
-    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
-    create: true # Allow users to create new documents in this collection
-    fields: # The fields each document in this collection have
-      - {label: Template, name: template, widget: hidden, default: SingleBoatTour}
-      - label: "Tour Type"
-        name: "tourType"
-        widget: "select"
-        options: ["Cruise", "Private Charter"]
-      - {label: Title, name: title, widget: string}
-      - {label: Icon, name: icon, widget: image}
-      - {label: Featured Image, name: featuredImage, widget: image}
-      - {label: Intro, name: intro, widget: markdown, required: false}
-      - label: "Content Box"
-        required: false
-        name: "contentBox"
-        widget: "object"
-        fields:
-          - {label: Title, name: title, widget: string}
-          - {label: Button Title, name: buttonTitle, widget: string}
-          - {label: Button Url, name: buttonUrl, widget: string}
-      - label: "Gallery"
-        required: false
-        name: "gallery"
-        widget: "list"
-        fields:
-          - {label: Image, name: image, widget: image, required: false}
-      - {label: Content Column, name: contentColumn, widget: markdown, required: false}
-      - label: Accordion Section
-        name: accordionSection
-        required: false
-        widget: "object"
-        fields:
-          - {label: Title, name: title, widget: string, required: false}
-          - label: Accordion
-            name: accordion
-            required: false
-            widget: list
-            fields:
-              - {label: Title, name: title, widget: string, required: false}
-              - {label: Content, name: content, widget: markdown, required: false}
-      - label: "Column Banner"
-        name: "columnBanner"
-        required: false
-        widget: "list"
-        fields:
-          - {label: Title, name: title, widget: string}
-          - {label: Content, name: content, widget: markdown}
-          - {label: Featured Image, name: featuredImage, widget: image}
-          - {label: Button Title, name: buttonTitle, widget: string}
-          - {label: Button Url, name: buttonUrl, widget: string}
-      - label: "Testimonials"
-        required: false
-        name: "testimonials"
-        widget: "object"
-        fields:
-          - {label: Title, name: title, widget: string}
-          - {label: Description, name: description, widget: markdown}
-          - {label: Button Title, name: buttonTitle, widget: string}
-          - {label: Button Url, name: buttonUrl, widget: string}
-          - label: "Featured Testimonials"
-            required: false
-            name: "featuredTestimonials"
-            widget: "list"
-            fields:
-              - {label: Image, name: image, widget: image}
-              - {label: Name, name: name, widget: string}
-              - {label: Content, name: content, widget: markdown}    
-      - label: "Meta"
-        required: false
-        name: "meta"
-        widget: "object"
-        fields:
-          - {label: Title, name: title, widget: string, required: false}
-          - {label: Description, name: description, widget: text, required: false, pattern: [".{,300}", "Must not exceed 300 characters"]}
-          - {label: Canonical Link, name: canonicalLink, widget: string, required: false}
-          - {label: Noindex, name: noindex, widget: boolean, required: false}        
+      # - label: "Meta"
+      #   required: false
+      #   name: "meta"
+      #   widget: "object"
+      #   fields:
+      #     - {label: Title, name: title, widget: string, required: false}
+      #     - {label: Description, name: description, widget: text, required: false, pattern: [".{,300}", "Must not exceed 300 characters"]}
+      #     - {label: Canonical Link, name: canonicalLink, widget: string, required: false}
+      #     - {label: Noindex, name: noindex, widget: boolean, required: false}
 
 
   - name: "settings"
@@ -531,21 +205,4 @@ collections: # A list of collections the CMS should be able to edit
             widget: object
             fields:
               - {label: Image, name: image, widget: image, required: false}
-          - label: "Column Banner"
-            name: "columnBanner"
-            required: false
-            widget: "list"
-            fields:
-              - {label: Title, name: title, widget: string}
-              - {label: Featured Image, name: featuredImage, widget: image}
-              - {label: Button Title, name: buttonTitle, widget: string}
-              - {label: Button Url, name: buttonUrl, widget: string}
-          - label: Global Video
-            name: globalVideo
-            required: false
-            widget: object
-            fields:
-              - {label: Title, name: title, widget: string, default: ''}
-              - {label: Image Overlay, name: imageOverlay, widget: image}
-              - {label: Video, name: video, widget: string}
           - {label: Header Meta / Scripts, name: headerScripts, widget: text, required: false}

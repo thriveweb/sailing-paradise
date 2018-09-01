@@ -1,5 +1,4 @@
 .PostSection {
-  margin-bottom: 12rem;
 }
 
 .PostSection--Grid {
@@ -7,7 +6,6 @@
   justify-content: space-between;
   flex-wrap: wrap;
   align-items: stretch;
-  margin-bottom: 4rem;
 }
 
 .PostSection--Grid > * {
@@ -33,10 +31,6 @@
   max-width: 200px;
   margin: 0 auto 4rem auto;
   line-height: 1.2;
-}
-
-.load-more .button {
-  margin: 0 auto;
 }
 
 @media screen and (max-width: 888px) {

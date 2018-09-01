@@ -3,62 +3,69 @@ import Helmet from 'react-helmet'
 import { MapPin, Smartphone, Mail } from 'react-feather'
 
 import PageHeader from '../components/PageHeader'
-import IntroText from '../components/IntroText'
-import Image from '../components/Image'
+import FormSimpleAjax from '../components/FormSimpleAjax'
 import Content from '../components/Content'
-import SecondaryBanner from '../components/SecondaryBanner'
 import './ContactPage.css'
 
 // Export Template for use in CMS preview
 export const ContactPageTemplate = ({
   body,
   title,
+  subtitle,
   featuredImage,
-  intro,
   address,
   phone,
-  hours, 
-  map,
-  secondaryBanner
-}) => {
-
-  return <main className="Contact">
+  email
+}) => (
+  <main className="Contact">
     <Helmet>
       <title>{title}</title>
     </Helmet>
 
     <PageHeader
       title={title}
+      subtitle={subtitle}
       backgroundImage={featuredImage}
     />
 
     <section className="section Contact--Section1">
       <div className="container Contact--Section1--Container">
-        <IntroText content={intro} center />
-        <div className="Contact--Details">
-          {phone && (
-            <Content className="Contact--Details--Item" src={phone} />
-          )}
-          {address && (
-            <Content className="Contact--Details--Item" src={address} />
-          )}
-          {hours && (
-            <Content className="Contact--Details--Item" src={hours} />
-          )}
+        <div>
+          <Content source={body} />
+
+          <div className="Contact--Details">
+            {address && (
+              <a
+                className="Contact--Details--Item"
+                href={`https://www.google.com.au/maps/search/${encodeURI(
+                  address
+                )}`}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <MapPin /> {address}
+              </a>
+            )}
+            {phone && (
+              <a className="Contact--Details--Item" href={`tel:${phone}`}>
+                <Smartphone /> {phone}
+              </a>
+            )}
+            {email && (
+              <a className="Contact--Details--Item" href={`mailto:${email}`}>
+                <Mail /> {email}
+              </a>
+            )}
+          </div>
         </div>
-        <div className='contact-body'>
-          {map && 
-            <div className='image-container'>
-              <Image background src={map} alt='map image' size="cover" />
-            </div>
-          }
-          {body && <Content source={body} />}
-        </div>  
+
+        <div>
+          <FormSimpleAjax name="Simple Form Ajax" />
+        </div>
       </div>
     </section>
-    <SecondaryBanner {...secondaryBanner} />
   </main>
-}
+)
 
 const ContactPage = ({ data: { page } }) => (
   <ContactPageTemplate {...page.frontmatter} body={page.html} />
@@ -73,25 +80,13 @@ export const pageQuery = graphql`
       frontmatter {
         title
         template
+        subtitle
         featuredImage {
           ...FluidImage
         }
-        intro
         address
         phone
-        hours
-        map {
-          ...FluidImage
-        }
-        secondaryBanner {
-          buttonTitle
-          buttonUrl
-          subtitle
-          title
-          featuredImage {
-            ...FluidImage
-          }
-        }
+        email
       }
     }
   }
