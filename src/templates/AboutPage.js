@@ -9,36 +9,9 @@ import './AboutPage.css'
 // Export Template for use in CMS preview
 export const AboutPageTemplate = ({
   title,
-  subtitle,
-  featuredImage,
-  section1,
-  section2,
-  testImage,
-  body
 }) => (
   <main className="About">
-    <Helmet>
-      <title>{title}</title>
-    </Helmet>
-    <PageHeader
-      title={title}
-      subtitle={subtitle}
-      backgroundImage={featuredImage}
-    />
 
-    <section className="section">
-      <div className="container">
-        <Content source={section1} />
-      </div>
-    </section>
-
-    <section className="section">
-      <div className="container">
-        <Content source={section2} />
-        <p>The image below is a {'<Image />'}</p>
-        <Image src={testImage} alt="Image" />
-      </div>
-    </section>
   </main>
 )
 
@@ -54,16 +27,6 @@ export const pageQuery = graphql`
       html
       frontmatter {
         title
-        template
-        subtitle
-        featuredImage {
-          ...FluidImage
-        }
-        testImage {
-          ...FluidImage
-        }
-        section1
-        section2
       }
     }
   }
