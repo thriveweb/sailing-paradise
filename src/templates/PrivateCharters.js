@@ -2,11 +2,13 @@ import React from 'react'
 import Helmet from 'react-helmet'
 
 import PageHeader from '../components/PageHeader'
+import IntroText from '../components/IntroText'
 
 // Export Template for use in CMS preview
 export const PrivateChartersTemplate = ({
   title,
   featuredImage,
+  intro
 }) => {
 
   return (
@@ -18,12 +20,13 @@ export const PrivateChartersTemplate = ({
         title={title}
         backgroundImage={featuredImage}
       />
+      <IntroText content={intro} center />
     </main>
   )
 }
 
 // Export Default Charters for front-end
-const ChartPrivateChartersers = ({ data }) => (
+const PrivateCharters = ({ data }) => (
   <PrivateChartersTemplate
     {...data.page}
     {...data.page.fields}
@@ -34,7 +37,7 @@ const ChartPrivateChartersers = ({ data }) => (
 export default PrivateCharters
 
 export const pageQuery = graphql`
-  ## Query for Charters data
+  ## Query for PrivateCharters data
   query PrivateCharters($id: String!) {
     page: markdownRemark(id: { eq: $id }) {
       frontmatter {

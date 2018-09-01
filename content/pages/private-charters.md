@@ -1,5 +1,5 @@
 ---
-template: Charters
+template: PrivateCharters
 slug: private-charters
 title: Private Charters
 featuredImage: /images/uploads/boat-banner.jpg
