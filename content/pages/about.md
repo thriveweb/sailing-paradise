@@ -1,6 +1,5 @@
 ---
-template: AboutPage
+template: HomePage
 slug: about
-title: About page title
+title: Hello World!
 ---
-

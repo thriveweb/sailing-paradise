@@ -1,32 +1,47 @@
 import React from 'react'
-import Helmet from 'react-helmet'
 
 import PageHeader from '../components/PageHeader'
-import Image from '../components/Image'
-import Content from '../components/Content.js'
-import './AboutPage.css'
+import Content from '../components/Content'
 
 // Export Template for use in CMS preview
-export const AboutPageTemplate = ({
-  title,
-}) => (
-  <main className="About">
+export const HomePageTemplate = ({ title, subtitle, featuredImage, body }) => (
+  <main className="Home">
+    <PageHeader
+      large
+      title={title}
+      subtitle={subtitle}
+      backgroundImage={featuredImage}
+    />
 
+    <section className="section">
+      <div className="container">
+        <Content source={body} />
+      </div>
+    </section>
   </main>
 )
 
-const AboutPage = ({ data: { page } }) => (
-  <AboutPageTemplate {...page} {...page.frontmatter} body={page.html} />
+// Export Default HomePage for front-end
+const HomePage = ({ data: { page } }) => (
+  <HomePageTemplate {...page} {...page.frontmatter} body={page.html} />
 )
 
-export default AboutPage
+export default HomePage
 
 export const pageQuery = graphql`
+  ## Query for HomePage data
+  ## Use GraphiQL interface (http://localhost:8000/___graphql)
+  ## $id is processed via gatsby-node.js
+  ## query name must be unique to this file
   query AboutPage($id: String!) {
     page: markdownRemark(id: { eq: $id }) {
       html
       frontmatter {
         title
+        subtitle
+        featuredImage {
+          ...FluidImage
+        }
       }
     }
   }
