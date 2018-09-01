@@ -21,6 +21,13 @@ collections: # A list of collections the CMS should be able to edit
           - {label: Template, name: template, widget: hidden, default: HomePage}
           - {label: Slug, name: slug, widget: hidden, default: ''}
           - {label: Title, name: title, widget: string, required: false}
+      - file: "content/pages/about.md"
+        label: "About Page"
+        name: "about-page"
+        fields:
+          - {label: Template, name: template, widget: hidden, default: AboutPage}
+          - {label: Slug, name: slug, widget: hidden, default: ''}
+          - {label: Title, name: title, widget: string, required: false}
 
   - name: "settings"
     label: "Settings"
