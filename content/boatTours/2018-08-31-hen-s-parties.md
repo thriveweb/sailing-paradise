@@ -25,10 +25,8 @@ gallery:
   - image: /images/uploads/girls-img4.jpg
   - image: /images/uploads/girls-img6.jpg
   - image: /images/uploads/pantsless-waiter.jpg
+contentColumnTitle: We love hens parties and hens parties love us!
 contentColumn: >-
-  ## We love hens parties and hens parties love us!
-
-
   We have hosted over 1000 happy hens parties and we are continually striving to
   create the best experience possible for our guests.
 
