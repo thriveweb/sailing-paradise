@@ -1,21 +1,10 @@
 import React from 'react'
 
-import PageHeader from '../components/PageHeader'
-import Content from '../components/Content'
-
 // Export Template for use in CMS preview
-export const HomePageTemplate = ({ title, subtitle, featuredImage, body }) => (
+export const HomePageTemplate = ({ title }) => (
   <main className="Home">
-    <PageHeader
-      large
-      title={title}
-      subtitle={subtitle}
-      backgroundImage={featuredImage}
-    />
-
     <section className="section">
       <div className="container">
-        <Content source={body} />
       </div>
     </section>
   </main>
@@ -38,10 +27,6 @@ export const pageQuery = graphql`
       html
       frontmatter {
         title
-        subtitle
-        featuredImage {
-          ...FluidImage
-        }
       }
     }
   }

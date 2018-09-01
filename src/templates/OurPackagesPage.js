@@ -4,13 +4,13 @@ import PageHeader from '../components/PageHeader'
 import Content from '../components/Content'
 
 // Export Template for use in CMS preview
-export const HomePageTemplate = ({ title }) => (
+export const OurPackagesPageTemplate = ({ title }) => (
   <main className="Home">
   </main>
 )
 
 // Export Default HomePage for front-end
-const HomePage = ({ data: { page } }) => (
+const OurPackagesPage = ({ data: { page } }) => (
   <HomePageTemplate {...page} {...page.frontmatter} body={page.html} />
 )
 
@@ -21,7 +21,7 @@ export const pageQuery = graphql`
   ## Use GraphiQL interface (http://localhost:8000/___graphql)
   ## $id is processed via gatsby-node.js
   ## query name must be unique to this file
-  query HomePage($id: String!) {
+  query OurPackagesPage($id: String!) {
     page: markdownRemark(id: { eq: $id }) {
       html
       frontmatter {

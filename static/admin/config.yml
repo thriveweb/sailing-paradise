@@ -22,12 +22,12 @@ collections: # A list of collections the CMS should be able to edit
           - {label: Slug, name: slug, widget: hidden, default: ''}
           - {label: Title, name: title, widget: string, required: false}
           - {label: Test, name: test, widget: string, required: false}
-      - file: "content/pages/about.md"
-        label: "About Page"
-        name: "about-page"
+      - file: "content/pages/ourpackages.md"
+        label: "Our Packages"
+        name: "our-packages-page"
         fields:
-          - {label: Template, name: template, widget: hidden, default: AboutPage}
-          - {label: Slug, name: slug, widget: hidden, default: 'about'}
+          - {label: Template, name: template, widget: hidden, default: OurPackagesPage}
+          - {label: Slug, name: slug, widget: hidden, default: 'our-packages'}
           - {label: Title, name: title, widget: string, required: false}
 
   - name: "settings"
