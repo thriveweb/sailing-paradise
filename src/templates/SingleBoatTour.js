@@ -10,7 +10,7 @@ import ContentBox from '../components/ContentBox'
 import GallerySlider from '../components/GallerySlider'
 import Accordion from '../components/Accordion'
 import ColumnBanner from '../components/ColumnBanner'
-import TestimonialSlider from '../components/TestimonialSlider'
+import FeaturedTestimonial from '../components/FeaturedTestimonial'
 
 import './SingleBoatTour.css'
 
@@ -43,6 +43,7 @@ export const SingleBoatTourTemplate = ({
     <GallerySlider gallery={gallery} />
     <Accordion accordionSection={accordionSection} />
     <ColumnBanner columnBanner={columnBanner} boatTour />
+    <FeaturedTestimonial {...testimonials} />
   </article>
 }
 
