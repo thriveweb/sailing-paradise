@@ -14,3 +14,24 @@
 	max-width: 75rem;
 }
 
+
+/*Content Column*/
+
+.contentColumn {
+	padding: 12rem 0 7.5rem;
+}
+
+.contentColumn .container {
+	display: flex;
+	align-items: flex-start;
+	justify-content: space-between;
+}
+
+.contentColumn h2 {
+	font-size: 2.8rem;
+	flex: 0 0 40%;
+}
+
+.contentColumn .intro-section {
+	padding: 0;
+}

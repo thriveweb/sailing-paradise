@@ -21,6 +21,8 @@ export const SingleBoatTourTemplate = ({
   intro,
   contentBox,
   gallery,
+  contentColumnTitle,
+  contentColumn,
   accordionSection, 
   columnBanner,
   testimonials
@@ -41,6 +43,7 @@ export const SingleBoatTourTemplate = ({
       </div>  
     </div> 
     <GallerySlider gallery={gallery} />
+    <IntroText content={contentColumn} title={contentColumnTitle} />
     <Accordion accordionSection={accordionSection} />
     <ColumnBanner columnBanner={columnBanner} boatTour />
     <FeaturedTestimonial {...testimonials} />
@@ -83,6 +86,8 @@ export const pageQuery = graphql`
             ...FluidImage
           }
         }
+        contentColumnTitle
+        contentColumn
         accordionSection {
           title
           accordion {
