@@ -1,49 +1,55 @@
 .Accordion {
   width: 100%;
+  padding: 7.5rem 0 14rem;
 }
 
 .Accordion > * + * {
   margin-top: 3rem;
 }
 
+.Accordion h2 {
+  text-align: center;
+  margin-bottom: 6rem;
+}
+
 .Accordion--item {
-  padding: 1rem;
-  background: white;
-  padding: 1.5rem;
-  padding: 3rem;
-  border: 3px solid #ede9e0;
   transform: translateY(0px);
 }
 
-.Accordion--item h2 {
+.Accordion--item h3 {
   cursor: pointer;
   font-weight: 600;
-  font-size: 1.6rem;
+  font-size: 1.8rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin: 0;
+  border-bottom: .2rem solid #979797;
+  padding: 2rem;
 }
 
-.Accordion--item h2:after {
+.Accordion--item h3:after {
   content: '+';
   font-size: 4rem;
-  color: #cacaca;
-  color: var(--midGrey);
+  color: #979797;
   line-height: 1;
   font-weight: 300;
   position: relative;
 }
 
-.Accordion--item.active {
-  border-color: currentColor;
-  box-shadow: 8px 10px 0 #5dbf88;
+.Accordion--item--content {
+  background-color: white;
+  padding: 3rem;
 }
 
-.Accordion--item.active h2 {
+.Accordion--item.active {
+  border-color: currentColor;
+}
+
+.Accordion--item.active h3 {
   color: var(--primary);
 }
-.Accordion--item.active h2:after {
+.Accordion--item.active h3:after {
   content: '-';
   float: right;
   font-size: 4rem;
@@ -51,16 +57,6 @@
   color: var(--darkGrey);
   line-height: 1;
   font-weight: 300;
-  top: -1.5rem;
-}
-
-.Accordion--item.active .Accordion--item--content:before {
-  content: '';
-  background: var(--primary);
-  height: 2px;
-  width: 33.33%;
-  display: block;
-  margin: 1rem 0;
 }
 
 .Accordion--item {
@@ -86,11 +82,11 @@
     margin-top: 2rem;
   }
 
-  .Accordion--item h2 {
+  .Accordion--item h3 {
     font-size: 1.2rem;
   }
 
-  .Accordion--item h2:after {
+  .Accordion--item h3:after {
     font-size: 3rem;
   }
 }

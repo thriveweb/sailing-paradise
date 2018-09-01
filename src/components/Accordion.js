@@ -19,33 +19,37 @@ export default class Accordion extends React.Component {
   }
 
   render() {
-    const { items, className } = this.props
+    const { accordionSection, className } = this.props
+    const { title, accordion } = accordionSection
 
-    if(!items) return null
+    if(!accordion) return null
 
     return (
       <div className={`Accordion ${className}`}>
-        {items.map((item, index) => {
-          const active = this.state.activeItem === index
-          return (
-            <div
-              className={`Accordion--item ${active ? 'active' : ''}`}
-              key={`accordion-item-${item.title + index}`}
-            >
-              <h2 onClick={() => this.handleClick(index)}>{item.title}</h2>
-              {active && (
-                <div className="Accordion--item--content">
-                  <Content src={item.content} />
-                  {item.link && (
-                    <a href={item.link} className="button">
-                      {item.linkTitle}
-                    </a>
-                  )}
-                </div>
-              )}
-            </div>
-          )
-        })}
+        <div className='container skinny'>
+          {title && <h2>{title}</h2>}
+          {accordion.map((item, index) => {
+            const active = this.state.activeItem === index
+            return (
+              <div
+                className={`Accordion--item ${active ? 'active' : ''}`}
+                key={`accordion-item-${item.title + index}`}
+              >
+                <h3 onClick={() => this.handleClick(index)}>{item.title}</h3>
+                {active && (
+                  <div className="Accordion--item--content">
+                    <Content src={item.content} />
+                    {item.link && (
+                      <a href={item.link} className="button">
+                        {item.linkTitle}
+                      </a>
+                    )}
+                  </div>
+                )}
+              </div>
+            )
+          })}
+        </div>  
       </div>
     )
   }

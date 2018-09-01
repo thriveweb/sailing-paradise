@@ -3,12 +3,14 @@ import Helmet from 'react-helmet'
 
 import PageHeader from '../components/PageHeader'
 import IntroText from '../components/IntroText'
+import PostSection from '../components/PostSection'
 
 // Export Template for use in CMS preview
 export const PrivateChartersTemplate = ({
   title,
   featuredImage,
-  intro
+  intro,
+  posts
 }) => {
 
   return (
@@ -21,6 +23,7 @@ export const PrivateChartersTemplate = ({
         backgroundImage={featuredImage}
       />
       <IntroText content={intro} center />
+      <PostSection posts={posts} boatTours />
     </main>
   )
 }
@@ -31,6 +34,11 @@ const PrivateCharters = ({ data }) => (
     {...data.page}
     {...data.page.fields}
     {...data.page.frontmatter}
+    posts={data.posts.edges.map(post => ({
+      ...post.node,
+      ...post.node.frontmatter,
+      ...post.node.fields
+    }))}
   />
 )
 
@@ -47,6 +55,27 @@ export const pageQuery = graphql`
           ...FluidImage
         }
         intro
+      }
+    }
+    posts: allMarkdownRemark(
+      filter: { fields: { contentType: { eq: "boatTours" } }, frontmatter: { tourType: { eq: "Private Charter"} } }
+      sort: { order: DESC, fields: [frontmatter___date] }
+    ) {
+      edges {
+        node {
+          fields {
+            slug
+          }
+          frontmatter {
+            title
+            icon {
+              ...FluidImage
+            }
+            featuredImage {
+              ...FluidImage
+            }
+          }
+        }
       }
     }
   }

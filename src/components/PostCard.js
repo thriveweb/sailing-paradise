@@ -9,6 +9,7 @@ import './PostCard.css'
 
 const PostCard = ({
   featuredImage,
+  icon,
   title,
   date,
   slug,
@@ -53,6 +54,7 @@ const PostCard = ({
           )}
         </div>
         {name && <p className="PostCard--Subtitle">{name}</p>}
+        {icon && <Image src={icon} alt='' />}
         {title && <h3 className="PostCard--Title">{title}</h3>}
         {excerpt && 
           <Fragment>

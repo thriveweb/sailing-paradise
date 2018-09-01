@@ -1,6 +1,8 @@
 import React, { Component } from 'react'
 import Button from './Button'
 import Image from './Image'
+import Content from './Content'
+
 import './TestimonialSlider.css'
 
 class Slider extends Component {
@@ -36,7 +38,7 @@ class Slider extends Component {
         return <section className='featuredTestimonials'>
             <div className='testimonialIntro'>
                 {title && <h2>{title}</h2>}
-                {description && <p>{description}</p>}
+                {description && <Content src={description} />}
                 {buttonTitle && buttonUrl && <Button title={buttonTitle} url={buttonUrl} />}
             </div>
             <div className='slider'>
@@ -54,7 +56,7 @@ class Slider extends Component {
                     >
                         {image && <Image src={image} alt='' />}   
                         {name && <p className='title'>{name}</p>}
-                        {content && <p>{content}</p>}
+                        {content && <Content src={content} />}
                     </div>
                 )}
                 <div className='slider-dots'>

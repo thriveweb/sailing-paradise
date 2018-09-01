@@ -3,10 +3,14 @@
 	max-width: 55rem;
 }
 
+.intro-section h2 {
+	font-weight: 400;
+}
+
+
+/*Align Center*/
+
 .intro-section.alignCenter {
 	max-width: 75rem;
 }
 
-.intro-section h2 {
-	font-weight: 400;
-}

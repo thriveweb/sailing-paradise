@@ -23,18 +23,18 @@ class PostSection extends React.Component {
     }))
 
   render() {
-    const { posts, title, showLoadMore, loadMoreTitle } = this.props
+    const { posts, title, showLoadMore, loadMoreTitle, boatTours } = this.props
     const { limit } = this.state
 
     const visiblePosts = posts.slice(0, limit || posts.length)
 
     return (
-      <div className="PostSection">
+      <div className={`PostSection ${boatTours ? 'boatTours' : ''}`}>
         {title && <h2 className="PostSection--Title">{title}</h2>}
         {!!visiblePosts.length && (
           <div className="PostSection--Grid">
             {visiblePosts.map((post, index) => (
-              <PostCard key={post.title + index} {...post} />
+              <PostCard key={post.title + index} {...post}/>
             ))}
           </div>
         )}

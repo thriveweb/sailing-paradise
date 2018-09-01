@@ -486,10 +486,10 @@ collections: # A list of collections the CMS should be able to edit
           - {label: Description, name: description, widget: markdown}
           - {label: Button Title, name: buttonTitle, widget: string}
           - {label: Button Url, name: buttonUrl, widget: string}
-          - label: "Featured Testimonials"
+          - label: "Featured Testimonial"
             required: false
-            name: "featuredTestimonials"
-            widget: "list"
+            name: "featuredTestimonial"
+            widget: "object"
             fields:
               - {label: Image, name: image, widget: image}
               - {label: Name, name: name, widget: string}
