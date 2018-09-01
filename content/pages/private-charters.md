@@ -1,5 +1,5 @@
 ---
 template: Charters
-slug: charters
+slug: private-charters
 ---
 
