@@ -43,9 +43,6 @@ export const SingleBoatTourTemplate = ({
     <GallerySlider gallery={gallery} />
     <Accordion accordionSection={accordionSection} />
     <ColumnBanner columnBanner={columnBanner} boatTour />
-    <TestimonialSlider
-      {...testimonials}
-    />
   </article>
 }
 
@@ -104,7 +101,7 @@ export const pageQuery = graphql`
         testimonials {
           description
           title
-          featuredTestimonials {
+          featuredTestimonial {
             content
             name
             image {
