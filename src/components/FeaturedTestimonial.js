@@ -11,17 +11,21 @@ export default ({ description, title, buttonTitle, buttonUrl, featuredTestimonia
         
     const { name, content, image } = featuredTestimonial
 
-    return <section className='featuredTestimonials'>
-        <div className='testimonialIntro'>
-            {title && <h2>{title}</h2>}
-            {description && <Content src={description} />}
-            {buttonTitle && buttonUrl && <Button title={buttonTitle} url={buttonUrl} />}
-        </div>
-        <div className='testimonial'>
-            {image && <Image src={image} alt='' />}   
-            {name && <p className='title'>{name}</p>}
-            {content && <Content src={content} />}
-        </div>
+    return <section className='featuredTestimonial'>
+        <div className='container large'>
+            <div className='testimonialIntro'>
+                {title && <h2>{title}</h2>}
+                {description && <Content src={description} />}
+                {buttonTitle && buttonUrl && <Button title={buttonTitle} url={buttonUrl} />}
+            </div>
+            <div className='testimonial'>
+                {image && <Image src={image} alt='' />}
+                <div className='testimonial-content'>  
+                    {name && <p className='title'>{name}</p>}
+                    {content && <Content src={content} />}
+                </div>    
+            </div>
+        </div>    
     </section>    
 }
 

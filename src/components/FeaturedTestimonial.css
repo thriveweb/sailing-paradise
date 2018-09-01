@@ -1,0 +1,22 @@
+.featuredTestimonial {
+	padding: 8rem 0;
+}
+
+.featuredTestimonial .container {
+	display: flex;
+}
+
+.featuredTestimonial .testimonialIntro {
+	padding: 0;
+}
+
+.featuredTestimonial .testimonial {
+	display: flex;
+}
+
+.featuredTestimonial .testimonial .Image {
+	height: 12rem;
+	width: 12rem;
+	border-radius: 100%;
+	margin-right: 4rem;
+}
