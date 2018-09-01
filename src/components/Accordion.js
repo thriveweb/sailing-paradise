@@ -1,4 +1,5 @@
 import React from 'react'
+import _get from 'lodash/get'
 
 import Content from './Content'
 import './Accordion.css'
@@ -20,7 +21,9 @@ export default class Accordion extends React.Component {
 
   render() {
     const { accordionSection, className } = this.props
-    const { title, accordion } = accordionSection
+    
+    const title = _get(accordionSection, 'title') || ''
+    const accordion = _get(accordionSection, 'accordion') || []
 
     if(!accordion) return null
 
