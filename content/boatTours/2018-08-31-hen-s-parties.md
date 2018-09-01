@@ -156,25 +156,16 @@ testimonials:
 
     See our five start Trip Advisor reviews for more testimonial feedback from
     our satisfied clients.
-  featuredTestimonials:
-    - content: >-
-        "We used this wonderful company to start my sisters Hen’s celebrations
-        and the girls haven’t stopped talking about it since. It was a beautiful
-        day out on a beautiful boat with an amazing crew! Will definitely be in
-        contact again with Steve if I can think of any other reason to go for a
-        sail. Thank you so much for your time and not laughing at our dance
-        moves and pop star singing voices!"
-      image: /images/uploads/girl-img12.jpg
-      name: Alex S.
-    - content: >-
-        "We used this wonderful company to start my sisters Hen’s celebrations
-        and the girls haven’t stopped talking about it since. It was a beautiful
-        day out on a beautiful boat with an amazing crew! Will definitely be in
-        contact again with Steve if I can think of any other reason to go for a
-        sail. Thank you so much for your time and not laughing at our dance
-        moves and pop star singing voices!"
-      image: /images/uploads/girl-img1.jpg
-      name: Name Here
+  featuredTestimonial:
+    content: >-
+      "We used this wonderful company to start my sisters Hen’s celebrations and
+      the girls haven’t stopped talking about it since. It was a beautiful day
+      out on a beautiful boat with an amazing crew! Will definitely be in
+      contact again with Steve if I can think of any other reason to go for a
+      sail. Thank you so much for your time and not laughing at our dance moves
+      and pop star singing voices!"
+    image: /images/uploads/girl-img12.jpg
+    name: Alex S.
   title: Happy Sailors
 ---
 
