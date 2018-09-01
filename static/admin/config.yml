@@ -436,7 +436,7 @@ collections: # A list of collections the CMS should be able to edit
         widget: "select"
         options: ["Cruise", "Private Charter"]
       - {label: Title, name: title, widget: string}
-      - {label: Icon, name: icon, widget: image}
+      - {label: Icon, name: icon, widget: image, required: false}
       - {label: Featured Image, name: featuredImage, widget: image}
       - {label: Intro, name: intro, widget: markdown, required: false}
       - label: "Content Box"
