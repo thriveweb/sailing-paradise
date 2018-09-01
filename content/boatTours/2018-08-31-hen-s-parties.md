@@ -154,7 +154,7 @@ testimonials:
     **Hen's Party**
 
 
-    See our five start Trip Advisor reviews for more testimonial feedback from
+    See our five star Trip Advisor reviews for more testimonial feedback from
     our satisfied clients.
   featuredTestimonial:
     content: >-
