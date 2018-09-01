@@ -6,7 +6,7 @@ import Link from 'gatsby-link'
 
 import PageHeader from '../components/PageHeader'
 import IntroText from '../components/IntroText'
-import ContentBox from '../components/ContentBox'
+import BoxContent from '../components/BoxContent'
 import GallerySlider from '../components/GallerySlider'
 import Accordion from '../components/Accordion'
 import ColumnBanner from '../components/ColumnBanner'
@@ -37,7 +37,7 @@ export const SingleBoatTourTemplate = ({
     <div className='BoatTourIntro'>
       <div className='container'>
         <IntroText content={intro} />
-        <ContentBox {...contentBox} />
+        <BoxContent {...contentBox} />
       </div>  
     </div> 
     <GallerySlider gallery={gallery} />
