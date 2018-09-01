@@ -8,6 +8,8 @@ import './ColumnBanner.css'
 
 export default ({ columnBanner, boatTour, className = '' }) => {
 
+	if(!columnBanner) return null
+
 	if(boatTour) className += ' boatTour'
 
 	return <div className={`columnsBanner${className}`}>
