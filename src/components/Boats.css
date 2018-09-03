@@ -42,6 +42,18 @@
 	margin-top: 2rem;
 }
 
+.boat .colRight .Content {
+	padding-bottom: 1rem;
+	margin-bottom: 1rem;
+	border-bottom: .1rem solid var(--secondary);
+}
+
+.boat .colRight .Content:last-of-type {
+	padding-bottom: 0;
+	margin-bottom: 0;
+	border-bottom: none;
+}
+
 .boat .video-section {
 	max-width: 60%;
 	margin: 8rem auto 0;

@@ -53,7 +53,9 @@ export const pageQuery = graphql`
         boats {
           description
           title
-          features
+          boatFeatures {
+            content
+          }
           featuredImage {
             ...FluidImage
           }
