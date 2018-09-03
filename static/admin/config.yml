@@ -298,6 +298,58 @@ collections: # A list of collections the CMS should be able to edit
               - {label: Canonical Link, name: canonicalLink, widget: string, required: false}
               - {label: Noindex, name: noindex, widget: boolean, required: false}
 
+      - file: "content/pages/boats.md"
+        label: "Our Boats"
+        name: "ourBoats"
+        fields:
+          - {label: Template, name: template, widget: hidden, default: BoatsPage}
+          - {label: Slug, name: slug, widget: hidden, default: 'boats'}
+          - {label: Title, name: title, widget: string}
+          - {label: Featured Image, name: featuredImage, widget: image}
+          - {label: Intro, name: intro, widget: markdown}
+          - label: "Boats"
+            required: false
+            name: "boats"
+            widget: "list"
+            fields:
+              - {label: Title, name: title, widget: string}
+              - {label: Featured Image, name: featuredImage, widget: image}
+              - {label: Description, name: description, widget: markdown}
+              - {label: Features, name: features, widget: markdown}
+              - label: "Gallery"
+                required: false
+                name: "gallery"
+                widget: "list"
+                fields:
+                  - {label: Image, name: image, widget: image, required: false}
+              - label: Video Section
+                name: videoSection
+                required: false
+                widget: object
+                fields:
+                  - {label: Image Overlay, name: imageOverlay, widget: image}
+                  - {label: Video, name: video, widget: string}
+          - label: "Secondary Banner"
+            required: false
+            name: "secondaryBanner"
+            widget: "object"
+            fields:
+              - {label: Title, name: title, widget: string}
+              - {label: Subtitle, name: subtitle, widget: string}
+              - {label: Button Title, name: buttonTitle, widget: string}
+              - {label: Button Url, name: buttonUrl, widget: string}
+              - {label: Featured Image, name: featuredImage, widget: image}
+          - label: "Column Banner"
+            name: "columnBanner"
+            required: false
+            widget: "list"
+            fields:
+              - {label: Title, name: title, widget: string}
+              - {label: Content, name: content, widget: markdown}
+              - {label: Featured Image, name: featuredImage, widget: image}
+              - {label: Button Title, name: buttonTitle, widget: string}
+              - {label: Button Url, name: buttonUrl, widget: string}
+
 
   - name: infoPages
     label: Info Page
