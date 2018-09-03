@@ -3,8 +3,25 @@ siteUrl: 'https://whitesmoke.netlify.com'
 siteDescription: >-
   A starter project for creating lightning-fast websites with Gatsby Netlify
   CMS.
-socialMediaCard:
-  image: /images/uploads/card-og.png
+phone: |-
+  **CALL US ON**
+
+  [0438 915 222](tel:0438915222)
+address: |-
+  **WHERE WE ARE**
+
+  Marina Mirage, 74 Seaworld Drive, Main Beach.
+hours: |-
+  **OPEN HOURS**
+
+  Mon - Fri: 9AM - 5PM
+
+  Sat - Sun: 10AM - 15PM
+map: /images/uploads/map-img.jpg
+socialMedia:
+  facebook: 'https://facebook.com'
+  googlePlus: 'https://google.com'
+  instagram: 'https://instagram.com'
 columnBanner:
   - buttonTitle: See More
     buttonUrl: private-charters
