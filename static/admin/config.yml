@@ -52,7 +52,7 @@ collections: # A list of collections the CMS should be able to edit
           - {label: Slug, name: slug, widget: hidden, default: 'booking-enquiry'}
           - {label: Title, name: title, widget: string}
           - {label: Featured Image, name: featuredImage, widget: image}
-          - {label: Intro, name: intro, widget: markdown, required: false}}        
+          - {label: Intro, name: intro, widget: markdown, required: false}       
 
       - file: "content/pages/blog.md"
         label: "Blog Page"
