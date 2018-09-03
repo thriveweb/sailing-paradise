@@ -23,10 +23,6 @@ collections: # A list of collections the CMS should be able to edit
           - {label: Title, name: title, widget: string}
           - {label: Featured Image, name: featuredImage, widget: image}
           - {label: Intro, name: intro, widget: markdown, required: false}
-          - {label: Phone, name: phone, widget: markdown, required: false}
-          - {label: Address, name: address, widget: markdown, required: false}
-          - {label: Hours, name: hours, widget: markdown, required: false}
-          - {label: Map, name: map, widget: image, required: false}
           - {label: Body, name: body, widget: markdown, required: false}
           - label: "Secondary Banner"
             required: false
@@ -47,6 +43,16 @@ collections: # A list of collections the CMS should be able to edit
               - {label: Description, name: description, widget: text, required: false, pattern: [".{,300}", "Must not exceed 300 characters"]}
               - {label: Canonical Link, name: canonicalLink, widget: string, required: false}
               - {label: Noindex, name: noindex, widget: boolean, required: false}
+
+      - file: "content/pages/booking.md"
+        label: "Booking Page"
+        name: "booking-page"
+        fields:
+          - {label: Template, name: template, widget: hidden, default: Booking}
+          - {label: Slug, name: slug, widget: hidden, default: 'booking-enquiry'}
+          - {label: Title, name: title, widget: string}
+          - {label: Featured Image, name: featuredImage, widget: image}
+          - {label: Intro, name: intro, widget: markdown, required: false}}        
 
       - file: "content/pages/blog.md"
         label: "Blog Page"
@@ -574,11 +580,17 @@ collections: # A list of collections the CMS should be able to edit
           - {label: Site Title, name: siteTitle, widget: string}
           - {label: Site Url, name: siteUrl, widget: string, required: false}
           - {label: Site Description, name: siteDescription, widget: text, required: false}
-          - label: Social Media Card
-            name: socialMediaCard
+          - {label: Phone, name: phone, widget: markdown, required: false}
+          - {label: Address, name: address, widget: markdown, required: false}
+          - {label: Hours, name: hours, widget: markdown, required: false}
+          - {label: Map, name: map, widget: image, required: false}
+          - label: Social Media
+            name: socialMedia
             widget: object
             fields:
-              - {label: Image, name: image, widget: image, required: false}
+              - {label: Facebook, name: facebook, widget: string, required: false}
+              - {label: Instagram, name: instagram, widget: string, required: false}
+              - {label: Google Plus, name: googlePlus, widget: string, required: false}
           - label: "Column Banner"
             name: "columnBanner"
             required: false

@@ -60,8 +60,8 @@ export const ContactPageTemplate = ({
   </main>
 }
 
-const ContactPage = ({ data: { page } }) => (
-  <ContactPageTemplate {...page.frontmatter} body={page.html} />
+const ContactPage = ({ data: { page, settings } }) => (
+  <ContactPageTemplate {...page.frontmatter} body={page.html} {...settings} />
 )
 
 export default ContactPage
@@ -77,12 +77,6 @@ export const pageQuery = graphql`
           ...FluidImage
         }
         intro
-        address
-        phone
-        hours
-        map {
-          ...FluidImage
-        }
         secondaryBanner {
           buttonTitle
           buttonUrl
@@ -93,6 +87,14 @@ export const pageQuery = graphql`
           }
         }
       }
+    }
+    settings: settingsYaml {
+        address
+        phone
+        hours
+        map {
+          ...FluidImage
+        }
     }
   }
 `

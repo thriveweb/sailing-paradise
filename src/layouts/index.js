@@ -14,7 +14,7 @@ export default ({ children, data }) => {
   const privateCharters = charters ? charters.edges.map(edge => ({ ...edge.node })) : []
   const cruiseTours = cruises ? cruises.edges.map(edge => ({ ...edge.node })) : []
 
-  const { siteTitle, siteUrl, socialMediaCard, headerScripts } = data.settingsYaml || {}
+  const { siteTitle, siteUrl, headerScripts } = data.settingsYaml || {}
 
   return (
     <Fragment>
@@ -24,11 +24,6 @@ export default ({ children, data }) => {
 
       <Meta
         headerScripts={headerScripts}
-        absoluteImageUrl={
-          socialMediaCard &&
-          socialMediaCard.image &&
-          siteUrl + socialMediaCard.image
-        }
       />
 
       <GithubCorner url="https://github.com/thriveweb/whitesmoke" />
@@ -48,9 +43,6 @@ export const query = graphql`
       siteTitle
       siteDescription
       headerScripts
-      socialMediaCard {
-        image
-      }
     }
     charters: allMarkdownRemark(
       filter: { fields: { contentType: { eq: "boatTours" } }, frontmatter: { tourType: { eq: "Private Charter"} } }
