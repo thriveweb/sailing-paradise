@@ -89,12 +89,10 @@ export const pageQuery = graphql`
       }
     }
     settings: settingsYaml {
-        address
-        phone
-        hours
-        map {
-          ...FluidImage
-        }
+      address
+      phone
+      hours
+      map
     }
   }
 `
