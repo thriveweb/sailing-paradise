@@ -14,8 +14,8 @@ export default ({ columnBanner, boatTour, className = '' }) => {
 
 	return <div className={`columnsBanner${className}`}>
 		{columnBanner.map(({ title, buttonTitle, buttonUrl, featuredImage, content }, index) => {
-			return <div className='bannerColumn relative overlay'>
-				<Image background src={featuredImage} />
+			return <div className='bannerColumn relative overlay' key={index}>
+				<Image background src={featuredImage} alt='' />
 				<div className='container'>
 					{title && <h2 className='title-gradient'>{title}</h2>}
 					{content && <Content src={content} />}

@@ -16,6 +16,7 @@ export default class Nav extends Component {
   handleLinkClick = () => this.state.active && this.handleMenuToggle()
 
   render() {
+    const { charters, cruises } = this.props
     const { active } = this.state
 
     const NavLink = ({ className, children, ...props }) => (
@@ -35,28 +36,41 @@ export default class Nav extends Component {
             <Logo />
           </Link>
           <div className="Nav--Links">
-            <NavLink to="/" exact>
-              Home
+            <li className='NavLink hasChildren two-column'>
+                Cruises
+                <ul className='subMenu'>
+                  {cruises.map(({ fields, frontmatter}) => {
+                    return <NavLink to={fields.slug}>{frontmatter.title}</NavLink>
+                  })}
+                </ul>
+            </li>
+            <NavLink to="/private-charters/" className='hasChildren two-column' exact>
+              Private Charters
+                <ul className='subMenu'>
+                  {charters.map(({ fields, frontmatter}) => {
+                    return <NavLink to={fields.slug}>{frontmatter.title}</NavLink>
+                  })}
+                </ul>
             </NavLink>
             <NavLink to="/about/" exact>
-              About
+              About us
             </NavLink>
-            <NavLink to="/blog/" exact>
-              Blog
-            </NavLink>
-            <NavLink to="/default/" exact>
-              Default
-            </NavLink>
-            <NavLink to="/contact/" exact>
-              Contact
-            </NavLink>
-            <NavLink to="/case-studies/" exact>
-              Case Studies
-            </NavLink>
-            <NavLink to="/private-charters/" exact>
-              Private Charters
-            </NavLink>
+            <li className='NavLink hasChildren'>
+                More
+                <ul className='subMenu'>
+                  <NavLink to="/case-studies/" exact>
+                    Happy Sailors
+                  </NavLink>
+                  <NavLink to="/blog/" exact>
+                    Latest News
+                  </NavLink>
+                  <NavLink to="/contact/" exact>
+                    Contact us
+                  </NavLink>
+                </ul>
+            </li>
           </div>
+          <Link className='nav-button' to='/book'>Booking Enquiry</Link>
           <button
             className="Button-blank Nav--MenuButton"
             onClick={this.handleMenuToggle}

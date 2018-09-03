@@ -1,5 +1,5 @@
 .Nav {
-  background: white;
+  background: rgba(255,255,255,.7);
   position: fixed;
   top: 0;
   left: 0;
@@ -29,6 +29,101 @@
 
 .Nav--MenuButton {
   display: none;
+}
+
+.NavLink {
+  padding: 2rem;
+  color: var(--primary);
+  font-size: 1.4rem;
+  transition: all ease-in-out .2s;
+  opacity: 1;
+}
+
+.NavLink:hover {
+  background-color: var(--darkGrey);
+  color: white;
+}
+
+.hasChildren {
+  position: relative;
+}
+
+.hasChildren:after {
+  content: '+';
+  font-size: 1.5rem;
+  color: var(--primary);
+  line-height: 1;
+  font-weight: 400;
+  position: relative;
+  margin-left: .8rem;
+  opacity: 1;
+  transition: all ease-in-out .2s;
+}
+
+.hasChildren .subMenu {
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  top: 100%;
+  left: 0;
+  min-width: 20rem;
+  background-color: var(--darkGrey);
+  opacity: 0;
+  visibility: hidden;
+  max-height: 0;
+  transition: all ease-in-out .2s;
+}
+
+.subMenu .NavLink {
+  color: white;
+  margin: 0;
+  text-transform: none;
+  display: block;
+  padding: 1rem 2rem;
+}
+
+.subMenu .NavLink:hover {
+  background-color: rgba(255,255,255,0.3);
+}
+
+.hasChildren:hover:after {
+  color: white;
+}
+
+.hasChildren:hover .subMenu {
+  opacity: 1;
+  visibility: visible;
+  max-height: 70rem;
+}
+
+.hasChildren.two-column {
+
+}
+
+.hasChildren.two-column .subMenu {
+  display: flex;
+  flex-wrap: wrap;
+  min-width: 40rem;
+}
+
+.hasChildren.two-column .subMenu .NavLink {
+  flex: 0 0 50%;
+}
+
+.nav-button {
+  padding: .7rem 3rem;
+  background-color: white;
+  color: var(--primary);
+  border-radius: 3rem;
+  text-transform: uppercase;
+  font-size: 1.4rem;
+  margin-left: 4rem;
+  transition: all ease-in-out .2s;
+}
+
+.nav-button:hover {
+  background-color: var(--darkGrey);
+  color: white;
 }
 
 @media (max-width: 600px) {

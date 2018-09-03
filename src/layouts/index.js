@@ -10,8 +10,12 @@ import Footer from '../components/Footer'
 import GithubCorner from '../components/GithubCorner'
 
 export default ({ children, data }) => {
-  const { siteTitle, siteUrl, socialMediaCard, headerScripts } =
-    data.settingsYaml || {}
+  const { charters, cruises } = data
+  const privateCharters = charters ? charters.edges.map(edge => ({ ...edge.node })) : []
+  const cruiseTours = cruises ? cruises.edges.map(edge => ({ ...edge.node })) : []
+
+  const { siteTitle, siteUrl, socialMediaCard, headerScripts } = data.settingsYaml || {}
+
   return (
     <Fragment>
       <Helmet defaultTitle={siteTitle} titleTemplate={`%s | ${siteTitle}`}>
@@ -29,7 +33,7 @@ export default ({ children, data }) => {
 
       <GithubCorner url="https://github.com/thriveweb/whitesmoke" />
 
-      <Nav />
+      <Nav charters={privateCharters} cruises={cruiseTours} />
 
       <Fragment>{children()}</Fragment>
 
@@ -46,6 +50,36 @@ export const query = graphql`
       headerScripts
       socialMediaCard {
         image
+      }
+    }
+    charters: allMarkdownRemark(
+      filter: { fields: { contentType: { eq: "boatTours" } }, frontmatter: { tourType: { eq: "Private Charter"} } }
+      sort: { order: DESC, fields: [frontmatter___date] }
+    ) {
+      edges {
+        node {
+          fields {
+            slug
+          }
+          frontmatter {
+            title
+          }
+        }
+      }
+    }
+    cruises: allMarkdownRemark(
+      filter: { fields: { contentType: { eq: "boatTours" } }, frontmatter: { tourType: { eq: "Cruise"} } }
+      sort: { order: DESC, fields: [frontmatter___date] }
+    ) {
+      edges {
+        node {
+          fields {
+            slug
+          }
+          frontmatter {
+            title
+          }
+        }
       }
     }
   }
