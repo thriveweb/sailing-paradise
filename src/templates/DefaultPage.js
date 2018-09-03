@@ -10,7 +10,7 @@ export const DefaultPageTemplate = ({
   featuredImage,
   body
 }) => (
-  <main className="DefaultPage">
+  <main className='DefaultPage'>
     <Helmet>
       <title>{title}</title>
     </Helmet>

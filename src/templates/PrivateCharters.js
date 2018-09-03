@@ -14,7 +14,7 @@ export const PrivateChartersTemplate = ({
 }) => {
 
   return (
-    <main className="Blog">
+    <main className='Blog'>
       <Helmet>
         <title>{title}</title>
       </Helmet>

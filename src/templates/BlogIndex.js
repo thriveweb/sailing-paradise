@@ -20,7 +20,7 @@ export const BlogIndexTemplate = ({
   const filteredPosts = isCategory ? posts.filter(byCategory) : posts
 
   return (
-    <main className="Blog">
+    <main className='Blog'>
       <Helmet>
         <title>{title}</title>
       </Helmet>

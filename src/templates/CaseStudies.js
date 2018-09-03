@@ -20,7 +20,7 @@ export const CaseStudiesTemplate = ({
 }) => {
 
 
-  return <main className="Blog CaseStudies">
+  return <main className='Blog CaseStudies'>
     <Helmet>
       <title>{title}</title>
     </Helmet>

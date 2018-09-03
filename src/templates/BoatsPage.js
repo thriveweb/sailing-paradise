@@ -19,7 +19,7 @@ export const BoatsPageTemplate = ({
   boats
 }) => 
 
-    <main className="Boats">
+    <main className='Boats'>
       <Helmet>
         <title>{title}</title>
       </Helmet>

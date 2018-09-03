@@ -13,7 +13,7 @@ export default ({boats}) => {
 
 	return <section className='boats-listing'>
 		{boats.map(({ title, featuredImage, description, boatFeatures, gallery, videoSection }, index) => {
-			return <div className='boat' key={index}>
+			return <div className='boat' key={`boat-${index}`}>
 				<div className='container'>
 					{title && <h3>{title}</h3>}
 					<div className='colLeft column'>

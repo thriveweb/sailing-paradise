@@ -27,7 +27,7 @@ export const AboutPageTemplate = ({
   body,
 }) => 
 
-    <main className="About">
+    <main className='About'>
       <Helmet>
         <title>{title}</title>
       </Helmet>

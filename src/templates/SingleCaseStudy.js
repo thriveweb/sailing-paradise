@@ -26,7 +26,7 @@ export const SingleCaseStudyTemplate = ({
   globalVideo
 }) => {
 
-  return <article className="SingleCaseStudy">
+  return <main className='SingleCaseStudy'>
     <Helmet>
       <title>{title}</title>
     </Helmet>
@@ -78,7 +78,7 @@ export const SingleCaseStudyTemplate = ({
     </div>
     <GallerySlider gallery={gallery} />
     <Video {...globalVideo} videoBanner />
-  </article>
+  </main>
 }
 
 // Export Default SinglePost for front-end

@@ -22,8 +22,8 @@ export const SinglePostTemplate = ({
   prevPostURL,
   categories = [],
 }) => (
-  <article
-    className="SinglePost"
+  <main
+    className='SinglePost'
     itemScope
     itemType="http://schema.org/BlogPosting"
   >
@@ -102,7 +102,7 @@ export const SinglePostTemplate = ({
         </div>
       </div>
     </div>
-  </article>
+  </main>
 )
 
 // Export Default SinglePost for front-end

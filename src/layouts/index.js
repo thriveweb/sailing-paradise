@@ -1,4 +1,4 @@
-import React, { Fragment } from 'react'
+import React, { Fragment, Component } from 'react'
 import Helmet from 'react-helmet'
 
 import 'modern-normalize/modern-normalize.css'
@@ -9,33 +9,59 @@ import Nav from '../components/Nav'
 import Footer from '../components/Footer'
 import GithubCorner from '../components/GithubCorner'
 
-export default ({ children, data }) => {
-  const { charters, cruises } = data
-  const privateCharters = charters ? charters.edges.map(edge => ({ ...edge.node })) : []
-  const cruiseTours = cruises ? cruises.edges.map(edge => ({ ...edge.node })) : []
+class IndexLayout extends Component {
+  state = {}
 
-  const { siteTitle, siteUrl, headerScripts } = data.settingsYaml || {}
+  handleBlur = () => {
+    this.setState({
+      blurActive: !this.state.blurActive
+    }, () => {
+      document.body.style.overflow = this.state.blurActive === true ? 'hidden' : 'auto'
+      document.documentElement.style.overflow = this.state.blurActive === true ? 'hidden' : 'auto'
+    })
+  }
 
-  return (
-    <Fragment>
-      <Helmet defaultTitle={siteTitle} titleTemplate={`%s | ${siteTitle}`}>
-        {/* Add font link tags here */}
-      </Helmet>
+  render() {
+      const { children, data, location } = this.props
+      const { blurActive } = this.state
+      const { charters, cruises } = data
+      const privateCharters = charters ? charters.edges.map(edge => ({ ...edge.node })) : []
+      const cruiseTours = cruises ? cruises.edges.map(edge => ({ ...edge.node })) : []
 
-      <Meta
-        headerScripts={headerScripts}
-      />
+      const { siteTitle, siteUrl, headerScripts, bookingPopup } = data.settingsYaml || {}
 
-      <GithubCorner url="https://github.com/thriveweb/whitesmoke" />
+    return (
+      <Fragment>
+        <Helmet defaultTitle={siteTitle} titleTemplate={`%s | ${siteTitle}`}>
+          {/* Add font link tags here */}
+        </Helmet>
 
-      <Nav charters={privateCharters} cruises={cruiseTours} />
+        <Meta
+          headerScripts={headerScripts}
+        />
 
-      <Fragment>{children()}</Fragment>
+        <GithubCorner url="https://github.com/thriveweb/whitesmoke" />
 
-      <Footer />
-    </Fragment>
-  )
+        <Nav 
+          charters={privateCharters} 
+          cruises={cruiseTours} 
+          bookingPopup={bookingPopup}
+          location={location}
+          handleBlur={this.handleBlur}
+          blurActive={blurActive}
+        />
+
+        <div style={{filter: blurActive ? 'blur(10px)' : 'none'}}>
+          {children()}
+        </div>
+
+        <Footer />
+      </Fragment>
+    )
+  }
 }
+
+export default IndexLayout
 
 export const query = graphql`
   query IndexLayoutQuery {
@@ -43,6 +69,15 @@ export const query = graphql`
       siteTitle
       siteDescription
       headerScripts
+      bookingPopup {
+        title
+        contentBoxes {
+          buttonTitle
+          buttonUrl
+          icon
+          title
+        }
+      }
     }
     charters: allMarkdownRemark(
       filter: { fields: { contentType: { eq: "boatTours" } }, frontmatter: { tourType: { eq: "Private Charter"} } }

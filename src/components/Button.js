@@ -4,7 +4,7 @@ import { ICONButtonArrows } from './Icons'
 
 import './Button.css'
 
-export default ({ title, url, white, className = '' }) => {
+export default ({ title, url, white, className = '', handlePopup }) => {
 	
 	if(white) className += ' buttonWhite'
 

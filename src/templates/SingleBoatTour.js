@@ -28,7 +28,7 @@ export const SingleBoatTourTemplate = ({
   testimonials
 }) => {
 
-  return <article className="SingleBoatTour">
+  return <main className='SingleBoatTour'>
     <Helmet>
       <title>{title}</title>
     </Helmet>
@@ -47,7 +47,7 @@ export const SingleBoatTourTemplate = ({
     <Accordion accordionSection={accordionSection} />
     <ColumnBanner columnBanner={columnBanner} boatTour />
     <FeaturedTestimonial {...testimonials} />
-  </article>
+  </main>
 }
 
 // Export Default SinglePost for front-end

@@ -30,7 +30,7 @@ export const HomePageTemplate = ({
   posts
 }) => {
 
-  return <main className="Home">
+  return <main className='Home'>
       <Video 
         video={featuredVideo} 
         homeVideo title={title} 

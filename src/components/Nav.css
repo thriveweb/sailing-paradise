@@ -44,6 +44,14 @@
   color: white;
 }
 
+.Nav li {
+  list-style: none;
+}
+
+.NavLink:hover .parentLink {
+  color: white;
+}
+
 .hasChildren {
   position: relative;
 }

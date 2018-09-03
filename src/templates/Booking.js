@@ -22,7 +22,7 @@ export const BookingPageTemplate = ({
   map,
 }) => {
 
-  return <main className="Booking">
+  return <main className='Booking'>
     <Helmet>
       <title>{title}</title>
     </Helmet>

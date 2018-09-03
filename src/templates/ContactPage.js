@@ -22,7 +22,7 @@ export const ContactPageTemplate = ({
   secondaryBanner
 }) => {
 
-  return <main className="Contact">
+  return <main className='Contact'>
     <Helmet>
       <title>{title}</title>
     </Helmet>
