@@ -43,7 +43,7 @@ class GallerySlider extends Component {
 		    	</Slider>
 			</div>
 			<div className='featuredBanner relative'>
-				<Image background src={image} />
+				<Image background src={image} alt='' />
 				<div className='bannerContent'>
 					{title && <h3>{title}</h3>}
 					{buttonTitle && buttonUrl && <Button title={buttonTitle} url={buttonUrl} white />}

@@ -8,7 +8,7 @@ import './HomeAboutBanner.css'
 
 export default ({ featuredImage, title, subtitle, content, buttons }) => 
 	<section className='aboutUs relative'>
-		<Image background src={featuredImage} />
+		<Image background src={featuredImage} alt='' />
 		{title && <h2 className='title-gradient'>{title}</h2>}
 		<div className='aboutUs-Content fancy-title'>
 			<div className='blur'></div>

@@ -13,8 +13,8 @@ export default ({ latestNews, posts }) => {
 		<div className='container large'>
 			{latestNews && <IntroText content={latestNews} center />}
 			<div className='featuredPosts'>
-				{posts.map(post => 
-					<PostCard {...post} featuredHome />
+				{posts.map(( post, index ) => 
+					<PostCard {...post} featuredHome key={index} />
 				)}
 			</div>	
 		</div>

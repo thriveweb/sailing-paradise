@@ -6,7 +6,9 @@ import PageHeader from '../components/PageHeader'
 import IntroText from '../components/IntroText'
 import Image from '../components/Image'
 import Content from '../components/Content'
-import './ContactPage.css'
+import BookingForm from '../components/BookingForm'
+
+import './Booking.css'
 
 // Export Template for use in CMS preview
 export const BookingPageTemplate = ({
@@ -30,29 +32,33 @@ export const BookingPageTemplate = ({
       backgroundImage={featuredImage}
     />
 
-    <section className="section Contact--Section1">
-      <div className="container Contact--Section1--Container">
-        <IntroText content={intro} center />
-        <div className="Contact--Details">
-          {phone && (
-            <Content className="Contact--Details--Item" src={phone} />
-          )}
-          {address && (
-            <Content className="Contact--Details--Item" src={address} />
-          )}
-          {hours && (
-            <Content className="Contact--Details--Item" src={hours} />
-          )}
+    <section className="section Contact--Sections">
+      <div className='container large'>
+        <div className="Contact--Section1">
+          <IntroText content={intro} />
+          <div className="Contact--Details">
+            {address &&
+              <div className="Contact--Details--Item">
+                <Content  src={address} />
+                {map && 
+                  <div className='image-container'>
+                    <Image background src={map} alt='map image' size="cover" />
+                  </div>
+                }
+              </div>
+            }
+            {phone && (
+              <Content className="Contact--Details--Item" src={phone} />
+            )}
+            {hours && (
+              <Content className="Contact--Details--Item" src={hours} />
+            )}
+          </div> 
         </div>
-        <div className='contact-body'>
-          {map && 
-            <div className='image-container'>
-              <Image background src={map} alt='map image' size="cover" />
-            </div>
-          }
-          {body && <Content source={body} />}
-        </div>  
-      </div>
+        <div className='Contact--Section2'>
+          <BookingForm />
+        </div>
+      </div>  
     </section>
   </main>
 }
@@ -61,7 +67,7 @@ const BookingPage = ({ data: { page, settings } }) => (
   <BookingPageTemplate {...page.frontmatter} body={page.html} {...settings} />
 )
 
-export default ContactPage
+export default BookingPage
 
 export const pageQuery = graphql`
   query BookingPage($id: String!) {

@@ -73,7 +73,7 @@ export default class Nav extends Component {
                 </ul>
             </li>
           </div>
-          <Link className='nav-button' to='/book'>Booking Enquiry</Link>
+          <Link className='nav-button' to='/booking-enquiry'>Booking Enquiry</Link>
           <button
             className="Button-blank Nav--MenuButton"
             onClick={this.handleMenuToggle}
