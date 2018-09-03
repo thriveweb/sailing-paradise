@@ -339,17 +339,15 @@ collections: # A list of collections the CMS should be able to edit
               - {label: Button Title, name: buttonTitle, widget: string}
               - {label: Button Url, name: buttonUrl, widget: string}
               - {label: Featured Image, name: featuredImage, widget: image}
-          - label: "Column Banner"
-            name: "columnBanner"
+          - label: "Meta"
             required: false
-            widget: "list"
+            name: "meta"
+            widget: "object"
             fields:
-              - {label: Title, name: title, widget: string}
-              - {label: Content, name: content, widget: markdown}
-              - {label: Featured Image, name: featuredImage, widget: image}
-              - {label: Button Title, name: buttonTitle, widget: string}
-              - {label: Button Url, name: buttonUrl, widget: string}
-
+              - {label: Title, name: title, widget: string, required: false}
+              - {label: Description, name: description, widget: text, required: false, pattern: [".{,300}", "Must not exceed 300 characters"]}
+              - {label: Canonical Link, name: canonicalLink, widget: string, required: false}
+              - {label: Noindex, name: noindex, widget: boolean, required: false}
 
   - name: infoPages
     label: Info Page

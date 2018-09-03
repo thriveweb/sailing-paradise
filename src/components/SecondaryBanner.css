@@ -19,6 +19,9 @@
 	font-size: 2rem;
 }
 
+.secondary-banner .button {
+	display: inline-block;
+}
 
 /*Banner Large*/
 

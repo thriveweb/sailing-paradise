@@ -31,7 +31,7 @@ export default class Nav extends Component {
 
     return (
       <nav className={`Nav ${active ? 'Nav-active' : ''}`}>
-        <div className="Nav--Container container">
+        <div className="Nav--Container container large">
           <Link to="/" onClick={this.handleLinkClick}>
             <Logo />
           </Link>
@@ -39,18 +39,21 @@ export default class Nav extends Component {
             <li className='NavLink hasChildren two-column'>
                 Cruises
                 <ul className='subMenu'>
-                  {cruises.map(({ fields, frontmatter}) => {
-                    return <NavLink to={fields.slug}>{frontmatter.title}</NavLink>
+                  {cruises.map(({ fields, frontmatter}, index) => {
+                    return <NavLink key={`charters-${index}`} to={fields.slug}>{frontmatter.title}</NavLink>
                   })}
                 </ul>
             </li>
             <NavLink to="/private-charters/" className='hasChildren two-column' exact>
               Private Charters
                 <ul className='subMenu'>
-                  {charters.map(({ fields, frontmatter}) => {
-                    return <NavLink to={fields.slug}>{frontmatter.title}</NavLink>
+                  {charters.map(({ fields, frontmatter}, index) => {
+                    return <NavLink key={`cruises-${index}`} to={fields.slug}>{frontmatter.title}</NavLink>
                   })}
                 </ul>
+            </NavLink>
+            <NavLink to="/boats/" exact>
+              Our Boats
             </NavLink>
             <NavLink to="/about/" exact>
               About us
