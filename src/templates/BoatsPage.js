@@ -27,5 +27,6 @@ export const pageQuery = graphql`
   query BoatsPage($id: String!) {
     page: markdownRemark(id: { eq: $id }) {
       html
+    }
   }
 `
