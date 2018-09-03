@@ -36,4 +36,15 @@ globalVideo:
   title: climb aboard and get to know us
   video: >-
     https://www.youtube.com/watch?v=vr0qNXmkUJ8&list=PLNhzc-Os3JK8ExayVzzoHVvP2c0-4_oqt
+bookingPopup:
+  contentBoxes:
+    - buttonTitle: Book now
+      buttonUrl: /booking
+      icon: /images/uploads/boat2.svg
+      title: Book tickets on a cruise
+    - buttonTitle: Enquire
+      buttonUrl: booking-enquiry
+      icon: /images/uploads/wheel.svg
+      title: Enquire about charting a boat privately
+  title: What would you like to do?
 headerScripts: <!-- Add your analytics scripts / verification meta here -->
