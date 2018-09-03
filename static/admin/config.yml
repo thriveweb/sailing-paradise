@@ -318,7 +318,7 @@ collections: # A list of collections the CMS should be able to edit
               - label: "Features"
                 required: false
                 name: "features"
-                widget: "list"
+                widget: "object"
                 fields:
                   - {label: Feature, name: feature, widget: markdown}
               - label: "Gallery"
