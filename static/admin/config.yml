@@ -608,4 +608,19 @@ collections: # A list of collections the CMS should be able to edit
               - {label: Title, name: title, widget: string, default: ''}
               - {label: Image Overlay, name: imageOverlay, widget: image}
               - {label: Video, name: video, widget: string}
+          - label: "Booking Popup"
+            required: false
+            name: "bookingPopup"
+            widget: "object"
+            fields:
+              - {label: Title, name: title, widget: string}
+              - label: "Content Boxes"
+                required: false
+                name: "contentBoxes"
+                widget: "list"
+                fields:
+                  - {label: Icon, name: icon, widget: image}
+                  - {label: Title, name: title, widget: string}
+                  - {label: Button Title, name: buttonTitle, widget: string, required: false}    
+                  - {label: Button Url, name: buttonUrl, widget: string, required: false}    
           - {label: Header Meta / Scripts, name: headerScripts, widget: text, required: false}
