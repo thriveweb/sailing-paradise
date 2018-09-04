@@ -75,6 +75,12 @@ export const query = graphql`
       siteTitle
       siteDescription
       headerScripts
+      socialMedia {
+        facebook
+        instagram
+        googlePlus
+      }
+      footerContent
       bookingPopup {
         title
         contentBoxes {

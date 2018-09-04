@@ -6,20 +6,20 @@ export default ({ socialMedia }) => {
 
 	if(!socialMedia) return null
 
-	const { facebook, instagram, twitter, googlePlus } = socialMedia	
+	const { facebook, instagram, twitter, googlePlus, linkedin } = socialMedia	
 
 	return <div className='share-buttons'>
+		{googlePlus &&
+			<li>
+				<a href={googlePlus}>
+					<ICONGooglePlus />
+				</a>
+			</li>
+		}
 		{instagram &&
 			<li>
 				<a href={instagram}>
 					<ICONInstagram />
-				</a>
-			</li>
-		}		
-		{twitter &&
-			<li>
-				<a href={twitter}>
-					<ICONTwitter />
 				</a>
 			</li>
 		}
@@ -30,10 +30,17 @@ export default ({ socialMedia }) => {
 				</a>
 			</li>
 		}
-		{googlePlus &&
+		{linkedin &&
 			<li>
-				<a href={googlePlus}>
-					<ICONGooglePlus />
+				<a href={linkedin}>
+					<ICONLinkedin />
+				</a>
+			</li>
+		}			
+		{twitter &&
+			<li>
+				<a href={twitter}>
+					<ICONTwitter />
 				</a>
 			</li>
 		}			

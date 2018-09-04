@@ -61,7 +61,7 @@ export default class Nav extends Component {
                   Cruises
                   <ul className='subMenu'>
                     {cruises.map(({ fields, frontmatter}, index) => {
-                      return <NavLink className='NavLink' key={`charters-${index}`} to={fields.slug}>{frontmatter.title}</NavLink>
+                      return <NavLink className='NavLink' key={`cruises-${index}`} to={fields.slug}>{frontmatter.title}</NavLink>
                     })}
                   </ul>
               </li>
@@ -69,7 +69,7 @@ export default class Nav extends Component {
               <NavLink className='parentLink' to="/private-charters/" exact>Private Charters</NavLink>
                 <ul className='subMenu'>
                   {charters.map(({ fields, frontmatter}, index) => {
-                    return <NavLink className='NavLink' key={`cruises-${index}`} to={fields.slug}>{frontmatter.title}</NavLink>
+                    return <NavLink className='NavLink' key={`charters-${index}`} to={fields.slug}>{frontmatter.title}</NavLink>
                   })}
                 </ul>
               </li>

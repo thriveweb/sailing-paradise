@@ -12,10 +12,8 @@ export default ({ captainIntro, captain }) => {
 			<IntroText content={captainIntro} center />
 			{captain &&
 				<div className='captains-listing'>
-					{captain.map(({ name, image, title, description, socialMedia }, index ) => {
-						const { instagram, twitter } = socialMedia
-
-						return <div className='member' key={`member ${index}`}>
+					{captain.map(({ name, image, title, description, socialMedia }, index ) => 
+						<div className='member' key={`member ${index}`}>
 							{image &&
 								<div className='image-container relative'>
 									<Image className='profile-image' background src={image} alt='profile image' />
@@ -26,7 +24,7 @@ export default ({ captainIntro, captain }) => {
 							{description && <Content src={description} />}
 							<SocialLinks socialMedia={socialMedia} />
 						</div>
-					})} 
+					)} 
 				</div>	
 			}
 		</div>

@@ -76,7 +76,7 @@ export const pageQuery = graphql`
               ...FluidImage
             }
             socialMedia {
-              instagram
+              linkedin
               twitter
             }
           }
