@@ -80,6 +80,10 @@
   text-decoration: none;
 }
 
+.SinglePost--Pagination--Link:hover {
+  opacity: 0.6;
+}
+
 .SinglePost--Pagination--Link.next {
   margin-left: auto;
 }
