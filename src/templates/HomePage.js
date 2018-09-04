@@ -7,7 +7,6 @@ import HomeAboutBanner from '../components/HomeAboutBanner'
 import HighlightChart from '../components/HighlightChart'
 import TestimonialSlider from '../components/TestimonialSlider'
 import FeaturedPosts from '../components/FeaturedPosts'
-import InstagramFeed from '../components/InstagramFeed'
 import SubscribeForm from '../components/SubscribeForm'
 
 
@@ -62,7 +61,6 @@ export const HomePageTemplate = ({
         latestNews={latestNews}
         posts={posts}
       />
-      <InstagramFeed />
       <SubscribeForm />
     </main>
 }
