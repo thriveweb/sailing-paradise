@@ -71,9 +71,9 @@
 }
 
 .featuredSlider .slick-arrow {
-	top: 5rem;
-	height: 4rem;
-	width: 4rem;
+	top: 6rem;
+	height: 3rem;
+	width: 3rem;
 }
 
 .featuredSlider .slick-arrow:before {
@@ -81,11 +81,11 @@
 }
 
 .featuredSlider .slick-arrow.slick-next {
-	right: 6rem;
+	right: 7rem;
 }
 
 .featuredSlider .slick-arrow.slick-prev {
-	right: 9rem;
+	right: 10rem;
 	left: auto;
 }
 

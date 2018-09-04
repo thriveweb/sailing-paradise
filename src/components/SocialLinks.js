@@ -2,6 +2,8 @@ import React from 'react'
 
 import { ICONInstagram, ICONTwitter, ICONFacebook, ICONGooglePlus, ICONLinkedin } from './Icons'
 
+import './SocialLinks.css'
+
 export default ({ socialMedia }) => {
 
 	if(!socialMedia) return null

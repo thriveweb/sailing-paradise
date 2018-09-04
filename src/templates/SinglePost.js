@@ -5,6 +5,7 @@ import _format from 'date-fns/format'
 import Link from 'gatsby-link'
 import { ChevronLeft } from 'react-feather'
 
+import { ICONSail } from '../components/Icons'
 import Content from '../components/Content'
 import Video from '../components/Video'
 import Image from '../components/Image'
@@ -45,6 +46,9 @@ export const SinglePostTemplate = ({
         <ChevronLeft /> BACK
       </Link>
       <div className="SinglePost--Content relative">
+        <div className='post-icon'>
+          <ICONSail />
+        </div>  
         <div className="SinglePost--Meta">
           {date && (
             <time
@@ -80,25 +84,24 @@ export const SinglePostTemplate = ({
           <Video {...videoSection}  />
           <Content source={contentSecondary} />
           <SocialShare />
-        </div>
-
-        <div className="SinglePost--Pagination">
-          {prevPostURL && (
-            <Link
-              className="SinglePost--Pagination--Link prev"
-              to={prevPostURL}
-            >
-              Prev
-            </Link>
-          )}
-          {nextPostURL && (
-            <Link
-              className="SinglePost--Pagination--Link next"
-              to={nextPostURL}
-            >
-              Next
-            </Link>
-          )}
+          <div className="SinglePost--Pagination">
+            {prevPostURL && (
+              <Link
+                className="SinglePost--Pagination--Link prev"
+                to={prevPostURL}
+              >
+                Prev
+              </Link>
+            )}
+            {nextPostURL && (
+              <Link
+                className="SinglePost--Pagination--Link next"
+                to={nextPostURL}
+              >
+                Next
+              </Link>
+            )}
+          </div>
         </div>
       </div>
     </div>

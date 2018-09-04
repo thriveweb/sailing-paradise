@@ -27,9 +27,21 @@
   transform: translateX(-0.25em);
 }
 
+.post-icon {
+  background-color: white;
+  border-radius: 100%;
+  padding: 1rem;
+  display: inline-block;
+  margin: 0 auto 4rem;
+}
+
 .SinglePost--Content {
-  background: white;
-  margin-top: 40rem;
+  margin-top: 33rem;
+  text-align: center;
+}
+
+.SinglePost--Content .Content {
+  text-align: left;
 }
 
 .SinglePost--Meta {

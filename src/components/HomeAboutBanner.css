@@ -37,10 +37,6 @@
 	font-size: 3.6rem;
 }
 
-.aboutUs-Content.fancy-title h3:before, .aboutUs-Content.fancy-title h3:after {
-	background-color: white;
-}
-
 .aboutUs-Content .button {
 	display: inline-block;
 	margin-right: 4rem;

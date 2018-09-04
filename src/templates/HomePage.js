@@ -27,7 +27,8 @@ export const HomePageTemplate = ({
   highlights,
   Testimonials,
   latestNews,
-  posts
+  posts,
+  socialMedia
 }) => {
 
   return <main className='Home'>
@@ -38,6 +39,7 @@ export const HomePageTemplate = ({
         buttonUrl={buttonUrl} 
         featuredSlider={featuredSlider} 
         featuredBanner={featuredBanner} 
+        socialMedia={socialMedia}
       />
       <ServiceColumns 
         services={services} 
@@ -66,10 +68,11 @@ export const HomePageTemplate = ({
 }
 
 // Export Default HomePage for front-end
-const HomePage = ({ data: { page, posts } }) => (
+const HomePage = ({ data: { page, posts, settings } }) => (
   <HomePageTemplate 
     {...page} 
     {...page.frontmatter} 
+    {...settings}
     body={page.html}
     posts={posts.edges.map(post => ({
       ...post.node,
@@ -191,6 +194,13 @@ export const pageQuery = graphql`
             }
           }
         }
+      }
+    }
+    settings: settingsYaml {
+      socialMedia {
+        facebook
+        googlePlus
+        instagram
       }
     }
   }

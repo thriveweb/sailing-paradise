@@ -22,3 +22,9 @@
 .PostCategoriesNav > * + * {
   margin-left: 1rem;
 }
+
+.PostCategoriesNav .NavLink:hover {
+  background-color: transparent;
+  color: var(--primary);
+  opacity: 0.5;
+}

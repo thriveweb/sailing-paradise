@@ -1,6 +1,6 @@
 .slick-slide {
 	position: relative;
-	height: 25rem;
+	height: 30rem;
 	cursor: pointer;
 	transition: all ease-in-out .2s;
 }

@@ -3,6 +3,7 @@ import Image from './Image'
 import { ICONPlay } from './Icons'
 import Button from './Button'
 import FeaturedSlider from './FeaturedSlider'
+import SocialLinks from './SocialLinks'
 
 import './Video.css'
 
@@ -23,7 +24,7 @@ class Video extends Component {
 	}
 
 	render() {
-		const { title, video, imageOverlay, videoBanner, homeVideo, buttonTitle, buttonUrl, featuredSlider, featuredBanner } = this.props
+		const { title, video, imageOverlay, videoBanner, homeVideo, buttonTitle, buttonUrl, featuredSlider, featuredBanner, socialMedia } = this.props
 		const { videoPlaying } = this.state
 
 		if(!video) return null
@@ -45,6 +46,7 @@ class Video extends Component {
 				>
 				</iframe>
 				<FeaturedSlider featuredSlider={featuredSlider} featuredBanner={featuredBanner} />
+				<SocialLinks socialMedia={socialMedia} />
 			</div>
 
 		return <div className={`video-section ${videoBanner ? 'videoBanner' : ''}`} onClick={() => this.handleVideo(url)}>
