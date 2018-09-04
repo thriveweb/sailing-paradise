@@ -1,5 +1,5 @@
 import React from 'react'
-import { stringify } from 'qs'
+import { stringify, parse } from 'qs'
 import { serialize } from 'dom-form-serializer'
 import Select from './Select'
 import { ICONButtonArrows } from './Icons'
@@ -74,6 +74,9 @@ class Form extends React.Component {
 
   render() {
     const { name, subject, action, honeypot } = this.props
+    const query = parse(location.search.replace('?', ''))
+
+    const formCharter = query.charter
 
     return (
       <form
@@ -138,9 +141,10 @@ class Form extends React.Component {
         <Select
           placeholder='Select a Charter*'
           name='charter'
+          selected={formCharter}
           options={[
             "Raft Ups",
-            "Hen's Parties",
+            "Hens Parties",
             "Birthday Parties",
             "Corporate Events",
             "Christmas Parties",

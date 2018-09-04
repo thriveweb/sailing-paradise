@@ -7,7 +7,6 @@ import './globalStyles.css'
 import Meta from '../components/Meta'
 import Nav from '../components/Nav'
 import Footer from '../components/Footer'
-import GithubCorner from '../components/GithubCorner'
 
 class IndexLayout extends Component {
   state = {}
@@ -27,10 +26,7 @@ class IndexLayout extends Component {
       const { charters, cruises } = data
       const privateCharters = charters ? charters.edges.map(edge => ({ ...edge.node })) : []
       const cruiseTours = cruises ? cruises.edges.map(edge => ({ ...edge.node })) : []
-
       const { siteTitle, siteUrl, headerScripts, bookingPopup } = data.settingsYaml || {}
-
-      console.log(data.settingsYaml)
 
     return (
       <Fragment>
@@ -41,8 +37,6 @@ class IndexLayout extends Component {
         <Meta
           headerScripts={headerScripts}
         />
-
-        <GithubCorner url="https://github.com/thriveweb/whitesmoke" />
 
         <Nav 
           charters={privateCharters} 

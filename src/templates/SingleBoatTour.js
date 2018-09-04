@@ -16,6 +16,7 @@ import './SingleBoatTour.css'
 
 export const SingleBoatTourTemplate = ({
   body,
+  tourType,
   title,
   featuredImage,
   intro,
@@ -25,9 +26,12 @@ export const SingleBoatTourTemplate = ({
   contentColumn,
   accordionSection, 
   columnBanner,
-  testimonials
+  testimonials,
+  slug,
+  post
 }) => {
-
+  const charterUrl = slug.replace('/boat-tours/', '').replace('/', '')
+  
   return <main className='SingleBoatTour'>
     <Helmet>
       <title>{title}</title>
@@ -45,7 +49,11 @@ export const SingleBoatTourTemplate = ({
     <GallerySlider gallery={gallery} />
     <IntroText content={contentColumn} title={contentColumnTitle} />
     <Accordion accordionSection={accordionSection} />
-    <ColumnBanner columnBanner={columnBanner} boatTour />
+    <ColumnBanner 
+      columnBanner={columnBanner}
+      boatTour
+      charterUrl={charterUrl}
+    />
     <FeaturedTestimonial {...testimonials} />
   </main>
 }
@@ -57,6 +65,7 @@ const SingleBoatTour = ({ data, pathContext }) => {
     <SingleBoatTourTemplate
       {...post}
       {...post.frontmatter}
+      {...post.fields}
       body={post.html}
     />
   )
@@ -69,8 +78,12 @@ export const pageQuery = graphql`
   query SingleBoatTour($id: String!) {
     post: markdownRemark(id: { eq: $id }) {
       html
+      fields {
+        slug
+      }
       frontmatter {
         tourType
+        slug
         title
         featuredImage {
           ...FluidImage

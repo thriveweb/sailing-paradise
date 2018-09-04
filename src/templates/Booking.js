@@ -20,6 +20,7 @@ export const BookingPageTemplate = ({
   phone,
   hours, 
   map,
+  location
 }) => {
 
   return <main className='Booking'>
@@ -56,16 +57,19 @@ export const BookingPageTemplate = ({
           </div> 
         </div>
         <div className='Contact--Section2'>
-          <BookingForm />
+          <BookingForm 
+            location={location}
+          />
         </div>
       </div>  
     </section>
   </main>
 }
 
-const BookingPage = ({ data: { page, settings } }) => (
-  <BookingPageTemplate {...page.frontmatter} body={page.html} {...settings} />
-)
+const BookingPage = props => {
+  const { data: { page, settings }, location } = props
+  return <BookingPageTemplate {...page.frontmatter} body={page.html} {...settings} location={location} />
+}
 
 export default BookingPage
 

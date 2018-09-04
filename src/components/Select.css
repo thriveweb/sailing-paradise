@@ -23,6 +23,7 @@
 
 .select-dropdown .Form--Input {
 	border: none;
+	text-transform: capitalize;
 }
 
 .select-dropdown.active ul {
