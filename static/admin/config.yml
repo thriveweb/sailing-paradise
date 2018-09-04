@@ -591,6 +591,7 @@ collections: # A list of collections the CMS should be able to edit
               - {label: Facebook, name: facebook, widget: string, required: false}
               - {label: Instagram, name: instagram, widget: string, required: false}
               - {label: Google Plus, name: googlePlus, widget: string, required: false}
+          - {label: Footer Content, name: footerContent, widget: markdown, required: false}
           - label: "Column Banner"
             name: "columnBanner"
             required: false

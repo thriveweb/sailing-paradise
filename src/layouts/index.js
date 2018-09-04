@@ -30,6 +30,8 @@ class IndexLayout extends Component {
 
       const { siteTitle, siteUrl, headerScripts, bookingPopup } = data.settingsYaml || {}
 
+      console.log(data.settingsYaml)
+
     return (
       <Fragment>
         <Helmet defaultTitle={siteTitle} titleTemplate={`%s | ${siteTitle}`}>
@@ -55,7 +57,7 @@ class IndexLayout extends Component {
           {children()}
         </div>
 
-        <Footer />
+        <Footer {...data.settingsYaml} />
       </Fragment>
     )
   }
