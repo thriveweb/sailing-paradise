@@ -35,7 +35,7 @@ services:
         luxury, resort style, catamaran for up to 30 guests.
       icon: /images/uploads/wheel.svg
       title: Private Boat Hire
-      buttonUrl: Private Charters
+      buttonUrl: private-charters
   - image: /images/uploads/girl-img1.jpg
     serviceContent:
       description: >-
