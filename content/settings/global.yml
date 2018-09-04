@@ -42,7 +42,7 @@ globalVideo:
 bookingPopup:
   contentBoxes:
     - buttonTitle: Book now
-      buttonUrl: /booking
+      buttonUrl: cruises
       icon: /images/uploads/boat2.svg
       title: Book tickets on a cruise
     - buttonTitle: Enquire
