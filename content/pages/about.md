@@ -35,7 +35,7 @@ captainSection:
       image: /images/uploads/girl-img12.jpg
       name: Jess Buckley
       socialMedia:
-        instagram: 'https://instagram.com'
+        linkedin: 'https://linkedin.com'
         twitter: 'https://twitter.com'
       title: Director
     - description: >-
@@ -48,7 +48,7 @@ captainSection:
       image: /images/uploads/guy-img1.jpg
       name: Steve Buckley
       socialMedia:
-        instagram: 'https://instagram.com'
+        linkedin: 'https://linkedin.com'
         twitter: 'https://twitter.com'
       title: Director
   captainIntro: >-
