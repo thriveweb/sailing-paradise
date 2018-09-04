@@ -25,9 +25,7 @@ export const SingleCaseStudyTemplate = ({
   banner,
   globalVideo
 }) => {
-
-  console.log(gallery)
-
+  
   return <main className='SingleCaseStudy'>
     <Helmet>
       <title>{title}</title>

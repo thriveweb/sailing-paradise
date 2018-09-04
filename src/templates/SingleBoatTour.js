@@ -30,7 +30,10 @@ export const SingleBoatTourTemplate = ({
   slug,
   post
 }) => {
-  const charterUrl = slug.replace('/boat-tours/', '').replace('/', '')
+
+  console.log(slug)
+
+  const charterUrl = slug ? slug.replace('/boat-tours/', '').replace('/', '') : ''
   
   return <main className='SingleBoatTour'>
     <Helmet>
