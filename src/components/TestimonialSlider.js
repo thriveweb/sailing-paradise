@@ -59,7 +59,7 @@ class Slider extends Component {
                         {content && <Content src={content} />}
                     </div>
                 )}
-                <div className='slider-dots'>
+                {/*<div className='slider-dots'>
                     {featuredTestimonials.map(({ name }, index) => 
                         <span
                             key={index} 
@@ -67,7 +67,7 @@ class Slider extends Component {
                             className={activeSlide === index ? 'active' : ''}
                         ></span>
                     )}
-                </div>
+                </div>*/}
             </div>
         </section>    
     }

@@ -12,17 +12,18 @@
 }
 
 .aboutUs-Content {
-	max-width: 35%;
+	max-width: 40%;
 	margin: 0 0 0 auto;
 	position: relative;
 	z-index: 2;
 	padding: 15rem 10rem;
+	background-color: rgba(255,255,255,0.8);
 }
 
 .aboutUs-Content * {
 	position: relative;
 	z-index: 2;
-	color: white;
+	color: var(--primary);
 }
 
 .aboutUs-Content .blur {
@@ -43,6 +44,7 @@
 .aboutUs-Content .button {
 	display: inline-block;
 	margin-right: 4rem;
+	margin-top: 2rem;
 }
 
 .aboutUs-Content .button:last-of-type {

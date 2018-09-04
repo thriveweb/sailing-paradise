@@ -29,7 +29,7 @@
     flex: 0 0 50%;
     border-radius: 5px;
     opacity: 0.3;
-    box-shadow: 0 5px 20px 3px rgba(78,209,213, 0.3);
+    box-shadow: 0 0 3rem 0 rgba(0,0,0, 0.1);
 }
 
 .slide .gatsby-image-outer-wrapper {
@@ -110,7 +110,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    left: 50%;
+    right: 0;
     transform: translateX(-50%);
 }
 
@@ -121,7 +121,7 @@
     flex: 0 0 1.25rem;
     height: 1.25rem;
     border-radius: 50%;
-    background-color: #B5C3E2;
+    background-color: var(--primary);
     opacity: 0.45;
     transition: all ease-in-out 0.2s;
     cursor: pointer;

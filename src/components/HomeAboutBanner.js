@@ -11,12 +11,11 @@ export default ({ featuredImage, title, subtitle, content, buttons }) =>
 		<Image background src={featuredImage} alt='' />
 		{title && <h2 className='title-gradient'>{title}</h2>}
 		<div className='aboutUs-Content fancy-title'>
-			<div className='blur'></div>
 			{subtitle && <h3>{subtitle}</h3>}
 			{content && <Content src={content} />}
 			{buttons &&
 				buttons.map(({ buttonTitle, buttonUrl}, index) => 
-					<Button  key={buttonUrl + index} title={buttonTitle} url={buttonUrl} white />
+					<Button  key={buttonUrl + index} title={buttonTitle} url={buttonUrl} />
 				)
 			}
 		</div>
