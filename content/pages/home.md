@@ -16,11 +16,17 @@ featuredSlider:
   - description: 2 hour sunset cruise
     title: Sunset & City Lights
     buttonUrl: cruise
+  - description: Lorem ipsum dolor sit amet.
+    title: Featured Tour Example
+    buttonUrl: /
+  - description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit.'
+    title: Other Featured Tour
+    buttonUrl: /
 featuredBanner:
   image: /images/uploads/img-backflip.jpg
   title: Gift Cards Now Available
   buttonTitle: Discover More
-  buttonUrl: contact
+  buttonUrl: /contact
 services:
   - image: /images/uploads/sail-img1.jpg
     serviceContent:
