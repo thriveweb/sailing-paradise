@@ -76,7 +76,7 @@ class Form extends React.Component {
   render() {
     const { name, subject, action, honeypot } = this.props
 
-    const location = _get(this.props, 'location') || ''
+    let location = _get(this.props, 'location') || ''
     const query = parse(location.search.replace('?', ''))
 
     const formCharter = query.charter
