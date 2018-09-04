@@ -1,7 +1,7 @@
 ---
 template: SingleBoatTour
 tourType: Cruise
-title: Cruise Example
+title: Sails and Sights Cruise
 icon: ''
 featuredImage: /images/uploads/ppl-boat-img6.jpg
 intro: >-
