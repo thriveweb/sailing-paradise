@@ -23,6 +23,8 @@ export const BookingPageTemplate = ({
   location
 }) => {
 
+  console.log(location)
+
   return <main className='Booking'>
     <Helmet>
       <title>{title}</title>

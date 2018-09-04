@@ -26,6 +26,8 @@ export const SingleCaseStudyTemplate = ({
   globalVideo
 }) => {
 
+  console.log(gallery)
+
   return <main className='SingleCaseStudy'>
     <Helmet>
       <title>{title}</title>
@@ -35,8 +37,8 @@ export const SingleCaseStudyTemplate = ({
     	const { title, featuredImage } = frontmatter
     	return <PageHeader
     		key={index}
-	      	title={title}
-	      	backgroundImage={featuredImage}
+	      title={title}
+	      backgroundImage={featuredImage}
 	    />
     })}
 
@@ -60,8 +62,8 @@ export const SingleCaseStudyTemplate = ({
         </div>
         <div className="SingleCaseStudy--Body">
         	<div className='columnLeft'>
-        		<Image src={featuredImage} alt={title} />
-        	    <Video {...videoSection} />
+        		{featuredImage && <Image src={featuredImage} alt={title} />}
+        	  {videoSection && <Video {...videoSection} />}
         	</div>
         	<div className='columnRight'>
           		<Content source={body} />
@@ -76,7 +78,7 @@ export const SingleCaseStudyTemplate = ({
         <SocialShare />
       </div>
     </div>
-    <GallerySlider gallery={gallery} />
+    {gallery && <GallerySlider gallery={gallery} />}
     <Video {...globalVideo} videoBanner />
   </main>
 }
