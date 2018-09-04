@@ -103,7 +103,7 @@ accordionSection:
   title: Sails and Sights Cruise INFO
 columnBanner:
   - buttonTitle: Make Enquiry
-    buttonUrl: /enquiry
+    buttonUrl: booking-enquiry
     content: |-
       Adults was $59.00 / Now $49
 
