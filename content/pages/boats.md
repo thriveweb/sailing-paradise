@@ -116,7 +116,7 @@ boats:
         https://www.youtube.com/watch?v=vr0qNXmkUJ8&list=PLNhzc-Os3JK8ExayVzzoHVvP2c0-4_oqt
 secondaryBanner:
   buttonTitle: Know More
-  buttonUrl: /about
+  buttonUrl: about
   title: Climb Aboard and get to know us
   featuredImage: /images/uploads/ppl-boat.jpg
 ---
