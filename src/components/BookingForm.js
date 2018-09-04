@@ -4,6 +4,7 @@ import { serialize } from 'dom-form-serializer'
 import Select from './Select'
 import { ICONButtonArrows } from './Icons'
 import NumericInput from 'react-numeric-input';
+import _get from 'lodash/get'
 
 import DatePicker from 'react-datepicker';
 import moment from 'moment';
@@ -74,7 +75,9 @@ class Form extends React.Component {
 
   render() {
     const { name, subject, action, honeypot } = this.props
-    const query = parse(location.search.replace('?', ''))
+
+    const search = _get(location, 'search') || ''
+    const query = parse(search.replace('?', ''))
 
     const formCharter = query.charter
 
