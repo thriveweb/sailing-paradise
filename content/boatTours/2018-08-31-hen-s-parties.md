@@ -17,7 +17,7 @@ intro: >-
   elementum auctor.
 contentBox:
   buttonTitle: Make enquiry
-  buttonUrl: /enquiry
+  buttonUrl: booking-enquiry
   title: Let us tailor your VIP Gold Coast Hens Party Experience
 gallery:
   - image: /images/uploads/girls-img9.jpg
@@ -140,7 +140,7 @@ accordionSection:
   title: Hen's Party Info
 columnBanner:
   - buttonTitle: Make Enquiry
-    buttonUrl: /enquiry
+    buttonUrl: booking-enquiry
     content: >-
       Let our friendly and experienced team tailor a VIP Gold Coast Hens Party
       Experience that you and she won’t forget.
