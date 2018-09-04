@@ -22,6 +22,9 @@ socialMedia:
   facebook: 'https://facebook.com'
   googlePlus: 'https://google.com'
   instagram: 'https://instagram.com'
+footerContent: >-
+  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean tempor massa
+  ut felis tempus semper.
 columnBanner:
   - buttonTitle: See More
     buttonUrl: private-charters
