@@ -3,30 +3,30 @@ template: HomePage
 slug: ''
 title: True Paradise
 buttonTitle: Find your perfect cruise
-buttonUrl: cruise
+buttonUrl: cruises
 featuredVideo: >-
   https://www.youtube.com/watch?v=vr0qNXmkUJ8&list=PLNhzc-Os3JK8ExayVzzoHVvP2c0-4_oqt
 featuredSlider:
   - description: 2 hour morning or afternoon cruise
     title: Sailing & Sights Cruise
-    buttonUrl: cruise
+    buttonUrl: cruises
   - description: 3 hour afternoon cruise
     title: Island Adventure Cruise
-    buttonUrl: cruise
+    buttonUrl: cruises
   - description: 2 hour sunset cruise
     title: Sunset & City Lights
-    buttonUrl: cruise
+    buttonUrl: cruises
   - description: Lorem ipsum dolor sit amet.
     title: Featured Tour Example
-    buttonUrl: /
+    buttonUrl: cruises
   - description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit.'
     title: Other Featured Tour
-    buttonUrl: /
+    buttonUrl: cruises
 featuredBanner:
   image: /images/uploads/img-backflip.jpg
   title: Gift Cards Now Available
   buttonTitle: Discover More
-  buttonUrl: /contact
+  buttonUrl: contact
 services:
   - image: /images/uploads/sail-img1.jpg
     serviceContent:
@@ -35,7 +35,7 @@ services:
         luxury, resort style, catamaran for up to 30 guests.
       icon: /images/uploads/wheel.svg
       title: Private Boat Hire
-      buttonUrl: cruise
+      buttonUrl: Private Charters
   - image: /images/uploads/girl-img1.jpg
     serviceContent:
       description: >-
@@ -43,7 +43,7 @@ services:
         a beautiful Seawind 1050 Sailing Catamaran. With no more than 30 guests.
       icon: /images/uploads/boat2.svg
       title: Sails & Sights Cruise
-      buttonUrl: cruise
+      buttonUrl: cruises
   - image: /images/uploads/girl-img2.jpg
     serviceContent:
       description: >-
@@ -52,18 +52,18 @@ services:
         elegant morning tea cruise.
       icon: /images/uploads/wine.svg
       title: Hens Party Specialists
-      buttonUrl: cruise
+      buttonUrl: boat-tours/hens-parties
 serviceBanner:
   subtitle: Let’s Get The Party Started !
   title: Ready to book your Gold Coast Boat Hire?
   buttonTitle: Find your Perfect Cruise
-  buttonUrl: cruise
+  buttonUrl: cruises
   featuredImage: /images/uploads/waves-img1.jpg
 secondaryBanner:
   subtitle: Special Offer
   title: Adults at Kids prices
   buttonTitle: Know More
-  buttonUrl: cruise
+  buttonUrl: cruises
   featuredImage: /images/uploads/beach-img1.jpg
 aboutSection:
   buttons:
