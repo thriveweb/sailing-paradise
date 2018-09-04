@@ -33,7 +33,7 @@ export const SingleCaseStudyTemplate = ({
       <title>{title}</title>
     </Helmet>
 
-    {banner.map(({ frontmatter }, index) => {
+    {banner && banner.map(({ frontmatter }, index) => {
     	const { title, featuredImage } = frontmatter
     	return <PageHeader
     		key={index}
