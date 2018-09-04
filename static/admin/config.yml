@@ -145,7 +145,7 @@ collections: # A list of collections the CMS should be able to edit
                     name: "socialMedia"
                     widget: "object"
                     fields:
-                      - {label: Instagram, name: instagram, widget: string, required: false}
+                      - {label: Linkedin, name: linkedin, widget: string, required: false}
                       - {label: Twitter, name: twitter, widget: string, required: false}
           - label: "Crew Section"
             required: false

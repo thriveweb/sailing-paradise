@@ -57,7 +57,11 @@ class IndexLayout extends Component {
           {children()}
         </div>
 
-        <Footer {...data.settingsYaml} />
+        <Footer 
+          {...data.settingsYaml}
+          charters={privateCharters} 
+          cruises={cruiseTours} 
+        />
       </Fragment>
     )
   }

@@ -2,7 +2,7 @@ import React from 'react'
 import IntroText from './IntroText'
 import Image from './Image'
 import Content from './Content'
-import { ICONInstagram, ICONTwitter } from './Icons'
+import SocialLinks from './SocialLinks'
 
 import './CaptainListing.css'
 
@@ -24,20 +24,7 @@ export default ({ captainIntro, captain }) => {
 							{name && <h4>{name}</h4>}
 							{title && <p>{title}</p>}
 							{description && <Content src={description} />}
-							{socialMedia && 
-								<div className='share-buttons'>
-									<li>
-										<a href={instagram}>
-											<ICONInstagram />
-										</a>
-									</li>
-									<li>
-										<a href={twitter}>
-											<ICONTwitter />
-										</a>
-									</li>
-								</div>
-							}
+							<SocialLinks socialMedia={socialMedia} />
 						</div>
 					})} 
 				</div>	

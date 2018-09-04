@@ -23,8 +23,8 @@ export default ({boats}) => {
 					{boatFeatures &&
 						<div className='colRight column'>
 							<h4>Features</h4>
-							{boatFeatures.map(({ content }) => {
-								return <Content src={content} />
+							{boatFeatures.map(({ content }, index) => {
+								return <Content src={content} key={index} />
 							})}
 						</div>
 					}
