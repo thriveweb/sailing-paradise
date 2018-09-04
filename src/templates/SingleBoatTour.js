@@ -42,19 +42,21 @@ export const SingleBoatTourTemplate = ({
     />
     <div className='BoatTourIntro'>
       <div className='container'>
-        <IntroText content={intro} />
-        <ContentBox {...contentBox} />
+        {intro && <IntroText content={intro} />}
+        {contentBox && <ContentBox {...contentBox} />}
       </div>  
     </div> 
-    <GallerySlider gallery={gallery} />
-    <IntroText content={contentColumn} title={contentColumnTitle} />
+    {gallery && <GallerySlider gallery={gallery} />}
+    {contentColumn && <IntroText content={contentColumn} title={contentColumnTitle} />}
     <Accordion accordionSection={accordionSection} />
-    <ColumnBanner 
-      columnBanner={columnBanner}
-      boatTour
-      charterUrl={charterUrl}
-    />
-    <FeaturedTestimonial {...testimonials} />
+    {columnBanner &&
+      <ColumnBanner 
+        columnBanner={columnBanner}
+        boatTour
+        charterUrl={charterUrl}
+      />
+    }
+    {testimonials && <FeaturedTestimonial {...testimonials} />}
   </main>
 }
 
