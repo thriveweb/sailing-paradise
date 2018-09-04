@@ -34,6 +34,8 @@
     "react-dom": "^16.4.2",
     "react-feather": "^1.1.0",
     "react-helmet": "^5.2.0",
+    "react-instafeed": "^0.4.0",
+    "react-instagram-embed": "^1.4.0",
     "react-intersection-observer": "^6.1.1",
     "react-markdown": "^3.3.2",
     "react-numeric-input": "^2.2.3",
