@@ -50,14 +50,16 @@ class GallerySlider extends Component {
 	    		})}
 	    	</Slider>
 			{gallery.map(({ image }, index) => {
+
+				console.log(image)
 				return <div 
 					className={`galleryImage--Popup ${this.state.popupActive === index ? 'active' : ''}`} 
 					key={`image-full-${index}`}
 				>
 					<div className='popup-close' onClick={() => this.handlePopup()}>
 						<ICONClose />
-					</div>	
-	    			<Image src={image} alt=''/>
+					</div>
+	    			<img src={image.publicURL} alt=''/>	
 	    		</div>
 			})}
 		</div>	

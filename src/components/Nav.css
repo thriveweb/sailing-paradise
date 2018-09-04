@@ -107,7 +107,7 @@
 .hasChildren.two-column .subMenu {
   display: flex;
   flex-wrap: wrap;
-  min-width: 40rem;
+  min-width: 44rem;
 }
 
 .hasChildren.two-column .subMenu .NavLink {

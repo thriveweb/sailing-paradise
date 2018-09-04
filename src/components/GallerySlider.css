@@ -82,17 +82,12 @@
 	visibility: visible;
 }
 
-.galleryImage--Popup .gatsby-image-outer-wrapper {
+.galleryImage--Popup img {
 	transform: scale(0);
 	transition: all ease-in-out .3s;
 }
 
-.galleryImage--Popup.active .gatsby-image-outer-wrapper {
-	display: block;
-	width: 90%;
-	max-height: 90%;
-	height: auto;
-	margin: 0 auto;
+.galleryImage--Popup.active img {
 	transform: scale(1);
 }
 

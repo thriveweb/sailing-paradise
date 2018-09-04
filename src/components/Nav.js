@@ -58,15 +58,15 @@ export default class Nav extends Component {
             </Link>
             <div className="Nav--Links">
               <li className='NavLink hasChildren two-column'>
-                  Cruises
-                  <ul className='subMenu'>
-                    {cruises.map(({ fields, frontmatter}, index) => {
-                      return <NavLink className='NavLink' key={`cruises-${index}`} to={fields.slug}>{frontmatter.title}</NavLink>
-                    })}
-                  </ul>
+                <NavLink className='parentLink' to="/cruises/" exact>Cruises</NavLink>
+                <ul className='subMenu'>
+                  {cruises.map(({ fields, frontmatter}, index) => {
+                    return <NavLink className='NavLink' key={`cruises-${index}`} to={fields.slug}>{frontmatter.title}</NavLink>
+                  })}
+                </ul>
               </li>
               <li className='NavLink hasChildren two-column'>
-              <NavLink className='parentLink' to="/private-charters/" exact>Private Charters</NavLink>
+                <NavLink className='parentLink' to="/private-charters/" exact>Private Charters</NavLink>
                 <ul className='subMenu'>
                   {charters.map(({ fields, frontmatter}, index) => {
                     return <NavLink className='NavLink' key={`charters-${index}`} to={fields.slug}>{frontmatter.title}</NavLink>
