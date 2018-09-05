@@ -33,8 +33,8 @@ export const CaseStudiesTemplate = ({
       <section className="section">
         <div className="container">
           {subtitle && 
-            <div className='intro-section fancy-title alignCenter'>
-              <h2>{subtitle}</h2>
+            <div className='intro-section alignCenter'>
+              <h2 className='fancy-title'>{subtitle}</h2>
             </div>
           }
           <PostSection posts={posts} />
