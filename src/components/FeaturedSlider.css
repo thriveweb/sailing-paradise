@@ -25,22 +25,17 @@
 	color: white;
 }
 
-.featuredSlider h2 {
+.featuredSlider .fancy-title {
 	font-size: 2rem;
 	opacity: 0.8;
 }
 
-.featuredSlider.fancy-title h2:before, .featuredSlider.fancy-title h2:after {
+.featuredSlider .fancy-title:before, .featuredSlider .fancy-title:after {
 	background-color: white;
 	width: 100%;
 }
 
-.featuredSlider.fancy-title h4:before, .featuredSlider.fancy-title h4:after {
-	display: none;
-}
-
-.featuredSlider.fancy-title h4 {
-	margin-bottom: 0;
+.featuredSlider h4 {
 	font-size: 1.8rem;
 }
 

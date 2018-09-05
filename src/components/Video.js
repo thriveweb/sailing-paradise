@@ -1,7 +1,6 @@
 import React, { Component } from 'react'
 import Image from './Image'
 import { ICONPlay } from './Icons'
-import Button from './Button'
 import FeaturedSlider from './FeaturedSlider'
 import SocialLinks from './SocialLinks'
 
@@ -24,7 +23,7 @@ class Video extends Component {
 	}
 
 	render() {
-		const { title, video, imageOverlay, videoBanner, homeVideo, buttonTitle, buttonUrl, featuredSlider, featuredBanner, socialMedia } = this.props
+		const { title, video, imageOverlay, videoBanner, homeVideo, featuredSlider, featuredBanner, socialMedia } = this.props
 		const { videoPlaying } = this.state
 
 		if(!video) return null
@@ -36,7 +35,6 @@ class Video extends Component {
 					<div className='overlay-content'>
 						<div className='container'>
 							{title && <h1 className='title-gradient'>{title}</h1>}
-							{buttonTitle && buttonUrl && <Button title={buttonTitle} url={buttonUrl} white />}
 						</div>	
 					</div>
 				}

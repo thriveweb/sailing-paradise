@@ -17,6 +17,19 @@
 	margin-bottom: 1.5rem;
 }
 
+.serviceContent .fancy-title {
+	font-size: 1.8rem;
+	font-weight: 600;
+	text-transform: uppercase;
+	color: var(--primary);
+	transform: scale(1);
+	transition: all ease-in-out .2s;
+}
+
+.serviceContent .fancy-title:hover {
+	transform: scale(2);
+}
+
 .serviceContent .button {
 	display: inline-block;
 	border: none;
@@ -34,6 +47,10 @@
 .serviceColumns .serviceImage:last-of-type {
 	min-height: 80rem;
 }
+
+
+
+/*Banner*/
 
 .serviceBanner {
 	position: absolute;

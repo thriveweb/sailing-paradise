@@ -57,7 +57,7 @@ export default class Nav extends Component {
               <Logo />
             </Link>
             <div className="Nav--Links">
-              <li className='NavLink hasChildren two-column'>
+              <li className='NavLink hasChildren'>
                 <NavLink className='parentLink' to="/cruises/" exact>Cruises</NavLink>
                 <ul className='subMenu'>
                   {cruises.map(({ fields, frontmatter}, index) => {

@@ -1,5 +1,5 @@
 import React, { Fragment } from 'react'
-
+import Link from 'gatsby-link'
 import Image from './Image'
 import Button from './Button'
 
@@ -15,9 +15,9 @@ export default ({ services, serviceBanner }) => {
 			{services.map(({ serviceContent, image }, index) => {
 				const { icon, title, description, buttonUrl } = serviceContent
 				return <Fragment key={index}>
-					<div className='serviceContent fancy-title'>
+					<div className='serviceContent'>
 						{icon && <Image src={icon} alt='' />}
-						{title && <h4>{title}</h4>}
+						{title && <Link className='fancy-title' to={buttonUrl}>{title}</Link>}
 						{description && <p>{description}</p>}
 						{buttonUrl && <Button title='Know More' url={buttonUrl} />}
 					</div>

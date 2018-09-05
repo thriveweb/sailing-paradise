@@ -55,9 +55,11 @@ export default ({ footerContent, socialMedia, cruises, charters }) => {
 		    		<div className='footer-col col4'>
 		    			<h4>Quick contact</h4>
 		    			<EnquiryForm />
-		    			<h4>Enquire Now</h4>
-		    			 <Link className='NavLink' to="/book-enquiry/" exact>
-	                      Book Now
+		    			<Link className='NavLink' to="/book-enquiry/" exact>
+	                      Enquire About Hiring our Boats
+	                    </Link>
+		    			 <Link className='NavLink' to="/cruises/" exact>
+	                      Book Tickets on a Cruise
 	                    </Link>
 		    		</div>
 		    	</div>

@@ -33,7 +33,7 @@
 	filter: blur(10px);
 }
 
-.aboutUs-Content.fancy-title h3 {
+.aboutUs-Content .fancy-title {
 	font-size: 3.6rem;
 }
 

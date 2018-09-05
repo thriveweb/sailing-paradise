@@ -26,8 +26,8 @@ class GallerySlider extends Component {
 		if(!featuredSlider) return null
 
 		return <div className='FeaturedHomeSection'>
-			<div className='featuredSlider fancy-title'>
-				<h2>Featured</h2>
+			<div className='featuredSlider'>
+				<h2 className='fancy-title'>Featured</h2>
 				<Slider {...settings}>
 		    		{featuredSlider.map(({ title, description, buttonUrl }, index) => {
 		    			return <div 

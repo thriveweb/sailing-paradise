@@ -6,12 +6,12 @@ import './IntroText.css'
 export default({ content, center, className = '', title }) => {
 	if (center) className += ' alignCenter'
 
-	if(title) return <div className='contentColumn fancy-title'>
+	if(title) return <div className='contentColumn fancy-container'>
 		<div className='container'>
 			<h2>{title}</h2>
 			<Content className={`intro-section  ${className}`} src={content}/>
 		</div>	
 	</div>	
 
-	return <Content className={`intro-section fancy-title ${className}`} src={content}/>
+	return <Content className={`intro-section fancy-container ${className}`} src={content}/>
 }

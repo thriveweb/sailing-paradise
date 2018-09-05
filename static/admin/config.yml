@@ -214,8 +214,6 @@ collections: # A list of collections the CMS should be able to edit
           - {label: Template, name: template, widget: hidden, default: HomePage}
           - {label: Slug, name: slug, widget: hidden, default: ''}
           - {label: Title, name: title, widget: string}
-          - {label: Button Title, name: buttonTitle, widget: string, required: false}
-          - {label: Button Url, name: buttonUrl, widget: string, required: false}
           - {label: Featured Video, name: featuredVideo, widget: string}
           - label: "Featured Slider"
             required: false
