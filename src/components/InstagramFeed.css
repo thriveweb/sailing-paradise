@@ -1,0 +1,42 @@
+.InstagramSection {
+	display: flex;
+	justify-content: space-between;
+	padding-left: 20rem;
+}
+
+.insta-intro {
+	padding-top: 6rem;
+}
+
+.InstagramSection h2 {
+	display: flex;
+	align-items: center;
+}
+
+.InstagramSection h2 svg {
+	height: 3rem;
+	margin-right: 2rem;
+}
+
+.InstagramSection .button {
+	display: inline-block;
+}
+
+#instafeed {
+	flex: 0 0 75%;
+}
+
+#instafeed div {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.instafeed__item {
+	flex: 0 0 33.33%;
+	height: 28.5rem;
+	overflow: hidden;
+}
+
+.instafeed__item__overlay, .instafeed__item__caption, .instafeed__item__overlay--inner, .instafeed__item__location {
+	display: none;
+}
