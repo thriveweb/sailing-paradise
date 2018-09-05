@@ -2,69 +2,67 @@
 template: HomePage
 slug: ''
 title: True Paradise
-buttonTitle: Find your perfect cruise
-buttonUrl: cruises
 featuredVideo: >-
   https://www.youtube.com/watch?v=vr0qNXmkUJ8&list=PLNhzc-Os3JK8ExayVzzoHVvP2c0-4_oqt
 featuredSlider:
-  - description: 2 hour morning or afternoon cruise
+  - buttonUrl: cruises
+    description: 2 hour morning or afternoon cruise
     title: Sailing & Sights Cruise
-    buttonUrl: cruises
-  - description: 3 hour afternoon cruise
+  - buttonUrl: cruises
+    description: 3 hour afternoon cruise
     title: Island Adventure Cruise
-    buttonUrl: cruises
-  - description: 2 hour sunset cruise
+  - buttonUrl: cruises
+    description: 2 hour sunset cruise
     title: Sunset & City Lights
-    buttonUrl: cruises
-  - description: Lorem ipsum dolor sit amet.
+  - buttonUrl: cruises
+    description: Lorem ipsum dolor sit amet.
     title: Featured Tour Example
-    buttonUrl: cruises
-  - description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit.'
+  - buttonUrl: cruises
+    description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit.'
     title: Other Featured Tour
-    buttonUrl: cruises
 featuredBanner:
-  image: /images/uploads/img-backflip.jpg
-  title: Gift Cards Now Available
   buttonTitle: Discover More
   buttonUrl: contact
+  image: /images/uploads/img-backflip.jpg
+  title: Gift Cards Now Available
 services:
   - image: /images/uploads/sail-img1.jpg
     serviceContent:
+      buttonUrl: private-charters
       description: >-
         Sailing in Paradise invites you to step aboard ‘The Spirit of Gwonda’ a
         luxury, resort style, catamaran for up to 30 guests.
       icon: /images/uploads/wheel.svg
       title: Private Boat Hire
-      buttonUrl: private-charters
   - image: /images/uploads/girl-img1.jpg
     serviceContent:
+      buttonUrl: cruises
       description: >-
         Join Sailing in Paradise on a cruise of the Gold Coast Broadwater aboard
         a beautiful Seawind 1050 Sailing Catamaran. With no more than 30 guests.
       icon: /images/uploads/boat2.svg
       title: Sails & Sights Cruise
-      buttonUrl: cruises
   - image: /images/uploads/girl-img2.jpg
     serviceContent:
+      buttonUrl: boat-tours/hens-parties
       description: >-
         A unique hen’s party idea on the Gold Coast. Whether you are looking for
         a relaxing day on the water with some delicious food and drinks, an
         elegant morning tea cruise.
       icon: /images/uploads/wine.svg
       title: Hens Party Specialists
-      buttonUrl: boat-tours/hens-parties
 serviceBanner:
-  subtitle: Let’s Get The Party Started !
-  title: Ready to book your Gold Coast Boat Hire?
   buttonTitle: Find your Perfect Cruise
   buttonUrl: cruises
   featuredImage: /images/uploads/waves-img1.jpg
+  subtitle: Let’s Get The Party Started!
+  title: Ready to book your Gold Coast Boat Hire?
 secondaryBanner:
-  subtitle: Special Offer
-  title: Adults at Kids prices
   buttonTitle: Know More
   buttonUrl: cruises
   featuredImage: /images/uploads/beach-img1.jpg
+  subtitle: Special Offer
+  title: Adults at Kids prices
 aboutSection:
   buttons:
     - buttonTitle: More about us
@@ -103,10 +101,9 @@ highlights:
   - icon: /images/uploads/speakers.svg
     title: 'Fully equipped with Sound System (w Spotify), BBQ, Eskies, and Restroom'
 Testimonials:
-  description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.'
-  title: Happy Sailors
   buttonTitle: See more testimonials
   buttonUrl: case-studies
+  description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.'
   featuredTestimonials:
     - content: >-
         “We used Sailing in Paradise for a friends bridal shower. Steve was
@@ -132,6 +129,7 @@ Testimonials:
         sure we all felt very looked after.”
       image: /images/uploads/girl-img4.jpg
       name: Jessica
+  title: Happy Sailors
 latestNews: |-
   ## Latest News
 
