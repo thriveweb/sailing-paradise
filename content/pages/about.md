@@ -85,6 +85,10 @@ secondaryBanner:
   buttonUrl: private-charters
   title: check out our amazing catamarans
   featuredImage: /images/uploads/boat-img5.jpg
+videoSection:
+  imageOverlay: /images/uploads/home-banner.jpg
+  video: >-
+    https://www.youtube.com/watch?v=vr0qNXmkUJ8&list=PLNhzc-Os3JK8ExayVzzoHVvP2c0-4_oqt
 columnBanner:
   - buttonTitle: See More
     buttonUrl: private-charters
