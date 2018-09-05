@@ -84,7 +84,7 @@ aboutSection:
     The open plan layout ensures all your guests can interact with each other
     without having the wasted space of bedrooms, kitchens etc.
   featuredImage: /images/uploads/ppl-boat.jpg
-  subtitle: Our Boats and Crew
+  subtitle: Our Boats & Crew
   title: Meet Us
 highlightsIntro: '## PRIVATE CHARTER HIGHLIGHTS'
 highlights:
