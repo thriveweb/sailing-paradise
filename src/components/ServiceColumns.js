@@ -28,12 +28,12 @@ export default ({ services, serviceBanner }) => {
 			})}
 		</div>	
 		<div className='serviceBanner'>
-			<Image background src={featuredImage} alt='' />
 			<div className='serviceBanner-Content'>
 				{title && <p>{title}</p>}
 				{subtitle && <h3>{subtitle}</h3>}
 				{buttonTitle && buttonUrl && <Button title={buttonTitle} url={buttonUrl} white />}
-			</div>	
+				<Image background src={featuredImage} alt='' />	
+			</div>
 		</div>
 	</section>
 }

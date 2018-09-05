@@ -22,12 +22,15 @@
 	font-weight: 600;
 	text-transform: uppercase;
 	color: var(--primary);
+	display: block;
+	padding: 0 0 1rem;
+  	margin-bottom: 3.5rem;
 	transform: scale(1);
 	transition: all ease-in-out .2s;
 }
 
 .serviceContent .fancy-title:hover {
-	transform: scale(2);
+	transform: scale(1.05) translateX(1rem);
 }
 
 .serviceContent .button {
@@ -62,26 +65,15 @@
 	align-items: center;
 }
 
-.serviceBanner:before {
-	content: '';
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-	background: linear-gradient(to right, rgba(0,0,0,0.7), transparent);
-	z-index: 1;
-}
-
 .serviceBanner-Content {
-	position: relative;
-	z-index: 1;
 	width: 60%;
 	margin: auto;
 }
 
-.serviceBanner-Content * {
+.serviceBanner-Content p, .serviceBanner-Content h3, .serviceBanner-Content .button {
 	color: white;
+	position: relative;
+	z-index: 2;
 }
 
 .serviceBanner-Content p {
@@ -99,6 +91,25 @@
 	display: inline-block;
 	margin: 0;
 }
+
+.serviceBanner-Content .BackgroundImage:before {
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: linear-gradient(to right, rgba(0,0,0,0.7) 0%, rgba(0,0,0,0.7) 60%, rgba(0,0,0,0.2) 100%);
+	background-size: 200% auto;
+	background-position: 100% top;
+	z-index: 1;
+	transition: all ease-in-out .3s;
+}
+
+.serviceBanner-Content .button:hover + .BackgroundImage:before {
+	background-position: left top;
+}
+
 
 
 

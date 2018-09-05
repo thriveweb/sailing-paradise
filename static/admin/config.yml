@@ -307,7 +307,7 @@ collections: # A list of collections the CMS should be able to edit
                 fields:
                   - {label: Image, name: image, widget: image}
                   - {label: Name, name: name, widget: string}
-                  - {label: Content, name: content, widget: markdown}
+                  - {label: Content, name: content, widget: markdown, pattern: [".{,100}", "Must not exceed 300 characters"]}
           - {label: Latest News, name: latestNews, widget: markdown, required: false}        
           - label: "Meta"
             required: false

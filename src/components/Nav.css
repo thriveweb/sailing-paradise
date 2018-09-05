@@ -139,6 +139,7 @@
   text-transform: uppercase;
   font-size: 1.4rem;
   transition: all ease-in-out .2s;
+  box-shadow: 0 0 3rem 0 rgba(0,0,0,0.1);
 }
 
 .nav-button:hover {
