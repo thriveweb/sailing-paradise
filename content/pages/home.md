@@ -6,7 +6,15 @@ featuredVideo: >-
   https://www.youtube.com/watch?v=vr0qNXmkUJ8&list=PLNhzc-Os3JK8ExayVzzoHVvP2c0-4_oqt
 featuredSlider:
   - buttonUrl: cruises
-    description: 2 hour morning or afternoon cruise
+    description: >-
+      2 hour morning or afternoon cruise 2 hour morning or afternoon cruise 2
+      hour morning or afternoon cruise 2 hour morning or afternoon cruise 2 hour
+      morning or afternoon cruise 2 hour morning or afternoon cruise2 hour
+      morning or afternoon cruise 2 hour morning or afternoon cruise 2 hour
+      morning or afternoon cruise2 hour morning or afternoon cruise2 hour
+      morning or afternoon cruise2 hour morning or afternoon cruise2 hour
+      morning or afternoon cruise2 hour morning or afternoon cruise2 hour
+      morning or afternoon cruise2 hour morning or afternoon cruise
     title: Sailing & Sights Cruise
   - buttonUrl: cruises
     description: 3 hour afternoon cruise
