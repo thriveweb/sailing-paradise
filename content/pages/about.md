@@ -87,6 +87,7 @@ secondaryBanner:
   featuredImage: /images/uploads/boat-img5.jpg
 videoSection:
   imageOverlay: /images/uploads/home-banner.jpg
+  title: Experience the open water with an affordable yet luxurious adventure
   video: >-
     https://www.youtube.com/watch?v=vr0qNXmkUJ8&list=PLNhzc-Os3JK8ExayVzzoHVvP2c0-4_oqt
 columnBanner:
