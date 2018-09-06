@@ -29,6 +29,6 @@ secondaryBanner:
   buttonTitle: back
   buttonUrl: case-studies
   title: back to all happy sailors
-  featuredImage: /images/uploads/beach-img1.jpg
+  featuredImage: /images/uploads/boat-img10.jpg
 ---
 This is where you will write a summary of what these clients booked. Ut maximus placerat lobortis. Maecenas nulla orci, dignissim vel risus tincidunt, hendrerit pellentesque purus. Cras felis mi, vestibulum vel semper eget, fringilla nec odio. Etiam tellus eros, fringilla eget velit a, rhoncus tristique orci. Fusce nec nisi id tortor scelerisque blandit quis feugiat elit. Quisque molestie est at laoreet dapibus.
