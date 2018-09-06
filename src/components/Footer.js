@@ -1,6 +1,6 @@
-import React from 'react'
+import React, { Fragment } from 'react'
 import Link from 'gatsby-link'
-
+import _kebabCase from 'lodash/kebabCase'
 import { ICONSail } from './Icons'
 import Content from './Content'
 import SocialLinks from './SocialLinks'
@@ -8,7 +8,10 @@ import EnquiryForm from './EnquiryForm'
 
 import './Footer.css'
 
-export default ({ footerContent, socialMedia, cruises, charters }) => {
+export default ({ footerContent, socialMedia, navItems }) => {
+
+	const charters = navItems.filter(item => item.slug === 'private-charters')
+	const cruises = navItems.filter(item => item.slug === 'cruises')
 
 	const today = new Date()
   	const yyyy = today.getFullYear()
@@ -25,10 +28,24 @@ export default ({ footerContent, socialMedia, cruises, charters }) => {
 		    			<SocialLinks socialMedia={socialMedia} />
 		    		</div>
 		    		<div className='footer-col col2'>
-		    			<h4>Cruises</h4>
-		    			{cruises.map(({ fields, frontmatter}, index) => 
-	                      <Link className='NavLink' key={`cruises-${index}`} to={fields.slug}>{frontmatter.title}</Link>
-	                    )}
+		    			{cruises.map(({ title, subNavItems }, index) => {
+		                  	return <Fragment>
+			                  	<h4 key={`nav-${index}`}>
+			                  		{title}
+			                    </h4>  
+		                        {subNavItems && 
+		                          	subNavItems.map(({ title, slug }, index) => 
+		                            	<Link 
+		                            		key={`subNav-${index}`} 
+		                            		className='NavLink' 
+		                            		to={`/${_kebabCase(slug)}`}
+		                            	>
+		                            		{title}
+		                            	</Link>
+		                        	)
+		                      	}
+		                    </Fragment>
+		                })}
 	                    <h4>Info</h4>
 	                    <Link className='NavLink' to="/boats/" exact>
 		               	 Our Boats
@@ -47,10 +64,24 @@ export default ({ footerContent, socialMedia, cruises, charters }) => {
 	                    </Link>
 		    		</div>
 		    		<div className='footer-col col3'>
-		    			<h4>Private Charters</h4>
-		    			{charters.map(({ fields, frontmatter}, index) => 
-	                      <Link className='NavLink' key={`charters-${index}`} to={fields.slug}>{frontmatter.title}</Link>
-	                    )}
+		    			{charters.map(({ title, subNavItems }, index) => {
+		                  	return <Fragment>
+			                  	<h4 key={`nav-${index}`}>
+			                  		{title}
+			                    </h4>  
+		                        {subNavItems && 
+		                          	subNavItems.map(({ title, slug }, index) => 
+		                            	<Link 
+		                            		key={`subNav-${index}`} 
+		                            		className='NavLink' 
+		                            		to={`/${_kebabCase(slug)}`}
+		                            	>
+		                            		{title}
+		                            	</Link>
+		                        	)
+		                      	}
+		                    </Fragment>
+		                })}
 		    		</div>
 		    		<div className='footer-col col4'>
 		    			<h4>Quick contact</h4>
@@ -58,7 +89,7 @@ export default ({ footerContent, socialMedia, cruises, charters }) => {
 		    			<Link className='NavLink' to="/book-enquiry/" exact>
 	                      Enquire About Hiring our Boats
 	                    </Link>
-		    			 <Link className='NavLink' to="/cruises/" exact>
+		    			<Link className='NavLink' to="/cruises/" exact>
 	                      Book Tickets on a Cruise
 	                    </Link>
 		    		</div>
