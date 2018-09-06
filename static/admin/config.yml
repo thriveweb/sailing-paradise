@@ -81,6 +81,16 @@ collections: # A list of collections the CMS should be able to edit
           - {label: Title, name: title, widget: string}
           - {label: Featured Image, name: featuredImage, widget: image}
           - {label: Intro, name: intro, widget: markdown}
+          - label: "Charters Listing"
+            name: "chartersListing"
+            widget: "list"
+            fields:
+              - label: Tours
+                name: tours
+                widget: relation
+                collection: 'boatTours'
+                searchFields: ['title']
+                valueField: 'title'
           - label: "Meta"
             required: false
             name: "meta"
