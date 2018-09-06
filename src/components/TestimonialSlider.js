@@ -11,11 +11,13 @@ class Slider extends Component {
     }
 
     componentDidMount() {
-        setInterval(this.handleInterval, 7000)
+        this.setState({
+            intervalId: setInterval(this.handleInterval, 7000)
+        })
     }
 
     componentWillUnmount() {
-        clearInterval(this.handleInterval)
+        window.clearInterval(this.state.intervalId)
     }
 
     handleInterval = ()  => {
@@ -42,23 +44,25 @@ class Slider extends Component {
                 {buttonTitle && buttonUrl && <Button title={buttonTitle} url={buttonUrl} />}
             </div>
             <div className='slider'>
-                {featuredTestimonials.map(({ name, content, image }, index) =>
-                    <div 
-                        className={`slide ${
-                            activeSlide === index ? 'active' : ''
-                        }${
-                            prevSlide === index  ? 'slide-prev' : ''
-                        }${
-                            nextIndex === index ? 'slide-next' : ''
-                        }`} 
-                        key={index}
-                        onClick={() => this.setState({ activeSlide: index })}
-                    >
-                        {image && <Image src={image} alt='' />}   
-                        {name && <p className='title'>{name}</p>}
-                        {content && <Content src={content} />}
-                    </div>
-                )}
+                {featuredTestimonials.map(({ name, content, image }, index) => {
+                        const contentLimited = content.slice(0, 220)
+                        const excerpt = content.length > contentLimited.length ? contentLimited + '...' : contentLimited
+                    return <div 
+                            className={`slide ${
+                                activeSlide === index ? 'active' : ''
+                            }${
+                                prevSlide === index  ? 'slide-prev' : ''
+                            }${
+                                nextIndex === index ? 'slide-next' : ''
+                            }`} 
+                            key={index}
+                            onClick={() => this.setState({ activeSlide: index })}
+                        >
+                            {image && <Image src={image} alt='' />}   
+                            {name && <p className='title'>{name}</p>}
+                            {content && <Content src={excerpt} />}
+                        </div>
+                })}
                 {/*<div className='slider-dots'>
                     {featuredTestimonials.map(({ name }, index) => 
                         <span

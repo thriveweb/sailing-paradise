@@ -30,12 +30,15 @@ class GallerySlider extends Component {
 				<h2 className='fancy-title'>Featured</h2>
 				<Slider {...settings}>
 		    		{featuredSlider.map(({ title, description, buttonUrl }, index) => {
+		    			const descriptionLimited = description.slice(0, 80)
+		    			const excerpt = description.length > descriptionLimited.length ? descriptionLimited + '...' : descriptionLimited
+
 		    			return <div 
 		    				className='sliderItem' 
 		    				key={`featured-${index}`}
 		    			>
 			    			{title && <h4>{title}</h4>}
-			    			{description && <p>{description}</p>}
+			    			{description && <p>{excerpt}</p>}
 			    			{buttonUrl && <Button title='Know More' url={buttonUrl} white />}
 			    		</div>
 		    		})}
