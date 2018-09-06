@@ -43,8 +43,9 @@ contentColumn: >-
   No matter what style of party you are after we can help. Whether you are
   looking for a relaxing day on the water with some yummy food and a few drinks.
   Or an elegant morning tea cruise with champagne and delicious cupcakes. Even a
-  raucous Family Gathering party with a butler in the buff and all the trimmings we are
-  here for you. We have some great Gold Coast Family Gathering night ideas also.
+  raucous Family Gathering party with a butler in the buff and all the trimmings
+  we are here for you. We have some great Gold Coast Family Gathering night
+  ideas also.
 accordionSection:
   accordion:
     - content: >-
@@ -142,8 +143,8 @@ columnBanner:
   - buttonTitle: Make Enquiry
     buttonUrl: booking-enquiry
     content: >-
-      Let our friendly and experienced team tailor a VIP Gold Coast Family Gathering
-      Party Experience that they won’t forget.
+      Let our friendly and experienced team tailor a VIP Gold Coast Family
+      Gathering Party Experience that they won’t forget.
     title: Give your friend the party they deserve!
     featuredImage: /images/uploads/girl-img-column2.jpg
   - featuredImage: /images/uploads/girl-img-column.jpg
@@ -156,17 +157,14 @@ testimonials:
     our satisfied clients.
   featuredTestimonial:
     content: >-
-      "We used this wonderful company to start my sisters Family Gathering celebrations
-      and the girls haven’t stopped talking about it since. It was a beautiful
-      day out on a beautiful boat with an amazing crew! Will definitely be in
-      contact again with Steve if I can think of any other reason to go for a
-      sail. Thank you so much for your time and not laughing at our dance moves
-      and pop star singing voices!"
+      "We used this wonderful company to start my sisters Family Gathering
+      celebrations and the girls haven’t stopped talking about it since. It was
+      a beautiful day out on a beautiful boat with an amazing crew! Will
+      definitely be in contact again with Steve if I can think of any other
+      reason to go for a sail. Thank you so much for your time and not laughing
+      at our dance moves and pop star singing voices!"
     image: /images/uploads/girl-img12.jpg
     name: Alex S.
   title: Happy Sailors
----
-
-
 ---
 
