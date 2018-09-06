@@ -20,11 +20,11 @@ excerpt: >-
   guests had an amazing time."
 gallery:
   - image: /images/uploads/ppl-boat-img11.jpg
-  - image: /images/uploads/girls-img12.jpg
-  - image: /images/uploads/girls-img11.jpg
+  - image: /images/uploads/girls-img2.jpg
+  - image: /images/uploads/girls-img15.jpg
   - image: /images/uploads/ppl-boat-img8.jpg
-  - image: /images/uploads/boat-img3.jpg
-  - image: /images/uploads/girl-img6.jpg
+  - image: /images/uploads/DJI_0098.jpg
+  - image: /images/uploads/DSC_0203.jpg
 secondaryBanner:
   buttonTitle: back
   buttonUrl: case-studies
