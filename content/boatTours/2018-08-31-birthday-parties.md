@@ -18,17 +18,17 @@ intro: >-
 contentBox:
   buttonTitle: Make enquiry
   buttonUrl: booking-enquiry
-  title: Let us tailor your VIP Gold Coast Hens Party Experience
+  title: Let us tailor your VIP Gold Coast Birthday Party Experience
 gallery:
   - image: /images/uploads/girls-img9.jpg
   - image: /images/uploads/girls-img5.jpg
   - image: /images/uploads/girls-img4.jpg
   - image: /images/uploads/girls-img6.jpg
   - image: /images/uploads/pantsless-waiter.jpg
-contentColumnTitle: We love hens parties and hens parties love us!
+contentColumnTitle: We love birthday parties and birthday parties love us!
 contentColumn: >-
-  We have hosted over 1000 happy hens parties and we are continually striving to
-  create the best experience possible for our guests.
+  We have hosted over 1000 happy birthday parties and we are continually
+  striving to create the best experience possible for our guests.
 
 
   We understand that you want your special day to be memorable, fun, relaxing
@@ -43,8 +43,8 @@ contentColumn: >-
   No matter what style of party you are after we can help. Whether you are
   looking for a relaxing day on the water with some yummy food and a few drinks.
   Or an elegant morning tea cruise with champagne and delicious cupcakes. Even a
-  raucous hens party with a butler in the buff and all the trimmings we are here
-  for you. We have some great Gold Coast hens night ideas also.
+  raucous birthday party with a butler in the buff and all the trimmings we are
+  here for you. We have some great Gold Coast birthday night ideas also.
 accordionSection:
   accordion:
     - content: >-
@@ -120,8 +120,8 @@ accordionSection:
         a perfect day! Definitely the boat to be seen on and with room for up to
         30 passengers, this smooth and stable yacht is the ideal venue for a
         wonderful cruise.  Let the crew pamper you the way you deserve with our
-        Ultimate VIP Hens Party Cruise.
-      title: More Hen's Ideas
+        Ultimate VIP Birthday Party Cruise.
+      title: More Birthday Ideas
     - content: >-
         Why settle for ordinary when you can sail away on the Gold Coast’s most
         luxurious and unique sailing catamaran.
@@ -135,38 +135,35 @@ accordionSection:
         a perfect day! Definitely the boat to be seen on and with room for up to
         30 passengers, this smooth and stable yacht is the ideal venue for a
         wonderful cruise.  Let the crew pamper you the way you deserve with our
-        Ultimate VIP Hens Party Cruise.
-      title: Hens Party FAQ's
-  title: Hen's Party Info
+        Ultimate VIP Birthday Party Cruise.
+      title: Birthday Party FAQ's
+  title: Birthday Party Info
 columnBanner:
   - buttonTitle: Make Enquiry
     buttonUrl: booking-enquiry
     content: >-
-      Let our friendly and experienced team tailor a VIP Gold Coast Hens Party
-      Experience that you and she won’t forget.
-    title: Give your hen the party she deserves!
+      Let our friendly and experienced team tailor a VIP Gold Coast Birthday
+      Party Experience that they won’t forget.
+    title: Give your friend the party they deserve!
     featuredImage: /images/uploads/girl-img-column2.jpg
   - featuredImage: /images/uploads/girl-img-column.jpg
 testimonials:
   description: >-
-    **Hen's Party**
+    **Birthday Party**
 
 
     See our five star Trip Advisor reviews for more testimonial feedback from
     our satisfied clients.
   featuredTestimonial:
     content: >-
-      "We used this wonderful company to start my sisters Hen’s celebrations and
-      the girls haven’t stopped talking about it since. It was a beautiful day
-      out on a beautiful boat with an amazing crew! Will definitely be in
+      "We used this wonderful company to start my sisters Birthday celebrations
+      and the girls haven’t stopped talking about it since. It was a beautiful
+      day out on a beautiful boat with an amazing crew! Will definitely be in
       contact again with Steve if I can think of any other reason to go for a
       sail. Thank you so much for your time and not laughing at our dance moves
       and pop star singing voices!"
     image: /images/uploads/girl-img12.jpg
     name: Alex S.
   title: Happy Sailors
----
-
-
 ---
 
