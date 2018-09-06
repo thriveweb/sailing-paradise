@@ -6,10 +6,6 @@ import './InstagramFeed.css'
 
 class Instagram extends Component {
 
-	componentDidMount() {
-		
-	}
-
 	shouldComponentUpdate() {
         return false
     }

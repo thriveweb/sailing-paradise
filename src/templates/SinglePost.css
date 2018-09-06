@@ -2,7 +2,7 @@
 }
 
 .SinglePost--BackgroundImage {
-  height: 40rem;
+  height: 40rem !important;
 }
 
 .SinglePost--BackButton {
