@@ -22,6 +22,7 @@ export const SingleBoatTourTemplate = ({
   featuredImage,
   intro,
   contentBox,
+  bookingScript,
   bookingIframe,
   gallery,
   contentColumnTitle,
@@ -32,8 +33,6 @@ export const SingleBoatTourTemplate = ({
   slug,
   post
 }) => {
-
-  console.log(bookingIframe)
 
   const charterUrl = slug ? slug.replace('/boat-tours/', '').replace('/', '') : ''
   
@@ -104,6 +103,7 @@ export const pageQuery = graphql`
           buttonUrl
           title
         }
+        bookingScript
         bookingIframe
         gallery {
           image {

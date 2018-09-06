@@ -90,7 +90,7 @@ collections: # A list of collections the CMS should be able to edit
                 widget: relation
                 collection: 'boatTours'
                 searchFields: ['title']
-                valueField: 'title'
+                valueField: ['title', 'featuredImage', 'slug', 'icon']
           - label: "Meta"
             required: false
             name: "meta"
