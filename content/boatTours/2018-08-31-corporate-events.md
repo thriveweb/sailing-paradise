@@ -167,6 +167,3 @@ testimonials:
   title: Happy Sailors
 ---
 
-
----
-
