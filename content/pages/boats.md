@@ -64,7 +64,7 @@ boats:
       Gold Coast. In fact it is the only true ‘Sailing’ vessel that can hold up
       to 32 people in comfort.
     title: spirit Of Gwonda
-    featuredImage: /images/uploads/boat-img2.jpg
+    featuredImage: /images/uploads/boat-img14.jpg
     gallery:
       - image: /images/uploads/boat-blueprint.jpg
       - image: /images/uploads/boat-img5.jpg
