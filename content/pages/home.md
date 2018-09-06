@@ -6,12 +6,7 @@ featuredVideo: >-
   https://www.youtube.com/watch?v=vr0qNXmkUJ8&list=PLNhzc-Os3JK8ExayVzzoHVvP2c0-4_oqt
 featuredSlider:
   - buttonUrl: cruises
-    description: >-
-      this is a test this is a test this is a test this is a test this is a test
-      this is a test this is a test this is a test this is a test this is a test
-      this is a test this is a test this is a test this is a test this is a test
-      this is a test this is a test this is a test this is a test this is a test
-      this is a test this is a test this is a test this is a test this is a test
+    description: 2 hour morning or afternoon cruise
     title: Sailing & Sights Cruise
   - buttonUrl: cruises
     description: 3 hour afternoon cruise
