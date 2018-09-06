@@ -3,7 +3,7 @@ template: SingleBoatTour
 tourType: Private Charter
 title: Raft Up Parties
 icon: /images/uploads/raft.svg
-featuredImage: /images/uploads/ppl-boat-img5.jpg
+featuredImage: /images/uploads/DSC_0038.jpg
 intro: >-
   ## gold coast Raft Up boat party
 
@@ -27,8 +27,8 @@ gallery:
   - image: /images/uploads/pantsless-waiter.jpg
 contentColumnTitle: We love Raft Up parties and Raft Up parties love us!
 contentColumn: >-
-  We have hosted over 1000 happy Raft Up parties and we are continually
-  striving to create the best experience possible for our guests.
+  We have hosted over 1000 happy Raft Up parties and we are continually striving
+  to create the best experience possible for our guests.
 
 
   We understand that you want your special day to be memorable, fun, relaxing
@@ -165,8 +165,5 @@ testimonials:
     image: /images/uploads/girl-img12.jpg
     name: Alex S.
   title: Happy Sailors
----
-
-
 ---
 
