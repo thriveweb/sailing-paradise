@@ -7,14 +7,11 @@ featuredVideo: >-
 featuredSlider:
   - buttonUrl: cruises
     description: >-
-      2 hour morning or afternoon cruise 2 hour morning or afternoon cruise 2
-      hour morning or afternoon cruise 2 hour morning or afternoon cruise 2 hour
-      morning or afternoon cruise 2 hour morning or afternoon cruise2 hour
-      morning or afternoon cruise 2 hour morning or afternoon cruise 2 hour
-      morning or afternoon cruise2 hour morning or afternoon cruise2 hour
-      morning or afternoon cruise2 hour morning or afternoon cruise2 hour
-      morning or afternoon cruise2 hour morning or afternoon cruise2 hour
-      morning or afternoon cruise2 hour morning or afternoon cruise
+      this is a test this is a test this is a test this is a test this is a test
+      this is a test this is a test this is a test this is a test this is a test
+      this is a test this is a test this is a test this is a test this is a test
+      this is a test this is a test this is a test this is a test this is a test
+      this is a test this is a test this is a test this is a test this is a test
     title: Sailing & Sights Cruise
   - buttonUrl: cruises
     description: 3 hour afternoon cruise
