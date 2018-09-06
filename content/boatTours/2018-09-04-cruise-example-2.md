@@ -2,7 +2,7 @@
 template: SingleBoatTour
 tourType: Cruise
 title: Cruise Example 2
-featuredImage: /images/uploads/boat-img8.jpg
+featuredImage: /images/uploads/DJI_0174.jpg
 intro: >-
   ## beautiful sight-seeing cruise around gold coast
 
@@ -117,8 +117,5 @@ columnBanner:
   - featuredImage: /images/uploads/boat-img8.jpg
 testimonials:
   title: ''
----
-
-
 ---
 
