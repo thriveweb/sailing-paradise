@@ -54,3 +54,21 @@
 .columnsBanner.boatTour .button svg * {
 	fill: var(--primary);
 }
+
+
+@media only screen and (max-width: 1280px) {
+	.bannerColumn {
+		padding: 12rem 8rem;
+	}
+
+	.bannerColumn h2 {
+		font-size: 3rem;
+	}
+}
+
+
+
+
+
+
+

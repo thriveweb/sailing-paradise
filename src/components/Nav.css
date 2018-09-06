@@ -145,6 +145,7 @@
 
 .nav-button {
   padding: .7rem 3rem;
+  margin: 0;
   background-color: white;
   color: var(--primary);
   border-radius: 3rem;
@@ -248,3 +249,47 @@
     opacity: 0;
   }
 }
+
+
+@media only screen and (max-width: 1320px) {
+  .NavLink a {
+    padding: 1.5rem;
+    font-size: 1.2rem;
+  }
+
+  .hasChildren.two-column .subMenu {
+    padding: 1.5rem 2rem;
+  }
+
+  .hasChildren .subMenu {
+    padding: 1rem;
+  }
+
+  .hasChildren.two-column .subMenu .NavLink:before {
+    left: .8rem;
+  }
+
+  .subMenu .NavLink a {
+    font-size: 1.2rem;
+    padding: .5rem 2rem;
+  }
+
+  .nav-button {
+    font-size: 1.2rem;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

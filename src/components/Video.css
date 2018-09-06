@@ -65,6 +65,7 @@
 	margin-bottom: 4rem;
 	max-width: 86rem;
 	text-align: center;
+	line-height: 1.2;
 }
 
 .video-section .overlay-content .playButton {
@@ -135,6 +136,26 @@
 	font-weight: 800;
 	margin: 0;
 }
+
+@media only screen and (max-width: 1440px) {
+	.video-section.videoBanner {
+		padding-bottom: 40%;
+	}
+}
+
+@media only screen and (max-width: 1280px) {
+	.video-section .overlay-content h2 {
+		font-size: 3rem;
+	}
+}
+
+
+
+
+
+
+
+
 
 
 

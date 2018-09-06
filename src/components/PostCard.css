@@ -126,7 +126,16 @@
 }
 
 
+@media only screen and (max-width: 1280px) {
+  .boatTours .PostCard--Title {
+    font-size: 2rem;
+  }
 
+  .boatTours .PostCard--Content .Image {
+    height: 2.5rem;
+    margin-bottom: .5rem;
+  }
+}
 
 
 

@@ -34,3 +34,9 @@
 .crewSection .galleryImage:hover .crew-content {
 	top: 75%;
 }
+
+@media only screen and (max-width: 1280px) {
+	.crewSection .slick-slide {
+		height: 24vw;
+	}
+}

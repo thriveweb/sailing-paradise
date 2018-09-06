@@ -108,3 +108,25 @@
 .popup-close svg * {
 	fill: white;
 }
+
+
+@media only screen and (max-width: 1280px) {
+	.slick-slide {
+		height: 20vw;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

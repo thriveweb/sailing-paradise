@@ -46,3 +46,10 @@
 .aboutUs-Content .button:last-of-type {
 	margin-right: 0;
 }
+
+
+@media only screen and (max-width: 1440px) {
+	.aboutUs-Content {
+		padding: 12rem 8rem;
+	}
+}

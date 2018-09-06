@@ -19,8 +19,8 @@
 	background-color: var(--primary);
 }
 
-.PostCategoriesNav > * + * {
-  margin-left: 1rem;
+.PostCategoriesNav .NavLink {
+  margin-left: 2rem;
 }
 
 .PostCategoriesNav .NavLink:hover {

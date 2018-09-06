@@ -14,3 +14,7 @@
 .featuredPosts .PostCard:last-of-type {
 	margin-right: 0;
 }
+
+.featuredPosts .button:before {
+	display: none;
+}
