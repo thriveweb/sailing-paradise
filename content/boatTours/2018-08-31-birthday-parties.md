@@ -60,7 +60,7 @@ accordionSection:
         a perfect day! Definitely the boat to be seen on and with room for up to
         30 passengers, this smooth and stable yacht is the ideal venue for a
         wonderful cruise.  Let the crew pamper you the way you deserve with our
-        Ultimate VIP Hens Party Cruise.
+        Ultimate VIP Birthday Party Cruise.
       title: What to expect
     - content: >-
         Why settle for ordinary when you can sail away on the Gold Coast’s most
@@ -75,7 +75,7 @@ accordionSection:
         a perfect day! Definitely the boat to be seen on and with room for up to
         30 passengers, this smooth and stable yacht is the ideal venue for a
         wonderful cruise.  Let the crew pamper you the way you deserve with our
-        Ultimate VIP Hens Party Cruise.
+        Ultimate VIP Birthday Party Cruise.
       title: What to Bring
     - content: >-
         Why settle for ordinary when you can sail away on the Gold Coast’s most
@@ -90,7 +90,7 @@ accordionSection:
         a perfect day! Definitely the boat to be seen on and with room for up to
         30 passengers, this smooth and stable yacht is the ideal venue for a
         wonderful cruise.  Let the crew pamper you the way you deserve with our
-        Ultimate VIP Hens Party Cruise.
+        Ultimate VIP Birthday Party Cruise.
       title: Considerations
     - content: >-
         Why settle for ordinary when you can sail away on the Gold Coast’s most
@@ -105,7 +105,7 @@ accordionSection:
         a perfect day! Definitely the boat to be seen on and with room for up to
         30 passengers, this smooth and stable yacht is the ideal venue for a
         wonderful cruise.  Let the crew pamper you the way you deserve with our
-        Ultimate VIP Hens Party Cruise.
+        Ultimate VIP Birthday Party Cruise.
       title: VIP Packages
     - content: >-
         Why settle for ordinary when you can sail away on the Gold Coast’s most
