@@ -11,10 +11,10 @@ export const PrivateChartersTemplate = ({
   featuredImage,
   intro,
   posts,
-  chartersListing
+
 }) => {
 
-  console.log(chartersListing)
+
 
   return (
     <main className='Blog'>
@@ -58,9 +58,6 @@ export const pageQuery = graphql`
           ...FluidImage
         }
         intro
-        chartersListing {
-          tours
-        }
       }
     }
     posts: allMarkdownRemark(

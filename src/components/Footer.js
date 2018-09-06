@@ -29,14 +29,12 @@ export default ({ footerContent, socialMedia, navItems }) => {
 		    		</div>
 		    		<div className='footer-col col2'>
 		    			{cruises.map(({ title, subNavItems }, index) => {
-		                  	return <Fragment>
-			                  	<h4 key={`nav-${index}`}>
-			                  		{title}
-			                    </h4>  
+		                  	return <Fragment key={`cruise-nav-${index}`}>
+			                  	<h4>{title}</h4>  
 		                        {subNavItems && 
 		                          	subNavItems.map(({ title, slug }, index) => 
 		                            	<Link 
-		                            		key={`subNav-${index}`} 
+		                            		key={`cruise-subNav-${index}`} 
 		                            		className='NavLink' 
 		                            		to={`/${_kebabCase(slug)}`}
 		                            	>
@@ -65,14 +63,12 @@ export default ({ footerContent, socialMedia, navItems }) => {
 		    		</div>
 		    		<div className='footer-col col3'>
 		    			{charters.map(({ title, subNavItems }, index) => {
-		                  	return <Fragment>
-			                  	<h4 key={`nav-${index}`}>
-			                  		{title}
-			                    </h4>  
+		                  	return <Fragment key={`charter-nav-${index}`}>
+			                  	<h4>{title}</h4>  
 		                        {subNavItems && 
 		                          	subNavItems.map(({ title, slug }, index) => 
 		                            	<Link 
-		                            		key={`subNav-${index}`} 
+		                            		key={`charter-subNav-${index}`} 
 		                            		className='NavLink' 
 		                            		to={`/${(slug)}`}
 		                            	>
