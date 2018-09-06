@@ -49,7 +49,7 @@
 	border-bottom: 0;
 }
 
-.featuredSlider .button:after {
+.featuredSlider .button:before {
 	display: none;
 }
 
@@ -110,3 +110,31 @@
 	z-index: 3;
 	margin: 0 auto;
 }
+
+
+@media only screen and (max-width: 1440px) {
+	.featuredSlider {
+		padding: 2rem 4rem;
+	}
+
+	.featuredSlider .slick-arrow {
+		top: 4.5rem;
+	}
+
+	.featuredSlider .slick-arrow.slick-next {
+		right: 4rem;
+	}
+
+	.featuredSlider .slick-arrow.slick-prev {
+		right: 7rem;
+	}
+}
+
+
+
+
+
+
+
+
+
