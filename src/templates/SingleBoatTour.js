@@ -7,6 +7,7 @@ import Link from 'gatsby-link'
 import PageHeader from '../components/PageHeader'
 import IntroText from '../components/IntroText'
 import ContentBox from '../components/ContentBox'
+import BookingIframe from '../components/BookingIframe'
 import GallerySlider from '../components/GallerySlider'
 import Accordion from '../components/Accordion'
 import ColumnBanner from '../components/ColumnBanner'
@@ -21,6 +22,7 @@ export const SingleBoatTourTemplate = ({
   featuredImage,
   intro,
   contentBox,
+  bookingIframe,
   gallery,
   contentColumnTitle,
   contentColumn,
@@ -31,7 +33,7 @@ export const SingleBoatTourTemplate = ({
   post
 }) => {
 
-  console.log(slug)
+  console.log(bookingIframe)
 
   const charterUrl = slug ? slug.replace('/boat-tours/', '').replace('/', '') : ''
   
@@ -46,7 +48,10 @@ export const SingleBoatTourTemplate = ({
     <div className='BoatTourIntro'>
       <div className='container'>
         {intro && <IntroText content={intro} />}
-        {contentBox && <ContentBox {...contentBox} />}
+        {bookingIframe 
+          ? <BookingIframe bookingIframe={bookingIframe} />
+          : <ContentBox {...contentBox} />
+        }
       </div>  
     </div> 
     {gallery && <GallerySlider gallery={gallery} />}
@@ -99,6 +104,7 @@ export const pageQuery = graphql`
           buttonUrl
           title
         }
+        bookingIframe
         gallery {
           image {
             ...FluidImage
