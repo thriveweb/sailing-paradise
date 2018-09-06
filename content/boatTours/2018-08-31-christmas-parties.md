@@ -3,7 +3,7 @@ template: SingleBoatTour
 tourType: Private Charter
 title: Christmas Parties
 icon: /images/uploads/christmas.svg
-featuredImage: /images/uploads/ppl-boat-img6.jpg
+featuredImage: /images/uploads/DSC_0031.jpg
 intro: >-
   ## gold coast Christmas boat party
 
@@ -165,8 +165,5 @@ testimonials:
     image: /images/uploads/girl-img12.jpg
     name: Alex S.
   title: Happy Sailors
----
-
-
 ---
 
