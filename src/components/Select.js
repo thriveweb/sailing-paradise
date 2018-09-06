@@ -5,8 +5,8 @@ import './Select.css'
 import _kebabCase from 'lodash/kebabCase'
 
 class Select extends Component {
-  state = {}
-
+  state = {
+  }
 
   componentDidMount = () => {
     const { selected } = this.props
@@ -21,6 +21,8 @@ class Select extends Component {
     const { active, activeDropdown = false } = this.state
 
     const activeOption = active && active.toLowerCase()
+
+    console.log(active)
 
     return <label className={`Form--Label`}>
       <select style={{display: 'none'}}>
@@ -45,7 +47,6 @@ class Select extends Component {
               onClick={() => this.setState({ active: option.toLowerCase(), activeDropdown: false })}
               className={option === activeOption ? 'active' : ''}
             >
-
               {option}
             </li>
           )}

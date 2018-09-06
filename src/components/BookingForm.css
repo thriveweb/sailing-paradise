@@ -1,7 +1,7 @@
 .BookingForm {
-	justify-content: space-between;
-	align-items: stretch;
-	max-width: 100%;
+	justify-content: space-between !important;
+	align-items: stretch !important;
+	max-width: 100% !important;
 }
 
 .BookingForm .Form--Label {
@@ -22,6 +22,16 @@
 .BookingForm .Form--Input {
 	background-color: transparent;
 	border: none;
+}
+
+.BookingForm .has-arrow {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.BookingForm .has-arrow svg {
+	height: 1rem !important;
 }
 
 .BookingForm .select-dropdown p {
