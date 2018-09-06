@@ -44,10 +44,10 @@
 	margin-top: 4rem;
 }
 
-.BookingForm .form-footer:after, .BookingForm .Form--Label:after {
+.BookingForm .form-footer:before, .BookingForm .Form--Label:after {
 	content: '';
 	position: absolute;
-	bottom: -0.3rem;
+	bottom: 0.3rem;
 	left: 0;
 	width: 100%;
 	height: .1rem;
@@ -57,8 +57,6 @@
 .BookingForm .form-footer svg {
 	margin-left: 2rem; 
 }
-
-
 
 /*Number Picker*/
 
