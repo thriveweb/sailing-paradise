@@ -40,7 +40,7 @@ collections: # A list of collections the CMS should be able to edit
             widget: "object"
             fields:
               - {label: Title, name: title, widget: string, required: false}
-              - {label: Description, name: description, widget: text, required: false, pattern: [".{,300}", "Must not exceed 300 characters"]}
+              - {label: Description, name: description, widget: text, required: false, pattern: [".{300}", "Must not exceed 300 characters"]}
               - {label: Canonical Link, name: canonicalLink, widget: string, required: false}
               - {label: Noindex, name: noindex, widget: boolean, required: false}
 
@@ -68,7 +68,7 @@ collections: # A list of collections the CMS should be able to edit
             widget: "object"
             fields:
               - {label: Title, name: title, widget: string, required: false}
-              - {label: Description, name: description, widget: text, required: false, pattern: [".{,300}", "Must not exceed 300 characters"]}
+              - {label: Description, name: description, widget: text, required: false, pattern: [".{300}", "Must not exceed 300 characters"]}
               - {label: Canonical Link, name: canonicalLink, widget: string, required: false}
               - {label: Noindex, name: noindex, widget: boolean, required: false}
 
@@ -87,7 +87,7 @@ collections: # A list of collections the CMS should be able to edit
             widget: "object"
             fields:
               - {label: Title, name: title, widget: string, required: false}
-              - {label: Description, name: description, widget: text, required: false, pattern: [".{,300}", "Must not exceed 300 characters"]}
+              - {label: Description, name: description, widget: text, required: false, pattern: [".{300}", "Must not exceed 300 characters"]}
               - {label: Canonical Link, name: canonicalLink, widget: string, required: false}
               - {label: Noindex, name: noindex, widget: boolean, required: false}
       - file: "content/pages/cruises.md"
@@ -105,7 +105,7 @@ collections: # A list of collections the CMS should be able to edit
             widget: "object"
             fields:
               - {label: Title, name: title, widget: string, required: false}
-              - {label: Description, name: description, widget: text, required: false, pattern: [".{,300}", "Must not exceed 300 characters"]}
+              - {label: Description, name: description, widget: text, required: false, pattern: [".{300}", "Must not exceed 300 characters"]}
               - {label: Canonical Link, name: canonicalLink, widget: string, required: false}
               - {label: Noindex, name: noindex, widget: boolean, required: false}
       - file: "content/pages/case-studies.md"
@@ -123,7 +123,7 @@ collections: # A list of collections the CMS should be able to edit
             widget: "object"
             fields:
               - {label: Title, name: title, widget: string, required: false}
-              - {label: Description, name: description, widget: text, required: false, pattern: [".{,300}", "Must not exceed 300 characters"]}
+              - {label: Description, name: description, widget: text, required: false, pattern: [".{300}", "Must not exceed 300 characters"]}
               - {label: Canonical Link, name: canonicalLink, widget: string, required: false}
               - {label: Noindex, name: noindex, widget: boolean, required: false}        
 
@@ -211,7 +211,7 @@ collections: # A list of collections the CMS should be able to edit
             widget: "object"
             fields:
               - {label: Title, name: title, widget: string, required: false}
-              - {label: Description, name: description, widget: text, required: false, pattern: [".{,300}", "Must not exceed 300 characters"]}
+              - {label: Description, name: description, widget: text, required: false, pattern: [".{300}", "Must not exceed 300 characters"]}
               - {label: Canonical Link, name: canonicalLink, widget: string, required: false}
               - {label: Noindex, name: noindex, widget: boolean, required: false}
 
@@ -229,7 +229,7 @@ collections: # A list of collections the CMS should be able to edit
             widget: "list"
             fields:
               - {label: Title, name: title, widget: string, required: false}
-              - {label: Description, name: description, widget: text, required: false, pattern: [".{,80}", "Must not exceed 300 characters"]}
+              - {label: Description, name: description, widget: text, required: false, pattern: [".{80}", "Must not exceed 300 characters"]}
               - {label: Button Url, name: buttonUrl, widget: string, required: false}
           - label: "Featured Banner"
             required: false
@@ -252,7 +252,7 @@ collections: # A list of collections the CMS should be able to edit
                 fields:
                   - {label: Icon, name: icon, widget: image}
                   - {label: Title, name: title, widget: string}
-                  - {label: Description, name: description, widget: text, required: false, pattern: [".{,170}", "Must not exceed 300 characters"]}
+                  - {label: Description, name: description, widget: text, required: false, pattern: [".{170}", "Must not exceed 300 characters"]}
                   - {label: Button Url, name: buttonUrl, widget: string, required: false}
               - {label: Image, name: image, widget: image, required: false}
           - label: "Service Banner"
@@ -315,7 +315,7 @@ collections: # A list of collections the CMS should be able to edit
                 fields:
                   - {label: Image, name: image, widget: image}
                   - {label: Name, name: name, widget: string}
-                  - {label: Content, name: content, widget: markdown, pattern: [".{,100}", "Must not exceed 300 characters"]}
+                  - {label: Content, name: content, widget: markdown, pattern: [".{100}", "Must not exceed 300 characters"]}
           - {label: Latest News, name: latestNews, widget: markdown, required: false}        
           - label: "Meta"
             required: false
@@ -323,7 +323,7 @@ collections: # A list of collections the CMS should be able to edit
             widget: "object"
             fields:
               - {label: Title, name: title, widget: string, required: false}
-              - {label: Description, name: description, widget: text, required: false, pattern: [".{,300}", "Must not exceed 300 characters"]}
+              - {label: Description, name: description, widget: text, required: false, pattern: [".{300}", "Must not exceed 300 characters"]}
               - {label: Canonical Link, name: canonicalLink, widget: string, required: false}
               - {label: Noindex, name: noindex, widget: boolean, required: false}
 
@@ -380,7 +380,7 @@ collections: # A list of collections the CMS should be able to edit
             widget: "object"
             fields:
               - {label: Title, name: title, widget: string, required: false}
-              - {label: Description, name: description, widget: text, required: false, pattern: [".{,300}", "Must not exceed 300 characters"]}
+              - {label: Description, name: description, widget: text, required: false, pattern: [".{300}", "Must not exceed 300 characters"]}
               - {label: Canonical Link, name: canonicalLink, widget: string, required: false}
               - {label: Noindex, name: noindex, widget: boolean, required: false}
 
@@ -403,7 +403,7 @@ collections: # A list of collections the CMS should be able to edit
         widget: "object"
         fields:
           - {label: Title, name: title, widget: string, required: false}
-          - {label: Description, name: description, widget: text, required: false, pattern: [".{,300}", "Must not exceed 300 characters"]}
+          - {label: Description, name: description, widget: text, required: false, pattern: [".{300}", "Must not exceed 300 characters"]}
           - {label: Canonical Link, name: canonicalLink, widget: string, required: false}
           - {label: Noindex, name: noindex, widget: boolean, required: false}
 
@@ -453,7 +453,7 @@ collections: # A list of collections the CMS should be able to edit
         widget: "object"
         fields:
           - {label: Title, name: title, widget: string, required: false}
-          - {label: Description, name: description, widget: text, required: false, pattern: [".{,300}", "Must not exceed 300 characters"]}
+          - {label: Description, name: description, widget: text, required: false, pattern: [".{300}", "Must not exceed 300 characters"]}
           - {label: Canonical Link, name: canonicalLink, widget: string, required: false}
           - {label: Noindex, name: noindex, widget: boolean, required: false}
 
@@ -505,7 +505,7 @@ collections: # A list of collections the CMS should be able to edit
         widget: "object"
         fields:
           - {label: Title, name: title, widget: string, required: false}
-          - {label: Description, name: description, widget: text, required: false, pattern: [".{,300}", "Must not exceed 300 characters"]}
+          - {label: Description, name: description, widget: text, required: false, pattern: [".{300}", "Must not exceed 300 characters"]}
           - {label: Canonical Link, name: canonicalLink, widget: string, required: false}
           - {label: Noindex, name: noindex, widget: boolean, required: false}
 
@@ -588,7 +588,7 @@ collections: # A list of collections the CMS should be able to edit
         widget: "object"
         fields:
           - {label: Title, name: title, widget: string, required: false}
-          - {label: Description, name: description, widget: text, required: false, pattern: [".{,300}", "Must not exceed 300 characters"]}
+          - {label: Description, name: description, widget: text, required: false, pattern: [".{300}", "Must not exceed 300 characters"]}
           - {label: Canonical Link, name: canonicalLink, widget: string, required: false}
           - {label: Noindex, name: noindex, widget: boolean, required: false}        
 
