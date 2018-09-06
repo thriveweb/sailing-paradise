@@ -5,6 +5,11 @@ import { ICONInstagram, ICONButtonArrows } from './Icons'
 import './InstagramFeed.css'
 
 class Instagram extends Component {
+
+	shouldComponentUpdate() {
+        return false;
+    }
+    
 	render() {
 		const instafeedTarget = 'instafeed'
 
