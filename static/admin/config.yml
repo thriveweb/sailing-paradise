@@ -628,6 +628,18 @@ collections: # A list of collections the CMS should be able to edit
               - {label: Instagram, name: instagram, widget: string, required: false}
               - {label: Google Plus, name: googlePlus, widget: string, required: false}
           - {label: Footer Content, name: footerContent, widget: markdown, required: false}
+          - label: Nav Items
+            name: navItems
+            widget: list
+            fields:
+              - {label: Title, name: title, widget: string}
+              - {label: Slug, name: slug, widget: string}
+              - label: SubNav Items
+                name: subNavItems
+                widget: list
+                fields:
+                  - {label: Title, name: title, widget: string}
+                  - {label: Slug, name: slug, widget: string}
           - label: "Column Banner"
             name: "columnBanner"
             required: false
