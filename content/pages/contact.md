@@ -2,7 +2,7 @@
 template: ContactPage
 slug: contact
 title: Contact Us
-featuredImage: /images/uploads/contact-banner.jpg
+featuredImage: /images/uploads/marina-mirage-departure-point-banner.jpg
 intro: >-
   ## get in touch with us
 
