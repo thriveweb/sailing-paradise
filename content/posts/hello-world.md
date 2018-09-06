@@ -3,14 +3,14 @@ template: SinglePost
 title: Example Post 3
 status: Featured / Published
 date: '2018-03-27'
+categories:
+  - category: News
 featuredImage: /images/uploads/boat-banner.jpg
 excerpt: >-
   Etiam ac quam eget lectus venenatis ullamcorper sit amet non arcu. Nullam
   interdum arcu vitae augue pulvinar sodales. Sed non dui diam. Quisque lectus
   est, lobortis ac efficitur vitae, posuere a mauris. Phasellus ac dui
   pellentesque, lacinia risus ut, imperdiet eros.
-categories:
-  - category: News
 meta:
   canonicalLink: ''
   description: ''
