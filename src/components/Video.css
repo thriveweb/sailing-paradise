@@ -50,35 +50,47 @@
 	width: 100%;
 	height: 100%;
 	background-color: rgba(0,0,0,0.4);
+	transition: all ease-in-out .2s;
 	z-index: 2;
 }
 
-.video-section .overlay-content h2, .video-section .overlay-content .playButton {
-	position: absolute;
-	top: 50%;
-	transform: translateY(-50%);
-	left: 0;
-	right: 0;
-	margin: 0 auto;
-	width: 10rem;
-	height: 10rem;
+.video-section .overlay-content h2, .video-section .overlay-content .playButton, .video-section .overlay-content .button {
+	position: relative;
 	z-index: 3;
 }
 
 .video-section .overlay-content h2 {
-	top: auto;
-	bottom: 65%;
-	text-align: center;
-	width: 100%;
-	height: auto;
 	font-size: 4rem;
 	font-weight: 600;
+	margin-bottom: 4rem;
+	max-width: 80rem;
+}
+
+.video-section .overlay-content .playButton {
+	transform: scale(1);
+	transition: all ease-in-out .2s;
 }
 
 .video-section.videoOverlay .video {
 	min-height: 55rem;
 	position: relative;
 	margin: 0;
+}
+
+.video-section .overlay-content .button:hover {
+	transform: scale(1);
+}
+
+.video-section .overlay-content .button:hover svg {
+	transform: translateX(0);
+}
+
+.video-section:hover .overlay-content:before {
+	background-color: rgba(0,0,0,0.5);
+}
+
+.video-section:hover .overlay-content .playButton {
+	transform: scale(1.05);
 }
 
 

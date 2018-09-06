@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import Image from './Image'
-import { ICONPlay } from './Icons'
+import { ICONPlay, ICONButtonArrows } from './Icons'
 import FeaturedSlider from './FeaturedSlider'
 import SocialLinks from './SocialLinks'
 
@@ -53,6 +53,7 @@ class Video extends Component {
 					<Image background src={imageOverlay} alt='' />
 					{title && <h2 className='title-gradient'>{title}</h2>}
 					<div className='playButton'><ICONPlay /></div>
+					{title && <p className='button buttonWhite'>Watch Video <ICONButtonArrows /></p>}
 				</div>
 			}
 			<iframe 
