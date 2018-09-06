@@ -53,12 +53,12 @@ export default class Nav extends Component {
                       key={`nav-${index}`} 
                       className={`NavLink ${subNavItems ? 'hasChildren' : ''} ${slug === 'private-charters' ? 'two-column' : ''}`}
                     >
-                      <Link to={`/${_kebabCase(slug)}`}>{title}</Link>
+                      <Link to={`/${(slug)}`}>{title}</Link>
                       {subNavItems && 
                         <ul className='subMenu'>
                           {subNavItems.map(({ title, slug }, index) => {
                             return <li key={`subNav-${index}`}className='NavLink'>
-                                <Link to={`/${_kebabCase(slug)}`}>{title}</Link>
+                                <Link to={`/${(slug)}`}>{title}</Link>
                               </li>  
                           })}
                         </ul>

@@ -74,7 +74,7 @@ export default ({ footerContent, socialMedia, navItems }) => {
 		                            	<Link 
 		                            		key={`subNav-${index}`} 
 		                            		className='NavLink' 
-		                            		to={`/${_kebabCase(slug)}`}
+		                            		to={`/${(slug)}`}
 		                            	>
 		                            		{title}
 		                            	</Link>
