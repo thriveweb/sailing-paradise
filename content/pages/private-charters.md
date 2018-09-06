@@ -14,5 +14,12 @@ intro: >-
   ultrices tortor, in molestie augue odio sed nibh. Quisque eros leo, egestas
   quis ante ac, pretium venenatis augue. Aenean blandit urna sit amet nisi
   elementum auctor.
+chartersListing:
+  - tours: Birthday Parties
+  - tours: Hen's Parties
+  - tours: Corporate Events
+  - tours: Raft Up Parties
+  - tours: Christmas Parties
+  - tours: Sightseeing
 ---
 
