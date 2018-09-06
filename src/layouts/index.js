@@ -1,6 +1,6 @@
 import React, { Fragment, Component } from 'react'
 import Helmet from 'react-helmet'
-
+import _get from 'lodash/get'
 import 'modern-normalize/modern-normalize.css'
 
 import './globalStyles.css'
@@ -23,10 +23,12 @@ class IndexLayout extends Component {
   render() {
       const { children, data, location } = this.props
       const { blurActive } = this.state
-      const { charters, cruises } = data
+      const { charters, cruises, settings } = data
       const privateCharters = charters ? charters.edges.map(edge => ({ ...edge.node })) : []
       const cruiseTours = cruises ? cruises.edges.map(edge => ({ ...edge.node })) : []
-      const { siteTitle, siteUrl, headerScripts, bookingPopup } = data.settingsYaml || {}
+      const { siteTitle, siteUrl, headerScripts, bookingPopup } = settings || {}
+
+      const navItems = _get(settings, 'navItems') || []
 
     return (
       <Fragment>
@@ -45,6 +47,7 @@ class IndexLayout extends Component {
           location={location}
           handleBlur={this.handleBlur}
           blurActive={blurActive}
+          navItems={navItems}
         />
 
         <div style={{filter: blurActive ? 'blur(10px)' : 'none'}}>
@@ -52,7 +55,7 @@ class IndexLayout extends Component {
         </div>
 
         <Footer 
-          {...data.settingsYaml}
+          {...settings}
           charters={privateCharters} 
           cruises={cruiseTours} 
         />
@@ -65,7 +68,7 @@ export default IndexLayout
 
 export const query = graphql`
   query IndexLayoutQuery {
-    settingsYaml {
+    settings: settingsYaml {
       siteTitle
       siteDescription
       headerScripts
@@ -81,6 +84,14 @@ export const query = graphql`
           buttonTitle
           buttonUrl
           icon
+          title
+        }
+      }
+      navItems {
+        slug
+        title
+        subNavItems {
+          slug
           title
         }
       }

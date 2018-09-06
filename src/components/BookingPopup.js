@@ -14,7 +14,7 @@ class Popup extends Component {
 			<div className='container skinny'>
 				{title && <h2>{title}</h2>}
 				<div className='contentBoxes'>
-					{contentBoxes.map(({ icon, title, buttonTitle, buttonUrl }, index) => {
+					{contentBoxes && contentBoxes.map(({ icon, title, buttonTitle, buttonUrl }, index) => {
 						return <div className='contentBox' key={index}>
 							{icon && <Image src={icon} alt='' />}
 							{title && <h3>{title}</h3>}

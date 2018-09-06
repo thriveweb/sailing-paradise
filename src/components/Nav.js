@@ -1,5 +1,6 @@
 import React, { Component, Fragment } from 'react'
 import Link from 'gatsby-link'
+import _kebabCase from 'lodash/kebabCase'
 import { Menu, X } from 'react-feather'
 import BookingPopup from './BookingPopup'
 
@@ -36,18 +37,8 @@ export default class Nav extends Component {
   }
 
   render() {
-    const { charters, cruises, bookingPopup, blurActive } = this.props
+    const { charters, cruises, bookingPopup, blurActive, navItems } = this.props
     const { active, popupActive } = this.state
-
-    const NavLink = ({ className, children, ...props }) => (
-      <Link
-        {...props}
-        className={` ${className || ''}`}
-        onClick={this.handleLinkClick}
-      >
-        {children}
-      </Link>
-    )
 
     return (
       <Fragment>
@@ -57,42 +48,20 @@ export default class Nav extends Component {
               <Logo />
             </Link>
             <div className="Nav--Links">
-              <li className='NavLink hasChildren'>
-                <NavLink className='parentLink' to="/cruises/" exact>Cruises</NavLink>
-                <ul className='subMenu'>
-                  {cruises.map(({ fields, frontmatter}, index) => {
-                    return <NavLink className='NavLink' key={`cruises-${index}`} to={fields.slug}>{frontmatter.title}</NavLink>
-                  })}
-                </ul>
-              </li>
-              <li className='NavLink hasChildren two-column'>
-                <NavLink className='parentLink' to="/private-charters/" exact>Private Charters</NavLink>
-                <ul className='subMenu'>
-                  {charters.map(({ fields, frontmatter}, index) => {
-                    return <NavLink className='NavLink' key={`charters-${index}`} to={fields.slug}>{frontmatter.title}</NavLink>
-                  })}
-                </ul>
-              </li>
-              <NavLink className='NavLink' to="/boats/" exact>
-                Our Boats
-              </NavLink>
-              <NavLink className='NavLink' to="/about/" exact>
-                About us
-              </NavLink>
-              <li className='NavLink hasChildren'>
-                  More
-                  <ul className='subMenu'>
-                    <NavLink className='NavLink' to="/case-studies/" exact>
-                      Happy Sailors
-                    </NavLink>
-                    <NavLink className='NavLink' to="/blog/" exact>
-                      Latest News
-                    </NavLink>
-                    <NavLink className='NavLink' to="/contact/" exact>
-                      Contact us
-                    </NavLink>
-                  </ul>
-              </li>
+                {navItems.map(({ title, slug, subNavItems }) => {
+                  return <li className={`NavLink ${subNavItems ? 'hasChildren' : ''} ${slug === 'private-charters' ? 'two-column' : ''}`}>
+                      <Link to={`/${_kebabCase(slug)}`}>{title}</Link>
+                      {subNavItems && 
+                        <ul className='subMenu'>
+                          {subNavItems.map(({ title, slug }) => {
+                            return <li className='NavLink'>
+                                <Link to={`/${_kebabCase(slug)}`}>{title}</Link>
+                              </li>  
+                          })}
+                        </ul>
+                      }
+                    </li>  
+                })}
             </div>
             <p 
               className='nav-button'

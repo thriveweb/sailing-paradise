@@ -5,14 +5,29 @@ import './Select.css'
 import _kebabCase from 'lodash/kebabCase'
 
 class Select extends Component {
-  state = {
+  constructor(props) {
+    super(props)
+    this.mySelect = React.createRef()
+
+    this.state = {}
   }
 
   componentDidMount = () => {
     const { selected } = this.props
+    const current = this.mySelect.current
+
 
     this.setState({
       active: selected && selected.replace(/-/g, ' ')
+    })
+
+    window.addEventListener('click', e => {
+      const target = e.target
+
+      !current.contains(target)
+        && this.setState({
+          activeDropdown: false
+        })
     })
   }
 
@@ -22,9 +37,7 @@ class Select extends Component {
 
     const activeOption = active && active.toLowerCase()
 
-    console.log(active)
-
-    return <label className={`Form--Label`}>
+    return <label className={`Form--Label`} ref={this.mySelect}>
       <select style={{display: 'none'}}>
         {options.map((option, index) => 
           <option 
