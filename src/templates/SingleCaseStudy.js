@@ -11,6 +11,7 @@ import Video from '../components/Video'
 import Image from '../components/Image'
 import SocialShare from '../components/SocialShare'
 import GallerySlider from '../components/GallerySlider'
+import SecondaryBanner from '../components/SecondaryBanner'
 import './SingleCaseStudy.css'
 
 export const SingleCaseStudyTemplate = ({
@@ -23,7 +24,7 @@ export const SingleCaseStudyTemplate = ({
   excerpt,
   gallery,
   banner,
-  globalVideo
+  secondaryBanner
 }) => {
   
   return <main className='SingleCaseStudy'>
@@ -77,7 +78,7 @@ export const SingleCaseStudyTemplate = ({
       </div>
     </div>
     {gallery && <GallerySlider gallery={gallery} />}
-    <Video {...globalVideo} videoBanner />
+    {secondaryBanner && <SecondaryBanner {...secondaryBanner} />}
   </main>
 }
 
@@ -122,6 +123,15 @@ export const pageQuery = graphql`
       			...FluidImage
       		}
       	}
+        secondaryBanner {
+          buttonTitle
+          buttonUrl
+          title
+          subtitle
+          featuredImage {
+            ...FluidImage
+          }
+        }
     	}
     }
     archiveBanner: allMarkdownRemark(filter: { frontmatter: {title: { eq: "Case Studies"} }}) {
@@ -136,12 +146,5 @@ export const pageQuery = graphql`
 		    }
 	    }
 	  }
-    globalVideo: settingsYaml {
-      globalVideo {
-        imageOverlay
-        title
-        video
-      }
-    }
   }
 `

@@ -13,6 +13,8 @@ class Instagram extends Component {
 	render() {
 		const instafeedTarget = 'instafeed'
 
+		console.log('test')
+
 		return (
 			<section className='InstagramSection'>
 				<div className='insta-intro'>
