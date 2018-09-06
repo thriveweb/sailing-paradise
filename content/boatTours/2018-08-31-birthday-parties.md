@@ -3,7 +3,7 @@ template: SingleBoatTour
 tourType: Private Charter
 title: Birthday Parties
 icon: /images/uploads/cake.svg
-featuredImage: /images/uploads/buffet.jpg
+featuredImage: /images/uploads/fully-catered-or-byo.jpg
 intro: >-
   ## gold coast birthday boat party
 
