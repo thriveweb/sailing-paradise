@@ -2,7 +2,7 @@
 template: AboutPage
 slug: about
 title: About Us
-featuredImage: /images/uploads/booking-banner.jpg
+featuredImage: /images/uploads/DJI_0174.jpg
 intro: >-
   ## Welcome Aboard
 
@@ -18,11 +18,11 @@ intro: >-
   ac, egestas enim. Nam hendrerit nisl nulla, nec iaculis tortor finibus a. Ut
   aliquet fermentum neque, at cursus nisi malesuada id.
 gallery:
-  - image: /images/uploads/boat-img9.jpg
-  - image: /images/uploads/boat-img7.jpg
+  - image: /images/uploads/DJI_0098.jpg
+  - image: /images/uploads/DSC_0038.jpg
   - image: /images/uploads/girl-img5.jpg
-  - image: /images/uploads/girl-img9.jpg
-  - image: /images/uploads/girls-img10.jpg
+  - image: /images/uploads/DSC_1073.jpg
+  - image: /images/uploads/boat-img11.jpg
 captainSection:
   captain:
     - description: >-
@@ -94,7 +94,7 @@ columnBanner:
   - buttonTitle: See More
     buttonUrl: private-charters
     title: Are you interested in private charters catered for all sorts of occasions?
-    featuredImage: /images/uploads/boat-img8.jpg
+    featuredImage: /images/uploads/DJI_0098.jpg
   - featuredImage: /images/uploads/guy-img1.jpg
 meta:
   description: ''
