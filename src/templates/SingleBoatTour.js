@@ -22,7 +22,6 @@ export const SingleBoatTourTemplate = ({
   featuredImage,
   intro,
   contentBox,
-  bookingScript,
   bookingIframe,
   gallery,
   contentColumnTitle,
@@ -103,7 +102,6 @@ export const pageQuery = graphql`
           buttonUrl
           title
         }
-        bookingScript
         bookingIframe
         gallery {
           image {

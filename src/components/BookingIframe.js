@@ -1,14 +1,15 @@
 import React, { Component } from 'react'
 
+import './BookingIframe.css'
+
 class BookingIframe extends Component {
-	state = {}
 
 	render() {
 		const { bookingIframe } = this.props
 
 		if(!bookingIframe) return null
 
-		return <div dangerouslySetInnerHTML={{__html: bookingIframe}} />;
+		return <div className='booking-iframe' dangerouslySetInnerHTML={{__html: bookingIframe}} />;
 	}
 }
 
