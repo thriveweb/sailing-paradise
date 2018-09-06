@@ -13,12 +13,10 @@ intro: >-
   this cruise is laid back, relaxed and fun.  Take in the sights including
   impressive superyachts, Sea World, Palazzo Versace, South Stradbroke Island,
   Wavebreak Island and the Gold Coast Seaway.
-bookingScript: >-
-  <script type="text/javascript"
-  src="https://sailinginparadise.rezdy.com/pluginJs?script=external_modal"></script>
 bookingIframe: >-
-  <iframe seamless="" width="300px" height="1000px" frameborder="0"
-  class="rezdy"
+  <script type="text/javascript"
+  src="https://sailinginparadise.rezdy.com/pluginJs?script=external_modal"></script><iframe
+  seamless="" width="300px" height="1000px" frameborder="0" class="rezdy"
   src="https://sailinginparadise.rezdy.com/calendarWidget/241550?iframe=true&targetFrame=_new_modal"></iframe>
 gallery:
   - image: /images/uploads/boat-img3.jpg
