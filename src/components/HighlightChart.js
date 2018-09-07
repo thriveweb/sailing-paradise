@@ -6,7 +6,7 @@ import './HighlightChart.css'
 
 export default ({ highlights, highlightsIntro }) => {
 
-	if(!highlights) return null
+	if(!highlights.length) return null
 
 	return <section className='highlightSection'>
 		<div className='container large'>

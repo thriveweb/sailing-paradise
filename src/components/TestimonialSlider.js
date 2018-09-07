@@ -33,6 +33,8 @@ class Slider extends Component {
     render() {
         const { activeSlide } = this.state
         const { description, title, buttonTitle, buttonUrl, featuredTestimonials } = this.props
+
+        if(!featuredTestimonials.length) return null
         
         const prevSlide = activeSlide - 1 < 0 ? featuredTestimonials.length - 1 : activeSlide - 1
         const nextIndex = activeSlide + 1 >= featuredTestimonials.length ? 0 : activeSlide + 1

@@ -8,6 +8,8 @@ export default ({ title, subtitle, featuredImage, buttonTitle, buttonUrl, large,
 	if (large) className += ' bannerLarge'
 	if (contentBox) className += ' contentBox'
 
+	if(!featuredImage) return null	
+
 	return <div className={`secondary-banner relative overlay ${className}`}>
 			{featuredImage && <Image background src={featuredImage} alt='' />}
 			<div className='container'>

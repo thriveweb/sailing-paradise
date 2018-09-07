@@ -1,25 +1,24 @@
 ---
 featuredImage: /images/logo.svg
 icon: /images/logo.svg
-secondaryBanner:
-	title: ''
-	subtitle: ''
-	buttonTitle: ''
-	buttonUrl: ''
+title: ''
+subtitle: ''
+buttonTitle: ''
+buttonUrl: ''
+socialMedia:
+	linkedin: ''
+	twitter: ''	
+	facebook: ''
+	instagram: ''
+	googlePlus: ''
+name: ''
+description: ''	
 gallery: 
 	- image: /images/logo.svg
 captainSection:	
 	captainIntro: ''
 	captain: 
 		- image: /images/logo.svg
-		  name: ''
-		  description: ''
-		  socialMedia:
-			linkedin: ''
-			twitter: ''	
-			facebook: ''
-			instagram: ''
-			googlePlus: ''
 crewSection:	
 	crewIntro: ''
 	crew: 
@@ -31,24 +30,10 @@ featuredBanner:
 	image: /images/logo.svg
 services:
 	- image: /images/logo.svg
-aboutSection:
-	content: ''
-	buttons:
+content: ''
 Testimonials:
 	featuredTestimonials: 
 		- image: /images/logo.svg
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 ---
