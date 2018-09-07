@@ -23,8 +23,6 @@ export const BookingPageTemplate = ({
   location
 }) => {
 
-  location = location ? location : ''
-
   return <main className='Booking'>
     <Helmet>
       <title>{title}</title>

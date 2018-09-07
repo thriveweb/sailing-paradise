@@ -71,7 +71,9 @@ export const pageQuery = graphql`
           }
           frontmatter {
             title
-            icon
+            icon {
+              ...FluidImage
+            }
             featuredImage {
               ...FluidImage
             }
