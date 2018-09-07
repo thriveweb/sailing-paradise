@@ -30,16 +30,12 @@ aboutSection:
   subtitle: ''
   title: ''
 highlightsIntro: '##'
-highlights:
-  - icon: /images/uploads/DSC_0038.jpg
-    title: setsetsrte
+highlights: []
 Testimonials:
   buttonTitle: ''
   buttonUrl: ''
   description: ''
-  featuredTestimonials:
-    - content: ttest
-      name: test
+  featuredTestimonials: []
   title: ''
 latestNews: ''
 meta:
