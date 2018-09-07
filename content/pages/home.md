@@ -30,7 +30,9 @@ aboutSection:
   subtitle: ''
   title: ''
 highlightsIntro: '##'
-highlights: []
+highlights:
+  - icon: /images/uploads/DSC_0038.jpg
+    title: setsetsrte
 Testimonials:
   buttonTitle: ''
   buttonUrl: ''
