@@ -62,7 +62,7 @@ export const HomePageTemplate = ({
         latestNews={latestNews}
         posts={posts}
       />
-      {/*<InstagramFeed />*/}
+      <InstagramFeed />
       <SubscribeForm />
     </main>
 }
