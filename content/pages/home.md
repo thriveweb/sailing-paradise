@@ -37,7 +37,7 @@ Testimonials:
   description: ''
   featuredTestimonials: []
   title: ''
-latestNews: '##'
+latestNews: ''
 meta:
   title: ''
 ---
