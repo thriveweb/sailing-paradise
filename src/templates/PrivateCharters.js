@@ -4,7 +4,7 @@ import Helmet from 'react-helmet'
 import PageHeader from '../components/PageHeader'
 import IntroText from '../components/IntroText'
 import SortArray from '../components/SortArray'
-import PostSection from '../components/PostSection'
+
 
 // Export Template for use in CMS preview
 export const PrivateChartersTemplate = ({
@@ -25,8 +25,7 @@ export const PrivateChartersTemplate = ({
         backgroundImage={featuredImage}
       />
       <IntroText content={intro} center />
-      {/*<SortArray order={chartersListing} items={posts} />*/}
-      {/*<PostSection posts={posts} boatTours />*/}
+      <SortArray order={chartersListing} items={posts} />
     </main>
   )
 }
@@ -74,9 +73,7 @@ export const pageQuery = graphql`
           }
           frontmatter {
             title
-            icon {
-              ...FluidImage
-            }
+            icon
             featuredImage {
               ...FluidImage
             }
