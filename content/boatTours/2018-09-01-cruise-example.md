@@ -3,7 +3,7 @@ template: SingleBoatTour
 tourType: Cruise
 title: Sails and Sights Cruise
 icon: ''
-featuredImage: /images/uploads/ppl-boat-img6.jpg
+featuredImage: /images/uploads/sailing-cruise.jpg
 intro: >-
   ## beautiful sight-seeing cruise around gold coast
 
