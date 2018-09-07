@@ -35,7 +35,9 @@ Testimonials:
   buttonTitle: ''
   buttonUrl: ''
   description: ''
-  featuredTestimonials: []
+  featuredTestimonials:
+    - content: ttest
+      name: test
   title: ''
 latestNews: ''
 meta:
