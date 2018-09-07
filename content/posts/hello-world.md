@@ -5,7 +5,7 @@ status: Featured / Published
 date: '2018-03-27'
 categories:
   - category: News
-featuredImage: /images/uploads/boat-banner.jpg
+featuredImage: /images/uploads/DSC_0031.jpg
 excerpt: >-
   Etiam ac quam eget lectus venenatis ullamcorper sit amet non arcu. Nullam
   interdum arcu vitae augue pulvinar sodales. Sed non dui diam. Quisque lectus
