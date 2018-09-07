@@ -8,7 +8,7 @@ featuredSlider: []
 featuredBanner:
   buttonTitle: ''
   buttonUrl: ''
-  image: ''
+  image: /images/uploads/DJI_0005.jpg
   title: ''
 services: []
 serviceBanner:
