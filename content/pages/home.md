@@ -10,13 +10,7 @@ featuredBanner:
   buttonUrl: ''
   image: ''
   title: ''
-services:
-  - image: /images/uploads/DSC_0038.jpg
-    serviceContent:
-      buttonUrl: sdfsdf
-      description: sdfsdfsd
-      icon: /images/uploads/DSC_0038.jpg
-      title: sdfsdf
+services: []
 serviceBanner:
   buttonTitle: ''
   buttonUrl: ''
