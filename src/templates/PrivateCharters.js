@@ -3,6 +3,7 @@ import Helmet from 'react-helmet'
 
 import PageHeader from '../components/PageHeader'
 import IntroText from '../components/IntroText'
+import SortArray from '../components/SortArray'
 import PostSection from '../components/PostSection'
 
 // Export Template for use in CMS preview
@@ -24,7 +25,8 @@ export const PrivateChartersTemplate = ({
         backgroundImage={featuredImage}
       />
       <IntroText content={intro} center />
-      <PostSection posts={posts} boatTours />
+      <SortArray order={chartersListing} items={posts} />
+      {/*<PostSection posts={posts} boatTours />*/}
     </main>
   )
 }

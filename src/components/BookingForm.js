@@ -164,6 +164,7 @@ class Form extends React.Component {
         <label className="Form--Label">
           <span>Preffered Date* (if unsure please select any date within Preffered month)</span>
           <DatePicker
+            name='date'
             className='Form--Input'
             selected={this.state.startDate}
             onChange={this.handleChange}
