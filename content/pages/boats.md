@@ -104,7 +104,7 @@ boats:
 
       The 1000XL is perfect for groups of up to 20 people (plus 2 crew).
     title: Seawind 1000XL
-    featuredImage: /images/uploads/boat-img15.jpg
+    featuredImage: /images/uploads/seawind.jpg
     gallery:
       - image: /images/uploads/boat-blueprint2.jpg
       - image: /images/uploads/boat-img13.jpg
