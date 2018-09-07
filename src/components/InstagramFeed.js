@@ -22,7 +22,7 @@ class Instagram extends Component {
 			    <div id={instafeedTarget}>
 			      <Instafeed
 			        limit='6'
-			        ref={instafeedTarget}
+			        // ref='instafeed'
 			        resolution='standard_resolution'
 			        sortBy='most-recent'
 			        target={instafeedTarget}
