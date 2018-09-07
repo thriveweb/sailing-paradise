@@ -38,7 +38,7 @@ class Select extends Component {
     const activeOption = active && active.toLowerCase()
 
     return <label className={`Form--Label`} ref={this.mySelect}>
-      <select style={{display: 'none'}}>
+      <select style={{display: 'none'}} name={name}>
         {options.map((option, index) => 
           <option 
             key={option} 
