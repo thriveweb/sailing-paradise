@@ -8,7 +8,7 @@ import './ServiceColumns.css'
 export default ({ services, serviceBanner }) => {
 	const { title, subtitle, buttonUrl, buttonTitle, featuredImage } = serviceBanner
 	
-	if(!services) return null
+	if(!services.length) return null
 
 	return <section className='serviceSection relative'>
 		<div className='serviceColumns'>
