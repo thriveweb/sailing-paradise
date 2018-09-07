@@ -60,7 +60,7 @@ serviceBanner:
 secondaryBanner:
   buttonTitle: Know More
   buttonUrl: cruises
-  featuredImage: /images/uploads/landscape2.jpg
+  featuredImage: /images/uploads/special-offer-banner.jpg
   subtitle: Special Offer
   title: Adults at Kids prices
 aboutSection:
