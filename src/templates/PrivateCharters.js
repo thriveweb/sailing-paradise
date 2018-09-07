@@ -11,10 +11,8 @@ export const PrivateChartersTemplate = ({
   featuredImage,
   intro,
   posts,
-
+  chartersListing
 }) => {
-
-
 
   return (
     <main className='Blog'>
@@ -58,6 +56,9 @@ export const pageQuery = graphql`
           ...FluidImage
         }
         intro
+        chartersListing {
+          tours
+        }
       }
     }
     posts: allMarkdownRemark(
@@ -71,7 +72,9 @@ export const pageQuery = graphql`
           }
           frontmatter {
             title
-            icon
+            icon {
+              ...FluidImage
+            }
             featuredImage {
               ...FluidImage
             }
