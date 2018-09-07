@@ -25,7 +25,7 @@ export const PrivateChartersTemplate = ({
         backgroundImage={featuredImage}
       />
       <IntroText content={intro} center />
-      <SortArray order={chartersListing} items={posts} />
+      {/*<SortArray order={chartersListing} items={posts} />*/}
       {/*<PostSection posts={posts} boatTours />*/}
     </main>
   )
