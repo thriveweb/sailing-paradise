@@ -27,8 +27,7 @@ crewSection:
 videoSection:		
 	video: ''
 	imageOverlay: /images/logo.svg
-featuredBanner: 
-	image: /images/logo.svg
+featuredBanner: {}
 services:
 	- image: /images/logo.svg
 aboutSection:
