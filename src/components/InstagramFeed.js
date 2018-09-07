@@ -13,8 +13,6 @@ class Instagram extends Component {
 	render() {
 		const instafeedTarget = 'instafeed'
 
-		console.log('test')
-
 		return (
 			<section className='InstagramSection'>
 				<div className='insta-intro'>
@@ -24,7 +22,7 @@ class Instagram extends Component {
 			    <div id={instafeedTarget}>
 			      <Instafeed
 			        limit='6'
-			        ref='instafeed'
+			        // ref='instafeed'
 			        resolution='standard_resolution'
 			        sortBy='most-recent'
 			        target={instafeedTarget}
