@@ -2,6 +2,8 @@
 optional: hello gatsby
 title: markdownfields
 featuredImage: /images/logo.svg
+icon: /images/logo.svg
+image: /images/logo.svg
 videoSection:
   title: ''
   imageOverlay: /images/logo.svg
