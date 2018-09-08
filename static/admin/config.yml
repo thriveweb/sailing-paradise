@@ -52,7 +52,7 @@ collections: # A list of collections the CMS should be able to edit
           - {label: Slug, name: slug, widget: hidden, default: 'booking-enquiry'}
           - {label: Title, name: title, widget: string}
           - {label: Featured Image, name: featuredImage, widget: image}
-          - {label: Intro, name: intro, widget: markdown, required: false}       
+          - {label: Intro, name: intro, widget: markdown, required: false}
 
       - file: "content/pages/blog.md"
         label: "Blog Page"
@@ -91,7 +91,6 @@ collections: # A list of collections the CMS should be able to edit
                 collection: 'boatTours'
                 searchFields: ['title']
                 valueField: 'title'
-                displayFields: ['title', 'featuredImage', 'slug', 'icon']
           - label: "Meta"
             required: false
             name: "meta"
@@ -136,7 +135,7 @@ collections: # A list of collections the CMS should be able to edit
               - {label: Title, name: title, widget: string, required: false}
               - {label: Description, name: description, widget: text, required: false, pattern: [".{300}", "Must not exceed 300 characters"]}
               - {label: Canonical Link, name: canonicalLink, widget: string, required: false}
-              - {label: Noindex, name: noindex, widget: boolean, required: false}        
+              - {label: Noindex, name: noindex, widget: boolean, required: false}
 
       - file: "content/pages/about.md"
         label: "About Page"
@@ -215,7 +214,7 @@ collections: # A list of collections the CMS should be able to edit
               - {label: Title, name: title, widget: string}
               - {label: Featured Image, name: featuredImage, widget: image}
               - {label: Button Title, name: buttonTitle, widget: string}
-              - {label: Button Url, name: buttonUrl, widget: string}  
+              - {label: Button Url, name: buttonUrl, widget: string}
           - label: "Meta"
             required: false
             name: "meta"
@@ -327,7 +326,7 @@ collections: # A list of collections the CMS should be able to edit
                   - {label: Image, name: image, widget: image}
                   - {label: Name, name: name, widget: string}
                   - {label: Content, name: content, widget: markdown, pattern: [".{100}", "Must not exceed 300 characters"]}
-          - {label: Latest News, name: latestNews, widget: markdown, required: false}        
+          - {label: Latest News, name: latestNews, widget: markdown, required: false}
           - label: "Meta"
             required: false
             name: "meta"
@@ -519,7 +518,7 @@ collections: # A list of collections the CMS should be able to edit
           - {label: Subtitle, name: subtitle, widget: string}
           - {label: Button Title, name: buttonTitle, widget: string}
           - {label: Button Url, name: buttonUrl, widget: string}
-          - {label: Featured Image, name: featuredImage, widget: image}    
+          - {label: Featured Image, name: featuredImage, widget: image}
       - label: "Meta"
         required: false
         name: "meta"
@@ -603,7 +602,7 @@ collections: # A list of collections the CMS should be able to edit
             fields:
               - {label: Image, name: image, widget: image}
               - {label: Name, name: name, widget: string}
-              - {label: Content, name: content, widget: markdown}    
+              - {label: Content, name: content, widget: markdown}
       - label: "Meta"
         required: false
         name: "meta"
@@ -612,7 +611,7 @@ collections: # A list of collections the CMS should be able to edit
           - {label: Title, name: title, widget: string, required: false}
           - {label: Description, name: description, widget: text, required: false, pattern: [".{300}", "Must not exceed 300 characters"]}
           - {label: Canonical Link, name: canonicalLink, widget: string, required: false}
-          - {label: Noindex, name: noindex, widget: boolean, required: false}        
+          - {label: Noindex, name: noindex, widget: boolean, required: false}
 
 
   - name: "settings"
@@ -682,6 +681,6 @@ collections: # A list of collections the CMS should be able to edit
                 fields:
                   - {label: Icon, name: icon, widget: image}
                   - {label: Title, name: title, widget: string}
-                  - {label: Button Title, name: buttonTitle, widget: string, required: false}    
-                  - {label: Button Url, name: buttonUrl, widget: string, required: false}    
+                  - {label: Button Title, name: buttonTitle, widget: string, required: false}
+                  - {label: Button Url, name: buttonUrl, widget: string, required: false}
           - {label: Header Meta / Scripts, name: headerScripts, widget: text, required: false}

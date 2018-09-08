@@ -7,6 +7,8 @@ class SortArray extends Component {
 
     if (!order) return null
 
+    console.log(order)
+
     const orderedItems = order.map(order =>
       items.find(item => order.tours === item.frontmatter.title)
     )
