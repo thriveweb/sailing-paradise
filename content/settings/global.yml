@@ -68,6 +68,7 @@ bookingPopup:
   contentBoxes:
     - buttonTitle: estetset
       buttonUrl: setsetset
+      icon: /images/uploads/wheel.svg
       title: setsetset
   title: title
 headerScripts: <!-- Add your analytics scripts / verification meta here -->
