@@ -21,6 +21,11 @@ chartersListing:
   - tours: Raft Up Parties
   - tours: Christmas Parties
   - tours: Sightseeing
-  - tours: ''
+  - tours: Proposals
+  - tours: Romantic Sails
+  - tours: Family Gatherings
+  - tours: Memorials
+  - tours: Private Charters
+  - tours: Bucks Parties
 ---
 
