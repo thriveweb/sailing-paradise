@@ -21,15 +21,15 @@ export default class Accordion extends React.Component {
 
   render() {
     const { accordionSection, className } = this.props
-    
-    const title = _get(accordionSection, 'title') || ''
+
+    const title = _get(accordionSection, 'sectionTitle') || ''
     const accordion = _get(accordionSection, 'accordion') || []
 
-    if(!accordion) return null
+    if (!accordion) return null
 
     return (
       <div className={`Accordion ${className}`}>
-        <div className='container skinny'>
+        <div className="container skinny">
           {title && <h2>{title}</h2>}
           {accordion.map((item, index) => {
             const active = this.state.activeItem === index
@@ -41,7 +41,7 @@ export default class Accordion extends React.Component {
                 <h3 onClick={() => this.handleClick(index)}>{item.title}</h3>
                 {active && (
                   <div className="Accordion--item--content">
-                    <Content src={item.content} />
+                    <Content src={item.dropdownContent} />
                     {item.link && (
                       <a href={item.link} className="button">
                         {item.linkTitle}
@@ -52,7 +52,7 @@ export default class Accordion extends React.Component {
               </div>
             )
           })}
-        </div>  
+        </div>
       </div>
     )
   }

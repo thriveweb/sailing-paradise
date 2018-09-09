@@ -90,14 +90,15 @@ testimonials:
     image: /images/logo.svg
 columnBanner:
   - title: ''
+  - content: ''
   - buttonTitle: ''
   - buttonUrl: ''
   - featuredImage: /images/logo.svg
 accordionSection:
-  title: ''
+  sectionTitle: ''
   accordion:
-    - title: ''
-    - content: ''
+    dropdownContent: ''
+    title: ''
 ---
 
 <!--Use this to force Gatsby to deal with optional images-->

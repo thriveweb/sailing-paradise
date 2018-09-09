@@ -26,44 +26,47 @@ export const SingleBoatTourTemplate = ({
   gallery,
   contentColumnTitle,
   contentColumn,
-  accordionSection, 
+  accordionSection,
   columnBanner,
   testimonials,
   slug,
   post
 }) => {
+  const charterUrl = slug
+    ? slug.replace('/boat-tours/', '').replace('/', '')
+    : ''
 
-  const charterUrl = slug ? slug.replace('/boat-tours/', '').replace('/', '') : ''
-  
-  return <main className='SingleBoatTour'>
-    <Helmet>
-      <title>{title}</title>
-    </Helmet>
-    <PageHeader
-      title={title}
-      backgroundImage={featuredImage}
-    />
-    <div className='BoatTourIntro'>
-      <div className='container'>
-        {intro && <IntroText content={intro} />}
-        {bookingIframe 
-          ? <BookingIframe bookingIframe={bookingIframe} />
-          : <ContentBox {...contentBox} />
-        }
-      </div>  
-    </div> 
-    {gallery && <GallerySlider gallery={gallery} />}
-    {contentColumn && <IntroText content={contentColumn} title={contentColumnTitle} />}
-    <Accordion accordionSection={accordionSection} />
-    {columnBanner &&
-      <ColumnBanner 
-        columnBanner={columnBanner}
-        boatTour
-        charterUrl={charterUrl}
-      />
-    }
-    {testimonials && <FeaturedTestimonial {...testimonials} />}
-  </main>
+  return (
+    <main className="SingleBoatTour">
+      <Helmet>
+        <title>{title}</title>
+      </Helmet>
+      <PageHeader title={title} backgroundImage={featuredImage} />
+      <div className="BoatTourIntro">
+        <div className="container">
+          {intro && <IntroText content={intro} />}
+          {bookingIframe ? (
+            <BookingIframe bookingIframe={bookingIframe} />
+          ) : (
+            <ContentBox {...contentBox} />
+          )}
+        </div>
+      </div>
+      {gallery && <GallerySlider gallery={gallery} />}
+      {contentColumn && (
+        <IntroText content={contentColumn} title={contentColumnTitle} />
+      )}
+      <Accordion accordionSection={accordionSection} />
+      {columnBanner && (
+        <ColumnBanner
+          columnBanner={columnBanner}
+          boatTour
+          charterUrl={charterUrl}
+        />
+      )}
+      {testimonials && <FeaturedTestimonial {...testimonials} />}
+    </main>
+  )
 }
 
 // Export Default SinglePost for front-end
@@ -111,9 +114,9 @@ export const pageQuery = graphql`
         contentColumnTitle
         contentColumn
         accordionSection {
-          title
+          sectionTitle
           accordion {
-            content
+            dropdownContent
             title
           }
         }
