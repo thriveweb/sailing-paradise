@@ -4,7 +4,7 @@ tourType: Private Charter
 title: Birthday Parties
 icon: ''
 featuredImage: /images/uploads/fully-catered-or-byo.jpg
-intro: testsetsetsetsetset
+intro: ''
 contentBox:
   buttonTitle: ''
   buttonUrl: ''
