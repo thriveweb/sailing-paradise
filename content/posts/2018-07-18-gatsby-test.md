@@ -3,11 +3,9 @@ template: SinglePost
 title: Post Title 2
 status: Published
 date: '2018-07-18'
-categories:
-  - category: Updates
-  - category: News
+categories: []
 featuredImage: /images/uploads/DJI_0174.jpg
-excerpt: This is the excerpt
+excerpt: ''
 ---
 
 This is placeholder text that our web designers put here to make sure words appear properly on your website. This text is going to be replaced once the website is completed.
