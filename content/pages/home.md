@@ -6,8 +6,7 @@ featuredVideo: >-
   https://www.youtube.com/watch?v=vr0qNXmkUJ8&list=PLNhzc-Os3JK8ExayVzzoHVvP2c0-4_oqt
 featuredSlider:
   - buttonUrl: cruises
-    description: >-
-      this is a test this is a test
+    description: this is a test this is a test
     title: Sailing & Sights Cruise
   - buttonUrl: cruises
     description: 3 hour afternoon cruise
@@ -61,7 +60,7 @@ serviceBanner:
 secondaryBanner:
   buttonTitle: Know More
   buttonUrl: cruises
-  featuredImage: /images/uploads/landscape2.jpg
+  featuredImage: /images/uploads/special-offer-banner.jpg
   subtitle: Special Offer
   title: Adults at Kids prices
 aboutSection:
@@ -138,3 +137,4 @@ latestNews: |-
 meta:
   title: ''
 ---
+
