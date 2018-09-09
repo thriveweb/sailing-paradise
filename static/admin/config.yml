@@ -571,7 +571,6 @@ collections: # A list of collections the CMS should be able to edit
           - {label: Title, name: title, widget: string, required: false}
           - label: Accordion
             name: accordion
-            required: false
             widget: list
             fields:
               - {label: Title, name: title, widget: string, required: false}
@@ -596,7 +595,6 @@ collections: # A list of collections the CMS should be able to edit
           - {label: Button Title, name: buttonTitle, widget: string}
           - {label: Button Url, name: buttonUrl, widget: string}
           - label: "Featured Testimonial"
-            required: false
             name: "featuredTestimonial"
             widget: "object"
             fields:
