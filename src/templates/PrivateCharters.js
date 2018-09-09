@@ -5,7 +5,6 @@ import PageHeader from '../components/PageHeader'
 import IntroText from '../components/IntroText'
 import SortArray from '../components/SortArray'
 
-
 // Export Template for use in CMS preview
 export const PrivateChartersTemplate = ({
   title,
@@ -14,18 +13,14 @@ export const PrivateChartersTemplate = ({
   posts,
   chartersListing
 }) => {
-
   return (
-    <main className='Blog'>
+    <main className="Blog">
       <Helmet>
         <title>{title}</title>
       </Helmet>
-      <PageHeader
-        title={title}
-        backgroundImage={featuredImage}
-      />
+      <PageHeader title={title} backgroundImage={featuredImage} />
       <IntroText content={intro} center />
-      <SortArray order={chartersListing} items={posts} />
+      {/* <SortArray order={chartersListing} items={posts} /> */}
     </main>
   )
 }
@@ -63,7 +58,10 @@ export const pageQuery = graphql`
       }
     }
     posts: allMarkdownRemark(
-      filter: { fields: { contentType: { eq: "boatTours" } }, frontmatter: { tourType: { eq: "Private Charter"} } }
+      filter: {
+        fields: { contentType: { eq: "boatTours" } }
+        frontmatter: { tourType: { eq: "Private Charter" } }
+      }
       sort: { order: DESC, fields: [frontmatter___date] }
     ) {
       edges {
