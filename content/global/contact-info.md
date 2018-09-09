@@ -1,4 +1,5 @@
 ---
+slug: general-contact
 phone: |-
   **CALL US ON**
 

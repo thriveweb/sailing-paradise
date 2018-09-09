@@ -1,4 +1,5 @@
 ---
+slug: nav-items
 navItems:
   - slug: cruises
     subNavItems:
@@ -47,4 +48,3 @@ navItems:
         title: Contact Us
     title: More
 ---
-

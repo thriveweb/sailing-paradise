@@ -1,4 +1,5 @@
 ---
+slug: global-sections
 columnBanner:
   - buttonTitle: See More
     buttonUrl: private-charters

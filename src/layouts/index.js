@@ -44,6 +44,8 @@ class IndexLayout extends Component {
       : []
     const { siteTitle, siteUrl, headerScripts } = settings || {}
 
+    console.log(navItems)
+
     return (
       <Fragment>
         <Helmet defaultTitle={siteTitle} titleTemplate={`%s | ${siteTitle}`}>
@@ -127,6 +129,10 @@ export const query = graphql`
         navItems {
           slug
           title
+          subNavItems {
+            slug
+            title
+          }
         }
       }
     }
