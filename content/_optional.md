@@ -70,7 +70,7 @@ boats:
       imageOverlay: /images/logo.svg
       video: ''
 chartersListing:
-  tours: ''
+  - tours: ''
 ---
 
 <!--Use this to force Gatsby to deal with optional images-->

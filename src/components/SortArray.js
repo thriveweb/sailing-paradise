@@ -5,9 +5,7 @@ class SortArray extends Component {
   render() {
     const { order, items } = this.props
 
-    if (!order) return null
-
-    console.log(order)
+    if (!order.length) return null
 
     const orderedItems = order.map(order =>
       items.find(item => order.tours === item.frontmatter.title)
