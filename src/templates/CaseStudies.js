@@ -14,8 +14,7 @@ export const CaseStudiesTemplate = ({
   title,
   subtitle,
   featuredImage,
-  posts = [],
-  columnBanner
+  posts = []
 }) => {
   return (
     <main className="Blog CaseStudies">
@@ -36,7 +35,7 @@ export const CaseStudiesTemplate = ({
           </div>
         </section>
       )}
-      <ColumnBanner columnBanner={columnBanner} />
+      {/* <ColumnBanner columnBanner={columnBanner} /> */}
     </main>
   )
 }
@@ -51,7 +50,6 @@ const CaseStudies = ({ data }) => (
       ...post.node.frontmatter,
       ...post.node.fields
     }))}
-    {...data.columns}
   />
 )
 
@@ -84,14 +82,6 @@ export const pageQuery = graphql`
             }
           }
         }
-      }
-    }
-    columns: settingsYaml {
-      columnBanner {
-        buttonTitle
-        buttonUrl
-        featuredImage
-        title
       }
     }
   }
