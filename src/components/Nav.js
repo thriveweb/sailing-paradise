@@ -69,6 +69,29 @@ export default class Nav extends Component {
             </Link>
             <div className="Nav--Links">
               {navItems.map(({ title, slug, subNavItems }, index) => {
+                if (!slug)
+                  return (
+                    <li
+                      key={`nav-${index}`}
+                      className={`NavLink ${subNavItems ? 'hasChildren' : ''} ${
+                        slug === 'private-charters' ? 'two-column' : ''
+                      }`}
+                    >
+                      <span>{title}</span>
+                      {subNavItems && (
+                        <ul className="subMenu">
+                          {subNavItems.map(({ title, slug }, index) => {
+                            return (
+                              <li key={`subNav-${index}`} className="NavLink">
+                                <Link to={`/${slug}`}>{title}</Link>
+                              </li>
+                            )
+                          })}
+                        </ul>
+                      )}
+                    </li>
+                  )
+
                 return (
                   <li
                     key={`nav-${index}`}

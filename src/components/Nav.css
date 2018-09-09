@@ -1,5 +1,5 @@
 .Nav {
-  background: rgba(255,255,255,0.8);
+  background: rgba(255, 255, 255, 0.8);
   position: fixed;
   top: 0;
   left: 0;
@@ -32,14 +32,15 @@
 
 .NavLink {
   padding: 0;
-  transition: all ease-in-out .2s;
+  transition: all ease-in-out 0.2s;
 }
 
-.NavLink a {
+.NavLink a,
+.NavLink span {
   padding: 2rem;
   color: var(--primary);
   font-size: 1.4rem;
-  transition: all ease-in-out .2s;
+  transition: all ease-in-out 0.2s;
   opacity: 1;
   display: inline-block;
 }
@@ -48,7 +49,8 @@
   background-color: var(--darkGrey);
 }
 
-.NavLink:hover a {
+.NavLink:hover a,
+.NavLink:hover span {
   color: white;
 }
 
@@ -64,16 +66,17 @@
   position: relative;
 }
 
-.hasChildren > a:after {
+.hasChildren > a:after,
+.hasChildren > span:after {
   content: '+';
   font-size: 1.5rem;
   color: var(--primary);
   line-height: 1;
   font-weight: 400;
   position: relative;
-  margin-left: .8rem;
+  margin-left: 0.8rem;
   opacity: 1;
-  transition: all ease-in-out .2s;
+  transition: all ease-in-out 0.2s;
 }
 
 .hasChildren .subMenu {
@@ -87,7 +90,7 @@
   opacity: 0;
   visibility: hidden;
   max-height: 0;
-  transition: all ease-in-out .2s;
+  transition: all ease-in-out 0.2s;
   padding: 2rem 1rem;
 }
 
@@ -109,7 +112,8 @@
   opacity: 1;
 }
 
-.hasChildren:hover a:after {
+.hasChildren:hover a:after,
+.hasChildren:hover span:after {
   color: white;
 }
 
@@ -136,23 +140,23 @@
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
-  left: .5rem;
-  width: .4rem;
-  height: .4rem;
+  left: 0.5rem;
+  width: 0.4rem;
+  height: 0.4rem;
   background-color: white;
   border-radius: 100%;
 }
 
 .nav-button {
-  padding: .7rem 3rem;
+  padding: 0.7rem 3rem;
   margin: 0;
   background-color: white;
   color: var(--primary);
   border-radius: 3rem;
   text-transform: uppercase;
   font-size: 1.4rem;
-  transition: all ease-in-out .2s;
-  box-shadow: 0 0 3rem 0 rgba(0,0,0,0.1);
+  transition: all ease-in-out 0.2s;
+  box-shadow: 0 0 3rem 0 rgba(0, 0, 0, 0.1);
 }
 
 .nav-button:hover {
@@ -250,7 +254,6 @@
   }
 }
 
-
 @media only screen and (max-width: 1320px) {
   .NavLink a {
     padding: 1.5rem;
@@ -266,30 +269,15 @@
   }
 
   .hasChildren.two-column .subMenu .NavLink:before {
-    left: .8rem;
+    left: 0.8rem;
   }
 
   .subMenu .NavLink a {
     font-size: 1.2rem;
-    padding: .5rem 2rem;
+    padding: 0.5rem 2rem;
   }
 
   .nav-button {
     font-size: 1.2rem;
   }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
