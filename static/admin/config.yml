@@ -675,7 +675,7 @@ collections: # A list of collections the CMS should be able to edit
                 name: "contentBoxes"
                 widget: "list"
                 fields:
-                  - {label: Icon, name: icon, widget: image, required: false}
+                  - {label: Icon, name: icon, widget: image}
                   - {label: Title, name: title, widget: string}
                   - {label: Button Title, name: buttonTitle, widget: string}
                   - {label: Button Url, name: buttonUrl, widget: string}
