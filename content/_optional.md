@@ -71,6 +71,22 @@ boats:
       video: ''
 chartersListing:
   - tours: ''
+secondaryBanner:
+  title: ''
+  subtitle: ''
+  buttonTitle: ''
+  buttonUrl: ''
+  featuredImage: /images/logo.svg
+testimonials:
+  description: ''
+  title: ''
+  featuredTestimonial:
+    name: ''
+    content: ''
+    image: /images/logo.svg
+bookingPopup:
+  contentBoxes:
+    - icon: /images/logo.svg
 ---
 
 <!--Use this to force Gatsby to deal with optional images-->

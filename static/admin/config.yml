@@ -673,12 +673,11 @@ collections: # A list of collections the CMS should be able to edit
             fields:
               - {label: Title, name: title, widget: string}
               - label: "Content Boxes"
-                required: false
                 name: "contentBoxes"
                 widget: "list"
                 fields:
-                  - {label: Icon, name: icon, widget: image}
+                  - {label: Icon, name: icon, widget: image, required: false}
                   - {label: Title, name: title, widget: string}
-                  - {label: Button Title, name: buttonTitle, widget: string, required: false}
-                  - {label: Button Url, name: buttonUrl, widget: string, required: false}
+                  - {label: Button Title, name: buttonTitle, widget: string}
+                  - {label: Button Url, name: buttonUrl, widget: string}
           - {label: Header Meta / Scripts, name: headerScripts, widget: text, required: false}
