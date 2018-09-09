@@ -24,7 +24,7 @@
 
 #instafeed {
   flex: 0 0 75%;
-  max-height: 57rem;
+  max-height: 50vw;
   overflow: hidden;
 }
 
