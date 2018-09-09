@@ -12,23 +12,32 @@ class IndexLayout extends Component {
   state = {}
 
   handleBlur = () => {
-    this.setState({
-      blurActive: !this.state.blurActive
-    }, () => {
-      document.body.style.overflow = this.state.blurActive === true ? 'hidden' : 'auto'
-      document.documentElement.style.overflow = this.state.blurActive === true ? 'hidden' : 'auto'
-    })
+    this.setState(
+      {
+        blurActive: !this.state.blurActive
+      },
+      () => {
+        document.body.style.overflow =
+          this.state.blurActive === true ? 'hidden' : 'auto'
+        document.documentElement.style.overflow =
+          this.state.blurActive === true ? 'hidden' : 'auto'
+      }
+    )
   }
 
   render() {
-      const { children, data, location } = this.props
-      const { blurActive } = this.state
-      const { charters, cruises, settings } = data
-      const privateCharters = charters ? charters.edges.map(edge => ({ ...edge.node })) : []
-      const cruiseTours = cruises ? cruises.edges.map(edge => ({ ...edge.node })) : []
-      const { siteTitle, siteUrl, headerScripts, bookingPopup } = settings || {}
+    const { children, data, location } = this.props
+    const { blurActive } = this.state
+    const { charters, cruises, settings } = data
+    const privateCharters = charters
+      ? charters.edges.map(edge => ({ ...edge.node }))
+      : []
+    const cruiseTours = cruises
+      ? cruises.edges.map(edge => ({ ...edge.node }))
+      : []
+    const { siteTitle, siteUrl, headerScripts, bookingPopup } = settings || {}
 
-      const navItems = _get(settings, 'navItems') || []
+    const navItems = _get(settings, 'navItems') || []
 
     return (
       <Fragment>
@@ -36,13 +45,11 @@ class IndexLayout extends Component {
           {/* Add font link tags here */}
         </Helmet>
 
-        <Meta
-          headerScripts={headerScripts}
-        />
+        <Meta headerScripts={headerScripts} />
 
-        <Nav 
-          charters={privateCharters} 
-          cruises={cruiseTours} 
+        <Nav
+          charters={privateCharters}
+          cruises={cruiseTours}
           bookingPopup={bookingPopup}
           location={location}
           handleBlur={this.handleBlur}
@@ -50,14 +57,14 @@ class IndexLayout extends Component {
           navItems={navItems}
         />
 
-        <div style={{filter: blurActive ? 'blur(10px)' : 'none'}}>
+        <div style={{ filter: blurActive ? 'blur(10px)' : 'none' }}>
           {children()}
         </div>
 
-        <Footer 
-          {...settings}
-          charters={privateCharters} 
-          cruises={cruiseTours} 
+        <Footer
+          settings={settings}
+          charters={privateCharters}
+          cruises={cruiseTours}
         />
       </Fragment>
     )
@@ -97,7 +104,10 @@ export const query = graphql`
       }
     }
     charters: allMarkdownRemark(
-      filter: { fields: { contentType: { eq: "boatTours" } }, frontmatter: { tourType: { eq: "Private Charter"} } }
+      filter: {
+        fields: { contentType: { eq: "boatTours" } }
+        frontmatter: { tourType: { eq: "Private Charter" } }
+      }
       sort: { order: DESC, fields: [frontmatter___date] }
     ) {
       edges {
@@ -112,7 +122,10 @@ export const query = graphql`
       }
     }
     cruises: allMarkdownRemark(
-      filter: { fields: { contentType: { eq: "boatTours" } }, frontmatter: { tourType: { eq: "Cruise"} } }
+      filter: {
+        fields: { contentType: { eq: "boatTours" } }
+        frontmatter: { tourType: { eq: "Cruise" } }
+      }
       sort: { order: DESC, fields: [frontmatter___date] }
     ) {
       edges {

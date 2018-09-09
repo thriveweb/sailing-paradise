@@ -5,24 +5,17 @@ import PageHeader from '../components/PageHeader'
 import Content from '../components/Content'
 
 // Export Template for use in CMS preview
-export const DefaultPageTemplate = ({
-  title,
-  featuredImage,
-  body
-}) => (
-  <main className='DefaultPage'>
+export const DefaultPageTemplate = ({ title, featuredImage, body }) => (
+  <main className="DefaultPage">
     <Helmet>
       <title>{title}</title>
     </Helmet>
 
-    <PageHeader
-      title={title}
-      backgroundImage={featuredImage}
-    />
+    <PageHeader title={title} backgroundImage={featuredImage} />
 
     <section className="section">
       <div className="container">
-        <Content source={body} />
+        <Content src={body} />
       </div>
     </section>
   </main>

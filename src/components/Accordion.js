@@ -25,7 +25,7 @@ export default class Accordion extends React.Component {
     const title = _get(accordionSection, 'sectionTitle') || ''
     const accordion = _get(accordionSection, 'accordion') || []
 
-    if (!accordion) return null
+    if (!accordion.length) return null
 
     return (
       <div className={`Accordion ${className}`}>

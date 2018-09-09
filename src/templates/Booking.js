@@ -16,32 +16,29 @@ export const BookingPageTemplate = ({
   title,
   featuredImage,
   intro,
-  address,
-  phone,
-  hours, 
-  map,
+  // address,
+  // phone,
+  // hours,
+  // map,
   location
 }) => {
+  return (
+    <main className="Booking">
+      <Helmet>
+        <title>{title}</title>
+      </Helmet>
 
-  return <main className='Booking'>
-    <Helmet>
-      <title>{title}</title>
-    </Helmet>
+      <PageHeader title={title} backgroundImage={featuredImage} />
 
-    <PageHeader
-      title={title}
-      backgroundImage={featuredImage}
-    />
-
-    <section className="section Contact--Sections">
-      <div className='container large'>
-        <div className="Contact--Section1">
-          <IntroText content={intro} />
-          <div className="Contact--Details">
-            {address &&
+      <section className="section Contact--Sections">
+        <div className="container large">
+          <div className="Contact--Section1">
+            <IntroText content={intro} />
+            <div className="Contact--Details">
+              {/* {address &&
               <div className="Contact--Details--Item">
                 <Content  src={address} />
-                {map && 
+                {map &&
                   <div className='image-container'>
                     <Image background src={map} alt='map image' size="cover" />
                   </div>
@@ -53,22 +50,30 @@ export const BookingPageTemplate = ({
             )}
             {hours && (
               <Content className="Contact--Details--Item" src={hours} />
-            )}
-          </div> 
+            )} */}
+            </div>
+          </div>
+          <div className="Contact--Section2">
+            <BookingForm location={location} />
+          </div>
         </div>
-        <div className='Contact--Section2'>
-          <BookingForm 
-            location={location}
-          />
-        </div>
-      </div>  
-    </section>
-  </main>
+      </section>
+    </main>
+  )
 }
 
 const BookingPage = props => {
-  const { data: { page, settings }, location } = props
-  return <BookingPageTemplate {...page.frontmatter} body={page.html} {...settings} location={location} />
+  const {
+    data: { page },
+    location
+  } = props
+  return (
+    <BookingPageTemplate
+      {...page.frontmatter}
+      body={page.html}
+      location={location}
+    />
+  )
 }
 
 export default BookingPage
@@ -86,11 +91,11 @@ export const pageQuery = graphql`
         intro
       }
     }
-    settings: settingsYaml {
-      address
-      phone
-      hours
-      map
-    }
+    # settings: settingsYaml {
+    #   address
+    #   phone
+    #   hours
+    #   map
+    # }
   }
 `

@@ -17,47 +17,45 @@ export const ContactPageTemplate = ({
   intro,
   address,
   phone,
-  hours, 
+  hours,
   map,
   secondaryBanner
 }) => {
+  return (
+    <main className="Contact">
+      <Helmet>
+        <title>{title}</title>
+      </Helmet>
 
-  return <main className='Contact'>
-    <Helmet>
-      <title>{title}</title>
-    </Helmet>
+      <PageHeader title={title} backgroundImage={featuredImage} />
 
-    <PageHeader
-      title={title}
-      backgroundImage={featuredImage}
-    />
-
-    <section className="section Contact--Section1">
-      <div className="container Contact--Section1--Container">
-        <IntroText content={intro} center />
-        <div className="Contact--Details">
-          {phone && (
-            <Content className="Contact--Details--Item" src={phone} />
-          )}
-          {address && (
-            <Content className="Contact--Details--Item" src={address} />
-          )}
-          {hours && (
-            <Content className="Contact--Details--Item" src={hours} />
-          )}
+      <section className="section Contact--Section1">
+        <div className="container Contact--Section1--Container">
+          <IntroText content={intro} center />
+          <div className="Contact--Details">
+            {phone && (
+              <Content className="Contact--Details--Item" src={phone} />
+            )}
+            {address && (
+              <Content className="Contact--Details--Item" src={address} />
+            )}
+            {hours && (
+              <Content className="Contact--Details--Item" src={hours} />
+            )}
+          </div>
+          <div className="contact-body">
+            {map && (
+              <div className="image-container">
+                <Image background src={map} alt="map image" size="cover" />
+              </div>
+            )}
+            {body && <Content src={body} />}
+          </div>
         </div>
-        <div className='contact-body'>
-          {map && 
-            <div className='image-container'>
-              <Image background src={map} alt='map image' size="cover" />
-            </div>
-          }
-          {body && <Content source={body} />}
-        </div>  
-      </div>
-    </section>
-    <SecondaryBanner {...secondaryBanner} />
-  </main>
+      </section>
+      <SecondaryBanner {...secondaryBanner} />
+    </main>
+  )
 }
 
 const ContactPage = ({ data: { page, settings } }) => (

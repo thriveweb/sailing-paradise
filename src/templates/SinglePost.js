@@ -21,10 +21,10 @@ export const SinglePostTemplate = ({
   contentSecondary,
   nextPostURL,
   prevPostURL,
-  categories = [],
+  categories = []
 }) => (
   <main
-    className='SinglePost'
+    className="SinglePost"
     itemScope
     itemType="http://schema.org/BlogPosting"
   >
@@ -46,9 +46,9 @@ export const SinglePostTemplate = ({
         <ChevronLeft /> BACK
       </Link>
       <div className="SinglePost--Content relative">
-        <div className='post-icon'>
+        <div className="post-icon">
           <ICONSail />
-        </div>  
+        </div>
         <div className="SinglePost--Meta">
           {date && (
             <time
@@ -80,9 +80,9 @@ export const SinglePostTemplate = ({
         )}
 
         <div className="SinglePost--InnerContent">
-          <Content source={body} />
-          <Video {...videoSection}  />
-          <Content source={contentSecondary} />
+          <Content src={body} />
+          <Video {...videoSection} />
+          <Content src={contentSecondary} />
           <SocialShare />
           <div className="SinglePost--Pagination">
             {prevPostURL && (

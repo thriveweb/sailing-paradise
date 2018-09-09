@@ -612,6 +612,66 @@ collections: # A list of collections the CMS should be able to edit
           - {label: Canonical Link, name: canonicalLink, widget: string, required: false}
           - {label: Noindex, name: noindex, widget: boolean, required: false}
 
+  - name: "globalSections"
+    label: "Global Sections"
+    delete: false # Prevent users from deleting documents in this collection
+    editor:
+      preview: true
+    files:
+      - {label: Phone, name: phone, widget: markdown, required: false}
+      - {label: Address, name: address, widget: markdown, required: false}
+      - {label: Hours, name: hours, widget: markdown, required: false}
+      - {label: Map, name: map, widget: image, required: false}
+      - label: Social Media
+        name: socialMedia
+        widget: object
+        fields:
+          - {label: Facebook, name: facebook, widget: string, required: false}
+          - {label: Instagram, name: instagram, widget: string, required: false}
+          - {label: Google Plus, name: googlePlus, widget: string, required: false}
+      - {label: Footer Content, name: footerContent, widget: markdown, required: false}
+      - label: Nav Items
+        name: navItems
+        widget: list
+        fields:
+          - {label: Title, name: title, widget: string}
+          - {label: Slug, name: slug, widget: string}
+          - label: SubNav Items
+            name: subNavItems
+            widget: list
+            fields:
+              - {label: Title, name: title, widget: string}
+              - {label: Slug, name: slug, widget: string}
+      - label: "Column Banner"
+        name: "columnBanner"
+        required: false
+        widget: "list"
+        fields:
+          - {label: Title, name: title, widget: string}
+          - {label: Featured Image, name: featuredImage, widget: image}
+          - {label: Button Title, name: buttonTitle, widget: string}
+          - {label: Button Url, name: buttonUrl, widget: string}
+      - label: Global Video
+        name: globalVideo
+        required: false
+        widget: object
+        fields:
+          - {label: Title, name: title, widget: string, default: ''}
+          - {label: Image Overlay, name: imageOverlay, widget: image}
+          - {label: Video, name: video, widget: string}
+      - label: "Booking Popup"
+        name: "bookingPopup"
+        widget: "object"
+        fields:
+          - {label: Title, name: title, widget: string}
+          - label: "Content Boxes"
+            name: "contentBoxes"
+            widget: "list"
+            fields:
+              - {label: Icon, name: icon, widget: image}
+              - {label: Title, name: title, widget: string}
+              - {label: Button Title, name: buttonTitle, widget: string}
+              - {label: Button Url, name: buttonUrl, widget: string}
 
   - name: "settings"
     label: "Settings"
@@ -626,58 +686,4 @@ collections: # A list of collections the CMS should be able to edit
           - {label: Site Title, name: siteTitle, widget: string}
           - {label: Site Url, name: siteUrl, widget: string, required: false}
           - {label: Site Description, name: siteDescription, widget: text, required: false}
-          - {label: Phone, name: phone, widget: markdown, required: false}
-          - {label: Address, name: address, widget: markdown, required: false}
-          - {label: Hours, name: hours, widget: markdown, required: false}
-          - {label: Map, name: map, widget: image, required: false}
-          - label: Social Media
-            name: socialMedia
-            widget: object
-            fields:
-              - {label: Facebook, name: facebook, widget: string, required: false}
-              - {label: Instagram, name: instagram, widget: string, required: false}
-              - {label: Google Plus, name: googlePlus, widget: string, required: false}
-          - {label: Footer Content, name: footerContent, widget: markdown, required: false}
-          - label: Nav Items
-            name: navItems
-            widget: list
-            fields:
-              - {label: Title, name: title, widget: string}
-              - {label: Slug, name: slug, widget: string}
-              - label: SubNav Items
-                name: subNavItems
-                widget: list
-                fields:
-                  - {label: Title, name: title, widget: string}
-                  - {label: Slug, name: slug, widget: string}
-          - label: "Column Banner"
-            name: "columnBanner"
-            required: false
-            widget: "list"
-            fields:
-              - {label: Title, name: title, widget: string}
-              - {label: Featured Image, name: featuredImage, widget: image}
-              - {label: Button Title, name: buttonTitle, widget: string}
-              - {label: Button Url, name: buttonUrl, widget: string}
-          - label: Global Video
-            name: globalVideo
-            required: false
-            widget: object
-            fields:
-              - {label: Title, name: title, widget: string, default: ''}
-              - {label: Image Overlay, name: imageOverlay, widget: image}
-              - {label: Video, name: video, widget: string}
-          - label: "Booking Popup"
-            name: "bookingPopup"
-            widget: "object"
-            fields:
-              - {label: Title, name: title, widget: string}
-              - label: "Content Boxes"
-                name: "contentBoxes"
-                widget: "list"
-                fields:
-                  - {label: Icon, name: icon, widget: image}
-                  - {label: Title, name: title, widget: string}
-                  - {label: Button Title, name: buttonTitle, widget: string}
-                  - {label: Button Url, name: buttonUrl, widget: string}
           - {label: Header Meta / Scripts, name: headerScripts, widget: text, required: false}

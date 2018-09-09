@@ -9,7 +9,6 @@ import ColumnBanner from '../components/ColumnBanner.js'
 
 import './CaseStudies.css'
 
-
 // Export Template for use in CMS preview
 export const CaseStudiesTemplate = ({
   title,
@@ -18,35 +17,32 @@ export const CaseStudiesTemplate = ({
   posts = [],
   columnBanner
 }) => {
+  return (
+    <main className="Blog CaseStudies">
+      <Helmet>
+        <title>{title}</title>
+      </Helmet>
 
-
-  return <main className='Blog CaseStudies'>
-    <Helmet>
-      <title>{title}</title>
-    </Helmet>
-
-    <PageHeader
-      title={title}
-      backgroundImage={featuredImage}
-    />
-    {!!posts.length && (
-      <section className="section">
-        <div className="container">
-          {subtitle && 
-            <div className='intro-section alignCenter'>
-              <h2 className='fancy-title'>{subtitle}</h2>
-            </div>
-          }
-          <PostSection posts={posts} />
-        </div>
-      </section>
-    )}
-    <ColumnBanner columnBanner={columnBanner} />
-  </main>
+      <PageHeader title={title} backgroundImage={featuredImage} />
+      {!!posts.length && (
+        <section className="section">
+          <div className="container">
+            {subtitle && (
+              <div className="intro-section alignCenter">
+                <h2 className="fancy-title">{subtitle}</h2>
+              </div>
+            )}
+            <PostSection posts={posts} />
+          </div>
+        </section>
+      )}
+      <ColumnBanner columnBanner={columnBanner} />
+    </main>
+  )
 }
 
 const CaseStudies = ({ data }) => (
-  <CaseStudiesTemplate 
+  <CaseStudiesTemplate
     {...data.page}
     {...data.page.fields}
     {...data.page.frontmatter}
@@ -72,7 +68,9 @@ export const pageQuery = graphql`
         }
       }
     }
-    posts: allMarkdownRemark( filter: { fields: { contentType: { eq: "caseStudies" } } }) {
+    posts: allMarkdownRemark(
+      filter: { fields: { contentType: { eq: "caseStudies" } } }
+    ) {
       edges {
         node {
           fields {
@@ -98,4 +96,3 @@ export const pageQuery = graphql`
     }
   }
 `
-
