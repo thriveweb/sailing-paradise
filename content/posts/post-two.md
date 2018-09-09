@@ -5,7 +5,7 @@ status: Published
 date: '2018-03-28'
 categories:
   - category: Updates
-featuredImage: /images/uploads/DSC_0089.jpg
+featuredImage: /images/uploads/DSC_0326.jpg
 excerpt: This is an excerpt of Post Two
 ---
 
