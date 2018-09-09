@@ -64,12 +64,12 @@ boats:
       Gold Coast. In fact it is the only true ‘Sailing’ vessel that can hold up
       to 32 people in comfort.
     title: spirit Of Gwonda
-    featuredImage: /images/uploads/boat-img2.jpg
+    featuredImage: /images/uploads/boat-img14.jpg
     gallery:
       - image: /images/uploads/boat-blueprint.jpg
       - image: /images/uploads/boat-img5.jpg
-      - image: /images/uploads/boat-img3.jpg
-      - image: /images/uploads/buffet.jpg
+      - image: /images/uploads/DJI_0098.jpg
+      - image: /images/uploads/fully-catered-or-byo.jpg
     videoSection:
       imageOverlay: /images/uploads/home-banner.jpg
       video: >-
@@ -104,12 +104,12 @@ boats:
 
       The 1000XL is perfect for groups of up to 20 people (plus 2 crew).
     title: Seawind 1000XL
-    featuredImage: /images/uploads/boat-img8.jpg
+    featuredImage: /images/uploads/seawind.jpg
     gallery:
       - image: /images/uploads/boat-blueprint2.jpg
-      - image: /images/uploads/boat-img1.jpg
-      - image: /images/uploads/boat-img7.jpg
-      - image: /images/uploads/boat-img4.jpg
+      - image: /images/uploads/boat-img13.jpg
+      - image: /images/uploads/sailing-cruise.jpg
+      - image: /images/uploads/DSC_0031.jpg
     videoSection:
       imageOverlay: /images/uploads/booking-banner.jpg
       video: >-
@@ -120,3 +120,4 @@ secondaryBanner:
   title: Climb Aboard and get to know us
   featuredImage: /images/uploads/ppl-boat.jpg
 ---
+
