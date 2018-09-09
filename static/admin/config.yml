@@ -492,7 +492,7 @@ collections: # A list of collections the CMS should be able to edit
       - {label: Name, name: name, widget: string}
       - {label: Title, name: title, widget: string}
       - {label: Date / Order, name: date, widget: date}
-      - {label: Featured Image, name: featuredImage, widget: image, required: false}
+      - {label: Featured Image, name: featuredImage, widget: image}
       - label: Video Section
         name: videoSection
         required: false
@@ -501,7 +501,7 @@ collections: # A list of collections the CMS should be able to edit
           - {label: Image Overlay, name: imageOverlay, widget: image}
           - {label: Title, name: title, widget: string, required: false, default: ''}
           - {label: Video, name: video, widget: string}
-      - {label: Content, name: body, widget: markdown}
+      - {label: Content, name: body, widget: markdown, required: false}
       - {label: Excerpt, name: excerpt, widget: text}
       - label: "Gallery"
         required: false
