@@ -68,7 +68,7 @@ export const SingleCaseStudyTemplate = ({
               {videoSection && <Video {...videoSection} />}
             </div>
             <div className="columnRight">
-              <Content src={body} />
+              {body && <Content src={body} />}
               {excerpt && (
                 <div className="quote">
                   <ICONQuotes />
