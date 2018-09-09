@@ -1,4 +1,5 @@
 ---
+slug: nav-items
 navItems:
   - slug: hfghfgh
     subNavItems:
@@ -6,4 +7,3 @@ navItems:
         title: fghfghf
     title: gffg
 ---
-

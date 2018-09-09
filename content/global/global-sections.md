@@ -1,4 +1,5 @@
 ---
+slug: global-sections
 footerContent: drgsgsfgsdfgsfgsfg
 columnBanner:
   - buttonTitle: sdfgsdfg
@@ -17,4 +18,3 @@ bookingPopup:
       title: title
   title: Title Here
 ---
-

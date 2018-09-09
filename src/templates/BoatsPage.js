@@ -15,7 +15,7 @@ export const BoatsPageTemplate = ({
   featuredImage,
   intro,
   secondaryBanner,
-  // settingsYaml,
+  globalSections,
   boats
 }) => (
   <main className="Boats">
@@ -26,16 +26,16 @@ export const BoatsPageTemplate = ({
     <IntroText content={intro} center />
     <Boats boats={boats} />
     <SecondaryBanner {...secondaryBanner} large />
-    {/* <ColumnBanner columnBanner={settingsYaml} /> */}
+    <ColumnBanner columnBanner={globalSections} />
   </main>
 )
 
-const BoatsPage = ({ data: { page } }) => (
+const BoatsPage = ({ data: { page, globalSections } }) => (
   <BoatsPageTemplate
     {...page}
     {...page.frontmatter}
     body={page.html}
-    // {...settingsYaml}
+    {...globalSections}
   />
 )
 
@@ -83,13 +83,17 @@ export const pageQuery = graphql`
         }
       }
     }
-    # settingsYaml {
-    #   columnBanner {
-    #     buttonTitle
-    #     buttonUrl
-    #     featuredImage
-    #     title
-    #   }
-    # }
+    globalSections: markdownRemark {
+      frontmatter {
+        columnBanner {
+          buttonTitle
+          buttonUrl
+          featuredImage {
+            ...FluidImage
+          }
+          title
+        }
+      }
+    }
   }
 `

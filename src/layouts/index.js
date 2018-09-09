@@ -28,16 +28,21 @@ class IndexLayout extends Component {
   render() {
     const { children, data, location } = this.props
     const { blurActive } = this.state
-    const { charters, cruises, settings } = data
+    const {
+      charters,
+      cruises,
+      settings,
+      globalSections,
+      navItems,
+      contactInfo
+    } = data
     const privateCharters = charters
       ? charters.edges.map(edge => ({ ...edge.node }))
       : []
     const cruiseTours = cruises
       ? cruises.edges.map(edge => ({ ...edge.node }))
       : []
-    const { siteTitle, siteUrl, headerScripts, bookingPopup } = settings || {}
-
-    const navItems = _get(settings, 'navItems') || []
+    const { siteTitle, siteUrl, headerScripts } = settings || {}
 
     return (
       <Fragment>
@@ -50,11 +55,12 @@ class IndexLayout extends Component {
         <Nav
           charters={privateCharters}
           cruises={cruiseTours}
-          bookingPopup={bookingPopup}
+          settings={globalSections}
           location={location}
           handleBlur={this.handleBlur}
           blurActive={blurActive}
-          navItems={navItems}
+          navList={navItems}
+          bookingPopup={globalSections}
         />
 
         <div style={{ filter: blurActive ? 'blur(10px)' : 'none' }}>
@@ -62,9 +68,9 @@ class IndexLayout extends Component {
         </div>
 
         <Footer
-          settings={settings}
-          charters={privateCharters}
-          cruises={cruiseTours}
+          navList={navItems}
+          globalSections={globalSections}
+          contactInfo={contactInfo}
         />
       </Fragment>
     )
@@ -79,29 +85,6 @@ export const query = graphql`
       siteTitle
       siteDescription
       headerScripts
-      socialMedia {
-        facebook
-        instagram
-        googlePlus
-      }
-      footerContent
-      bookingPopup {
-        title
-        contentBoxes {
-          buttonTitle
-          buttonUrl
-          icon
-          title
-        }
-      }
-      navItems {
-        slug
-        title
-        subNavItems {
-          slug
-          title
-        }
-      }
     }
     charters: allMarkdownRemark(
       filter: {
@@ -136,6 +119,41 @@ export const query = graphql`
           frontmatter {
             title
           }
+        }
+      }
+    }
+    navItems: markdownRemark(fields: { slug: { eq: "/nav-items/" } }) {
+      frontmatter {
+        navItems {
+          slug
+          title
+        }
+      }
+    }
+    globalSections: markdownRemark(
+      fields: { slug: { eq: "/global-sections/" } }
+    ) {
+      frontmatter {
+        bookingPopup {
+          title
+          contentBoxes {
+            buttonTitle
+            buttonUrl
+            icon {
+              ...FluidImage
+            }
+            title
+          }
+        }
+        footerContent
+      }
+    }
+    contactInfo: markdownRemark(fields: { slug: { eq: "/general-contact/" } }) {
+      frontmatter {
+        socialMedia {
+          facebook
+          instagram
+          googlePlus
         }
       }
     }

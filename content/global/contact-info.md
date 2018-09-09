@@ -1,4 +1,5 @@
 ---
+slug: general-contact
 phone: fghfgh
 address: ffghfghfgh
 hours: ffghfghfghfgh
@@ -8,4 +9,3 @@ socialMedia:
   googlePlus: fghfgh
   instagram: fghfgh
 ---
-

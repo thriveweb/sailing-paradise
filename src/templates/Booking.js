@@ -16,10 +16,10 @@ export const BookingPageTemplate = ({
   title,
   featuredImage,
   intro,
-  // address,
-  // phone,
-  // hours,
-  // map,
+  address,
+  phone,
+  hours,
+  map,
   location
 }) => {
   return (
@@ -35,22 +35,27 @@ export const BookingPageTemplate = ({
           <div className="Contact--Section1">
             <IntroText content={intro} />
             <div className="Contact--Details">
-              {/* {address &&
-              <div className="Contact--Details--Item">
-                <Content  src={address} />
-                {map &&
-                  <div className='image-container'>
-                    <Image background src={map} alt='map image' size="cover" />
-                  </div>
-                }
-              </div>
-            }
-            {phone && (
-              <Content className="Contact--Details--Item" src={phone} />
-            )}
-            {hours && (
-              <Content className="Contact--Details--Item" src={hours} />
-            )} */}
+              {address && (
+                <div className="Contact--Details--Item">
+                  <Content src={address} />
+                  {map && (
+                    <div className="image-container">
+                      <Image
+                        background
+                        src={map}
+                        alt="map image"
+                        size="cover"
+                      />
+                    </div>
+                  )}
+                </div>
+              )}
+              {phone && (
+                <Content className="Contact--Details--Item" src={phone} />
+              )}
+              {hours && (
+                <Content className="Contact--Details--Item" src={hours} />
+              )}
             </div>
           </div>
           <div className="Contact--Section2">
@@ -91,11 +96,15 @@ export const pageQuery = graphql`
         intro
       }
     }
-    # settings: settingsYaml {
-    #   address
-    #   phone
-    #   hours
-    #   map
-    # }
+    globalSections: markdownRemark {
+      frontmatter {
+        phone
+        address
+        hours
+        map {
+          ...FluidImage
+        }
+      }
+    }
   }
 `

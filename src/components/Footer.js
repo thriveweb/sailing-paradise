@@ -9,18 +9,18 @@ import EnquiryForm from './EnquiryForm'
 
 import './Footer.css'
 
-export default ({ settings }) => {
-  const navItems = _get(settings, 'navItems') || []
-  const footerContent = _get(settings, 'footerContent')
-  const socialMedia = _get(settings, 'socialMedia')
+export default ({ globalSections, contactInfo, navList }) => {
+  const navItems = _get(navList.frontmatter, 'navItems') || []
+  const footerContent = _get(globalSections.frontmatter, 'footerContent')
+  const socialMedia = _get(contactInfo.frontmatter, 'socialMedia')
+
+  console.log(socialMedia)
 
   const charters = navItems.filter(item => item.slug === 'private-charters')
   const cruises = navItems.filter(item => item.slug === 'cruises')
 
   const today = new Date()
   const yyyy = today.getFullYear()
-
-  console.log(navItems)
 
   return (
     <footer className="Footer" id="footer-blur">
@@ -32,7 +32,7 @@ export default ({ settings }) => {
           <div className="footer-col col1">
             <h4>About</h4>
             {footerContent && <Content src={footerContent} />}
-            <SocialLinks socialMedia={socialMedia} />
+            {socialMedia && <SocialLinks socialMedia={socialMedia} />}
           </div>
           <div className="footer-col col2">
             {cruises.map(({ title, subNavItems }, index) => {

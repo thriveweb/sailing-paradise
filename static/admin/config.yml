@@ -622,6 +622,7 @@ collections: # A list of collections the CMS should be able to edit
         label: "Contact Info"
         name: "contactInfo"
         fields:
+          - {label: Slug, name: slug, widget: hidden, default: 'general-contact'}
           - {label: Phone, name: phone, widget: markdown, required: false}
           - {label: Address, name: address, widget: markdown, required: false}
           - {label: Hours, name: hours, widget: markdown, required: false}
@@ -637,6 +638,7 @@ collections: # A list of collections the CMS should be able to edit
         label: "Nav List"
         name: "navList"
         fields:
+          - {label: Slug, name: slug, widget: hidden, default: 'nav-items'}
           - label: Nav Items
             name: navItems
             widget: list
@@ -653,6 +655,7 @@ collections: # A list of collections the CMS should be able to edit
         label: "Global Sections"
         name: "globalSections"
         fields:
+          - {label: Slug, name: slug, widget: hidden, default: 'global-sections'}
           - {label: Footer Content, name: footerContent, widget: markdown, required: false}
           - label: "Column Banner"
             name: "columnBanner"

@@ -14,7 +14,8 @@ export const CaseStudiesTemplate = ({
   title,
   subtitle,
   featuredImage,
-  posts = []
+  posts = [],
+  columnBanner
 }) => {
   return (
     <main className="Blog CaseStudies">
@@ -35,7 +36,7 @@ export const CaseStudiesTemplate = ({
           </div>
         </section>
       )}
-      {/* <ColumnBanner columnBanner={columnBanner} /> */}
+      <ColumnBanner columnBanner={columnBanner} />
     </main>
   )
 }
@@ -50,6 +51,7 @@ const CaseStudies = ({ data }) => (
       ...post.node.frontmatter,
       ...post.node.fields
     }))}
+    {...data.globalSections}
   />
 )
 
@@ -81,6 +83,18 @@ export const pageQuery = graphql`
               ...FluidImage
             }
           }
+        }
+      }
+    }
+    globalSections: markdownRemark {
+      frontmatter {
+        columnBanner {
+          buttonTitle
+          buttonUrl
+          featuredImage {
+            ...FluidImage
+          }
+          title
         }
       }
     }
