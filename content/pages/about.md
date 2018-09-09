@@ -94,7 +94,7 @@ columnBanner:
   - buttonTitle: See More
     buttonUrl: private-charters
     title: Are you interested in private charters catered for all sorts of occasions?
-    featuredImage: /images/uploads/boat-img8.jpg
+    featuredImage: /images/uploads/DJI_0098.jpg
   - featuredImage: /images/uploads/guy-img1.jpg
 meta:
   description: ''
