@@ -20,7 +20,7 @@ export const PrivateChartersTemplate = ({
       </Helmet>
       <PageHeader title={title} backgroundImage={featuredImage} />
       <IntroText content={intro} center />
-      {/* <SortArray order={chartersListing} items={posts} /> */}
+      <SortArray order={chartersListing} items={posts} />
     </main>
   )
 }
