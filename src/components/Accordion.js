@@ -31,27 +31,28 @@ export default class Accordion extends React.Component {
       <div className={`Accordion ${className}`}>
         <div className="container skinny">
           {title && <h2>{title}</h2>}
-          {accordion.map((item, index) => {
-            const active = this.state.activeItem === index
-            return (
-              <div
-                className={`Accordion--item ${active ? 'active' : ''}`}
-                key={`accordion-item-${item.title + index}`}
-              >
-                <h3 onClick={() => this.handleClick(index)}>{item.title}</h3>
-                {active && (
-                  <div className="Accordion--item--content">
-                    <Content src={item.dropdownContent} />
-                    {item.link && (
-                      <a href={item.link} className="button">
-                        {item.linkTitle}
-                      </a>
-                    )}
-                  </div>
-                )}
-              </div>
-            )
-          })}
+          {accordion &&
+            accordion.map((item, index) => {
+              const active = this.state.activeItem === index
+              return (
+                <div
+                  className={`Accordion--item ${active ? 'active' : ''}`}
+                  key={`accordion-item-${item.title + index}`}
+                >
+                  <h3 onClick={() => this.handleClick(index)}>{item.title}</h3>
+                  {active && (
+                    <div className="Accordion--item--content">
+                      <Content src={item.dropdownContent} />
+                      {item.link && (
+                        <a href={item.link} className="button">
+                          {item.linkTitle}
+                        </a>
+                      )}
+                    </div>
+                  )}
+                </div>
+              )
+            })}
         </div>
       </div>
     )
