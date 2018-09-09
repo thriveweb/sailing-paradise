@@ -445,8 +445,8 @@ collections: # A list of collections the CMS should be able to edit
             collection: "postCategories"
             searchFields: ["title"]
             valueField: "title"
-      - {label: Featured Image, name: featuredImage, widget: image, required: false}
-      - {label: Excerpt, name: excerpt, widget: text}
+      - {label: Featured Image, name: featuredImage, widget: image}
+      - {label: Excerpt, name: excerpt, widget: text, required: false}
       - {label: Content, name: body, widget: markdown}
       - label: Video Section
         name: videoSection
