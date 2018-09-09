@@ -6,13 +6,8 @@ featuredVideo: >-
   https://www.youtube.com/watch?v=vr0qNXmkUJ8&list=PLNhzc-Os3JK8ExayVzzoHVvP2c0-4_oqt
 featuredSlider:
   - buttonUrl: cruises
-<<<<<<< HEAD
     description: >-
-      this is a test this is a test this is a test this is a test this is a test
-      this is a test this is a test this is a test this is a test this is a test
-      this is a test this is a test this is a test this is a test this is a test
-      this is a test this is a test this is a test this is a test this is a test
-      this is a test this is a test this is a test this is a test this is a test
+      this is a test this is a test
     title: Sailing & Sights Cruise
   - buttonUrl: cruises
     description: 3 hour afternoon cruise
@@ -26,28 +21,11 @@ featuredSlider:
   - buttonUrl: cruises
     description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit.'
     title: Other Featured Tour
-=======
-    description: 2 hour morning or afternoon cruise
-    title: Sailing and Sights cruise
-  - buttonUrl: cruises
-    description: 3 hours afternoon cruise
-    title: Island adventure cruise
-  - buttonUrl: cruises
-    description: 2 hour sunset cruise
-    title: Sunset and city lights
-  - buttonUrl: cruises
-    description: 2 hour sunset cruise
-    title: Another Slide Here
->>>>>>> b3c5de03919679ca81f155a73123bceae4d9e10d
 featuredBanner:
   buttonTitle: Discover More
   buttonUrl: contact
   image: /images/uploads/img-backflip.jpg
-<<<<<<< HEAD
   title: Gift Cards Now Available
-=======
-  title: Gift Cards Available now
->>>>>>> b3c5de03919679ca81f155a73123bceae4d9e10d
 services:
   - image: /images/uploads/sail-img1.jpg
     serviceContent:
@@ -64,11 +42,7 @@ services:
         Join Sailing in Paradise on a cruise of the Gold Coast Broadwater aboard
         a beautiful Seawind 1050 Sailing Catamaran. With no more than 30 guests.
       icon: /images/uploads/boat2.svg
-<<<<<<< HEAD
       title: Sails & Sights Cruise
-=======
-      title: Sails and Sights Cruise
->>>>>>> b3c5de03919679ca81f155a73123bceae4d9e10d
   - image: /images/uploads/girl-img2.jpg
     serviceContent:
       buttonUrl: boat-tours/hens-parties
@@ -77,21 +51,12 @@ services:
         a relaxing day on the water with some delicious food and drinks, an
         elegant morning tea cruise.
       icon: /images/uploads/wine.svg
-<<<<<<< HEAD
       title: Hens Party Specialists
 serviceBanner:
   buttonTitle: Find your Perfect Cruise
   buttonUrl: cruises
   featuredImage: /images/uploads/waves-img1.jpg
   subtitle: Let’s Get The Party Started!
-=======
-      title: Hen's Party Specialists
-serviceBanner:
-  buttonTitle: Find your perfect cruise
-  buttonUrl: cruises
-  featuredImage: /images/uploads/waves-img1.jpg
-  subtitle: Let’s Get The Party Started !
->>>>>>> b3c5de03919679ca81f155a73123bceae4d9e10d
   title: Ready to book your Gold Coast Boat Hire?
 secondaryBanner:
   buttonTitle: Know More

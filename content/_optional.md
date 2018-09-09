@@ -5,6 +5,7 @@ featuredImage: /images/logo.svg
 icon: /images/logo.svg
 image: /images/logo.svg
 map: /images/logo.svg
+bookingIframe: ''
 navItems:
   - title: ''
   - slug: ''
@@ -103,9 +104,6 @@ columnBanner:
   - featuredImage: /images/logo.svg
 accordionSection:
   sectionTitle: ''
-  accordion:
-    dropdownContent: ''
-    title: ''
 ---
 
 <!--Use this to force Gatsby to deal with optional images-->
