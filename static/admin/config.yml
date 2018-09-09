@@ -573,8 +573,8 @@ collections: # A list of collections the CMS should be able to edit
             name: accordion
             widget: list
             fields:
-              - {label: Title, name: title, widget: string, required: false}
-              - {label: Content, name: content, widget: markdown, required: false}
+              - {label: Title, name: title, widget: string}
+              - {label: Content, name: content, widget: markdown}
       - label: "Column Banner"
         name: "columnBanner"
         required: false

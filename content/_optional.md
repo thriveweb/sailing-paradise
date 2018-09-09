@@ -8,6 +8,8 @@ videoSection:
   title: ''
   imageOverlay: /images/logo.svg
   video: ''
+gallery:
+  - image: /images/logo.svg
 featuredBanner:
   image: /images/logo.svg
 featuredSlider:
@@ -71,6 +73,8 @@ boats:
       video: ''
 chartersListing:
   - tours: ''
+categories:
+  - category: ''
 secondaryBanner:
   title: ''
   subtitle: ''
@@ -84,9 +88,16 @@ testimonials:
     name: ''
     content: ''
     image: /images/logo.svg
-bookingPopup:
-  contentBoxes:
-    - icon: /images/logo.svg
+columnBanner:
+  - title: ''
+  - buttonTitle: ''
+  - buttonUrl: ''
+  - featuredImage: /images/logo.svg
+accordionSection:
+  title: ''
+  accordion:
+    - title: ''
+    - content: ''
 ---
 
 <!--Use this to force Gatsby to deal with optional images-->
