@@ -46,7 +46,7 @@ contentColumn: >-
   here for you. We have some great Gold Coast Cruise night ideas also.
 accordionSection:
   accordion:
-    - content: >-
+    - dropdownContent: >-
         Why settle for ordinary when you can sail away on the Gold Coast’s most
         luxurious and unique sailing catamaran.
 
@@ -61,7 +61,7 @@ accordionSection:
         wonderful cruise.  Let the crew pamper you the way you deserve with our
         Ultimate VIP Cruise Party Cruise.
       title: What to expect
-    - content: >-
+    - dropdownContent: >-
         Why settle for ordinary when you can sail away on the Gold Coast’s most
         luxurious and unique sailing catamaran.
 
@@ -76,7 +76,7 @@ accordionSection:
         wonderful cruise.  Let the crew pamper you the way you deserve with our
         Ultimate VIP Cruise Party Cruise.
       title: What to Bring
-    - content: >-
+    - dropdownContent: >-
         Why settle for ordinary when you can sail away on the Gold Coast’s most
         luxurious and unique sailing catamaran.
 
@@ -91,7 +91,7 @@ accordionSection:
         wonderful cruise.  Let the crew pamper you the way you deserve with our
         Ultimate VIP Cruise Party Cruise.
       title: Considerations
-    - content: >-
+    - dropdownContent: >-
         Why settle for ordinary when you can sail away on the Gold Coast’s most
         luxurious and unique sailing catamaran.
 
@@ -106,7 +106,7 @@ accordionSection:
         wonderful cruise.  Let the crew pamper you the way you deserve with our
         Ultimate VIP Cruise Party Cruise.
       title: VIP Packages
-    - content: >-
+    - dropdownContent: >-
         Why settle for ordinary when you can sail away on the Gold Coast’s most
         luxurious and unique sailing catamaran.
 
@@ -121,7 +121,7 @@ accordionSection:
         wonderful cruise.  Let the crew pamper you the way you deserve with our
         Ultimate VIP Cruise Party Cruise.
       title: More Cruise Ideas
-    - content: >-
+    - dropdownContent: >-
         Why settle for ordinary when you can sail away on the Gold Coast’s most
         luxurious and unique sailing catamaran.
 

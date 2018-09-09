@@ -47,7 +47,7 @@ contentColumn: >-
   here for you. We have some great Gold Coast Proposal night ideas also.
 accordionSection:
   accordion:
-    - content: >-
+    - dropdownContent: >-
         Why settle for ordinary when you can sail away on the Gold Coast’s most
         luxurious and unique sailing catamaran.
 
@@ -62,7 +62,7 @@ accordionSection:
         wonderful cruise.  Let the crew pamper you the way you deserve with our
         Ultimate VIP Proposal Party Cruise.
       title: What to expect
-    - content: >-
+    - dropdownContent: >-
         Why settle for ordinary when you can sail away on the Gold Coast’s most
         luxurious and unique sailing catamaran.
 
@@ -77,7 +77,7 @@ accordionSection:
         wonderful cruise.  Let the crew pamper you the way you deserve with our
         Ultimate VIP Proposal Party Cruise.
       title: What to Bring
-    - content: >-
+    - dropdownContent: >-
         Why settle for ordinary when you can sail away on the Gold Coast’s most
         luxurious and unique sailing catamaran.
 
@@ -92,7 +92,7 @@ accordionSection:
         wonderful cruise.  Let the crew pamper you the way you deserve with our
         Ultimate VIP Proposal Party Cruise.
       title: Considerations
-    - content: >-
+    - dropdownContent: >-
         Why settle for ordinary when you can sail away on the Gold Coast’s most
         luxurious and unique sailing catamaran.
 
@@ -107,7 +107,7 @@ accordionSection:
         wonderful cruise.  Let the crew pamper you the way you deserve with our
         Ultimate VIP Proposal Party Cruise.
       title: VIP Packages
-    - content: >-
+    - dropdownContent: >-
         Why settle for ordinary when you can sail away on the Gold Coast’s most
         luxurious and unique sailing catamaran.
 
@@ -122,7 +122,7 @@ accordionSection:
         wonderful cruise.  Let the crew pamper you the way you deserve with our
         Ultimate VIP Proposal Party Cruise.
       title: More Proposal Ideas
-    - content: >-
+    - dropdownContent: >-
         Why settle for ordinary when you can sail away on the Gold Coast’s most
         luxurious and unique sailing catamaran.
 
