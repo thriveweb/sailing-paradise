@@ -667,7 +667,6 @@ collections: # A list of collections the CMS should be able to edit
               - {label: Image Overlay, name: imageOverlay, widget: image}
               - {label: Video, name: video, widget: string}
           - label: "Booking Popup"
-            required: false
             name: "bookingPopup"
             widget: "object"
             fields:
