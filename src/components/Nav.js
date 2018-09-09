@@ -47,11 +47,15 @@ export default class Nav extends Component {
   }
 
   render() {
-    const { charters, cruises, bookingPopup, blurActive, navList } = this.props
+    const { charters, cruises, blurActive } = this.props
     const { active, popupActive } = this.state
 
-    const navItems = _get(navList.frontmatter, 'navItems') || []
-    const popup = _get(bookingPopup.frontmatter, 'bookingPopup') || []
+    const navList = _get(this.props, 'navList') || []
+    const bookingPopup = _get(this.props, 'bookingPopup') || []
+
+    const navItems = (navList && _get(navList.frontmatter, 'navItems')) || []
+    const popup =
+      (bookingPopup && _get(bookingPopup.frontmatter, 'bookingPopup')) || []
 
     return (
       <Fragment>

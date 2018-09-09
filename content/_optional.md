@@ -4,6 +4,13 @@ title: markdownfields
 featuredImage: /images/logo.svg
 icon: /images/logo.svg
 image: /images/logo.svg
+map: /images/logo.svg
+navItems:
+  - title: ''
+  - slug: ''
+  - subNavItems:
+      - title: ''
+      - slug: ''
 videoSection:
   title: ''
   imageOverlay: /images/logo.svg

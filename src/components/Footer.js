@@ -9,12 +9,14 @@ import EnquiryForm from './EnquiryForm'
 
 import './Footer.css'
 
-export default ({ globalSections, contactInfo, navList }) => {
-  const navItems = _get(navList.frontmatter, 'navItems') || []
+export default props => {
+  const navList = _get(props, 'navList') || []
+  const globalSections = _get(props, 'globalSections') || []
+  const contactInfo = _get(props, 'contactInfo') || []
+
+  const navItems = (navList && _get(navList.frontmatter, 'navItems')) || []
   const footerContent = _get(globalSections.frontmatter, 'footerContent')
   const socialMedia = _get(contactInfo.frontmatter, 'socialMedia')
-
-  console.log(socialMedia)
 
   const charters = navItems.filter(item => item.slug === 'private-charters')
   const cruises = navItems.filter(item => item.slug === 'cruises')
