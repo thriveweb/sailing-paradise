@@ -3,34 +3,15 @@ siteUrl: 'https://whitesmoke.netlify.com'
 siteDescription: >-
   A starter project for creating lightning-fast websites with Gatsby Netlify
   CMS.
-phone: |-
-  **CALL US ON**
-
-  [0438 915 222](tel:0438915222)
-address: >-
-  **WHERE WE ARE**
-
-
-  We are located in berth D11 at the Marina Mirage, 74 Seaworld Drive, Main
-  Beach
-
-
-  [View Larger
-  Map](https://www.google.com.au/maps/place/74+Seaworld+Dr,+Main+Beach+QLD+4217/@-27.9684419,153.42393,17z/data=!3m1!4b1!4m5!3m4!1s0x6b910f9041786667:0x9b8b73ca900ff937!8m2!3d-27.9684419!4d153.4261187)
-hours: |-
-  **OPEN HOURS**
-
-  Mon - Fri: 9AM - 5PM
-
-  Sat - Sun: 10AM - 15PM
-map: /images/uploads/map-img.jpg
+phone: ''
+address: ''
+hours: ''
+map: ''
 socialMedia:
-  facebook: 'https://facebook.com'
-  googlePlus: 'https://google.com'
-  instagram: 'https://instagram.com'
-footerContent: >-
-  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean tempor massa
-  ut felis tempus semper.
+  facebook: ''
+  googlePlus: ''
+  instagram: ''
+footerContent: ''
 navItems:
   - slug: cruises
     subNavItems:
@@ -78,29 +59,12 @@ navItems:
       - slug: contact
         title: Contact Us
     title: More
-columnBanner:
-  - buttonTitle: See More
-    buttonUrl: private-charters
-    featuredImage: /images/uploads/DJI_0174.jpg
-    title: Are you interested in private charters catered for all sorts of occasions?
-  - buttonTitle: See More
-    buttonUrl: cruises
-    featuredImage: /images/uploads/DSC_0038.jpg
-    title: Are you interested in our set cruises through the beautiful Broadwater?
+columnBanner: []
 globalVideo:
-  imageOverlay: /images/uploads/home-banner.jpg
-  title: climb aboard and get to know us
-  video: >-
-    https://www.youtube.com/watch?v=vr0qNXmkUJ8&list=PLNhzc-Os3JK8ExayVzzoHVvP2c0-4_oqt
+  imageOverlay: ''
+  title: ''
+  video: ''
 bookingPopup:
-  contentBoxes:
-    - buttonTitle: Book now
-      buttonUrl: cruises
-      icon: /images/uploads/boat2.svg
-      title: Book tickets on a cruise
-    - buttonTitle: Enquire
-      buttonUrl: booking-enquiry
-      icon: /images/uploads/wheel.svg
-      title: Enquire about charting a boat privately
-  title: What would you like to do?
+  contentBoxes: []
+  title: ''
 headerScripts: <!-- Add your analytics scripts / verification meta here -->
