@@ -65,6 +65,9 @@ globalVideo:
   title: ''
   video: ''
 bookingPopup:
-  contentBoxes: []
-  title: ''
+  contentBoxes:
+    - buttonTitle: estetset
+      buttonUrl: setsetset
+      title: setsetset
+  title: title
 headerScripts: <!-- Add your analytics scripts / verification meta here -->
