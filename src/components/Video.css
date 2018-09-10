@@ -128,13 +128,14 @@
 	text-align: left;
 	line-height: 1;
 	display: inline-block;
-} 
+}
 
 
 .video-section.homeVideo .overlay-content h1 {
 	font-size: 18rem;
 	font-weight: 800;
 	margin: 0;
+	max-width: 140rem
 }
 
 @media only screen and (max-width: 1440px) {
@@ -164,14 +165,3 @@
 		padding-top: 15rem;
 	}
 }
-
-
-
-
-
-
-
-
-
-
-
