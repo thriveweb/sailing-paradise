@@ -25,6 +25,10 @@ gallery:
   - image: /images/uploads/girls-img4.jpg
   - image: /images/uploads/girls-img6.jpg
   - image: /images/uploads/pantsless-waiter.jpg
+videoSection:
+  imageOverlay: /images/uploads/DSC_1073.jpg
+  video: >-
+    https://www.youtube.com/watch?v=vr0qNXmkUJ8&list=PLNhzc-Os3JK8ExayVzzoHVvP2c0-4_oqt
 contentColumnTitle: We love Private Charter parties and Private Charter parties love us!
 contentColumn: >-
   We have hosted over 1000 happy Private Charter parties and we are continually

@@ -24,6 +24,10 @@ gallery:
   - image: /images/uploads/girls-img4.jpg
   - image: /images/uploads/girls-img6.jpg
   - image: /images/uploads/pantsless-waiter.jpg
+videoSection:
+  imageOverlay: /images/uploads/DSC_1073.jpg
+  video: >-
+    https://www.youtube.com/watch?v=vr0qNXmkUJ8&list=PLNhzc-Os3JK8ExayVzzoHVvP2c0-4_oqt
 contentColumnTitle: We love Cruise parties and Cruise parties love us!
 contentColumn: >-
   We have hosted over 1000 happy Cruise parties and we are continually
