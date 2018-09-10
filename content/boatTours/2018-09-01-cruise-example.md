@@ -16,9 +16,17 @@ intro: >-
   quis ante ac, pretium venenatis augue. Aenean blandit urna sit amet nisi
   elementum auctor.
 contentBox:
-  buttonTitle: Make enquiry
-  buttonUrl: booking-enquiry
-  title: Let us tailor your VIP Gold Coast Cruise Party Experience
+  buttonTitle: ''
+  buttonUrl: ''
+  title: ''
+bookingIframe: >-
+  <script type="text/javascript"
+  src="https://sailinginparadise.rezdy.com/pluginJs?script=external_modal"></script>
+
+
+  \    <iframe seamless="" width="300px" height="1000px" frameborder="0"
+  class="rezdy"
+  src="https://sailinginparadise.rezdy.com/calendarWidget/261907?iframe=true&targetFrame=_new_modal"></iframe>
 gallery:
   - image: /images/uploads/girls-img9.jpg
   - image: /images/uploads/girls-img5.jpg
@@ -27,8 +35,8 @@ gallery:
   - image: /images/uploads/pantsless-waiter.jpg
 contentColumnTitle: We love Cruise parties and Cruise parties love us!
 contentColumn: >-
-  We have hosted over 1000 happy Cruise parties and we are continually
-  striving to create the best experience possible for our guests.
+  We have hosted over 1000 happy Cruise parties and we are continually striving
+  to create the best experience possible for our guests.
 
 
   We understand that you want your special day to be memorable, fun, relaxing
@@ -137,13 +145,12 @@ accordionSection:
         wonderful cruise.  Let the crew pamper you the way you deserve with our
         Ultimate VIP Cruise Party Cruise.
       title: Cruise Party FAQ's
-  title: Cruise Party Info
 columnBanner:
   - buttonTitle: Make Enquiry
     buttonUrl: booking-enquiry
     content: >-
-      Let our friendly and experienced team tailor a VIP Gold Coast Cruise
-      Party Experience that they won’t forget.
+      Let our friendly and experienced team tailor a VIP Gold Coast Cruise Party
+      Experience that they won’t forget.
     title: Give your friend the party they deserve!
     featuredImage: /images/uploads/girl-img-column2.jpg
   - featuredImage: /images/uploads/girl-img-column.jpg
@@ -166,3 +173,4 @@ testimonials:
     name: Alex S.
   title: Happy Sailors
 ---
+
