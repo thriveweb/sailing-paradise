@@ -55,6 +55,14 @@
 	fill: var(--primary);
 }
 
+/* BookingIframe */
+
+.bookingIframe .bannerColumn {
+	padding: 10rem;
+	display: flex;
+	align-items: center;
+}
+
 
 @media only screen and (max-width: 1280px) {
 	.bannerColumn {
@@ -65,10 +73,3 @@
 		font-size: 3rem;
 	}
 }
-
-
-
-
-
-
-

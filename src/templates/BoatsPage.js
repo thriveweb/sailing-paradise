@@ -15,27 +15,30 @@ export const BoatsPageTemplate = ({
   featuredImage,
   intro,
   secondaryBanner,
-  globalSections,
+  columnBanner,
   boats
-}) => (
-  <main className="Boats">
-    <Helmet>
-      <title>{title}</title>
-    </Helmet>
-    <PageHeader title={title} backgroundImage={featuredImage} />
-    <IntroText content={intro} center />
-    <Boats boats={boats} />
-    <SecondaryBanner {...secondaryBanner} large />
-    <ColumnBanner columnBanner={globalSections} />
-  </main>
-)
+}) => {
+
+  return <main className="Boats">
+      <Helmet>
+        <title>{title}</title>
+      </Helmet>
+      <PageHeader title={title} backgroundImage={featuredImage} />
+      <IntroText content={intro} center />
+      <Boats boats={boats} />
+      <SecondaryBanner {...secondaryBanner} large />
+      <ColumnBanner columnBanner={columnBanner} />
+    </main>
+}
+
+
 
 const BoatsPage = ({ data: { page, globalSections } }) => (
   <BoatsPageTemplate
     {...page}
     {...page.frontmatter}
     body={page.html}
-    {...globalSections}
+    {...globalSections.frontmatter}
   />
 )
 
@@ -83,7 +86,9 @@ export const pageQuery = graphql`
         }
       }
     }
-    globalSections: markdownRemark {
+    globalSections: markdownRemark(
+      fields: { slug: { eq: "/global-sections/" } }
+    ) {
       frontmatter {
         columnBanner {
           buttonTitle

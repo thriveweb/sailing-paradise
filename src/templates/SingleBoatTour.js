@@ -62,6 +62,7 @@ export const SingleBoatTourTemplate = ({
           columnBanner={columnBanner}
           boatTour
           charterUrl={charterUrl}
+          bookingIframe={bookingIframe}
         />
       )}
       {testimonials && <FeaturedTestimonial {...testimonials} />}

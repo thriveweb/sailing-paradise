@@ -17,6 +17,9 @@ export const CaseStudiesTemplate = ({
   posts = [],
   columnBanner
 }) => {
+
+  console.log(columnBanner)
+
   return (
     <main className="Blog CaseStudies">
       <Helmet>
@@ -51,7 +54,7 @@ const CaseStudies = ({ data }) => (
       ...post.node.frontmatter,
       ...post.node.fields
     }))}
-    {...data.globalSections}
+    {...data.globalSections.frontmatter}
   />
 )
 
@@ -86,7 +89,9 @@ export const pageQuery = graphql`
         }
       }
     }
-    globalSections: markdownRemark {
+    globalSections: markdownRemark(
+      fields: { slug: { eq: "/global-sections/" } }
+    ) {
       frontmatter {
         columnBanner {
           buttonTitle
