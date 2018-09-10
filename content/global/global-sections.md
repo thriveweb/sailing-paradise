@@ -1,5 +1,8 @@
 ---
 slug: global-sections
+footerContent: >-
+  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean tempor massa
+  ut felis tempus semper.
 columnBanner:
   - buttonTitle: See More
     buttonUrl: private-charters
@@ -19,13 +22,11 @@ bookingPopup:
     - buttonTitle: Book now
       buttonUrl: cruises
       icon: /images/uploads/boat2.svg
-      title: Book tickets on a cruise
+      title: Book & pay online for individual cruise tickets
     - buttonTitle: Enquire
       buttonUrl: booking-enquiry
       icon: /images/uploads/wheel.svg
-      title: Enquire about charting a boat privately
+      title: Enquire about our private charters & parties
   title: What would you like to do?
-footerContent: >-
-  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean tempor massa
-  ut felis tempus semper.
 ---
+
