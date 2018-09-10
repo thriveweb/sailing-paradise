@@ -7,9 +7,12 @@ class SortArray extends Component {
 
     if (!order) return null
 
-    const orderedItems = order.map(order =>
-      items.find(item => order.tours === item.frontmatter.title)
-    )
+    console.log(order)
+
+    const orderedItems = order.map(order => {
+      if(!items) return null
+      return items.find(item => order.tours === item.frontmatter.title)
+    })
 
     return <PostSection posts={orderedItems} boatTours />
   }

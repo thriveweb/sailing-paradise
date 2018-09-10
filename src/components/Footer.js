@@ -21,8 +21,6 @@ export default props => {
   const charters = navItems.filter(item => item.slug === 'private-charters')
   const cruises = navItems.filter(item => item.slug === 'cruises')
 
-  console.log(charters)
-
   const today = new Date()
   const yyyy = today.getFullYear()
 
