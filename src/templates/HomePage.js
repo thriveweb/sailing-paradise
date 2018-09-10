@@ -32,13 +32,13 @@ export const HomePageTemplate = ({
 }) => {
   return (
     <main className="Home">
-      {/*<Video 
+      <Video 
         video={featuredVideo} 
         homeVideo title={title} 
         featuredSlider={featuredSlider} 
         featuredBanner={featuredBanner} 
         socialMedia={socialMedia}
-      />*/}
+      />
       <ServiceColumns services={services} serviceBanner={serviceBanner} />
       <SecondaryBanner {...secondaryBanner} contentBox />
       <HomeAboutBanner {...aboutSection} />
