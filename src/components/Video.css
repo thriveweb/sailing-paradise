@@ -130,12 +130,19 @@
 	display: inline-block;
 }
 
-
 .video-section.homeVideo .overlay-content h1 {
 	font-size: 18rem;
 	font-weight: 800;
 	margin: 0;
 	max-width: 140rem
+}
+
+/* Boats */
+
+.boat .video-section, .SingleBoatTour .video-section {
+	max-width: 60%;
+	margin: 8rem auto 0;
+	padding-bottom: 35.25%;
 }
 
 @media only screen and (max-width: 1800px) {

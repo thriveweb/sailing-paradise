@@ -54,12 +54,6 @@
 	border-bottom: none;
 }
 
-.boat .video-section {
-	max-width: 60%;
-	margin: 8rem auto 0;
-	padding-bottom: 35.25%;
-}
-
 .boat:last-of-type {
 	padding-bottom: 0;
 	margin-bottom: 0;

@@ -9,6 +9,7 @@ import IntroText from '../components/IntroText'
 import ContentBox from '../components/ContentBox'
 import BookingIframe from '../components/BookingIframe'
 import GallerySlider from '../components/GallerySlider'
+import Video from '../components/Video'
 import Accordion from '../components/Accordion'
 import ColumnBanner from '../components/ColumnBanner'
 import FeaturedTestimonial from '../components/FeaturedTestimonial'
@@ -29,6 +30,7 @@ export const SingleBoatTourTemplate = ({
   accordionSection,
   columnBanner,
   testimonials,
+  videoSection,
   slug,
   post
 }) => {
@@ -53,6 +55,7 @@ export const SingleBoatTourTemplate = ({
         </div>
       </div>
       {gallery && <GallerySlider gallery={gallery} />}
+      {videoSection && <Video {...videoSection} />}
       {contentColumn && (
         <IntroText content={contentColumn} title={contentColumnTitle} />
       )}
@@ -109,6 +112,13 @@ export const pageQuery = graphql`
         bookingIframe
         gallery {
           image {
+            ...FluidImage
+          }
+        }
+        videoSection {
+          video
+          title
+          imageOverlay {
             ...FluidImage
           }
         }
