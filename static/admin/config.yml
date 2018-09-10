@@ -561,6 +561,14 @@ collections: # A list of collections the CMS should be able to edit
         widget: "list"
         fields:
           - {label: Image, name: image, widget: image, required: false}
+      - label: Video Section
+        name: videoSection
+        required: false
+        widget: object
+        fields:
+          - {label: Image Overlay, name: imageOverlay, widget: image}
+          - {label: Title, name: title, widget: string, required: false, default: ''}
+          - {label: Video, name: video, widget: string}
       - {label: Content Column Title, name: contentColumnTitle, widget: string, required: false}
       - {label: Content Column, name: contentColumn, widget: markdown, required: false}
       - label: Accordion Section
