@@ -4,17 +4,7 @@ tourType: Private Charter
 title: Christmas Parties
 icon: ''
 featuredImage: /images/uploads/DSC_0031.jpg
-intro: >-
-  ## gold coast Christmas boat party
-
-
-  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean elementum
-  scelerisque ex interdum cursus. In hac habitasse platea dictumst. Sed porta
-  ultricies turpis, dapibus efficitur lectus dapibus eget. Sed pharetra urna
-  vitae tincidunt placerat. Sed mollis, ex et placerat malesuada, felis orci
-  ultrices tortor, in molestie augue odio sed nibh. Quisque eros leo, egestas
-  quis ante ac, pretium venenatis augue. Aenean blandit urna sit amet nisi
-  elementum auctor.
+intro: "## gold coast Christmas boat party\n\nLooking for somewhere unique to host this year’s work Christmas Party?  How does a Boat Cruise aboard your own private catamaran sound?  You’ll be sailing in the beautiful Gold Coast sunshine surrounded by crystal blue waters, isolated islands and golden beaches, sipping on icy cold drinks and enjoying delicious food.\r\n\nSounds awesome right?   Yes, we know."
 contentBox:
   buttonTitle: Make enquiry
   buttonUrl: booking-enquiry
@@ -141,7 +131,6 @@ accordionSection:
         wonderful cruise.  Let the crew pamper you the way you deserve with our
         Ultimate VIP Christmas Party Cruise.
       title: Christmas Party FAQ's
-  title: Christmas Party Info
 columnBanner:
   - buttonTitle: Make Enquiry
     buttonUrl: booking-enquiry
@@ -170,3 +159,4 @@ testimonials:
     name: Alex S.
   title: Happy Sailors
 ---
+
