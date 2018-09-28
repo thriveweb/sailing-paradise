@@ -501,7 +501,7 @@ collections: # A list of collections the CMS should be able to edit
           - {label: Image Overlay, name: imageOverlay, widget: image}
           - {label: Title, name: title, widget: string, required: false, default: ''}
           - {label: Video, name: video, widget: string}
-      - {label: Secondary Image, name: secondaryImage, widget: image}
+      - {label: Secondary Image, name: secondaryImage, widget: image, required: false}
       - {label: Content, name: body, widget: markdown, required: false}
       - {label: Review, name: excerpt, widget: text}
       - label: "Gallery"
