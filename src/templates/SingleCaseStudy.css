@@ -29,6 +29,10 @@
 	margin-right: 4rem;
 }
 
+.columnLeft .secondaryImage {
+	margin-top: 2rem;
+}
+
 .columnRight {
 	flex: 1;
 }
@@ -63,4 +67,3 @@
 .SingleCaseStudy .share-buttons {
 	justify-content: center;
 }
-

@@ -68,8 +68,8 @@ export const SingleCaseStudyTemplate = ({
             <div className="columnLeft">
               {featuredImage && <Image src={featuredImage} alt={title} />}
               {secondaryImage
-                ? <Image src={secondaryImage.publicURL} alt='' />
-                : <Video {...videoSection} /> 
+                ? <Image className='secondaryImage' src={secondaryImage.publicURL} alt='' />
+                : <Video {...videoSection} />
               }
             </div>
             <div className="columnRight">
