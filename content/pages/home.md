@@ -2,8 +2,7 @@
 template: HomePage
 slug: ''
 title: True Paradise
-featuredVideo: >-
-  https://www.youtube.com/watch?v=vr0qNXmkUJ8&list=PLNhzc-Os3JK8ExayVzzoHVvP2c0-4_oqt
+featuredVideo: asdfgh
 featuredSlider:
   - buttonUrl: cruises
     description: this is a test this is a test
