@@ -101,12 +101,10 @@ export const pageQuery = graphql`
           subtitle
           featuredImage {
             ...FluidImage
-          } 
+          }
         }
         videoSection {
-          imageOverlay {
-            ...FluidImage
-          }
+          imageOverlay
           title
           video
         }
