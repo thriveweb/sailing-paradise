@@ -33,14 +33,14 @@ class GallerySlider extends Component {
 		};
 
 	    const { gallery = [] } = this.props
-		
+
 		if(!gallery) return null
 
 		return <div className='gallery'>
 			<Slider {...settings}>
 	    		{gallery.map(({ image }, index) => {
-	    			return <div 
-	    				className='galleryImage' 
+	    			return <div
+	    				className='galleryImage'
 	    				key={`image-${index}`}
 	    				onClick={() => this.handlePopup(index)}
 	    			>
@@ -50,19 +50,18 @@ class GallerySlider extends Component {
 	    		})}
 	    	</Slider>
 			{gallery.map(({ image }, index) => {
-				return <div 
-					className={`galleryImage--Popup ${this.state.popupActive === index ? 'active' : ''}`} 
+				return <div
+					className={`galleryImage--Popup ${this.state.popupActive === index ? 'active' : ''}`}
 					key={`image-full-${index}`}
 				>
 					<div className='popup-close' onClick={() => this.handlePopup()}>
 						<ICONClose />
 					</div>
-	    			<img src={image.publicURL} alt=''/>	
+	    			{image && image.publicUrl && <img src={image.publicURL} alt=''/>}
 	    		</div>
 			})}
-		</div>	
+		</div>
 	}
 }
 
 export default GallerySlider
-
