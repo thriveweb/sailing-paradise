@@ -19,8 +19,8 @@ class GallerySlider extends Component {
 			popupActive: index
 		})
 
-		document.body.style.overflow = index ? 'hidden' : 'auto'
-		document.documentElement.style.overflow = index ? 'hidden' : 'auto'
+		document.body.style.overflow = index || index === 0 ? 'hidden' : 'auto'
+		document.documentElement.style.overflow = index || index === 0 ? 'hidden' : 'auto'
 	}
 
   	render() {
@@ -57,7 +57,7 @@ class GallerySlider extends Component {
 					<div className='popup-close' onClick={() => this.handlePopup()}>
 						<ICONClose />
 					</div>
-	    			{image && image.publicUrl && <img src={image.publicURL} alt=''/>}
+	    			{image && <img src={image.publicURL} alt=''/>}
 	    		</div>
 			})}
 		</div>
