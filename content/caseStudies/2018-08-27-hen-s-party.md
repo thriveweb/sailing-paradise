@@ -7,7 +7,7 @@ featuredImage: /images/uploads/dsc_0250_2.jpg
 videoSection:
   imageOverlay: ''
   title: ''
-  video: 'https://www.youtube.com/watch?v=Vb_9aatr2fw'
+  video: ''
 secondaryImage: /images/uploads/DSC_0038.jpg
 excerpt: >-
   Tahlia - The whole day was amazing. The staff were absolutely exceptional and
