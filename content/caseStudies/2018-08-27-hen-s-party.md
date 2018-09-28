@@ -5,9 +5,10 @@ title: Birthday Party
 date: '2018-09-13'
 featuredImage: /images/uploads/dsc_0250_2.jpg
 videoSection:
-  imageOverlay: /images/uploads/DJI_0098.jpg
+  imageOverlay: ''
   title: ''
   video: ''
+secondaryImage: /images/uploads/DSC_0126.jpg
 excerpt: >-
   Tahlia - The whole day was amazing. The staff were absolutely exceptional and
   made my mum's birthday run so smoothly, they both had professional yet very
