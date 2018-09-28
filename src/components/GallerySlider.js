@@ -24,15 +24,15 @@ class GallerySlider extends Component {
 	}
 
   	render() {
+		const { gallery = [] } = this.props
+
 		const settings = {
-		  infinite: true,
+		  infinite: gallery.length > 4,
 		  slidesToShow: 4,
 		  swipeToSlide: true,
 		  slidesToScroll: 1,
 		  arrows: true,
 		};
-
-	    const { gallery = [] } = this.props
 
 		if(!gallery) return null
 
