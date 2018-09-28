@@ -146,7 +146,9 @@ export const pageQuery = graphql`
         }
         videoSection {
           video
-          imageOverlay
+          imageOverlay {
+            ...FluidImage
+          }
         }
         contentSecondary
       }

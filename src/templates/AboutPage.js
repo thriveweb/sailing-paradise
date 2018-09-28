@@ -104,7 +104,9 @@ export const pageQuery = graphql`
           }
         }
         videoSection {
-          imageOverlay
+          imageOverlay {
+            ...FluidImage
+          }
           title
           video
         }

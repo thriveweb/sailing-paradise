@@ -118,7 +118,9 @@ export const pageQuery = graphql`
         videoSection {
           video
           title
-          imageOverlay
+          imageOverlay {
+            ...FluidImage
+          }
         }
         contentColumnTitle
         contentColumn

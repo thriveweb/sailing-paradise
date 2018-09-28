@@ -20,12 +20,14 @@ export const SingleCaseStudyTemplate = ({
   date,
   featuredImage,
   videoSection,
+  secondaryImage,
   body,
   excerpt,
   gallery,
   banner,
   secondaryBanner
 }) => {
+
   return (
     <main className="SingleCaseStudy">
       <Helmet>
@@ -65,7 +67,10 @@ export const SingleCaseStudyTemplate = ({
           <div className="SingleCaseStudy--Body">
             <div className="columnLeft">
               {featuredImage && <Image src={featuredImage} alt={title} />}
-              {videoSection && <Video {...videoSection} />}
+              {secondaryImage
+                ? <Image src={secondaryImage.publicURL} alt='' />
+                : <Video {...videoSection} /> 
+              }
             </div>
             <div className="columnRight">
               {body && <Content src={body} />}
@@ -120,7 +125,12 @@ export const pageQuery = graphql`
         }
         videoSection {
           video
-          imageOverlay
+          imageOverlay {
+            ...FluidImage
+          }
+        }
+        secondaryImage {
+          ...FluidImage
         }
         gallery {
           image {
