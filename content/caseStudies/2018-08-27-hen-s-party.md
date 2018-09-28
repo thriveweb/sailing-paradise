@@ -5,7 +5,7 @@ title: Birthday Party
 date: '2018-09-13'
 featuredImage: /images/uploads/dsc_0250_2.jpg
 videoSection:
-  imageOverlay: ''
+  imageOverlay: /images/uploads/DJI_0098.jpg
   title: ''
   video: ''
 excerpt: >-
