@@ -8,7 +8,7 @@ videoSection:
   imageOverlay: ''
   title: ''
   video: 'https://www.youtube.com/watch?v=Vb_9aatr2fw'
-secondaryImage: ''
+secondaryImage: /images/uploads/DSC_0038.jpg
 excerpt: >-
   Tahlia - The whole day was amazing. The staff were absolutely exceptional and
   made my mum's birthday run so smoothly, they both had professional yet very
