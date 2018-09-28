@@ -14,6 +14,7 @@ excerpt: >-
   warm & calming attitudes. And every single person who came has commented on
   how fantastic they were.   
 gallery:
+  - image: /images/uploads/dsc_0169_2.jpg
   - {}
 secondaryBanner:
   buttonTitle: Back
