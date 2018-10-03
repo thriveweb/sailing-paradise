@@ -16,6 +16,10 @@ excerpt: >-
   how fantastic they were.   
 gallery:
   - image: /images/uploads/dsc_0169_2.jpg
+  - image: /images/uploads/dsc_0169_2.jpg
+  - image: /images/uploads/dsc_0502_1.jpg
+  - image: /images/uploads/dsc_0359_2.jpg
+  - {}
 secondaryBanner:
   buttonTitle: Back
   buttonUrl: case-studies
