@@ -45,9 +45,25 @@ videoSection:
     https://www.youtube.com/watch?v=vr0qNXmkUJ8&list=PLNhzc-Os3JK8ExayVzzoHVvP2c0-4_oqt
 contentColumnTitle: We love birthday parties and birthday parties love us!
 contentColumn: >-
-  At Sailing In Paradise, we are continually striving to create the best
-  experience possible for our guests.
+  From young kids parties all the way through to 80th's and beyond, we can
+  create a memorable and fun birthday party that you and your guest will
+  remember for years to come.
 
+
+  The smooth and stable nature of the catamaran means the boat is suitable for
+  all ages and abilities.
+
+
+  No matter what style of birthday party you wish to create, we can help.
+  Whether you are looking for a relaxing day on the water with some yummy food
+  and a few drinks. A kids birthday party with a beach stopover, sand castles,
+  cakes and clowns. Or a raucous birthday party with loud music, inflatables and
+  all the trimmings, we are here for you. 
+
+
+  We have some great Gold Coast birthday party ideas also.
+
+   At Sailing In Paradise, we are continually striving to create the best experience possible for our guests.
 
   We understand that you want your special day to be memorable, fun, relaxing
   and stress free and that is exactly what we specialise in.
@@ -56,29 +72,25 @@ contentColumn: >-
   From the moment you send through an enquiry all the way through to the follow
   up email with your free souvenir photo’s after your cruise, we pride ourselves
   on our professional yet friendly and laid back attitude.
-
-
-  No matter what style of party you are after we can help. Whether you are
-  looking for a relaxing day on the water with some yummy food and a few drinks.
-  Or an elegant morning tea cruise with champagne and delicious cupcakes. Even a
-  raucous birthday party with a butler in the buff and all the trimmings we are
-  here for you. We have some great Gold Coast birthday night ideas also.
 accordionSection:
   accordion:
     - dropdownContent: >-
-        Why settle for ordinary when you can sail away on the Gold Coast’s most
-        luxurious and unique sailing catamaran.
+        Expect the unexpected. Every day is different when you have your Gold
+        Coast birthday party on board Sailing In Paradise but one thing is for
+        sure... you're in for one hell of a good time.
 
 
-        Our stable sailing catamaran is ideal for groups of up to 30 ladies. The
-        large trampoline-style fore-deck is perfect for lazing in the sunshine
-        or dancing, while we sail the calm, clear waters of the Gold Coast. The
-        ample undercover space makes the vessel perfect for those seeking shade.
-        Facilities are plentiful to ensure you have everything on hand to enjoy
-        a perfect day! Definitely the boat to be seen on and with room for up to
-        30 passengers, this smooth and stable yacht is the ideal venue for a
-        wonderful cruise.  Let the crew pamper you the way you deserve with our
-        Ultimate VIP Birthday Party Cruise.
+        Some things we love include:
+
+
+        Sailing, beach stopovers, inflatables, stand up paddleboards,
+        snorkelling, sunbathing. All included free of charge.
+
+
+        Some things are a given:
+
+
+        Singing Happy Birthday to you, cake, speeches, presents.
       title: What to expect
     - dropdownContent: >-
         Why settle for ordinary when you can sail away on the Gold Coast’s most
