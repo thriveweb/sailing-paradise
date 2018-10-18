@@ -92,51 +92,39 @@ accordionSection:
 
         Singing Happy Birthday to you, cake, speeches, presents.
       title: What to expect
-    - dropdownContent: >-
-        Why settle for ordinary when you can sail away on the Gold Coast’s most
-        luxurious and unique sailing catamaran.
+    - dropdownContent: |-
+        Keep it simple.
 
+        Swimmers and beach towels.
 
-        Our stable sailing catamaran is ideal for groups of up to 30 ladies. The
-        large trampoline-style fore-deck is perfect for lazing in the sunshine
-        or dancing, while we sail the calm, clear waters of the Gold Coast. The
-        ample undercover space makes the vessel perfect for those seeking shade.
-        Facilities are plentiful to ensure you have everything on hand to enjoy
-        a perfect day! Definitely the boat to be seen on and with room for up to
-        30 passengers, this smooth and stable yacht is the ideal venue for a
-        wonderful cruise.  Let the crew pamper you the way you deserve with our
-        Ultimate VIP Birthday Party Cruise.
+        Food and drink (unless you want us to organise the catering for you).
+
+        Smiles and good vibes.
       title: What to Bring
-    - dropdownContent: >-
-        Why settle for ordinary when you can sail away on the Gold Coast’s most
-        luxurious and unique sailing catamaran.
+    - dropdownContent: |-
+        Please remember:
 
-
-        Our stable sailing catamaran is ideal for groups of up to 30 ladies. The
-        large trampoline-style fore-deck is perfect for lazing in the sunshine
-        or dancing, while we sail the calm, clear waters of the Gold Coast. The
-        ample undercover space makes the vessel perfect for those seeking shade.
-        Facilities are plentiful to ensure you have everything on hand to enjoy
-        a perfect day! Definitely the boat to be seen on and with room for up to
-        30 passengers, this smooth and stable yacht is the ideal venue for a
-        wonderful cruise.  Let the crew pamper you the way you deserve with our
-        Ultimate VIP Birthday Party Cruise.
+        No red wine, No sparklers, No drunken idiots and No bad juju.
       title: Considerations
     - dropdownContent: >-
-        Why settle for ordinary when you can sail away on the Gold Coast’s most
-        luxurious and unique sailing catamaran.
+        We have done a lot of research to find the best Gold Coast caterers and
+        can organise this on your behalf or you are more than welcome to BYO.
 
 
-        Our stable sailing catamaran is ideal for groups of up to 30 ladies. The
-        large trampoline-style fore-deck is perfect for lazing in the sunshine
-        or dancing, while we sail the calm, clear waters of the Gold Coast. The
-        ample undercover space makes the vessel perfect for those seeking shade.
-        Facilities are plentiful to ensure you have everything on hand to enjoy
-        a perfect day! Definitely the boat to be seen on and with room for up to
-        30 passengers, this smooth and stable yacht is the ideal venue for a
-        wonderful cruise.  Let the crew pamper you the way you deserve with our
-        Ultimate VIP Birthday Party Cruise.
-      title: VIP Packages
+        We do have a bbq on board which you are free to use however as you will
+        need to cook this yourself we find that this can detract from your
+        enjoyment on the day therefore we recommend this only if you have booked
+        the boat for 4 hours or more. But the choice is yours.
+
+
+        Again we find the best idea is to Keep it Simple.
+
+
+        Fingerfoods are the go and the latest craze is grazing boards or
+        platters. These can look sensational as a centrepiece for the large
+        timber tables we have on board and your guests are free to pick away at
+        their convenience.
+      title: Catered or BYO
     - dropdownContent: >-
         Why settle for ordinary when you can sail away on the Gold Coast’s most
         luxurious and unique sailing catamaran.
