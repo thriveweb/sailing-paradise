@@ -8,13 +8,27 @@ intro: >-
   ## gold coast birthday boat party
 
 
-  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean elementum
-  scelerisque ex interdum cursus. In hac habitasse platea dictumst. Sed porta
-  ultricies turpis, dapibus efficitur lectus dapibus eget. Sed pharetra urna
-  vitae tincidunt placerat. Sed mollis, ex et placerat malesuada, felis orci
-  ultrices tortor, in molestie augue odio sed nibh. Quisque eros leo, egestas
-  quis ante ac, pretium venenatis augue. Aenean blandit urna sit amet nisi
-  elementum auctor.
+  If you are looking for the perfect birthday party venue on the Gold Coast then
+  look no further. Sailing In Paradise can cater for groups of up to 30 people
+  on our signature sailing catamaran the 'Spirit of Gwonda' or combine both our
+  beautiful catamarans to suit up to 50 people, or we can arrange a raft up
+  party with 4 catamarans for up to 90 people. 
+
+
+  The sailing catamarans are smooth and stable and very open plan making them
+  perfect for entertaining.
+
+
+  You can choose to BYO everything or we can arrange all the catering for you.
+
+
+  Each boat is equipped with everything you would expect from a luxury catamaran
+  including superb sound system with free access to premium Spotify, stainless
+  steel barbecue, large eskies with ice and beautiful bathrooms.
+
+
+  And those 'little extras' we offer are endless.  Please keep reading for the
+  complete rundown...
 contentBox:
   buttonTitle: Make enquiry
   buttonUrl: booking-enquiry
@@ -31,8 +45,8 @@ videoSection:
     https://www.youtube.com/watch?v=vr0qNXmkUJ8&list=PLNhzc-Os3JK8ExayVzzoHVvP2c0-4_oqt
 contentColumnTitle: We love birthday parties and birthday parties love us!
 contentColumn: >-
-  We have hosted over 1000 happy birthday parties and we are continually
-  striving to create the best experience possible for our guests.
+  At Sailing In Paradise, we are continually striving to create the best
+  experience possible for our guests.
 
 
   We understand that you want your special day to be memorable, fun, relaxing
