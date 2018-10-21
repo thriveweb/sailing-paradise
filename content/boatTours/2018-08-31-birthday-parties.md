@@ -108,7 +108,8 @@ accordionSection:
       title: Considerations
     - dropdownContent: >-
         We have done a lot of research to find the best Gold Coast caterers and
-        can organise this on your behalf or you are more than welcome to BYO.
+        are happy to organise this on your behalf, or you are more than welcome
+        to BYO.
 
 
         We do have a bbq on board which you are free to use however as you will
