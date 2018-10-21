@@ -18,7 +18,7 @@ intro: >-
 
 
   The sailing catamarans are smooth and stable and very open plan making them
-  perfect for your next birthday party event.
+  the perfect venue for your next birthday party event.
 
 
   You can choose to BYO everything or we can arrange all the catering for you.
@@ -86,14 +86,13 @@ accordionSection:
 
 
         Sailing, beach stopovers, inflatables, stand up paddleboards,
-        snorkelling, sunbathing. All included free of charge.
+        snorkeling, sunbathing. All included free of charge.
 
 
         Some things are almost mandatory:
 
 
-        Singing Happy Birthday to you, cake, speeches, presents, embarassing
-        memories.
+        Singing Happy Birthday to you, cake, embarassing speeches, presents.
       title: What to expect
     - dropdownContent: |-
         Keep it simple.
@@ -103,6 +102,8 @@ accordionSection:
         Food and drink (unless you want us to organise the catering for you).
 
         Smiles and good vibes.
+
+        We'll provide the rest.
       title: What to Bring
     - dropdownContent: |-
         Please remember:
@@ -163,7 +164,7 @@ accordionSection:
         Q. What happens if it's raining?
 
 
-        A. Check out our wet weather policy here.
+        A. Check out our wet weather policy HERE.
 
 
         Q. I sometimes get seasick, is there waves?
