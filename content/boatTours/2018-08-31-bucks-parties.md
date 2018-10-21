@@ -25,6 +25,10 @@ intro: >-
   sailing catamaran, listening to some cool tunes. Pull up on a white sandy
   beach on a deserted island for a hit of beach cricket or footy and have a
   gourmet barbecue with some ice cold beers. Sound good?
+
+
+  OK. Yes you can be served that ice cold beer by a lovely, scantily clad
+  waitress if you must.
 contentBox:
   buttonTitle: Make enquiry
   buttonUrl: booking-enquiry
@@ -41,61 +45,83 @@ videoSection:
     https://www.youtube.com/watch?v=vr0qNXmkUJ8&list=PLNhzc-Os3JK8ExayVzzoHVvP2c0-4_oqt
 contentColumnTitle: VIP Bachelor Party.
 contentColumn: >-
-  From the moment you arrive you'll be treated like the VIP you are.
+  Why settle for ordinary when you can sail away on the Gold Coast’s most
+  luxurious and unique sailing catamaran.
 
 
-  We have rolled out the red carpet for you and your mates.
+  From the moment you arrive you'll be treated like the VIP you are. We have
+  rolled out the red carpet and our crew are ready and waiting for you and your
+  mates.
+
+
+  Our smooth and stable sailing catamarans are the perfect venue for your Gold
+  Coast bucks party and the open plan layout ensures that all your guests will
+  be part of the action.
+
+
+  The large trampoline-style fore-deck is perfect for chilling out in the sun
+  with an ice cold beer and listening to some tunes while we sail the calm,
+  clear waters of the Gold Coast. The ample undercover space makes the vessel
+  perfect for those seeking shade. Facilities are plentiful to ensure you have
+  everything on hand to enjoy a perfect day! 
 
 
   There is ice in the esky, the tunes are pumping and we are ready to sail away
-  to your secret destination.
+  to your secret destination. 
+
+
+  So let the crew pamper you the way you deserve with our Ultimate VIP bucks
+  Party Cruise.
 accordionSection:
   accordion:
     - dropdownContent: >-
-        Why settle for ordinary when you can sail away on the Gold Coast’s most
-        luxurious and unique sailing catamaran.
+        A great day out on the calm waters with your mates.
 
 
-        Our stable sailing catamaran is ideal for groups of up to 30 ladies. The
-        large trampoline-style fore-deck is perfect for lazing in the sunshine
-        or dancing, while we sail the calm, clear waters of the Gold Coast. The
-        ample undercover space makes the vessel perfect for those seeking shade.
-        Facilities are plentiful to ensure you have everything on hand to enjoy
-        a perfect day! Definitely the boat to be seen on and with room for up to
-        30 passengers, this smooth and stable yacht is the ideal venue for a
-        wonderful cruise.  Let the crew pamper you the way you deserve with our
-        Ultimate VIP bucks Party Cruise.
+        Cold drinks, cool tunes, good vibes.
+
+
+        Activities if you like - beach cricket, stand up paddleboards, fishing,
+        snorkelling.
+
+
+        Yes you can bring a waitress if you like.
       title: What to expect
     - dropdownContent: >-
-        Why settle for ordinary when you can sail away on the Gold Coast’s most
-        luxurious and unique sailing catamaran.
+        Swimmers (preferrably not budgie smugglers or mankini's  thank you).
+        Towels.
 
 
-        Our stable sailing catamaran is ideal for groups of up to 30 ladies. The
-        large trampoline-style fore-deck is perfect for lazing in the sunshine
-        or dancing, while we sail the calm, clear waters of the Gold Coast. The
-        ample undercover space makes the vessel perfect for those seeking shade.
-        Facilities are plentiful to ensure you have everything on hand to enjoy
-        a perfect day! Definitely the boat to be seen on and with room for up to
-        30 passengers, this smooth and stable yacht is the ideal venue for a
-        wonderful cruise.  Let the crew pamper you the way you deserve with our
-        Ultimate VIP bucks Party Cruise.
+        Food and drink (unless you want us to arrange this for you).
+
+
+        Good Vibes.
       title: What to Bring
     - dropdownContent: >-
-        Why settle for ordinary when you can sail away on the Gold Coast’s most
-        luxurious and unique sailing catamaran.
+        Topless waitresses are allowed however due to licensing laws we can not
+        allow Adult entertainment shows or fully naked women.
 
 
-        Our stable sailing catamaran is ideal for groups of up to 30 ladies. The
-        large trampoline-style fore-deck is perfect for lazing in the sunshine
-        or dancing, while we sail the calm, clear waters of the Gold Coast. The
-        ample undercover space makes the vessel perfect for those seeking shade.
-        Facilities are plentiful to ensure you have everything on hand to enjoy
-        a perfect day! Definitely the boat to be seen on and with room for up to
-        30 passengers, this smooth and stable yacht is the ideal venue for a
-        wonderful cruise.  Let the crew pamper you the way you deserve with our
-        Ultimate VIP bucks Party Cruise.
-      title: Considerations
+        Bucks parties and all male celebrations are limited to a maximum of 3
+        hours and must be finished by 5pm.
+
+
+        Spirits are only allowed in commercially packaged pre-mixed cans or
+        bottles ie no bottled spirits allowed.
+
+
+        Our vessels are non-smoking however we can pull up at numerous public
+        wharves and beaches for ciggie breaks.
+
+
+        As the marina area is a public place there is to be no consumption off
+        alcohol off the boat either before or after your cruise.
+
+
+        The skipper has the right to refuse entry, cease the cruise early, or to
+        disembark from a different wharf, if anyone is intoxicated or behaving
+        offensively, and the police may be called to attend.
+      title: Conditions
     - dropdownContent: >-
         Why settle for ordinary when you can sail away on the Gold Coast’s most
         luxurious and unique sailing catamaran.
