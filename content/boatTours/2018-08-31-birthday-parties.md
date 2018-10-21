@@ -5,18 +5,20 @@ title: Birthday Parties
 icon: /images/uploads/cake.svg
 featuredImage: /images/uploads/fully-catered-or-byo.jpg
 intro: >-
-  ## gold coast birthday boat party
+  ## gold coast birthday party cruise
 
 
   If you are looking for the perfect birthday party venue on the Gold Coast then
-  look no further. Sailing In Paradise can cater for groups of up to 30 people
-  on our signature sailing catamaran the 'Spirit of Gwonda' or combine both our
-  beautiful catamarans to suit up to 50 people, or we can arrange a raft up
-  party with 4 catamarans for up to 90 people. 
+  look no further. Sailing In Paradise can create the perfect Gold Coast
+  birthday party experience that you and your guests will remember. We can cater
+  for groups of up to 30 people on our signature sailing catamaran the 'Spirit
+  of Gwonda' or combine both our beautiful catamarans to suit up to 50 people.
+  Got an even larger group? No problems, we can arrange a raft up party with 4
+  catamarans for up to 90 people. 
 
 
   The sailing catamarans are smooth and stable and very open plan making them
-  perfect for entertaining.
+  perfect for your next birthday party event.
 
 
   You can choose to BYO everything or we can arrange all the catering for you.
@@ -43,7 +45,7 @@ videoSection:
   imageOverlay: /images/uploads/DSC_1073.jpg
   video: >-
     https://www.youtube.com/watch?v=vr0qNXmkUJ8&list=PLNhzc-Os3JK8ExayVzzoHVvP2c0-4_oqt
-contentColumnTitle: We love birthday parties and birthday parties love us!
+contentColumnTitle: Fun for all ages.
 contentColumn: >-
   From young kids parties all the way through to 80th's and beyond, we can
   create a memorable and fun birthday party that you and your guest will
@@ -87,10 +89,11 @@ accordionSection:
         snorkelling, sunbathing. All included free of charge.
 
 
-        Some things are a given:
+        Some things are almost mandatory:
 
 
-        Singing Happy Birthday to you, cake, speeches, presents.
+        Singing Happy Birthday to you, cake, speeches, presents, embarassing
+        memories.
       title: What to expect
     - dropdownContent: |-
         Keep it simple.
@@ -127,34 +130,81 @@ accordionSection:
         their convenience.
       title: Catered or BYO
     - dropdownContent: >-
-        Why settle for ordinary when you can sail away on the Gold Coast’s most
-        luxurious and unique sailing catamaran.
+        Arrive in style with a stretch Hummer limousine.
 
 
-        Our stable sailing catamaran is ideal for groups of up to 30 ladies. The
-        large trampoline-style fore-deck is perfect for lazing in the sunshine
-        or dancing, while we sail the calm, clear waters of the Gold Coast. The
-        ample undercover space makes the vessel perfect for those seeking shade.
-        Facilities are plentiful to ensure you have everything on hand to enjoy
-        a perfect day! Definitely the boat to be seen on and with room for up to
-        30 passengers, this smooth and stable yacht is the ideal venue for a
-        wonderful cruise.  Let the crew pamper you the way you deserve with our
-        Ultimate VIP Birthday Party Cruise.
+        Add some exciting watersports. Jetboating and Parasailing can be
+        arranged and they can pick you up off the boat.
+
+
+        Have cocktails in one of the rooftop bars or hit the clubs in Surfers or
+        Broadbeach after your cruise, or dine in some of Australia's best
+        restaurants located right here on the Gold Coast. Ask us for
+        recommendations.
+
+
+        Indulge in a relaxing day spa or treat yourself to some retail therapy.
+
+
+        Take in the sights from above with a Seaplane, Helicopter flight or Hot
+        Air Balloon.
+
+
+        Have a hit at the Goldies newest attraction TopGolf.
+
+
+        Gather the troops for some Indoor karting at Slideways GoKarts or battle
+        it out with a paintball tournament.
+
+
+        The list goes on and on.
       title: More Birthday Ideas
     - dropdownContent: >-
-        Why settle for ordinary when you can sail away on the Gold Coast’s most
-        luxurious and unique sailing catamaran.
+        Q. What happens if it's raining?
 
 
-        Our stable sailing catamaran is ideal for groups of up to 30 ladies. The
-        large trampoline-style fore-deck is perfect for lazing in the sunshine
-        or dancing, while we sail the calm, clear waters of the Gold Coast. The
-        ample undercover space makes the vessel perfect for those seeking shade.
-        Facilities are plentiful to ensure you have everything on hand to enjoy
-        a perfect day! Definitely the boat to be seen on and with room for up to
-        30 passengers, this smooth and stable yacht is the ideal venue for a
-        wonderful cruise.  Let the crew pamper you the way you deserve with our
-        Ultimate VIP Birthday Party Cruise.
+        A. Check out our wet weather policy here.
+
+
+        Q. I sometimes get seasick, is there waves?
+
+
+        A. The boat is very smooth and stable and we operate in the calm
+        Broadwater so there are not many waves apart from the odd boat wash. Our
+        skilled captains have ways of keeping the boat very smooth so you don't
+        spill your drink and you definitely won't get seasick.
+
+
+        Q. Do I need to bring sunscreen, inflatables, towels, camera, water or
+        music?
+
+
+        A. Most things are provided however you will need to byo towel. One of
+        our friendly staff will let you know what is included when you make your
+        initial enquiry.
+
+
+        Q. How do I book?
+
+
+        A. Fill out an enquiry form HERE and you will quickly get all the info
+        you need including availability, pricing, inclusions etc. Then it is
+        simply a matter of paying your deposit to secure your preferred date.
+        But don't dawdle as we quickly book out and we don't want you to be
+        dissapointed.
+
+
+        Q. Why should we choose you over another operator?
+
+
+        A. This list is endless. Check out our reviews, check out our socials,
+        speak to someone who has been with us before (you would be surprised,
+        you will probably know someone who has been with us?), and we pride
+        ourselves on the fact that our guests keep coming back (some have been
+        with us as many as 8 times). We go out of our way to create the best
+        experience possible and are constantly updating, re-inventing,
+        reinvesting and reviewing. We're not happy until you're happy and we
+        want you to come back again and again.
       title: Birthday Party FAQ's
 columnBanner:
   - buttonTitle: Make Enquiry
