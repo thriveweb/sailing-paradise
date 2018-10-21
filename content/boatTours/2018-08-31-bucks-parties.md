@@ -5,16 +5,26 @@ title: Bucks Parties
 icon: ''
 featuredImage: /images/uploads/ppl-boat-img9.jpg
 intro: >-
-  ## gold coast  boat party
+  ## gold coast  bucks party
 
 
-  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean elementum
-  scelerisque ex interdum cursus. In hac habitasse platea dictumst. Sed porta
-  ultricies turpis, dapibus efficitur lectus dapibus eget. Sed pharetra urna
-  vitae tincidunt placerat. Sed mollis, ex et placerat malesuada, felis orci
-  ultrices tortor, in molestie augue odio sed nibh. Quisque eros leo, egestas
-  quis ante ac, pretium venenatis augue. Aenean blandit urna sit amet nisi
-  elementum auctor.
+  "Get the Buck outa here."
+
+
+  Want to get out on the water and have some fun?
+
+
+  We can help organise a bachelor party to remember.
+
+
+  This won't be your usual tacky bucks boat party though, we like to add a touch
+  of style to everything we do.
+
+
+  Gather the boys and cruise the beautiful Gold Coast waterways on a luxury
+  sailing catamaran, listening to some cool tunes. Pull up on a white sandy
+  beach on a deserted island for a hit of beach cricket or footy and have a
+  gourmet barbecue with some ice cold beers. Sound good?
 contentBox:
   buttonTitle: Make enquiry
   buttonUrl: booking-enquiry
@@ -29,26 +39,16 @@ videoSection:
   imageOverlay: /images/uploads/DSC_1073.jpg
   video: >-
     https://www.youtube.com/watch?v=vr0qNXmkUJ8&list=PLNhzc-Os3JK8ExayVzzoHVvP2c0-4_oqt
-contentColumnTitle: We love bucks parties and bucks parties love us!
+contentColumnTitle: VIP Bachelor Party.
 contentColumn: >-
-  We have hosted over 1000 happy bucks parties and we are continually
-  striving to create the best experience possible for our guests.
+  From the moment you arrive you'll be treated like the VIP you are.
 
 
-  We understand that you want your special day to be memorable, fun, relaxing
-  and stress free and that is exactly what we specialise in.
+  We have rolled out the red carpet for you and your mates.
 
 
-  From the moment you send through an enquiry all the way through to the follow
-  up email with your free souvenir photo’s after your cruise, we pride ourselves
-  on our professional yet friendly and laid back attitude.
-
-
-  No matter what style of party you are after we can help. Whether you are
-  looking for a relaxing day on the water with some yummy food and a few drinks.
-  Or an elegant morning tea cruise with champagne and delicious cupcakes. Even a
-  raucous bucks party with a butler in the buff and all the trimmings we are
-  here for you. We have some great Gold Coast bucks night ideas also.
+  There is ice in the esky, the tunes are pumping and we are ready to sail away
+  to your secret destination.
 accordionSection:
   accordion:
     - dropdownContent: >-
@@ -141,13 +141,12 @@ accordionSection:
         wonderful cruise.  Let the crew pamper you the way you deserve with our
         Ultimate VIP bucks Party Cruise.
       title: bucks Party FAQ's
-  title: bucks Party Info
 columnBanner:
   - buttonTitle: Make Enquiry
     buttonUrl: booking-enquiry
     content: >-
-      Let our friendly and experienced team tailor a VIP Gold Coast bucks
-      Party Experience that they won’t forget.
+      Let our friendly and experienced team tailor a VIP Gold Coast bucks Party
+      Experience that they won’t forget.
     title: Give your friend the party they deserve!
     featuredImage: /images/uploads/girl-img-column2.jpg
   - featuredImage: /images/uploads/girl-img-column.jpg
@@ -160,9 +159,9 @@ testimonials:
     our satisfied clients.
   featuredTestimonial:
     content: >-
-      "We used this wonderful company to start my sisters bucks celebrations
-      and the girls haven’t stopped talking about it since. It was a beautiful
-      day out on a beautiful boat with an amazing crew! Will definitely be in
+      "We used this wonderful company to start my sisters bucks celebrations and
+      the girls haven’t stopped talking about it since. It was a beautiful day
+      out on a beautiful boat with an amazing crew! Will definitely be in
       contact again with Steve if I can think of any other reason to go for a
       sail. Thank you so much for your time and not laughing at our dance moves
       and pop star singing voices!"
@@ -170,3 +169,4 @@ testimonials:
     name: Alex S.
   title: Happy Sailors
 ---
+
