@@ -122,50 +122,11 @@ accordionSection:
         disembark from a different wharf, if anyone is intoxicated or behaving
         offensively, and the police may be called to attend.
       title: Conditions
-    - dropdownContent: >-
-        Why settle for ordinary when you can sail away on the Gold Coast’s most
-        luxurious and unique sailing catamaran.
-
-
-        Our stable sailing catamaran is ideal for groups of up to 30 ladies. The
-        large trampoline-style fore-deck is perfect for lazing in the sunshine
-        or dancing, while we sail the calm, clear waters of the Gold Coast. The
-        ample undercover space makes the vessel perfect for those seeking shade.
-        Facilities are plentiful to ensure you have everything on hand to enjoy
-        a perfect day! Definitely the boat to be seen on and with room for up to
-        30 passengers, this smooth and stable yacht is the ideal venue for a
-        wonderful cruise.  Let the crew pamper you the way you deserve with our
-        Ultimate VIP bucks Party Cruise.
+    - dropdownContent: ''
       title: VIP Packages
-    - dropdownContent: >-
-        Why settle for ordinary when you can sail away on the Gold Coast’s most
-        luxurious and unique sailing catamaran.
-
-
-        Our stable sailing catamaran is ideal for groups of up to 30 ladies. The
-        large trampoline-style fore-deck is perfect for lazing in the sunshine
-        or dancing, while we sail the calm, clear waters of the Gold Coast. The
-        ample undercover space makes the vessel perfect for those seeking shade.
-        Facilities are plentiful to ensure you have everything on hand to enjoy
-        a perfect day! Definitely the boat to be seen on and with room for up to
-        30 passengers, this smooth and stable yacht is the ideal venue for a
-        wonderful cruise.  Let the crew pamper you the way you deserve with our
-        Ultimate VIP bucks Party Cruise.
+    - dropdownContent: ''
       title: More bucks Ideas
-    - dropdownContent: >-
-        Why settle for ordinary when you can sail away on the Gold Coast’s most
-        luxurious and unique sailing catamaran.
-
-
-        Our stable sailing catamaran is ideal for groups of up to 30 ladies. The
-        large trampoline-style fore-deck is perfect for lazing in the sunshine
-        or dancing, while we sail the calm, clear waters of the Gold Coast. The
-        ample undercover space makes the vessel perfect for those seeking shade.
-        Facilities are plentiful to ensure you have everything on hand to enjoy
-        a perfect day! Definitely the boat to be seen on and with room for up to
-        30 passengers, this smooth and stable yacht is the ideal venue for a
-        wonderful cruise.  Let the crew pamper you the way you deserve with our
-        Ultimate VIP bucks Party Cruise.
+    - dropdownContent: ''
       title: bucks Party FAQ's
 columnBanner:
   - buttonTitle: Make Enquiry
