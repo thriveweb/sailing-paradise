@@ -69,19 +69,46 @@ aboutSection:
     - buttonTitle: See our boats
       buttonUrl: boats
   content: >-
-    Measuring 10.5m long by 6.5m wide, there is ample space for up to 30 people
-    (plus 2 crew), approx 60 square metres of deck space in fact.
+    We have 2 of the most beautiful and well maintained sailing catamarans
+    available.
 
 
-    You will be amazed at the room available inside this smooth and stable boat.
+    These yachts are smooth and stable and  perfect for entertaining.
 
 
-    The ‘Spirit Of Gwonda’ is a Seawind 1050 Resort sailing catamaran which has
-    been purpose built for entertaining and day cruises.
+    Imagine yourself lazing in the sun on the trampoline style foredeck with a
+    cocktail in hand or relaxing with friends in the undercover area, either way
+    you will enjoy unobstructed views of the beautiful Gold Coast Broadwater and
+    surrounds.
 
 
-    The open plan layout ensures all your guests can interact with each other
-    without having the wasted space of bedrooms, kitchens etc.
+    Everything is taken care of - the coolest tunes playing through state of the
+    art sound system with speakers inside and out, 2 large eskies stocked with
+    ice, large central timber table for presenting your food, marine barbecue,
+    inflatables, paddleboards and beach games, clean modern bathroom facilities,
+    the list goes on and on.
+
+
+    You can read all about our boats  HERE
+
+
+    And our crew are on hand to ensure that your event is the best it can be.
+
+
+    From your initial enquiry all the way through to your special day and
+    beyond, we go out of our way to ensure your expectations are not only met
+    but exceeded.
+
+
+    We know organising an event can sometimes be stressfull but Sailing In
+    Paradise's Event Co-ordinator, Jess, will take the stress out and replace it
+    with fun.
+
+
+    On the day you will be greeted with smiles.. and good times will follow.
+
+
+    You can get to know our staff HERE
   featuredImage: /images/uploads/ppl-boat.jpg
   subtitle: Our Boats & Crew
   title: Meet Us
