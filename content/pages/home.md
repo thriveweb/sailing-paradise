@@ -89,7 +89,6 @@ aboutSection:
     the list goes on and on.
 
 
-    You can read all about our boats  HERE
 
 
     And our crew are on hand to ensure that your event is the best it can be.
@@ -106,9 +105,6 @@ aboutSection:
 
 
     On the day you will be greeted with smiles.. and good times will follow.
-
-
-    You can get to know our staff HERE
   featuredImage: /images/uploads/ppl-boat.jpg
   subtitle: Our Boats & Crew
   title: Meet Us
