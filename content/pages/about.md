@@ -155,8 +155,8 @@ captainSection:
 crewSection:
   crew:
     - image: /images/uploads/girl-img1.jpg
-      name: Name Here
-      title: Captain
+      name: Chanelle O'Brien
+      title: Cheif Stew
     - image: /images/uploads/girl-img7.jpg
       name: Jane Doe
       title: Cook
