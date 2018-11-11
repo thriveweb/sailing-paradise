@@ -118,6 +118,19 @@ captainSection:
         linkedin: 'https://linkedin.com'
         twitter: 'https://twitter.com'
       title: '"Bruce"'
+    - description: >-
+        Anthony's our youngest and newest recruit and has had many years in the
+        superyacht industry.
+
+
+        Originally hailing from Adelaide Anthony has travelled the world working
+        on various vessels and is now looking at settling on the Gold Coast with
+        his local lass.
+
+
+        Again, sorry to say girls but this one also taken.
+      name: Anthony DeAngelis
+      title: '"Ant"'
   captainIntro: >-
     ## Captains
 
