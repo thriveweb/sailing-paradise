@@ -27,8 +27,6 @@ export const AboutPageTemplate = ({
   body,
 }) => {
 
-console.log(videoSection)
-
   return <main className='About'>
       <Helmet>
         <title>{title}</title>

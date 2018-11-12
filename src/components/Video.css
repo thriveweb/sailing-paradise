@@ -4,6 +4,7 @@
 	height: 0;
 	padding-bottom: 56.25%;
 	cursor: pointer;
+	background-color: black;
 }
 
 .video-section > * {
@@ -39,7 +40,16 @@
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
+	z-index: -1;
+	opacity: 0;
+	visibility: hidden;
+	transition: all ease-in-out .5s;
+}
+
+.video-section .overlay-content.active {
 	z-index: 2;
+	opacity: 1;
+	visibility: visible;
 }
 
 .video-section .overlay-content:before {

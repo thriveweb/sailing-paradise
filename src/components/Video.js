@@ -47,18 +47,15 @@ class Video extends Component {
 				<SocialLinks socialMedia={socialMedia} />
 			</div>
 
-		return <div className={`video-section ${videoBanner ? 'videoBanner' : ''}`} onClick={() => this.handleVideo(url)}>
-			{!videoPlaying &&
-				<div className='overlay-content'>
-					<Image background src={imageOverlay} alt='' />
-					{title && <h2 className='title-gradient'>{title}</h2>}
-					<div className='playButton'><ICONPlay /></div>
-					{title && <p className='button buttonWhite'>Watch Video <ICONButtonArrows /></p>}
-				</div>
-			}
+		return <div className={`video-section ${videoBanner ? 'videoBanner' : ''}`} onClick={() => !videoPlaying && this.handleVideo(url)}>
+			<div className={`overlay-content ${!videoPlaying ? 'active' : ''}`}>
+				<Image background src={imageOverlay} alt='' />
+				{title && <h2 className='title-gradient'>{title}</h2>}
+				<div className='playButton'><ICONPlay /></div>
+				{title && <p className='button buttonWhite'>Watch Video <ICONButtonArrows /></p>}
+			</div>
 			<iframe
 				ref={this.videoRef}
-				src={`https://www.youtube.com/embed/${url}?start=0&modestbranding=1&controls=0&disablekb=1&rel=0`}
 				frameBorder="0"
 				allowFullScreen
 			>

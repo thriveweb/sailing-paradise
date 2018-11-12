@@ -13,6 +13,7 @@ export const PrivateChartersTemplate = ({
   posts,
   chartersListing
 }) => {
+
   return (
     <main className="Blog">
       <Helmet>
@@ -71,9 +72,7 @@ export const pageQuery = graphql`
           }
           frontmatter {
             title
-            icon {
-              ...FluidImage
-            }
+            icon
             featuredImage {
               ...FluidImage
             }
