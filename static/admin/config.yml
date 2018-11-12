@@ -625,11 +625,12 @@ collections: # A list of collections the CMS should be able to edit
     label: "Global"
     delete: false # Prevent users from deleting documents in this collection
     editor:
-      preview: true
+      preview: false
     files:
       - file: "content/global/contact-info.md"
         label: "Contact Info"
         name: "contactInfo"
+        preview: false
         fields:
           - {label: Slug, name: slug, widget: hidden, default: 'general-contact'}
           - {label: Phone, name: phone, widget: markdown, required: false}
@@ -646,6 +647,7 @@ collections: # A list of collections the CMS should be able to edit
       - file: "content/global/nav-list.md"
         label: "Nav List"
         name: "navList"
+        preview: false
         fields:
           - {label: Slug, name: slug, widget: hidden, default: 'nav-items'}
           - label: Nav Items
@@ -663,6 +665,7 @@ collections: # A list of collections the CMS should be able to edit
       - file: "content/global/global-sections.md"
         label: "Global Sections"
         name: "globalSections"
+        preview: false
         fields:
           - {label: Slug, name: slug, widget: hidden, default: 'global-sections'}
           - {label: Footer Content, name: footerContent, widget: markdown, required: false}
