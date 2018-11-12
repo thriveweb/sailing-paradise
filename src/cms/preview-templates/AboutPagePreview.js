@@ -4,7 +4,7 @@ import { AboutPageTemplate } from '../../templates/AboutPage'
 
 const AboutPagePreview = ({ entry, widgetFor }) => (
   <AboutPageTemplate
-    title={entry.getIn(['data', 'title'])}
+    {...entry.toJS().data}
   />
 )
 
