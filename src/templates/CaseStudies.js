@@ -18,7 +18,7 @@ export const CaseStudiesTemplate = ({
   columnBanner
 }) => {
 
-  console.log(columnBanner)
+  console.log(posts)
 
   return (
     <main className="Blog CaseStudies">

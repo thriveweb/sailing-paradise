@@ -31,7 +31,7 @@ const PostCard = ({
       )}
       <div className="PostCard--Content">
         <div className="SinglePost--Meta">
-          {date && 
+          {date &&
             <time
               className="SinglePost--Meta--Date"
               itemProp="dateCreated pubdate datePublished"
@@ -56,11 +56,11 @@ const PostCard = ({
         {name && <p className="PostCard--Subtitle">{name}</p>}
         {icon && <Image src={icon} alt='' />}
         {title && <h3 className="PostCard--Title">{title}</h3>}
-        {excerpt && 
+        {excerpt &&
           <Fragment>
             <p className='excerpt'>{excerpt.slice(0, 70) + '...'}</p>
             <p className='button'>Read More <ICONButtonArrows /></p>
-          </Fragment>  
+          </Fragment>
         }
       </div>
     </Link>
