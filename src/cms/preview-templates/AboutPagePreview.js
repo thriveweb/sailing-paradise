@@ -1,6 +1,6 @@
 import React from 'react'
-import { AboutPageTemplate } from '../../templates/AboutPage'
+import { AboutPage } from '../../templates/AboutPage'
 
-const AboutPagePreview = ({ entry, widgetFor }) => <AboutPageTemplate {...entry.toJS().data} />
+const AboutPagePreview = ({ entry, widgetFor }) => <AboutPage {...entry.toJS().data} />
 
 export default AboutPagePreview
