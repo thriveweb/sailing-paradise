@@ -16,12 +16,14 @@ export const BoatsPageTemplate = ({
   intro,
   secondaryBanner,
   columnBanner,
-  boats
+  boats,
+  meta
 }) => {
 
   return <main className="Boats">
-      <Helmet>
-        <title>{title}</title>
+      <Helmet title={meta && meta.title || `${title} | Sailing in Paradise`}>
+        {meta && <meta name="description" content={meta.description} />}
+        {meta && <link rel="canonical" href={meta.canonical} />}
       </Helmet>
       <PageHeader title={title} backgroundImage={featuredImage} />
       <IntroText content={intro} center />
@@ -83,6 +85,11 @@ export const pageQuery = graphql`
           featuredImage {
             ...FluidImage
           }
+        }
+        meta {
+          description
+          title
+          canonicalLink
         }
       }
     }

@@ -5,10 +5,11 @@ import PageHeader from '../components/PageHeader'
 import Content from '../components/Content'
 
 // Export Template for use in CMS preview
-export const DefaultPageTemplate = ({ title, featuredImage, body }) => (
+export const DefaultPageTemplate = ({ title, featuredImage, body, meta }) => (
   <main className="DefaultPage">
-    <Helmet>
-      <title>{title}</title>
+    <Helmet title={meta && meta.title || `${title} | Sailing in Paradise`}>
+      {meta && <meta name="description" content={meta.description} />}
+      {meta && <link rel="canonical" href={meta.canonical} />}
     </Helmet>
 
     <PageHeader title={title} backgroundImage={featuredImage} />
@@ -34,6 +35,11 @@ export const pageQuery = graphql`
         title
         featuredImage {
           ...FluidImage
+        }
+        meta {
+          description
+          title
+          canonicalLink
         }
       }
     }

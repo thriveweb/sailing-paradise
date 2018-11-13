@@ -32,7 +32,8 @@ export const SingleBoatTourTemplate = ({
   testimonials,
   videoSection,
   slug,
-  post
+  post,
+  meta
 }) => {
   const charterUrl = slug
     ? slug.replace('/boat-tours/', '').replace('/', '')
@@ -40,8 +41,9 @@ export const SingleBoatTourTemplate = ({
 
   return (
     <main className="SingleBoatTour">
-      <Helmet>
-        <title>{title}</title>
+      <Helmet title={meta && meta.title || `${title} | Sailing in Paradise`}>
+        {meta && <meta name="description" content={meta.description} />}
+        {meta && <link rel="canonical" href={meta.canonical} />}
       </Helmet>
       <PageHeader title={title} backgroundImage={featuredImage} />
       <div className="BoatTourIntro">
@@ -150,6 +152,11 @@ export const pageQuery = graphql`
               ...FluidImage
             }
           }
+        }
+        meta {
+          description
+          title
+          canonicalLink
         }
       }
     }

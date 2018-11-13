@@ -19,12 +19,14 @@ export const ContactPageTemplate = ({
   phone,
   hours,
   map,
-  secondaryBanner
+  secondaryBanner,
+  meta
 }) => {
   return (
     <main className="Contact">
-      <Helmet>
-        <title>{title}</title>
+      <Helmet title={meta && meta.title || `${title} | Sailing in Paradise`}>
+        {meta && <meta name="description" content={meta.description} />}
+        {meta && <link rel="canonical" href={meta.canonical} />}
       </Helmet>
 
       <PageHeader title={title} backgroundImage={featuredImage} />
@@ -87,6 +89,11 @@ export const pageQuery = graphql`
           featuredImage {
             ...FluidImage
           }
+        }
+        meta {
+          description
+          title
+          canonicalLink
         }
       }
     }

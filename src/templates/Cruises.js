@@ -10,13 +10,15 @@ export const CruisesTemplate = ({
   title,
   featuredImage,
   intro,
-  posts
+  posts,
+  meta
 }) => {
 
   return (
     <main className='Blog'>
-      <Helmet>
-        <title>{title}</title>
+      <Helmet title={meta && meta.title || `${title} | Sailing in Paradise`}>
+        {meta && <meta name="description" content={meta.description} />}
+        {meta && <link rel="canonical" href={meta.canonical} />}
       </Helmet>
       <PageHeader
         title={title}
@@ -55,6 +57,11 @@ export const pageQuery = graphql`
           ...FluidImage
         }
         intro
+        meta {
+          description
+          title
+          canonicalLink
+        }
       }
     }
     posts: allMarkdownRemark(

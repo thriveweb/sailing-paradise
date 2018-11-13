@@ -11,13 +11,15 @@ export const PrivateChartersTemplate = ({
   featuredImage,
   intro,
   posts,
-  chartersListing
+  chartersListing,
+  meta
 }) => {
 
   return (
     <main className="Blog">
-      <Helmet>
-        <title>{title}</title>
+      <Helmet title={meta && meta.title || `${title} | Sailing in Paradise`}>
+        {meta && <meta name="description" content={meta.description} />}
+        {meta && <link rel="canonical" href={meta.canonical} />}
       </Helmet>
       <PageHeader title={title} backgroundImage={featuredImage} />
       <IntroText content={intro} center />
@@ -55,6 +57,11 @@ export const pageQuery = graphql`
         intro
         chartersListing {
           tours
+        }
+        meta {
+          description
+          title
+          canonicalLink
         }
       }
     }

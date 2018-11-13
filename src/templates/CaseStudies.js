@@ -15,15 +15,15 @@ export const CaseStudiesTemplate = ({
   subtitle,
   featuredImage,
   posts = [],
-  columnBanner
+  columnBanner,
+  meta
 }) => {
-
-  console.log(posts)
 
   return (
     <main className="Blog CaseStudies">
-      <Helmet>
-        <title>{title}</title>
+      <Helmet title={meta && meta.title || `${title} | Sailing in Paradise`}>
+        {meta && <meta name="description" content={meta.description} />}
+        {meta && <link rel="canonical" href={meta.canonical} />}
       </Helmet>
 
       <PageHeader title={title} backgroundImage={featuredImage} />
@@ -68,6 +68,11 @@ export const pageQuery = graphql`
         subtitle
         featuredImage {
           ...FluidImage
+        }
+        meta {
+          description
+          title
+          canonicalLink
         }
       }
     }

@@ -21,15 +21,17 @@ export const SinglePostTemplate = ({
   contentSecondary,
   nextPostURL,
   prevPostURL,
-  categories = []
+  categories = [],
+  meta
 }) => (
   <main
     className="SinglePost"
     itemScope
     itemType="http://schema.org/BlogPosting"
   >
-    <Helmet>
-      <title>{title}</title>
+    <Helmet title={meta && meta.title || `${title} | Sailing in Paradise`}>
+      {meta && <meta name="description" content={meta.description} />}
+      {meta && <link rel="canonical" href={meta.canonical} />}
     </Helmet>
 
     {featuredImage && (
@@ -151,6 +153,11 @@ export const pageQuery = graphql`
           }
         }
         contentSecondary
+        meta {
+          description
+          title
+          canonicalLink
+        }
       }
     }
 

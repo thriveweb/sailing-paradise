@@ -11,7 +11,8 @@ export const BlogIndexTemplate = ({
   featuredImage,
   posts = [],
   postCategories = [],
-  contentType
+  contentType,
+  meta
 }) => {
   const isCategory = contentType === 'postCategories'
   const byCategory = post =>
@@ -21,8 +22,9 @@ export const BlogIndexTemplate = ({
 
   return (
     <main className='Blog'>
-      <Helmet>
-        <title>{title}</title>
+      <Helmet title={meta && meta.title || `${title} | Sailing in Paradise`}>
+        {meta && <meta name="description" content={meta.description} />}
+        {meta && <link rel="canonical" href={meta.canonical} />}
       </Helmet>
 
       <PageHeader
@@ -85,6 +87,11 @@ export const pageQuery = graphql`
         template
         featuredImage {
           ...FluidImage
+        }
+        meta {
+          description
+          title
+          canonicalLink
         }
       }
     }

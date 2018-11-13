@@ -25,13 +25,15 @@ export const SingleCaseStudyTemplate = ({
   excerpt,
   gallery,
   banner,
-  secondaryBanner
+  secondaryBanner,
+  meta
 }) => {
 
   return (
     <main className="SingleCaseStudy">
-      <Helmet>
-        <title>{title}</title>
+      <Helmet title={meta && meta.title || `${title} | Sailing in Paradise`}>
+        {meta && <meta name="description" content={meta.description} />}
+        {meta && <link rel="canonical" href={meta.canonical} />}
       </Helmet>
 
       {banner &&
@@ -145,6 +147,11 @@ export const pageQuery = graphql`
           featuredImage {
             ...FluidImage
           }
+        }
+        meta {
+          description
+          title
+          canonicalLink
         }
       }
     }

@@ -25,11 +25,13 @@ export const AboutPageTemplate = ({
   columnBanner,
   videoSection,
   body,
+  meta
 }) => {
 
   return <main className='About'>
-      <Helmet>
-        <title>{title}</title>
+      <Helmet title={meta && meta.title || `${title} | Sailing in Paradise`}>
+        {meta && <meta name="description" content={meta.description} />}
+        {meta && <link rel="canonical" href={meta.canonical} />}
       </Helmet>
       <PageHeader
         title={title}
@@ -115,6 +117,11 @@ export const pageQuery = graphql`
           featuredImage {
             ...FluidImage
           }
+        }
+        meta {
+          description
+          title
+          canonicalLink
         }
       }
     }
