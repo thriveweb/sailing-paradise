@@ -65,7 +65,7 @@ boats:
       to 32 people in comfort.
     gallery:
       - image: /images/uploads/boat-blueprint.jpg
-      - image: /images/uploads/boat-img5.jpg
+      - image: /images/uploads/interior.jpg
       - image: /images/uploads/DJI_0098.jpg
       - image: /images/uploads/fully-catered-or-byo.jpg
     title: spirit Of Gwonda
