@@ -9,7 +9,7 @@ boats:
       - content: |-
           10.5m long
 
-          5.8m wide
+          6.5m wide
 
           30 passengers + 2 crew
       - content: |-
@@ -63,13 +63,13 @@ boats:
       The Spirit Of Gwonda is truly unique and the only one of it’s kind on the
       Gold Coast. In fact it is the only true ‘Sailing’ vessel that can hold up
       to 32 people in comfort.
-    title: spirit Of Gwonda
-    featuredImage: /images/uploads/boat-img14.jpg
     gallery:
       - image: /images/uploads/boat-blueprint.jpg
       - image: /images/uploads/boat-img5.jpg
       - image: /images/uploads/DJI_0098.jpg
       - image: /images/uploads/fully-catered-or-byo.jpg
+    title: spirit Of Gwonda
+    featuredImage: /images/uploads/boat-img14.jpg
     videoSection:
       imageOverlay: /images/uploads/home-banner.jpg
       video: >-
@@ -103,13 +103,13 @@ boats:
 
 
       The 1000XL is perfect for groups of up to 20 people (plus 2 crew).
-    title: Seawind 1000XL
-    featuredImage: /images/uploads/seawind.jpg
     gallery:
       - image: /images/uploads/boat-blueprint2.jpg
       - image: /images/uploads/boat-img13.jpg
       - image: /images/uploads/sailing-cruise.jpg
       - image: /images/uploads/DSC_0031.jpg
+    title: Seawind 1000XL
+    featuredImage: /images/uploads/seawind.jpg
     videoSection:
       imageOverlay: /images/uploads/booking-banner.jpg
       video: >-
