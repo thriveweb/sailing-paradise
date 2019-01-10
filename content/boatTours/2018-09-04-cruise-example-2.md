@@ -1,23 +1,30 @@
 ---
 template: SingleBoatTour
 tourType: Cruise
-title: Cruise Example 2
+title: Island Adventure
 featuredImage: /images/uploads/DJI_0174.jpg
 intro: >-
-  ## gold coast Cruise boat party
+  ## gold coast island adventure cruise
 
 
-  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean elementum
-  scelerisque ex interdum cursus. In hac habitasse platea dictumst. Sed porta
-  ultricies turpis, dapibus efficitur lectus dapibus eget. Sed pharetra urna
-  vitae tincidunt placerat. Sed mollis, ex et placerat malesuada, felis orci
-  ultrices tortor, in molestie augue odio sed nibh. Quisque eros leo, egestas
-  quis ante ac, pretium venenatis augue. Aenean blandit urna sit amet nisi
-  elementum auctor.
+  This 3 hour adventure includes an Island stopover for beach activities and
+  water fun. Ever tried stand up paddleboarding? Well now you can.. or perhaps
+  you'd like to lay back on an inflatable flamingo with a cool drink in hand..
+  you can. 
+
+
+  In fact, you can do pretty much anything you like. Or you can do nothing.. the
+  choice is yours.
+
+
+  Included in this cruise .. complimentary beverage on boarding (bubbly, beer or
+  soft drink), light lunch including sandwiches, muffins and fruit platter, use
+  of paddleboards, inflatables, beach volleyball and beach cricket, snorkeling,
+  frisbees, football or fishing.
 contentBox:
   buttonTitle: Make enquiry
   buttonUrl: booking-enquiry
-  title: Let us tailor your VIP Gold Coast Cruise Party Experience
+  title: Experience the true beauty of the Gold Coast's island beaches.
 gallery:
   - image: /images/uploads/girls-img9.jpg
   - image: /images/uploads/girls-img5.jpg
@@ -28,14 +35,15 @@ videoSection:
   imageOverlay: /images/uploads/DSC_1073.jpg
   video: >-
     https://www.youtube.com/watch?v=vr0qNXmkUJ8&list=PLNhzc-Os3JK8ExayVzzoHVvP2c0-4_oqt
-contentColumnTitle: We love Cruise parties and Cruise parties love us!
+contentColumnTitle: We love our Paradise and want to share it with you!
 contentColumn: >-
-  We have hosted over 1000 happy Cruise parties and we are continually
-  striving to create the best experience possible for our guests.
+  We have over 15 years experience providing exciting tours in our beautiful
+  Gold Coast paradise and are continually striving to create the best experience
+  possible for our guests.
 
 
-  We understand that you want your special day to be memorable, fun, relaxing
-  and stress free and that is exactly what we specialise in.
+  We understand that you want your visit to be memorable, fun, relaxing and
+  stress free and that is exactly what we specialise in.
 
 
   From the moment you send through an enquiry all the way through to the follow
@@ -140,13 +148,12 @@ accordionSection:
         wonderful cruise.  Let the crew pamper you the way you deserve with our
         Ultimate VIP Cruise Party Cruise.
       title: Cruise Party FAQ's
-  title: Cruise Party Info
 columnBanner:
   - buttonTitle: Make Enquiry
     buttonUrl: booking-enquiry
     content: >-
-      Let our friendly and experienced team tailor a VIP Gold Coast Cruise
-      Party Experience that they won’t forget.
+      Let our friendly and experienced team tailor a VIP Gold Coast Cruise Party
+      Experience that they won’t forget.
     title: Give your friend the party they deserve!
     featuredImage: /images/uploads/girl-img-column2.jpg
   - featuredImage: /images/uploads/girl-img-column.jpg
@@ -169,3 +176,4 @@ testimonials:
     name: Alex S.
   title: Happy Sailors
 ---
+
