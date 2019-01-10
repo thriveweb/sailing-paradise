@@ -33,8 +33,8 @@ services:
     serviceContent:
       buttonUrl: private-charters
       description: >-
-        Sailing in Paradise invites you to step aboard ‘The Spirit of Gwonda’ a
-        luxury, resort style, catamaran for up to 30 guests.
+        For any occasion. Sailing in Paradise invites you to step aboard one of
+        their luxurious sailing catamarans for an event to be remembered .
       icon: /images/uploads/wheel.svg
       title: Private Boat Hire
   - image: /images/uploads/girl-img1.jpg
@@ -51,7 +51,7 @@ services:
       description: >-
         A unique hen’s party idea on the Gold Coast. Whether you are looking for
         a relaxing day on the water with some delicious food and drinks, an
-        elegant morning tea cruise.
+        elegant morning tea cruise, or a raucous arty with all the trimmings...
       icon: /images/uploads/wine.svg
       title: Hens Party Specialists
 serviceBanner:
