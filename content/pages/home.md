@@ -139,26 +139,27 @@ Testimonials:
         “We used Sailing in Paradise for a friends bridal shower. Steve was
         excellent with his communication in the lead up to our event and made
         sure we all felt very looked after. On the day of our sail all staff
-        were extremely friendly and accommodating of all our requests. Needless
-        to say the bride and all guests had an amazing time.”
+        were extremely friendly and accommodating of all our requests."
       image: /images/uploads/girl-img12.jpg
       name: Maggie B
     - content: >-
-        “We used Sailing in Paradise for a friends bridal shower. Steve was
-        excellent with his communication in the lead up to our event and made
-        sure we all felt very looked after. On the day of our sail all staff
-        were extremely friendly and accommodating of all our requests. Needless
-        to say the bride and all guests had an amazing time. On the day of our
-        sail all staff were extremely friendly and accommodating of all our
-        requests. Needless to say the bride and all guests had an amazing time."
+        "Absolutely incredible! We booked a catamaran with sailing in paradise,
+        and from start to finish we couldn’t fault a single thing. Jess who took
+        my last minute booking was so lovely to deal with, the boat was way more
+        than any of us expected it was GORGEOUS, the crew on board couldn’t have
+        been nicer. The whole experience gave my husband one of the best
+        birthdays he’s ever had, and us and our friends had an absolute blast,
+        we will be back!!"
       image: /images/uploads/girl-img9.jpg
-      name: Jane
+      name: Lucy J
     - content: >-
-        “We used Sailing in Paradise for a friends bridal shower. Steve was
-        excellent with his communication in the lead up to our event and made
-        sure we all felt very looked after.”
+        "We had our hen's night with Sailing in Paradise and it is a day we will
+        NEVER forget! Staff were absolutely incredible, accommodating, lovely
+        and so much fun. Nothing was a problem and they were just fantastic.
+        Would recommend over and over again and cant wait to come back. Thanks
+        so much guys!!"
       image: /images/uploads/girl-img4.jpg
-      name: Jessica
+      name: Jodi A
   title: Happy Sailors
 latestNews: |-
   ## Latest News
