@@ -161,10 +161,16 @@ Testimonials:
       image: /images/uploads/girl-img4.jpg
       name: Jodi A
   title: Happy Sailors
-latestNews: |-
+latestNews: >-
   ## Latest News
 
-  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+
+  The 2018 Christmas Party season is all but over so we must say a big Thank You
+  and Happy New Year to all our wonderful guests. And now the hen's party season
+  is just beginning. 
+
+
+  Bring it on 2019!
 meta:
   title: ''
 ---
