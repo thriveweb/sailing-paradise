@@ -14,11 +14,13 @@ featuredSlider:
     description: 2 hour sunset cruise
     title: Sunset & City Lights
   - buttonUrl: cruises
-    description: Lorem ipsum dolor sit amet.
-    title: Featured Tour Example
-  - buttonUrl: cruises
-    description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit.'
-    title: Other Featured Tour
+    description: For any ocassion. From 3 hours to a full day. BYO or fully catered.
+    title: Private Skippered Boat Hire
+  - buttonUrl: Hens
+    description: >-
+      We are the hens party specialists. Let us create a truly special event for
+      you and your friends.
+    title: Gold Coast Hens Party
 featuredBanner:
   buttonTitle: Discover More
   buttonUrl: contact
