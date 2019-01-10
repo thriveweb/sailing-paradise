@@ -5,10 +5,12 @@ title: True Paradise
 featuredVideo: asdfgh
 featuredSlider:
   - buttonUrl: cruises
-    description: this is a test this is a test
-    title: Sailing & Sights Cruise
+    description: 'A 2 hour sailing cruise through the beautiful Gold Coast Broadwater. '
+    title: Sails & Sights Cruise
   - buttonUrl: cruises
-    description: 3 hour afternoon cruise
+    description: >-
+      3 hour afternoon cruise with an Island stopover for exciting beach games
+      and water activities.
     title: Island Adventure Cruise
   - buttonUrl: cruises
     description: 2 hour sunset cruise
