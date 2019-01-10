@@ -42,7 +42,7 @@ services:
       buttonUrl: cruises
       description: >-
         Join Sailing in Paradise on a cruise of the Gold Coast Broadwater aboard
-        a beautiful Seawind 1050 Sailing Catamaran. With no more than 30 guests.
+        a beautiful Seawind 1050 Sailing Catamaran.
       icon: /images/uploads/boat2.svg
       title: Sails & Sights Cruise
   - image: /images/uploads/girl-img2.jpg
@@ -129,7 +129,11 @@ highlights:
 Testimonials:
   buttonTitle: See more testimonials
   buttonUrl: case-studies
-  description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.'
+  description: >-
+    These guys are the best!! I would highly recommend Sailing in Paradise! We
+    booked a 3 hour catamaran cruise for my hens night and had a fantastic
+    experience. The crew (both in the lead up to the event and on the day) went
+    above and beyond to make sure we had an amazing time! Thank you so much!!
   featuredTestimonials:
     - content: >-
         “We used Sailing in Paradise for a friends bridal shower. Steve was
