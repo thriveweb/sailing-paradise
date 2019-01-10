@@ -221,8 +221,8 @@ testimonials:
     **Birthday Party**
 
 
-    See our five star Trip Advisor reviews for more testimonial feedback from
-    our satisfied clients.
+    See our five star Facebook, Trip Advisor or Google reviews for more
+    testimonial feedback from our satisfied guests.
   featuredTestimonial:
     content: >-
       "We used this wonderful company to start my sisters Birthday celebrations
