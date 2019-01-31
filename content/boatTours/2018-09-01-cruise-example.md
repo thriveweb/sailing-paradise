@@ -14,7 +14,7 @@ intro: >-
   including impressive superyachts, Sea World, Palazzo Versace, South Stradbroke
   Island, Wavebreak Island and the Gold Coast Seaway. Discover amazing wildlife
   including Dolphins, Sea Eagles and Ospreys, Stingrays and Wallabies. Feel the
-  buzz and excitement as jetski's and superyachts go racing by, Parasailing,
+  buzz and excitement as jetski's and superyachts go racing past, Parasailing,
   helicopters and Seaplanes fill the skies and yachts sail majestically by.
 
 
@@ -74,34 +74,15 @@ accordionSection:
         per drink.
       title: What to expect
     - dropdownContent: >-
-        Why settle for ordinary when you can sail away on the Gold Coast’s most
-        luxurious and unique sailing catamaran.
-
-
-        Our stable sailing catamaran is ideal for groups of up to 30 ladies. The
-        large trampoline-style fore-deck is perfect for lazing in the sunshine
-        or dancing, while we sail the calm, clear waters of the Gold Coast. The
-        ample undercover space makes the vessel perfect for those seeking shade.
-        Facilities are plentiful to ensure you have everything on hand to enjoy
-        a perfect day! Definitely the boat to be seen on and with room for up to
-        30 passengers, this smooth and stable yacht is the ideal venue for a
-        wonderful cruise.  Let the crew pamper you the way you deserve with our
-        Ultimate VIP Cruise Party Cruise.
+        Camera, Sunscreen (we do have complimentary sunscreen on board),
+        Binocuars (if you're keen).
       title: What to Bring
     - dropdownContent: >-
-        Why settle for ordinary when you can sail away on the Gold Coast’s most
-        luxurious and unique sailing catamaran.
+        Minimum numbers are required for this cruise to operate and is weather
+        dependant.
 
 
-        Our stable sailing catamaran is ideal for groups of up to 30 ladies. The
-        large trampoline-style fore-deck is perfect for lazing in the sunshine
-        or dancing, while we sail the calm, clear waters of the Gold Coast. The
-        ample undercover space makes the vessel perfect for those seeking shade.
-        Facilities are plentiful to ensure you have everything on hand to enjoy
-        a perfect day! Definitely the boat to be seen on and with room for up to
-        30 passengers, this smooth and stable yacht is the ideal venue for a
-        wonderful cruise.  Let the crew pamper you the way you deserve with our
-        Ultimate VIP Cruise Party Cruise.
+        There is no smoking allowed anywhere on the vessel.
       title: Considerations
     - dropdownContent: >-
         Why settle for ordinary when you can sail away on the Gold Coast’s most
