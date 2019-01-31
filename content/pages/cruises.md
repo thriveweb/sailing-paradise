@@ -4,11 +4,11 @@ slug: cruises
 title: Cruises
 featuredImage: /images/uploads/news-banner.jpg
 intro: >-
-  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean elementum
-  scelerisque ex interdum cursus. In hac habitasse platea dictumst. Sed porta
-  ultricies turpis, dapibus efficitur lectus dapibus eget. Sed pharetra urna
-  vitae tincidunt placerat. Sed mollis, ex et placerat malesuada, felis orci
-  ultrices tortor, in molestie augue odio sed nibh. Quisque eros leo, egestas
-  quis ante ac, pretium venenatis augue. Aenean blandit urna sit amet nisi
-  elementum auctor.
+  ## Gold Coast Sunset Cruise, 3 hour Island Adventure or 2 hour Sails and
+  Sights Cruise.
+
+
+  If you are travelling alone or have a smaller group, you may find one of our
+  ticketed tour options may be more suited to your needs than a private charter.
 ---
+
