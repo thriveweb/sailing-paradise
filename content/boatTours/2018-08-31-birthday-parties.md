@@ -52,7 +52,7 @@ contentColumn: >-
   remember for years to come.
 
 
-  The smooth and stable nature of the catamaran means the boat is suitable for
+  The smooth and stable nature of the catamaran means our boats are suitable for
   all ages and abilities.
 
 
@@ -129,6 +129,14 @@ accordionSection:
         platters. These can look sensational as a centrepiece for the large
         timber tables we have on board and your guests are free to pick away at
         their convenience.
+
+
+        You can see some samples of the caterers we have used in the past on our
+        social media pages.
+
+
+        If you think you're up to the challenge to create your own platter, feel
+        free to take some inspo from these also or check out pinterest.
       title: Catered or BYO
     - dropdownContent: >-
         Arrive in style with a stretch Hummer limousine.
