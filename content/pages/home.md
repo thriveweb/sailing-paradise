@@ -129,11 +129,7 @@ highlights:
 Testimonials:
   buttonTitle: See more testimonials
   buttonUrl: case-studies
-  description: >-
-    These guys are the best!! I would highly recommend Sailing in Paradise! We
-    booked a 3 hour catamaran cruise for my hens night and had a fantastic
-    experience. The crew (both in the lead up to the event and on the day) went
-    above and beyond to make sure we had an amazing time! Thank you so much!!
+  description: Thoughts from recent guests...
   featuredTestimonials:
     - content: >-
         “We used Sailing in Paradise for a friends bridal shower. Steve was
