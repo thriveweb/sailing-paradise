@@ -50,7 +50,7 @@ columnBanner:
     content: >-
       Online bookings available or please feel call or email with any questions
       or to request a new date.
-    title: Book your Island Cruise Today
+    title: Book your Gold Coast Island Cruise Today
     featuredImage: /images/uploads/girl-img-column2.jpg
   - featuredImage: /images/uploads/girl-img-column.jpg
 testimonials:
