@@ -36,7 +36,7 @@ gallery:
   - image: /images/uploads/Sailing-in-Paradise-Sunset-3.jpg
   - image: /images/uploads/ppl-boat-img10.jpg
   - image: /images/uploads/DSC_0357-1703.jpg
-  - image: /images/uploads/dsc_0087_2.jpg
+  - image: /images/uploads/Sailing-in-Paradise-sunset.jpg
 contentColumnTitle: Sundowners on the water...
 contentColumn: >-
   Join Sailing in Paradise on a cruise of the Gold Coast Broadwater aboard a
