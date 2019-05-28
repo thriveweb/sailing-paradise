@@ -33,9 +33,10 @@ bookingIframe: >-
   src="https://sailinginparadise.rezdy.com/calendarWidget/261907?iframe=true&targetFrame=_new_modal"></iframe>
 gallery:
   - image: /images/uploads/DSC_0127-001.jpg
-  - image: /images/uploads/Sailing-in-Paradise-Sunset-(2).jpg
+  - image: /images/uploads/Sailing-in-Paradise-Sunset-3.jpg
   - image: /images/uploads/ppl-boat-img10.jpg
   - image: /images/uploads/DSC_0357-1703.jpg
+  - image: /images/uploads/dsc_0087_2.jpg
 contentColumnTitle: Sundowners on the water...
 contentColumn: >-
   Join Sailing in Paradise on a cruise of the Gold Coast Broadwater aboard a
