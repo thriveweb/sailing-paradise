@@ -70,6 +70,7 @@ accordionSection:
       title: When and Where to find us
     - dropdownContent: "•\tIn the event of adverse weather requiring a cancellation of the cruise an SMS will be sent to your registered mobile (please ensure you provide one).   \r\n\n•\tPlease provide notice of at least 72 hours should you wish to cancel to avoid forfeiture of ticket price.  \r\n\n•\tThere is no BYO however you will receive one complimentary bubbly, beer or soft drink and extra drinks may be purchased on board at very reasonable prices (cash preferred, cards accepted).  \r\n\n•\tSailing in Paradise reserves the right to substitute the vessel if necessary without prior notice.\r\n\n•\tCruises are subject to weather suitability, the cruise can proceed in most weather conditions but if it is deemed unsafe we will not sail.   Customers are able to reschedule or request a refund in this circumstance.\r\n\n•\tCruises require minimum numbers to depart.  \r  In the event of minimum numbers not being met guests will be offered a full refund or the opportunity to reschedule to an alternative date."
       title: Terms and Conditions
+  sectionTitle: need to know
 columnBanner:
   - buttonTitle: Book Now
     buttonUrl: booking-enquiry
