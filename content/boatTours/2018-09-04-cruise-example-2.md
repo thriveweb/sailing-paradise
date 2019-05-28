@@ -17,6 +17,14 @@ contentBox:
   buttonTitle: BOOK NOW
   buttonUrl: booking-enquiry
   title: Experience the true beauty of the Gold Coast's island beaches.
+bookingIframe: >-
+  <script type="text/javascript"
+  src="https://sailinginparadise.rezdy.com/pluginJs?script=external_modal"></script>
+
+
+  \    <iframe seamless="" width="300px" height="1000px" frameborder="0"
+  class="rezdy"
+  src="https://sailinginparadise.rezdy.com/calendarWidget/261907?iframe=true&targetFrame=_new_modal"></iframe>
 gallery:
   - image: /images/uploads/girls-img9.jpg
   - image: /images/uploads/girls-img5.jpg
