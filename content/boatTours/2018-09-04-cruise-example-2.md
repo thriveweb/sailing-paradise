@@ -7,12 +7,22 @@ intro: >-
   ## gold coast island cruise
 
 
-  Discover a new side to the Gold Coast...join us as we cruise the Gold Coast
-  Broadwater’s stunning islands and beaches.  
+  Discover a new side to the Gold Coast aboard our Island Cruise and enjoy 3
+  chilled hours on the water on a beautiful Sailing Catamaran!
 
 
-  If 3 chilled hours on the water on a beautiful Sailing Catamaran sound good,
-  book your seat and we'll make it happen!
+  Take in the sights of the picturesque and calm Gold Coast Broadwater,
+  including impressive super yachts, Sea World, Palazzo Versace, South
+  Stradbroke Island, Wavebreak Island and the Gold Coast Seaway.  
+
+
+  This is an laid-back cruise experience on a spacious sailing catamaran that
+  you are sure to love.   With no more than 30 guests on board we curate a
+  social atmosphere and we can't wait to welcome you on board our beautiful
+  boat!
+
+
+  Cruise includes light lunch and one complimentary bubbly, beer or soft drink.
 contentBox:
   buttonTitle: BOOK NOW
   buttonUrl: booking-enquiry
@@ -35,7 +45,15 @@ videoSection:
   imageOverlay: /images/uploads/DSC_1073.jpg
   video: ''
 contentColumnTitle: 'We love our Paradise, let us share it with you!'
-contentColumn: "Step aboard our beautiful Sailing Catamaran and enjoy a 3 hour cruise on the picturesque and calm Gold Coast Broadwater.     Take in the sights including impressive super yachts, Sea World, Palazzo Versace, South Stradbroke Island, Wavebreak Island and the Gold Coast Seaway.  \r\n\nVisit an isolated island beach only accessible by boat where you are invited to jump in for a swim and try our beach games (incl Volleyball, Stand Up Paddleboarding, Beach Cricket and Inflatables).   Or if you just want to chill on the beach (or our trampoline-style foredeck) that's totally fine, we'll play some cool tunes and serve up an icy cold drink from our on-board bar so you can relax and watch the world sail by in style.     But don't forget to keep your eyes peeled for the friendly bottlenose dolphins who regularly cruise past  \r\n\nThis is an laid-back cruise experience on a spacious sailing catamaran, with no more than 30 guests on board we love a social atmosphere and we can't wait to welcome you on board our beautiful boat!\r\n\nCruise includes light lunch and one complimentary bubbly, beer or soft drink."
+contentColumn: >-
+  Visit an isolated island beach only accessible by boat where you are invited
+  to jump in for a swim and try our beach games (incl Volleyball, Stand Up
+  Paddleboarding, Beach Cricket and Inflatables).   Or if you just want to chill
+  on the beach (or our trampoline-style foredeck) that's totally fine, we'll
+  play some cool tunes and serve up an icy cold drink from our on-board bar so
+  you can relax and watch the world sail by in style.     But don't forget to
+  keep your eyes peeled for the friendly bottlenose dolphins who regularly
+  cruise past
 accordionSection:
   accordion:
     - dropdownContent: "•\t3 hours on the beautiful, calm Gold Coast Broadwater\r\n\n•\tRelax onboard a spacious Sailing Catamaran\r\n\n•\tA maximum of 30 guests on board\r\n\n•\tSee impressive superyachts, Seaworld, Palazzo Versace, Gold Coast Seaway, Wavebreak Island, South Stradbroke Island and local wildlife.\r\n\n•\tPull up at an island beach only accessible by boat\r\n\n•\tEnjoy free beach activities, take a dip or just relax and enjoy the view\r\n\n•\tCool tunes set the soundtrack for your experience\r\n\n•\tFriendly relaxed ambience with crew sharing some local knowledge\r\n\n•\tKeep your eyes peeled for dolphins!\r\n\n•\tIncludes one complimentary drink and light lunch\n\n•\tDeparts and returns @ Marina Mirage - an ideal spot for a beautiful waterfront meal or drinks before or after your cruise"
