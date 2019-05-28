@@ -57,13 +57,14 @@ contentColumn: >-
 
 
   No matter what style of birthday party you wish to create, we can help.
-  Whether you are looking for a relaxing day on the water with some yummy food
-  and a few drinks. A kids birthday party with a beach stopover, sand castles,
-  cakes and clowns. Or a raucous birthday party with loud music, inflatables and
-  all the trimmings, we are here for you. 
+  Whether you are looking for a relaxing day on the water with a BBQ and a few
+  beers. A kids birthday party with a beach stopover, sand castles, cakes and
+  clowns. Or a boat party with cocktails, inflatable flamingos and awesome tunes
+  bring it on!   
 
 
-  We have some great Gold Coast birthday party ideas also.
+  Our guests tell us that spending a day (or evening) on the water was one of
+  their best ever Gold Coast birthday party ideas!
 
    At Sailing In Paradise, we are continually striving to create the best experience possible for our guests.
 
@@ -72,7 +73,7 @@ contentColumn: >-
 
 
   From the moment you send through an enquiry all the way through to the follow
-  up email with your free souvenir photo’s after your cruise, we pride ourselves
+  up email with your free souvenir photos after your cruise, we pride ourselves
   on our professional yet friendly and laid back attitude.
 accordionSection:
   accordion:
