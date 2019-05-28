@@ -1,26 +1,18 @@
 ---
 template: SingleBoatTour
 tourType: Cruise
-title: Island Adventure
+title: Island Cruise
 featuredImage: /images/uploads/DJI_0174.jpg
 intro: >-
-  ## gold coast island adventure cruise
+  ## gold coast island cruise
 
 
-  This 3 hour adventure includes an Island stopover for beach activities and
-  water fun. Ever tried stand up paddleboarding? Well now you can.. or perhaps
-  you'd like to lay back on an inflatable flamingo with a cool drink in hand..
-  you can. 
+  Discover a new side to the Gold Coast...join us as we cruise the Gold Coast
+  Broadwater’s stunning islands and beaches.  
 
 
-  In fact, you can do pretty much anything you like. Or you can do nothing.. the
-  choice is yours.
-
-
-  Included in this cruise .. complimentary beverage on boarding (bubbly, beer or
-  soft drink), light lunch including sandwiches, muffins and fruit platter, use
-  of paddleboards, inflatables, beach volleyball and beach cricket, snorkeling,
-  frisbees, football or fishing.
+  If 3 chilled hours on the water on a beautiful Sailing Catamaran sound good,
+  book your ticket and we'll make it happen!
 contentBox:
   buttonTitle: Make enquiry
   buttonUrl: booking-enquiry
@@ -35,119 +27,24 @@ videoSection:
   imageOverlay: /images/uploads/DSC_1073.jpg
   video: >-
     https://www.youtube.com/watch?v=vr0qNXmkUJ8&list=PLNhzc-Os3JK8ExayVzzoHVvP2c0-4_oqt
-contentColumnTitle: We love our Paradise and want to share it with you!
-contentColumn: >-
-  We have over 15 years experience providing exciting tours in our beautiful
-  Gold Coast paradise and are continually striving to create the best experience
-  possible for our guests.
-
-
-  We understand that you want your visit to be memorable, fun, relaxing and
-  stress free and that is exactly what we specialise in.
-
-
-  From the moment you send through an enquiry all the way through to the follow
-  up email with your free souvenir photo’s after your cruise, we pride ourselves
-  on our professional yet friendly and laid back attitude.
-
-
-  No matter what style of party you are after we can help. Whether you are
-  looking for a relaxing day on the water with some yummy food and a few drinks.
-  Or an elegant morning tea cruise with champagne and delicious cupcakes. Even a
-  raucous Cruise party with a butler in the buff and all the trimmings we are
-  here for you. We have some great Gold Coast Cruise night ideas also.
+contentColumnTitle: 'We love our Paradise, let us share it with you!'
+contentColumn: "Step aboard our beautiful Sailing Catamaran and enjoy a 3 hour cruise on the picturesque and calm Gold Coast Broadwater.     Take in the sights including impressive super yachts, Sea World, Palazzo Versace, South Stradbroke Island, Wavebreak Island and the Gold Coast Seaway.  \r\n\nVisit an isolated island beach only accessible by boat where you are invited to jump in for a swim and enjoy our selection of beach games (incl Volleyball, Stand Up Paddleboarding, Beach Cricket and Inflatables).   Or if you just want to chill on the beach (or our trampoline-style foredeck) that's totally fine, we'll play some cool tunes and serve up an icy cold drink from our on-board bar so you can relax and watch the world sail by in style.     Be sure to keep your eyes peeled for the friendly bottlenose dolphins who regularly join us.  \r\n\nThis is an laid-back cruise experience on a spacious sailing catamaran, with no more than 30 guests on board we love a social atmosphere and we can't wait to welcome you on board!\r\n\nCruise includes light lunch and one complimentary bubbly, beer or soft drink."
 accordionSection:
   accordion:
-    - dropdownContent: >-
-        Why settle for ordinary when you can sail away on the Gold Coast’s most
-        luxurious and unique sailing catamaran.
-
-
-        Our stable sailing catamaran is ideal for groups of up to 30 ladies. The
-        large trampoline-style fore-deck is perfect for lazing in the sunshine
-        or dancing, while we sail the calm, clear waters of the Gold Coast. The
-        ample undercover space makes the vessel perfect for those seeking shade.
-        Facilities are plentiful to ensure you have everything on hand to enjoy
-        a perfect day! Definitely the boat to be seen on and with room for up to
-        30 passengers, this smooth and stable yacht is the ideal venue for a
-        wonderful cruise.  Let the crew pamper you the way you deserve with our
-        Ultimate VIP Cruise Party Cruise.
+    - dropdownContent: "•\t3 hours on the beautiful, calm Gold Coast Broadwater\r\n\n•\tRelax onboard a spacious Sailing Catamaran\r\n\n•\tA maximum of 30 guests on board\r\n\n•\tSee impressive superyachts, Seaworld, Palazzo Versace, Gold Coast Seaway, Wavebreak Island, South Stradbroke Island and local wildlife.\r\n\n•\tPull up at an island beach only accessible by boat\r\n\n•\tEnjoy free beach activities, explore the island or just relax and enjoy the view\r\n\n•\tCool tunes set the soundtrack for your experience\r\n\n•\tFriendly relaxed ambience with crew sharing some local knowledge\r\n\n•\tKeep your eyes peeled for dolphins!\r\n\n•\tIncludes one complimentary drink and light snack\r\n\n•\tDeparts and returns @ Marina Mirage - an ideal spot for a beautiful waterfront meal or drinks before or after your cruise"
       title: What to expect
-    - dropdownContent: >-
-        Why settle for ordinary when you can sail away on the Gold Coast’s most
-        luxurious and unique sailing catamaran.
-
-
-        Our stable sailing catamaran is ideal for groups of up to 30 ladies. The
-        large trampoline-style fore-deck is perfect for lazing in the sunshine
-        or dancing, while we sail the calm, clear waters of the Gold Coast. The
-        ample undercover space makes the vessel perfect for those seeking shade.
-        Facilities are plentiful to ensure you have everything on hand to enjoy
-        a perfect day! Definitely the boat to be seen on and with room for up to
-        30 passengers, this smooth and stable yacht is the ideal venue for a
-        wonderful cruise.  Let the crew pamper you the way you deserve with our
-        Ultimate VIP Cruise Party Cruise.
+    - dropdownContent: "•\tHat\r\n\n•\tSunscreen\r\n\n•\tSunglasses\r\n\n•\tSwimwear \r\n\n•\tTowel\r\n\n•\tJacket on cooler days\r\n\n•\tFlat soled shoes (or bare feet)\r\n\n•\tCamera"
       title: What to Bring
     - dropdownContent: >-
-        Why settle for ordinary when you can sail away on the Gold Coast’s most
-        luxurious and unique sailing catamaran.
-
-
-        Our stable sailing catamaran is ideal for groups of up to 30 ladies. The
-        large trampoline-style fore-deck is perfect for lazing in the sunshine
-        or dancing, while we sail the calm, clear waters of the Gold Coast. The
-        ample undercover space makes the vessel perfect for those seeking shade.
-        Facilities are plentiful to ensure you have everything on hand to enjoy
-        a perfect day! Definitely the boat to be seen on and with room for up to
-        30 passengers, this smooth and stable yacht is the ideal venue for a
-        wonderful cruise.  Let the crew pamper you the way you deserve with our
-        Ultimate VIP Cruise Party Cruise.
-      title: Considerations
-    - dropdownContent: >-
-        Why settle for ordinary when you can sail away on the Gold Coast’s most
-        luxurious and unique sailing catamaran.
-
-
-        Our stable sailing catamaran is ideal for groups of up to 30 ladies. The
-        large trampoline-style fore-deck is perfect for lazing in the sunshine
-        or dancing, while we sail the calm, clear waters of the Gold Coast. The
-        ample undercover space makes the vessel perfect for those seeking shade.
-        Facilities are plentiful to ensure you have everything on hand to enjoy
-        a perfect day! Definitely the boat to be seen on and with room for up to
-        30 passengers, this smooth and stable yacht is the ideal venue for a
-        wonderful cruise.  Let the crew pamper you the way you deserve with our
-        Ultimate VIP Cruise Party Cruise.
-      title: VIP Packages
-    - dropdownContent: >-
-        Why settle for ordinary when you can sail away on the Gold Coast’s most
-        luxurious and unique sailing catamaran.
-
-
-        Our stable sailing catamaran is ideal for groups of up to 30 ladies. The
-        large trampoline-style fore-deck is perfect for lazing in the sunshine
-        or dancing, while we sail the calm, clear waters of the Gold Coast. The
-        ample undercover space makes the vessel perfect for those seeking shade.
-        Facilities are plentiful to ensure you have everything on hand to enjoy
-        a perfect day! Definitely the boat to be seen on and with room for up to
-        30 passengers, this smooth and stable yacht is the ideal venue for a
-        wonderful cruise.  Let the crew pamper you the way you deserve with our
-        Ultimate VIP Cruise Party Cruise.
-      title: More Cruise Ideas
-    - dropdownContent: >-
-        Why settle for ordinary when you can sail away on the Gold Coast’s most
-        luxurious and unique sailing catamaran.
-
-
-        Our stable sailing catamaran is ideal for groups of up to 30 ladies. The
-        large trampoline-style fore-deck is perfect for lazing in the sunshine
-        or dancing, while we sail the calm, clear waters of the Gold Coast. The
-        ample undercover space makes the vessel perfect for those seeking shade.
-        Facilities are plentiful to ensure you have everything on hand to enjoy
-        a perfect day! Definitely the boat to be seen on and with room for up to
-        30 passengers, this smooth and stable yacht is the ideal venue for a
-        wonderful cruise.  Let the crew pamper you the way you deserve with our
-        Ultimate VIP Cruise Party Cruise.
-      title: Cruise Party FAQ's
+        Please arrive 15 minutes prior to your departure time.   We depart from
+        Berth D11 Marina Mirage, Main Beach.   When arriving at the Marina
+        please DO NOT go down the Mariners Cover wharf with the big yellow
+        arches.  Instead take the Marina Mirage wharf on the right hand side and
+        you will find our vessel.   For further details and a map of how to find
+        us please see https://sailinginparadise.com.au/how-to-find-us/
+      title: When and Where to find us
+    - dropdownContent: "•\tIn the event of adverse weather requiring a cancellation of the cruise an SMS will be sent to your registered mobile (please ensure you provide one).   \r\n\n•\tPlease provide notice of at least 72 hours should you wish to cancel to avoid forfeiture of ticket price.  \r\n\n•\tThere is no BYO however you will receive one complimentary bubbly, beer or soft drink and extra drinks may be purchased on board at very reasonable prices (cash preferred, cards accepted).  \r\n\n•\tSailing in Paradise reserves the right to substitute the vessel if necessary without prior notice.\r\n\n•\tCruises are subject to weather suitability, the cruise can proceed in most weather conditions but if it is deemed unsafe we will not sail.   Customers are able to reschedule or request a refund in this circumstance.\r\n\n•\tCruises require minimum numbers to depart.  \r  In the event of minimum numbers not being met guests will be offered a full refund or the opportunity to reschedule to an alternative date."
+      title: Terms and Conditions
 columnBanner:
   - buttonTitle: Make Enquiry
     buttonUrl: booking-enquiry
