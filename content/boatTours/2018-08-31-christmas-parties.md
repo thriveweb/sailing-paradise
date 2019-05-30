@@ -4,7 +4,19 @@ tourType: Private Charter
 title: Christmas Parties
 icon: ''
 featuredImage: /images/uploads/DSC_0031.jpg
-intro: "## gold coast Christmas boat party\n\nLooking for somewhere unique to host this year’s work Christmas Party?  How does a Boat Cruise aboard your own private catamaran sound?  You’ll be sailing in the beautiful Gold Coast sunshine surrounded by crystal blue waters, isolated islands and golden beaches, sipping on icy cold drinks and enjoying delicious food.\r\n\nSounds awesome right?   Yes, we know."
+intro: >-
+  ## gold coast Christmas boat party
+
+
+  Looking for somewhere unique to host this year’s work Christmas Party?  How
+  does a Boat Cruise aboard your own private catamaran sound?  You’ll be sailing
+  in the beautiful Gold Coast sunshine surrounded by crystal blue waters,
+  isolated islands and golden beaches, sipping on icy cold drinks and enjoying
+  delicious food.
+
+
+  Sounds awesome right?   Yes, we know.  Hit us up for some info on our
+  Christmas Charters today and start planning your best ever Christmas Party!
 contentBox:
   buttonTitle: Make enquiry
   buttonUrl: booking-enquiry
@@ -19,10 +31,26 @@ videoSection:
   imageOverlay: /images/uploads/DSC_1073.jpg
   video: >-
     https://www.youtube.com/watch?v=vr0qNXmkUJ8&list=PLNhzc-Os3JK8ExayVzzoHVvP2c0-4_oqt
-contentColumnTitle: We love Christmas parties and Christmas parties love us!
+contentColumnTitle: Not your average office Christmas Party!
 contentColumn: >-
-  We have hosted over 1000 happy Christmas parties and we are continually
-  striving to create the best experience possible for our guests.
+  Work Christmas Parties...the one day (or night) of the year at work that has
+  the potential to bring the team together in a way that no team meeting or
+  corporate event can do, but sadly often falls flat.     If your Gold Coast
+  Christmas Party has fallen into the 'get me out of here this is soooooo dull'
+  category once too often, we are here to help fix that!   
+
+
+  Aboard your own private catamaran you call the shots and our crew are on hand
+  to help make your Christmas Party perfect for your group.  
+
+
+  So what floats your boat? 
+
+
+  * A relaxed sunset cruise with canapes and champagne, an day on the water with
+  swimming, SUP'ing and delicious BBQ lunch or even a high octane team building
+  day with sailing challenges and jetboating.  The options are endless and
+  believe in providing your perfect Christmas Party 'your a
 
 
   We understand that you want your special day to be memorable, fun, relaxing
