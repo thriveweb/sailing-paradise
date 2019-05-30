@@ -20,24 +20,131 @@ videoSection:
   video: >-
     https://www.youtube.com/watch?v=vr0qNXmkUJ8&list=PLNhzc-Os3JK8ExayVzzoHVvP2c0-4_oqt
 contentColumnTitle: Not your average office Christmas Party!
-contentColumn: "If your Gold Coast Christmas Party has fallen into the 'get me out of here this is soooooo dull' category once too often, we are here to help fix that!   \n\nAboard your own private catamaran our crew are on hand to help make your Christmas Party perfect for your group.  \n\n![](/images/uploads/DSC_0036.jpg)\n\n## Christmas Party Ideas\n\nGot your own ideas?   Tell us what floats your boat and we'll do our best to make it happen.  Some options include;\n\n* A relaxed sunset cruise with canapes and champagne, \n* A day on the water with swimming, Island activities and delicious BBQ lunch \n* or even a high octane team building day with sailing challenges and jetboating?\n\nThese are just a few of the Gold Coast Christmas Party ideas available with Sailing in Paradise.   The options are endless and our friendly team are on hand to help you plan 'your Christmas Party your way'.  \n\nWe have looked after all sorts of industry clients from fitness studios and restaurants to banks and legal firms (and everything in between).   There is something about spending time on the water that brings people (of all ages and backgrounds) together and we would love to put on a Christmas Party your whole team will talk about for years to come!\n\n\n\n## Christmas Party Planners, we are here to help...    \n\nIf you are looking for fun work Christmas Party ideas and are bored with the average Gold Coast Christmas Party venues, congratulations you have found your perfect Christmas Party!   So sit back, make yourself a mojito…(ahem, well we need to set the scene), and relax as you imagine stepping aboard our beautiful boats for a unique Christmas Party Cruise on the Gold Coast!\n\nYou are busy, we totally get it!   That's why we offer a fuss-free service.   From the moment you enquire and receive our Christmas Party info pack we are here to make your life easier.   \n\nIf you want to lock in your party now and forget about until the day that is totally fine, we can take care of food, drinks and activities and we will even provide your team with photos of your cruise afterwards, it's all part of the service.  So you can actually relax and enjoy the party!  \n\n![](/images/uploads/DJI_0005.jpg)\n\n## The Christmas Party Boats\n\nWhat do our customers love about our catamarans?   Well, time and time again they tell us they are the ideal venue for parties!    And work Christmas Parties are no exception.\r\n\n\r\n\n From 1 to 50 guests (we can also source additional vessels for larger raft up parties) – our 2 luxurious 10.5 metre resort style sailing catamarans mean we can now cater for larger groups of up to 50 (or even 90 with additional vessels) people – The Spirit Of Gwonda can accommodate up to 30 guests (plus 2 crew) and our new boat the 1000XL has a capacity of 20 (plus 2 crew).\r\n\n\r\n\n Open Plan Layout – great for Company Christmas Parties. The layout of our boats are ideal for a Christmas party venue and make entertaining large groups a delight.   The spacious interior of the boat offers plentiful seating, a large central table, a permanent hard roof and 360 degree visibility (making it suitable for all weather conditions).\r\n\n\r\n\n 360 degree views from all areas – the front of the boat is extremely popular with guests, offering a trampoline-style area perfect for lazing in the sun whilst listening to the sounds of your favourite Christmas songs streaming through our Fusion sound system.\r\n\n\r\n\n Pull up directly on the beach – the front boarding ladder and shallow draft make the vessel perfect for pulling up onto a beach at Wavebreak Island, South Stradbroke Island or one of the many golden sandy shores in the Gold Coast broadwater. Your skipper will pick the best spot for you on the day!\r\n\n\r\n\n Smooth and Stable catamaran = no sea-sickness. The boat is extremely smooth and stable meaning you won’t spill a drop of your Christmas cocktail and you won’t be feeling queasy.\r\n\n\r\n\n Fully Catered or BYO – we work with some of the Gold Coast’s best caterers and can offer a range of Christmas lunch or dinner options from budget through to premium.   If you would prefer to BYO that is completely fine too!\r\n\n\r\n\n Fully licensed or BYO – we offer a full bar service including competitively priced drinks packages.  Alternatively you can choose to BYO drinks.\r\n\n\r\n\n Free use of beach activities – fancy floating around on an inflatable flamingo, or maybe giving Stand Up Paddle Boarding a go?   Perhaps you are feeling energetic and want to bring the team together with a hit of beach cricket or volleyball.   We carry all of these activities on-board for your use free of charge.\r\n\n\r\n\n Excellent on-board facilities – on-board you will find a small marine BBQ, large eskys (ice supplied), Fusion Marine sound system with speakers inside and out, bluetooth connectivity and premium Spotify provided and marine toilet.\r\n\n\r\n\n Sailing – we love hoisting the sails and switching off the motors. One of the few true sailing experiences you will find on the coast and the only commercial sailing boat capable of taking 30 people.\n\n\n\n## \n\n\n\n\n\nSo enquire now and we can help to plan your best Christmas Party ever in 2019!"
+contentColumn: >-
+  If your Gold Coast Christmas Party has fallen into the 'get me out of here
+  this is soooooo dull' category once too often, we are here to help fix
+  that!   
+
+
+  Aboard your own private catamaran our crew are on hand to help make your
+  Christmas Party perfect for your group.  
+
+
+  ![](/images/uploads/DSC_0036.jpg)
+
+
+  ## Christmas Party Ideas
+
+
+  Got your own ideas?   Tell us what floats your boat and we'll do our best to
+  make it happen.  Some options include;
+
+
+  * A relaxed sunset cruise with canapes and champagne, 
+
+  * A day on the water with swimming, Island activities, and delicious BBQ lunch
+  and icy cold beers,
+
+  * or even a high octane team building day with sailing challenges and water
+  sports?
+
+
+  These are just a few of the Gold Coast Christmas Party ideas available with
+  Sailing in Paradise.   The options are endless and our friendly team are on
+  hand to help you plan 'your Christmas Party your way'.  
+
+
+  We have looked after all sorts of industry clients from fitness studios and
+  uber-cool restaurants to banks and legal firms (and everything in between).  
+  There is something about spending time on the water that brings people (of all
+  ages and backgrounds) together and we would love to put on a Christmas Party
+  your whole team will talk about for years to come!
+
+
+
+
+  ## Christmas Party Planners, we are here to help...    
+
+
+  OK you have found your perfect Christmas Party, yay!   What now?  Time for a
+  mojito…(ahem, well we need to set the scene for what's to come). 
+
+
+  But in all seriousness, you are busy, we totally get it!   That's why we offer
+  a fuss-free service.   From the moment you enquire and receive our Christmas
+  Party info pack we are here to make your life easier.   
+
+
+  If you want to book in your party now and forget about until the day that is
+  totally fine.  We can take care of food, drinks and activities and we will
+  even provide your team with photos of your cruise afterwards.  It's all part
+  of the service.  So you can actually relax and enjoy the party!  
+
+
+  ![](/images/uploads/DJI_0005.jpg)
+
+
+  ## The Christmas Party Boats
+
+
+  What do our customers love about our catamarans?   Well, time and time again
+  they tell us they are the ideal venue for parties!    And work Christmas
+  Parties are no exception.
 accordionSection:
   accordion:
     - dropdownContent: >-
-        Why settle for ordinary when you can sail away on the Gold Coast’s most
-        luxurious and unique sailing catamaran.
-
-
-        Our stable sailing catamaran is ideal for groups of up to 30 ladies. The
-        large trampoline-style fore-deck is perfect for lazing in the sunshine
-        or dancing, while we sail the calm, clear waters of the Gold Coast. The
-        ample undercover space makes the vessel perfect for those seeking shade.
-        Facilities are plentiful to ensure you have everything on hand to enjoy
-        a perfect day! Definitely the boat to be seen on and with room for up to
-        30 passengers, this smooth and stable yacht is the ideal venue for a
-        wonderful cruise.  Let the crew pamper you the way you deserve with our
-        Ultimate VIP Christmas Party Cruise.
-      title: What to expect
+        Our 2 luxurious 10.5 metre resort style sailing catamarans mean we can
+        now cater for larger groups of up to 50 (or even 90 with additional
+        vessels) people – The Spirit Of Gwonda can accommodate up to 30 guests
+        (plus 2 crew) and our new boat the 1000XL has a capacity of 20 (plus 2
+        crew).
+      title: 1-90 Guest Capacity
+    - dropdownContent: >-
+        The layout of our boats are ideal for a Christmas party venue and make
+        entertaining large groups a delight.   The spacious interior of the boat
+        offers plentiful seating, a large central table, a permanent hard roof
+        and 360 degree visibility (making it suitable for all weather
+        conditions).
+      title: Open Plan Layout - ideal for parties
+    - dropdownContent: >-
+        Fancy floating around on an inflatable flamingo, or maybe giving Stand
+        Up Paddle Boarding a go?   Perhaps you are feeling energetic and want to
+        bring the team together with a hit of beach cricket or volleyball.   We
+        carry all of these activities on-board for your use free of charge.
+      title: ' Free use of beach activities'
+    - dropdownContent: "If your boss got sick once on a Caribbean Cruise, or Julie from accounts feels a bit queasy whenever she gets in the bath, please tell them not to worry.    Why?  A few reasons;\n\n1. We sail in calm protected waters (we do not go offshore)\n2. We operate a wide, stable catamaran (not the same side to side rocking of single hull vessels) meaning you won’t spill a drop of your Christmas cocktail and you won’t be feeling queasy.\r\n3. You will be having too much fun! \n\n\rPS...  Julie should probably see a doctor, this is not normal :-)"
+      title: Smooth and Stable Catamarans = No sea-sickness guaranteed
+    - dropdownContent: >-
+        We work with some excellent caterers and can offer a range of Christmas,
+        brunch, lunch or dinner options from budget through to premium.   If you
+        would prefer to BYO that is completely fine too!
+      title: Fully Catered or BYO
+    - dropdownContent: >-
+        We offer a full bar service including competitively priced drinks
+        packages.  Alternatively you can choose to BYO drinks.
+      title: ' Fully licensed or BYO'
+    - dropdownContent: >-
+        On-board you will find a small marine BBQ, large eskys (ice supplied),
+        Fusion Marine sound system with speakers inside and out, bluetooth
+        connectivity and premium Spotify provided and marine toilet.
+      title: Excellent on-board facilities
+    - dropdownContent: >-
+        We love hoisting the sails and switching off the motors. One of the few
+        true sailing experiences you will find on the coast and the only
+        commercial sailing boat capable of taking 30 people.
+      title: ' Experience the delight of Sailing...in complete comfort'
+    - dropdownContent: >-
+        The front of the boat is extremely popular with guests, offering a
+        trampoline-style area perfect for lazing in the sun whilst listening to
+        the sounds of your favourite Christmas songs streaming through our
+        Fusion sound system.
+      title: ' 360 degree views from all areas '
+    - dropdownContent: >-
+        The front boarding ladder and shallow draft make the vessel perfect for
+        pulling up onto a beach at Wavebreak Island, South Stradbroke Island or
+        one of the many golden sandy shores in the Gold Coast broadwater. Your
+        skipper will pick the best spot for you on the day!
+      title: Easy Beach Landings
     - dropdownContent: >-
         Why settle for ordinary when you can sail away on the Gold Coast’s most
         luxurious and unique sailing catamaran.
@@ -67,67 +174,8 @@ accordionSection:
         30 passengers, this smooth and stable yacht is the ideal venue for a
         wonderful cruise.  Let the crew pamper you the way you deserve with our
         Ultimate VIP Christmas Party Cruise.
-      title: Considerations
-    - dropdownContent: >-
-        Why settle for ordinary when you can sail away on the Gold Coast’s most
-        luxurious and unique sailing catamaran.
-
-
-        Our stable sailing catamaran is ideal for groups of up to 30 ladies. The
-        large trampoline-style fore-deck is perfect for lazing in the sunshine
-        or dancing, while we sail the calm, clear waters of the Gold Coast. The
-        ample undercover space makes the vessel perfect for those seeking shade.
-        Facilities are plentiful to ensure you have everything on hand to enjoy
-        a perfect day! Definitely the boat to be seen on and with room for up to
-        30 passengers, this smooth and stable yacht is the ideal venue for a
-        wonderful cruise.  Let the crew pamper you the way you deserve with our
-        Ultimate VIP Christmas Party Cruise.
-      title: VIP Packages
-    - dropdownContent: >-
-        Why settle for ordinary when you can sail away on the Gold Coast’s most
-        luxurious and unique sailing catamaran.
-
-
-        Our stable sailing catamaran is ideal for groups of up to 30 ladies. The
-        large trampoline-style fore-deck is perfect for lazing in the sunshine
-        or dancing, while we sail the calm, clear waters of the Gold Coast. The
-        ample undercover space makes the vessel perfect for those seeking shade.
-        Facilities are plentiful to ensure you have everything on hand to enjoy
-        a perfect day! Definitely the boat to be seen on and with room for up to
-        30 passengers, this smooth and stable yacht is the ideal venue for a
-        wonderful cruise.  Let the crew pamper you the way you deserve with our
-        Ultimate VIP Christmas Party Cruise.
-      title: More Christmas Ideas
-    - dropdownContent: >-
-        Why settle for ordinary when you can sail away on the Gold Coast’s most
-        luxurious and unique sailing catamaran.
-
-
-        Our stable sailing catamaran is ideal for groups of up to 30 ladies. The
-        large trampoline-style fore-deck is perfect for lazing in the sunshine
-        or dancing, while we sail the calm, clear waters of the Gold Coast. The
-        ample undercover space makes the vessel perfect for those seeking shade.
-        Facilities are plentiful to ensure you have everything on hand to enjoy
-        a perfect day! Definitely the boat to be seen on and with room for up to
-        30 passengers, this smooth and stable yacht is the ideal venue for a
-        wonderful cruise.  Let the crew pamper you the way you deserve with our
-        Ultimate VIP Christmas Party Cruise.
       title: Christmas Party FAQ's
-    - dropdownContent: >-
-        We just had to put this in as we hear it so often...    If your boss got
-        sick once on a Carribbean Cruise, or Julie from accounts feels a bit
-        queasy whenever she gets in the bath, tell them not to worry.   We have
-        taken out thousands of guests (including many with concerns for
-        sea-sickness) and it is always fine.   Why?  A few reasons;
-
-
-        1. We sail in calm protected waters (we do not go offshore)
-
-        2. We operate a wide, stable catamaran (not the same side to side
-        rocking of single hull vessels)
-
-        3. You will be having too much fun!
-      title: No sea-sickness guaranteed
+  sectionTitle: Why book your Christmas Party with us?
 columnBanner:
   - buttonTitle: BUY NOW
     buttonUrl: booking-enquiry
@@ -137,21 +185,21 @@ columnBanner:
   - featuredImage: /images/uploads/Sailing-in-Paradise-sunset.jpg
 testimonials:
   description: >-
-    **Christmas Party**
+    **Guest happiness is our number one priority!**
 
 
-    See our five star Trip Advisor reviews for more testimonial feedback from
-    our satisfied clients.
+    We encourage you to check out reviews on Trip Advisor, Facebook or Google
+    Plus to get a feel for our guest experience.  We have also included some
+    'Happy Sailors' feature stories on this website.
   featuredTestimonial:
     content: >-
-      "We used this wonderful company to start my sisters Christmas celebrations
-      and the girls haven’t stopped talking about it since. It was a beautiful
-      day out on a beautiful boat with an amazing crew! Will definitely be in
-      contact again with Steve if I can think of any other reason to go for a
-      sail. Thank you so much for your time and not laughing at our dance moves
-      and pop star singing voices!"
-    image: /images/uploads/girl-img12.jpg
-    name: Alex S.
+      This is the 2nd year that we have used Jess & Steve @ Sailing in Paradise
+      for our staff Christmas Party and once again they did not disappoint! The
+      yacht was immaculate, staff amazing, food completely delicious and we even
+      were accommodated with being lucky enough to share some GC fire works
+      while on the water!
+    image: /images/uploads/hs-suzy-m.jpg
+    name: Suzy M
   title: Happy Sailors
 ---
 
