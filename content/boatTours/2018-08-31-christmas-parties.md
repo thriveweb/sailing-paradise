@@ -33,20 +33,20 @@ videoSection:
     https://www.youtube.com/watch?v=vr0qNXmkUJ8&list=PLNhzc-Os3JK8ExayVzzoHVvP2c0-4_oqt
 contentColumnTitle: Not your average office Christmas Party!
 contentColumn: >-
+  If your Gold Coast Christmas Party has fallen into the 'get me out of here
+  this is soooooo dull' category once too often, we are here to help fix
+  that!   
 
 
-  Work Christmas Parties...the one day (or night) of the year that has the
-  potential to bring the team together in a way that no team meeting or
-  corporate event can do, but sadly often falls flat.     If your Gold Coast
-  Christmas Party has fallen into the 'get me out of here this is soooooo dull'
-  category once too often, we are here to help fix that!   
+  Aboard your own private catamaran our crew are on hand to help make your
+  Christmas Party perfect for your group.  
 
 
-  Aboard your own private catamaran you call the shots and our crew are on hand
-  to help make your Christmas Party perfect for your group.  
+  ## Christmas Party Ideas
 
 
-  So what floats your boat? 
+  Got your own ideas?   Tell us what floats your boat and we'll do our best to
+  make it happen.  Some options include;
 
 
   * A relaxed sunset cruise with canapes and champagne, 
@@ -63,28 +63,51 @@ contentColumn: >-
 
 
   We have looked after all sorts of industry clients from fitness studios and
-  restaurants to banks and legal firms (and everything in between) and pride
-  ourselves on making sure our guests enjoy the experience not matter their age,
-  background or interests.   There is something about spending time on the water
-  that brings people together and we would love to help you put on a Christmas
-  Party your team will talk about for years to come!
+  restaurants to banks and legal firms (and everything in between).   There is
+  something about spending time on the water that brings people (of all ages and
+  backgrounds) together and we would love to help you put on a Christmas Party
+  your whole team will talk about for years to come!
+
+
 
 
   ## Christmas Party Planners, we are here to help...    
 
 
   You are busy, we totally get it!   That's why we offer a fuss-free service.  
-  From the moment you enquire and receive our Christmas Party info the plan is
-  that we are here to make your life easier.   
+  From the moment you enquire and receive our Christmas Party info pack we are
+  here to make your life easier.   
 
 
-  So if you want to lock in your party now and forget about until the day that
-  is totally fine, we can take care of food, drinks and activities and we will
-  even provide your team with photos of your cruise afterwards, it's all part of
-  the service.   
+  If you want to lock in your party now and forget about until the day that is
+  totally fine, we can take care of food, drinks and activities and we will even
+  provide your team with photos of your cruise afterwards, it's all part of the
+  service.  
 
 
-  .
+
+
+  ## No sea-sickness guaranteed
+
+
+  We just had to put this in as we hear it so often...    If your boss got sick
+  once on a Carribbean Cruise, or Julie from accounts feels a bit queasy
+  whenever she gets in the bath, tell them not to worry.   We have taken out
+  thousands of guests (including many with concerns for sea-sickness) and it is
+  always fine.   Why?  A few reasons;
+
+
+  1. We sail in calm protected waters (we do not go offshore)
+
+  2. We operate a wide, stable catamaran (not the same side to side rocking of
+  single hull vessels)
+
+  3. You will be having too much fun! 
+
+
+
+
+  So enquire now and we can help to plan your best Christmas Party ever in 2019!
 accordionSection:
   accordion:
     - dropdownContent: >-
