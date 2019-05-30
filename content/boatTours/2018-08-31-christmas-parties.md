@@ -33,8 +33,10 @@ videoSection:
     https://www.youtube.com/watch?v=vr0qNXmkUJ8&list=PLNhzc-Os3JK8ExayVzzoHVvP2c0-4_oqt
 contentColumnTitle: Not your average office Christmas Party!
 contentColumn: >-
-  Work Christmas Parties...the one day (or night) of the year at work that has
-  the potential to bring the team together in a way that no team meeting or
+
+
+  Work Christmas Parties...the one day (or night) of the year that has the
+  potential to bring the team together in a way that no team meeting or
   corporate event can do, but sadly often falls flat.     If your Gold Coast
   Christmas Party has fallen into the 'get me out of here this is soooooo dull'
   category once too often, we are here to help fix that!   
@@ -47,26 +49,42 @@ contentColumn: >-
   So what floats your boat? 
 
 
-  * A relaxed sunset cruise with canapes and champagne, an day on the water with
-  swimming, SUP'ing and delicious BBQ lunch or even a high octane team building
-  day with sailing challenges and jetboating.  The options are endless and
-  believe in providing your perfect Christmas Party 'your a
+  * A relaxed sunset cruise with canapes and champagne, 
+
+  * A day on the water with swimming, Island activities and delicious BBQ lunch 
+
+  * or even a high octane team building day with sailing challenges and
+  jetboating?
 
 
-  We understand that you want your special day to be memorable, fun, relaxing
-  and stress free and that is exactly what we specialise in.
+  These are just a few of the Gold Coast Christmas Party ideas available with
+  Sailing in Paradise.   The options are endless and our friendly team are on
+  hand to help you plan 'your Christmas Party your way'.  
 
 
-  From the moment you send through an enquiry all the way through to the follow
-  up email with your free souvenir photo’s after your cruise, we pride ourselves
-  on our professional yet friendly and laid back attitude.
+  We have looked after all sorts of industry clients from fitness studios and
+  restaurants to banks and legal firms (and everything in between) and pride
+  ourselves on making sure our guests enjoy the experience not matter their age,
+  background or interests.   There is something about spending time on the water
+  that brings people together and we would love to help you put on a Christmas
+  Party your team will talk about for years to come!
 
 
-  No matter what style of party you are after we can help. Whether you are
-  looking for a relaxing day on the water with some yummy food and a few drinks.
-  Or an elegant morning tea cruise with champagne and delicious cupcakes. Even a
-  raucous Christmas party with a butler in the buff and all the trimmings we are
-  here for you. We have some great Gold Coast Christmas night ideas also.
+  ## Christmas Party Planners, we are here to help...    
+
+
+  You are busy, we totally get it!   That's why we offer a fuss-free service.  
+  From the moment you enquire and receive our Christmas Party info the plan is
+  that we are here to make your life easier.   
+
+
+  So if you want to lock in your party now and forget about until the day that
+  is totally fine, we can take care of food, drinks and activities and we will
+  even provide your team with photos of your cruise afterwards, it's all part of
+  the service.   
+
+
+  .
 accordionSection:
   accordion:
     - dropdownContent: >-
