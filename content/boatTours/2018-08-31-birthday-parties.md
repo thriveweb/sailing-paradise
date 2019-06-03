@@ -42,6 +42,7 @@ gallery:
   - image: /images/uploads/girls-img6.jpg
   - image: /images/uploads/pantsless-waiter.jpg
   - image: /images/uploads/16.12.17-lenore.jpg
+  - image: /images/uploads/dsc_0087_2.jpg
 videoSection:
   imageOverlay: /images/uploads/DSC_1073.jpg
   video: >-
