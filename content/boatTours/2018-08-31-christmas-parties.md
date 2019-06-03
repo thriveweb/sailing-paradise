@@ -112,7 +112,22 @@ accordionSection:
         bring the team together with a hit of beach cricket or volleyball.   We
         carry all of these activities on-board for your use free of charge.
       title: ' Free use of beach activities'
-    - dropdownContent: "If your boss got sick once on a Caribbean Cruise, or Julie from accounts feels a bit queasy whenever she gets in the bath, please tell them not to worry.    Why?  A few reasons;\n\n1. We sail in calm protected waters (we do not go offshore)\n2. We operate a wide, stable catamaran (not the same side to side rocking of single hull vessels) meaning you won’t spill a drop of your Christmas cocktail and you won’t be feeling queasy.\r\n3. You will be having too much fun! \n\n\rPS...  Julie should probably see a doctor, this is not normal :-)"
+    - dropdownContent: >-
+        If your boss got sick once on a Caribbean Cruise, or Carol from accounts
+        feels a bit queasy whenever she gets in the bath, please tell them not
+        to worry.    Why?  A few reasons;
+
+
+        1. We sail in calm protected waters (we do not go offshore)
+
+        2. We operate a wide, stable catamaran (not the same side to side
+        rocking of single hull vessels) meaning you won’t spill a drop of your
+        Christmas cocktail and you won’t be feeling queasy.
+
+        3. You will be having too much fun! 
+
+
+        PS...  Carol should probably see a doctor, this is not normal :-)
       title: Smooth and Stable Catamarans = No sea-sickness guaranteed
     - dropdownContent: >-
         We work with some excellent caterers and can offer a range of Christmas,
