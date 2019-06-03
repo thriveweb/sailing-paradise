@@ -36,13 +36,7 @@ contentBox:
   buttonUrl: booking-enquiry
   title: Let us tailor your VIP Gold Coast Birthday Party Experience
 gallery:
-  - image: /images/uploads/girls-img9.jpg
-  - image: /images/uploads/girls-img5.jpg
-  - image: /images/uploads/girls-img4.jpg
-  - image: /images/uploads/girls-img6.jpg
-  - image: /images/uploads/pantsless-waiter.jpg
-  - image: /images/uploads/16.12.17-lenore.jpg
-  - image: /images/uploads/dsc_0087_2.jpg
+  - image: /images/uploads/bdayac~1.jpg
 videoSection:
   imageOverlay: /images/uploads/DSC_1073.jpg
   video: >-
