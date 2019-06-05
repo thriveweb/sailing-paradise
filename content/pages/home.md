@@ -2,7 +2,7 @@
 template: HomePage
 slug: ''
 title: True Paradise
-featuredVideo: asdfgh
+featuredVideo: 'https://www.youtube.com/watch?v=vr0qNXmkUJ8&t=62s'
 featuredSlider:
   - buttonUrl: cruises
     description: 'A 2 hour sailing cruise through the beautiful Gold Coast Broadwater. '
