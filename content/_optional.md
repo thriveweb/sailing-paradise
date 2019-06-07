@@ -2,6 +2,7 @@
 optional: hello gatsby
 title: markdownfields
 featuredImage: /images/logo.svg
+secondaryImage: /images/logo.svg
 icon: /images/logo.svg
 image: /images/logo.svg
 map: /images/logo.svg
@@ -104,6 +105,52 @@ columnBanner:
   - featuredImage: /images/logo.svg
 accordionSection:
   sectionTitle: ''
+  accordion:
+    - title: ''
+    - dropdownContent: ''
+bookingPopup:
+  title: ''
+  contentBoxes:
+    - title: ''
+    - buttonTitle: ''
+    - buttonUrl: ''
+    - icon: /images/logo.svg
+intro: ''
+body: ''
+meta:
+  title: ''
+  description: ''
+  canonicalLink: ''
+  noindex: ''
+latestNews: ''
+excerpt: ''
+content: ''
+contentSecondary: ''
+guestName: ''
+cruiseType: ''
+review: ''
+ContentBox:
+  title: ''
+  buttonTitle: ''
+  buttonUrl: ''
+contentColumnTitle: ''
+contentColumn: ''
+phone: ''
+address: ''
+hours: ''
+socialMedia:
+  facebook: ''
+  instagram: ''
+  googlePlus: ''
+footerContent: ''
+globalVideo:
+  title: ''
+  imageOverlay: /images/logo.svg
+  video: ''
+siteTitle: ''
+siteUrl: ''
+siteDescription: ''
+headerScripts: ''
 ---
 
 <!--Use this to force Gatsby to deal with optional images-->
