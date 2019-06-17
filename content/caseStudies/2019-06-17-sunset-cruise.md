@@ -1,6 +1,6 @@
 ---
 template: SingleCaseStudy
-name: Sean Gilliland
+name: 'Sean Gilliland, Australia'
 title: Sunset Cruise
 date: '2019-03-31'
 featuredImage: /images/uploads/BDAY People 11 070718b.JPG
