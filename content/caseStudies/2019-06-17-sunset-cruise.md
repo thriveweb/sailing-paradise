@@ -14,6 +14,6 @@ excerpt: >-
   son were asked to assist which made for some great photos which will be
   cherished. I cannot recommend Sailing in Paradise Gold Coast highly enough. If
   we could give them 10 stars we would. Value for money this was bloody
-  brilliant.
+  brilliant.    Tripadvisor
 ---
 Sean arranged for his family of 7 to join our Sunset and City Lights Cruise as a special gift to his father.  We were delighted to help make this a special occasion for the family.  For smaller groups, joining one of our ticketed cruises can be an ideal option to celebrate a special occasion.
