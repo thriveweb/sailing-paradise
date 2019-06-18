@@ -21,7 +21,7 @@ secondaryBanner:
   subtitle: Make a booking now
   title: Let’s go sailing in paradise
 ---
-**HOW TO FIND THE BOAT AT THE MARINA**
+### HOW TO FIND THE BOAT AT THE MARINA
 
 We are conveniently located at Marina Mirage, 74 Seaworld Drive, Main Beach.  
 
@@ -31,6 +31,6 @@ Please do not go down the pier with the big yellow arches as that is Mariners Co
 
 If you can’t find us you can always call us and we will be happy to guide you.
 
-**PARKING**
+### PARKING
 
 There is plentiful free parking which you are invited to use alongside and beneath the Marina Mirage Shopping Centre.
