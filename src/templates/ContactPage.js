@@ -1,6 +1,7 @@
 import React from 'react'
 import Helmet from 'react-helmet'
 import { MapPin, Smartphone, Mail } from 'react-feather'
+import _get from 'lodash/get'
 
 import PageHeader from '../components/PageHeader'
 import IntroText from '../components/IntroText'
@@ -15,13 +16,17 @@ export const ContactPageTemplate = ({
   title,
   featuredImage,
   intro,
-  address,
-  phone,
-  hours,
-  map,
   secondaryBanner,
-  meta
+  meta,
+  contactInfo
 }) => {
+
+  contactInfo = contactInfo ? contactInfo.edges.map(edge => ({ ...edge.node.frontmatter })) : []
+  const phone = _get(contactInfo[0], 'phone') || ''
+  const address = _get(contactInfo[0], 'address') || ''
+  const hours = _get(contactInfo[0], 'hours') || ''
+  const map = _get(contactInfo[0], 'map.publicURL') || ''
+
   return (
     <main className="Contact">
       <Helmet title={meta && meta.title || `${title} | Sailing in Paradise`}>
@@ -64,7 +69,7 @@ const ContactPage = ({ data: { page, globalSections } }) => (
   <ContactPageTemplate
     {...page.frontmatter}
     body={page.html}
-    {...globalSections}
+    contactInfo={globalSections}
   />
 )
 
@@ -97,15 +102,20 @@ export const pageQuery = graphql`
         }
       }
     }
-    globalSections: markdownRemark {
-      frontmatter {
-        address
-        phone
-        hours
-        map {
-          ...FluidImage
-        }
-      }
-    }
+    globalSections: allMarkdownRemark(filter: {fields: {slug: {eq: "/general-contact/"}}}) {
+  	  edges {
+  	    node {
+  	      frontmatter {
+  					phone
+            hours
+            address
+            map {
+              id
+              publicURL
+            }
+  	      }
+  	    }
+  	  }
+  	}
   }
 `

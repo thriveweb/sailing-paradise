@@ -173,9 +173,9 @@ blockquote p {
   margin: 0 auto;
 }
 
-.alignCenter.fancy-title:before, 
-.alignCenter.fancy-title:after, 
-.alignCenter.fancy-container h2:before, 
+.alignCenter.fancy-title:before,
+.alignCenter.fancy-title:after,
+.alignCenter.fancy-container h2:before,
 .alignCenter.fancy-container h2:after {
   right: 0;
   margin: 0 auto;
@@ -350,17 +350,17 @@ blockquote p {
 input::-webkit-input-placeholder {
 color: var(--primary);
 }
- 
+
 input:-moz-placeholder { /* Firefox 18- */
-color: var(--primary);  
+color: var(--primary);
 }
- 
+
 input::-moz-placeholder {  /* Firefox 19+ */
-color: var(--primary);  
+color: var(--primary);
 }
- 
-input:-ms-input-placeholder {  
-color: var(--primary);  
+
+input:-ms-input-placeholder {
+color: var(--primary);
 }
 
 /*input[type="number"] {
@@ -368,8 +368,7 @@ color: var(--primary);
      -moz-appearance: textfield;
           appearance: textfield;
 }
-input[type=number]::-webkit-inner-spin-button, 
-input[type=number]::-webkit-outer-spin-button { 
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
   -webkit-appearance: none;
 }*/
-

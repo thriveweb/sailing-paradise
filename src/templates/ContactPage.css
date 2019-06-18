@@ -14,17 +14,33 @@
   flex: 1;
   padding: 0 5rem;
   border-right: 1px solid var(--lightGrey);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.Contact .Contact--Details--Item p strong {
+  margin-bottom: 1rem;
+}
+
+.Contact h3 {
+  font-size: 1.8rem;
+  color: var(--darkGrey);
+  margin: 1rem 0;
 }
 
 .Contact p strong {
-  display: block;
-  font-size: 1.8rem;
+  font-size: inherit;
   color: var(--primary);
-  margin-bottom: 2rem;
 }
 
-.Contact--Details--Item a:hover {
+.Contact a:hover {
   text-decoration: underline;
+}
+
+.Contact .button:hover {
+  text-decoration: none;
 }
 
 .Contact--Details--Item:last-of-type {
@@ -45,5 +61,3 @@
   min-height: 40rem;
   margin-right: 6rem;
 }
-
-
