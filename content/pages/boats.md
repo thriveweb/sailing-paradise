@@ -6,40 +6,18 @@ featuredImage: /images/uploads/news-banner.jpg
 intro: '## the best catamarans on the gold coast'
 boats:
   - boatFeatures:
-      - content: |-
-          10.5m long
-
-          6.5m wide
-
-          30 passengers + 2 crew
-      - content: |-
-          Spacious, open plan layout (the ultimate boat for parties)
-
-          Specifically designed for day charters
-
-          Huge Deck Space
-      - content: |-
-          Large central table
-
-          Trampoline style foredeck
-
-          Central access to foredeck (easy to walk around)
-      - content: |-
-          Bench style seating for up to 30 guests
-
-          Recently painted (looks amazing)
-
-          Beautiful recently renovated bathroom
-      - content: |-
-          Main sail and jib
-
-          Front and rear boarding ladders for easy beach and water access
-
-          BBQ
-
-          Eskies
-
-          Sound System
+      - content: 10.5m long x 6.5m wide
+      - content: 30 passengers + 2 crew
+      - content: Large central table
+      - content: Bench style seating for up to 30 guests
+      - content: Main sail and jib
+      - content: Trampoline style foredeck
+      - content: Central access to foredeck (easy to walk around)
+      - content: Beautiful recently renovated bathroom
+      - content: Front and rear boarding ladders for easy beach and water access
+      - content: BBQ
+      - content: Eskies
+      - content: Sound System
     description: >-
       Our signature vessel, the ‘Spirit Of Gwonda’ is a Seawind 1050 Resort
       sailing catamaran which has been purpose built for entertaining and day
