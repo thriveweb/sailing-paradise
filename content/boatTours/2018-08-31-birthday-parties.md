@@ -37,6 +37,7 @@ contentBox:
   title: Let us tailor your VIP Gold Coast Birthday Party Experience
 gallery:
   - image: /images/uploads/bdayac~1.jpg
+  - image: /images/uploads/BDAY Drone 1 2017-12-01 DJI_0098.JPG
 videoSection:
   imageOverlay: /images/uploads/DSC_1073.jpg
   video: >-
