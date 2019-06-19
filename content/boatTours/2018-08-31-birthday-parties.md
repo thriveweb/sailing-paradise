@@ -38,6 +38,25 @@ contentBox:
 gallery:
   - image: /images/uploads/bdayac~1.jpg
   - image: /images/uploads/BDAY Drone 1 2017-12-01 DJI_0098.JPG
+  - image: /images/uploads/BDAY-People-1-2018-11-18-SOG_1347-(1).jpg
+  - image: /images/uploads/BDAY Boat 1 DSC_0001-001.JPG
+  - image: /images/uploads/BDAY People & Activities 1 2018-01-08 20180108_112608.JPG
+  - image: /images/uploads/BDAY People 10 060117.JPG
+  - image: /images/uploads/BDAY-Activities-3-2019-02-09-SOG_0558-(1).jpg
+  - image: /images/uploads/BDAY Drone 2 DJI_0176. Ze picklejpg.jpg
+  - image: /images/uploads/BDAY People 2 2017-05-20 DSC_0110.JPG
+  - image: /images/uploads/BDAY People 11 070718b.JPG
+  - image: /images/uploads/BDAY-People-5-2018-12-29-SOG_2480-(13).jpg
+  - image: /images/uploads/BDAY-Sailing-1-2018-05-13-DSC_0567.jpg
+  - image: /images/uploads/BDAY-People-8-2019-01-20-SOG_6965.jpg
+  - image: /images/uploads/BDAY Beach Landing 0 DSC_0645.JPG
+  - image: /images/uploads/BDAY Dolphins 1 2018-12-12 SOG_8078 (2).JPG
+  - image: /images/uploads/BDAY People 12 2019-03-13 XL0_3762.JPG
+  - image: /images/uploads/BDAY-People-9-2019-02-10-SOG_1072.jpg
+  - image: /images/uploads/BDAY People 3 2017-09-16 DSC_0089.JPG
+  - image: /images/uploads/BDAY People 4 2018-01-27 DSC_0269.JPG
+  - image: /images/uploads/BDAY People 6 2018-12-29 SOG_2480 (18).JPG
+  - image: /images/uploads/BDAY People 7 2019-03-13 XL0_3919.JPG
 videoSection:
   imageOverlay: /images/uploads/DSC_1073.jpg
   video: >-
