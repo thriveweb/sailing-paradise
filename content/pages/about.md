@@ -154,16 +154,41 @@ captainSection:
     challenge...
 crewSection:
   crew:
-    - image: /images/uploads/girl-img1.jpg
+    - content: >-
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+        veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+        commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+        velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
+        occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+        mollit anim id est laborum.
+      image: /images/uploads/girl-img1.jpg
       name: 'Chanelle '
       title: Cheif Stew
-    - image: /images/uploads/girl-img7.jpg
+    - content: >-
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+        veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+        commodo consequat.
+      image: /images/uploads/girl-img7.jpg
       name: Jane Doe
       title: Cook
-    - image: /images/uploads/girl-img4.jpg
+    - content: >-
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+        veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+        commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+        velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
+        occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+        mollit anim id est laborum.
+      image: /images/uploads/girl-img4.jpg
       name: John Doe
       title: Captain
-    - image: /images/uploads/girl-img8.jpg
+    - content: >-
+        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
+        dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+      image: /images/uploads/girl-img8.jpg
       name: Chris Smith
       title: Skipper
   crewIntro: >-
@@ -188,8 +213,9 @@ crewSection:
 secondaryBanner:
   buttonTitle: Know More
   buttonUrl: private-charters
-  title: check out our amazing catamarans
   featuredImage: /images/uploads/boat-img5.jpg
+  subtitle: '123'
+  title: check out our amazing catamarans
 videoSection:
   imageOverlay: /images/uploads/home-banner.jpg
   title: Experience the open water with an affordable yet luxurious adventure
@@ -200,7 +226,10 @@ columnBanner:
     buttonUrl: private-charters
     title: Are you interested in private charters catered for all sorts of occasions?
     featuredImage: /images/uploads/DJI_0098.jpg
-  - featuredImage: /images/uploads/guy-img1.jpg
+  - buttonTitle: '123'
+    buttonUrl: '123'
+    title: '123'
+    featuredImage: /images/uploads/guy-img1.jpg
 meta:
   description: ''
 ---
