@@ -1,5 +1,7 @@
 import React from 'react'
+import { graphql } from 'gatsby'
 import Helmet from 'react-helmet'
+import Layout from '../components/Layout'
 
 import Video from '../components/Video'
 import ServiceColumns from '../components/ServiceColumns'
@@ -10,6 +12,7 @@ import TestimonialSlider from '../components/TestimonialSlider'
 import FeaturedPosts from '../components/FeaturedPosts'
 import InstagramFeed from '../components/InstagramFeed'
 import SubscribeForm from '../components/SubscribeForm'
+
 
 // Export Template for use in CMS preview
 export const HomePageTemplate = ({
@@ -26,62 +29,56 @@ export const HomePageTemplate = ({
   aboutSection,
   highlightsIntro,
   highlights,
-  Testimonials,
   latestNews,
   posts,
   socialMedia,
   meta
-}) => {
-  return (
-    <main className="Home">
-      <Helmet title={meta && meta.title || `${title} | Sailing in Paradise`}>
-        {meta && <meta name="description" content={meta.description} />}
-        {meta && <link rel="canonical" href={meta.canonical} />}
-      </Helmet>
-      <Video
-        video={featuredVideo}
-        homeVideo title={title}
-        featuredSlider={featuredSlider}
-        featuredBanner={featuredBanner}
-        socialMedia={socialMedia}
-      />
-      <ServiceColumns services={services} serviceBanner={serviceBanner} />
-      <SecondaryBanner {...secondaryBanner} contentBox />
-      <HomeAboutBanner {...aboutSection} />
-      <HighlightChart
-        highlights={highlights}
-        highlightsIntro={highlightsIntro}
-      />
-      <TestimonialSlider {...Testimonials} />
-      <FeaturedPosts latestNews={latestNews} posts={posts} />
-      <InstagramFeed />
-      <SubscribeForm />
-    </main>
-  )
-}
+}) => (
+  <main className="Home">
+    <Helmet title={meta ? meta.title : `${title} | Sailing in Paradise`}>
+      {meta && <meta name="description" content={meta.description} />}
+      {meta && <link rel="canonical" href={meta.canonical} />}
+    </Helmet>
+    <Video
+      video={featuredVideo}
+      homeVideo title={title}
+      featuredSlider={featuredSlider}
+      featuredBanner={featuredBanner}
+      socialMedia={socialMedia}
+    />
+    <ServiceColumns
+      services={services}
+      serviceBanner={serviceBanner}
+    />
+    <SecondaryBanner
+      {...secondaryBanner}
+      contentBox
+    />
+    <HomeAboutBanner {...aboutSection} />
+    <HighlightChart
+      highlights={highlights}
+      highlightsIntro={highlightsIntro}
+    />
+    <FeaturedPosts
+      latestNews={latestNews}
+      posts={posts}
+    />
+    <InstagramFeed />
+    <SubscribeForm />
+  </main>
+)
+
 
 // Export Default HomePage for front-end
-const HomePage = ({ data: { page, posts, globalSections } }) => (
-  <HomePageTemplate
-    {...page}
-    {...page.frontmatter}
-    {...globalSections}
-    body={page.html}
-    posts={posts.edges.map(post => ({
-      ...post.node,
-      ...post.node.frontmatter,
-      ...post.node.fields
-    }))}
-  />
+const HomePage = ({ data: { page, posts } }) => (
+  <Layout meta={page.frontmatter.meta || false}>
+    <HomePageTemplate {...page} {...page.frontmatter} body={page.html} posts={posts} />
+  </Layout>
 )
 
 export default HomePage
 
 export const pageQuery = graphql`
-  ## Query for HomePage data
-  ## Use GraphiQL interface (http://localhost:8000/___graphql)
-  ## $id is processed via gatsby-node.js
-  ## query name must be unique to this file
   query HomePage($id: String!) {
     page: markdownRemark(id: { eq: $id }) {
       html
@@ -97,48 +94,36 @@ export const pageQuery = graphql`
           title
           buttonTitle
           buttonUrl
-          image {
-            ...FluidImage
-          }
+          image
         }
         services {
           serviceContent {
-            icon {
-              ...FluidImage
-            }
+            icon
             description
             title
             buttonUrl
           }
-          image {
-            ...FluidImage
-          }
+          image
         }
         serviceBanner {
           subtitle
           title
           buttonTitle
           buttonUrl
-          featuredImage {
-            ...FluidImage
-          }
+          featuredImage
         }
         secondaryBanner {
           buttonTitle
           buttonUrl
           title
           subtitle
-          featuredImage {
-            ...FluidImage
-          }
+          featuredImage
         }
         aboutSection {
           content
           title
           subtitle
-          featuredImage {
-            ...FluidImage
-          }
+          featuredImage
           buttons {
             buttonTitle
             buttonUrl
@@ -147,22 +132,7 @@ export const pageQuery = graphql`
         highlightsIntro
         highlights {
           title
-          icon {
-            ...FluidImage
-          }
-        }
-        Testimonials {
-          description
-          title
-          buttonTitle
-          buttonUrl
-          featuredTestimonials {
-            content
-            name
-            image {
-              ...FluidImage
-            }
-          }
+          icon
         }
         latestNews
         meta {
@@ -185,19 +155,8 @@ export const pageQuery = graphql`
           frontmatter {
             title
             excerpt
-            featuredImage {
-              ...FluidImage
-            }
+            featuredImage
           }
-        }
-      }
-    }
-    globalSections: markdownRemark {
-      frontmatter {
-        socialMedia {
-          facebook
-          googlePlus
-          instagram
         }
       }
     }

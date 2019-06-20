@@ -41,6 +41,7 @@ class Video extends Component {
 				<iframe
 					src={`https://www.youtube.com/embed/${url}?autoplay=1&start=0&mute=1&modestbranding=1&rel=0&controls=0&loop=1&playlist=${url}&showinfo=0`}
 					frameBorder="0"
+					title="home video"
 				>
 				</iframe>
 				<FeaturedSlider featuredSlider={featuredSlider} featuredBanner={featuredBanner} />
@@ -58,6 +59,7 @@ class Video extends Component {
 				ref={this.videoRef}
 				frameBorder="0"
 				allowFullScreen
+				title="video banner"
 			>
 			</iframe>
 		</div>

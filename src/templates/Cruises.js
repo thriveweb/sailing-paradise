@@ -1,5 +1,8 @@
 import React from 'react'
 import Helmet from 'react-helmet'
+import Layout from '../components/Layout'
+import { graphql } from 'gatsby'
+
 
 import PageHeader from '../components/PageHeader'
 import IntroText from '../components/IntroText'
@@ -16,7 +19,7 @@ export const CruisesTemplate = ({
 
   return (
     <main className='Blog'>
-      <Helmet title={meta && meta.title || `${title} | Sailing in Paradise`}>
+      <Helmet title={meta ? meta.title : `${title} | Sailing in Paradise`}>
         {meta && <meta name="description" content={meta.description} />}
         {meta && <link rel="canonical" href={meta.canonical} />}
       </Helmet>
@@ -30,18 +33,19 @@ export const CruisesTemplate = ({
   )
 }
 
-// Export Default Charters for front-end
 const Cruises = ({ data }) => (
-  <CruisesTemplate
-    {...data.page}
-    {...data.page.fields}
-    {...data.page.frontmatter}
-    posts={data.posts.edges.map(post => ({
-      ...post.node,
-      ...post.node.frontmatter,
-      ...post.node.fields
-    }))}
-  />
+  <Layout meta={data.page.frontmatter.meta || false}>
+    <CruisesTemplate
+      {...data.page}
+      {...data.page.fields}
+      {...data.page.frontmatter}
+      posts={data.posts.edges.map(post => ({
+        ...post.node,
+        ...post.node.frontmatter,
+        ...post.node.fields
+      }))}
+    />
+  </Layout>
 )
 
 export default Cruises
@@ -53,9 +57,7 @@ export const pageQuery = graphql`
       frontmatter {
         title
         template
-        featuredImage {
-          ...FluidImage
-        }
+        featuredImage
         intro
         meta {
           description
@@ -75,9 +77,7 @@ export const pageQuery = graphql`
           }
           frontmatter {
             title
-            featuredImage {
-              ...FluidImage
-            }
+            featuredImage
           }
         }
       }

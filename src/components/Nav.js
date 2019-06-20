@@ -1,6 +1,5 @@
 import React, { Component, Fragment } from 'react'
 import Link from 'gatsby-link'
-import _kebabCase from 'lodash/kebabCase'
 import _get from 'lodash/get'
 import { Menu, X } from 'react-feather'
 import BookingPopup from './BookingPopup'
@@ -47,15 +46,14 @@ export default class Nav extends Component {
   }
 
   render() {
-    const { charters, cruises, blurActive } = this.props
+    const { blurActive, navList = [] } = this.props
     const { active, popupActive } = this.state
 
-    const navList = _get(this.props, 'navList') || []
-    const bookingPopup = _get(this.props, 'bookingPopup') || []
+    const nav = navList ? navList.edges.map(edge => ({ ...edge.node.frontmatter })) : []
+    const navItems = _get(nav[0], 'navItems') || []
 
-    const navItems = (navList && _get(navList.frontmatter, 'navItems')) || []
-    const popup =
-      (bookingPopup && _get(bookingPopup.frontmatter, 'bookingPopup')) || []
+    const bookingPopup = _get(this.props, 'bookingPopup') || []
+    const popup = _get(bookingPopup.frontmatter, 'bookingPopup') || []
 
     return (
       <Fragment>
@@ -69,7 +67,8 @@ export default class Nav extends Component {
             </Link>
             <div className="Nav--Links">
               {navItems.map(({ title, slug, subNavItems }, index) => {
-                if (!slug)
+
+                if(!slug)
                   return (
                     <li
                       key={`nav-${index}`}

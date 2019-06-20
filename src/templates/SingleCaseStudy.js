@@ -1,8 +1,8 @@
 import React, { Fragment } from 'react'
 import Helmet from 'react-helmet'
-import _get from 'lodash/get'
 import _format from 'date-fns/format'
-import Link from 'gatsby-link'
+import { graphql } from 'gatsby'
+import Layout from '../components/Layout'
 
 import { ICONQuotes } from '../components/Icons'
 import PageHeader from '../components/PageHeader'
@@ -31,7 +31,7 @@ export const SingleCaseStudyTemplate = ({
 
   return (
     <main className="SingleCaseStudy">
-      <Helmet title={meta && meta.title || `${title} | Sailing in Paradise`}>
+      <Helmet title={meta ? meta.title : `${title} | Sailing in Paradise`}>
         {meta && <meta name="description" content={meta.description} />}
         {meta && <link rel="canonical" href={meta.canonical} />}
       </Helmet>
@@ -93,20 +93,21 @@ export const SingleCaseStudyTemplate = ({
   )
 }
 
-// Export Default SinglePost for front-end
 const SingleCaseStudy = ({ data, pathContext }) => {
-  const { post, archiveBanner, globalVideo } = data
+  const { post, page, archiveBanner, globalVideo } = data
   const banner = archiveBanner
     ? archiveBanner.edges.map(edge => ({ ...edge.node }))
     : []
   return (
-    <SingleCaseStudyTemplate
-      {...post}
-      {...post.frontmatter}
-      {...globalVideo}
-      banner={banner}
-      body={post.html}
-    />
+    <Layout meta={post.frontmatter.meta || false}>
+      <SingleCaseStudyTemplate
+        {...post}
+        {...post.frontmatter}
+        {...globalVideo}
+        banner={banner}
+        body={post.html}
+      />
+    </Layout>
   )
 }
 
@@ -122,31 +123,21 @@ export const pageQuery = graphql`
         name
         date
         excerpt
-        featuredImage {
-          ...FluidImage
-        }
+        featuredImage
         videoSection {
           video
-          imageOverlay {
-            ...FluidImage
-          }
+          imageOverlay
         }
-        secondaryImage {
-          ...FluidImage
-        }
+        secondaryImage
         gallery {
-          image {
-            ...FluidImage
-          }
+          image
         }
         secondaryBanner {
           buttonTitle
           buttonUrl
           title
           subtitle
-          featuredImage {
-            ...FluidImage
-          }
+          featuredImage
         }
         meta {
           description
@@ -162,9 +153,7 @@ export const pageQuery = graphql`
         node {
           frontmatter {
             title
-            featuredImage {
-              ...FluidImage
-            }
+            featuredImage
           }
         }
       }

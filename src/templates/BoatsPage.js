@@ -1,5 +1,7 @@
 import React from 'react'
 import Helmet from 'react-helmet'
+import Layout from '../components/Layout'
+import { graphql } from 'gatsby'
 
 import PageHeader from '../components/PageHeader'
 import IntroText from '../components/IntroText'
@@ -21,7 +23,7 @@ export const BoatsPageTemplate = ({
 }) => {
 
   return <main className="Boats">
-      <Helmet title={meta && meta.title || `${title} | Sailing in Paradise`}>
+      <Helmet title={meta ? meta.title : `${title} | Sailing in Paradise`}>
         {meta && <meta name="description" content={meta.description} />}
         {meta && <link rel="canonical" href={meta.canonical} />}
       </Helmet>
@@ -33,15 +35,15 @@ export const BoatsPageTemplate = ({
     </main>
 }
 
-
-
 const BoatsPage = ({ data: { page, globalSections } }) => (
-  <BoatsPageTemplate
-    {...page}
-    {...page.frontmatter}
-    body={page.html}
-    {...globalSections.frontmatter}
-  />
+  <Layout meta={page.frontmatter.meta || false}>
+    <BoatsPageTemplate
+      {...page}
+      {...page.frontmatter}
+      body={page.html}
+      {...globalSections.frontmatter}
+    />
+  </Layout>
 )
 
 export default BoatsPage
@@ -52,9 +54,7 @@ export const pageQuery = graphql`
       html
       frontmatter {
         title
-        featuredImage {
-          ...FluidImage
-        }
+        featuredImage
         intro
         boats {
           description
@@ -62,19 +62,13 @@ export const pageQuery = graphql`
           boatFeatures {
             content
           }
-          featuredImage {
-            ...FluidImage
-          }
+          featuredImage
           gallery {
-            image {
-              ...FluidImage
-            }
+            image
           }
           videoSection {
             video
-            imageOverlay {
-              ...FluidImage
-            }
+            imageOverlay
           }
         }
         secondaryBanner {
@@ -82,9 +76,7 @@ export const pageQuery = graphql`
           buttonUrl
           title
           subtitle
-          featuredImage {
-            ...FluidImage
-          }
+          featuredImage
         }
         meta {
           description
@@ -100,9 +92,7 @@ export const pageQuery = graphql`
         columnBanner {
           buttonTitle
           buttonUrl
-          featuredImage {
-            ...FluidImage
-          }
+          featuredImage
           title
         }
       }

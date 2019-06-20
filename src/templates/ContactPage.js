@@ -1,7 +1,9 @@
 import React from 'react'
 import Helmet from 'react-helmet'
-import { MapPin, Smartphone, Mail } from 'react-feather'
 import _get from 'lodash/get'
+import Layout from '../components/Layout'
+import { graphql } from 'gatsby'
+
 
 import PageHeader from '../components/PageHeader'
 import IntroText from '../components/IntroText'
@@ -25,11 +27,11 @@ export const ContactPageTemplate = ({
   const phone = _get(contactInfo[0], 'phone') || ''
   const address = _get(contactInfo[0], 'address') || ''
   const hours = _get(contactInfo[0], 'hours') || ''
-  const map = _get(contactInfo[0], 'map.publicURL') || ''
+  const map = _get(contactInfo[0], 'map') || ''
 
   return (
     <main className="Contact">
-      <Helmet title={meta && meta.title || `${title} | Sailing in Paradise`}>
+      <Helmet title={meta ? meta.title : `${title} | Sailing in Paradise`}>
         {meta && <meta name="description" content={meta.description} />}
         {meta && <link rel="canonical" href={meta.canonical} />}
       </Helmet>
@@ -66,11 +68,13 @@ export const ContactPageTemplate = ({
 }
 
 const ContactPage = ({ data: { page, globalSections } }) => (
-  <ContactPageTemplate
-    {...page.frontmatter}
-    body={page.html}
-    contactInfo={globalSections}
-  />
+  <Layout meta={page.frontmatter.meta || false}>
+    <ContactPageTemplate
+      {...page.frontmatter}
+      body={page.html}
+      contactInfo={globalSections}
+    />
+  </Layout>
 )
 
 export default ContactPage
@@ -82,18 +86,14 @@ export const pageQuery = graphql`
       frontmatter {
         title
         template
-        featuredImage {
-          ...FluidImage
-        }
+        featuredImage
         intro
         secondaryBanner {
           buttonTitle
           buttonUrl
           subtitle
           title
-          featuredImage {
-            ...FluidImage
-          }
+          featuredImage
         }
         meta {
           description
@@ -109,10 +109,7 @@ export const pageQuery = graphql`
   					phone
             hours
             address
-            map {
-              id
-              publicURL
-            }
+            map
   	      }
   	    }
   	  }

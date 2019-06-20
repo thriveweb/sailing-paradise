@@ -63,11 +63,11 @@ contentColumn: >-
   with an ice cold beer and listening to some tunes while we sail the calm,
   clear waters of the Gold Coast. The ample undercover space makes the vessel
   perfect for those seeking shade. Facilities are plentiful to ensure you have
-  everything on hand to enjoy a perfect day! 
+  everything on hand to enjoy a perfect day!
 
 
   There is ice in the esky, the tunes are pumping and we are ready to sail away
-  to your secret destination. 
+  to your secret destination.
 
 
   So let the crew pamper you the way you deserve with our Ultimate VIP bucks
@@ -137,23 +137,4 @@ columnBanner:
     title: Give your friend the party they deserve!
     featuredImage: /images/uploads/girl-img-column2.jpg
   - featuredImage: /images/uploads/girl-img-column.jpg
-testimonials:
-  description: >-
-    **bucks Party**
-
-
-    See our five star Trip Advisor reviews for more testimonial feedback from
-    our satisfied clients.
-  featuredTestimonial:
-    content: >-
-      "We used this wonderful company to start my sisters bucks celebrations and
-      the girls haven’t stopped talking about it since. It was a beautiful day
-      out on a beautiful boat with an amazing crew! Will definitely be in
-      contact again with Steve if I can think of any other reason to go for a
-      sail. Thank you so much for your time and not laughing at our dance moves
-      and pop star singing voices!"
-    image: /images/uploads/girl-img12.jpg
-    name: Alex S.
-  title: Happy Sailors
 ---
-

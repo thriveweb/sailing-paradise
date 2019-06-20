@@ -40,7 +40,7 @@ contentColumn: >-
   make it happen.  Some options include;
 
 
-  * A relaxed sunset cruise with canapes and champagne, 
+  * A relaxed sunset cruise with canapes and champagne,
 
   * A day on the water with swimming, Island activities, and delicious BBQ lunch
   and icy cold beers,
@@ -67,7 +67,7 @@ contentColumn: >-
 
 
   OK you have found your perfect Christmas Party, yay!   What now?  Time for a
-  mojito…(ahem, well we need to set the scene for what's to come). 
+  mojito…(ahem, well we need to set the scene for what's to come).
 
 
   But in all seriousness, you are busy, we totally get it!   That's why we offer
@@ -124,7 +124,7 @@ accordionSection:
         rocking of single hull vessels) meaning you won’t spill a drop of your
         Christmas cocktail and you won’t be feeling queasy.
 
-        3. You will be having too much fun! 
+        3. You will be having too much fun!
 
 
         PS...  Carol should probably see a doctor, this is not normal :-)
@@ -198,23 +198,4 @@ columnBanner:
     title: Reward your team with our Sunset Cruise Gift Vouchers
     featuredImage: /images/uploads/girl-img-column2.jpg
   - featuredImage: /images/uploads/Sailing-in-Paradise-sunset.jpg
-testimonials:
-  description: >-
-    **Guest happiness is our number one priority!**
-
-
-    We encourage you to check out reviews on Trip Advisor, Facebook or Google
-    Plus to get a feel for our guest experience.  We have also included some
-    'Happy Sailors' feature stories on this website.
-  featuredTestimonial:
-    content: >-
-      This is the 2nd year that we have used Jess & Steve @ Sailing in Paradise
-      for our staff Christmas Party and once again they did not disappoint! The
-      yacht was immaculate, staff amazing, food completely delicious and we even
-      were accommodated with being lucky enough to share some GC fire works
-      while on the water!
-    image: /images/uploads/hs-suzy-m.jpg
-    name: Suzy M
-  title: Happy Sailors
 ---
-

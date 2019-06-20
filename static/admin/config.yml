@@ -4,8 +4,16 @@ backend:
   branch: master # Branch to update (optional; defaults to master)
 
 # display_url: https://gatsbro.netlify.com # This url will display in the top-right of the CMS
-media_folder: "static/images/uploads" # Media files will be stored in the repo under static/images/uploads
-public_folder: "/images/uploads" # The src attribute for uploaded media will begin with /images/uploads
+media_library:
+  name: uploadcare
+  config:
+    publicKey: a73a170cb5cdef662983
+    multiple: false
+    tabs: 'file camera url facebook gdrive'
+    effects: 'crop,rotate,enhance,grayscale'
+    imageShrink: '2000x2000'
+    previewStep: true
+    clearable: true
 
 collections: # A list of collections the CMS should be able to edit
   - name: "pages"
@@ -14,6 +22,118 @@ collections: # A list of collections the CMS should be able to edit
     editor:
       preview: true
     files:
+      - file: "content/pages/home.md"
+        label: "Home Page"
+        name: "home-page"
+        fields:
+          - {label: Template, name: template, widget: hidden, default: HomePage}
+          - {label: Slug, name: slug, widget: hidden, default: ''}
+          - {label: Title, name: title, widget: string}
+          - {label: Featured Video, name: featuredVideo, widget: string}
+          - label: "Featured Slider"
+            required: false
+            name: "featuredSlider"
+            widget: "list"
+            fields:
+              - {label: Title, name: title, widget: string, required: false}
+              - {label: Description, name: description, widget: text, required: false, pattern: [".{80}", "Must not exceed 80 characters"]}
+              - {label: Button Url, name: buttonUrl, widget: string, required: false}
+          - label: "Featured Banner"
+            required: false
+            name: "featuredBanner"
+            widget: "object"
+            fields:
+              - {label: Title, name: title, widget: string, required: false}
+              - {label: Image, name: image, widget: image, required: false}
+              - {label: Button Title, name: buttonTitle, widget: string, required: false}
+              - {label: Button Url, name: buttonUrl, widget: string, required: false}
+          - label: "Services"
+            required: false
+            name: "services"
+            widget: "list"
+            fields:
+              - label: "Service Content"
+                required: false
+                name: "serviceContent"
+                widget: "object"
+                fields:
+                  - {label: Icon, name: icon, widget: image}
+                  - {label: Title, name: title, widget: string}
+                  - {label: Description, name: description, widget: text, required: false, pattern: [".{170}", "Must not exceed 300 characters"]}
+                  - {label: Button Url, name: buttonUrl, widget: string, required: false}
+              - {label: Image, name: image, widget: image, required: false}
+          - label: "Service Banner"
+            required: false
+            name: "serviceBanner"
+            widget: "object"
+            fields:
+              - {label: Title, name: title, widget: string}
+              - {label: Subtitle, name: subtitle, widget: string}
+              - {label: Button Title, name: buttonTitle, widget: string}
+              - {label: Button Url, name: buttonUrl, widget: string}
+              - {label: Featured Image, name: featuredImage, widget: image}
+          - label: "Secondary Banner"
+            required: false
+            name: "secondaryBanner"
+            widget: "object"
+            fields:
+              - {label: Title, name: title, widget: string}
+              - {label: Subtitle, name: subtitle, widget: string}
+              - {label: Button Title, name: buttonTitle, widget: string}
+              - {label: Button Url, name: buttonUrl, widget: string}
+              - {label: Featured Image, name: featuredImage, widget: image}
+          - label: "About Section"
+            required: false
+            name: "aboutSection"
+            widget: "object"
+            fields:
+              - {label: Featured Image, name: featuredImage, widget: image}
+              - {label: Title, name: title, widget: string}
+              - {label: Subtitle, name: subtitle, widget: string}
+              - {label: Content, name: content, widget: markdown}
+              - label: "Buttons"
+                required: false
+                name: "buttons"
+                widget: "list"
+                fields:
+                  - {label: Button Title, name: buttonTitle, widget: string}
+                  - {label: Button Url, name: buttonUrl, widget: string}
+          - {label: Highlights Intro, name: highlightsIntro, widget: markdown, required: false }
+          - label: "Highlights"
+            required: false
+            name: "highlights"
+            widget: "list"
+            fields:
+              - {label: Icon, name: icon, widget: image}
+              - {label: Title, name: title, widget: string}
+          # - label: "Testimonials"
+          #   required: false
+          #   name: "testimonials"
+          #   widget: "object"
+          #   fields:
+          #     - {label: Title, name: title, widget: string}
+          #     - {label: Description, name: description, widget: string}
+          #     - {label: Button Title, name: buttonTitle, widget: string}
+          #     - {label: Button Url, name: buttonUrl, widget: string}
+          #     - label: "Featured Testimonials"
+          #       required: false
+          #       name: "featuredTestimonials"
+          #       widget: "list"
+          #       fields:
+          #         - {label: Image, name: image, widget: image}
+          #         - {label: Name, name: name, widget: string}
+          #         - {label: Content, name: content, widget: markdown, pattern: [".{100}", "Must not exceed 300 characters"]}
+          - {label: Latest News, name: latestNews, widget: markdown, required: false}
+          - label: "Meta"
+            required: false
+            name: "meta"
+            widget: "object"
+            fields:
+              - {label: Title, name: title, widget: string, required: false}
+              - {label: Description, name: description, widget: text, required: false, pattern: [".{300}", "Must not exceed 300 characters"]}
+              - {label: Canonical Link, name: canonicalLink, widget: string, required: false}
+              - {label: Noindex, name: noindex, widget: boolean, required: false}
+
       - file: "content/pages/contact.md"
         label: "Contact Page"
         name: "contact-page"
@@ -225,117 +345,6 @@ collections: # A list of collections the CMS should be able to edit
               - {label: Canonical Link, name: canonicalLink, widget: string, required: false}
               - {label: Noindex, name: noindex, widget: boolean, required: false}
 
-      - file: "content/pages/home.md"
-        label: "Home Page"
-        name: "home-page"
-        fields:
-          - {label: Template, name: template, widget: hidden, default: HomePage}
-          - {label: Slug, name: slug, widget: hidden, default: ''}
-          - {label: Title, name: title, widget: string}
-          - {label: Featured Video, name: featuredVideo, widget: string}
-          - label: "Featured Slider"
-            required: false
-            name: "featuredSlider"
-            widget: "list"
-            fields:
-              - {label: Title, name: title, widget: string, required: false}
-              - {label: Description, name: description, widget: text, required: false, pattern: [".{80}", "Must not exceed 80 characters"]}
-              - {label: Button Url, name: buttonUrl, widget: string, required: false}
-          - label: "Featured Banner"
-            required: false
-            name: "featuredBanner"
-            widget: "object"
-            fields:
-              - {label: Title, name: title, widget: string, required: false}
-              - {label: Image, name: image, widget: image, required: false}
-              - {label: Button Title, name: buttonTitle, widget: string, required: false}
-              - {label: Button Url, name: buttonUrl, widget: string, required: false}
-          - label: "Services"
-            required: false
-            name: "services"
-            widget: "list"
-            fields:
-              - label: "Service Content"
-                required: false
-                name: "serviceContent"
-                widget: "object"
-                fields:
-                  - {label: Icon, name: icon, widget: image}
-                  - {label: Title, name: title, widget: string}
-                  - {label: Description, name: description, widget: text, required: false, pattern: [".{170}", "Must not exceed 300 characters"]}
-                  - {label: Button Url, name: buttonUrl, widget: string, required: false}
-              - {label: Image, name: image, widget: image, required: false}
-          - label: "Service Banner"
-            required: false
-            name: "serviceBanner"
-            widget: "object"
-            fields:
-              - {label: Title, name: title, widget: string}
-              - {label: Subtitle, name: subtitle, widget: string}
-              - {label: Button Title, name: buttonTitle, widget: string}
-              - {label: Button Url, name: buttonUrl, widget: string}
-              - {label: Featured Image, name: featuredImage, widget: image}
-          - label: "Secondary Banner"
-            required: false
-            name: "secondaryBanner"
-            widget: "object"
-            fields:
-              - {label: Title, name: title, widget: string}
-              - {label: Subtitle, name: subtitle, widget: string}
-              - {label: Button Title, name: buttonTitle, widget: string}
-              - {label: Button Url, name: buttonUrl, widget: string}
-              - {label: Featured Image, name: featuredImage, widget: image}
-          - label: "About Section"
-            required: false
-            name: "aboutSection"
-            widget: "object"
-            fields:
-              - {label: Featured Image, name: featuredImage, widget: image}
-              - {label: Title, name: title, widget: string}
-              - {label: Subtitle, name: subtitle, widget: string}
-              - {label: Content, name: content, widget: markdown}
-              - label: "Buttons"
-                required: false
-                name: "buttons"
-                widget: "list"
-                fields:
-                  - {label: Button Title, name: buttonTitle, widget: string}
-                  - {label: Button Url, name: buttonUrl, widget: string}
-          - {label: Highlights Intro, name: highlightsIntro, widget: markdown, required: false }
-          - label: "Highlights"
-            required: false
-            name: "highlights"
-            widget: "list"
-            fields:
-              - {label: Icon, name: icon, widget: image}
-              - {label: Title, name: title, widget: string}
-          - label: "Testimonials"
-            required: false
-            name: "Testimonials"
-            widget: "object"
-            fields:
-              - {label: Title, name: title, widget: string}
-              - {label: Description, name: description, widget: string}
-              - {label: Button Title, name: buttonTitle, widget: string}
-              - {label: Button Url, name: buttonUrl, widget: string}
-              - label: "Featured Testimonials"
-                required: false
-                name: "featuredTestimonials"
-                widget: "list"
-                fields:
-                  - {label: Image, name: image, widget: image}
-                  - {label: Name, name: name, widget: string}
-                  - {label: Content, name: content, widget: markdown, pattern: [".{100}", "Must not exceed 300 characters"]}
-          - {label: Latest News, name: latestNews, widget: markdown, required: false}
-          - label: "Meta"
-            required: false
-            name: "meta"
-            widget: "object"
-            fields:
-              - {label: Title, name: title, widget: string, required: false}
-              - {label: Description, name: description, widget: text, required: false, pattern: [".{300}", "Must not exceed 300 characters"]}
-              - {label: Canonical Link, name: canonicalLink, widget: string, required: false}
-              - {label: Noindex, name: noindex, widget: boolean, required: false}
 
       - file: "content/pages/boats.md"
         label: "Our Boats"
@@ -595,22 +604,22 @@ collections: # A list of collections the CMS should be able to edit
           - {label: Featured Image, name: featuredImage, widget: image}
           - {label: Button Title, name: buttonTitle, widget: string}
           - {label: Button Url, name: buttonUrl, widget: string}
-      - label: "Testimonials"
-        required: false
-        name: "testimonials"
-        widget: "object"
-        fields:
-          - {label: Title, name: title, widget: string}
-          - {label: Description, name: description, widget: markdown}
-          - {label: Button Title, name: buttonTitle, widget: string}
-          - {label: Button Url, name: buttonUrl, widget: string}
-          - label: "Featured Testimonial"
-            name: "featuredTestimonial"
-            widget: "object"
-            fields:
-              - {label: Image, name: image, widget: image}
-              - {label: Name, name: name, widget: string}
-              - {label: Content, name: content, widget: markdown}
+      # - label: "Testimonials"
+      #   required: false
+      #   name: "testimonials"
+      #   widget: "object"
+      #   fields:
+      #     - {label: Title, name: title, widget: string}
+      #     - {label: Description, name: description, widget: markdown}
+      #     - {label: Button Title, name: buttonTitle, widget: string}
+      #     - {label: Button Url, name: buttonUrl, widget: string}
+      #     - label: "Featured Testimonial"
+      #       name: "featuredTestimonial"
+      #       widget: "object"
+      #       fields:
+      #         - {label: Image, name: image, widget: image}
+      #         - {label: Name, name: name, widget: string}
+      #         - {label: Content, name: content, widget: markdown}
       - label: "Meta"
         required: false
         name: "meta"

@@ -1,5 +1,8 @@
 import React from 'react'
 import Helmet from 'react-helmet'
+import Layout from '../components/Layout'
+import { graphql } from 'gatsby'
+
 
 import PageHeader from '../components/PageHeader'
 import PostSection from '../components/PostSection'
@@ -22,7 +25,7 @@ export const BlogIndexTemplate = ({
 
   return (
     <main className='Blog'>
-      <Helmet title={meta && meta.title || `${title} | Sailing in Paradise`}>
+      <Helmet title={meta ? meta.title : `${title} | Sailing in Paradise`}>
         {meta && <meta name="description" content={meta.description} />}
         {meta && <link rel="canonical" href={meta.canonical} />}
       </Helmet>
@@ -52,22 +55,26 @@ export const BlogIndexTemplate = ({
 }
 
 // Export Default BlogIndex for front-end
+
 const BlogIndex = ({ data }) => (
-  <BlogIndexTemplate
-    {...data.page}
-    {...data.page.fields}
-    {...data.page.frontmatter}
-    posts={data.posts.edges.map(post => ({
-      ...post.node,
-      ...post.node.frontmatter,
-      ...post.node.fields
-    }))}
-    postCategories={data.postCategories.edges.map(post => ({
-      ...post.node,
-      ...post.node.frontmatter,
-      ...post.node.fields
-    }))}
-  />
+
+  <Layout meta={data.page.frontmatter.meta || false}>
+    <BlogIndexTemplate
+      {...data.page}
+      {...data.page.fields}
+      {...data.page.frontmatter}
+      posts={data.posts.edges.map(post => ({
+        ...post.node,
+        ...post.node.frontmatter,
+        ...post.node.fields
+      }))}
+      postCategories={data.postCategories.edges.map(post => ({
+        ...post.node,
+        ...post.node.frontmatter,
+        ...post.node.fields
+      }))}
+    />
+  </Layout>
 )
 
 export default BlogIndex
@@ -85,9 +92,7 @@ export const pageQuery = graphql`
       frontmatter {
         title
         template
-        featuredImage {
-          ...FluidImage
-        }
+        featuredImage
         meta {
           description
           title
@@ -111,9 +116,7 @@ export const pageQuery = graphql`
             categories {
               category
             }
-            featuredImage {
-              ...SmallImage
-            }
+            featuredImage
           }
         }
       }

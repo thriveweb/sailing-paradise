@@ -198,16 +198,11 @@ blockquote p {
 }
 
 .NavLink {
-  padding: 0.5rem 1rem;
   display: block;
   font-weight: 500;
   color: inherit;
   text-transform: uppercase;
   opacity: .8;
-}
-
-.NavLink + .NavLink {
-  margin-left: 1rem;
 }
 
 .NavLink:hover,

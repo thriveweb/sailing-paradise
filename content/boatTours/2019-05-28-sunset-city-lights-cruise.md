@@ -78,4 +78,3 @@ columnBanner:
     featuredImage: /images/uploads/girl-img-column2.jpg
   - featuredImage: /images/uploads/dsc_0087_2.jpg
 ---
-

@@ -1,8 +1,8 @@
-import React, { Fragment } from 'react'
+import React from 'react'
 import Helmet from 'react-helmet'
-import _get from 'lodash/get'
-import _format from 'date-fns/format'
-import Link from 'gatsby-link'
+import { graphql } from 'gatsby'
+
+import Layout from '../components/Layout'
 
 import PageHeader from '../components/PageHeader'
 import IntroText from '../components/IntroText'
@@ -29,7 +29,6 @@ export const SingleBoatTourTemplate = ({
   contentColumn,
   accordionSection,
   columnBanner,
-  testimonials,
   videoSection,
   slug,
   post,
@@ -41,7 +40,7 @@ export const SingleBoatTourTemplate = ({
 
   return (
     <main className="SingleBoatTour">
-      <Helmet title={meta && meta.title || `${title} | Sailing in Paradise`}>
+      <Helmet title={meta ? meta.title : `${title} | Sailing in Paradise`}>
         {meta && <meta name="description" content={meta.description} />}
         {meta && <link rel="canonical" href={meta.canonical} />}
       </Helmet>
@@ -70,23 +69,20 @@ export const SingleBoatTourTemplate = ({
           bookingIframe={bookingIframe}
         />
       )}
-      {testimonials && <FeaturedTestimonial {...testimonials} />}
     </main>
   )
 }
 
-// Export Default SinglePost for front-end
-const SingleBoatTour = ({ data, pathContext }) => {
-  const { post } = data
-  return (
+const SingleBoatTour = ({ data, pathContext }) => (
+  <Layout meta={data.post.frontmatter.meta || false}>
     <SingleBoatTourTemplate
-      {...post}
-      {...post.frontmatter}
-      {...post.fields}
-      body={post.html}
+      {...data.post}
+      {...data.post.frontmatter}
+      {...data.post.fields}
+      body={data.post.html}
     />
-  )
-}
+  </Layout>
+)
 
 export default SingleBoatTour
 
@@ -102,9 +98,7 @@ export const pageQuery = graphql`
         tourType
         slug
         title
-        featuredImage {
-          ...FluidImage
-        }
+        featuredImage
         intro
         contentBox {
           buttonTitle
@@ -113,16 +107,12 @@ export const pageQuery = graphql`
         }
         bookingIframe
         gallery {
-          image {
-            ...FluidImage
-          }
+          image
         }
         videoSection {
           video
           title
-          imageOverlay {
-            ...FluidImage
-          }
+          imageOverlay
         }
         contentColumnTitle
         contentColumn
@@ -138,20 +128,7 @@ export const pageQuery = graphql`
           buttonUrl
           content
           title
-          featuredImage {
-            ...FluidImage
-          }
-        }
-        testimonials {
-          description
-          title
-          featuredTestimonial {
-            content
-            name
-            image {
-              ...FluidImage
-            }
-          }
+          featuredImage
         }
         meta {
           description

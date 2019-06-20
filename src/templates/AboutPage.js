@@ -1,5 +1,7 @@
 import React from 'react'
 import Helmet from 'react-helmet'
+import Layout from '../components/Layout'
+import { graphql } from 'gatsby'
 
 import PageHeader from '../components/PageHeader'
 import IntroText from '../components/IntroText'
@@ -9,8 +11,6 @@ import CrewGallery from '../components/CrewGallery'
 import SecondaryBanner from '../components/SecondaryBanner'
 import ColumnBanner from '../components/ColumnBanner'
 import Video from '../components/Video'
-import Image from '../components/Image'
-import Content from '../components/Content.js'
 import './AboutPage.css'
 
 // Export Template for use in CMS preview
@@ -29,7 +29,7 @@ export const AboutPageTemplate = ({
 }) => {
 
   return <main className='About'>
-      <Helmet title={meta && meta.title || `${title} | Sailing in Paradise`}>
+      <Helmet title={meta ? meta.title : `${title} | Sailing in Paradise`}>
         {meta && <meta name="description" content={meta.description} />}
         {meta && <link rel="canonical" href={meta.canonical} />}
       </Helmet>
@@ -49,7 +49,9 @@ export const AboutPageTemplate = ({
 
 
 const AboutPage = ({ data: { page, globalVideo } }) => (
-  <AboutPageTemplate {...page} {...page.frontmatter} body={page.html} />
+  <Layout meta={page.frontmatter.meta || false}>
+    <AboutPageTemplate {...page} {...page.frontmatter} body={page.html} />
+  </Layout>
 )
 
 export default AboutPage
@@ -60,14 +62,10 @@ export const pageQuery = graphql`
       html
       frontmatter {
         title
-        featuredImage {
-          ...FluidImage
-        }
+        featuredImage
         intro
         gallery {
-          image {
-            ...FluidImage
-          }
+          image
         }
         captainSection {
           captainIntro
@@ -75,9 +73,7 @@ export const pageQuery = graphql`
             description
             name
             title
-            image {
-              ...FluidImage
-            }
+            image
             socialMedia {
               linkedin
               twitter
@@ -89,9 +85,7 @@ export const pageQuery = graphql`
           crew {
             name
             title
-            image {
-              ...FluidImage
-            }
+            image
           }
         }
         secondaryBanner {
@@ -99,14 +93,10 @@ export const pageQuery = graphql`
           buttonUrl
           title
           subtitle
-          featuredImage {
-            ...FluidImage
-          }
+          featuredImage
         }
         videoSection {
-          imageOverlay {
-            ...FluidImage
-          }
+          imageOverlay
           title
           video
         }
@@ -114,9 +104,7 @@ export const pageQuery = graphql`
           buttonTitle
           buttonUrl
           title
-          featuredImage {
-            ...FluidImage
-          }
+          featuredImage
         }
         meta {
           description

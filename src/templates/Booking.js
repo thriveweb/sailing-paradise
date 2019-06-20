@@ -1,6 +1,8 @@
 import React from 'react'
 import Helmet from 'react-helmet'
-import { MapPin, Smartphone, Mail } from 'react-feather'
+import Layout from '../components/Layout'
+import { graphql } from 'gatsby'
+
 
 import PageHeader from '../components/PageHeader'
 import IntroText from '../components/IntroText'
@@ -25,7 +27,7 @@ export const BookingPageTemplate = ({
 }) => {
   return (
     <main className="Booking">
-      <Helmet title={meta && meta.title || `${title} | Sailing in Paradise`}>
+      <Helmet title={meta ? meta.title : `${title} | Sailing in Paradise`}>
         {meta && <meta name="description" content={meta.description} />}
         {meta && <link rel="canonical" href={meta.canonical} />}
       </Helmet>
@@ -69,19 +71,16 @@ export const BookingPageTemplate = ({
   )
 }
 
-const BookingPage = props => {
-  const {
-    data: { page },
-    location
-  } = props
-  return (
+
+const BookingPage = ({ data: { page }, location }) => (
+  <Layout meta={page.frontmatter.meta || false}>
     <BookingPageTemplate
       {...page.frontmatter}
       body={page.html}
       location={location}
     />
-  )
-}
+  </Layout>
+)
 
 export default BookingPage
 
@@ -92,9 +91,7 @@ export const pageQuery = graphql`
       frontmatter {
         title
         template
-        featuredImage {
-          ...FluidImage
-        }
+        featuredImage
         intro
         meta {
           description
@@ -108,9 +105,7 @@ export const pageQuery = graphql`
         phone
         address
         hours
-        map {
-          ...FluidImage
-        }
+        map
       }
     }
   }

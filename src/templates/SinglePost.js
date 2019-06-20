@@ -2,8 +2,9 @@ import React, { Fragment } from 'react'
 import Helmet from 'react-helmet'
 import _get from 'lodash/get'
 import _format from 'date-fns/format'
-import Link from 'gatsby-link'
+import { graphql, Link } from 'gatsby'
 import { ChevronLeft } from 'react-feather'
+import Layout from '../components/Layout'
 
 import { ICONSail } from '../components/Icons'
 import Content from '../components/Content'
@@ -29,7 +30,7 @@ export const SinglePostTemplate = ({
     itemScope
     itemType="http://schema.org/BlogPosting"
   >
-    <Helmet title={meta && meta.title || `${title} | Sailing in Paradise`}>
+    <Helmet title={meta ? meta.title : `${title} | Sailing in Paradise`}>
       {meta && <meta name="description" content={meta.description} />}
       {meta && <link rel="canonical" href={meta.canonical} />}
     </Helmet>
@@ -110,18 +111,19 @@ export const SinglePostTemplate = ({
   </main>
 )
 
-// Export Default SinglePost for front-end
 const SinglePost = ({ data, pathContext }) => {
-  const { post, allPosts } = data
+  const { post, allPosts, page } = data
   const thisEdge = allPosts.edges.find(edge => edge.node.id === post.id)
   return (
-    <SinglePostTemplate
-      {...post}
-      {...post.frontmatter}
-      body={post.html}
-      nextPostURL={_get(thisEdge, 'next.fields.slug')}
-      prevPostURL={_get(thisEdge, 'previous.fields.slug')}
-    />
+    <Layout meta={post.frontmatter.meta || false}>
+      <SinglePostTemplate
+        {...post}
+        {...post.frontmatter}
+        body={post.html}
+        nextPostURL={_get(thisEdge, 'next.fields.slug')}
+        prevPostURL={_get(thisEdge, 'previous.fields.slug')}
+      />
+    </Layout>
   )
 }
 
@@ -143,14 +145,10 @@ export const pageQuery = graphql`
         categories {
           category
         }
-        featuredImage {
-          ...FluidImage
-        }
+        featuredImage
         videoSection {
           video
-          imageOverlay {
-            ...FluidImage
-          }
+          imageOverlay
         }
         contentSecondary
         meta {

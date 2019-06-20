@@ -1,7 +1,8 @@
----
+<!-- ---
 optional: hello gatsby
 title: markdownfields
 featuredImage: /images/logo.svg
+featuredVideo: /images/logo.svg
 secondaryImage: /images/logo.svg
 icon: /images/logo.svg
 image: /images/logo.svg
@@ -90,13 +91,6 @@ secondaryBanner:
   buttonTitle: ''
   buttonUrl: ''
   featuredImage: /images/logo.svg
-testimonials:
-  description: ''
-  title: ''
-  featuredTestimonial:
-    name: ''
-    content: ''
-    image: /images/logo.svg
 columnBanner:
   - title: ''
   - content: ''
@@ -153,4 +147,4 @@ siteDescription: ''
 headerScripts: ''
 ---
 
-<!--Use this to force Gatsby to deal with optional images-->
+<!--Use this to force Gatsby to deal with optional images--> -->

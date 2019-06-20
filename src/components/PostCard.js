@@ -1,6 +1,5 @@
 import React, { Fragment } from 'react'
 import Link from 'gatsby-link'
-import _map from 'lodash/map'
 import _format from 'date-fns/format'
 
 import Image from './Image'

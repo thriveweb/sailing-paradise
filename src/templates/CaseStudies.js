@@ -1,9 +1,9 @@
 import React from 'react'
 import Helmet from 'react-helmet'
+import Layout from '../components/Layout'
+import { graphql } from 'gatsby'
 
 import PageHeader from '../components/PageHeader'
-import Image from '../components/Image'
-import Content from '../components/Content.js'
 import PostSection from '../components/PostSection.js'
 import ColumnBanner from '../components/ColumnBanner.js'
 
@@ -21,7 +21,7 @@ export const CaseStudiesTemplate = ({
 
   return (
     <main className="Blog CaseStudies">
-      <Helmet title={meta && meta.title || `${title} | Sailing in Paradise`}>
+      <Helmet title={meta ? meta.title : `${title} | Sailing in Paradise`}>
         {meta && <meta name="description" content={meta.description} />}
         {meta && <link rel="canonical" href={meta.canonical} />}
       </Helmet>
@@ -45,17 +45,19 @@ export const CaseStudiesTemplate = ({
 }
 
 const CaseStudies = ({ data }) => (
-  <CaseStudiesTemplate
-    {...data.page}
-    {...data.page.fields}
-    {...data.page.frontmatter}
-    posts={data.posts.edges.map(post => ({
-      ...post.node,
-      ...post.node.frontmatter,
-      ...post.node.fields
-    }))}
-    {...data.globalSections.frontmatter}
-  />
+  <Layout meta={data.page.frontmatter.meta || false}>
+    <CaseStudiesTemplate
+      {...data.page}
+      {...data.page.fields}
+      {...data.page.frontmatter}
+      posts={data.posts.edges.map(post => ({
+        ...post.node,
+        ...post.node.frontmatter,
+        ...post.node.fields
+      }))}
+      {...data.globalSections.frontmatter}
+    />
+  </Layout>
 )
 
 export default CaseStudies
@@ -66,9 +68,7 @@ export const pageQuery = graphql`
       frontmatter {
         title
         subtitle
-        featuredImage {
-          ...FluidImage
-        }
+        featuredImage
         meta {
           description
           title
@@ -87,9 +87,7 @@ export const pageQuery = graphql`
           frontmatter {
             title
             name
-            featuredImage {
-              ...FluidImage
-            }
+            featuredImage
           }
         }
       }
@@ -101,9 +99,7 @@ export const pageQuery = graphql`
         columnBanner {
           buttonTitle
           buttonUrl
-          featuredImage {
-            ...FluidImage
-          }
+          featuredImage
           title
         }
       }

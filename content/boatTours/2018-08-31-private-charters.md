@@ -151,22 +151,4 @@ columnBanner:
     title: Give your friend the party they deserve!
     featuredImage: /images/uploads/girl-img-column2.jpg
   - featuredImage: /images/uploads/girl-img-column.jpg
-testimonials:
-  description: >-
-    **Private Charter Party**
-
-
-    See our five star Trip Advisor reviews for more testimonial feedback from
-    our satisfied clients.
-  featuredTestimonial:
-    content: >-
-      "We used this wonderful company to start my sisters Private Charter celebrations
-      and the girls haven’t stopped talking about it since. It was a beautiful
-      day out on a beautiful boat with an amazing crew! Will definitely be in
-      contact again with Steve if I can think of any other reason to go for a
-      sail. Thank you so much for your time and not laughing at our dance moves
-      and pop star singing voices!"
-    image: /images/uploads/girl-img12.jpg
-    name: Alex S.
-  title: Happy Sailors
 ---
