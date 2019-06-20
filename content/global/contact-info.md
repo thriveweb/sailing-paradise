@@ -25,5 +25,6 @@ socialMedia:
   facebook: 'https://facebook.com'
   googlePlus: 'https://google.com'
   instagram: 'https://instagram.com'
+  tripAdvisor: 'https://tripadvisor.com'
 ---
 
