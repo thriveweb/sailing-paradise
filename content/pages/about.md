@@ -214,7 +214,7 @@ secondaryBanner:
   buttonTitle: Know More
   buttonUrl: private-charters
   featuredImage: /images/uploads/boat-img5.jpg
-  subtitle: '123'
+  subtitle: ''
   title: check out our amazing catamarans
 videoSection:
   imageOverlay: /images/uploads/home-banner.jpg
