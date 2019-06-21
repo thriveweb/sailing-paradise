@@ -73,7 +73,7 @@ export const SingleBoatTourTemplate = ({
   )
 }
 
-const SingleBoatTour = ({ data, pathContext }) => (
+const SingleBoatTour = ({ data }) => (
   <Layout meta={data.post.frontmatter.meta || false}>
     <SingleBoatTourTemplate
       {...data.post}

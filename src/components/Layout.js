@@ -9,7 +9,7 @@ import Footer from './Footer'
 import 'modern-normalize/modern-normalize.css'
 import '../layouts/globalStyles.css'
 
-export default ({ children, meta, title }) => {
+export default ({ children, meta, title, location }) => {
   return (
     <StaticQuery
       query={graphql`
@@ -19,22 +19,6 @@ export default ({ children, meta, title }) => {
             siteDescription
             siteUrl
             headerScripts
-          }
-          navList: allMarkdownRemark(filter: {fields: {slug: {eq: "/nav-items/"}}}) {
-            edges {
-              node {
-                frontmatter {
-                  navItems {
-                    slug
-                    title
-                    subNavItems {
-                      slug
-                      title
-                    }
-                  }
-                }
-              }
-            }
           }
           charters: allMarkdownRemark(
             filter: {
@@ -106,6 +90,7 @@ export default ({ children, meta, title }) => {
                 facebook
                 instagram
                 googlePlus
+                tripAdvisor
               }
             }
           }
@@ -126,9 +111,17 @@ export default ({ children, meta, title }) => {
           }
         }
       `}
+
       render={data => {
-        const { settingsYaml, navList = [], contactInfo, globalSections, navItems, cruises, charters } = data || {}
+        const { settingsYaml, contactInfo, globalSections, navItems, charters, cruises } = data || {}
         const siteTitle = _get(settingsYaml, 'siteTitle') || ''
+
+        const privateCharters = charters
+          ? charters.edges.map(edge => ({ ...edge.node }))
+          : []
+        const cruiseTours = cruises
+          ? cruises.edges.map(edge => ({ ...edge.node }))
+          : []
 
         return (
           <Fragment>
@@ -147,7 +140,14 @@ export default ({ children, meta, title }) => {
               {...data.settingsYaml}
             />
 
-            <Nav navList={navList} />
+            <Nav
+              charters={privateCharters}
+              cruises={cruiseTours}
+              settings={globalSections}
+              location={location}
+              navList={navItems}
+              bookingPopup={globalSections}
+            />
 
             <Fragment>{children}</Fragment>
 

@@ -2,6 +2,7 @@ import React from 'react'
 import Helmet from 'react-helmet'
 import Layout from '../components/Layout'
 import { graphql } from 'gatsby'
+import _get from 'lodash/get'
 
 
 import PageHeader from '../components/PageHeader'
@@ -18,13 +19,17 @@ export const BookingPageTemplate = ({
   title,
   featuredImage,
   intro,
-  address,
-  phone,
-  hours,
-  map,
+  contactInfo,
   location,
   meta
 }) => {
+
+  contactInfo = contactInfo ? contactInfo.edges.map(edge => ({ ...edge.node.frontmatter })) : []
+  const phone = _get(contactInfo[0], 'phone') || ''
+  const address = _get(contactInfo[0], 'address') || ''
+  const hours = _get(contactInfo[0], 'hours') || ''
+  const map = _get(contactInfo[0], 'map') || ''
+
   return (
     <main className="Booking">
       <Helmet title={meta ? meta.title : `${title} | Sailing in Paradise`}>
@@ -72,12 +77,13 @@ export const BookingPageTemplate = ({
 }
 
 
-const BookingPage = ({ data: { page }, location }) => (
+const BookingPage = ({ data: { page, globalSections }, location }) => (
   <Layout meta={page.frontmatter.meta || false}>
     <BookingPageTemplate
       {...page.frontmatter}
       body={page.html}
       location={location}
+      contactInfo={globalSections}
     />
   </Layout>
 )
@@ -100,13 +106,17 @@ export const pageQuery = graphql`
         }
       }
     }
-    globalSections: markdownRemark {
-      frontmatter {
-        phone
-        address
-        hours
-        map
-      }
-    }
+    globalSections: allMarkdownRemark(filter: {fields: {slug: {eq: "/general-contact/"}}}) {
+  	  edges {
+  	    node {
+  	      frontmatter {
+  					phone
+            hours
+            address
+            map
+  	      }
+  	    }
+  	  }
+  	}
   }
 `

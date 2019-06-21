@@ -93,8 +93,8 @@ export const SingleCaseStudyTemplate = ({
   )
 }
 
-const SingleCaseStudy = ({ data, pathContext }) => {
-  const { post, page, archiveBanner, globalVideo } = data
+const SingleCaseStudy = ({ data, pageContext }) => {
+  const { post, archiveBanner, globalVideo } = data
   const banner = archiveBanner
     ? archiveBanner.edges.map(edge => ({ ...edge.node }))
     : []

@@ -2,6 +2,7 @@ import React from 'react'
 import GatsbyImage from 'gatsby-image'
 import PropTypes from 'prop-types'
 import _get from 'lodash/get'
+import { graphql } from 'gatsby'
 
 import './Image.css'
 

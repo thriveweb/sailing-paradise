@@ -111,8 +111,8 @@ export const SinglePostTemplate = ({
   </main>
 )
 
-const SinglePost = ({ data, pathContext }) => {
-  const { post, allPosts, page } = data
+const SinglePost = ({ data, pageContext }) => {
+  const { post, allPosts } = data
   const thisEdge = allPosts.edges.find(edge => edge.node.id === post.id)
   return (
     <Layout meta={post.frontmatter.meta || false}>

@@ -257,6 +257,7 @@ collections: # A list of collections the CMS should be able to edit
               - {label: Canonical Link, name: canonicalLink, widget: string, required: false}
               - {label: Noindex, name: noindex, widget: boolean, required: false}
 
+
       - file: "content/pages/about.md"
         label: "About Page"
         name: "about-page"
@@ -308,16 +309,17 @@ collections: # A list of collections the CMS should be able to edit
                   - {label: Image, name: image, widget: image, required: false}
                   - {label: Name, name: name, widget: string, required: false}
                   - {label: Title, name: title, widget: string, required: false}
+                  - {label: Content, name: content, widget: markdown, required: false}
           - label: "Secondary Banner"
             required: false
             name: "secondaryBanner"
             widget: "object"
             fields:
-              - {label: Title, name: title, widget: string}
-              - {label: Subtitle, name: subtitle, widget: string}
-              - {label: Button Title, name: buttonTitle, widget: string}
-              - {label: Button Url, name: buttonUrl, widget: string}
-              - {label: Featured Image, name: featuredImage, widget: image}
+              - {label: Title, name: title, widget: string, required: false}
+              - {label: Subtitle, name: subtitle, widget: string, required: false}
+              - {label: Button Title, name: buttonTitle, widget: string, required: false}
+              - {label: Button Url, name: buttonUrl, widget: string, required: false}
+              - {label: Featured Image, name: featuredImage, widget: image, required: false}
           - label: Video Section
             name: videoSection
             required: false
@@ -331,10 +333,10 @@ collections: # A list of collections the CMS should be able to edit
             required: false
             widget: "list"
             fields:
-              - {label: Title, name: title, widget: string}
-              - {label: Featured Image, name: featuredImage, widget: image}
-              - {label: Button Title, name: buttonTitle, widget: string}
-              - {label: Button Url, name: buttonUrl, widget: string}
+              - {label: Title, name: title, widget: string, required: false}
+              - {label: Featured Image, name: featuredImage, widget: image, required: false}
+              - {label: Button Title, name: buttonTitle, widget: string, required: false}
+              - {label: Button Url, name: buttonUrl, widget: string, required: false}
           - label: "Meta"
             required: false
             name: "meta"
@@ -403,29 +405,6 @@ collections: # A list of collections the CMS should be able to edit
               - {label: Canonical Link, name: canonicalLink, widget: string, required: false}
               - {label: Noindex, name: noindex, widget: boolean, required: false}
 
-  - name: infoPages
-    label: Info Page
-    editor:
-      preview: true
-    folder: content/infoPages
-    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
-    create: true # Allow users to create new documents in this collection
-    fields:
-      - {label: Template, name: template, widget: hidden, default: DefaultPage}
-      - {label: Slug, name: slug, widget: string}
-      - {label: Title, name: title, widget: string}
-      - {label: Featured Image, name: featuredImage, widget: image}
-      - {label: Body, name: body, widget: markdown}
-      - label: "Meta"
-        required: false
-        name: "meta"
-        widget: "object"
-        fields:
-          - {label: Title, name: title, widget: string, required: false}
-          - {label: Description, name: description, widget: text, required: false, pattern: [".{300}", "Must not exceed 300 characters"]}
-          - {label: Canonical Link, name: canonicalLink, widget: string, required: false}
-          - {label: Noindex, name: noindex, widget: boolean, required: false}
-
 
   - name: posts
     label: Blog Post
@@ -475,6 +454,7 @@ collections: # A list of collections the CMS should be able to edit
           - {label: Description, name: description, widget: text, required: false, pattern: [".{300}", "Must not exceed 300 characters"]}
           - {label: Canonical Link, name: canonicalLink, widget: string, required: false}
           - {label: Noindex, name: noindex, widget: boolean, required: false}
+
 
   - name: postCategories
     label: Post Category
@@ -630,6 +610,19 @@ collections: # A list of collections the CMS should be able to edit
           - {label: Canonical Link, name: canonicalLink, widget: string, required: false}
           - {label: Noindex, name: noindex, widget: boolean, required: false}
 
+  - name: defaultPages
+    label: Default Pages
+    editor:
+      preview: true
+    folder: content/defaultPages
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    create: true # Allow users to create new documents in this collection
+    fields: # The fields each document in this collection have
+      - {label: Template, name: template, widget: hidden, default: DefaultPage}
+      - {label: Title, name: title, widget: string}
+      - {label: Featured Image, name: featuredImage, widget: image}
+      - {label: Content, name: content, widget: markdown}
+
   - name: "global"
     label: "Global"
     delete: false # Prevent users from deleting documents in this collection
@@ -653,6 +646,7 @@ collections: # A list of collections the CMS should be able to edit
               - {label: Facebook, name: facebook, widget: string, required: false}
               - {label: Instagram, name: instagram, widget: string, required: false}
               - {label: Google Plus, name: googlePlus, widget: string, required: false}
+              - {label: Trip Advisor, name: tripAdvisor, widget: string, required: false}
       - file: "content/global/nav-list.md"
         label: "Nav List"
         name: "navList"

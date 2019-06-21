@@ -1,6 +1,6 @@
 import React from 'react'
 
-import { ICONInstagram, ICONTwitter, ICONFacebook, ICONGooglePlus, ICONLinkedin } from './Icons'
+import { ICONInstagram, ICONTwitter, ICONFacebook, ICONGooglePlus, ICONLinkedin, ICONTripAdvisor } from './Icons'
 
 import './SocialLinks.css'
 
@@ -8,7 +8,7 @@ export default ({ socialMedia }) => {
 
 	if(!socialMedia) return null
 
-	const { facebook, instagram, twitter, googlePlus, linkedin } = socialMedia
+	const { facebook, instagram, twitter, googlePlus, linkedin, tripAdvisor } = socialMedia
 
 	return <div className='share-buttons'>
 		{googlePlus &&
@@ -65,7 +65,18 @@ export default ({ socialMedia }) => {
 					<ICONTwitter />
 				</a>
 			</li>
-		}			
+		}
+		{tripAdvisor &&
+			<li>
+				<a
+					href={tripAdvisor}
+					target="_blank"
+					rel="noopener noreferrer"
+				>
+					<ICONTripAdvisor />
+				</a>
+			</li>
+		}
 	</div>
 
 }

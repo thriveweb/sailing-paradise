@@ -30,7 +30,7 @@ class Select extends Component {
   }
 
   render() {
-    const { name, options, placeholder, selected } = this.props
+    const { name, options, placeholder } = this.props
     const { active, activeDropdown = false } = this.state
 
     const activeOption = active && active.toLowerCase()

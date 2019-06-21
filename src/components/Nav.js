@@ -18,49 +18,34 @@ export default class Nav extends Component {
   // Only close nav if it is open
   handleLinkClick = () => this.state.active && this.handleMenuToggle()
 
-  componentDidUpdate = prevProps => {
-    if (
-      prevProps.location.pathname !== this.props.location.pathname &&
-      this.state.popupActive
-    ) {
-      this.setState(
-        {
-          popupActive: false
-        },
-        () => {
-          this.props.handleBlur()
-        }
-      )
-    }
-  }
+  // componentDidUpdate = prevProps => {
+  //   if (
+  //     prevProps.location.pathname !== this.props.location.pathname &&
+  //     this.state.popupActive
+  //   ) {
+  //     this.setState({
+  //       popupActive: false
+  //     })
+  //   }
+  // }
 
   handlePopup = () => {
-    this.setState(
-      {
-        popupActive: !this.state.active
-      },
-      () => {
-        this.props.handleBlur()
-      }
-    )
+    this.setState({
+      popupActive: !this.state.active
+    })
   }
 
   render() {
-    const { blurActive, navList = [] } = this.props
+    const { navList } = this.props
     const { active, popupActive } = this.state
 
-    const nav = navList ? navList.edges.map(edge => ({ ...edge.node.frontmatter })) : []
-    const navItems = _get(nav[0], 'navItems') || []
-
+    const navItems = (navList && _get(navList, 'frontmatter.navItems')) || []
     const bookingPopup = _get(this.props, 'bookingPopup') || []
     const popup = _get(bookingPopup.frontmatter, 'bookingPopup') || []
 
     return (
       <Fragment>
-        <nav
-          className={`Nav ${active ? 'Nav-active' : ''}`}
-          style={{ filter: blurActive ? 'blur(10px)' : 'none' }}
-        >
+        <nav className={`Nav ${active ? 'Nav-active' : ''}`}>
           <div className="Nav--Container container large">
             <Link to="/" onClick={this.handleLinkClick}>
               <Logo />
