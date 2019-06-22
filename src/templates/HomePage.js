@@ -39,6 +39,13 @@ export const HomePageTemplate = ({
       {meta && <meta name="description" content={meta.description} />}
       {meta && <link rel="canonical" href={meta.canonical} />}
     </Helmet>
+    <Video
+      video={featuredVideo}
+      homeVideo title={title}
+      featuredSlider={featuredSlider}
+      featuredBanner={featuredBanner}
+      socialMedia={socialMedia}
+    />
     <ServiceColumns
       services={services}
       serviceBanner={serviceBanner}
@@ -60,14 +67,6 @@ export const HomePageTemplate = ({
     <SubscribeForm />
   </main>
 )
-
-// <Video
-//   video={featuredVideo}
-//   homeVideo title={title}
-//   featuredSlider={featuredSlider}
-//   featuredBanner={featuredBanner}
-//   socialMedia={socialMedia}
-// />
 
 // Export Default HomePage for front-end
 const HomePage = ({ data: { page, posts } }) => (
