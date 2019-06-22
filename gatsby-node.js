@@ -83,9 +83,16 @@ exports.onCreateNode = ({ node, actions, getNode }) => {
     ) {
       slug = `/`
     } else if (_.get(node, 'frontmatter.title')) {
-      slug = `/${_.kebabCase(parsedFilePath.dir)}/${_.kebabCase(
-        node.frontmatter.title
-      )}/`
+      if(parsedFilePath.dir === 'defaultPages') {
+        slug = `/${_.kebabCase(
+          node.frontmatter.title
+        )}/`
+      } else {
+        slug = `/${_.kebabCase(parsedFilePath.dir)}/${_.kebabCase(
+          node.frontmatter.title
+        )}/`
+      }
+
     } else if (parsedFilePath.dir === '') {
       slug = `/${parsedFilePath.name}/`
     } else {
