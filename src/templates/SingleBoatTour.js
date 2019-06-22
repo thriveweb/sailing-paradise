@@ -96,7 +96,6 @@ export const pageQuery = graphql`
       }
       frontmatter {
         tourType
-        slug
         title
         featuredImage
         intro
