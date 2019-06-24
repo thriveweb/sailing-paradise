@@ -3,7 +3,7 @@ template: SingleBoatTour
 tourType: Private Charter
 title: Christmas Parties
 icon: ''
-featuredImage: /images/uploads/DSC_0031.jpg
+featuredImage: 'https://ucarecdn.com/a6ac00c3-1fcd-4188-bb66-9456ef4ab5df/'
 intro: "## gold coast Christmas boat party\n\nLooking for somewhere unique to host this year’s work Christmas Party?  How does a Boat Cruise aboard your own private catamaran sound?  You’ll be sailing in the beautiful Gold Coast sunshine surrounded by crystal blue waters, isolated islands and golden beaches, sipping on icy cold drinks and enjoying delicious food.\n\nSounds awesome right?   Yes, we know.  We are out on the water every day and it still makes us smile to see how much our guests enjoy the experience.\r\n\nSailing in Paradise would love to create a Christmas Party that you and your guests will remember forever!     So please fill out our enquiry form, send us an email or give us a bell.  We are a friendly, professional crew and we’d love the chance to chat with you."
 contentBox:
   buttonTitle: Make enquiry
@@ -199,3 +199,4 @@ columnBanner:
     featuredImage: /images/uploads/girl-img-column2.jpg
   - featuredImage: /images/uploads/Sailing-in-Paradise-sunset.jpg
 ---
+
