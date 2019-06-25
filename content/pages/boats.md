@@ -2,7 +2,7 @@
 template: BoatsPage
 slug: boats
 title: Our Boats
-featuredImage: /images/uploads/news-banner.jpg
+featuredImage: 'https://ucarecdn.com/f38b6d32-0efd-404a-bd61-e9701cae77b3/'
 intro: '## the best catamarans on the gold coast'
 boats:
   - boatFeatures:
@@ -47,7 +47,7 @@ boats:
       - image: /images/uploads/DJI_0098.jpg
       - image: /images/uploads/fully-catered-or-byo.jpg
     title: spirit Of Gwonda
-    featuredImage: /images/uploads/boat-img14.jpg
+    featuredImage: 'https://ucarecdn.com/7ad0bd95-bd29-4a49-acc7-f7b6f231e91a/'
     videoSection:
       imageOverlay: /images/uploads/home-banner.jpg
       video: >-
@@ -82,20 +82,21 @@ boats:
 
       The 1000XL is perfect for groups of up to 20 people (plus 2 crew).
     gallery:
-      - image: /images/uploads/boat-blueprint2.jpg
-      - image: /images/uploads/boat-img13.jpg
-      - image: /images/uploads/sailing-cruise.jpg
-      - image: /images/uploads/DSC_0031.jpg
+      - image: 'https://ucarecdn.com/71e0b977-2d7b-4d0e-9ec5-627dc75cb1cc/'
+      - image: 'https://ucarecdn.com/953762b5-bc2b-4891-912c-808177c3cf84/'
+      - image: 'https://ucarecdn.com/a41b7e8a-dc40-4a90-94f2-e1a3ef454707/'
+      - image: 'https://ucarecdn.com/e8afa26e-9523-4e31-ba5d-7d686f1b821a/'
     title: Seawind 1000XL
-    featuredImage: /images/uploads/seawind.jpg
+    featuredImage: 'https://ucarecdn.com/dcee637a-4278-45b6-a97d-5cf0fe011279/'
     videoSection:
-      imageOverlay: /images/uploads/booking-banner.jpg
+      imageOverlay: 'https://ucarecdn.com/fc05fd1e-bb43-43e1-b90d-9be6dc1c57e7/'
       video: >-
         https://www.youtube.com/watch?v=vr0qNXmkUJ8&list=PLNhzc-Os3JK8ExayVzzoHVvP2c0-4_oqt
 secondaryBanner:
   buttonTitle: Know More
   buttonUrl: about
+  featuredImage: 'https://ucarecdn.com/489e881e-3ff8-4293-87f4-cfa6d53d7545/'
+  subtitle: lorem Ipsum
   title: Climb Aboard and get to know us
-  featuredImage: /images/uploads/ppl-boat.jpg
 ---
 

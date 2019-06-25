@@ -3,7 +3,7 @@ template: SingleBoatTour
 tourType: Private Charter
 title: Corporate Events
 icon: ''
-featuredImage: /images/uploads/ppl-boat-img4.jpg
+featuredImage: 'https://ucarecdn.com/8f3a2f9e-027d-459e-8fa8-b1774ea78e36/'
 intro: >-
   ## gold coast Corporate boat party
 
@@ -19,14 +19,9 @@ contentBox:
   buttonTitle: Make enquiry
   buttonUrl: booking-enquiry
   title: Let us tailor your VIP Gold Coast Corporate Party Experience
-gallery:
-  - image: /images/uploads/girls-img9.jpg
-  - image: /images/uploads/girls-img5.jpg
-  - image: /images/uploads/girls-img4.jpg
-  - image: /images/uploads/girls-img6.jpg
-  - image: /images/uploads/pantsless-waiter.jpg
+gallery: []
 videoSection:
-  imageOverlay: /images/uploads/DSC_1073.jpg
+  imageOverlay: ''
   video: >-
     https://www.youtube.com/watch?v=vr0qNXmkUJ8&list=PLNhzc-Os3JK8ExayVzzoHVvP2c0-4_oqt
 contentColumnTitle: We love Corporate parties and Corporate parties love us!
@@ -141,7 +136,6 @@ accordionSection:
         wonderful cruise.  Let the crew pamper you the way you deserve with our
         Ultimate VIP Corporate Party Cruise.
       title: Corporate Party FAQ's
-  title: Corporate Party Info
 columnBanner:
   - buttonTitle: Make Enquiry
     buttonUrl: booking-enquiry
@@ -149,6 +143,7 @@ columnBanner:
       Let our friendly and experienced team tailor a VIP Gold Coast Corporate
       Party Experience that they won’t forget.
     title: Give your friend the party they deserve!
-    featuredImage: /images/uploads/girl-img-column2.jpg
-  - featuredImage: /images/uploads/girl-img-column.jpg
+    featuredImage: ''
+  - featuredImage: ''
 ---
+

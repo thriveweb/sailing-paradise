@@ -2,7 +2,7 @@
 template: Cruises
 slug: cruises
 title: Cruises
-featuredImage: /images/uploads/news-banner.jpg
+featuredImage: 'https://ucarecdn.com/22ff8683-52df-4800-8d1c-fced02fe7ca8/'
 intro: >-
   ## Gold Coast Sunset Cruise
 

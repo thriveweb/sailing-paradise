@@ -3,7 +3,7 @@ template: SingleBoatTour
 tourType: Private Charter
 title: Hen's Parties
 icon: ''
-featuredImage: /images/uploads/girls-img2.jpg
+featuredImage: 'https://ucarecdn.com/a0c84f87-57e5-4101-878d-9d2ad0504696/'
 intro: >-
   ## gold coast Hens boat party
 
@@ -19,20 +19,15 @@ contentBox:
   buttonTitle: Make enquiry
   buttonUrl: booking-enquiry
   title: Let us tailor your VIP Gold Coast Hens Party Experience
-gallery:
-  - image: /images/uploads/girls-img9.jpg
-  - image: /images/uploads/girls-img5.jpg
-  - image: /images/uploads/girls-img4.jpg
-  - image: /images/uploads/girls-img6.jpg
-  - image: /images/uploads/pantsless-waiter.jpg
+gallery: []
 videoSection:
-  imageOverlay: /images/uploads/DSC_1073.jpg
+  imageOverlay: 'https://ucarecdn.com/013dd280-261c-4b1a-857a-4a582aaa8f3b/'
   video: >-
     https://www.youtube.com/watch?v=vr0qNXmkUJ8&list=PLNhzc-Os3JK8ExayVzzoHVvP2c0-4_oqt
 contentColumnTitle: We love Hens parties and Hens parties love us!
 contentColumn: >-
-  We have hosted over 1000 happy Hens parties and we are continually
-  striving to create the best experience possible for our guests.
+  We have hosted over 1000 happy Hens parties and we are continually striving to
+  create the best experience possible for our guests.
 
 
   We understand that you want your special day to be memorable, fun, relaxing
@@ -47,8 +42,8 @@ contentColumn: >-
   No matter what style of party you are after we can help. Whether you are
   looking for a relaxing day on the water with some yummy food and a few drinks.
   Or an elegant morning tea cruise with champagne and delicious cupcakes. Even a
-  raucous Hens party with a butler in the buff and all the trimmings we are
-  here for you. We have some great Gold Coast Hens night ideas also.
+  raucous Hens party with a butler in the buff and all the trimmings we are here
+  for you. We have some great Gold Coast Hens night ideas also.
 accordionSection:
   accordion:
     - dropdownContent: >-
@@ -141,14 +136,14 @@ accordionSection:
         wonderful cruise.  Let the crew pamper you the way you deserve with our
         Ultimate VIP Hens Party Cruise.
       title: Hens Party FAQ's
-  title: Hens Party Info
 columnBanner:
   - buttonTitle: Make Enquiry
     buttonUrl: booking-enquiry
     content: >-
-      Let our friendly and experienced team tailor a VIP Gold Coast Hens
-      Party Experience that they won’t forget.
+      Let our friendly and experienced team tailor a VIP Gold Coast Hens Party
+      Experience that they won’t forget.
     title: Give your friend the party they deserve!
-    featuredImage: /images/uploads/girl-img-column2.jpg
-  - featuredImage: /images/uploads/girl-img-column.jpg
+    featuredImage: ''
+  - featuredImage: ''
 ---
+

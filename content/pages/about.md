@@ -2,7 +2,7 @@
 template: AboutPage
 slug: about
 title: About Us
-featuredImage: /images/uploads/banner.jpg
+featuredImage: 'https://ucarecdn.com/732856c5-63c8-420c-884d-300fda37063e/'
 intro: >-
   ## Welcome Aboard
 
@@ -83,11 +83,11 @@ intro: >-
   with some friends (and in the end it will probably cost a lot less $'s with
   zero stress).
 gallery:
-  - image: /images/uploads/DJI_0098.jpg
-  - image: /images/uploads/DSC_1095.jpg
-  - image: /images/uploads/16.12.17-lenore.jpg
-  - image: /images/uploads/girl-img5.jpg
-  - image: /images/uploads/boat-img11.jpg
+  - image: 'https://ucarecdn.com/d3fce9ea-25bc-4f10-b643-e67e330427c4/'
+  - image: 'https://ucarecdn.com/dee49f5c-585b-4ed2-86fe-a04f59caf35d/'
+  - image: 'https://ucarecdn.com/b8244f34-9e6f-4a79-ad21-6e2265ddd4d1/'
+  - image: 'https://ucarecdn.com/694c1564-6fd4-4f71-90f2-998d72ca622e/'
+  - image: 'https://ucarecdn.com/92929ec8-8838-497a-ac73-6597900dd836/'
 captainSection:
   captain:
     - description: >-
@@ -95,7 +95,7 @@ captainSection:
         probably won't see him behind the wheel much any more but when he is
         there you'll be well looked after. He's a young 'nearly 50' but sorry
         ladies..married with 2 young kids.
-      image: /images/uploads/girl-img12.jpg
+      image: 'https://ucarecdn.com/981ff773-e49d-42bc-940c-23670a9b6f05/'
       name: Steve Buckley - Owner / Operator
       socialMedia:
         linkedin: 'https://linkedin.com'
@@ -112,7 +112,7 @@ captainSection:
 
         He knows the local area like the back of his hand and "is quick with a
         joke or to light up your smoke and there's no place that he'd rather be"
-      image: /images/uploads/guy-img1.jpg
+      image: 'https://ucarecdn.com/8287fd13-dc4f-4b9b-abda-f41d0d27dd07/'
       name: Lucas Davidson
       socialMedia:
         linkedin: 'https://linkedin.com'
@@ -162,7 +162,7 @@ crewSection:
         velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
         occaecat cupidatat non proident, sunt in culpa qui officia deserunt
         mollit anim id est laborum.
-      image: /images/uploads/girl-img1.jpg
+      image: 'https://ucarecdn.com/da877823-bfc4-4c7f-8a35-44aeff6b7664/'
       name: 'Chanelle '
       title: Cheif Stew
     - content: >-
@@ -170,7 +170,7 @@ crewSection:
         tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
         veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
         commodo consequat.
-      image: /images/uploads/girl-img7.jpg
+      image: 'https://ucarecdn.com/e34612f4-2da4-4c81-b69e-c24f68cb0817/'
       name: Jane Doe
       title: Cook
     - content: >-
@@ -181,14 +181,14 @@ crewSection:
         velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
         occaecat cupidatat non proident, sunt in culpa qui officia deserunt
         mollit anim id est laborum.
-      image: /images/uploads/girl-img4.jpg
+      image: 'https://ucarecdn.com/685844a2-028d-4969-b09b-84adc73fa353/'
       name: John Doe
       title: Captain
     - content: >-
         Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
         dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
         proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-      image: /images/uploads/girl-img8.jpg
+      image: 'https://ucarecdn.com/8f7b3794-b298-47a7-883c-7ec5e9d54cac/'
       name: Chris Smith
       title: Skipper
   crewIntro: >-
@@ -213,11 +213,11 @@ crewSection:
 secondaryBanner:
   buttonTitle: Know More
   buttonUrl: private-charters
-  featuredImage: /images/uploads/boat-img5.jpg
+  featuredImage: 'https://ucarecdn.com/ae329390-4c8b-4f07-8674-25215fb4df83/'
   subtitle: ''
   title: check out our amazing catamarans
 videoSection:
-  imageOverlay: /images/uploads/home-banner.jpg
+  imageOverlay: 'https://ucarecdn.com/5b87c65e-67fd-47f8-87cc-5cda851116da/'
   title: Experience the open water with an affordable yet luxurious adventure
   video: >-
     https://www.youtube.com/watch?v=vr0qNXmkUJ8&list=PLNhzc-Os3JK8ExayVzzoHVvP2c0-4_oqt
@@ -225,11 +225,11 @@ columnBanner:
   - buttonTitle: See More
     buttonUrl: private-charters
     title: Are you interested in private charters catered for all sorts of occasions?
-    featuredImage: /images/uploads/DJI_0098.jpg
+    featuredImage: 'https://ucarecdn.com/c826aa67-df00-4e59-aff0-c1ff9d0d30a3/'
   - buttonTitle: ''
     buttonUrl: ''
     title: ''
-    featuredImage: /images/uploads/guy-img1.jpg
+    featuredImage: 'https://ucarecdn.com/1009971d-e5a7-4b76-8c13-a7aca1eccd8c/'
 meta:
   description: ''
 ---

@@ -9,14 +9,9 @@ contentBox:
   buttonTitle: Make enquiry
   buttonUrl: booking-enquiry
   title: Let us tailor your VIP Gold Coast Christmas Party Experience
-gallery:
-  - image: /images/uploads/girls-img9.jpg
-  - image: /images/uploads/girls-img5.jpg
-  - image: /images/uploads/girls-img4.jpg
-  - image: /images/uploads/girls-img6.jpg
-  - image: /images/uploads/pantsless-waiter.jpg
+gallery: []
 videoSection:
-  imageOverlay: /images/uploads/DSC_1073.jpg
+  imageOverlay: ''
   video: >-
     https://www.youtube.com/watch?v=vr0qNXmkUJ8&list=PLNhzc-Os3JK8ExayVzzoHVvP2c0-4_oqt
 contentColumnTitle: Not your average office Christmas Party!

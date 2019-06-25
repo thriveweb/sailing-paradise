@@ -3,7 +3,7 @@ template: SingleBoatTour
 tourType: Private Charter
 title: Bucks Parties
 icon: ''
-featuredImage: /images/uploads/ppl-boat-img9.jpg
+featuredImage: 'https://ucarecdn.com/b2744130-4514-49af-9d2c-8fc01c3360a1/'
 intro: >-
   ## gold coast  bucks party
 
@@ -34,13 +34,13 @@ contentBox:
   buttonUrl: booking-enquiry
   title: Let us tailor your VIP Gold Coast bucks Party Experience
 gallery:
-  - image: /images/uploads/girls-img9.jpg
-  - image: /images/uploads/girls-img5.jpg
-  - image: /images/uploads/girls-img4.jpg
-  - image: /images/uploads/girls-img6.jpg
-  - image: /images/uploads/pantsless-waiter.jpg
+  - image: 'https://ucarecdn.com/81bb8268-4c28-4517-9c18-eb9ef0193112/'
+  - image: 'https://ucarecdn.com/7e0eddcd-b1f6-480c-bfc6-5c1f28d1802d/'
+  - image: 'https://ucarecdn.com/47b8ac69-9ed3-4d9c-8b1d-f7bae8ba1135/'
+  - image: 'https://ucarecdn.com/983ef58e-0db2-4747-a357-010fdf7f78cf/'
+  - image: 'https://ucarecdn.com/5f18aba7-3c7d-4aa1-9250-49f08454fcf5/'
 videoSection:
-  imageOverlay: /images/uploads/DSC_1073.jpg
+  imageOverlay: 'https://ucarecdn.com/6cada044-af80-495a-b8e9-d12e757cb170/'
   video: >-
     https://www.youtube.com/watch?v=vr0qNXmkUJ8&list=PLNhzc-Os3JK8ExayVzzoHVvP2c0-4_oqt
 contentColumnTitle: VIP Bachelor Party.
@@ -122,11 +122,11 @@ accordionSection:
         disembark from a different wharf, if anyone is intoxicated or behaving
         offensively, and the police may be called to attend.
       title: Conditions
-    - dropdownContent: ''
+    - dropdownContent: VIP PACKAGES
       title: VIP Packages
-    - dropdownContent: ''
+    - dropdownContent: MORE BUCKS IDEAS
       title: More bucks Ideas
-    - dropdownContent: ''
+    - dropdownContent: bucks Party FAQ's
       title: bucks Party FAQ's
 columnBanner:
   - buttonTitle: Make Enquiry
@@ -135,6 +135,7 @@ columnBanner:
       Let our friendly and experienced team tailor a VIP Gold Coast bucks Party
       Experience that they won’t forget.
     title: Give your friend the party they deserve!
-    featuredImage: /images/uploads/girl-img-column2.jpg
-  - featuredImage: /images/uploads/girl-img-column.jpg
+    featuredImage: 'https://ucarecdn.com/efe5393f-442f-4e33-87f0-367f9b8d4a5f/'
+  - featuredImage: 'https://ucarecdn.com/f248eecc-d3e3-45d6-8498-fdc3cb39c99b/'
 ---
+
