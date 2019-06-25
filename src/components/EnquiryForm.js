@@ -64,7 +64,8 @@ class Form extends React.Component {
         name={name}
         action={action}
         onSubmit={this.handleSubmit}
-        data-netlify=''
+        data-netlify="true"
+        method="post"
         data-netlify-honeypot={honeypot}
       >
         {this.state.alert && (
