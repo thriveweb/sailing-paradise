@@ -265,6 +265,7 @@ blockquote p {
   line-height: 1.25em;
   transition: border-color 0.2s;
   resize: none;
+  width: 100%;
 }
 
 .Form--Select {
@@ -296,7 +297,6 @@ blockquote p {
 
 .Form--Input:focus {
   outline: none;
-  border-color: black;
 }
 
 .Form--Input[disabled],
@@ -342,21 +342,12 @@ blockquote p {
   transform: translateX(0.25em);
 }
 
-input::-webkit-input-placeholder {
-color: var(--primary);
+input::placeholder {
+  /* color: var(--primary); */
+
+  color: white;
 }
 
-input:-moz-placeholder { /* Firefox 18- */
-color: var(--primary);
-}
-
-input::-moz-placeholder {  /* Firefox 19+ */
-color: var(--primary);
-}
-
-input:-ms-input-placeholder {
-color: var(--primary);
-}
 
 /*input[type="number"] {
   -webkit-appearance: textfield;

@@ -38,7 +38,7 @@ export const HomePageTemplate = ({
     <Helmet title={meta ? meta.title : `${title} | Sailing in Paradise`}>
       {meta && <meta name="description" content={meta.description} />}
       {meta && <link rel="canonical" href={meta.canonical} />}
-    </Helmet>
+    </Helmet>    
     <Video
       video={featuredVideo}
       homeVideo title={title}
