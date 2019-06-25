@@ -3,7 +3,7 @@ template: SingleBoatTour
 tourType: Private Charter
 title: Family Gatherings
 icon: ''
-featuredImage: /images/uploads/girl-img5.jpg
+featuredImage: 'https://ucarecdn.com/3539db26-3fab-4bd4-a65c-022f77d3701f/'
 intro: >-
   ## gold coast Family Gatherings boat party
 
@@ -19,20 +19,15 @@ contentBox:
   buttonTitle: Make enquiry
   buttonUrl: booking-enquiry
   title: Let us tailor your VIP Gold Coast Family Gatherings Party Experience
-gallery:
-  - image: /images/uploads/girls-img9.jpg
-  - image: /images/uploads/girls-img5.jpg
-  - image: /images/uploads/girls-img4.jpg
-  - image: /images/uploads/girls-img6.jpg
-  - image: /images/uploads/pantsless-waiter.jpg
+gallery: []
 videoSection:
-  imageOverlay: /images/uploads/DSC_1073.jpg
+  imageOverlay: 'https://ucarecdn.com/a8b3131a-5e2c-4885-9ae0-b875fe2f8c9a/'
   video: >-
     https://www.youtube.com/watch?v=vr0qNXmkUJ8&list=PLNhzc-Os3JK8ExayVzzoHVvP2c0-4_oqt
 contentColumnTitle: We love Family Gatherings parties and Family Gatherings parties love us!
 contentColumn: >-
-  We have hosted over 1000 happy Family Gatherings parties and we are continually
-  striving to create the best experience possible for our guests.
+  We have hosted over 1000 happy Family Gatherings parties and we are
+  continually striving to create the best experience possible for our guests.
 
 
   We understand that you want your special day to be memorable, fun, relaxing
@@ -47,8 +42,9 @@ contentColumn: >-
   No matter what style of party you are after we can help. Whether you are
   looking for a relaxing day on the water with some yummy food and a few drinks.
   Or an elegant morning tea cruise with champagne and delicious cupcakes. Even a
-  raucous Family Gatherings party with a butler in the buff and all the trimmings we are
-  here for you. We have some great Gold Coast Family Gatherings night ideas also.
+  raucous Family Gatherings party with a butler in the buff and all the
+  trimmings we are here for you. We have some great Gold Coast Family Gatherings
+  night ideas also.
 accordionSection:
   accordion:
     - dropdownContent: >-
@@ -141,14 +137,14 @@ accordionSection:
         wonderful cruise.  Let the crew pamper you the way you deserve with our
         Ultimate VIP Family Gatherings Party Cruise.
       title: Family Gatherings Party FAQ's
-  title: Family Gatherings Party Info
 columnBanner:
   - buttonTitle: Make Enquiry
     buttonUrl: booking-enquiry
     content: >-
-      Let our friendly and experienced team tailor a VIP Gold Coast Family Gatherings
-      Party Experience that they won’t forget.
+      Let our friendly and experienced team tailor a VIP Gold Coast Family
+      Gatherings Party Experience that they won’t forget.
     title: Give your friend the party they deserve!
-    featuredImage: /images/uploads/girl-img-column2.jpg
-  - featuredImage: /images/uploads/girl-img-column.jpg
+    featuredImage: ''
+  - featuredImage: ''
 ---
+
