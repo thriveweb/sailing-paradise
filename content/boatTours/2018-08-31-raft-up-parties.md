@@ -5,20 +5,28 @@ title: Raft Up Parties
 icon: ''
 featuredImage: /images/uploads/DSC_0038.jpg
 intro: >-
-  ## gold coast Raft Up boat party
+  ## gold coast 'Raft Up' yacht party
 
 
-  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean elementum
-  scelerisque ex interdum cursus. In hac habitasse platea dictumst. Sed porta
-  ultricies turpis, dapibus efficitur lectus dapibus eget. Sed pharetra urna
-  vitae tincidunt placerat. Sed mollis, ex et placerat malesuada, felis orci
-  ultrices tortor, in molestie augue odio sed nibh. Quisque eros leo, egestas
-  quis ante ac, pretium venenatis augue. Aenean blandit urna sit amet nisi
-  elementum auctor.
+  Get the crew together for the event of a lifetime. 
+
+
+  Whether you are organising a corporate event, a wedding or a get together with
+  a heap of friends, if you want your next event to be truly special you should
+  talk to us about a Raft Up boat party.
+
+
+  Nothing says 'WOW' more than 4 beautiful catamarans sailing together in one of
+  the most pristine locations in Australia.
+
+
+  Throw in a heap of inflatables, crystal clear blue waters, golden sandy
+  beaches adorned with stylish umbrellas, awesome tunes and beach games, and you
+  have an insta-worthy event that everyone will want to be a part of.
 contentBox:
   buttonTitle: Make enquiry
   buttonUrl: booking-enquiry
-  title: Let us tailor your VIP Gold Coast Raft Up Party Experience
+  title: Let us help create the ultimate Raft Up Yacht Party Experience
 gallery:
   - image: /images/uploads/girls-img9.jpg
   - image: /images/uploads/girls-img5.jpg
@@ -29,126 +37,117 @@ videoSection:
   imageOverlay: /images/uploads/DSC_1073.jpg
   video: >-
     https://www.youtube.com/watch?v=vr0qNXmkUJ8&list=PLNhzc-Os3JK8ExayVzzoHVvP2c0-4_oqt
-contentColumnTitle: We love Raft Up parties and Raft Up parties love us!
+contentColumnTitle: Everyone loves a good Raft Up.
 contentColumn: >-
-  We have hosted over 1000 happy Raft Up parties and we are continually
-  striving to create the best experience possible for our guests.
+  Set sail in convoy to a secret beach location for a couple of hours of fun in
+  the sun, sea and sand.
 
 
-  We understand that you want your special day to be memorable, fun, relaxing
-  and stress free and that is exactly what we specialise in.
+  Bring the team together with some quirky team building activities or party the
+  afternoon away. 
 
 
-  From the moment you send through an enquiry all the way through to the follow
-  up email with your free souvenir photo’s after your cruise, we pride ourselves
-  on our professional yet friendly and laid back attitude.
+  When it comes to creating a special day there really is 'no limit' to what we
+  can achieve. 
 
 
-  No matter what style of party you are after we can help. Whether you are
-  looking for a relaxing day on the water with some yummy food and a few drinks.
-  Or an elegant morning tea cruise with champagne and delicious cupcakes. Even a
-  raucous Raft Up party with a butler in the buff and all the trimmings we are
-  here for you. We have some great Gold Coast Raft Up night ideas also.
+  Private chefs and wait staff, marquees and masseuses, DJ's, watersports
+  activities (parasailing, jetboats etc), fireworks spectaculars, drone and
+  professional photographers, the list goes on. 
+
+
+  Raft Up yacht parties can cater from 50 to 90 people on up to 4 sailing
+  catamarans (or more if required).
+
+
+  You are welcome to BYO everything or take advantage of our extensive catering
+  options from some of the Gold Coast's best caterers and private chefs.
+
+
+  A raft up party can be anything you want and we know how to create it.
 accordionSection:
   accordion:
-    - dropdownContent: >-
-        Why settle for ordinary when you can sail away on the Gold Coast’s most
-        luxurious and unique sailing catamaran.
-
-
-        Our stable sailing catamaran is ideal for groups of up to 30 ladies. The
-        large trampoline-style fore-deck is perfect for lazing in the sunshine
-        or dancing, while we sail the calm, clear waters of the Gold Coast. The
-        ample undercover space makes the vessel perfect for those seeking shade.
-        Facilities are plentiful to ensure you have everything on hand to enjoy
-        a perfect day! Definitely the boat to be seen on and with room for up to
-        30 passengers, this smooth and stable yacht is the ideal venue for a
-        wonderful cruise.  Let the crew pamper you the way you deserve with our
-        Ultimate VIP Raft Up Party Cruise.
+    - dropdownContent: |-
+        * Easy, stress free booking process.
+        * Up to 4 beautiful sailing catamarans
+        * Friendly and professional yet laid back crew
+        * A great day on the beautiful Gold Coast waterways
+        * Free activities and professional photography
       title: What to expect
-    - dropdownContent: >-
-        Why settle for ordinary when you can sail away on the Gold Coast’s most
-        luxurious and unique sailing catamaran.
-
-
-        Our stable sailing catamaran is ideal for groups of up to 30 ladies. The
-        large trampoline-style fore-deck is perfect for lazing in the sunshine
-        or dancing, while we sail the calm, clear waters of the Gold Coast. The
-        ample undercover space makes the vessel perfect for those seeking shade.
-        Facilities are plentiful to ensure you have everything on hand to enjoy
-        a perfect day! Definitely the boat to be seen on and with room for up to
-        30 passengers, this smooth and stable yacht is the ideal venue for a
-        wonderful cruise.  Let the crew pamper you the way you deserve with our
-        Ultimate VIP Raft Up Party Cruise.
+    - dropdownContent: |-
+        * Swimmers and a towel
+        * Camera
+        * Good vibes and smiles
       title: What to Bring
     - dropdownContent: >-
-        Why settle for ordinary when you can sail away on the Gold Coast’s most
-        luxurious and unique sailing catamaran.
+        * In the interests of public safety and to ensure everyone has a safe
+        and awesome day, we do adhere to Responsible Service of Alcohol
+        practices. 
 
+        * Anyone wishing to consume alcohol must be able to provide
+        identification proving they are over 18 years.
 
-        Our stable sailing catamaran is ideal for groups of up to 30 ladies. The
-        large trampoline-style fore-deck is perfect for lazing in the sunshine
-        or dancing, while we sail the calm, clear waters of the Gold Coast. The
-        ample undercover space makes the vessel perfect for those seeking shade.
-        Facilities are plentiful to ensure you have everything on hand to enjoy
-        a perfect day! Definitely the boat to be seen on and with room for up to
-        30 passengers, this smooth and stable yacht is the ideal venue for a
-        wonderful cruise.  Let the crew pamper you the way you deserve with our
-        Ultimate VIP Raft Up Party Cruise.
+        * Anyone acting offensively will be refused service and/or removed from
+        the event.
       title: Considerations
     - dropdownContent: >-
-        Why settle for ordinary when you can sail away on the Gold Coast’s most
-        luxurious and unique sailing catamaran.
-
-
-        Our stable sailing catamaran is ideal for groups of up to 30 ladies. The
-        large trampoline-style fore-deck is perfect for lazing in the sunshine
-        or dancing, while we sail the calm, clear waters of the Gold Coast. The
-        ample undercover space makes the vessel perfect for those seeking shade.
-        Facilities are plentiful to ensure you have everything on hand to enjoy
-        a perfect day! Definitely the boat to be seen on and with room for up to
-        30 passengers, this smooth and stable yacht is the ideal venue for a
-        wonderful cruise.  Let the crew pamper you the way you deserve with our
-        Ultimate VIP Raft Up Party Cruise.
+        Please email or call for the latest VIP package deals including
+        transport, catering and private chefs, wait staff, entertainment etc.
       title: VIP Packages
     - dropdownContent: >-
-        Why settle for ordinary when you can sail away on the Gold Coast’s most
-        luxurious and unique sailing catamaran.
+        * White Party _\- need we say more!_
 
+        * Corporate events - team building activities, sailing days, incentives,
+        partner programs, end of conference party, etc
 
-        Our stable sailing catamaran is ideal for groups of up to 30 ladies. The
-        large trampoline-style fore-deck is perfect for lazing in the sunshine
-        or dancing, while we sail the calm, clear waters of the Gold Coast. The
-        ample undercover space makes the vessel perfect for those seeking shade.
-        Facilities are plentiful to ensure you have everything on hand to enjoy
-        a perfect day! Definitely the boat to be seen on and with room for up to
-        30 passengers, this smooth and stable yacht is the ideal venue for a
-        wonderful cruise.  Let the crew pamper you the way you deserve with our
-        Ultimate VIP Raft Up Party Cruise.
+        * DJ's, entertainers, masseuses, marquees, watersports (jetboating and
+        parasailing)
+
+        * Weddings - beautiful island location for a unique beach wedding.
       title: More Raft Up Ideas
     - dropdownContent: >-
-        Why settle for ordinary when you can sail away on the Gold Coast’s most
-        luxurious and unique sailing catamaran.
+        **How many people can you accommodate?** 
 
 
-        Our stable sailing catamaran is ideal for groups of up to 30 ladies. The
-        large trampoline-style fore-deck is perfect for lazing in the sunshine
-        or dancing, while we sail the calm, clear waters of the Gold Coast. The
-        ample undercover space makes the vessel perfect for those seeking shade.
-        Facilities are plentiful to ensure you have everything on hand to enjoy
-        a perfect day! Definitely the boat to be seen on and with room for up to
-        30 passengers, this smooth and stable yacht is the ideal venue for a
-        wonderful cruise.  Let the crew pamper you the way you deserve with our
-        Ultimate VIP Raft Up Party Cruise.
+        _We have 4 sailing catamarans available which can carry a total of 90
+        guests (more boats can be arranged for larger groups)._
+
+
+        **What is included?**
+
+
+        _Each boats comes with a skipper and crew member. Also included is ice,
+        free use of paddleboards and inflatables, beach volleyball and cricket,
+        and snorkeling gear._
+
+
+        **Can we BYO drinks and food?**
+
+
+        _Yes, you are more than welcome to BYO drinks and food (no surcharge) or
+        we can organise this for you._
+
+
+        **Can we get absolutely sh*#faced or take drugs?**
+
+
+        _**No.** In the interests of public safety, and to ensure everyone has
+        an awesome day, we observe RSA practices and reserve the right to evict
+        offensive people from the event and/or call the water police to have
+        them removed._
       title: Raft Up Party FAQ's
-  title: Raft Up Party Info
 columnBanner:
   - buttonTitle: Make Enquiry
     buttonUrl: booking-enquiry
     content: >-
-      Let our friendly and experienced team tailor a VIP Gold Coast Raft Up
-      Party Experience that they won’t forget.
-    title: Give your friend the party they deserve!
+      So you're ready to organise the party of your life..
+
+
+      Call our friendly and experienced team and let us tailor a unique and
+      special VIP Raft Up Yacht Party Experience that you and your crew will
+      never forget.
+    title: Let's create an event to remember!
     featuredImage: /images/uploads/girl-img-column2.jpg
   - featuredImage: /images/uploads/girl-img-column.jpg
 ---
+
