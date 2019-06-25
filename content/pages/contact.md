@@ -2,7 +2,7 @@
 template: ContactPage
 slug: contact
 title: Contact Us
-featuredImage: /images/uploads/marina-mirage-departure-point-banner.jpg
+featuredImage: 'https://ucarecdn.com/449a8b27-28e0-48a5-a259-a779766a068a/'
 intro: >-
   ## get in touch with us
 
@@ -17,7 +17,7 @@ intro: >-
 secondaryBanner:
   buttonTitle: Book and enquiry now
   buttonUrl: booking-enquiry
-  featuredImage: /images/uploads/home-banner.jpg
+  featuredImage: 'https://ucarecdn.com/a3732d58-dd7a-44d2-bc7e-ec65d4073729/'
   subtitle: Make a booking now
   title: Let’s go sailing in paradise
 ---
