@@ -63,7 +63,7 @@ class Form extends React.Component {
           <script src="https://www.google.com/recaptcha/api.js" />
         </Helmet>
         <form
-          className="Form"
+          className="EnquiryForm"
           name={name}
           action={action}
           onSubmit={this.handleSubmit}
@@ -100,18 +100,17 @@ class Form extends React.Component {
               required
             />
           </label>
-          <div
-            className="g-recaptcha"
-            data-sitekey="6LfKN3kUAAAAAGIM1CbXmaRZx3LIh_W2twn1tzkA"
-          />
           {!!subject && <input type="hidden" name="subject" value={subject} />}
           <input type="hidden" name="form-name" value={name} />
-          <input
-            className="Button Form--SubmitButton"
-            type="submit"
-            value="Enquire"
-            disabled={this.state.disabled}
-          />
+          <div className='form-footer'>
+            <input
+              className="button Form--SubmitButton"
+              type="submit"
+              value="Send"
+              disabled={this.state.disabled}
+            />
+            <ICONButtonArrows />
+          </div>
         </form>
       </Fragment>
     )
