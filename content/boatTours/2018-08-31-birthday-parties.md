@@ -241,5 +241,11 @@ columnBanner:
     title: Give your friend the party they deserve!
     featuredImage: 'https://ucarecdn.com/61c88734-b17f-450f-8e6b-e10d9ade46f2/'
   - featuredImage: 'https://ucarecdn.com/f3bf4df1-6f8a-405b-b07f-96343f6aa19c/'
+featuredTestimonials:
+  description: >-
+    See our five start Trip Advisor reviews for more testimonial feedback from
+    our satisfied clients.
+  testimonial: Tahlia
+  title: Happy Sailors
 ---
 
