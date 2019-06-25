@@ -3,7 +3,7 @@ template: SingleBoatTour
 tourType: Private Charter
 title: Birthday Parties
 icon: /images/uploads/cake.svg
-featuredImage: /images/uploads/fully-catered-or-byo.jpg
+featuredImage: 'https://ucarecdn.com/3f435148-ea8e-4053-aca3-9793d259f9b0/'
 intro: >-
   ## gold coast birthday party cruise
 
@@ -36,29 +36,29 @@ contentBox:
   buttonUrl: booking-enquiry
   title: Let us tailor your VIP Gold Coast Birthday Party Experience
 gallery:
-  - image: /images/uploads/bdayac~1.jpg
-  - image: /images/uploads/BDAY Drone 1 2017-12-01 DJI_0098.JPG
-  - image: /images/uploads/BDAY-People-1-2018-11-18-SOG_1347-(1).jpg
-  - image: /images/uploads/BDAY Boat 1 DSC_0001-001.JPG
-  - image: /images/uploads/BDAY People & Activities 1 2018-01-08 20180108_112608.JPG
-  - image: /images/uploads/BDAY People 10 060117.JPG
-  - image: /images/uploads/BDAY-Activities-3-2019-02-09-SOG_0558-(1).jpg
-  - image: /images/uploads/BDAY Drone 2 DJI_0176. Ze picklejpg.jpg
-  - image: /images/uploads/BDAY People 2 2017-05-20 DSC_0110.JPG
-  - image: /images/uploads/BDAY People 11 070718b.JPG
-  - image: /images/uploads/BDAY-People-5-2018-12-29-SOG_2480-(13).jpg
-  - image: /images/uploads/BDAY-Sailing-1-2018-05-13-DSC_0567.jpg
-  - image: /images/uploads/BDAY-People-8-2019-01-20-SOG_6965.jpg
+  - image: 'https://ucarecdn.com/3c29561d-463a-4540-b629-5b0faa5806f7/'
+  - image: 'https://ucarecdn.com/ede918d3-48a6-44f4-907e-81183f4ed79d/'
+  - image: 'https://ucarecdn.com/aaa47b7b-92d8-40ee-bafb-5405b80393ab/'
+  - image: 'https://ucarecdn.com/1ff34c23-1486-4617-b9d3-b13d71354be7/'
+  - image: 'https://ucarecdn.com/3f1963ed-79c4-4769-8f85-3037c8fd9942/'
+  - image: 'https://ucarecdn.com/7ad1ef07-052e-457f-885d-5ee93dfb61d0/'
+  - image: 'https://ucarecdn.com/b2409e6a-c0cf-40ed-bf68-d8eaf12b8114/'
+  - image: 'https://ucarecdn.com/de3b0523-5ddd-468c-ab16-d1332d228bec/'
+  - image: 'https://ucarecdn.com/d1ee3989-45f4-4b0b-834c-5077975d5bce/'
+  - image: 'https://ucarecdn.com/fde6b4dc-47b4-48d3-a6b4-8ae31702dd04/'
+  - image: 'https://ucarecdn.com/35ac6b9f-d610-4167-8cfc-04ca5cac2856/'
+  - image: 'https://ucarecdn.com/98ef0943-0681-470c-a8da-7f0859e62823/'
+  - image: 'https://ucarecdn.com/3f3cb35c-d430-4a69-97cb-90e4b562dd47/'
   - image: /images/uploads/BDAY Beach Landing 0 DSC_0645.JPG
-  - image: /images/uploads/BDAY Dolphins 1 2018-12-12 SOG_8078 (2).JPG
-  - image: /images/uploads/BDAY People 12 2019-03-13 XL0_3762.JPG
-  - image: /images/uploads/BDAY-People-9-2019-02-10-SOG_1072.jpg
-  - image: /images/uploads/BDAY People 3 2017-09-16 DSC_0089.JPG
-  - image: /images/uploads/BDAY People 4 2018-01-27 DSC_0269.JPG
-  - image: /images/uploads/BDAY People 6 2018-12-29 SOG_2480 (18).JPG
-  - image: /images/uploads/BDAY People 7 2019-03-13 XL0_3919.JPG
+  - image: 'https://ucarecdn.com/856c7b27-c03e-4bc3-a5b4-bb6d44563a4d/'
+  - image: 'https://ucarecdn.com/d1f2ab28-f2f4-4825-86cd-38733396d83b/'
+  - image: 'https://ucarecdn.com/14335f55-a1a5-4ce4-ae2a-9c0eca386ef8/'
+  - image: 'https://ucarecdn.com/60221bcf-72ec-4679-9c3b-05c8e2dfa254/'
+  - image: 'https://ucarecdn.com/e9c62e21-a8a1-4fc3-9f69-aaa3c3fda774/'
+  - image: 'https://ucarecdn.com/ade05579-b1ae-4fac-b4c1-751c40343ba0/'
+  - image: 'https://ucarecdn.com/b2708422-6a9b-43d3-b398-9acdede8cd07/'
 videoSection:
-  imageOverlay: /images/uploads/DSC_1073.jpg
+  imageOverlay: 'https://ucarecdn.com/27d0381d-387d-4d17-b24b-6f193f828def/'
   video: >-
     https://www.youtube.com/watch?v=vr0qNXmkUJ8&list=PLNhzc-Os3JK8ExayVzzoHVvP2c0-4_oqt
 contentColumnTitle: Fun for all ages.
@@ -239,6 +239,7 @@ columnBanner:
       Let our friendly and experienced team tailor a VIP Gold Coast Birthday
       Party Experience that they won’t forget.
     title: Give your friend the party they deserve!
-    featuredImage: /images/uploads/girl-img-column2.jpg
-  - featuredImage: /images/uploads/girl-img-column.jpg
+    featuredImage: 'https://ucarecdn.com/61c88734-b17f-450f-8e6b-e10d9ade46f2/'
+  - featuredImage: 'https://ucarecdn.com/f3bf4df1-6f8a-405b-b07f-96343f6aa19c/'
 ---
+
