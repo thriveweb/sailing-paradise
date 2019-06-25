@@ -149,7 +149,7 @@ class Form extends React.Component {
           options={[
             "Raft Ups",
             "Hens Parties",
-            "Birthday Parties", 
+            "Birthday Parties",
             "Corporate Events",
             "Christmas Parties",
             "Memorial Ashes Scattering",
@@ -161,9 +161,6 @@ class Form extends React.Component {
             "Bucks Parties"
           ]}
         />
-        <label className="Form--Label">
-          <span>Preffered Date* (if unsure please select any date within Preffered month)</span>
-        </label>
         <Select
           placeholder='How did you hear about us?*'
           name='source'
@@ -195,6 +192,9 @@ class Form extends React.Component {
   }
 }
 
+// <label className="Form--Label">
+//   <span>Preffered Date* (if unsure please select any date within Preffered month)</span>
+// </label>
 // <DatePicker
 //   name='date'
 //   className='Form--Input'

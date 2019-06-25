@@ -22,6 +22,11 @@
 .BookingForm .Form--Input {
 	background-color: transparent;
 	border: none;
+	color:
+}
+
+.BookingForm .Form--Input::placeholder {
+	color: var(--primary);
 }
 
 .BookingForm .has-arrow {
@@ -55,7 +60,7 @@
 }
 
 .BookingForm .form-footer svg {
-	margin-left: 2rem; 
+	margin-left: 2rem;
 }
 
 /*Number Picker*/
