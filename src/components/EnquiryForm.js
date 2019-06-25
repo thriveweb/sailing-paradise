@@ -64,7 +64,7 @@ class Form extends React.Component {
         name={name}
         action={action}
         onSubmit={this.handleSubmit}
-        data-netlify=""
+        data-netlify='true'
         data-netlify-honeypot={honeypot}
       >
         {this.state.alert && (
@@ -113,7 +113,7 @@ class Form extends React.Component {
             disabled={this.state.disabled}
           />
           <ICONButtonArrows />
-        </div>  
+        </div>
       </form>
     )
   }
