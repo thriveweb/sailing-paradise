@@ -1,5 +1,5 @@
 import React, { Fragment } from 'react'
-import Link from 'gatsby-link'
+import { Link } from 'gatsby'
 import _kebabCase from 'lodash/kebabCase'
 import _get from 'lodash/get'
 import { ICONSail } from './Icons'
@@ -55,19 +55,19 @@ export default props => {
               )
             })}
             <h4>Info</h4>
-            <Link className="NavLink" to="/boats/" exact>
+            <Link className="NavLink" to="/boats/">
               Our Boats
             </Link>
-            <Link className="NavLink" to="/about/" exact>
+            <Link className="NavLink" to="/about/">
               About us
             </Link>
-            <Link className="NavLink" to="/case-studies/" exact>
+            <Link className="NavLink" to="/case-studies/">
               Happy Sailors
             </Link>
-            <Link className="NavLink" to="/blog/" exact>
+            <Link className="NavLink" to="/blog/">
               Blog
             </Link>
-            <Link className="NavLink" to="/contact/" exact>
+            <Link className="NavLink" to="/contact/">
               Contact
             </Link>
           </div>
@@ -93,10 +93,10 @@ export default props => {
           <div className="footer-col col4">
             <h4>Quick contact</h4>
             <EnquiryForm />
-            <Link className="NavLink" to="/book-enquiry/" exact>
+            <Link className="NavLink" to="/book-enquiry/">
               Enquire About Hiring our Boats
             </Link>
-            <Link className="NavLink" to="/cruises/" exact>
+            <Link className="NavLink" to="/cruises/">
               Book Tickets on a Cruise
             </Link>
           </div>

@@ -106,23 +106,26 @@ collections: # A list of collections the CMS should be able to edit
             fields:
               - {label: Icon, name: icon, widget: image}
               - {label: Title, name: title, widget: string}
-          # - label: "Testimonials"
-          #   required: false
-          #   name: "testimonials"
-          #   widget: "object"
-          #   fields:
-          #     - {label: Title, name: title, widget: string}
-          #     - {label: Description, name: description, widget: string}
-          #     - {label: Button Title, name: buttonTitle, widget: string}
-          #     - {label: Button Url, name: buttonUrl, widget: string}
-          #     - label: "Featured Testimonials"
-          #       required: false
-          #       name: "featuredTestimonials"
-          #       widget: "list"
-          #       fields:
-          #         - {label: Image, name: image, widget: image}
-          #         - {label: Name, name: name, widget: string}
-          #         - {label: Content, name: content, widget: markdown, pattern: [".{100}", "Must not exceed 300 characters"]}
+          - label: "Featured Testimonials"
+            required: false
+            name: "featuredTestimonials"
+            widget: "object"
+            fields:
+              - {label: Title, name: title, widget: string, required: false}
+              - {label: Description, name: description, widget: string, required: false}
+              - {label: Button Title, name: buttonTitle, widget: string, required: false}
+              - {label: Button Url, name: buttonUrl, widget: string, required: false}
+              - label: "Testimonials Listing"
+                name: "testimonialsListing"
+                required: false
+                widget: "list"
+                fields:
+                  - label: "Testimonial"
+                    name: "testimonial"
+                    widget: "relation"
+                    collection: "caseStudy"
+                    searchFields: ["name"]
+                    valueField: "name"
           - {label: Latest News, name: latestNews, widget: markdown, required: false}
           - label: "Meta"
             required: false

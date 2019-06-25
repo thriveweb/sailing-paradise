@@ -1,5 +1,5 @@
 import React, { Component, Fragment } from 'react'
-import Link from 'gatsby-link'
+import { Link } from 'gatsby'
 import _get from 'lodash/get'
 import { Menu, X } from 'react-feather'
 import BookingPopup from './BookingPopup'

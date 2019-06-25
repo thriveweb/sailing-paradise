@@ -1,7 +1,7 @@
-import React, { Fragment } from 'react'
-import Helmet from 'react-helmet'
+import React from 'react'
 import { stringify } from 'qs'
 import { serialize } from 'dom-form-serializer'
+
 import { ICONButtonArrows } from './Icons'
 
 import './EnquiryForm.css'
@@ -11,6 +11,7 @@ class Form extends React.Component {
     name: 'Enquiry Form',
     subject: '', // optional subject of the notification email
     action: '',
+    honeypot: 'confirm',
     successMessage: 'Thanks for your enquiry, we will get back to you soon',
     errorMessage:
       'There is a problem, your message has not been sent, please try contacting us via email'
@@ -55,64 +56,65 @@ class Form extends React.Component {
   }
 
   render() {
-    const { name, subject, action } = this.props
+    const { name, subject, action, honeypot } = this.props
 
     return (
-      <Fragment>
-        <Helmet>
-          <script src="https://www.google.com/recaptcha/api.js" />
-        </Helmet>
-        <form
-          className="EnquiryForm"
-          name={name}
-          action={action}
-          onSubmit={this.handleSubmit}
-          data-netlify=""
-          netlify-recaptcha=""
-        >
-          {this.state.alert && (
-            <div className="Form--Alert">{this.state.alert}</div>
-          )}
-          <label className="Form--Label">
-            <input
-              className="Form--Input"
-              type="text"
-              placeholder="Name"
-              name="name"
-              required
-            />
-          </label>
-          <label className="Form--Label">
-            <input
-              className="Form--Input"
-              type="email"
-              placeholder="Email"
-              name="emailAddress"
-              required
-            />
-          </label>
-          <label className="Form--Label TextArea">
-            <input
-              className="Form--Input Form--Textarea"
-              placeholder="Message"
-              name="message"
-              rows="10"
-              required
-            />
-          </label>
-          {!!subject && <input type="hidden" name="subject" value={subject} />}
-          <input type="hidden" name="form-name" value={name} />
-          <div className='form-footer'>
-            <input
-              className="button Form--SubmitButton"
-              type="submit"
-              value="Send"
-              disabled={this.state.disabled}
-            />
-            <ICONButtonArrows />
-          </div>
-        </form>
-      </Fragment>
+      <form
+        className="EnquiryForm"
+        name={name}
+        action={action}
+        onSubmit={this.handleSubmit}
+        data-netlify=''
+        data-netlify-honeypot={honeypot}
+      >
+        {this.state.alert && (
+          <div className="Form--Alert">{this.state.alert}</div>
+        )}
+        <label className="Form--Label">
+          <input
+            className="Form--Input"
+            type="text"
+            placeholder="Name"
+            name="name"
+            required
+          />
+        </label>
+        <label className="Form--Label">
+          <input
+            className="Form--Input"
+            type="email"
+            placeholder="Email"
+            name="emailAddress"
+            required
+          />
+        </label>
+        <label className="Form--Label TextArea">
+          <input
+            className="Form--Input Form--Textarea"
+            placeholder="Message"
+            name="message"
+            rows="10"
+            required
+          />
+        </label>
+        <input
+          type="hidden"
+          name={honeypot}
+          className="Form--Input-honey"
+          placeholder="Leave blank if you are a human"
+        />
+        {!!subject && <input type="hidden" name="subject" value={subject} />}
+        <input type="hidden" name="form-name" value={name} />
+        <div className='form-footer'>
+          <input
+            className="button Form--SubmitButton"
+            type="submit"
+            value="Send"
+            disabled={this.state.disabled}
+          />
+          <ICONButtonArrows />
+        </div>
+      </form>
     )
   }
 }

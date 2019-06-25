@@ -1,5 +1,5 @@
 import React, { Fragment } from 'react'
-import Link from 'gatsby-link'
+import { Link } from 'gatsby'
 import Image from './Image'
 import Button from './Button'
 
@@ -7,7 +7,9 @@ import './ServiceColumns.css'
 
 export default ({ services, serviceBanner }) => {
 	const { title, subtitle, buttonUrl, buttonTitle, featuredImage } = serviceBanner
-	
+
+	console.log(title)
+
 	if(!services.length) return null
 
 	return <section className='serviceSection relative'>
@@ -26,13 +28,13 @@ export default ({ services, serviceBanner }) => {
 					</div>
 				</Fragment>
 			})}
-		</div>	
+		</div>
 		<div className='serviceBanner'>
 			<div className='serviceBanner-Content'>
 				{title && <p>{title}</p>}
 				{subtitle && <h3>{subtitle}</h3>}
 				{buttonTitle && buttonUrl && <Button title={buttonTitle} url={buttonUrl} white />}
-				<Image background src={featuredImage} alt='' />	
+				<Image background src={featuredImage} alt='' />
 			</div>
 		</div>
 	</section>

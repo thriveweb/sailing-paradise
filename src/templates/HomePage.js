@@ -33,40 +33,43 @@ export const HomePageTemplate = ({
   posts,
   socialMedia,
   meta
-}) => (
-  <main className="Home">
-    <Helmet title={meta ? meta.title : `${title} | Sailing in Paradise`}>
-      {meta && <meta name="description" content={meta.description} />}
-      {meta && <link rel="canonical" href={meta.canonical} />}
-    </Helmet>    
-    <Video
-      video={featuredVideo}
-      homeVideo title={title}
-      featuredSlider={featuredSlider}
-      featuredBanner={featuredBanner}
-      socialMedia={socialMedia}
-    />
-    <ServiceColumns
-      services={services}
-      serviceBanner={serviceBanner}
-    />
-    <SecondaryBanner
-      {...secondaryBanner}
-      contentBox
-    />
-    <HomeAboutBanner {...aboutSection} />
-    <HighlightChart
-      highlights={highlights}
-      highlightsIntro={highlightsIntro}
-    />
-    <FeaturedPosts
-      latestNews={latestNews}
-      posts={posts}
-    />
-    <InstagramFeed />
-    <SubscribeForm />
-  </main>
-)
+}) => {
+
+  return (
+    <main className="Home">
+      <Helmet title={meta ? meta.title : `${title} | Sailing in Paradise`}>
+        {meta && <meta name="description" content={meta.description} />}
+        {meta && <link rel="canonical" href={meta.canonical} />}
+      </Helmet>
+      <Video
+        video={featuredVideo}
+        homeVideo title={title}
+        featuredSlider={featuredSlider}
+        featuredBanner={featuredBanner}
+        socialMedia={socialMedia}
+      />
+      <ServiceColumns
+        services={services}
+        serviceBanner={serviceBanner}
+      />
+      <SecondaryBanner
+        {...secondaryBanner}
+        contentBox
+      />
+      <HomeAboutBanner {...aboutSection} />
+      <HighlightChart
+        highlights={highlights}
+        highlightsIntro={highlightsIntro}
+      />
+      <FeaturedPosts
+        latestNews={latestNews}
+        posts={posts}
+      />
+      <InstagramFeed />
+      <SubscribeForm />
+    </main>
+  )
+}
 
 // Export Default HomePage for front-end
 const HomePage = ({ data: { page, posts } }) => (

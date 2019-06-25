@@ -1,5 +1,5 @@
 import React from 'react'
-import Link from 'gatsby-link'
+import { Link } from 'gatsby'
 
 import { ICONButtonArrows } from './Icons'
 import Image from './Image'

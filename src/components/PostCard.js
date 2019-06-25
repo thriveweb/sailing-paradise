@@ -1,5 +1,5 @@
 import React, { Fragment } from 'react'
-import Link from 'gatsby-link'
+import { Link } from 'gatsby'
 import _format from 'date-fns/format'
 
 import Image from './Image'
@@ -11,7 +11,7 @@ const PostCard = ({
   icon,
   title,
   date,
-  slug,
+  slug = '',
   categories = [],
   className = '',
   name,
