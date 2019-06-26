@@ -12,11 +12,16 @@ intro: >-
   unique proposal ideas?   Firstly, congratulations, this is such an exciting
   time!!    Secondly, we are thrilled that you are here as we absolutely adore
   hosting proposals and are proud to offer one of the most beautiful ways to
-  propose on the Gold Coast!   Can you imagine anything more romantic than
-  popping the question on your own private yacht as the sun sets over the
-  mountains in the distance?   The answer is pretty much guaranteed to be yes,
-  right?   In fact, we have a 100% success rate to date, so be sure to have that
-  engagement ring at the ready...
+  propose on the Gold Coast!   
+
+
+  > Can you imagine anything more romantic than popping the question on your own
+  private yacht as the sun sets over the mountains in the distance?   
+
+
+  The answer is pretty much guaranteed to be yes, right?   In fact, we have a
+  100% success rate to date, so be sure to have that engagement ring at the
+  ready...
 contentBox:
   buttonTitle: Make enquiry
   buttonUrl: booking-enquiry
