@@ -12,5 +12,10 @@ featuredBanner:
   buttonUrl: test
   image: 'https://ucarecdn.com/ccf3e699-0bd9-4f83-97a9-c71e62605c26/'
   title: testing
+secondaryBanner:
+  buttonTitle: tsetset
+  buttonUrl: setsetset
+  subtitle: test
+  title: test
 ---
 
