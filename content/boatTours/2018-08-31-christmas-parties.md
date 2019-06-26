@@ -30,7 +30,7 @@ contentColumn: >-
   Christmas Party perfect for your group.  
 
 
-  ![](/images/uploads/DSC_0036.jpg)
+  ![](https://ucarecdn.com/b7cfff84-d3df-4e4d-9965-3808ef5f0594/)
 
 
   ## Christmas Party Ideas
@@ -61,9 +61,7 @@ contentColumn: >-
   your whole team will talk about for years to come!
 
 
-
-
-  ## Christmas Party Planners, we are here to help...    
+  ## Christmas Party Planners, we are here to help...
 
 
   OK you have found your perfect Christmas Party, yay!   What now?  Time for a
