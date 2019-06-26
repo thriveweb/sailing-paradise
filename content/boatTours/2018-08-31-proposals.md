@@ -5,20 +5,22 @@ title: Proposals
 icon: ''
 featuredImage: /images/uploads/engagements.jpg
 intro: >-
-  ## gold coast Proposal boat party
+  ## Gold Coast Proposal Cruise
 
 
-  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean elementum
-  scelerisque ex interdum cursus. In hac habitasse platea dictumst. Sed porta
-  ultricies turpis, dapibus efficitur lectus dapibus eget. Sed pharetra urna
-  vitae tincidunt placerat. Sed mollis, ex et placerat malesuada, felis orci
-  ultrices tortor, in molestie augue odio sed nibh. Quisque eros leo, egestas
-  quis ante ac, pretium venenatis augue. Aenean blandit urna sit amet nisi
-  elementum auctor.
+  Are you planning to propose to your future wife, or husband and seeking out
+  unique proposal ideas?   Firstly, congratulations, this is such an exciting
+  time!!    Secondly, we are thrilled that you are here as we absolutely adore
+  hosting proposals and are proud to offer one of the most beautiful ways to
+  propose on the Gold Coast!   Can you imagine anything more romantic than
+  popping the question on your own private yacht as the sun sets over the
+  mountains in the distance?   The answer is pretty much guaranteed to be yes,
+  right?   In fact, we have a 100% success rate to date, so be sure to have that
+  engagement ring at the ready...
 contentBox:
   buttonTitle: Make enquiry
   buttonUrl: booking-enquiry
-  title: Let us tailor your VIP Gold Coast Proposal Party Experience
+  title: Enquire about your unique proposal
 gallery:
   - image: /images/uploads/girls-img9.jpg
   - image: /images/uploads/girls-img5.jpg
@@ -26,129 +28,49 @@ gallery:
   - image: /images/uploads/girls-img6.jpg
   - image: /images/uploads/pantsless-waiter.jpg
 videoSection:
-  imageOverlay: /images/uploads/DSC_1073.jpg
-  video: >-
-    https://www.youtube.com/watch?v=vr0qNXmkUJ8&list=PLNhzc-Os3JK8ExayVzzoHVvP2c0-4_oqt
-contentColumnTitle: We love Proposal parties and Proposal parties love us!
-contentColumn: >-
-  We have hosted over 1000 happy Proposal parties and we are continually
-  striving to create the best experience possible for our guests.
-
-
-  We understand that you want your special day to be memorable, fun, relaxing
-  and stress free and that is exactly what we specialise in.
-
-
-  From the moment you send through an enquiry all the way through to the follow
-  up email with your free souvenir photo’s after your cruise, we pride ourselves
-  on our professional yet friendly and laid back attitude.
-
-
-  No matter what style of party you are after we can help. Whether you are
-  looking for a relaxing day on the water with some yummy food and a few drinks.
-  Or an elegant morning tea cruise with champagne and delicious cupcakes. Even a
-  raucous Proposal party with a butler in the buff and all the trimmings we are
-  here for you. We have some great Gold Coast Proposal night ideas also.
+  imageOverlay: ''
+  video: ''
+contentColumnTitle: A proposal to remember...
+contentColumn: "A yacht proposal is an experience that neither one of you will ever forget.  \n\n> \"Life is not measured by the number of breaths we take, but the moments that take our breath away\"\n\nOur beautiful waterways are the perfect backdrop for romance.  We invite you to sail away on your own private yacht, relaxing on the trampoline style foredeck, sipping champagne and nibbling on gourmet cheese platters to the sounds of your favourite tunes and the waves lapping beneath.   You may even be joined by the friendly bottle-nose dolphins who frequently ride the bow waves of our catamarans.  \n\nThere are many ways to pop the question on board.  Perhaps consider a traditional bended knee approach, arriving at a romantic beach picnic by boat, or our most popular option – revealing our gorgeous ‘Will You Marry Me’ Sail at sunset (the sail can be hoisted discretely by our onboard crew at just the right time.  \r\n\nWe would love to chat with you via phone or email any time and start planning your perfect proposal which can be fully customised to your wishes."
 accordionSection:
   accordion:
     - dropdownContent: >-
-        Why settle for ordinary when you can sail away on the Gold Coast’s most
-        luxurious and unique sailing catamaran.
+        A unique customised experience - this is not a cookie cutter marriage
+        proposal.  You are invited to make this time your own and it should be
+        as unique as your relationship.   
 
 
-        Our stable sailing catamaran is ideal for groups of up to 30 ladies. The
-        large trampoline-style fore-deck is perfect for lazing in the sunshine
-        or dancing, while we sail the calm, clear waters of the Gold Coast. The
-        ample undercover space makes the vessel perfect for those seeking shade.
-        Facilities are plentiful to ensure you have everything on hand to enjoy
-        a perfect day! Definitely the boat to be seen on and with room for up to
-        30 passengers, this smooth and stable yacht is the ideal venue for a
-        wonderful cruise.  Let the crew pamper you the way you deserve with our
-        Ultimate VIP Proposal Party Cruise.
+        Upon boarding the boat you will be greeted by our friendly crew who will
+        adapt to your preference of involvement on board.    We invite you to
+        take a walk around the boat and find a place to chill out with a drink
+        and enjoy the beautiful views and the sounds of the water.   When it
+        comes time to pop the question should you wish to use our beautiful
+        'will you marry me' sail simply give our skipper the nod and we will
+        unfurl it at the perfect moment often to the sounds of a favourite song
+        you may have let us know about.
       title: What to expect
     - dropdownContent: >-
-        Why settle for ordinary when you can sail away on the Gold Coast’s most
-        luxurious and unique sailing catamaran.
+        * Your partner (and any family if you wish to make it a group event)
 
+        * The ring :-)
 
-        Our stable sailing catamaran is ideal for groups of up to 30 ladies. The
-        large trampoline-style fore-deck is perfect for lazing in the sunshine
-        or dancing, while we sail the calm, clear waters of the Gold Coast. The
-        ample undercover space makes the vessel perfect for those seeking shade.
-        Facilities are plentiful to ensure you have everything on hand to enjoy
-        a perfect day! Definitely the boat to be seen on and with room for up to
-        30 passengers, this smooth and stable yacht is the ideal venue for a
-        wonderful cruise.  Let the crew pamper you the way you deserve with our
-        Ultimate VIP Proposal Party Cruise.
+        * If you wish to BYO you are welcome to bring food and drinks on board. 
+        We also provide fully catered packages
+
+        * If you are sailing during the day and wish to swim, please bring
+        towels
       title: What to Bring
-    - dropdownContent: >-
-        Why settle for ordinary when you can sail away on the Gold Coast’s most
-        luxurious and unique sailing catamaran.
-
-
-        Our stable sailing catamaran is ideal for groups of up to 30 ladies. The
-        large trampoline-style fore-deck is perfect for lazing in the sunshine
-        or dancing, while we sail the calm, clear waters of the Gold Coast. The
-        ample undercover space makes the vessel perfect for those seeking shade.
-        Facilities are plentiful to ensure you have everything on hand to enjoy
-        a perfect day! Definitely the boat to be seen on and with room for up to
-        30 passengers, this smooth and stable yacht is the ideal venue for a
-        wonderful cruise.  Let the crew pamper you the way you deserve with our
-        Ultimate VIP Proposal Party Cruise.
-      title: Considerations
-    - dropdownContent: >-
-        Why settle for ordinary when you can sail away on the Gold Coast’s most
-        luxurious and unique sailing catamaran.
-
-
-        Our stable sailing catamaran is ideal for groups of up to 30 ladies. The
-        large trampoline-style fore-deck is perfect for lazing in the sunshine
-        or dancing, while we sail the calm, clear waters of the Gold Coast. The
-        ample undercover space makes the vessel perfect for those seeking shade.
-        Facilities are plentiful to ensure you have everything on hand to enjoy
-        a perfect day! Definitely the boat to be seen on and with room for up to
-        30 passengers, this smooth and stable yacht is the ideal venue for a
-        wonderful cruise.  Let the crew pamper you the way you deserve with our
-        Ultimate VIP Proposal Party Cruise.
-      title: VIP Packages
-    - dropdownContent: >-
-        Why settle for ordinary when you can sail away on the Gold Coast’s most
-        luxurious and unique sailing catamaran.
-
-
-        Our stable sailing catamaran is ideal for groups of up to 30 ladies. The
-        large trampoline-style fore-deck is perfect for lazing in the sunshine
-        or dancing, while we sail the calm, clear waters of the Gold Coast. The
-        ample undercover space makes the vessel perfect for those seeking shade.
-        Facilities are plentiful to ensure you have everything on hand to enjoy
-        a perfect day! Definitely the boat to be seen on and with room for up to
-        30 passengers, this smooth and stable yacht is the ideal venue for a
-        wonderful cruise.  Let the crew pamper you the way you deserve with our
-        Ultimate VIP Proposal Party Cruise.
-      title: More Proposal Ideas
-    - dropdownContent: >-
-        Why settle for ordinary when you can sail away on the Gold Coast’s most
-        luxurious and unique sailing catamaran.
-
-
-        Our stable sailing catamaran is ideal for groups of up to 30 ladies. The
-        large trampoline-style fore-deck is perfect for lazing in the sunshine
-        or dancing, while we sail the calm, clear waters of the Gold Coast. The
-        ample undercover space makes the vessel perfect for those seeking shade.
-        Facilities are plentiful to ensure you have everything on hand to enjoy
-        a perfect day! Definitely the boat to be seen on and with room for up to
-        30 passengers, this smooth and stable yacht is the ideal venue for a
-        wonderful cruise.  Let the crew pamper you the way you deserve with our
-        Ultimate VIP Proposal Party Cruise.
-      title: Proposal Party FAQ's
-  title: Proposal Party Info
+    - dropdownContent: "Yes we do!!   Our ‘Sail Away with me…’ Proposal package includes;\r\n\n* A 2 hour private sunset sail for 2 guests (mid-week)\r\n* A romantic boat picnic set up on the front deck\r (weather permitting)\n* Use of our beautiful ‘Will you Marry me’ Sail (you give the nod)\r\n* Chilled bottle of Moet and gourmet cheese board\r\n* Beautiful photos captured of your proposal and voyage \r\n\n$900*\r\n\n\\*Subject to availability.  Peak periods and public holidays may be excluded.  Weekends may be available on request, please enquire.  \r\n\nYou can also consider a surprise proposal with your closest family and friends on board.  Please contact us for a quote for a customised private charter."
+      title: Do you offer special packages?
+  sectionTitle: Planning your proposal cruise
 columnBanner:
   - buttonTitle: Make Enquiry
     buttonUrl: booking-enquiry
     content: >-
-      Let our friendly and experienced team tailor a VIP Gold Coast Proposal
-      Party Experience that they won’t forget.
-    title: Give your friend the party they deserve!
+      Let our friendly and experienced team tailor a Proposal Cruise that they
+      won’t forget.
+    title: A proposal like no other...
     featuredImage: /images/uploads/girl-img-column2.jpg
-  - featuredImage: /images/uploads/girl-img-column.jpg
+  - featuredImage: 'https://ucarecdn.com/084f92bb-7abc-45fa-92df-ee789be5f7cd/'
 ---
+
