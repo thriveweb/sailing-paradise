@@ -105,13 +105,30 @@ accordionSection:
         offers plentiful seating, a large central table, a permanent hard roof
         and 360 degree visibility (making it suitable for all weather
         conditions).
-      title: Open Plan Layout - ideal for parties
+
+
+        On-board you will find a small marine BBQ, large eskys (ice supplied),
+        Fusion Marine sound system with speakers inside and out, bluetooth
+        connectivity and premium Spotify provided and marine toilet.
+
+
+        The front of the boat is extremely popular with guests, offering a
+        trampoline-style area perfect for lazing in the sun whilst listening to
+        the sounds of your favourite Christmas songs streaming through our
+        Fusion sound system.
+      title: Our boats are ideal for parties
     - dropdownContent: >-
+        The front boarding ladder and shallow draft make the vessel perfect for
+        pulling up onto a beach at Wavebreak Island, South Stradbroke Island or
+        one of the many golden sandy shores in the Gold Coast broadwater. Your
+        skipper will pick the best spot for you on the day!
+
+
         Fancy floating around on an inflatable flamingo, or maybe giving Stand
         Up Paddle Boarding a go?   Perhaps you are feeling energetic and want to
         bring the team together with a hit of beach cricket or volleyball.   We
         carry all of these activities on-board for your use free of charge.
-      title: ' Free use of beach activities'
+      title: Island landings and Beach Activities included
     - dropdownContent: >-
         If your boss got sick once on a Caribbean Cruise, or Carol from accounts
         feels a bit queasy whenever she gets in the bath, please tell them not
@@ -133,63 +150,16 @@ accordionSection:
         We work with some excellent caterers and can offer a range of Christmas,
         brunch, lunch or dinner options from budget through to premium.   If you
         would prefer to BYO that is completely fine too!
-      title: Fully Catered or BYO
-    - dropdownContent: >-
+
+
         We offer a full bar service including competitively priced drinks
         packages.  Alternatively you can choose to BYO drinks.
-      title: ' Fully licensed or BYO'
-    - dropdownContent: >-
-        On-board you will find a small marine BBQ, large eskys (ice supplied),
-        Fusion Marine sound system with speakers inside and out, bluetooth
-        connectivity and premium Spotify provided and marine toilet.
-      title: Excellent on-board facilities
+      title: Fully Catered and licensed or BYO
     - dropdownContent: >-
         We love hoisting the sails and switching off the motors. One of the few
         true sailing experiences you will find on the coast and the only
         commercial sailing boat capable of taking 30 people.
       title: ' Experience the delight of Sailing...in complete comfort'
-    - dropdownContent: >-
-        The front of the boat is extremely popular with guests, offering a
-        trampoline-style area perfect for lazing in the sun whilst listening to
-        the sounds of your favourite Christmas songs streaming through our
-        Fusion sound system.
-      title: ' 360 degree views from all areas '
-    - dropdownContent: >-
-        The front boarding ladder and shallow draft make the vessel perfect for
-        pulling up onto a beach at Wavebreak Island, South Stradbroke Island or
-        one of the many golden sandy shores in the Gold Coast broadwater. Your
-        skipper will pick the best spot for you on the day!
-      title: Easy Beach Landings
-    - dropdownContent: >-
-        Why settle for ordinary when you can sail away on the Gold Coast’s most
-        luxurious and unique sailing catamaran.
-
-
-        Our stable sailing catamaran is ideal for groups of up to 30 ladies. The
-        large trampoline-style fore-deck is perfect for lazing in the sunshine
-        or dancing, while we sail the calm, clear waters of the Gold Coast. The
-        ample undercover space makes the vessel perfect for those seeking shade.
-        Facilities are plentiful to ensure you have everything on hand to enjoy
-        a perfect day! Definitely the boat to be seen on and with room for up to
-        30 passengers, this smooth and stable yacht is the ideal venue for a
-        wonderful cruise.  Let the crew pamper you the way you deserve with our
-        Ultimate VIP Christmas Party Cruise.
-      title: What to Bring
-    - dropdownContent: >-
-        Why settle for ordinary when you can sail away on the Gold Coast’s most
-        luxurious and unique sailing catamaran.
-
-
-        Our stable sailing catamaran is ideal for groups of up to 30 ladies. The
-        large trampoline-style fore-deck is perfect for lazing in the sunshine
-        or dancing, while we sail the calm, clear waters of the Gold Coast. The
-        ample undercover space makes the vessel perfect for those seeking shade.
-        Facilities are plentiful to ensure you have everything on hand to enjoy
-        a perfect day! Definitely the boat to be seen on and with room for up to
-        30 passengers, this smooth and stable yacht is the ideal venue for a
-        wonderful cruise.  Let the crew pamper you the way you deserve with our
-        Ultimate VIP Christmas Party Cruise.
-      title: Christmas Party FAQ's
   sectionTitle: Why book your Christmas Party with us?
 columnBanner:
   - buttonTitle: BUY NOW
