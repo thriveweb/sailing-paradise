@@ -24,7 +24,7 @@ navItems:
         title: Family Gatherings
       - slug: boat-tours/raft-up-parties
         title: Raft Up Parties
-      - slug: boat-tours/memorials
+      - slug: boat-tours/memorials-scattering-of-ashes-at-sea/
         title: Memorials
       - slug: boat-tours/christmas-parties
         title: Christmas Parties
@@ -48,3 +48,4 @@ navItems:
         title: Contact Us
     title: More
 ---
+
