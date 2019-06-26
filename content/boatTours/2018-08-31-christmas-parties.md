@@ -9,7 +9,12 @@ contentBox:
   buttonTitle: Make enquiry
   buttonUrl: booking-enquiry
   title: Let us tailor your VIP Gold Coast Christmas Party Experience
-gallery: []
+gallery:
+  - image: 'https://ucarecdn.com/9de5f1c0-2207-460f-a285-77d43365c0bb/'
+  - image: 'https://ucarecdn.com/f73ace6b-21fc-4a27-966f-b964c917b132/'
+  - image: 'https://ucarecdn.com/a730f8d2-9c0b-4efd-966d-586d98a5e054/'
+  - image: 'https://ucarecdn.com/9ca4c73d-f081-443b-b587-c76ecd1781f4/'
+  - image: 'https://ucarecdn.com/36b89cc7-61e9-4279-8ddd-483a11a63bb9/'
 videoSection:
   imageOverlay: ''
   video: >-
