@@ -14,8 +14,8 @@ videoSection:
   imageOverlay: ''
   video: >-
     https://www.youtube.com/watch?v=vr0qNXmkUJ8&list=PLNhzc-Os3JK8ExayVzzoHVvP2c0-4_oqt
-contentColumnTitle: We love Corporate parties and Corporate parties love us!
-contentColumn: "With both 30 and 20 capacity boats in the fleet, Sailing in Paradise can accommodate small intimate groups or larger groups.   If you have a larger group we can arrange additional vessels for a 'raft up' for up to 90 people.  Imagine your own private fleet of yachts setting sail for a secret rendezvous location. \r\n\nRead more about our raft up events here – \r\n\nOur catamarans offer comfort, space and style and a guaranteed to create a social atmosphere for your cruise due to the perfect open plan layouts of these boats.    \n\nFor the ultimate in stress-free event planning consider our catering and drinks packages.  We work with some amazing caterers and can offer anything from gourmet grazing boards to private chefs.  \r\n\nWe can also assist with team building activities to motive, inspire and unite your guests.  These include sailing challenges and survivor style beach games.  \r\n\n\rWant to know more about us or our boats?"
+contentColumnTitle: A corporate event venue with a difference...
+contentColumn: "Our catamarans offer comfort, space and style and are guaranteed to create a social atmosphere for your cruise.    With 30 and 20 capacity boats in the fleet, Sailing in Paradise can accommodate small intimate groups or larger gatherings.   We can also arrange additional vessels for a 'yacht raft up' for up to 90 people.  Imagine your own private fleet of yachts setting sail for a secret rendezvous location for an afternoon of fun in the sunshine.  \rRead more about our raft up events here.   \n\nFor the ultimate in stress-free event planning we offer a range of catering and drinks packages.  Partnering with some of the Gold Coast's best caterers we offer a plethora of dining options from gourmet grazing boards to private chefs.  \r\n\n\rWant to know more about us or our boats?"
 accordionSection:
   accordion:
     - dropdownContent: >-
@@ -56,6 +56,7 @@ accordionSection:
       title: Optional extras for your corporate event
     - dropdownContent: ''
       title: Corporate Event FAQ's
+  sectionTitle: Why choose Sailing in Paradise?
 columnBanner:
   - buttonTitle: Make Enquiry
     buttonUrl: booking-enquiry
