@@ -24,5 +24,8 @@ aboutSection:
   content: test
   subtitle: '8765432'
   title: '12345678'
+highlightsIntro: intro here
+highlights:
+  - title: test
 ---
 
