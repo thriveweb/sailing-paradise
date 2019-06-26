@@ -27,5 +27,12 @@ aboutSection:
 highlightsIntro: intro here
 highlights:
   - title: test
+featuredTestimonials:
+  buttonTitle: test
+  buttonUrl: setset
+  description: test
+  testimonialsListing:
+    - testimonial: Sonia & Diana
+  title: test
 ---
 
