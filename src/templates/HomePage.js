@@ -18,7 +18,6 @@ import SubscribeForm from '../components/SubscribeForm'
 export const HomePageTemplate = ({
   title,
   featuredVideo,
-  body,
   buttonTitle,
   buttonUrl,
   featuredSlider,
@@ -74,7 +73,7 @@ export const HomePageTemplate = ({
 // Export Default HomePage for front-end
 const HomePage = ({ data: { page, posts } }) => (
   <Layout meta={page.frontmatter.meta || false}>
-    <HomePageTemplate {...page} {...page.frontmatter} body={page.html} posts={posts} />
+    <HomePageTemplate {...page.frontmatter} posts={posts} />
   </Layout>
 )
 
@@ -83,7 +82,6 @@ export default HomePage
 export const pageQuery = graphql`
   query HomePage($id: String!) {
     page: markdownRemark(id: { eq: $id }) {
-      html
       frontmatter {
         title
         featuredVideo
@@ -143,12 +141,12 @@ export const pageQuery = graphql`
           canonicalLink
         }
       }
-    }
-    posts: allMarkdownRemark(
+      }
+      posts: allMarkdownRemark(
       limit: 3
       filter: { fields: { contentType: { eq: "posts" } } }
       sort: { order: DESC, fields: [frontmatter___date] }
-    ) {
+      ) {
       edges {
         node {
           fields {

@@ -1,4 +1,5 @@
 import React, { Fragment } from 'react'
+import _get from 'lodash/get'
 import { Link } from 'gatsby'
 import Image from './Image'
 import Button from './Button'
@@ -6,15 +7,15 @@ import Button from './Button'
 import './ServiceColumns.css'
 
 export default ({ services, serviceBanner }) => {
-	const { title, subtitle, buttonUrl, buttonTitle, featuredImage } = serviceBanner
-
-	console.log(title)
-
-	if(!services.length) return null
+	const title = _get(serviceBanner, 'title') || ''
+	const subtitle = _get(serviceBanner, 'subtitle') || ''
+	const buttonUrl = _get(serviceBanner, 'buttonUrl') || ''
+	const buttonTitle = _get(serviceBanner, 'buttonTitle') || ''
+	const featuredImage = _get(serviceBanner, 'featuredImage') || ''
 
 	return <section className='serviceSection relative'>
 		<div className='serviceColumns'>
-			{services.map(({ serviceContent, image }, index) => {
+			{services && services.map(({ serviceContent, image }, index) => {
 				const { icon, title, description, buttonUrl } = serviceContent
 				return <Fragment key={index}>
 					<div className='serviceContent'>
