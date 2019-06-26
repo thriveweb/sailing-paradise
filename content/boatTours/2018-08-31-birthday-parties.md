@@ -109,81 +109,73 @@ accordionSection:
         Some things are almost mandatory:
 
 
-        Singing Happy Birthday to you, cake, embarassing speeches, presents.
+        Singing Happy Birthday to you, cake, embarassing speeches, presents,
+        cake, all your favourite songs...did we mention cake?
       title: What to expect
     - dropdownContent: |-
-        Keep it simple.
+        Keep it simple;
 
-        Swimmers and beach towels.
-
-        Food and drink (unless you want us to organise the catering for you).
-
-        Smiles and good vibes.
+        * Swimmers and beach towels.
+        * Food and drink (unless you want us to organise the catering for you).
+        * Smiles and good vibes.
+        * A few decorations or special photos to pop on the table if you wish.
 
         We'll provide the rest.
       title: What to Bring
-    - dropdownContent: |-
-        Please remember:
+    - dropdownContent: >-
+        We love a good birthday but to keep our boats safe and nicely presented
+        there are a few things we do not allow on board;
 
-        No red wine, No sparklers, No drunken idiots and No bad juju.
+
+        * Red wine
+
+        * Sparklers 
+
+        * Decorations that stain/leak ink when wet
+
+        * Drunken idiots (tipsy fun peeps totally fine)
+
+        * Budgie Smugglers and mankinis :-)    Well if you are the birthday boy
+        and desperately want to wear one we might bend the rules for you just
+        once...
       title: Considerations
     - dropdownContent: >-
-        We have done a lot of research to find the best Gold Coast caterers and
-        are happy to organise this on your behalf, or you are more than welcome
-        to BYO.
+        We have done a lot of research to find the best Gold Coast party
+        caterers and are happy to organise this on your behalf, or you are more
+        than welcome to BYO.
 
 
-        We do have a bbq on board which you are free to use however as you will
-        need to cook this yourself we find that this can detract from your
-        enjoyment on the day therefore we recommend this only if you have booked
-        the boat for 4 hours or more. But the choice is yours.
+        We do have a bbq on board which you are welcome to use however we
+        recommend this only if you have booked the boat for 4 hours or more as
+        it can take quite a while for you to cook a BBQ and you need to leave
+        time for relaxation too right? 
 
 
-        Again we find the best idea is to Keep it Simple.
+        Grazing style boards and platters are ideal 'boat food'. These can look
+        sensational as a centrepiece for the large timber tables we have on
+        board and your guests are free to pick away at their convenience.
 
 
-        Fingerfoods are the go and the latest craze is grazing boards or
-        platters. These can look sensational as a centrepiece for the large
-        timber tables we have on board and your guests are free to pick away at
-        their convenience.
+        We offer Grazing Boards, Tapas , BBQs, Canapes and Private Chefs plus
+        many more catering options.  
 
 
-        You can see some samples of the caterers we have used in the past on our
-        social media pages.
+        We can also assist with a drinks service and offer pre-paid tabs, drinks
+        packages or paid bar options.   If you prefer to BYO your drinks this is
+        also possible.
 
 
-        If you think you're up to the challenge to create your own platter, feel
-        free to take some inspo from these also or check out pinterest.
+        Please enquire and you will receive a list of catering and beverage
+        options.
       title: Catered or BYO
     - dropdownContent: >-
-        Arrive in style with a stretch Hummer limousine.
+        Arrive in style with a stretch Hummer or limousine transfer to the
+        marina.
 
 
-        Add some exciting watersports. Jetboating and Parasailing can be
-        arranged and they can pick you up off the boat.
-
-
-        Have cocktails in one of the rooftop bars or hit the clubs in Surfers or
-        Broadbeach after your cruise, or dine in some of Australia's best
-        restaurants located right here on the Gold Coast. Ask us for
-        recommendations.
-
-
-        Indulge in a relaxing day spa or treat yourself to some retail therapy.
-
-
-        Take in the sights from above with a Seaplane, Helicopter flight or Hot
-        Air Balloon.
-
-
-        Have a hit at the Goldies newest attraction TopGolf.
-
-
-        Gather the troops for some Indoor karting at Slideways GoKarts or battle
-        it out with a paintball tournament.
-
-
-        The list goes on and on.
+        Add some exciting watersports to your charter. Jetboating and
+        Parasailing can be arranged and they can pick you up off the boat for a
+        true VIP Experience.
       title: More Birthday Ideas
     - dropdownContent: >-
         Q. What happens if it's raining?
@@ -192,7 +184,7 @@ accordionSection:
         A. Check out our wet weather policy HERE.
 
 
-        Q. I sometimes get seasick, is there waves?
+        Q. I sometimes get seasick, are there waves?
 
 
         A. The boat is very smooth and stable and we operate in the calm
@@ -205,9 +197,9 @@ accordionSection:
         music?
 
 
-        A. Most things are provided however you will need to byo towel. One of
-        our friendly staff will let you know what is included when you make your
-        initial enquiry.
+        A. Most things are provided however you will need to byo towel ad
+        camera. One of our friendly staff can let you know what is included when
+        you make your initial enquiry.
 
 
         Q. How do I book?
@@ -217,7 +209,7 @@ accordionSection:
         you need including availability, pricing, inclusions etc. Then it is
         simply a matter of paying your deposit to secure your preferred date.
         But don't dawdle as we quickly book out and we don't want you to be
-        dissapointed.
+        disappointed.
 
 
         Q. Why should we choose you over another operator?
@@ -226,19 +218,20 @@ accordionSection:
         A. This list is endless. Check out our reviews, check out our socials,
         speak to someone who has been with us before (you would be surprised,
         you will probably know someone who has been with us?), and we pride
-        ourselves on the fact that our guests keep coming back (some have been
+        ourselves on the fact that our guests keep coming back (some have sailed
         with us as many as 8 times). We go out of our way to create the best
         experience possible and are constantly updating, re-inventing,
         reinvesting and reviewing. We're not happy until you're happy and we
-        want you to come back again and again.
+        want you to come back again and again.  We can blow our own trumpet from
+        time to time right?  :-)
       title: Birthday Party FAQ's
 columnBanner:
   - buttonTitle: Make Enquiry
     buttonUrl: booking-enquiry
     content: >-
       Let our friendly and experienced team tailor a VIP Gold Coast Birthday
-      Party Experience that they won’t forget.
-    title: Give your friend the party they deserve!
+      Party Experience you won’t forget.
+    title: Celebrate your birthday in style
     featuredImage: 'https://ucarecdn.com/61c88734-b17f-450f-8e6b-e10d9ade46f2/'
   - featuredImage: 'https://ucarecdn.com/f3bf4df1-6f8a-405b-b07f-96343f6aa19c/'
 ---
