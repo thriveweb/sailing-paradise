@@ -4,6 +4,8 @@ title: ''
 subtitle: ''
 featuredImage: /images/logo.svg
 featuredVideo: ''
+intro: ''
+body: ''
 featuredSlider:
   - title: ''
   - desciption: ''
@@ -50,10 +52,99 @@ featuredTestimonials:
   buttonTitle: ''
   buttonUrl: ''
 latestNews: ''
-meta: 
+meta:
   title: ''
   description: ''
   canonicalLink: ''
+gallery:
+  - image: /images/logo.svg
+captainSection:
+  captainIntro: ''
+  captain:
+    - image: /images/logo.svg
+    - name: ''
+    - title: ''
+    - description: ''
+    - socialMedia:
+        linkedin: ''
+        twitter: ''
+crewSection:
+  crewIntro: ''
+  crew:
+    - image: /images/logo.svg
+    - name: ''
+    - title: ''
+    - content: ''
+videoSection:
+  imageOverlay: /images/logo.svg
+  title: ''
+  video: ''
+columnBanner:
+  - title: ''
+  - content: ''
+  - featuredImage: /images/logo.svg
+  - buttonTitle: ''
+  - buttonUrl: ''
+boats:
+  - title: ''
+  - featuredImage: /images/logo.svg
+  - description: ''
+  - boatFeatures:
+      - content: ''
+  - gallery:
+      - image: /images/logo.svg
+  - videoSection:
+      imageOverlay: /images/logo.svg
+      title: ''
+      video: ''
+excerpt: ''
+contentSecondary: ''
+name: ''
+secondaryImage: /images/logo.svg
+contentBox:
+  title: ''
+  buttonTitle: ''
+  buttonUrl: ''
+bookingIframe: ''
+contentColumnTitle: ''
+contentColumn: ''
+accordionSection:
+  sectionTitle: ''
+  accordion:
+    - title: ''
+    - dropdownContent: ''
+content: ''
+phone: ''
+address: ''
+hours: ''
+map: /images/logo.svg
+socialMedia:
+  facebook: ''
+  instagram: ''
+  googlePlus: ''
+  tripAdvisor: ''
+navItems:
+  - title: ''
+  - slug: ''
+  - subNavItems:
+      - title: ''
+      - slug: ''
+globalVideo:
+  title: ''
+  imageOverlay: /images/logo.svg
+  video: ''
+bookingPopup:
+  title: ''
+  contentBoxes:
+    - icon: /images/logo.svg
+    - title: ''
+    - buttonTitle: ''
+    - buttonUrl: ''
+siteTitle: ''
+siteUrl: ''
+siteDescription: ''
+headerScripts: ''
+
 
 ---
 
