@@ -665,8 +665,8 @@ collections: # A list of collections the CMS should be able to edit
             required: false
             widget: list
             fields:
-              - {label: Title, name: title, widget: string}
-              - {label: Slug, name: slug, widget: string}
+              - {label: Title, name: title, widget: string, required: false}
+              - {label: Slug, name: slug, widget: string, required: false}
               - label: SubNav Items
                 name: subNavItems
                 required: false
