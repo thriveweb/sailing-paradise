@@ -1,7 +1,7 @@
 ---
 template: HomePage
 slug: ''
-title: testing home pag
+title: testing home page
 featuredVideo: testing featured video
 featuredSlider:
   - buttonUrl: test
