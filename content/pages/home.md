@@ -34,6 +34,6 @@ featuredTestimonials:
   testimonialsListing:
     - testimonial: Sonia & Diana
   title: test
-latestNews: latest testing
+latestNews: slatest testing
 ---
 
