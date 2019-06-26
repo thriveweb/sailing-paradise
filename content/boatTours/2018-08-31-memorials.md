@@ -19,9 +19,8 @@ gallery:
   - image: 'https://ucarecdn.com/5003ef77-a609-4f4b-a28a-025e2e02af6c/'
   - image: 'https://ucarecdn.com/8a8f6b8f-77c0-4798-8ac2-695f41045ace/'
 videoSection:
-  imageOverlay: /images/uploads/DSC_1073.jpg
-  video: >-
-    https://www.youtube.com/watch?v=vr0qNXmkUJ8&list=PLNhzc-Os3JK8ExayVzzoHVvP2c0-4_oqt
+  imageOverlay: ''
+  video: ''
 contentColumnTitle: ''
 contentColumn: "Our vessels offer the ideal platform for safely dispersing the ashes from the rear boarding steps (which sit very close to water level whilst remaining safe and stable).   Our warm and respectful crew will sail the vessel to your preferred location (often the Seaway or nearby a favourite Island) before dropping anchor and recording the GPS coordinates of the location carefully. \r\n\nThe spacious and wide vessels are intimate in design though spacious enough to be suitable for families and groups.  We sail in the calm protected waters of the Gold Coast Broadwater meaning a comfortable sailing experience for all on board.  We can assist with catering and beverages or you are also most welcome to BYO food and drinks on board.   \r\n\nPlease feel free to contact us before or after the cremation or funeral to discuss a private charter for spreading ashes of your loved one."
 accordionSection:
@@ -63,6 +62,6 @@ columnBanner:
       your wishes.
     title: 'Enquire now '
     featuredImage: /images/uploads/girl-img-column2.jpg
-  - featuredImage: 'https://ucarecdn.com/52b9200b-2487-410e-8503-3588419e247c/'
+  - featuredImage: 'https://ucarecdn.com/6754bb1e-837c-4e33-bcba-69f6251f758f/'
 ---
 
