@@ -1,6 +1,6 @@
 ---
 template: HomePage
 slug: ''
-test: tesing home page
+title: testing home page
 ---
 
