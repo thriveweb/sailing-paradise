@@ -70,7 +70,7 @@ columnBanner:
       Let our friendly and experienced team tailor a Proposal Cruise that they
       won’t forget.
     title: A proposal like no other...
-    featuredImage: /images/uploads/girl-img-column2.jpg
+    featuredImage: 'https://ucarecdn.com/8a4a1f89-1f16-4ac9-9ec2-8c1d21465116/'
   - featuredImage: 'https://ucarecdn.com/084f92bb-7abc-45fa-92df-ee789be5f7cd/'
 ---
 
