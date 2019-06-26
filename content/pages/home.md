@@ -17,5 +17,12 @@ secondaryBanner:
   buttonUrl: setsetset
   subtitle: test
   title: test
+aboutSection:
+  buttons:
+    - buttonTitle: test
+      buttonUrl: teset
+  content: test
+  subtitle: '8765432'
+  title: '12345678'
 ---
 
