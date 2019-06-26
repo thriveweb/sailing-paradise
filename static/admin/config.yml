@@ -57,8 +57,8 @@ collections: # A list of collections the CMS should be able to edit
                 name: "serviceContent"
                 widget: "object"
                 fields:
-                  - {label: Icon, name: icon, widget: image}
-                  - {label: Title, name: title, widget: string}
+                  - {label: Icon, name: icon, widget: image, required: false}
+                  - {label: Title, name: title, widget: string, required: false}
                   - {label: Description, name: description, widget: text, required: false, pattern: [".{170}", "Must not exceed 300 characters"]}
                   - {label: Button Url, name: buttonUrl, widget: string, required: false}
               - {label: Image, name: image, widget: image, required: false}
@@ -67,45 +67,45 @@ collections: # A list of collections the CMS should be able to edit
             name: "serviceBanner"
             widget: "object"
             fields:
-              - {label: Title, name: title, widget: string}
-              - {label: Subtitle, name: subtitle, widget: string}
-              - {label: Button Title, name: buttonTitle, widget: string}
-              - {label: Button Url, name: buttonUrl, widget: string}
-              - {label: Featured Image, name: featuredImage, widget: image}
+              - {label: Title, name: title, widget: string, required: false}
+              - {label: Subtitle, name: subtitle, widget: string, required: false}
+              - {label: Button Title, name: buttonTitle, widget: string, required: false}
+              - {label: Button Url, name: buttonUrl, widget: string, required: false}
+              - {label: Featured Image, name: featuredImage, widget: image, required: false}
           - label: "Secondary Banner"
             required: false
             name: "secondaryBanner"
             widget: "object"
             fields:
-              - {label: Title, name: title, widget: string}
-              - {label: Subtitle, name: subtitle, widget: string}
-              - {label: Button Title, name: buttonTitle, widget: string}
-              - {label: Button Url, name: buttonUrl, widget: string}
-              - {label: Featured Image, name: featuredImage, widget: image}
+              - {label: Title, name: title, widget: string, required: false}
+              - {label: Subtitle, name: subtitle, widget: string, required: false}
+              - {label: Button Title, name: buttonTitle, widget: string, required: false}
+              - {label: Button Url, name: buttonUrl, widget: string, required: false}
+              - {label: Featured Image, name: featuredImage, widget: image, required: false}
           - label: "About Section"
             required: false
             name: "aboutSection"
             widget: "object"
             fields:
-              - {label: Featured Image, name: featuredImage, widget: image}
-              - {label: Title, name: title, widget: string}
-              - {label: Subtitle, name: subtitle, widget: string}
-              - {label: Content, name: content, widget: markdown}
+              - {label: Featured Image, name: featuredImage, widget: image, required: false}
+              - {label: Title, name: title, widget: string, required: false}
+              - {label: Subtitle, name: subtitle, widget: string, required: false}
+              - {label: Content, name: content, widget: markdown, required: false}
               - label: "Buttons"
                 required: false
                 name: "buttons"
                 widget: "list"
                 fields:
-                  - {label: Button Title, name: buttonTitle, widget: string}
-                  - {label: Button Url, name: buttonUrl, widget: string}
-          - {label: Highlights Intro, name: highlightsIntro, widget: markdown, required: false }
+                  - {label: Button Title, name: buttonTitle, widget: string, required: false}
+                  - {label: Button Url, name: buttonUrl, widget: string, required: false}
+          - {label: Highlights Intro, name: highlightsIntro, widget: markdown, required: false}
           - label: "Highlights"
             required: false
             name: "highlights"
             widget: "list"
             fields:
-              - {label: Icon, name: icon, widget: image}
-              - {label: Title, name: title, widget: string}
+              - {label: Icon, name: icon, widget: image, required: false}
+              - {label: Title, name: title, widget: string, required: false}
           - label: "Featured Testimonials"
             required: false
             name: "featuredTestimonials"
@@ -122,6 +122,7 @@ collections: # A list of collections the CMS should be able to edit
                 fields:
                   - label: "Testimonial"
                     name: "testimonial"
+                    required: false
                     widget: "relation"
                     collection: "caseStudy"
                     searchFields: ["name"]
@@ -152,11 +153,11 @@ collections: # A list of collections the CMS should be able to edit
             name: "secondaryBanner"
             widget: "object"
             fields:
-              - {label: Title, name: title, widget: string}
-              - {label: Subtitle, name: subtitle, widget: string}
-              - {label: Button Title, name: buttonTitle, widget: string}
-              - {label: Button Url, name: buttonUrl, widget: string}
-              - {label: Featured Image, name: featuredImage, widget: image}
+              - {label: Title, name: title, widget: string, required: false}
+              - {label: Subtitle, name: subtitle, widget: string, required: false}
+              - {label: Button Title, name: buttonTitle, widget: string, required: false}
+              - {label: Button Url, name: buttonUrl, widget: string, required: false}
+              - {label: Featured Image, name: featuredImage, widget: image, required: false}
           - label: "Meta"
             required: false
             name: "meta"
@@ -173,7 +174,7 @@ collections: # A list of collections the CMS should be able to edit
         fields:
           - {label: Template, name: template, widget: hidden, default: Booking}
           - {label: Slug, name: slug, widget: hidden, default: 'booking-enquiry'}
-          - {label: Title, name: title, widget: string}
+          - {label: Title, name: title, widget: string, required: false}
           - {label: Featured Image, name: featuredImage, widget: image}
           - {label: Intro, name: intro, widget: markdown, required: false}
 
@@ -201,15 +202,17 @@ collections: # A list of collections the CMS should be able to edit
         fields:
           - {label: Template, name: template, widget: hidden, default: PrivateCharters}
           - {label: Slug, name: slug, widget: hidden, default: 'private-charters'}
-          - {label: Title, name: title, widget: string}
-          - {label: Featured Image, name: featuredImage, widget: image}
-          - {label: Intro, name: intro, widget: markdown}
+          - {label: Title, name: title, widget: string, required: false}
+          - {label: Featured Image, name: featuredImage, widget: image, required: false}
+          - {label: Intro, name: intro, widget: markdown, required: false}
           - label: "Charters Listing"
             name: "chartersListing"
+            required: false
             widget: "list"
             fields:
               - label: Tours
                 name: tours
+                required: false
                 widget: relation
                 collection: 'boatTours'
                 searchFields: ['title']
@@ -248,7 +251,7 @@ collections: # A list of collections the CMS should be able to edit
           - {label: Template, name: template, widget: hidden, default: CaseStudies}
           - {label: Slug, name: slug, widget: hidden, default: 'case-studies'}
           - {label: Title, name: title, widget: string}
-          - {label: Subtitle, name: subtitle, widget: string}
+          - {label: Subtitle, name: subtitle, widget: string, required: false}
           - {label: Featured Image, name: featuredImage, widget: image}
           - label: "Meta"
             required: false
@@ -328,9 +331,9 @@ collections: # A list of collections the CMS should be able to edit
             required: false
             widget: object
             fields:
-              - {label: Image Overlay, name: imageOverlay, widget: image}
-              - {label: Title, name: title, widget: string, required: false, default: ''}
-              - {label: Video, name: video, widget: string}
+              - {label: Image Overlay, name: imageOverlay, widget: image, required: false}
+              - {label: Title, name: title, widget: string, default: '', required: false}
+              - {label: Video, name: video, widget: string, required: false}
           - label: "Column Banner"
             name: "columnBanner"
             required: false
@@ -359,7 +362,7 @@ collections: # A list of collections the CMS should be able to edit
           - {label: Slug, name: slug, widget: hidden, default: 'boats'}
           - {label: Title, name: title, widget: string}
           - {label: Featured Image, name: featuredImage, widget: image}
-          - {label: Intro, name: intro, widget: markdown}
+          - {label: Intro, name: intro, widget: markdown, required: false}
           - label: "Boats"
             required: false
             name: "boats"
@@ -367,13 +370,13 @@ collections: # A list of collections the CMS should be able to edit
             fields:
               - {label: Title, name: title, widget: string}
               - {label: Featured Image, name: featuredImage, widget: image}
-              - {label: Description, name: description, widget: markdown}
+              - {label: Description, name: description, widget: markdown, required: false}
               - label: "Boat Features"
                 required: false
                 name: "boatFeatures"
                 widget: "list"
                 fields:
-                  - {label: Content, name: content, widget: markdown}
+                  - {label: Content, name: content, widget: markdown, required: false}
               - label: "Gallery"
                 required: false
                 name: "gallery"
@@ -385,19 +388,19 @@ collections: # A list of collections the CMS should be able to edit
                 required: false
                 widget: object
                 fields:
-                  - {label: Image Overlay, name: imageOverlay, widget: image}
+                  - {label: Image Overlay, name: imageOverlay, widget: image, required: false}
                   - {label: Title, name: title, widget: string, required: false, default: ''}
-                  - {label: Video, name: video, widget: string}
+                  - {label: Video, name: video, widget: string, required: false}
           - label: "Secondary Banner"
             required: false
             name: "secondaryBanner"
             widget: "object"
             fields:
-              - {label: Title, name: title, widget: string}
-              - {label: Subtitle, name: subtitle, widget: string}
-              - {label: Button Title, name: buttonTitle, widget: string}
-              - {label: Button Url, name: buttonUrl, widget: string}
-              - {label: Featured Image, name: featuredImage, widget: image}
+              - {label: Title, name: title, widget: string, required: false}
+              - {label: Subtitle, name: subtitle, widget: string, required: false}
+              - {label: Button Title, name: buttonTitle, widget: string, required: false}
+              - {label: Button Url, name: buttonUrl, widget: strin, required: falseg}
+              - {label: Featured Image, name: featuredImage, widget: image, required: false}
           - label: "Meta"
             required: false
             name: "meta"
@@ -421,10 +424,11 @@ collections: # A list of collections the CMS should be able to edit
       - {label: Title, name: title, widget: string}
       - label: 'Status'
         name: 'status'
+        required: false
         widget: 'select'
         options: ["Published", "Featured", "Draft"]
         default: 'Published'
-      - {label: Date / Order, name: date, widget: date}
+      - {label: Date / Order, name: date, widget: date, required: false}
       - label: "Categories"
         name: "categories"
         widget: "list"
@@ -432,6 +436,7 @@ collections: # A list of collections the CMS should be able to edit
         fields:
           - label: "Category"
             name: "category"
+            required: false
             widget: "relation"
             collection: "postCategories"
             searchFields: ["title"]
@@ -444,9 +449,9 @@ collections: # A list of collections the CMS should be able to edit
         required: false
         widget: object
         fields:
-          - {label: Image Overlay, name: imageOverlay, widget: image}
+          - {label: Image Overlay, name: imageOverlay, widget: image, required: false}
           - {label: Title, name: title, widget: string, required: false, default: ''}
-          - {label: Video, name: video, widget: string}
+          - {label: Video, name: video, widget: string, required: false}
       - {label: Content Secondary, name: contentSecondary, widget: markdown, required: false}
       - label: "Meta"
         required: false
@@ -481,21 +486,21 @@ collections: # A list of collections the CMS should be able to edit
     create: true # Allow users to create new documents in this collection
     fields: # The fields each document in this collection have
       - {label: Template, name: template, widget: hidden, default: SingleCaseStudy}
-      - {label: Guest Name, name: name, widget: string}
-      - {label: Cruise Type, name: title, widget: string}
-      - {label: Date / Order, name: date, widget: date}
-      - {label: Featured Image, name: featuredImage, widget: image}
+      - {label: Guest Name, name: name, widget: string, required: false}
+      - {label: Cruise Type, name: title, widget: string, required: false}
+      - {label: Date / Order, name: date, widget: date, required: false}
+      - {label: Featured Image, name: featuredImage, widget: image, required: false}
       - label: Video Section
         name: videoSection
         required: false
         widget: object
         fields:
-          - {label: Image Overlay, name: imageOverlay, widget: image}
+          - {label: Image Overlay, name: imageOverlay, widget: image, required: false}
           - {label: Title, name: title, widget: string, required: false, default: ''}
-          - {label: Video, name: video, widget: string}
+          - {label: Video, name: video, widget: string, required: false}
       - {label: Secondary Image, name: secondaryImage, widget: image, required: false}
       - {label: Content, name: body, widget: markdown, required: false}
-      - {label: Review, name: excerpt, widget: text}
+      - {label: Review, name: excerpt, widget: text, required: false}
       - label: "Gallery"
         required: false
         name: "gallery"
@@ -507,11 +512,11 @@ collections: # A list of collections the CMS should be able to edit
         name: "secondaryBanner"
         widget: "object"
         fields:
-          - {label: Title, name: title, widget: string}
-          - {label: Subtitle, name: subtitle, widget: string}
-          - {label: Button Title, name: buttonTitle, widget: string}
-          - {label: Button Url, name: buttonUrl, widget: string}
-          - {label: Featured Image, name: featuredImage, widget: image}
+          - {label: Title, name: title, widget: string, required: false}
+          - {label: Subtitle, name: subtitle, widget: string, required: false}
+          - {label: Button Title, name: buttonTitle, widget: string, required: false}
+          - {label: Button Url, name: buttonUrl, widget: string, required: false}
+          - {label: Featured Image, name: featuredImage, widget: image, required: false}
       - label: "Meta"
         required: false
         name: "meta"
@@ -533,6 +538,7 @@ collections: # A list of collections the CMS should be able to edit
       - {label: Template, name: template, widget: hidden, default: SingleBoatTour}
       - label: "Tour Type"
         name: "tourType"
+        required: false
         widget: "select"
         options: ["Cruise", "Private Charter"]
       - {label: Title, name: title, widget: string}
@@ -561,7 +567,7 @@ collections: # A list of collections the CMS should be able to edit
         fields:
           - {label: Image Overlay, name: imageOverlay, widget: image, required: false}
           - {label: Title, name: title, widget: string, required: false, default: ''}
-          - {label: Video, name: video, widget: string}
+          - {label: Video, name: video, widget: string, required: false}
       - {label: Content Column Title, name: contentColumnTitle, widget: string, required: false}
       - {label: Content Column, name: contentColumn, widget: markdown, required: false}
       - label: Accordion Section
@@ -575,8 +581,8 @@ collections: # A list of collections the CMS should be able to edit
             name: accordion
             widget: list
             fields:
-              - {label: Title, name: title, widget: string}
-              - {label: Dropdown Content, name: dropdownContent, widget: markdown}
+              - {label: Title, name: title, widget: string, required: false}
+              - {label: Dropdown Content, name: dropdownContent, widget: markdown, required: false}
       - label: "Column Banner"
         name: "columnBanner"
         required: false
@@ -587,22 +593,20 @@ collections: # A list of collections the CMS should be able to edit
           - {label: Featured Image, name: featuredImage, widget: image, required: false}
           - {label: Button Title, name: buttonTitle, widget: string, required: false}
           - {label: Button Url, name: buttonUrl, widget: string, required: false}
-      # - label: "Testimonials"
-      #   required: false
-      #   name: "testimonials"
-      #   widget: "object"
-      #   fields:
-      #     - {label: Title, name: title, widget: string}
-      #     - {label: Description, name: description, widget: markdown}
-      #     - {label: Button Title, name: buttonTitle, widget: string}
-      #     - {label: Button Url, name: buttonUrl, widget: string}
-      #     - label: "Featured Testimonial"
-      #       name: "featuredTestimonial"
-      #       widget: "object"
-      #       fields:
-      #         - {label: Image, name: image, widget: image}
-      #         - {label: Name, name: name, widget: string}
-      #         - {label: Content, name: content, widget: markdown}
+      - label: "Featured Testimonials"
+        required: false
+        name: "featuredTestimonials"
+        widget: "object"
+        fields:
+          - {label: Title, name: title, widget: string, required: false}
+          - {label: Description, name: description, widget: text, required: false}
+          - label: "Testimonial"
+            name: "testimonial"
+            required: false
+            widget: "relation"
+            collection: "caseStudy"
+            searchFields: ["name"]
+            valueField: "name"
       - label: "Meta"
         required: false
         name: "meta"
@@ -658,16 +662,18 @@ collections: # A list of collections the CMS should be able to edit
           - {label: Slug, name: slug, widget: hidden, default: 'nav-items'}
           - label: Nav Items
             name: navItems
+            required: false
             widget: list
             fields:
               - {label: Title, name: title, widget: string}
               - {label: Slug, name: slug, widget: string}
               - label: SubNav Items
                 name: subNavItems
+                required: false
                 widget: list
                 fields:
-                  - {label: Title, name: title, widget: string}
-                  - {label: Slug, name: slug, widget: string}
+                  - {label: Title, name: title, widget: string, required: false}
+                  - {label: Slug, name: slug, widget: string, required: false}
       - file: "content/global/global-sections.md"
         label: "Global Sections"
         name: "globalSections"
@@ -680,31 +686,33 @@ collections: # A list of collections the CMS should be able to edit
             required: false
             widget: "list"
             fields:
-              - {label: Title, name: title, widget: string}
-              - {label: Featured Image, name: featuredImage, widget: image}
-              - {label: Button Title, name: buttonTitle, widget: string}
-              - {label: Button Url, name: buttonUrl, widget: string}
+              - {label: Title, name: title, widget: string, required: false}
+              - {label: Featured Image, name: featuredImage, widget: image, required: false}
+              - {label: Button Title, name: buttonTitle, widget: string, required: false}
+              - {label: Button Url, name: buttonUrl, widget: string, required: false}
           - label: Global Video
             name: globalVideo
             required: false
             widget: object
             fields:
-              - {label: Title, name: title, widget: string, default: ''}
-              - {label: Image Overlay, name: imageOverlay, widget: image}
-              - {label: Video, name: video, widget: string}
+              - {label: Title, name: title, widget: string, default: '', required: false}
+              - {label: Image Overlay, name: imageOverlay, widget: image, required: false}
+              - {label: Video, name: video, widget: string, required: false}
           - label: "Booking Popup"
             name: "bookingPopup"
+            required: false
             widget: "object"
             fields:
-              - {label: Title, name: title, widget: string}
+              - {label: Title, name: title, widget: string, required: false}
               - label: "Content Boxes"
                 name: "contentBoxes"
+                required: false
                 widget: "list"
                 fields:
-                  - {label: Icon, name: icon, widget: image}
-                  - {label: Title, name: title, widget: string}
-                  - {label: Button Title, name: buttonTitle, widget: string}
-                  - {label: Button Url, name: buttonUrl, widget: string}
+                  - {label: Icon, name: icon, widget: image, required: false}
+                  - {label: Title, name: title, widget: string, required: false}
+                  - {label: Button Title, name: buttonTitle, widget: string, required: false}
+                  - {label: Button Url, name: buttonUrl, widget: string, required: false}
 
   - name: "settings"
     label: "Settings"
@@ -716,7 +724,7 @@ collections: # A list of collections the CMS should be able to edit
         label: "Global Settings"
         name: "global-settings"
         fields:
-          - {label: Site Title, name: siteTitle, widget: string}
+          - {label: Site Title, name: siteTitle, widget: string, required: false}
           - {label: Site Url, name: siteUrl, widget: string, required: false}
           - {label: Site Description, name: siteDescription, widget: text, required: false}
           - {label: Header Meta / Scripts, name: headerScripts, widget: text, required: false}

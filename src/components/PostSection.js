@@ -1,4 +1,5 @@
 import React from 'react'
+import _get from 'lodash/get'
 import { ICONButtonArrows } from './Icons'
 import PostCard from '../components/PostCard'
 import './PostSection.css'
@@ -33,9 +34,10 @@ class PostSection extends React.Component {
         {title && <h2 className="PostSection--Title">{title}</h2>}
         {!!visiblePosts.length && (
           <div className="PostSection--Grid">
-            {visiblePosts.map((post, index) => (
-              <PostCard key={post.title + index} {...post}/>
-            ))}
+            {visiblePosts.map((post, index) => {
+              const title = _get(post, 'title') || ''
+              return <PostCard key={title + index} {...post}/>
+            })}
           </div>
         )}
         {showLoadMore &&
