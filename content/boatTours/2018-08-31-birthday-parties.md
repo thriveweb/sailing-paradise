@@ -63,9 +63,9 @@ videoSection:
     https://www.youtube.com/watch?v=vr0qNXmkUJ8&list=PLNhzc-Os3JK8ExayVzzoHVvP2c0-4_oqt
 contentColumnTitle: Fun for all ages.
 contentColumn: >-
-  From young kids parties all the way through to 80th's and beyond, we can
-  create a memorable and fun birthday party that you and your guest will
-  remember for years to come.
+  From 21st birthdays all the way through to 80th's and beyond, we can create a
+  memorable and fun birthday party that you and your guests will remember for
+  years to come.
 
 
   The smooth and stable nature of the catamaran means our boats are suitable for
@@ -241,11 +241,5 @@ columnBanner:
     title: Give your friend the party they deserve!
     featuredImage: 'https://ucarecdn.com/61c88734-b17f-450f-8e6b-e10d9ade46f2/'
   - featuredImage: 'https://ucarecdn.com/f3bf4df1-6f8a-405b-b07f-96343f6aa19c/'
-featuredTestimonials:
-  description: >-
-    See our five start Trip Advisor reviews for more testimonial feedback from
-    our satisfied clients.
-  testimonial: Tahlia
-  title: Happy Sailors
 ---
 
