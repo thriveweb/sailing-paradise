@@ -20,7 +20,7 @@ hours: |-
   Mon - Fri: 9AM - 5PM
 
   Sat - Sun: 10AM - 15PM
-map: /images/uploads/map-img.jpg
+map: 'https://ucarecdn.com/7eac0ffe-3500-4431-9583-da4a65ba39ea/'
 socialMedia:
   facebook: 'https://facebook.com'
   googlePlus: 'https://google.com'
