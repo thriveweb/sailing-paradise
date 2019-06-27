@@ -39,10 +39,10 @@ intro: >-
   stable sailing and beach landing capabilities.
 gallery:
   - image: 'https://ucarecdn.com/d3fce9ea-25bc-4f10-b643-e67e330427c4/'
-  - image: 'https://ucarecdn.com/dee49f5c-585b-4ed2-86fe-a04f59caf35d/'
-  - image: 'https://ucarecdn.com/b8244f34-9e6f-4a79-ad21-6e2265ddd4d1/'
-  - image: 'https://ucarecdn.com/694c1564-6fd4-4f71-90f2-998d72ca622e/'
-  - image: 'https://ucarecdn.com/92929ec8-8838-497a-ac73-6597900dd836/'
+  - image: 'https://ucarecdn.com/1a97171f-a25e-46d9-a987-2940d52f9607/'
+  - image: 'https://ucarecdn.com/d63e2ef4-5e96-4662-9f49-a5ca4d34582f/'
+  - image: 'https://ucarecdn.com/04bf8fb1-7026-457b-8b56-e2890481225c/'
+  - image: 'https://ucarecdn.com/4f14fbcc-388d-40dd-85d2-26a13ee39e9a/'
 captainSection:
   captain:
     - description: >-
