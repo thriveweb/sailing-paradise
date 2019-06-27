@@ -6,11 +6,11 @@ footerContent: >-
 columnBanner:
   - buttonTitle: See More
     buttonUrl: private-charters
-    featuredImage: /images/uploads/DJI_0174.jpg
+    featuredImage: 'https://ucarecdn.com/e5bad110-9f72-4c1c-8794-ec44c147d0ed/'
     title: Are you interested in private charters catered for all sorts of occasions?
   - buttonTitle: See More
     buttonUrl: cruises
-    featuredImage: /images/uploads/DSC_0038.jpg
+    featuredImage: 'https://ucarecdn.com/5798424d-df2f-42a9-b270-f2d4eec3dcd8/'
     title: Are you interested in our set cruises through the beautiful Broadwater?
 globalVideo:
   imageOverlay: /images/uploads/home-banner.jpg
