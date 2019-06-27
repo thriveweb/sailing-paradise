@@ -62,10 +62,25 @@ captainSection:
       socialMedia:
         linkedin: ''
         twitter: ''
-      title: '"Skipper Steve"'
-    - description: "Jess joined the business full-time in 2017 brining her background in Marketing and Event Management and with it an injection of fresh ideas and concepts, plus an unparalleled level of customer engagement. \r\n\nWith attention to detail bordering on OCD Jess is the one who will make sure your crew are there, your catering is ready at precisely the right time and your to be honest anything else you can throw at her… \n\nGo on, she likes a challenge ha ha…\r\n\nOriginally from Leicester, England Jess is now proud to be an Aussie and feels very lucky to be living in this beautiful part of the world."
+      title: Head Skipper Steve
+    - description: >-
+        Jess joined the business full-time in 2017 bringing her background in
+        Marketing and Event Management and with it an injection of fresh ideas
+        and concepts, plus an unparalleled level of customer engagement. 
+
+
+        With attention to detail bordering on OCD Jess is the one who will make
+        sure your crew are there, your catering is ready at precisely the right
+        time and your to be honest anything else you can throw at her… 
+
+
+        Go on, she likes a challenge ha ha…
+
+
+        Originally from Leicester, England, Jess is now proud to be an Aussie
+        and feels very lucky to be living in this beautiful part of the world.
       image: 'https://ucarecdn.com/60e7b3c2-123c-4b4a-9c2e-c3c3bfc99d94/'
-      name: Jess Buckley - Owner / operator
+      name: Jessica Buckley - Owner / operator
       socialMedia:
         linkedin: ''
         twitter: ''
