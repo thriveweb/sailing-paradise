@@ -126,6 +126,15 @@ highlights:
     title: Fully licensed & catered or BYO
   - icon: /images/uploads/speakers.svg
     title: 'Fully equipped with Sound System (w Spotify), BBQ, Eskies, and Restroom'
+featuredTestimonials:
+  buttonTitle: See more testimonials
+  buttonUrl: case-studies
+  description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.'
+  testimonialsListing:
+    - testimonial: Sonia & Diana
+    - testimonial: Tahlia
+    - testimonial: Trine & Angus
+  title: Happy Sailors
 latestNews: >-
   ## Latest News
 
