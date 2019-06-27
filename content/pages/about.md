@@ -106,42 +106,33 @@ captainSection:
 crewSection:
   crew:
     - content: >-
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-        veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-        commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-        velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
-        occaecat cupidatat non proident, sunt in culpa qui officia deserunt
-        mollit anim id est laborum.
+        Always smiling, Chanelle brings a genuine warmth to any charter, with a
+        background in 6-star hospitality and amazing skill behind the camera you
+        will be well looked after by Chanelle either on board the boat or in the
+        office.
       image: 'https://ucarecdn.com/da877823-bfc4-4c7f-8a35-44aeff6b7664/'
       name: 'Chanelle '
-      title: Cheif Stew
-    - content: >-
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-        veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-        commodo consequat.
+      title: '"Cruise Hostess/Guest Relations"'
+    - content: "Anthony joined our crew after many years in the international superyacht industry.\r\n\nOriginally hailing from Adelaide Anthony has travelled the world working on various vessels and is now looking at settling on the Gold Coast.  Always the consummate professional, Anthony has from time to time been witnessed twerking on the back deck (with a bit of encouragement from our guests that is)."
       image: 'https://ucarecdn.com/e34612f4-2da4-4c81-b69e-c24f68cb0817/'
-      name: Jane Doe
-      title: Cook
-    - content: >-
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-        veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-        commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-        velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
-        occaecat cupidatat non proident, sunt in culpa qui officia deserunt
-        mollit anim id est laborum.
-      image: 'https://ucarecdn.com/685844a2-028d-4969-b09b-84adc73fa353/'
-      name: John Doe
-      title: Captain
-    - content: >-
-        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
-        dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-      image: 'https://ucarecdn.com/8f7b3794-b298-47a7-883c-7ec5e9d54cac/'
-      name: Chris Smith
+      name: 'Anthony '
       title: Skipper
+    - content: "Lucas has been on the water on the Gold Coast for %%years driving everything from jetski's, speedboats, jetboats, superyachts and sailing boats.\r\n\nHe knows the local area like the back of his hand and is a great fun guy to have on your charter!"
+      image: 'https://ucarecdn.com/685844a2-028d-4969-b09b-84adc73fa353/'
+      name: 'Lucas '
+      title: Skipper
+    - content: >-
+        Our newest recruit.  Anna joins the Sailing in Paradise family with
+        years of hospitality experience under her belt.   A budding photographer
+        and medicine student Anna grew up around boats in coastal England.
+      image: 'https://ucarecdn.com/8f7b3794-b298-47a7-883c-7ec5e9d54cac/'
+      name: 'Anna '
+      title: Cruise Hostess
+    - content: tbcinfo
+      image: 'https://ucarecdn.com/3048aebd-5b07-4faa-8ba2-da89945cf67d/'
+      name: 'Ella '
+      title: Cruise Hostess
+    - {}
   crewIntro: "## Our Crew\n\nThe crew onboard your vessel are such an important aspect of chartering a boat.    Our aim is that you step aboard and feel instantly at ease so we have carefully selected our crew not only for their skill but also their amazing hospitality and fun personalities.   \r\n\nYou don't want a grumpy skipper or sleazy deck crew making you feel uneasy on your special day and rest assured that won’t happen on a charter with us."
 secondaryBanner:
   buttonTitle: Know More
