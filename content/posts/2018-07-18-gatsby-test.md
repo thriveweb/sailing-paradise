@@ -6,7 +6,7 @@ date: '2018-07-18'
 categories:
   - category: Updates
   - category: News
-featuredImage: /images/uploads/DSC_1073.jpg
+featuredImage: 'https://ucarecdn.com/8c839836-eaf6-428d-8588-b3de01033176/'
 excerpt: This is the excerpt
 ---
 
