@@ -62,13 +62,13 @@ export const HomePageTemplate = ({
         highlights={highlights}
         highlightsIntro={highlightsIntro}
       />
-      <FeaturedPosts
-        latestNews={latestNews}
-        posts={posts}
-      />
       <TestimonialSlider
         {...featuredTestimonials}
         caseStudies={caseStudies}
+      />
+      <FeaturedPosts
+        latestNews={latestNews}
+        posts={posts}
       />
       <InstagramFeed />
       <SubscribeForm />
