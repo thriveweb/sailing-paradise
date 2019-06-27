@@ -3,7 +3,40 @@ template: AboutPage
 slug: about
 title: About Us
 featuredImage: 'https://ucarecdn.com/732856c5-63c8-420c-884d-300fda37063e/'
-intro: "## our story\n\nWe sailed into the Gold Coast commercial boating scene back in 2011 and thanks to our loyal guests and amazing crew we are thrilled to have grown to where we are now, offering 2 beautiful sailing catamarans for private charters and cruises departing from Marina Mirage.   \r\n\nWith years of commercial boating experience including skippering charter boats, water taxis, jet boats and commercial jet skis.   \n\n> \"I wanted to offer an affordable luxury experience for locals and visitors to get out on the water and experience the Gold Coast’s beautiful waterways and islands.  But most of all HAVE FUN doing it! \"      \n>\n> _Owner - Steve Buckley_\n\nAfter falling in love with our beautiful signature vessel ‘Spirit of Gwonda’ (which remains one of the best catamarans on the water for social occasions) the dream became a reality and Sailing in Paradise was born.  \r\n\nIn response to guest demand, Gwonda’s little sister the Seawind 1000XL joined our fleet in 2018!\r\n\nBoth boats were carefully selected to offer the same spacious deck area, stable sailing and beach landing capabilities.  \r\n\n![](https://ucarecdn.com/91a59042-bf64-4505-9bad-e66124632b13/)"
+intro: >-
+  ## our story
+
+
+  We sailed into the Gold Coast commercial boating scene back in 2011 and thanks
+  to our loyal guests and amazing crew we are thrilled to have grown to where we
+  are now, offering 2 beautiful sailing catamarans for private charters and
+  cruises departing from Marina Mirage.   
+
+
+  With years of commercial boating experience including skippering charter
+  boats, water taxis, jet boats and commercial jet skis.   
+
+
+  > "I wanted to offer an affordable luxury experience for locals and visitors
+  to get out on the water and experience the Gold Coast’s beautiful waterways
+  and islands.  But most of all HAVE FUN doing it! "      
+
+  >
+
+  > _Owner - Steve Buckley_
+
+
+  After falling in love with our beautiful signature vessel ‘Spirit of Gwonda’
+  (which remains one of the best catamarans on the water for social occasions)
+  the dream became a reality and Sailing in Paradise was born.  
+
+
+  In response to guest demand, Gwonda’s little sister the Seawind 1000XL joined
+  our fleet in 2018!
+
+
+  Both boats were carefully selected to offer the same spacious deck area,
+  stable sailing and beach landing capabilities.
 gallery:
   - image: 'https://ucarecdn.com/d3fce9ea-25bc-4f10-b643-e67e330427c4/'
   - image: 'https://ucarecdn.com/dee49f5c-585b-4ed2-86fe-a04f59caf35d/'
