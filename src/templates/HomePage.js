@@ -28,6 +28,8 @@ export const HomePageTemplate = ({
   aboutSection,
   highlightsIntro,
   highlights,
+  featuredTestimonials,
+  caseStudies,
   latestNews,
   posts,
   socialMedia,
@@ -64,6 +66,10 @@ export const HomePageTemplate = ({
         latestNews={latestNews}
         posts={posts}
       />
+      <TestimonialSlider
+        {...featuredTestimonials}
+        caseStudies={caseStudies}
+      />
       <InstagramFeed />
       <SubscribeForm />
     </main>
@@ -71,9 +77,9 @@ export const HomePageTemplate = ({
 }
 
 // Export Default HomePage for front-end
-const HomePage = ({ data: { page, posts } }) => (
+const HomePage = ({ data: { page, posts, caseStudies } }) => (
   <Layout meta={page.frontmatter.meta || false}>
-    <HomePageTemplate {...page.frontmatter} posts={posts} />
+    <HomePageTemplate {...page.frontmatter} posts={posts} caseStudies={caseStudies} />
   </Layout>
 )
 
@@ -134,6 +140,15 @@ export const pageQuery = graphql`
           title
           icon
         }
+        featuredTestimonials {
+          title
+          description
+          buttonTitle
+          buttonUrl
+          testimonialsListing {
+            testimonial
+          }
+        }
         latestNews
         meta {
           description
@@ -141,8 +156,8 @@ export const pageQuery = graphql`
           canonicalLink
         }
       }
-      }
-      posts: allMarkdownRemark(
+    }
+    posts: allMarkdownRemark(
       limit: 3
       filter: { fields: { contentType: { eq: "posts" } } }
       sort: { order: DESC, fields: [frontmatter___date] }
@@ -156,6 +171,20 @@ export const pageQuery = graphql`
             title
             excerpt
             featuredImage
+          }
+        }
+      }
+    }
+    caseStudies: allMarkdownRemark(filter: {fields: {contentType: {eq: "caseStudies"}}}) {
+      edges {
+        node {
+          fields {
+            slug
+          }
+          frontmatter {
+            name
+            featuredImage
+            excerpt
           }
         }
       }

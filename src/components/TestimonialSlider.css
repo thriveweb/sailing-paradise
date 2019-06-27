@@ -46,10 +46,13 @@
 .slide .Image {
     position: absolute;
     top: 0;
-    left: 0;
-    height: 100%;
-    width: 100%;
+    transform: translateY(-40%);
+    left: 4rem;
+    height: 9.5rem;
+    width: 9.5rem;
     border-radius: 100%;
+    border: 3px solid white;
+    box-shadow: 0 0 3rem 0 rgba(0,0,0,0.1);
 }
 
 .slide .title {
@@ -80,6 +83,15 @@
     font-size: 1.4rem;
 }
 
+.slide .read-more {
+  font-size: 1.4rem;
+  font-weight: 600;
+}
+
+.slide .read-more:hover {
+  text-decoration: underline;
+}
+
 .slide.active {
     order: 1;
     z-index: 1;
@@ -98,7 +110,7 @@
 
 .slide-next {
     position: relative;
-    left: 5vw; 
+    left: 5vw;
     order: 2;
     z-index: 1;
 }
