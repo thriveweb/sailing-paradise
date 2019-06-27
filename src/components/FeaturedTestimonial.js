@@ -1,31 +1,35 @@
 import React from 'react'
-import Button from './Button'
 import Image from './Image'
 import Content from './Content'
+import { Link } from 'gatsby'
 
 import './FeaturedTestimonial.css'
 
-export default ({ description, title, buttonTitle, buttonUrl, featuredTestimonial }) => {
+export default ({ description, title, testimonial, caseStudies }) => {
 
-    if(!featuredTestimonial) return null
-        
-    const { name, content, image } = featuredTestimonial
+    if(!testimonial) return null
+
+    caseStudies = caseStudies ? caseStudies.edges.map(edge => ({ ...edge.node })) : []
+    testimonial = caseStudies.filter(caseStudy => caseStudy.frontmatter.name === testimonial)
+
+    const { fields, frontmatter } = testimonial[0]
+    const { name, excerpt, featuredImage } = frontmatter
+    const { slug } = fields
 
     return <section className='featuredTestimonial'>
         <div className='container large'>
             <div className='testimonialIntro'>
                 {title && <h2>{title}</h2>}
                 {description && <Content src={description} />}
-                {buttonTitle && buttonUrl && <Button title={buttonTitle} url={buttonUrl} />}
             </div>
-            <div className='testimonial'>
-                {image && <Image src={image} alt='' />}
-                <div className='testimonial-content'>  
+            <Link to={slug} className='testimonial'>
+                {featuredImage && <Image src={featuredImage} alt='' />}
+                <div className='testimonial-content'>
                     {name && <p className='title'>{name}</p>}
-                    {content && <Content src={content} />}
-                </div>    
-            </div>
-        </div>    
-    </section>    
+                    {excerpt && <Content src={excerpt} />}
+                    <p className='read-more'>See more</p>
+                </div>
+            </Link>
+        </div>
+    </section>
 }
-

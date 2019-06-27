@@ -43,3 +43,13 @@
 .featuredTestimonial .testimonial .title:after {
 	bottom: -.5rem;
 }
+
+.featuredTestimonial .testimonial .read-more {
+	display: inline-block;
+	font-weight: 600;
+	font-size: 1.4rem;
+}
+
+.featuredTestimonial .testimonial:hover .read-more {
+	text-decoration: underline;
+}

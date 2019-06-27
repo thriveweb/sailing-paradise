@@ -32,6 +32,8 @@ export const SingleBoatTourTemplate = ({
   videoSection,
   slug,
   post,
+  caseStudies,
+  featuredTestimonials,
   meta
 }) => {
   const charterUrl = slug
@@ -69,6 +71,7 @@ export const SingleBoatTourTemplate = ({
           bookingIframe={bookingIframe}
         />
       )}
+      <FeaturedTestimonial {...featuredTestimonials} caseStudies={caseStudies} />
     </main>
   )
 }
@@ -79,6 +82,7 @@ const SingleBoatTour = ({ data }) => (
       {...data.post}
       {...data.post.frontmatter}
       {...data.post.fields}
+      caseStudies={data.caseStudies}
       body={data.post.html}
     />
   </Layout>
@@ -129,10 +133,30 @@ export const pageQuery = graphql`
           title
           featuredImage
         }
+        featuredTestimonials {
+          title
+          description
+          testimonial
+        }
         meta {
           description
           title
           canonicalLink
+        }
+      }
+    }
+
+    caseStudies: allMarkdownRemark(filter: {fields: {contentType: {eq: "caseStudies"}}}) {
+      edges {
+        node {
+          fields {
+            slug
+          }
+          frontmatter {
+            name
+            featuredImage
+            excerpt
+          }
         }
       }
     }

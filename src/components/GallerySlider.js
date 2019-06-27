@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-//
+
 // import Slider from 'react-slick/dist/react-slick'
 // import "slick-carousel/slick/slick.css";
 // import "slick-carousel/slick/slick-theme.css";
@@ -23,7 +23,7 @@ import React, { Component } from 'react'
 // 		document.documentElement.style.overflow = index || index === 0 ? 'hidden' : 'auto'
 // 	}
 //
-//   	render() {
+//   render() {
 // 		const { gallery = [] } = this.props
 //
 // 		const settings = {
@@ -63,7 +63,5 @@ import React, { Component } from 'react'
 // 		</div>
 // 	}
 // }
-//
-// export default GallerySlider
 
 export default () => null
