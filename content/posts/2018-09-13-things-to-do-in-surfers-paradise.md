@@ -2,7 +2,7 @@
 template: SinglePost
 title: Things to do in Surfers paradise
 status: Published
-date: '2017-08-21'
+date: 2019-04-22T14:00:00.000Z
 categories:
   - category: Gold Coast Holiday Things to Do
 featuredImage: 'https://ucarecdn.com/6020e756-a627-448a-a30b-d34922d1f71f/'
