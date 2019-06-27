@@ -25,7 +25,7 @@ class Slider extends Component {
     handleInterval = ()  => {
         const { testimonialsListing } = this.props
         const { activeSlide } = this.state
-        const nextIndex = activeSlide + 1 >= testimonialsListing.length ? 0 : activeSlide + 1
+        const nextIndex = testimonialsListing && activeSlide + 1 >= testimonialsListing.length ? 0 : activeSlide + 1
 
         this.setState({
             activeSlide: nextIndex
@@ -36,7 +36,7 @@ class Slider extends Component {
         const { activeSlide } = this.state
         const { description, title, buttonTitle, buttonUrl, testimonialsListing, caseStudies } = this.props
 
-        if(!testimonialsListing.length) return null
+        if(!testimonialsListing) return null
 
         const caseStudiesListing = caseStudies ? caseStudies.edges.map(edge => ({ ...edge.node })) : []
         const testimonialNames = testimonialsListing.map(({ testimonial }) => testimonial)

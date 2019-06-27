@@ -26,10 +26,10 @@ featuredSlider:
 featuredBanner:
   buttonTitle: Discover More
   buttonUrl: contact
-  image: /images/uploads/img-backflip.jpg
+  image: 'https://ucarecdn.com/644b389d-f198-4719-b401-2ecc76d7d6c9/'
   title: Gift Cards Now Available
 services:
-  - image: /images/uploads/sail-img1.jpg
+  - image: 'https://ucarecdn.com/25e2cd4a-f613-4ed6-9dff-23da132b3cde/'
     serviceContent:
       buttonUrl: private-charters
       description: >-
@@ -37,7 +37,7 @@ services:
         their luxurious sailing catamarans for an event to be remembered .
       icon: /images/uploads/wheel.svg
       title: Private Boat Hire
-  - image: /images/uploads/girl-img1.jpg
+  - image: 'https://ucarecdn.com/8365c7d6-75d5-42f3-a55f-213b3e2b5cfd/'
     serviceContent:
       buttonUrl: cruises
       description: >-
@@ -45,7 +45,7 @@ services:
         a beautiful Seawind 1050 Sailing Catamaran.
       icon: /images/uploads/boat2.svg
       title: Sails & Sights Cruise
-  - image: /images/uploads/girl-img2.jpg
+  - image: 'https://ucarecdn.com/a3e9bc0c-f3ed-4842-86d1-2755a37c869a/'
     serviceContent:
       buttonUrl: boat-tours/hens-parties
       description: >-
@@ -57,13 +57,13 @@ services:
 serviceBanner:
   buttonTitle: Find your Perfect Cruise
   buttonUrl: cruises
-  featuredImage: /images/uploads/waves-img1.jpg
+  featuredImage: 'https://ucarecdn.com/4ca3cf65-8e3c-40a4-b7c2-0b3b9d4d7724/'
   subtitle: Let’s Get The Party Started!
   title: Ready to book your Gold Coast Boat Hire?
 secondaryBanner:
   buttonTitle: Know More
   buttonUrl: cruises
-  featuredImage: /images/uploads/special-offer-banner.jpg
+  featuredImage: 'https://ucarecdn.com/7e712990-679e-4473-8574-f6f6e89dc4e5/'
   subtitle: Special Offer
   title: Adults at Kids prices
 aboutSection:
@@ -109,7 +109,7 @@ aboutSection:
 
 
     On the day you will be greeted with smiles.. and good times will follow.
-  featuredImage: /images/uploads/ppl-boat.jpg
+  featuredImage: 'https://ucarecdn.com/0736a162-0c60-4441-ba02-2566ebca95a7/'
   subtitle: Our Boats & Crew
   title: Meet Us
 highlightsIntro: '## PRIVATE CHARTER HIGHLIGHTS'
@@ -148,4 +148,3 @@ latestNews: >-
 meta:
   title: ''
 ---
-

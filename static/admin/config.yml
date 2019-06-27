@@ -399,7 +399,7 @@ collections: # A list of collections the CMS should be able to edit
               - {label: Title, name: title, widget: string, required: false}
               - {label: Subtitle, name: subtitle, widget: string, required: false}
               - {label: Button Title, name: buttonTitle, widget: string, required: false}
-              - {label: Button Url, name: buttonUrl, widget: strin, required: falseg}
+              - {label: Button Url, name: buttonUrl, widget: string, required: false}
               - {label: Featured Image, name: featuredImage, widget: image, required: false}
           - label: "Meta"
             required: false

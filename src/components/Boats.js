@@ -8,7 +8,7 @@ import Video from './Video'
 import './Boats.css'
 
 export default ({ boats }) => {
-  if (!boats.length) return null
+  if (!boats) return null
 
   return (
     <section className="boats-listing">
