@@ -2,7 +2,7 @@
 template: AboutPage
 slug: about
 title: About Us
-featuredImage: 'https://ucarecdn.com/732856c5-63c8-420c-884d-300fda37063e/'
+featuredImage: 'https://ucarecdn.com/2e668bd0-98ad-4de4-8d50-f8f7581c3377/'
 intro: >-
   ## our story
 
@@ -70,7 +70,24 @@ captainSection:
         linkedin: ''
         twitter: ''
       title: Guest Relations Guru
-  captainIntro: "## Captains\n\nHi we are Steve and Jess and we own and manage Sailing in Paradise.  \n\nWe realise that chartering a boat is not something that you do every day.  Our aim is to make the entire experience as easy as possible, so that when you finally step aboard you can really just relax and enjoy the charter.  \r\n\nIn fact, guest happiness is our highest priority.    From your first enquiry, through to our optional catering/beverage packages and finally to our welcoming crew (who we are often told feel like part of the family after just a few short hours) we aim to exceed your expectations.   We encourage you to check out our social channels (Facebook, Instagram) and Guest Reviews (links) to really get a vibe for what we are about."
+  captainIntro: >-
+    ## Captains
+
+
+    Hi!  We are Steve and Jess and we own and manage Sailing in Paradise.  
+
+
+    We realise that chartering a boat is not something that you do every day. 
+    Our aim is to make the entire experience as easy as possible, so that when
+    you finally step aboard you can really just relax and enjoy the charter.  
+
+
+    In fact, guest happiness is our highest priority.    From your first
+    enquiry, through to our optional catering/beverage packages and finally to
+    our welcoming crew (who we are often told feel like part of the family after
+    just a few short hours) we aim to exceed your expectations.   We encourage
+    you to check out our social channels (Facebook, Instagram) and Guest Reviews
+    (links) to really get a vibe for what we are about.
 crewSection:
   crew:
     - content: >-
