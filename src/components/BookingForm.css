@@ -17,6 +17,7 @@
 	font-size: 1.2rem;
 	color: var(--primary);
 	line-height: 1.1;
+	display: block;
 }
 
 .BookingForm .Form--Input {

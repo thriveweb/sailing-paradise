@@ -7,7 +7,6 @@ import NumericInput from 'react-numeric-input';
 import _get from 'lodash/get'
 
 import DatePicker from 'react-datepicker';
-import moment from 'moment';
 import 'react-datepicker/dist/react-datepicker.css';
 
 import './BookingForm.css'
@@ -26,7 +25,7 @@ class Form extends React.Component {
   constructor (props) {
     super(props)
     this.state = {
-      startDate: moment(),
+      startDate: new Date(),
       alert: '',
       disabled: false
     };
@@ -161,6 +160,15 @@ class Form extends React.Component {
             "Bucks Parties"
           ]}
         />
+        <label className="Form--Label">
+          <span>Preffered Date* (if unsure please select any date within Preffered month)</span>
+          <DatePicker
+            name='date'
+            className='Form--Input'
+            selected={this.state.startDate}
+            onChange={this.handleChange}
+          />
+        </label>
         <Select
           placeholder='How did you hear about us?*'
           name='source'
@@ -191,15 +199,5 @@ class Form extends React.Component {
     )
   }
 }
-
-// <label className="Form--Label">
-//   <span>Preffered Date* (if unsure please select any date within Preffered month)</span>
-// </label>
-// <DatePicker
-//   name='date'
-//   className='Form--Input'
-//   selected={this.state.startDate}
-//   onChange={this.handleChange}
-// />
 
 export default Form

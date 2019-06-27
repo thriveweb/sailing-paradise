@@ -5,7 +5,7 @@ class SortArray extends Component {
   render() {
     const { order, items } = this.props
 
-    if (!order) return null
+    if(!order) return null
     if(!items) return null
 
     const orderedItems = order.map(order =>
