@@ -3,18 +3,33 @@ template: SingleBoatTour
 tourType: Private Charter
 title: Sightseeing
 icon: ''
-featuredImage: /images/uploads/celebrate-with-friends-special.jpg
+featuredImage: >-
+  https://ucarecdn.com/468e330d-05a6-467b-b098-fcdff53fc4f8/-/crop/4336x2386/0,507/-/preview/
 intro: "## gold coast Sightseeing Cruise\n\nIf you’re looking for things to do on the Gold Coast, we invite you on a unique Gold Coast experience... sailing the calm, clear waters of the Gold Coast Broadwater aboard a beautiful sailing catamaran. \r\n\nWith 2 boats available for private charter, and catering for groups of 2-50 guests, our private sightseeing charters are ideal for families, colleagues and friends looking to explore the area and see the Gold Coast from a different perspective.   \n\nWhether you are a Gold Coast local or on vacation as an international visitor, experiencing the many attractions on the Gold Coast Broadwater from a luxury catamaran is the perfect way to make a memorable experience for your group!"
 contentBox:
   buttonTitle: Make enquiry
   buttonUrl: booking-enquiry
   title: Let us tailor your VIP Gold Coast Sightseeing Party Experience
 gallery:
-  - image: /images/uploads/girls-img9.jpg
-  - image: /images/uploads/girls-img5.jpg
-  - image: /images/uploads/girls-img4.jpg
-  - image: /images/uploads/girls-img6.jpg
-  - image: /images/uploads/pantsless-waiter.jpg
+  - image: >-
+      https://ucarecdn.com/a9a6fce5-54d7-4700-ac44-d2d13753c77d/-/crop/4000x2566/0,242/-/preview/
+  - image: 'https://ucarecdn.com/fb9bc362-3716-47d5-925f-2ad375be3450/'
+  - image: 'https://ucarecdn.com/4730d35c-3313-4c93-ab1c-f0f133aa63d0/'
+  - image: 'https://ucarecdn.com/2a8e3219-a021-4676-abef-b9ef28630a90/'
+  - image: 'https://ucarecdn.com/b254e1da-6cb1-4ada-acf7-84756d5e0370/'
+  - image: 'https://ucarecdn.com/916e1d38-b573-4387-80c7-76753fab9d55/'
+  - image: 'https://ucarecdn.com/31103af3-65dd-42b8-92eb-251e82938908/'
+  - image: 'https://ucarecdn.com/8b847209-3b43-450b-bb8b-e0bf769b26df/'
+  - image: 'https://ucarecdn.com/e3d86b3d-25fc-4530-85ae-acf4bacdd88e/'
+  - image: 'https://ucarecdn.com/6feba6bc-51f0-4515-80ce-9c4f313d9ef8/'
+  - image: 'https://ucarecdn.com/1ac66328-84f0-459f-a343-3098cb6c1982/'
+  - image: >-
+      https://ucarecdn.com/120e56f7-2606-494f-b328-c9f39d703559/-/crop/2813x3218/0,533/-/preview/
+  - image: 'https://ucarecdn.com/1edc202a-9ee7-45b1-a0cd-ab1c241213dd/'
+  - image: 'https://ucarecdn.com/4e29f35f-a382-4dd5-939c-1ce29c7d0e87/'
+  - image: 'https://ucarecdn.com/3abaaba8-9314-4692-b3a7-e9529fc9be43/'
+  - image: 'https://ucarecdn.com/2dc92470-a927-47ba-8721-c723f706022c/'
+  - image: 'https://ucarecdn.com/94f435ed-04d6-4e88-9879-e9c51036ada0/'
 videoSection:
   imageOverlay: ''
   video: 'https://www.youtube.com/watch?v=HMLINi14vcw'
