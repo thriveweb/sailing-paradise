@@ -2,7 +2,8 @@
 template: SingleBoatTour
 tourType: Cruise
 title: Island Cruise
-featuredImage: /images/uploads/DJI_0174.jpg
+featuredImage: >-
+  https://ucarecdn.com/a477c53f-47b3-4c35-9d38-f29ce0c52e4f/-/crop/5695x3030/0,0/-/preview/
 intro: >-
   ## gold coast island cruise
 
@@ -36,11 +37,18 @@ bookingIframe: >-
   class="rezdy"
   src="https://sailinginparadise.rezdy.com/calendarWidget/261907?iframe=true&targetFrame=_new_modal"></iframe>
 gallery:
-  - image: /images/uploads/girls-img9.jpg
-  - image: /images/uploads/girls-img5.jpg
-  - image: /images/uploads/girls-img4.jpg
-  - image: /images/uploads/girls-img6.jpg
-  - image: /images/uploads/pantsless-waiter.jpg
+  - image: 'https://ucarecdn.com/ab453f80-ee31-47e9-b9a1-d8050c618756/'
+  - image: 'https://ucarecdn.com/2829ceff-aad9-4f29-b2eb-a139b4e7cb9c/'
+  - image: 'https://ucarecdn.com/d7f25bca-f3b8-4573-bf3e-d50e86547a34/'
+  - image: >-
+      https://ucarecdn.com/a028e189-101c-48d9-bffa-93397f880f92/-/crop/3698x4937/0,0/-/preview/
+  - image: 'https://ucarecdn.com/d72195d0-4dae-48cc-b172-218c94958fea/'
+  - image: 'https://ucarecdn.com/1168578d-e606-45ec-aad1-0c067bc70a80/'
+  - image: 'https://ucarecdn.com/b5739643-7be7-48d8-bb30-66836e9c3f30/'
+  - image: 'https://ucarecdn.com/05ae9cce-86dd-4d41-9a63-06507430fb48/'
+  - image: 'https://ucarecdn.com/b316e927-54f2-410c-945b-32f44b9978d4/'
+  - image: 'https://ucarecdn.com/64552680-0c99-4965-bec7-fdda60d56ef5/'
+  - image: 'https://ucarecdn.com/554d4bff-8d80-4cf4-bede-b21ce132ae33/'
 videoSection:
   imageOverlay: /images/uploads/DSC_1073.jpg
   video: ''
@@ -81,3 +89,4 @@ columnBanner:
     featuredImage: /images/uploads/girl-img-column2.jpg
   - featuredImage: /images/uploads/girl-img-column.jpg
 ---
+
