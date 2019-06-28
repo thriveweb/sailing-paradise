@@ -3,7 +3,8 @@ template: SingleBoatTour
 tourType: Private Charter
 title: Private Charters
 icon: ''
-featuredImage: 'https://ucarecdn.com/566a1ca1-1445-42be-a404-7e6e07a50d05/'
+featuredImage: >-
+  https://ucarecdn.com/3d7d7bc6-e529-4cbc-8893-a233ae1a3897/-/crop/4174x1873/0,0/-/preview/
 intro: >-
   ## gold coast Private Charter boat party
 
@@ -20,19 +21,26 @@ contentBox:
   buttonUrl: booking-enquiry
   title: Let us tailor your VIP Gold Coast Private Charter Party Experience
 gallery:
-  - image: 'https://ucarecdn.com/f0dd81f8-1975-4105-aca8-db6b9ec85b3f/'
-  - image: 'https://ucarecdn.com/dfbfe6df-9e8b-4c3f-bbbc-31eb1d3a73a7/'
-  - image: 'https://ucarecdn.com/eaaaae74-ae85-4f45-98b1-44c3d6c5db43/'
-  - image: 'https://ucarecdn.com/48f9749c-1453-4ffa-bcbd-6ed7c28dfeb9/'
-  - image: 'https://ucarecdn.com/1175e3ae-d8ec-41ca-b0fa-5d462245a918/'
-  - image: 'https://ucarecdn.com/1ff2ca85-9bc9-40c3-8910-2755c666650b/'
-  - image: 'https://ucarecdn.com/7e646e33-0c26-49ca-82ba-dbcb2b261d7f/'
-  - image: 'https://ucarecdn.com/d6e85324-a313-489d-b21e-99c8c7106344/'
-  - image: 'https://ucarecdn.com/0661d788-736b-4b2e-9ee7-3eb778e7c2b0/'
-  - {}
-  - {}
-  - {}
-  - {}
+  - image: 'https://ucarecdn.com/14933057-6c11-437f-9da5-3a22e2ea7529/'
+  - image: 'https://ucarecdn.com/dc9f4c3f-3276-49e2-af8c-1b803f9a2ee7/'
+  - image: 'https://ucarecdn.com/e0866f72-e8b6-4530-a6f8-c948f33fc505/'
+  - image: 'https://ucarecdn.com/e1239380-d66b-49b4-b0ee-767a1d86ec01/'
+  - image: 'https://ucarecdn.com/07188f0f-170d-4568-956a-58d1f8b0c49b/'
+  - image: 'https://ucarecdn.com/c0611544-3950-4b35-a202-dc2cbe273fdf/'
+  - image: 'https://ucarecdn.com/a1a5cd2d-05bc-49db-9e22-25f6477c971e/'
+  - image: 'https://ucarecdn.com/f13aab13-585d-478d-ba7f-5497cd1d2517/'
+  - image: 'https://ucarecdn.com/c26983d6-9183-4a6a-8637-1453a7745f69/'
+  - image: 'https://ucarecdn.com/7e0e79d2-a710-4036-8d16-3d36b9a7e77e/'
+  - image: 'https://ucarecdn.com/99b0cf07-3c2b-4c1f-8deb-a0088730ddc9/'
+  - image: 'https://ucarecdn.com/23fa0a31-af90-4465-a68d-993028d5b93f/'
+  - image: 'https://ucarecdn.com/fa486a81-9720-4cc4-883c-8336363dfb98/'
+  - image: >-
+      https://ucarecdn.com/62c2735c-c07d-4918-aae7-b4a3b4a07db8/-/crop/2813x3210/0,541/-/preview/
+  - image: 'https://ucarecdn.com/cd390577-b848-4682-8881-82b39f36b179/'
+  - image: 'https://ucarecdn.com/e90cc414-94d2-40fe-9bbb-e3e5e46a9e00/'
+  - image: >-
+      https://ucarecdn.com/71395562-928f-422f-8c9e-31b0d93ec896/-/crop/3950x4652/0,790/-/preview/
+  - image: 'https://ucarecdn.com/2824ffaa-2aa4-46e2-98cf-5192cd0e7ce7/'
 videoSection:
   imageOverlay: /images/uploads/DSC_1073.jpg
   video: >-
