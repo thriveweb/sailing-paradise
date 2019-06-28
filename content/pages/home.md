@@ -26,7 +26,7 @@ featuredSlider:
 featuredBanner:
   buttonTitle: Discover More
   buttonUrl: contact
-  image: 'https://ucarecdn.com/644b389d-f198-4719-b401-2ecc76d7d6c9/'
+  image: 'https://ucarecdn.com/c6031c28-3f5a-4de9-a205-792c02e870ad/'
   title: Gift Cards Now Available
 services:
   - image: 'https://ucarecdn.com/25e2cd4a-f613-4ed6-9dff-23da132b3cde/'
@@ -37,7 +37,7 @@ services:
         their luxurious sailing catamarans for an event to be remembered .
       icon: /images/uploads/wheel.svg
       title: Private Boat Hire
-  - image: 'https://ucarecdn.com/8365c7d6-75d5-42f3-a55f-213b3e2b5cfd/'
+  - image: 'https://ucarecdn.com/7a39bdfd-fe39-4891-b4b7-d8c2ca53d9a1/'
     serviceContent:
       buttonUrl: cruises
       description: >-
@@ -45,7 +45,7 @@ services:
         a beautiful Seawind 1050 Sailing Catamaran.
       icon: /images/uploads/boat2.svg
       title: Sails & Sights Cruise
-  - image: 'https://ucarecdn.com/a3e9bc0c-f3ed-4842-86d1-2755a37c869a/'
+  - image: 'https://ucarecdn.com/8b52eb78-1a5d-4e8d-b370-673f86813142/'
     serviceContent:
       buttonUrl: boat-tours/hens-parties
       description: >-
@@ -57,13 +57,14 @@ services:
 serviceBanner:
   buttonTitle: Find your Perfect Cruise
   buttonUrl: cruises
-  featuredImage: 'https://ucarecdn.com/4ca3cf65-8e3c-40a4-b7c2-0b3b9d4d7724/'
+  featuredImage: 'https://ucarecdn.com/117d8fce-576b-4fe1-9dad-d9f34471faee/'
   subtitle: Let’s Get The Party Started!
   title: Ready to book your Gold Coast Boat Hire?
 secondaryBanner:
   buttonTitle: Know More
   buttonUrl: cruises
-  featuredImage: 'https://ucarecdn.com/7e712990-679e-4473-8574-f6f6e89dc4e5/'
+  featuredImage: >-
+    https://ucarecdn.com/56f44beb-7878-4241-9e81-bca565ab969d/-/crop/2072x1374/0,179/-/preview/-/enhance/65/
   subtitle: Special Offer
   title: Adults at Kids prices
 aboutSection:
