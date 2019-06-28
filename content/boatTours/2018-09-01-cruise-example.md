@@ -3,7 +3,8 @@ template: SingleBoatTour
 tourType: Cruise
 title: Sails and Sights Cruise
 icon: ''
-featuredImage: /images/uploads/sailing-cruise.jpg
+featuredImage: >-
+  https://ucarecdn.com/ae7ae566-043a-47a3-afba-26dea21d6573/-/crop/1600x966/0,234/-/preview/
 intro: >-
   ## gold coast sails and sights cruise
 
@@ -34,11 +35,16 @@ bookingIframe: >-
   class="rezdy"
   src="https://sailinginparadise.rezdy.com/calendarWidget/261907?iframe=true&targetFrame=_new_modal"></iframe>
 gallery:
-  - image: /images/uploads/girls-img9.jpg
-  - image: /images/uploads/DSC_1073.jpg
-  - image: /images/uploads/DSC_1095.jpg
-  - image: /images/uploads/boat-img13.jpg
-  - image: /images/uploads/dsc_0502_1.jpg
+  - image: 'https://ucarecdn.com/bc804760-34c4-4bed-998f-725b52d06ba7/'
+  - image: 'https://ucarecdn.com/631069ad-82a8-4ac3-8d26-6d02fa0367fd/'
+  - image: 'https://ucarecdn.com/79d937fd-c4c8-4073-9746-33006f6885e6/'
+  - image: 'https://ucarecdn.com/faa33ec9-808d-4847-b6d7-607c95d02027/'
+  - image: 'https://ucarecdn.com/e46ff223-e751-4d26-b39a-2208b525754a/'
+  - image: 'https://ucarecdn.com/9c6aef6d-35e9-4c6d-a17c-abffb5471905/'
+  - image: 'https://ucarecdn.com/45270921-7d4e-446c-9e75-deaaca43ac7e/'
+  - image: >-
+      https://ucarecdn.com/2b3c19b5-2705-48d0-a3ec-576bc9b99d4d/-/crop/4000x5307/0,693/-/preview/
+  - image: 'https://ucarecdn.com/36d5d21f-97ce-4c01-9a97-8c62dd5f8b48/'
 videoSection:
   imageOverlay: /images/uploads/DSC_1073.jpg
   video: >-
@@ -137,3 +143,4 @@ columnBanner:
     featuredImage: /images/uploads/girl-img-column2.jpg
   - featuredImage: /images/uploads/girl-img-column.jpg
 ---
+
