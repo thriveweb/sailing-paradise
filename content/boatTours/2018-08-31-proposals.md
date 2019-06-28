@@ -27,10 +27,10 @@ contentBox:
   buttonUrl: booking-enquiry
   title: Enquire about your unique proposal
 gallery:
-  - image: 'https://ucarecdn.com/16a29ab7-bf30-45b0-bbfe-6e8e584b6e1f/'
-  - image: 'https://ucarecdn.com/26319e65-030d-4644-a773-2061a4dacfd9/'
-  - image: 'https://ucarecdn.com/b644309a-605e-4968-8362-c40c3ac49b71/'
   - image: 'https://ucarecdn.com/b87666d6-c0a7-436d-b5c7-101c9bddcb0a/'
+  - image: 'https://ucarecdn.com/16a29ab7-bf30-45b0-bbfe-6e8e584b6e1f/'
+  - image: 'https://ucarecdn.com/b644309a-605e-4968-8362-c40c3ac49b71/'
+  - image: 'https://ucarecdn.com/26319e65-030d-4644-a773-2061a4dacfd9/'
   - image: 'https://ucarecdn.com/058e8197-7265-4442-8a32-537eaaf2e389/'
   - image: 'https://ucarecdn.com/cc0651d3-e9d6-4758-81ba-ce1ed179aafc/'
   - image: 'https://ucarecdn.com/9f567d04-860e-439c-a996-d1ebd56284bf/'
@@ -43,7 +43,6 @@ gallery:
   - image: 'https://ucarecdn.com/5a63e0a2-70fe-4ad3-b518-e84fe4a6dc1e/'
   - image: 'https://ucarecdn.com/027501ec-4ecc-4024-92cc-c22f02cdcfdc/'
   - image: 'https://ucarecdn.com/77d4543a-9c43-4931-bd08-ae3bf9c7c9b7/'
-  - {}
 videoSection:
   imageOverlay: ''
   video: ''
