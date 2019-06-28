@@ -3,7 +3,7 @@ template: SingleBoatTour
 tourType: Private Charter
 title: Family Gatherings
 icon: ''
-featuredImage: 'https://ucarecdn.com/3539db26-3fab-4bd4-a65c-022f77d3701f/'
+featuredImage: 'https://ucarecdn.com/9dc97703-5834-4418-9c0c-cd9c0af7b59c/'
 intro: >-
   ## gold coast Family Gatherings boat party
 
