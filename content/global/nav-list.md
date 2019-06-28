@@ -5,9 +5,10 @@ navItems:
     subNavItems:
       - slug: boat-tours/sails-and-sights-cruise/
         title: Sails and Sights Cruise
-      - slug: boat-tours/cruise-example-2/
+      - slug: boat-tours/island-cruise/
         title: Island Cruise
-      - title: Sunset & City Lights Cruise
+      - slug: boat-tours/sunset-cruise/
+        title: Sunset & City Lights Cruise
     title: Cruises
   - slug: private-charters
     subNavItems:
