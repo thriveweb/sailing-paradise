@@ -19,7 +19,26 @@ contentBox:
   buttonTitle: Make enquiry
   buttonUrl: booking-enquiry
   title: Let us tailor your VIP Gold Coast Family Gatherings Party Experience
-gallery: []
+gallery:
+  - image: >-
+      https://ucarecdn.com/647a22b9-b7f5-4d23-88f6-a99ff0582da0/-/crop/3886x4821/0,0/-/preview/
+  - image: 'https://ucarecdn.com/5361eaf7-70a8-4641-9835-1bc3ee1c20fb/'
+  - image: 'https://ucarecdn.com/1e0407b9-8360-4655-a134-a18e1b5df498/'
+  - image: 'https://ucarecdn.com/98c63106-e488-45b4-b1be-7f7a5dee194b/'
+  - image: 'https://ucarecdn.com/e3c764cf-b641-4485-869e-082e158d6034/'
+  - image: 'https://ucarecdn.com/9fa2a5c1-c6c5-488d-a285-2a3c37e5b8ce/'
+  - image: 'https://ucarecdn.com/739038df-3c45-4e70-9ba4-82ff4d628170/'
+  - image: 'https://ucarecdn.com/880753f7-5222-4fa2-8e76-3494b2cf6b8b/'
+  - image: 'https://ucarecdn.com/0aca2495-a23c-4c54-9c90-970c223ba307/'
+  - image: 'https://ucarecdn.com/2d785464-153c-4feb-9f39-e286911a33e7/'
+  - image: >-
+      https://ucarecdn.com/ed5040d9-21de-4391-ac95-e16d16d7cba0/-/crop/2877x3638/0,674/-/preview/
+  - image: 'https://ucarecdn.com/3170045f-c5d2-46ed-a00e-7745de730f13/'
+  - image: 'https://ucarecdn.com/d7f9c554-a946-403c-84cd-da8b3a0f5c59/'
+  - image: 'https://ucarecdn.com/5ce29b78-7b14-4911-a5e1-ffd49c92751b/'
+  - image: >-
+      https://ucarecdn.com/9721286e-6cac-4932-995b-9833ef1c5fe8/-/crop/3811x4159/0,1558/-/preview/
+  - image: 'https://ucarecdn.com/7bc31479-2cfe-4fea-983a-b12480f2a7bf/'
 videoSection:
   imageOverlay: 'https://ucarecdn.com/a8b3131a-5e2c-4885-9ae0-b875fe2f8c9a/'
   video: >-
