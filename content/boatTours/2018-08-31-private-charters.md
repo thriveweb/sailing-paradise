@@ -3,7 +3,7 @@ template: SingleBoatTour
 tourType: Private Charter
 title: Private Charters
 icon: ''
-featuredImage: /images/uploads/girl-img1.jpg
+featuredImage: 'https://ucarecdn.com/566a1ca1-1445-42be-a404-7e6e07a50d05/'
 intro: >-
   ## gold coast Private Charter boat party
 
@@ -20,11 +20,19 @@ contentBox:
   buttonUrl: booking-enquiry
   title: Let us tailor your VIP Gold Coast Private Charter Party Experience
 gallery:
-  - image: /images/uploads/girls-img9.jpg
-  - image: /images/uploads/girls-img5.jpg
-  - image: /images/uploads/girls-img4.jpg
-  - image: /images/uploads/girls-img6.jpg
-  - image: /images/uploads/pantsless-waiter.jpg
+  - image: 'https://ucarecdn.com/f0dd81f8-1975-4105-aca8-db6b9ec85b3f/'
+  - image: 'https://ucarecdn.com/dfbfe6df-9e8b-4c3f-bbbc-31eb1d3a73a7/'
+  - image: 'https://ucarecdn.com/eaaaae74-ae85-4f45-98b1-44c3d6c5db43/'
+  - image: 'https://ucarecdn.com/48f9749c-1453-4ffa-bcbd-6ed7c28dfeb9/'
+  - image: 'https://ucarecdn.com/1175e3ae-d8ec-41ca-b0fa-5d462245a918/'
+  - image: 'https://ucarecdn.com/1ff2ca85-9bc9-40c3-8910-2755c666650b/'
+  - image: 'https://ucarecdn.com/7e646e33-0c26-49ca-82ba-dbcb2b261d7f/'
+  - image: 'https://ucarecdn.com/d6e85324-a313-489d-b21e-99c8c7106344/'
+  - image: 'https://ucarecdn.com/0661d788-736b-4b2e-9ee7-3eb778e7c2b0/'
+  - {}
+  - {}
+  - {}
+  - {}
 videoSection:
   imageOverlay: /images/uploads/DSC_1073.jpg
   video: >-
@@ -47,8 +55,9 @@ contentColumn: >-
   No matter what style of party you are after we can help. Whether you are
   looking for a relaxing day on the water with some yummy food and a few drinks.
   Or an elegant morning tea cruise with champagne and delicious cupcakes. Even a
-  raucous Private Charter party with a butler in the buff and all the trimmings we are
-  here for you. We have some great Gold Coast Private Charter night ideas also.
+  raucous Private Charter party with a butler in the buff and all the trimmings
+  we are here for you. We have some great Gold Coast Private Charter night ideas
+  also.
 accordionSection:
   accordion:
     - dropdownContent: >-
@@ -141,14 +150,14 @@ accordionSection:
         wonderful cruise.  Let the crew pamper you the way you deserve with our
         Ultimate VIP Private Charter Party Cruise.
       title: Private Charter Party FAQ's
-  title: Private Charter Party Info
 columnBanner:
   - buttonTitle: Make Enquiry
     buttonUrl: booking-enquiry
     content: >-
-      Let our friendly and experienced team tailor a VIP Gold Coast Private Charter
-      Party Experience that they won’t forget.
+      Let our friendly and experienced team tailor a VIP Gold Coast Private
+      Charter Party Experience that they won’t forget.
     title: Give your friend the party they deserve!
     featuredImage: /images/uploads/girl-img-column2.jpg
   - featuredImage: /images/uploads/girl-img-column.jpg
 ---
+
