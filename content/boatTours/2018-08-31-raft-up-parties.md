@@ -3,7 +3,8 @@ template: SingleBoatTour
 tourType: Private Charter
 title: Raft Up Parties
 icon: ''
-featuredImage: /images/uploads/DSC_0038.jpg
+featuredImage: >-
+  https://ucarecdn.com/d5d38b7b-3a79-447c-af43-93cf738464c2/-/crop/3891x1763/0,1155/-/preview/
 intro: >-
   ## gold coast 'Raft Up' yacht party
 
@@ -28,11 +29,19 @@ contentBox:
   buttonUrl: booking-enquiry
   title: Let us help create the ultimate Raft Up Yacht Party Experience
 gallery:
-  - image: /images/uploads/girls-img9.jpg
-  - image: /images/uploads/girls-img5.jpg
-  - image: /images/uploads/girls-img4.jpg
-  - image: /images/uploads/girls-img6.jpg
-  - image: /images/uploads/pantsless-waiter.jpg
+  - image: 'https://ucarecdn.com/73ce469b-6d2d-4985-ab2a-17e1e5f3b1d0/'
+  - image: 'https://ucarecdn.com/41429098-2ac0-403b-ba69-4093a14a77ed/'
+  - image: 'https://ucarecdn.com/07ce539c-f081-432b-b9ce-aadac9617f7b/'
+  - image: 'https://ucarecdn.com/beb152fb-f48c-44df-946a-3af9bb55a6e4/'
+  - image: 'https://ucarecdn.com/ad93bcab-2d8a-4538-adb3-f5377cc4514b/'
+  - image: 'https://ucarecdn.com/5904d242-8c27-482f-9002-39056ffd576f/'
+  - image: 'https://ucarecdn.com/fb197fd0-7f90-436a-ad72-c49549aad456/'
+  - image: 'https://ucarecdn.com/107ee3e0-4676-4257-879d-ca38640fe513/'
+  - image: 'https://ucarecdn.com/bf9998a9-5c90-47cd-b0c4-fe3562cdb487/'
+  - image: 'https://ucarecdn.com/d7122268-ab66-42c9-a6fb-c605302ad0c9/'
+  - image: 'https://ucarecdn.com/0a8ed9e2-2e34-4e51-ad9b-8d8b818ca321/'
+  - image: >-
+      https://ucarecdn.com/30eb5b85-8407-413e-8a73-1a4f96dc5342/-/crop/5479x2275/213,1175/-/preview/
 videoSection:
   imageOverlay: /images/uploads/DSC_1073.jpg
   video: >-
