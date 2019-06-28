@@ -38,25 +38,6 @@ contentBox:
 gallery:
   - image: 'https://ucarecdn.com/3c29561d-463a-4540-b629-5b0faa5806f7/'
   - image: 'https://ucarecdn.com/ede918d3-48a6-44f4-907e-81183f4ed79d/'
-  - image: 'https://ucarecdn.com/aaa47b7b-92d8-40ee-bafb-5405b80393ab/'
-  - image: 'https://ucarecdn.com/1ff34c23-1486-4617-b9d3-b13d71354be7/'
-  - image: 'https://ucarecdn.com/3f1963ed-79c4-4769-8f85-3037c8fd9942/'
-  - image: 'https://ucarecdn.com/7ad1ef07-052e-457f-885d-5ee93dfb61d0/'
-  - image: 'https://ucarecdn.com/b2409e6a-c0cf-40ed-bf68-d8eaf12b8114/'
-  - image: 'https://ucarecdn.com/de3b0523-5ddd-468c-ab16-d1332d228bec/'
-  - image: 'https://ucarecdn.com/d1ee3989-45f4-4b0b-834c-5077975d5bce/'
-  - image: 'https://ucarecdn.com/fde6b4dc-47b4-48d3-a6b4-8ae31702dd04/'
-  - image: 'https://ucarecdn.com/35ac6b9f-d610-4167-8cfc-04ca5cac2856/'
-  - image: 'https://ucarecdn.com/98ef0943-0681-470c-a8da-7f0859e62823/'
-  - image: 'https://ucarecdn.com/3f3cb35c-d430-4a69-97cb-90e4b562dd47/'
-  - image: /images/uploads/BDAY Beach Landing 0 DSC_0645.JPG
-  - image: 'https://ucarecdn.com/856c7b27-c03e-4bc3-a5b4-bb6d44563a4d/'
-  - image: 'https://ucarecdn.com/d1f2ab28-f2f4-4825-86cd-38733396d83b/'
-  - image: 'https://ucarecdn.com/14335f55-a1a5-4ce4-ae2a-9c0eca386ef8/'
-  - image: 'https://ucarecdn.com/60221bcf-72ec-4679-9c3b-05c8e2dfa254/'
-  - image: 'https://ucarecdn.com/e9c62e21-a8a1-4fc3-9f69-aaa3c3fda774/'
-  - image: 'https://ucarecdn.com/ade05579-b1ae-4fac-b4c1-751c40343ba0/'
-  - image: 'https://ucarecdn.com/b2708422-6a9b-43d3-b398-9acdede8cd07/'
 videoSection:
   imageOverlay: 'https://ucarecdn.com/27d0381d-387d-4d17-b24b-6f193f828def/'
   video: >-
