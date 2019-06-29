@@ -5,24 +5,21 @@ title: True Paradise
 featuredVideo: 'https://www.youtube.com/watch?v=vr0qNXmkUJ8&t=62s'
 featuredSlider:
   - buttonUrl: cruises
-    description: 'A 2 hour sailing cruise through the beautiful Gold Coast Broadwater. '
-    title: Sails & Sights Cruise
-  - buttonUrl: cruises
-    description: >-
-      3 hour afternoon cruise with an Island stopover for exciting beach games
-      and water activities.
-    title: Island Adventure Cruise
-  - buttonUrl: cruises
     description: 2 hour sunset cruise
     title: Sunset & City Lights
   - buttonUrl: cruises
-    description: For any ocassion. From 3 hours to a full day. BYO or fully catered.
+    description: For any occasion. From 3 hours to a full day. BYO or fully catered.
     title: Private Skippered Boat Hire
   - buttonUrl: Hens
     description: >-
       We are the hens party specialists. Let us create a truly special event for
       you and your friends.
     title: Gold Coast Hens Party
+  - buttonUrl: cruises
+    description: >-
+      3 hour afternoon cruise with an Island stopover, light lunch and a range
+      of fun activities.
+    title: Island Adventure Cruise
 featuredBanner:
   buttonTitle: Discover More
   buttonUrl: contact
@@ -94,8 +91,6 @@ aboutSection:
     the list goes on and on.
 
 
-
-
     And our crew are on hand to ensure that your event is the best it can be.
 
 
@@ -105,7 +100,7 @@ aboutSection:
 
 
     We know organising an event can sometimes be stressfull but Sailing In
-    Paradise's Event Co-ordinator, Jess, will take the stress out and replace it
+    Paradise's Guest Relations Gurus will take the stress out and replace it
     with fun.
 
 
@@ -128,9 +123,11 @@ highlights:
   - icon: /images/uploads/speakers.svg
     title: 'Fully equipped with Sound System (w Spotify), BBQ, Eskies, and Restroom'
 featuredTestimonials:
-  buttonTitle: See more testimonials
+  buttonTitle: See more real guest reviews
   buttonUrl: case-studies
-  description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.'
+  description: >-
+    It's smiles all round with our top guest satisfaction rating across all
+    review sites...
   testimonialsListing:
     - testimonial: Sonia & Diana
     - testimonial: Tahlia
@@ -140,12 +137,16 @@ latestNews: >-
   ## Latest News
 
 
-  The 2018 Christmas Party season is all but over so we must say a big Thank You
-  and Happy New Year to all our wonderful guests. And now the hen's party season
-  is just beginning.
+  June and July - 2019.  
 
 
-  Bring it on 2019!
+  > It's Winter...but Gold Coast Style
+
+
+  Winter on the Gold Coast brings crisp, blue skies, plenty of sunshine, crystal
+  clear waters and some amazing sailing weather.  Plus you will find our best
+  value rates of the year on offer in June and July.  So gather your crew and
+  hit us up for a charter.   #noexcuseneeded
 meta:
   title: ''
 ---
