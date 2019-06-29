@@ -10,7 +10,7 @@ contentBox:
   buttonUrl: booking-enquiry
   title: Let us tailor an event that is perfect for your delegates
 gallery:
-  - image: 'https://ucarecdn.com/ea9675f5-bd5b-4999-8dd8-4886f351e657/'
+  - image: 'https://ucarecdn.com/cb7fb7d6-93d2-4c5b-a904-42c4dab0c828/'
   - image: 'https://ucarecdn.com/f99106b9-0d3d-43b8-a71e-41f42ec85c43/'
   - image: 'https://ucarecdn.com/e94af98a-13e6-4fce-b84d-744467c1b56c/'
   - image: 'https://ucarecdn.com/7ab0ada1-1f6e-4af5-9de3-eb777bbccbab/'
@@ -23,7 +23,6 @@ gallery:
   - image: 'https://ucarecdn.com/acdaa89c-65e5-48ec-8d45-a44f2541dfdb/'
   - image: 'https://ucarecdn.com/aab96652-6973-4625-be40-05493468c28d/'
   - image: 'https://ucarecdn.com/4aef8938-5c54-4373-9f42-552f908dafca/'
-  - image: 'https://ucarecdn.com/037a7b41-85cd-4ae5-b734-1967bce9dcde/'
 videoSection:
   imageOverlay: ''
   video: >-
