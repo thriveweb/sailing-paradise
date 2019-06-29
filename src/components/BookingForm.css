@@ -97,6 +97,10 @@
 	transform: translateY(-50%);
 }
 
+.BookingForm .Form--Alert {
+	font-size: 2.4rem;
+}
+
 /*Number Picker*/
 
 .BookingForm .Form--Label.full-width {
