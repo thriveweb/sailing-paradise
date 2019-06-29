@@ -66,7 +66,7 @@ accordionSection:
   accordion:
     - dropdownContent: "•\t3 hours on the beautiful, calm Gold Coast Broadwater\r\n\n•\tRelax onboard a spacious Sailing Catamaran\r\n\n•\tA maximum of 30 guests on board\r\n\n•\tSee impressive superyachts, Seaworld, Palazzo Versace, Gold Coast Seaway, Wavebreak Island, South Stradbroke Island and local wildlife.\r\n\n•\tPull up at an island beach only accessible by boat\r\n\n•\tEnjoy free beach activities, take a dip or just relax and enjoy the view\r\n\n•\tCool tunes set the soundtrack for your experience\r\n\n•\tFriendly relaxed ambience with crew sharing some local knowledge\r\n\n•\tKeep your eyes peeled for dolphins!\r\n\n•\tIncludes one complimentary drink and light lunch\n\n•\tDeparts and returns @ Marina Mirage - an ideal spot for a beautiful waterfront meal or drinks before or after your cruise"
       title: What to expect
-    - dropdownContent: "•\tHat\r\n\n•\tSunscreen\r\n\n•\tSunglasses\r\n\n•\tSwimwear \r\n\n•\tTowel\r\n\n•\tJacket on cooler days\r\n\n•\tFlat soled shoes (or bare feet)\r\n\n•\tCamera"
+    - dropdownContent: "•\tHat\n\n•\tSunscreen\n\n•\tSunglasses\n\n•\tSwimwear \n\n•\tTowel\n\n•\tJacket on cooler days\n\n•\tShoes that are easy to slip off\n\n•\tCamera"
       title: What to Bring
     - dropdownContent: >-
         Please arrive 15 minutes prior to your departure time.   We depart from
@@ -76,7 +76,7 @@ accordionSection:
         you will find our vessel.   For further details and a map of how to find
         us please see https://sailinginparadise.com.au/how-to-find-us/
       title: When and Where to find us
-    - dropdownContent: "•\tIn the event of adverse weather requiring a cancellation of the cruise an SMS will be sent to your registered mobile (please ensure you provide one).   \r\n\n•\tPlease provide notice of at least 72 hours should you wish to cancel to avoid forfeiture of ticket price.  \r\n\n•\tThere is no BYO however you will receive one complimentary bubbly, beer or soft drink and extra drinks may be purchased on board at very reasonable prices (cash preferred, cards accepted).  \r\n\n•\tSailing in Paradise reserves the right to substitute the vessel if necessary without prior notice.\r\n\n•\tCruises are subject to weather suitability, the cruise can proceed in most weather conditions but if it is deemed unsafe we will not sail.   Customers are able to reschedule or request a refund in this circumstance.\r\n\n•\tCruises require minimum numbers to depart.  \r  In the event of minimum numbers not being met guests will be offered a full refund or the opportunity to reschedule to an alternative date."
+    - dropdownContent: "•\tIn the event of adverse weather requiring a cancellation of the cruise an SMS will be sent to your registered mobile (please ensure you provide one).   \n\n•\tPlease provide notice of at least 72 hours should you wish to cancel to avoid forfeiture of ticket price.  \n\n•\tThere is no BYO on our ticketed cruises however you will receive one complimentary bubbly, beer or soft drink and extra drinks may be purchased on board at very reasonable prices (cash preferred, cards accepted).  \n\n•\tSailing in Paradise reserves the right to substitute the vessel if necessary without prior notice.\n\n•\tCruises are subject to weather suitability, the cruise can proceed in most weather conditions but if it is deemed unsafe we will not sail.   Customers are able to reschedule or request a refund in this circumstance.\n\n•\tCruises require minimum numbers to depart.\\\n  In the event of minimum numbers not being met guests will be offered a full refund or the opportunity to reschedule to an alternative date."
       title: Terms and Conditions
   sectionTitle: need to know
 columnBanner:
@@ -87,6 +87,6 @@ columnBanner:
       or to request a new date.
     title: Book your Gold Coast Island Cruise Today
     featuredImage: /images/uploads/girl-img-column2.jpg
-  - featuredImage: /images/uploads/girl-img-column.jpg
+  - featuredImage: 'https://ucarecdn.com/77651980-b003-4a21-b581-72514df732d0/'
 ---
 
