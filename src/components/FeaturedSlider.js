@@ -45,7 +45,7 @@ class FeaturedSlider extends Component {
 		    	</Slider>
 			</div>
 			<div className='featuredBanner relative'>
-				<Image background src={image} alt='' />
+				<Image background src={`${image}-/resize/600x/`} alt='' />
 				<div className='bannerContent'>
 					{title && <h3>{title}</h3>}
 					{buttonTitle && buttonUrl && <Button title={buttonTitle} url={buttonUrl} white />}
