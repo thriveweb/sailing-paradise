@@ -35,14 +35,15 @@
   height: 18.6vw;
   overflow: hidden;
   display: block;
+  position: relative;
 }
 
-.instagram-item img {
+.instagram-item div {
   transform: scale(1);
   transition: all ease-in-out 0.2s;
 }
 
-.instagram-item:hover img {
+.instagram-item:hover div {
   transform: scale(1.05);
 }
 

@@ -38,27 +38,27 @@ class GallerySlider extends Component {
 
 		return <div className='gallery'>
 			<Slider {...settings}>
-	    		{gallery.map(({ image }, index) => {
-	    			return <div
-	    				className='galleryImage'
-	    				key={`image-${index}`}
-	    				onClick={() => this.handlePopup(index)}
-	    			>
-							{image &&
-								<div
-									style={{
-										backgroundImage: `url(${`${image}-/resize/100x/`})`,
-										backgroundSize: 'cover'
-									}}
-									data-src={`${image}-/resize/500/`}
-									className='BackgroundImage absolute lazy'
-								>
-								</div>
-							}
-		    			<ICONMagnify />
-		    		</div>
-	    		})}
-	    	</Slider>
+    		{gallery.map(({ image }, index) => {
+    			return <div
+    				className='galleryImage'
+    				key={`image-${index}`}
+    				onClick={() => this.handlePopup(index)}
+    			>
+						{image &&
+							<div
+								style={{
+									backgroundImage: `url(${`${image}-/resize/100x/`})`,
+									backgroundSize: 'cover'
+								}}
+								data-src={`${image}-/resize/500/`}
+								className='BackgroundImage absolute lazy'
+							>
+							</div>
+						}
+	    			<ICONMagnify />
+	    		</div>
+    		})}
+	    </Slider>
 			{gallery.map(({ image }, index) => {
 				return <div
 					className={`galleryImage--Popup ${this.state.popupActive === index ? 'active' : ''}`}
