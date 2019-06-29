@@ -13,17 +13,21 @@
 	border-bottom: .1rem solid var(--primary);
 }
 
+.BookingForm .Form--Label .date-label {
+	padding: 0 2rem 1rem;
+	color: var(--primary);
+	line-height: 1.2;
+}
+
 .BookingForm .Form--Label span {
 	font-size: 1.2rem;
 	color: var(--primary);
 	line-height: 1.1;
-	display: block;
 }
 
 .BookingForm .Form--Input {
 	background-color: transparent;
 	border: none;
-	color:
 }
 
 .BookingForm .Form--Input::placeholder {
@@ -42,6 +46,27 @@
 
 .BookingForm .select-dropdown p {
 	margin-bottom: 0;
+}
+
+.BookingForm .date-section {
+	position: relative;
+	margin-top: 2rem;
+}
+
+.react-datepicker-wrapper {
+	position: relative;
+	z-index: 99;
+}
+
+.BookingForm .date-section .date-label {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+}
+
+.BookingForm .date-section .date-label.active {
+	opacity: 0;
 }
 
 .BookingForm .form-footer {

@@ -25,11 +25,13 @@ class Form extends React.Component {
   constructor (props) {
     super(props)
     this.state = {
-      startDate: new Date(),
+      startDate: '',
       alert: '',
-      disabled: false
+      disabled: false,
+      labelDisplay: false
     };
     this.handleChange = this.handleChange.bind(this);
+    this.handleClick = this.handleClick.bind(this);
   }
 
 
@@ -72,8 +74,15 @@ class Form extends React.Component {
     });
   }
 
+  handleClick() {
+    this.setState({
+      labelDisplay: true
+    })
+  }
+
   render() {
     const { name, subject, action, honeypot } = this.props
+    const { labelDisplay } = this.state
 
     const location = _get(this.props, 'location') || {}
     const search = _get(location, 'search') || ''
@@ -162,15 +171,18 @@ class Form extends React.Component {
                 "Bucks Parties"
               ]}
             />
-            <label className="Form--Label">
-              <span>Preffered Date* (if unsure please select any date within Preffered month)</span>
+            <div
+              className="Form--Label date-section"
+              onClick={this.handleClick}
+            >
               <DatePicker
                 name='date'
                 className='Form--Input'
                 selected={this.state.startDate}
                 onChange={this.handleChange}
               />
-            </label>
+              <p className={`date-label ${labelDisplay ? 'active' : ''}`}>Preffered Date* <span>(if unsure please select any date within Preffered month)</span></p>
+            </div>
             <Select
               placeholder='How did you hear about us?*'
               name='source'
