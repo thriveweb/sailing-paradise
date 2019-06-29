@@ -48,6 +48,7 @@
 	border-bottom: .1rem solid var(--primary);
 	position: relative;
 	margin-top: 4rem;
+	padding: 0;
 }
 
 .BookingForm .form-footer:before, .BookingForm .Form--Label:after {
@@ -60,8 +61,15 @@
 	background-color: var(--primary);
 }
 
+.BookingForm .button {
+	padding: 2rem 6rem 2rem 2rem;
+}
+
 .BookingForm .form-footer svg {
-	margin-left: 2rem;
+	position: absolute;
+	top: 50%;
+	right: 2rem;
+	transform: translateY(-50%);
 }
 
 /*Number Picker*/

@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { Fragment } from 'react'
 import { stringify } from 'qs'
 import { serialize } from 'dom-form-serializer'
 
@@ -71,50 +71,54 @@ class Form extends React.Component {
         {this.state.alert && (
           <div className="Form--Alert">{this.state.alert}</div>
         )}
-        <label className="Form--Label">
-          <input
-            className="Form--Input"
-            type="text"
-            placeholder="Name"
-            name="name"
-            required
-          />
-        </label>
-        <label className="Form--Label">
-          <input
-            className="Form--Input"
-            type="email"
-            placeholder="Email"
-            name="emailAddress"
-            required
-          />
-        </label>
-        <label className="Form--Label TextArea">
-          <input
-            className="Form--Input Form--Textarea"
-            placeholder="Message"
-            name="message"
-            rows="10"
-            required
-          />
-        </label>
-        <input
-          type="hidden"
-          name={honeypot}
-          className="Form--Input-honey"
-          placeholder="Leave blank if you are a human"
-        />
-        {!!subject && <input type="hidden" name="subject" value={subject} />}
-        <input type="hidden" name="form-name" value={name} />
-        <div className='form-footer'>
-          <input
-            className="button Form--SubmitButton"
-            type="submit"
-            value="Send"
-            disabled={this.state.disabled}
-          />
-          <ICONButtonArrows />
-        </div>
+        {!this.state.alert && (
+          <Fragment>
+            <label className="Form--Label">
+              <input
+                className="Form--Input"
+                type="text"
+                placeholder="Name"
+                name="name"
+                required
+              />
+            </label>
+            <label className="Form--Label">
+              <input
+                className="Form--Input"
+                type="email"
+                placeholder="Email"
+                name="emailAddress"
+                required
+              />
+            </label>
+            <label className="Form--Label TextArea">
+              <input
+                className="Form--Input Form--Textarea"
+                placeholder="Message"
+                name="message"
+                rows="10"
+                required
+              />
+            </label>
+            <input
+              type="hidden"
+              name={honeypot}
+              className="Form--Input-honey"
+              placeholder="Leave blank if you are a human"
+            />
+            {!!subject && <input type="hidden" name="subject" value={subject} />}
+            <input type="hidden" name="form-name" value={name} />
+            <div className='form-footer'>
+              <input
+                className="button Form--SubmitButton"
+                type="submit"
+                value="Send"
+                disabled={this.state.disabled}
+              />
+              <ICONButtonArrows />
+            </div>
+          </Fragment>
+        )}
       </form>
     )
   }
