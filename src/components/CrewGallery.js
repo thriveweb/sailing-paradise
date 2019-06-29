@@ -22,9 +22,9 @@ class CrewGallery extends Component {
     this.setState({
       popupActive: index
     })
-    //
-    // document.body.style.overflow = index || index === 0 ? 'hidden' : 'auto'
-    // document.documentElement.style.overflow = index || index === 0 ? 'hidden' : 'auto'
+    
+    document.body.style.overflow = index || index === 0 ? 'hidden' : 'auto'
+    document.documentElement.style.overflow = index || index === 0 ? 'hidden' : 'auto'
   }
 
   render() {
