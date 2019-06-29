@@ -140,7 +140,7 @@ columnBanner:
     buttonUrl: booking-enquiry
     content: Purchase a Gift Voucher
     title: The Perfect Gift
-    featuredImage: /images/uploads/girl-img-column2.jpg
-  - featuredImage: /images/uploads/girl-img-column.jpg
+    featuredImage: 'https://ucarecdn.com/0f5b1ca2-5576-465e-b468-6d9a73019fa1/'
+  - featuredImage: 'https://ucarecdn.com/a1fd1820-d3f5-459f-9602-4bf5f7fbe32d/'
 ---
 
