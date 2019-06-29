@@ -59,10 +59,8 @@ export default ({ children, meta, title, location }) => {
           navItems: markdownRemark(fields: { slug: { eq: "/nav-items/" } }) {
             frontmatter {
               navItems {
-                slug
                 title
                 subNavItems {
-                  slug
                   title
                 }
               }

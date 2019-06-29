@@ -17,7 +17,7 @@ class Form extends React.Component {
     subject: '', // optional subject of the notification email
     action: '',
     honeypot: 'confirm',
-    successMessage: 'Thanks for your enquiry, we will get back to you soon',
+    successMessage: 'Thank you for enquiring about cruise with sailing in paradise, we will be in touch very soon',
     errorMessage:
       'There is a problem, your message has not been sent, please try contacting us via email'
   }
@@ -173,9 +173,14 @@ class Form extends React.Component {
           placeholder='How did you hear about us?*'
           name='source'
           options={[
-            "Internet",
-            "Mail Ad",
-            "Friend",
+            "Web Search",
+            "Facebook",
+            "Instagram",
+            "Friend or family referral",
+            "Signage",
+            "Flyer",
+            "Sailed with us before",
+            "Other"
           ]}
         />
         <input

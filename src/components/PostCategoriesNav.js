@@ -10,7 +10,6 @@ const PostCategoriesNav = ({ categories }) => (
     </Link>
     {categories.map((category, index) => (
       <Link
-        exact
         className="NavLink"
         key={category.title + index}
         to={category.slug}

@@ -47,7 +47,7 @@ captainSection:
   captain:
     - description: >-
         Sailing in Paradise was the brainchild of Steve.  Any of you who have
-        sailed with Steve will probably recall his laid-back, likeable nature. 
+        sailed with Steve will probably recall his laid-back, likeable nature.
         Taking a hands-on and active involvement in the business, if you are a
         regular at the Marina you will often find him working hard during the
         week to ensure the boats are in tip-top condition for our next charter
@@ -66,12 +66,12 @@ captainSection:
     - description: >-
         Jess joined the business full-time in 2017 bringing her background in
         Marketing and Event Management and with it an injection of fresh ideas
-        and concepts, plus an unparalleled level of customer engagement. 
+        and concepts, plus an unparalleled level of customer engagement.
 
 
         With attention to detail bordering on OCD Jess is the one who will make
         sure your crew are there, your catering is ready at precisely the right
-        time and your to be honest anything else you can throw at her… 
+        time and your to be honest anything else you can throw at her…
 
 
         Go on, she likes a challenge ha ha…
@@ -92,7 +92,7 @@ captainSection:
     Hi!  We are Steve and Jess and we own and manage Sailing in Paradise.  
 
 
-    We realise that chartering a boat is not something that you do every day. 
+    We realise that chartering a boat is not something that you do every day.
     Our aim is to make the entire experience as easy as possible, so that when
     you finally step aboard you can really just relax and enjoy the charter.  
 
@@ -157,4 +157,3 @@ columnBanner:
 meta:
   description: ''
 ---
-
