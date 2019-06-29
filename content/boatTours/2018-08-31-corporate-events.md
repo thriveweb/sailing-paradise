@@ -3,13 +3,27 @@ template: SingleBoatTour
 tourType: Private Charter
 title: Corporate Events
 icon: ''
-featuredImage: 'https://ucarecdn.com/8f3a2f9e-027d-459e-8fa8-b1774ea78e36/'
+featuredImage: 'https://ucarecdn.com/94f40dc0-08c9-4308-b78c-98d4a1104709/'
 intro: "## Gold Coast Corporate Yacht Charter\n\nWith 2 beautiful Sailing Catamarans available for charter, Sailing in Paradise offers an unforgettable experience that your group will be talking about for years to come. Ideal for staff parties, team building days, conference delegate activities or partner programs, we can tailor a perfect event to suit your requirements.\r\n\nSailing the picturesque Gold Coast Broadwater aboard your own private yacht you will enjoy spectacular views and access to pristine beaches and isolated islands\r\n\nsurrounded by crystal clear, turquoise waters.   A dusk charter gives you front row seats to the best waterfront, sunset views on the coast, as the city lights set a backdrop for your celebrations."
 contentBox:
   buttonTitle: Make enquiry
   buttonUrl: booking-enquiry
   title: Let us tailor an event that is perfect for your delegates
-gallery: []
+gallery:
+  - image: 'https://ucarecdn.com/ea9675f5-bd5b-4999-8dd8-4886f351e657/'
+  - image: 'https://ucarecdn.com/f99106b9-0d3d-43b8-a71e-41f42ec85c43/'
+  - image: 'https://ucarecdn.com/e94af98a-13e6-4fce-b84d-744467c1b56c/'
+  - image: 'https://ucarecdn.com/7ab0ada1-1f6e-4af5-9de3-eb777bbccbab/'
+  - image: 'https://ucarecdn.com/7421b848-d427-4260-a693-626142350ba2/'
+  - image: 'https://ucarecdn.com/b3ea0259-d86e-45ac-bdb0-0ecf4e3b980b/'
+  - image: 'https://ucarecdn.com/0c1dada4-435e-4187-8b7c-476321822d86/'
+  - image: 'https://ucarecdn.com/14248eab-6199-4e83-ae33-2012acaf3433/'
+  - image: 'https://ucarecdn.com/c89650a1-be76-4513-ba7e-219b60395a70/'
+  - image: 'https://ucarecdn.com/315f83e6-eff6-4809-85fc-64416ac5d098/'
+  - image: 'https://ucarecdn.com/acdaa89c-65e5-48ec-8d45-a44f2541dfdb/'
+  - image: 'https://ucarecdn.com/aab96652-6973-4625-be40-05493468c28d/'
+  - image: 'https://ucarecdn.com/4aef8938-5c54-4373-9f42-552f908dafca/'
+  - {}
 videoSection:
   imageOverlay: ''
   video: >-
