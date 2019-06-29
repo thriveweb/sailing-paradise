@@ -93,9 +93,9 @@ boats:
       video: >-
         https://www.youtube.com/watch?v=vr0qNXmkUJ8&list=PLNhzc-Os3JK8ExayVzzoHVvP2c0-4_oqt
 secondaryBanner:
-  buttonTitle: Know More
+  buttonTitle: Meet our Crew...
   buttonUrl: about
   featuredImage: 'https://ucarecdn.com/489e881e-3ff8-4293-87f4-cfa6d53d7545/'
-  subtitle: lorem Ipsum
+  subtitle: ''
   title: Climb Aboard and get to know us
 ---
