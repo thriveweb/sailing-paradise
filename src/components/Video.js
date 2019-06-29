@@ -50,7 +50,17 @@ class Video extends Component {
 
 		return <div className={`video-section ${videoBanner ? 'videoBanner' : ''}`} onClick={() => !videoPlaying && this.handleVideo(url)}>
 			<div className={`overlay-content ${!videoPlaying ? 'active' : ''}`}>
-				<Image background src={`${imageOverlay}-/resize/2000x/`} alt='' />
+				{imageOverlay &&
+					<div
+						style={{
+							backgroundImage: `url(${`${imageOverlay}-/resize/100x/`})`,
+							backgroundSize: 'cover'
+						}}
+						data-src={`${imageOverlay}-/resize/2000/`}
+						className='BackgroundImage absolute lazy'
+					>
+					</div>
+				}
 				{title && <h2 className='title-gradient'>{title}</h2>}
 				<div className='playButton'><ICONPlay /></div>
 				{title && <p className='button buttonWhite'>Watch Video <ICONButtonArrows /></p>}

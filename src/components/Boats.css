@@ -32,6 +32,7 @@
 .boat .colLeft {
 	margin-right: 10rem;
 	flex: 0 0 60%;
+	position: relative;
 }
 
 .boat h3 {

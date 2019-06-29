@@ -44,7 +44,17 @@ class GallerySlider extends Component {
 	    				key={`image-${index}`}
 	    				onClick={() => this.handlePopup(index)}
 	    			>
-		    			<Image background src={`${image}-/resize/500x/`} alt=''/>
+							{image &&
+								<div
+									style={{
+										backgroundImage: `url(${`${image}-/resize/100x/`})`,
+										backgroundSize: 'cover'
+									}}
+									data-src={`${image}-/resize/500/`}
+									className='BackgroundImage absolute lazy'
+								>
+								</div>
+							}
 		    			<ICONMagnify />
 		    		</div>
 	    		})}
@@ -57,7 +67,17 @@ class GallerySlider extends Component {
 					<div className='popup-close' onClick={() => this.handlePopup()}>
 						<ICONClose />
 					</div>
-	    			{image && <img src={`${image}-/resize/1000x/`} alt=''/>}
+						{image &&
+							<div
+								style={{
+									backgroundImage: `url(${`${image}-/resize/100x/`})`,
+									backgroundSize: 'cover'
+								}}
+								data-src={`${image}-/resize/1000/`}
+								className='BackgroundImage absolute lazy'
+							>
+							</div>
+						}
 	    		</div>
 			})}
 		</div>

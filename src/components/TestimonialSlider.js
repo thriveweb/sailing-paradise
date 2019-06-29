@@ -67,8 +67,18 @@ class Slider extends Component {
                             }`}
                             key={index}
                             onClick={() => this.setState({ activeSlide: index })}
-                        >
-                            {featuredImage && <Image src={`${featuredImage}-/resize/100x/`} alt={name} />}
+                          >
+                            {featuredImage &&
+                              <div
+                                style={{
+                                  backgroundImage: `url(${`${featuredImage}-/resize/100x/`})`,
+                                  backgroundSize: 'cover'
+                                }}
+                                data-src={`${featuredImage}-/resize/200/`}
+                                className='BackgroundImage absolute img-thumbnail lazy'
+                              >
+                              </div>
+                            }
                             {name && <p className='title'>{name}</p>}
                             {content && <Content src={content} />}
                             <Link className='read-more' to={slug}>see more</Link>

@@ -25,7 +25,17 @@ const PostCard = ({
   return <Link to={slug} className={`PostCard ${className}`}>
       {featuredImage && (
         <div className="PostCard--Image relative">
-          <Image background src={`${featuredImage}-/resize/700x/`} alt={title} />
+          {featuredImage &&
+            <div
+              style={{
+                backgroundImage: `url(${`${featuredImage}-/resize/100x/`})`,
+                backgroundSize: 'cover'
+              }}
+              data-src={`${featuredImage}-/resize/700/`}
+              className='BackgroundImage absolute lazy'
+            >
+            </div>
+          }
         </div>
       )}
       <div className="PostCard--Content">

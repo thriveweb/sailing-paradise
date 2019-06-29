@@ -27,6 +27,7 @@
 .columnLeft {
 	flex: 0 0 40%;
 	margin-right: 4rem;
+	position: relative;
 }
 
 .columnLeft .secondaryImage {

@@ -29,8 +29,6 @@ export const SingleCaseStudyTemplate = ({
   meta
 }) => {
 
-  console.log(banner)
-
   return (
     <main className="SingleCaseStudy">
       <Helmet title={meta ? meta.title : `${title} | Sailing in Paradise`}>
@@ -70,9 +68,27 @@ export const SingleCaseStudyTemplate = ({
           </div>
           <div className="SingleCaseStudy--Body">
             <div className="columnLeft">
-              {featuredImage && <Image src={`${featuredImage}-/resize/500/`} alt={title} />}
+              {featuredImage &&
+                <div
+                  style={{
+                    backgroundImage: `url(${`${featuredImage}-/resize/100x/`})`,
+                    backgroundSize: 'cover'
+                  }}
+                  data-src={`${featuredImage}-/resize/500/`}
+                  className='BackgroundImage absolute lazy'
+                >
+                </div>
+              }
               {secondaryImage
-                ? <Image className='secondaryImage' src={`${secondaryImage.publicURL}-/resize/1000x/`} alt='' />
+                ? <div
+        						style={{
+        							backgroundImage: `url(${`${secondaryImage}-/resize/100x/`})`,
+        							backgroundSize: 'cover'
+        						}}
+        						data-src={`${secondaryImage}-/resize/1000/`}
+        						className='BackgroundImage absolute lazy'
+        					>
+        					</div>
                 : <Video {...videoSection} />
               }
             </div>

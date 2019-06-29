@@ -29,7 +29,17 @@ export default ({ boats }) => {
               <div className="container">
                 {title && <h3>{title}</h3>}
                 <div className="colLeft column">
-                  <Image src={`${featuredImage}-/resize/700x/`} alt="" />
+                  {featuredImage &&
+                    <div
+                      style={{
+                        backgroundImage: `url(${`${featuredImage}-/resize/100x/`})`,
+                        backgroundSize: 'cover'
+                      }}
+                      data-src={`${featuredImage}-/resize/700/`}
+                      className='BackgroundImage absolute lazy'
+                    >
+                    </div>
+                  }
                   {description && <Content src={description} />}
                 </div>
                 {boatFeatures && (

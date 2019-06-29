@@ -53,11 +53,19 @@ export const ContactPageTemplate = ({
             )}
           </div>
           <div className="contact-body">
-            {map && (
+            {map &&
               <div className="image-container">
-                <Image background src={`${map}-/resize/600/`} alt="map image" size="cover" />
+                <div
+                  style={{
+                    backgroundImage: `url(${`${map}-/resize/100x/`})`,
+                    backgroundSize: 'cover'
+                  }}
+                  data-src={`${map}-/resize/600/`}
+                  className='BackgroundImage absolute lazy'
+                >
+                </div>
               </div>
-            )}
+            }
             {body && <Content src={body} />}
           </div>
         </div>

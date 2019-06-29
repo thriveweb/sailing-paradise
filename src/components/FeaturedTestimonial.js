@@ -23,12 +23,24 @@ export default ({ description, title, testimonial, caseStudies }) => {
                 {description && <Content src={description} />}
             </div>
             <Link to={slug} className='testimonial'>
-                {featuredImage && <Image src={featuredImage} alt='' />}
-                <div className='testimonial-content'>
-                    {name && <p className='title'>{name}</p>}
-                    {excerpt && <Content src={excerpt} />}
-                    <p className='read-more'>See more</p>
+              {featuredImage &&
+                <div className='img-thumbnail'>
+                  <div
+                    style={{
+                      backgroundImage: `url(${`${featuredImage}-/resize/100x/`})`,
+                      backgroundSize: 'cover'
+                    }}
+                    data-src={`${featuredImage}-/resize/120/`}
+                    className='BackgroundImage absolute lazy'
+                  >
+                  </div>
                 </div>
+              }
+              <div className='testimonial-content'>
+                  {name && <p className='title'>{name}</p>}
+                  {excerpt && <Content src={excerpt} />}
+                  <p className='read-more'>See more</p>
+              </div>
             </Link>
         </div>
     </section>

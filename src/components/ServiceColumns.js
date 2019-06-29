@@ -25,7 +25,17 @@ export default ({ services, serviceBanner }) => {
 						{buttonUrl && <Button title='Know More' url={buttonUrl} />}
 					</div>
 					<div className='serviceImage relative'>
-						{image && <Image background src={`${image}-/resize/700x/`} alt='' />}
+						{image &&
+							<div
+								style={{
+									backgroundImage: `url(${`${image}-/resize/100x/`})`,
+									backgroundSize: 'cover'
+								}}
+								data-src={`${image}-/resize/700/`}
+								className='BackgroundImage absolute lazy'
+							>
+							</div>
+						}
 					</div>
 				</Fragment>
 			})}
@@ -35,7 +45,17 @@ export default ({ services, serviceBanner }) => {
 				{title && <p>{title}</p>}
 				{subtitle && <h3>{subtitle}</h3>}
 				{buttonTitle && buttonUrl && <Button title={buttonTitle} url={buttonUrl} white />}
-				<Image background src={`${featuredImage}-/resize/1400x/`} alt='' />
+				{featuredImage &&
+					<div
+						style={{
+							backgroundImage: `url(${`${featuredImage}-/resize/100x/`})`,
+							backgroundSize: 'cover'
+						}}
+						data-src={`${featuredImage}-/resize/1400/`}
+						className='BackgroundImage absolute lazy'
+					>
+					</div>
+				}
 			</div>
 		</div>
 	</section>

@@ -16,7 +16,15 @@ export default ({ captainIntro, captain }) => {
 						<div className='member' key={`member ${index}`}>
 							{image &&
 								<div className='image-container relative'>
-									<Image className='profile-image' background src={`${image}-/resize/230x/`} alt='profile image' />
+									<div
+										style={{
+											backgroundImage: `url(${`${image}-/resize/100x/`})`,
+											backgroundSize: 'cover'
+										}}
+										data-src={`${image}-/resize/230/`}
+										className='BackgroundImage absolute lazy profile-image'
+									>
+									</div>
 								</div>
 							}
 							{name && <h4>{name}</h4>}

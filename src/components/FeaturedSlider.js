@@ -45,7 +45,17 @@ class FeaturedSlider extends Component {
 		    	</Slider>
 			</div>
 			<div className='featuredBanner relative'>
-				<Image background src={`${image}-/resize/600x/`} alt='' />
+        {image &&
+          <div
+            style={{
+              backgroundImage: `url(${`${image}-/resize/100x/`})`,
+              backgroundSize: 'cover'
+            }}
+            data-src={`${image}-/resize/600/`}
+            className='BackgroundImage absolute lazy'
+          >
+          </div>
+        }
 				<div className='bannerContent'>
 					{title && <h3>{title}</h3>}
 					{buttonTitle && buttonUrl && <Button title={buttonTitle} url={buttonUrl} white />}

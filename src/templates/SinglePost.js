@@ -35,14 +35,17 @@ export const SinglePostTemplate = ({
       {meta && <link rel="canonical" href={meta.canonical} />}
     </Helmet>
 
-    {featuredImage && (
-      <Image
-        background
-        className="SinglePost--BackgroundImage"
-        src={`${featuredImage}-/resize/2000x/`}
-        alt={title}
-      />
-    )}
+    {featuredImage &&
+      <div
+        style={{
+          backgroundImage: `url(${`${featuredImage}-/resize/100x/`})`,
+          backgroundSize: 'cover'
+        }}
+        data-src={`${featuredImage}-/resize/2000/`}
+        className='BackgroundImage absolute lazy SinglePost--BackgroundImage'
+      >
+      </div>
+    }
 
     <div className="container skinny">
       <Link className="SinglePost--BackButton" to="/blog/">

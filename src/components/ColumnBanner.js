@@ -23,7 +23,17 @@ export default ({ columnBanner, boatTour, className = '', charterUrl, bookingIfr
 				</div>
 
 				return <div className='bannerColumn relative overlay' key={index}>
-					<Image background src={`${featuredImage}-/resize/1000x/`} alt='' />
+					{featuredImage &&
+						<div
+							style={{
+								backgroundImage: `url(${`${featuredImage}-/resize/100x/`})`,
+								backgroundSize: 'cover'
+							}}
+							data-src={`${featuredImage}-/resize/1000/`}
+							className='BackgroundImage absolute lazy'
+						>
+						</div>
+					}
 					<div className='container'>
 						{title && <h2 className='title-gradient'>{title}</h2>}
 						{content && <Content src={content} />}

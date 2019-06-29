@@ -11,7 +11,14 @@ export default ({ featuredImage, title, subtitle, content, buttons }) => {
 	if(!featuredImage) return null
 
 	return <section className='aboutUs relative'>
-			<Image background src={`${featuredImage}-/resize/2000x/`} alt='' />
+			{featuredImage && <div
+				style={{
+					backgroundImage: `url(${`${featuredImage}-/resize/100x/`})`,
+					backgroundSize: 'cover'
+				}}
+				data-src={`${featuredImage}-/resize/2000x/`}
+				className='BackgroundImage absolute lazy'
+			></div>}
 			{title && <h2 className='title-gradient'>{title}</h2>}
 			<div className='aboutUs-Content'>
 				{subtitle && <h3 className='fancy-title'>{subtitle}</h3>}

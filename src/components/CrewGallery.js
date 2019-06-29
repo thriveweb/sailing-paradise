@@ -35,7 +35,17 @@ class CrewGallery extends Component {
 		    				className='galleryImage'
 		    				key={`image-${index}`}
 		    			>
-			    			<Image background src={`${image}-/resize/500x/`} alt=''/>
+                {image &&
+                  <div
+                    style={{
+                      backgroundImage: `url(${`${image}-/resize/100x/`})`,
+                      backgroundSize: 'cover'
+                    }}
+                    data-src={`${image}-/resize/500/`}
+                    className='BackgroundImage absolute lazy'
+                  >
+                  </div>
+                }
 			    			<div className='crew-content'>
 			    				{name && <h4>{name}</h4>}
 			    				{title && <p>{title}</p>}

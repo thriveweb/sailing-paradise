@@ -15,11 +15,15 @@
 	margin-left: 12rem;
 }
 
-.featuredTestimonial .testimonial .Image {
+.featuredTestimonial .testimonial .img-thumbnail {
 	height: 12rem;
 	width: 12rem;
+	flex: 0 0 12rem;
 	border-radius: 100%;
 	margin-right: 6rem;
+	position: relative;
+	overflow: hidden;
+	align-self: flex-start;
 }
 
 .featuredTestimonial .testimonial .title {
