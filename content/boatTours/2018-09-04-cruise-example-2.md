@@ -3,7 +3,7 @@ template: SingleBoatTour
 tourType: Cruise
 title: Island Cruise
 featuredImage: >-
-  https://ucarecdn.com/a477c53f-47b3-4c35-9d38-f29ce0c52e4f/-/crop/5695x3030/0,0/-/preview/
+  https://ucarecdn.com/a477c53f-47b3-4c35-9d38-f29ce0c52e4f/
 intro: >-
   ## gold coast island cruise
 
@@ -40,8 +40,7 @@ gallery:
   - image: 'https://ucarecdn.com/ab453f80-ee31-47e9-b9a1-d8050c618756/'
   - image: 'https://ucarecdn.com/2829ceff-aad9-4f29-b2eb-a139b4e7cb9c/'
   - image: 'https://ucarecdn.com/d7f25bca-f3b8-4573-bf3e-d50e86547a34/'
-  - image: >-
-      https://ucarecdn.com/a028e189-101c-48d9-bffa-93397f880f92/-/crop/3698x4937/0,0/-/preview/
+  - image: 'https://ucarecdn.com/a028e189-101c-48d9-bffa-93397f880f92/'
   - image: 'https://ucarecdn.com/d72195d0-4dae-48cc-b172-218c94958fea/'
   - image: 'https://ucarecdn.com/1168578d-e606-45ec-aad1-0c067bc70a80/'
   - image: 'https://ucarecdn.com/b5739643-7be7-48d8-bb30-66836e9c3f30/'
@@ -89,4 +88,3 @@ columnBanner:
     featuredImage: /images/uploads/girl-img-column2.jpg
   - featuredImage: 'https://ucarecdn.com/77651980-b003-4a21-b581-72514df732d0/'
 ---
-

@@ -4,7 +4,7 @@ tourType: Private Charter
 title: Private Charters
 icon: ''
 featuredImage: >-
-  https://ucarecdn.com/3d7d7bc6-e529-4cbc-8893-a233ae1a3897/-/crop/4174x1873/0,0/-/preview/
+  https://ucarecdn.com/3d7d7bc6-e529-4cbc-8893-a233ae1a3897/
 intro: >-
   ## gold coast Private Charter boat party
 
@@ -34,12 +34,10 @@ gallery:
   - image: 'https://ucarecdn.com/99b0cf07-3c2b-4c1f-8deb-a0088730ddc9/'
   - image: 'https://ucarecdn.com/23fa0a31-af90-4465-a68d-993028d5b93f/'
   - image: 'https://ucarecdn.com/fa486a81-9720-4cc4-883c-8336363dfb98/'
-  - image: >-
-      https://ucarecdn.com/62c2735c-c07d-4918-aae7-b4a3b4a07db8/-/crop/2813x3210/0,541/-/preview/
+  - image: 'https://ucarecdn.com/62c2735c-c07d-4918-aae7-b4a3b4a07db8/'
   - image: 'https://ucarecdn.com/cd390577-b848-4682-8881-82b39f36b179/'
   - image: 'https://ucarecdn.com/e90cc414-94d2-40fe-9bbb-e3e5e46a9e00/'
-  - image: >-
-      https://ucarecdn.com/71395562-928f-422f-8c9e-31b0d93ec896/-/crop/3950x4652/0,790/-/preview/
+  - image: 'https://ucarecdn.com/71395562-928f-422f-8c9e-31b0d93ec896/'
   - image: 'https://ucarecdn.com/2824ffaa-2aa4-46e2-98cf-5192cd0e7ce7/'
 videoSection:
   imageOverlay: /images/uploads/DSC_1073.jpg
@@ -168,4 +166,3 @@ columnBanner:
     featuredImage: /images/uploads/girl-img-column2.jpg
   - featuredImage: /images/uploads/girl-img-column.jpg
 ---
-

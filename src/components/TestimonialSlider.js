@@ -68,7 +68,7 @@ class Slider extends Component {
                             key={index}
                             onClick={() => this.setState({ activeSlide: index })}
                         >
-                            {featuredImage && <Image src={featuredImage} alt={name} />}
+                            {featuredImage && <Image src={`${featuredImage}-/resize/100x/`} alt={name} />}
                             {name && <p className='title'>{name}</p>}
                             {content && <Content src={content} />}
                             <Link className='read-more' to={slug}>see more</Link>

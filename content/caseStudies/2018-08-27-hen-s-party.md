@@ -4,7 +4,7 @@ name: Tahlia
 title: Birthday Party
 date: '2018-09-13'
 featuredImage: >-
-  https://ucarecdn.com/a6993c65-b26c-40a8-bf85-6d08a0cc982c/-/crop/1080x1152/0,140/-/preview/
+  https://ucarecdn.com/a6993c65-b26c-40a8-bf85-6d08a0cc982c/
 videoSection:
   imageOverlay: 'https://ucarecdn.com/fd046926-f6a5-4353-9617-641ac157b744/'
   title: ''

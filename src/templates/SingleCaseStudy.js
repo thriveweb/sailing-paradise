@@ -29,6 +29,8 @@ export const SingleCaseStudyTemplate = ({
   meta
 }) => {
 
+  console.log(banner)
+
   return (
     <main className="SingleCaseStudy">
       <Helmet title={meta ? meta.title : `${title} | Sailing in Paradise`}>
@@ -68,9 +70,9 @@ export const SingleCaseStudyTemplate = ({
           </div>
           <div className="SingleCaseStudy--Body">
             <div className="columnLeft">
-              {featuredImage && <Image src={featuredImage} alt={title} />}
+              {featuredImage && <Image src={`${featuredImage}-/resize/500/`} alt={title} />}
               {secondaryImage
-                ? <Image className='secondaryImage' src={secondaryImage.publicURL} alt='' />
+                ? <Image className='secondaryImage' src={`${secondaryImage.publicURL}-/resize/1000x/`} alt='' />
                 : <Video {...videoSection} />
               }
             </div>
@@ -146,11 +148,10 @@ export const pageQuery = graphql`
         }
       }
     }
-    archiveBanner: allMarkdownRemark(
-      filter: { frontmatter: { title: { eq: "Case Studies" } } }
-    ) {
+    archiveBanner: allMarkdownRemark(filter: {id: {eq: "588061a2-5982-5cb1-a55b-36c2e2a7a00a"}}) {
       edges {
         node {
+          id
           frontmatter {
             title
             featuredImage

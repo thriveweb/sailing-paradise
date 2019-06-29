@@ -4,7 +4,7 @@ tourType: Cruise
 title: Sails and Sights Cruise
 icon: ''
 featuredImage: >-
-  https://ucarecdn.com/ae7ae566-043a-47a3-afba-26dea21d6573/-/crop/1600x966/0,234/-/preview/
+  https://ucarecdn.com/ae7ae566-043a-47a3-afba-26dea21d6573/
 intro: >-
   ## gold coast sails and sights cruise
 
@@ -42,8 +42,7 @@ gallery:
   - image: 'https://ucarecdn.com/e46ff223-e751-4d26-b39a-2208b525754a/'
   - image: 'https://ucarecdn.com/9c6aef6d-35e9-4c6d-a17c-abffb5471905/'
   - image: 'https://ucarecdn.com/45270921-7d4e-446c-9e75-deaaca43ac7e/'
-  - image: >-
-      https://ucarecdn.com/2b3c19b5-2705-48d0-a3ec-576bc9b99d4d/-/crop/4000x5307/0,693/-/preview/
+  - image: 'https://ucarecdn.com/2b3c19b5-2705-48d0-a3ec-576bc9b99d4d/'
   - image: 'https://ucarecdn.com/36d5d21f-97ce-4c01-9a97-8c62dd5f8b48/'
 videoSection:
   imageOverlay: /images/uploads/DSC_1073.jpg
@@ -143,4 +142,3 @@ columnBanner:
     featuredImage: 'https://ucarecdn.com/0f5b1ca2-5576-465e-b468-6d9a73019fa1/'
   - featuredImage: 'https://ucarecdn.com/a1fd1820-d3f5-459f-9602-4bf5f7fbe32d/'
 ---
-

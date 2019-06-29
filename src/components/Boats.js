@@ -29,7 +29,7 @@ export default ({ boats }) => {
               <div className="container">
                 {title && <h3>{title}</h3>}
                 <div className="colLeft column">
-                  <Image src={featuredImage} alt="" />
+                  <Image src={`${featuredImage}-/resize/700x/`} alt="" />
                   {description && <Content src={description} />}
                 </div>
                 {boatFeatures && (

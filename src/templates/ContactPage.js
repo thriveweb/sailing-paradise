@@ -55,7 +55,7 @@ export const ContactPageTemplate = ({
           <div className="contact-body">
             {map && (
               <div className="image-container">
-                <Image background src={map} alt="map image" size="cover" />
+                <Image background src={`${map}-/resize/600/`} alt="map image" size="cover" />
               </div>
             )}
             {body && <Content src={body} />}

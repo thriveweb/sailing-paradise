@@ -14,7 +14,7 @@ const PageHeader = ({
   return (
     <div className={`PageHeader relative overlay ${className}`}>
       {backgroundImage && (
-        <Image background src={backgroundImage} alt={title} size="cover" />
+        <Image background src={`${backgroundImage}-/resize/2000x/`} alt={title} size="cover" />
       )}
       <div className="container relative">
         <h1 className="PageHeader--Title title-gradient">{title}</h1>

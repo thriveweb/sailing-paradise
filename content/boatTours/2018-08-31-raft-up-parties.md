@@ -4,12 +4,12 @@ tourType: Private Charter
 title: Raft Up Parties
 icon: ''
 featuredImage: >-
-  https://ucarecdn.com/d5d38b7b-3a79-447c-af43-93cf738464c2/-/crop/3891x1763/0,1155/-/preview/
+  https://ucarecdn.com/d5d38b7b-3a79-447c-af43-93cf738464c2/
 intro: >-
   ## gold coast 'Raft Up' yacht party
 
 
-  Get the crew together for the event of a lifetime. 
+  Get the crew together for the event of a lifetime.
 
 
   Whether you are organising a corporate event, a wedding or a get together with
@@ -40,8 +40,7 @@ gallery:
   - image: 'https://ucarecdn.com/bf9998a9-5c90-47cd-b0c4-fe3562cdb487/'
   - image: 'https://ucarecdn.com/d7122268-ab66-42c9-a6fb-c605302ad0c9/'
   - image: 'https://ucarecdn.com/0a8ed9e2-2e34-4e51-ad9b-8d8b818ca321/'
-  - image: >-
-      https://ucarecdn.com/30eb5b85-8407-413e-8a73-1a4f96dc5342/-/crop/5479x2275/213,1175/-/preview/
+  - image: 'https://ucarecdn.com/30eb5b85-8407-413e-8a73-1a4f96dc5342/'
 videoSection:
   imageOverlay: /images/uploads/DSC_1073.jpg
   video: >-
@@ -53,16 +52,16 @@ contentColumn: >-
 
 
   Bring the team together with some quirky team building activities or party the
-  afternoon away. 
+  afternoon away.
 
 
   When it comes to creating a special day there really is 'no limit' to what we
-  can achieve. 
+  can achieve.
 
 
   Private chefs and wait staff, marquees and masseuses, DJ's, watersports
   activities (parasailing, jetboats etc), fireworks spectaculars, drone and
-  professional photographers, the list goes on. 
+  professional photographers, the list goes on.
 
 
   Raft Up yacht parties can cater from 50 to 90 people on up to 4 sailing
@@ -91,7 +90,7 @@ accordionSection:
     - dropdownContent: >-
         * In the interests of public safety and to ensure everyone has a safe
         and awesome day, we do adhere to Responsible Service of Alcohol
-        practices. 
+        practices.
 
         * Anyone wishing to consume alcohol must be able to provide
         identification proving they are over 18 years.
@@ -115,7 +114,7 @@ accordionSection:
         * Weddings - beautiful island location for a unique beach wedding.
       title: More Raft Up Ideas
     - dropdownContent: >-
-        **How many people can you accommodate?** 
+        **How many people can you accommodate?**
 
 
         _We have 4 sailing catamarans available which can carry a total of 90
@@ -159,4 +158,3 @@ columnBanner:
     featuredImage: /images/uploads/girl-img-column2.jpg
   - featuredImage: /images/uploads/girl-img-column.jpg
 ---
-

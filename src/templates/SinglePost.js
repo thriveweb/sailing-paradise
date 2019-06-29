@@ -39,7 +39,7 @@ export const SinglePostTemplate = ({
       <Image
         background
         className="SinglePost--BackgroundImage"
-        src={featuredImage}
+        src={`${featuredImage}-/resize/2000x/`}
         alt={title}
       />
     )}

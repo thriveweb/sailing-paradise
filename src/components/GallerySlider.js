@@ -44,7 +44,7 @@ class GallerySlider extends Component {
 	    				key={`image-${index}`}
 	    				onClick={() => this.handlePopup(index)}
 	    			>
-		    			<Image background src={image} alt=''/>
+		    			<Image background src={`${image}-/resize/500x/`} alt=''/>
 		    			<ICONMagnify />
 		    		</div>
 	    		})}
@@ -57,7 +57,7 @@ class GallerySlider extends Component {
 					<div className='popup-close' onClick={() => this.handlePopup()}>
 						<ICONClose />
 					</div>
-	    			{image && <img src={image} alt=''/>}
+	    			{image && <img src={`${image}-/resize/1000x/`} alt=''/>}
 	    		</div>
 			})}
 		</div>

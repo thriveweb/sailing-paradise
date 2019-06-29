@@ -61,7 +61,7 @@ secondaryBanner:
   buttonTitle: Know More
   buttonUrl: cruises
   featuredImage: >-
-    https://ucarecdn.com/56f44beb-7878-4241-9e81-bca565ab969d/-/crop/2072x1374/0,179/-/preview/-/enhance/65/
+    https://ucarecdn.com/56f44beb-7878-4241-9e81-bca565ab969d/
   subtitle: Special Offer
   title: Adults at Kids prices
 aboutSection:
@@ -150,4 +150,3 @@ latestNews: >-
 meta:
   title: ''
 ---
-
