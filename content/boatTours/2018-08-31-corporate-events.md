@@ -25,8 +25,7 @@ gallery:
   - image: 'https://ucarecdn.com/4aef8938-5c54-4373-9f42-552f908dafca/'
 videoSection:
   imageOverlay: ''
-  video: >-
-    https://www.youtube.com/watch?v=vr0qNXmkUJ8&list=PLNhzc-Os3JK8ExayVzzoHVvP2c0-4_oqt
+  video: ''
 contentColumnTitle: A corporate event venue with a difference...
 contentColumn: "Our catamarans offer comfort, space and style and are guaranteed to create a social atmosphere for your cruise.    With 30 and 20 capacity boats in the fleet, Sailing in Paradise can accommodate small intimate groups or larger gatherings.   We can also arrange additional vessels for a 'yacht raft up' for up to 90 people.  Imagine your own private fleet of yachts setting sail for a secret rendezvous location for an afternoon of fun in the sunshine.  \rRead more about our raft up events here.   \n\nFor the ultimate in stress-free corporate event planning we offer a range of catering and drinks packages.  Partnering with some of the Gold Coast's best caterers our guests can enjoy a plethora dining options from gourmet grazing boards to private chefs.  \r\n\n\rWant to know more about us or our boats?"
 accordionSection:
