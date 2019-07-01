@@ -17,6 +17,7 @@ excerpt: >-
   we could give them 10 stars we would. Value for money this was bloody
   brilliant.    Tripadvisor
 gallery:
+  - image: 'https://ucarecdn.com/3b4fde42-d5f3-4b54-b758-f037c8176fbe/'
   - image: 'https://ucarecdn.com/52c4c72e-85e2-45c6-a139-b9cf839decd1/'
   - image: 'https://ucarecdn.com/fd7c4e22-45b4-4f38-904a-9f4ce34a1e52/'
   - image: >-
