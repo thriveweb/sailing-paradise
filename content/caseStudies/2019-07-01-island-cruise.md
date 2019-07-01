@@ -12,6 +12,7 @@ excerpt: >-
   to wave break island!  there was beach volleyball, stand up paddle boarding,
   and floatable flamingos to chill on!  Thanks for a great day” 
 gallery:
+  - image: 'https://ucarecdn.com/f5ec4f02-34f4-4d28-b750-456c86b90eb7/'
   - image: >-
       https://ucarecdn.com/c5c9127d-630e-4d2f-8a54-90aa38205e01/-/crop/1002x1310/0,102/-/preview/
   - image: 'https://ucarecdn.com/aafbf7db-319c-4f91-8af2-442790c6f020/'
