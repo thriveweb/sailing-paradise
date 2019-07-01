@@ -14,6 +14,7 @@ excerpt: >-
   a complimentary drink and nibbles, some stunning photographs and chill vibing
   tunes as we sailed into the sunset. A must do on the Gold Coast!” TripAdvisor
 gallery:
+  - image: 'https://ucarecdn.com/45419433-2b8c-462c-b00b-060e0420c5c8/'
   - image: 'https://ucarecdn.com/868456d1-d814-4f94-a006-96379652503b/'
   - image: 'https://ucarecdn.com/47930369-6776-4956-90b0-0891b8e6848c/'
   - image: 'https://ucarecdn.com/b50732f2-ff44-4770-b42a-c3891be94821/'
