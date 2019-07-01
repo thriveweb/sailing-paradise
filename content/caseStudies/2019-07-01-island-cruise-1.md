@@ -18,6 +18,7 @@ excerpt: >-
   特别棒的一次体验。十一黄金周时和全家一起出海。天气好，船也很棒。小朋友们特别开心，整个船上跑来跑去，还体验了扬帆。老板提供的火烈鸟游泳圈特别适合照相，还有paddle很有挑战性。服务贴心，人超级好。特别还提供免费的照相服务，随时抓拍，不怕没有好照片。强烈推荐！”
   Tripadvisor
 gallery:
+  - image: 'https://ucarecdn.com/30e5432e-e359-45a8-a012-cb5f39be55b1/'
   - image: 'https://ucarecdn.com/6511f5fe-8274-4ce7-8016-a61c4e661086/'
   - image: >-
       https://ucarecdn.com/658bb075-3519-45e3-b4bd-ef62ddefb3fe/-/crop/1067x1293/0,191/-/preview/
