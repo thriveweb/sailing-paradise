@@ -12,6 +12,7 @@ excerpt: >-
   very tasty. Crew were excellent with kids. Overall a really lovely arvo, very
   relaxed & fun. Thanks so much!!! Definitely recommend! :)”  TripAdvisor
 gallery:
+  - image: 'https://ucarecdn.com/ef2d7e4a-602a-464e-bfc3-13e7ea09b0fc/'
   - image: 'https://ucarecdn.com/9b3a1a21-108c-4fde-a002-e8b1a8f19d4c/'
   - image: 'https://ucarecdn.com/16d771eb-99e5-4395-b0b3-e33853759ee4/'
   - image: 'https://ucarecdn.com/89bd8d9d-f315-4885-a8cc-93ec284e8194/'
