@@ -1,7 +1,7 @@
 ---
 template: SingleCaseStudy
 name: 'Sean Gilliland, Australia'
-title: Sunset Cruise
+title: Sunset & City Lights Cruise
 date: '2019-03-31'
 featuredImage: 'https://ucarecdn.com/311c7d0b-0fae-4d85-b181-ac57844a406a/'
 secondaryImage: 'https://ucarecdn.com/4aabaf1f-e3a5-4602-8308-24dc431a16e4/'
