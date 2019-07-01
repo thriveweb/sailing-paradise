@@ -1,6 +1,6 @@
 ---
 template: SingleCaseStudy
-name: Sandy
+name: 'Sandy, UK'
 title: Sunset & City Lights Cruise
 date: 2019-07-01T03:15:59.270Z
 featuredImage: >-
