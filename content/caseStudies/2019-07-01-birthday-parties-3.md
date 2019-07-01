@@ -25,6 +25,7 @@ gallery:
   - image: 'https://ucarecdn.com/6ab1b5fd-1880-4c2a-9164-3097eefad265/'
   - image: 'https://ucarecdn.com/4fecfb5e-6473-41af-8ff2-82483a88a7ce/'
   - image: 'https://ucarecdn.com/ef53d988-7013-46c0-884f-60575a858173/'
+  - image: 'https://ucarecdn.com/264ea926-35f4-4ec4-89f8-bfbadf5eae95/'
   - image: >-
       https://ucarecdn.com/93cab004-ff89-4b85-b471-51881802395f/-/crop/971x934/0,0/-/preview/
 ---
