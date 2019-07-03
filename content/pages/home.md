@@ -30,18 +30,18 @@ services:
     serviceContent:
       buttonUrl: private-charters
       description: >-
-        For any occasion. Sailing in Paradise invites you to step aboard one of
-        their luxurious sailing catamarans for an event to be remembered .
+        Sailing in Paradise invites you to step aboard one of their luxurious
+        sailing catamarans for an event to be remembered .
       icon: /images/uploads/wheel.svg
       title: Private Boat Hire
   - image: 'https://ucarecdn.com/7a39bdfd-fe39-4891-b4b7-d8c2ca53d9a1/'
     serviceContent:
       buttonUrl: cruises
       description: >-
-        Join Sailing in Paradise on a cruise of the Gold Coast Broadwater aboard
-        a beautiful Seawind 1050 Sailing Catamaran.
+        Join Sailing in Paradise on a cruise of the Gold Coast Broadwater.  Take
+        in the sunset or sail to an island by day.  
       icon: /images/uploads/boat2.svg
-      title: Sails & Sights Cruise
+      title: Ticketed Cruises
   - image: 'https://ucarecdn.com/8b52eb78-1a5d-4e8d-b370-673f86813142/'
     serviceContent:
       buttonUrl: boat-tours/hens-parties
@@ -60,8 +60,7 @@ serviceBanner:
 secondaryBanner:
   buttonTitle: Know More
   buttonUrl: cruises
-  featuredImage: >-
-    https://ucarecdn.com/56f44beb-7878-4241-9e81-bca565ab969d/
+  featuredImage: 'https://ucarecdn.com/56f44beb-7878-4241-9e81-bca565ab969d/'
   subtitle: Special Offer
   title: Adults at Kids prices
 aboutSection:
@@ -150,3 +149,4 @@ latestNews: >-
 meta:
   title: ''
 ---
+
