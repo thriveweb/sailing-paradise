@@ -36,8 +36,33 @@ contentBox:
   buttonUrl: booking-enquiry
   title: Let us tailor your VIP Gold Coast Birthday Party Experience
 gallery:
-  - image: 'https://ucarecdn.com/3c29561d-463a-4540-b629-5b0faa5806f7/'
+  - image: 'https://ucarecdn.com/be1f43cc-8dbd-4105-a8e9-98089d4de492/'
   - image: 'https://ucarecdn.com/ede918d3-48a6-44f4-907e-81183f4ed79d/'
+  - image: 'https://ucarecdn.com/151bb5c3-3625-4c97-bc2d-9fa843195de1/'
+  - image: 'https://ucarecdn.com/f9911190-3db1-488c-a374-eabb98cb37a0/'
+  - image: 'https://ucarecdn.com/991f70bc-36d3-430b-9d3f-7846312d0936/'
+  - image: 'https://ucarecdn.com/5e8fc815-b936-4974-9429-71743eff6895/'
+  - image: 'https://ucarecdn.com/044177d7-ab7f-445f-9690-70c0a5f4ad5d/'
+  - image: 'https://ucarecdn.com/28064d24-dc3d-4079-8c69-e94b4a150214/'
+  - image: 'https://ucarecdn.com/0a360696-3910-4e80-9cd8-8139917e3488/'
+  - image: >-
+      https://ucarecdn.com/50b6641d-9eb5-4ba3-aaa0-f7cc09ac47c9/-/crop/3000x2713/0,731/-/preview/
+  - image: >-
+      https://ucarecdn.com/a8c79c77-1a4b-44af-873e-1538d54a9ef1/-/crop/1500x1557/0,329/-/preview/
+  - image: 'https://ucarecdn.com/c4b23c04-f1be-4c6a-9db7-1798efcb1b38/'
+  - image: >-
+      https://ucarecdn.com/b907a301-c7cf-412e-865a-92a6c53c3bba/-/crop/3000x2955/0,378/-/preview/
+  - image: >-
+      https://ucarecdn.com/cae093f6-99dc-4d73-8840-a66ee7b1ce90/-/crop/2813x2744/0,618/-/preview/
+  - image: >-
+      https://ucarecdn.com/67642906-22a1-40f2-ac59-f2207b87f8aa/-/crop/3000x3268/0,0/-/preview/
+  - image: 'https://ucarecdn.com/1834820a-646f-483e-9a4e-dabb31111c46/'
+  - image: 'https://ucarecdn.com/c6f32cab-a970-4aa1-baf3-0275377de84a/'
+  - image: 'https://ucarecdn.com/a123bec2-2e70-4de1-a13a-00e91eba9c43/'
+  - image: 'https://ucarecdn.com/941c2aac-b26e-4710-a7c3-107ec28e6bf4/'
+  - image: >-
+      https://ucarecdn.com/425e8ca4-0f4e-48d6-8a08-3cb3c26716ff/-/crop/1500x1391/0,426/-/preview/
+  - image: 'https://ucarecdn.com/9fa3b953-d7e1-4c9e-aa2a-fbc09d158b4e/'
 videoSection:
   imageOverlay: 'https://ucarecdn.com/27d0381d-387d-4d17-b24b-6f193f828def/'
   video: >-
