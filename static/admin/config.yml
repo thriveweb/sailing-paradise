@@ -245,7 +245,7 @@ collections: # A list of collections the CMS should be able to edit
               - {label: Canonical Link, name: canonicalLink, widget: string, required: false}
               - {label: Noindex, name: noindex, widget: boolean, required: false}
       - file: "content/pages/case-studies.md"
-        label: "Case Studies"
+        label: "Happy Sailors"
         name: "case-studies-page"
         fields:
           - {label: Template, name: template, widget: hidden, default: CaseStudies}
