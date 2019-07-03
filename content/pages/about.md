@@ -128,7 +128,11 @@ crewSection:
       image: 'https://ucarecdn.com/8f7b3794-b298-47a7-883c-7ec5e9d54cac/'
       name: 'Anna '
       title: Cruise Hostess
-    - content: tbcinfo
+    - content: >-
+        Ella is currently completing her PhD in Chemical Engineering and is also
+        a keen surfer, wakeboarder and snowboarder.    Great fun to be around
+        and with a love of photography, you are sure to enjoy having Ella on
+        board your charter.
       image: 'https://ucarecdn.com/3048aebd-5b07-4faa-8ba2-da89945cf67d/'
       name: 'Ella '
       title: Cruise Hostess
@@ -157,3 +161,4 @@ columnBanner:
 meta:
   description: ''
 ---
+
