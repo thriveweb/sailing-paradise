@@ -136,7 +136,7 @@ crewSection:
         and with a love of photography, you are sure to enjoy having Ella on
         board your charter.
       image: >-
-        https://ucarecdn.com/3c5bfd15-ab00-4ad0-948c-dabf7c431c57/-/crop/4000x3840/0,0/-/preview/
+        https://ucarecdn.com/cb0d6732-f1ae-47af-a901-97856b14a11c/-/crop/4000x3087/0,1233/-/preview/
       name: 'Ella '
       title: Cruise Hostess
     - {}
