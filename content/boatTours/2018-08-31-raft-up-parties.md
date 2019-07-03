@@ -3,8 +3,7 @@ template: SingleBoatTour
 tourType: Private Charter
 title: Raft Up Parties
 icon: ''
-featuredImage: >-
-  https://ucarecdn.com/d5d38b7b-3a79-447c-af43-93cf738464c2/
+featuredImage: 'https://ucarecdn.com/d5d38b7b-3a79-447c-af43-93cf738464c2/'
 intro: >-
   ## gold coast 'Raft Up' yacht party
 
@@ -14,20 +13,20 @@ intro: >-
 
   Whether you are organising a corporate event, a wedding or a get together with
   a heap of friends, if you want your next event to be truly special you should
-  talk to us about a Raft Up boat party.
+  talk to us about a Raft Up yacht party.
 
 
-  Nothing says 'WOW' more than 4 beautiful catamarans sailing together in one of
-  the most pristine locations in Australia.
+  Nothing says 'WOW' more than a fleet of beautiful catamarans sailing together
+  in one of the most pristine locations in Australia.
 
 
   Throw in a heap of inflatables, crystal clear blue waters, golden sandy
-  beaches adorned with stylish umbrellas, awesome tunes and beach games, and you
-  have an insta-worthy event that everyone will want to be a part of.
+  beaches, awesome tunes and beach games, and you have an insta-worthy event
+  that everyone will want to be a part of.
 contentBox:
   buttonTitle: Make enquiry
   buttonUrl: booking-enquiry
-  title: Let us help create the ultimate Raft Up Yacht Party Experience
+  title: Let us help create the ultimate Boat Party Experience
 gallery:
   - image: 'https://ucarecdn.com/73ce469b-6d2d-4985-ab2a-17e1e5f3b1d0/'
   - image: 'https://ucarecdn.com/41429098-2ac0-403b-ba69-4093a14a77ed/'
@@ -45,34 +44,34 @@ videoSection:
   imageOverlay: /images/uploads/DSC_1073.jpg
   video: >-
     https://www.youtube.com/watch?v=vr0qNXmkUJ8&list=PLNhzc-Os3JK8ExayVzzoHVvP2c0-4_oqt
-contentColumnTitle: Everyone loves a good Raft Up.
+contentColumnTitle: For groups from 40 - 90 guests
 contentColumn: >-
   Set sail in convoy to a secret beach location for a couple of hours of fun in
   the sun, sea and sand.
 
 
-  Bring the team together with some quirky team building activities or party the
+  Bring your group together with some team building activities or party the
   afternoon away.
 
 
-  When it comes to creating a special day there really is 'no limit' to what we
-  can achieve.
+  When it comes to creating a special day there really is 'no limit' to what can
+  be achieved.
 
 
-  Private chefs and wait staff, marquees and masseuses, DJ's, watersports
-  activities (parasailing, jetboats etc), fireworks spectaculars, drone and
-  professional photographers, the list goes on.
+  Private chefs and wait staff, DJ's, watersports activities (parasailing,
+  jetboats etc), drones and professional photographers, the list goes on.
 
 
-  Raft Up yacht parties can cater from 50 to 90 people on up to 4 sailing
-  catamarans (or more if required).
+  Raft Up yacht parties can cater from 40 to 90 people on 2 to 4 sailing
+  catamarans.
 
 
   You are welcome to BYO everything or take advantage of our extensive catering
   options from some of the Gold Coast's best caterers and private chefs.
 
 
-  A raft up party can be anything you want and we know how to create it.
+  A raft up party can be anything you want it to be.   We would love to hep make
+  your boat party dreams a reality!
 accordionSection:
   accordion:
     - dropdownContent: |-
@@ -83,8 +82,10 @@ accordionSection:
         * Free activities and professional photography
       title: What to expect
     - dropdownContent: |-
-        * Swimmers and a towel
+        * Swimmers (for day sails)
+        * A towel
         * Camera
+        * Easily removable shoes
         * Good vibes and smiles
       title: What to Bring
     - dropdownContent: >-
@@ -118,7 +119,7 @@ accordionSection:
 
 
         _We have 4 sailing catamarans available which can carry a total of 90
-        guests (more boats can be arranged for larger groups)._
+        guests._
 
 
         **What is included?**
@@ -134,15 +135,6 @@ accordionSection:
 
         _Yes, you are more than welcome to BYO drinks and food (no surcharge) or
         we can organise this for you._
-
-
-        **Can we get absolutely sh*#faced or take drugs?**
-
-
-        _**No.** In the interests of public safety, and to ensure everyone has
-        an awesome day, we observe RSA practices and reserve the right to evict
-        offensive people from the event and/or call the water police to have
-        them removed._
       title: Raft Up Party FAQ's
 columnBanner:
   - buttonTitle: Make Enquiry
@@ -158,3 +150,4 @@ columnBanner:
     featuredImage: /images/uploads/girl-img-column2.jpg
   - featuredImage: /images/uploads/girl-img-column.jpg
 ---
+
