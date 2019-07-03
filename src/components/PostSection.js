@@ -11,7 +11,7 @@ class PostSection extends React.Component {
     limit: 12,
     showLoadMore: true,
     loadMoreTitle: 'See More',
-    perPageLimit: 12
+    perPageLimit: 12,
   }
 
   state = {

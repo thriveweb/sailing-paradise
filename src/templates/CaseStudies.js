@@ -78,6 +78,7 @@ export const pageQuery = graphql`
     }
     posts: allMarkdownRemark(
       filter: { fields: { contentType: { eq: "happySailors" } } }
+      sort: { order: DESC, fields: [frontmatter___date] }
     ) {
       edges {
         node {
@@ -89,6 +90,7 @@ export const pageQuery = graphql`
             title
             cruiseType
             featuredImage
+            date
           }
         }
       }
