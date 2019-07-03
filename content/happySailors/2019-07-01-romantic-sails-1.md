@@ -1,7 +1,7 @@
 ---
 template: SingleCaseStudy
-name: 'Taryn Poole, Australia'
-title: Romantic Sails
+title: 'Taryn Poole, Australia'
+cruiseType: Romantic Sails
 date: 2019-07-01T09:17:55.239Z
 featuredImage: 'https://ucarecdn.com/de397cd4-4e39-4ed3-948f-dc0a0e879de7/'
 videoSection:

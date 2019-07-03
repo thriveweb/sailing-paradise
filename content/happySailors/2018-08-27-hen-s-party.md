@@ -1,7 +1,7 @@
 ---
 template: SingleCaseStudy
-name: Tahlia
-title: Birthday Party
+title: Tahlia
+cruiseType: Birthday Party
 date: '2018-09-13'
 featuredImage: >-
   https://ucarecdn.com/a6993c65-b26c-40a8-bf85-6d08a0cc982c/

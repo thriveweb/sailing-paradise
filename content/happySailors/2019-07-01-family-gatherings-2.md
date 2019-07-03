@@ -1,7 +1,7 @@
 ---
 template: SingleCaseStudy
-name: 'Lydia Erickson Pether, Australia'
-title: Family Gatherings
+title: 'Lydia Erickson Pether, Australia'
+cruiseType: Family Gatherings
 date: 2019-07-01T10:50:23.005Z
 featuredImage: >-
   https://ucarecdn.com/64408ba3-e829-48fa-95b1-9016f1d4d366/-/crop/1201x894/63,0/-/preview/

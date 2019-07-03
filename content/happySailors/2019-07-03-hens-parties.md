@@ -1,7 +1,7 @@
 ---
 template: SingleCaseStudy
-name: 'Lauren Maclachlan, Australia'
-title: Hen's Parties
+title: 'Lauren Maclachlan, Australia'
+cruiseType: Hen's Parties
 date: 2019-07-03T01:54:10.017Z
 featuredImage: >-
   https://ucarecdn.com/ad23f2fb-389e-422c-8133-57230e0c1b4a/-/preview/-/enhance/22/
@@ -14,7 +14,7 @@ excerpt: >-
   with them on Saturday - it was the best day ever!! The crew were fantastic and
   the planning process was so easy, they always got back to me in a timely
   manner. Do yourself a favour and book a cruise with Sailing In Paradise -
-  10/10” Facebook review 
+  10/10” Facebook review
 gallery:
   - image: >-
       https://ucarecdn.com/4559d1d2-334e-48a7-87d6-e76d5987b8c8/-/preview/-/enhance/25/

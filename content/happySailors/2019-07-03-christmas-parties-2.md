@@ -1,7 +1,7 @@
 ---
 template: SingleCaseStudy
-name: 'Jade Rachelle; RACEVIEW, Australia '
-title: Christmas Parties
+title: 'Jade Rachelle; RACEVIEW, Australia '
+cruiseType: Christmas Parties
 date: 2019-07-03T01:40:15.229Z
 featuredImage: >-
   https://ucarecdn.com/bba874c6-290c-48ed-98d0-47d428e0ae49/-/crop/1338x927/66,46/-/preview/

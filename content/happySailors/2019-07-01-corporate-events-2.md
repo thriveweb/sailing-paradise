@@ -1,7 +1,7 @@
 ---
 template: SingleCaseStudy
-name: 'Tristan Forbes; LULULEMON, Australia'
-title: Corporate Events
+title: 'Tristan Forbes; LULULEMON, Australia'
+cruiseType: Corporate Events
 date: 2019-07-01T12:13:11.332Z
 featuredImage: >-
   https://ucarecdn.com/2c40991c-5bed-4f4c-8f3b-0c88e065f923/-/crop/1080x1207/0,0/-/preview/

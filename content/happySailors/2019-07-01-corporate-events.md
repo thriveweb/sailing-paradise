@@ -1,7 +1,7 @@
 ---
 template: SingleCaseStudy
-name: 'Wyndham Vacations, Australia'
-title: Corporate Events
+title: 'Wyndham Vacations, Australia'
+cruiseType: Corporate Events
 date: 2019-07-01T11:52:01.515Z
 featuredImage: >-
   https://ucarecdn.com/81bae4a9-51de-40e6-9ad8-8e7023e724fb/-/preview/-/enhance/60/
@@ -16,7 +16,7 @@ excerpt: >-
   a great experience and the best team build we had in ages. Thank you Jess very
   much and to the crew and chefs. We would highly recommend this with friends or
   work colleagues. It is a great way to relax, with food, good music and company
-  of course.” TripAdvisor 
+  of course.” TripAdvisor
 gallery:
   - image: 'https://ucarecdn.com/fcc48503-4c5a-4bbe-a252-be234be9715f/'
   - image: 'https://ucarecdn.com/3394b9bd-856c-4816-94f8-a465c982f152/'

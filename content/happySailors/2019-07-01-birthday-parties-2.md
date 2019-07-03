@@ -1,7 +1,7 @@
 ---
 template: SingleCaseStudy
-name: 'Sia Smith, Melbourne'
-title: Birthday Parties
+title: 'Sia Smith, Melbourne'
+cruiseType: Birthday Parties
 date: 2019-07-01T11:29:24.922Z
 featuredImage: >-
   https://ucarecdn.com/d126f1c8-2a34-4d57-a6d6-0e4b417e8201/-/crop/1080x1067/0,0/-/preview/

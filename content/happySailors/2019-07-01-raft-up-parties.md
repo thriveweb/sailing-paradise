@@ -1,7 +1,7 @@
 ---
 template: SingleCaseStudy
-name: 'Jill Foreman, Maroochydore '
-title: Raft up Parties
+title: 'Jill Foreman, Maroochydore '
+cruiseType: Raft up Parties
 date: 2019-07-01T08:23:06.749Z
 featuredImage: 'https://ucarecdn.com/6339d664-e1e3-413b-81e2-b3bdf3bfb3a5/'
 videoSection:
@@ -11,7 +11,7 @@ excerpt: >-
   Jill, Maroochydore – “We booked sailing in paradise for our end of season
   footy trip. The crew aboard were amazing and having 2 photographers aboard,
   that meant we could ask to get our photo taken anytime we liked. Highly
-  recommend.” TripAdvisor 
+  recommend.” TripAdvisor
 gallery:
   - image: 'https://ucarecdn.com/dbc47416-d68b-40ef-b9d5-139019a79e20/'
   - image: 'https://ucarecdn.com/b9ee66ad-aac2-412b-a824-82ac67de8b8b/'

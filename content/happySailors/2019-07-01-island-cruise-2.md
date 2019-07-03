@@ -1,7 +1,7 @@
 ---
 template: SingleCaseStudy
-name: 'Mbo, Melbourne '
-title: Island Cruise
+title: 'Mbo, Melbourne '
+cruiseType: Island Cruise
 date: 2019-07-01T04:58:56.382Z
 featuredImage: 'https://ucarecdn.com/9d883d75-3ef4-42bf-9951-8c4a047abe3f/'
 videoSection:

@@ -1,7 +1,7 @@
 ---
 template: SingleCaseStudy
-name: 'Suzy M; BETTER LIVING, Australia'
-title: Christmas Parties
+title: 'Suzy M; BETTER LIVING, Australia'
+cruiseType: Christmas Parties
 date: 2019-07-02T06:24:13.123Z
 featuredImage: >-
   https://ucarecdn.com/d6f105f2-242c-46ce-8260-2e2d5afdea42/-/crop/998x847/0,83/-/preview/
@@ -15,7 +15,7 @@ excerpt: >-
   The yacht was immaculate, staff amazing, food completely delicious and we even
   were accommodated with being lucky enough to share some GC fireworks while on
   the water! If you’re unsure on what to do for your next get together... Call
-  Jess and chat- you will have the most amazing time with this crew!” 
+  Jess and chat- you will have the most amazing time with this crew!”
   TripAdvisor
 gallery:
   - image: >-

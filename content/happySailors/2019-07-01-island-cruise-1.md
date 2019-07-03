@@ -1,7 +1,7 @@
 ---
 template: SingleCaseStudy
-name: 'Mandy Jing, Brisbane'
-title: Island Cruise
+title: 'Mandy Jing, Brisbane'
+cruiseType: Island Cruise
 date: 2019-07-01T04:50:01.480Z
 featuredImage: 'https://ucarecdn.com/20b1b791-84dc-4744-8df2-99a7e2dea762/'
 videoSection:

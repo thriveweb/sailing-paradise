@@ -1,7 +1,7 @@
 ---
 template: SingleCaseStudy
-name: 'Lowan, Hong Kong, China '
-title: Family Gatherings
+title: 'Lowan, Hong Kong, China '
+cruiseType: Family Gatherings
 date: 2019-07-01T10:56:50.192Z
 featuredImage: >-
   https://ucarecdn.com/cc43f155-79b5-4660-948e-7f499819a066/-/crop/1438x919/97,149/-/preview/
@@ -14,7 +14,7 @@ excerpt: >-
   11 people, 3 small kids, 7 adults and 1 elderly and everyone enjoyed the trip
   so much. We had fishing, paddle boarding and kids playing on the beach. Steve
   and Phoebe made our entire outing very pleasant. They were both very nice with
-  great hospitality. Everything was delivered as promised! Superb!” TripAdvisor 
+  great hospitality. Everything was delivered as promised! Superb!” TripAdvisor
 gallery:
   - image: 'https://ucarecdn.com/f585dae0-b50f-4c7c-9f30-4e950a84e7cb/'
   - image: 'https://ucarecdn.com/08d9fe78-a709-49d7-ac83-9b6fe218a4ed/'

@@ -1,7 +1,7 @@
 ---
 template: SingleCaseStudy
-name: 'Margaret McLean, Australia'
-title: Raft Up Parties
+title: 'Margaret McLean, Australia'
+cruiseType: Raft Up Parties
 date: 2019-07-01T08:38:36.873Z
 featuredImage: 'https://ucarecdn.com/143a1081-c690-4b8c-b336-ef71e5d95c27/'
 videoSection:

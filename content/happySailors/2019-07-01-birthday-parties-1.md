@@ -1,7 +1,7 @@
 ---
 template: SingleCaseStudy
-name: 'Kalina Dominika Michalowska, Australia'
-title: Birthday Parties
+title: 'Kalina Dominika Michalowska, Australia'
+cruiseType: Birthday Parties
 date: 2019-07-01T11:16:05.312Z
 featuredImage: >-
   https://ucarecdn.com/31a7aa07-a5d6-4770-b6ed-76722e00142a/-/crop/1080x1057/0,0/-/preview/
@@ -19,7 +19,7 @@ excerpt: >-
   us, so we enjoyed some activities as well as sailing. Everyone had a fantastic
   time. Plus, we were given complimentary photos to memorise this wonderful day,
   as we all had too much fun to remember to take photos ourselves. I highly
-  recommend Sailing in Paradise.” Facebook review 
+  recommend Sailing in Paradise.” Facebook review
 gallery:
   - image: 'https://ucarecdn.com/fba99f43-cf9a-4da2-aba6-bd085ae699c5/'
   - image: 'https://ucarecdn.com/0592818d-d73f-41da-9e35-6abf78377905/'

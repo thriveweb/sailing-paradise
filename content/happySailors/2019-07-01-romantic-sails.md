@@ -1,7 +1,7 @@
 ---
 template: SingleCaseStudy
-name: ' Sam Creamer, Australia'
-title: Romantic Sails
+title: ' Sam Creamer, Australia'
+cruiseType: Romantic Sails
 date: 2019-07-01T09:13:06.008Z
 featuredImage: >-
   https://ucarecdn.com/27bce0bb-a3ce-471d-af32-c9bfa026dabe/-/crop/1080x1010/0,0/-/preview/

@@ -1,7 +1,7 @@
 ---
 template: SingleCaseStudy
-name: 'Alicia Price, Australia'
-title: Family Gatherings
+title: 'Alicia Price, Australia'
+cruiseType: Family Gatherings
 date: 2019-07-01T10:40:58.334Z
 featuredImage: >-
   https://ucarecdn.com/76541ce8-e15f-415c-acf7-3e5ee4cebc96/-/crop/1068x1071/0,174/-/preview/

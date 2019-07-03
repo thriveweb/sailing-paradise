@@ -1,7 +1,7 @@
 ---
 template: SingleCaseStudy
-name: 'Rich Zednem, Australia'
-title: Sunset & City Lights Cruise
+title: 'Rich Zednem, Australia'
+cruiseType: Sunset & City Lights Cruise
 date: 2019-07-01T04:19:32.987Z
 featuredImage: 'https://ucarecdn.com/b34ed9ce-c478-4c4b-9dea-db3170fea712/'
 videoSection:
@@ -11,7 +11,7 @@ excerpt: >-
   Rich – “Accommodating and very friendly the entire time. Boat is very stable
   and even though I can experience motion sickness I didn’t on this boat. Nice
   photos too. The winter sunset is perfect and they offered blankets.  Dropbox
-  3rd June 2018 (only sunset cruise)” can find this guy anywhere 
+  3rd June 2018 (only sunset cruise)” can find this guy anywhere
 gallery:
   - image: 'https://ucarecdn.com/3ab335dd-6b7d-4492-aba8-cde98859672b/'
   - image: 'https://ucarecdn.com/b536740a-e738-4085-937a-efc4766f12c4/'

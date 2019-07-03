@@ -1,7 +1,7 @@
 ---
 template: SingleCaseStudy
-name: 'Mary; SIMPRO, Brisbane, Australia'
-title: Corporate Events
+title: 'Mary; SIMPRO, Brisbane, Australia'
+cruiseType: Corporate Events
 date: 2019-07-01T12:00:45.085Z
 featuredImage: >-
   https://ucarecdn.com/691af594-89f2-4027-abe7-e78fe042fb7b/-/crop/1513x978/107,102/-/preview/

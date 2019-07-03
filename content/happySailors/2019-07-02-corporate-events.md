@@ -1,7 +1,7 @@
 ---
 template: SingleCaseStudy
-name: 'Tash Morson; KOJO, Sydney, Australia '
-title: Corporate Events
+title: 'Tash Morson; KOJO, Sydney, Australia '
+cruiseType: Corporate Events
 date: 2019-07-02T01:51:21.580Z
 featuredImage: >-
   https://ucarecdn.com/b8a63f79-0abe-4035-8dca-9b3cfa9ef086/-/crop/1063x861/0,83/-/preview/

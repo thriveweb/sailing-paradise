@@ -1,7 +1,7 @@
 ---
 template: SingleCaseStudy
-name: 'Daniaal Trezise; RVCA, Australa'
-title: Christmas Parties
+title: 'Daniaal Trezise; RVCA, Australa'
+cruiseType: Christmas Parties
 date: 2019-07-03T01:13:00.180Z
 featuredImage: 'https://ucarecdn.com/d6407af1-dc41-45a0-9e9d-582369ca9fac/'
 videoSection:

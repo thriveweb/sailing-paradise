@@ -1,7 +1,7 @@
 ---
 template: SingleCaseStudy
-name: 'Tim Walker, Australia'
-title: Family Gatherings
+title: 'Tim Walker, Australia'
+cruiseType: Family Gatherings
 date: 2019-07-01T09:24:01.247Z
 featuredImage: >-
   https://ucarecdn.com/5c5c1a66-a4bc-4ab2-a0af-df24681e5c07/-/crop/1248x931/138,0/-/preview/

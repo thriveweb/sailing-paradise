@@ -1,7 +1,7 @@
 ---
 template: SingleCaseStudy
-name: 'Lucy Johnston, Australia'
-title: Birthday Parties
+title: 'Lucy Johnston, Australia'
+cruiseType: Birthday Parties
 date: 2019-07-01T11:04:01.955Z
 featuredImage: >-
   https://ucarecdn.com/877b75d9-8a0a-4ada-b571-4dda7df825a2/-/crop/1080x1097/0,0/-/preview/

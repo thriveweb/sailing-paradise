@@ -1,7 +1,7 @@
 ---
 template: SingleCaseStudy
-name: 'Robyn Aydon, Australia'
-title: Birthday Parties
+title: 'Robyn Aydon, Australia'
+cruiseType: Birthday Parties
 date: 2019-07-01T11:37:56.136Z
 featuredImage: >-
   https://ucarecdn.com/21161362-d77f-4a31-a714-a5186b8595ce/-/crop/1383x872/103,0/-/preview/
