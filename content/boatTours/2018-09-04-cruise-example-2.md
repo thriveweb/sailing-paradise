@@ -2,13 +2,12 @@
 template: SingleBoatTour
 tourType: Cruise
 title: Island Cruise
-featuredImage: >-
-  https://ucarecdn.com/a477c53f-47b3-4c35-9d38-f29ce0c52e4f/
+featuredImage: 'https://ucarecdn.com/a477c53f-47b3-4c35-9d38-f29ce0c52e4f/'
 intro: >-
   ## gold coast island cruise
 
 
-  Discover a new side to the Gold Coast aboard our Island Cruise and enjoy 3
+  Discover a new side to the Gold Coast aboard our Island Cruise as you enjoy 3
   chilled hours on the water on a beautiful Sailing Catamaran!
 
 
@@ -17,10 +16,9 @@ intro: >-
   Stradbroke Island, Wavebreak Island and the Gold Coast Seaway.  
 
 
-  This is an laid-back cruise experience on a spacious sailing catamaran that
-  you are sure to love.   With no more than 30 guests on board we curate a
-  social atmosphere and we can't wait to welcome you on board our beautiful
-  boat!
+  This is a laid-back cruise experience on a spacious sailing catamaran that you
+  are sure to love.   With no more than 30 guests on board we curate a social
+  atmosphere and we can't wait to welcome you on board our beautiful boat!
 
 
   Cruise includes light lunch and one complimentary bubbly, beer or soft drink.
@@ -55,12 +53,12 @@ contentColumnTitle: 'We love our Paradise, let us share it with you!'
 contentColumn: >-
   Visit an isolated island beach only accessible by boat where you are invited
   to jump in for a swim and try our beach games (incl Volleyball, Stand Up
-  Paddleboarding, Beach Cricket and Inflatables).   Or if you just want to chill
-  on the beach (or our trampoline-style foredeck) that's totally fine, we'll
-  play some cool tunes and serve up an icy cold drink from our on-board bar so
-  you can relax and watch the world sail by in style.     But don't forget to
-  keep your eyes peeled for the friendly bottlenose dolphins who regularly
-  cruise past
+  Paddleboarding, Beach Cricket, Snorkels and Inflatables).   Or if you just
+  want to chill on the beach (or our trampoline-style foredeck) that's totally
+  fine, we'll play some cool tunes and serve up an icy cold drink from our
+  on-board bar so you can relax and watch the world sail by in style.     But
+  don't forget to keep your eyes peeled for the friendly bottlenose dolphins who
+  regularly cruise past.
 accordionSection:
   accordion:
     - dropdownContent: "•\t3 hours on the beautiful, calm Gold Coast Broadwater\r\n\n•\tRelax onboard a spacious Sailing Catamaran\r\n\n•\tA maximum of 30 guests on board\r\n\n•\tSee impressive superyachts, Seaworld, Palazzo Versace, Gold Coast Seaway, Wavebreak Island, South Stradbroke Island and local wildlife.\r\n\n•\tPull up at an island beach only accessible by boat\r\n\n•\tEnjoy free beach activities, take a dip or just relax and enjoy the view\r\n\n•\tCool tunes set the soundtrack for your experience\r\n\n•\tFriendly relaxed ambience with crew sharing some local knowledge\r\n\n•\tKeep your eyes peeled for dolphins!\r\n\n•\tIncludes one complimentary drink and light lunch\n\n•\tDeparts and returns @ Marina Mirage - an ideal spot for a beautiful waterfront meal or drinks before or after your cruise"
@@ -82,9 +80,11 @@ columnBanner:
   - buttonTitle: Book Now
     buttonUrl: booking-enquiry
     content: >-
-      Online bookings available or please feel call or email with any questions
-      or to request a new date.
+      Online bookings available or please feel free to call or email with any
+      questions or to request a new date (if you cannot see your preferred date
+      as available).
     title: Book your Gold Coast Island Cruise Today
     featuredImage: /images/uploads/girl-img-column2.jpg
   - featuredImage: 'https://ucarecdn.com/77651980-b003-4a21-b581-72514df732d0/'
 ---
+
