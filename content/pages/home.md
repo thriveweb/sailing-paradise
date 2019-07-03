@@ -128,9 +128,9 @@ featuredTestimonials:
     It's smiles all round with our top guest satisfaction rating across all
     review sites...
   testimonialsListing:
-    - testimonial: Sonia & Diana
+    - testimonial: Lydia
     - testimonial: Tahlia
-    - testimonial: Trine & Angus
+    - testimonial: 'Robyn Aydon, Australia'
   title: Happy Sailors
 latestNews: >-
   ## Latest News
