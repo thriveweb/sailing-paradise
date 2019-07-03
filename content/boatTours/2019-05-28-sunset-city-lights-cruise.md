@@ -93,7 +93,7 @@ columnBanner:
     buttonUrl: gift cards
     content: Now available with 12 months validity to use at your leisure.
     title: 'SUNSET CRUISE GIFT VOUCHERS '
-    featuredImage: /images/uploads/girl-img-column2.jpg
-  - featuredImage: /images/uploads/dsc_0087_2.jpg
+    featuredImage: 'https://ucarecdn.com/03aaaef0-bc70-4e9d-8533-3309e9a7d59f/'
+  - featuredImage: 'https://ucarecdn.com/c6767657-504f-42da-9e05-e9388170030d/'
 ---
 
