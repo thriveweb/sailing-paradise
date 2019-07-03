@@ -3,13 +3,16 @@ template: SingleBoatTour
 tourType: Cruise
 title: Sunset & City Lights Cruise
 icon: /images/uploads/DSC_0357-1703.jpg
-featuredImage: 'https://ucarecdn.com/a472ede7-7040-420b-9f25-765eb30d513a/'
+featuredImage: >-
+  https://ucarecdn.com/a472ede7-7040-420b-9f25-765eb30d513a/-/crop/4327x2003/0,362/-/preview/
 intro: >-
   ## Gold Coast Sunset Cruise
 
 
   Looking for the Gold Coast's best sunset views?   There is no better place to
   watch the sunset on the Gold Coast than on a boat!   No seriously...
+
+
 
 
   There is something so magical about a sunset over the water, but surrounded by
@@ -21,9 +24,6 @@ intro: >-
 
 
   We've got the champagne on ice!
-
-
-  ![](https://ucarecdn.com/8a40d774-fa73-4d47-a959-ac6ae55e9ddb/)
 contentBox:
   buttonTitle: BOOK TO JOIN OUR NEXT CRUISE
   buttonUrl: booking-enquiry
