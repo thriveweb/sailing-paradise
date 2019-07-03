@@ -115,7 +115,7 @@ crewSection:
       name: 'Chanelle '
       title: '"Cruise Hostess/Guest Relations"'
     - content: "Anthony joined our crew after many years in the international superyacht industry.\r\n\nOriginally hailing from Adelaide Anthony has travelled the world working on various vessels and is now looking at settling on the Gold Coast.  Always the consummate professional, Anthony has from time to time been witnessed twerking on the back deck (with a bit of encouragement from our guests that is)."
-      image: 'https://ucarecdn.com/e34612f4-2da4-4c81-b69e-c24f68cb0817/'
+      image: 'https://ucarecdn.com/86c9886d-a86a-431d-9eed-0a9b29aea937/'
       name: 'Anthony '
       title: Skipper
     - content: "Lucas has been on the water on the Gold Coast for %%years driving everything from jetski's, speedboats, jetboats, superyachts and sailing boats.\r\n\nHe knows the local area like the back of his hand and is a great fun guy to have on your charter!"
@@ -134,7 +134,8 @@ crewSection:
         a keen surfer, wakeboarder and snowboarder.    Great fun to be around
         and with a love of photography, you are sure to enjoy having Ella on
         board your charter.
-      image: 'https://ucarecdn.com/3048aebd-5b07-4faa-8ba2-da89945cf67d/'
+      image: >-
+        https://ucarecdn.com/b249a8f7-484e-4788-b5f7-fd3e635dce9b/-/crop/4000x3161/0,1150/-/preview/
       name: 'Ella '
       title: Cruise Hostess
     - {}
