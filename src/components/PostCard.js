@@ -1,5 +1,6 @@
 import React, { Fragment } from 'react'
 import { Link } from 'gatsby'
+import _get from 'lodash/get'
 import _format from 'date-fns/format'
 
 import Image from './Image'
@@ -10,17 +11,21 @@ const PostCard = ({
   featuredImage,
   icon,
   title,
+  cruiseType,
   date,
   slug = '',
   categories = [],
   className = '',
-  name,
   excerpt,
   featuredHome,
-  ...props
+  fields,
+  ...props,
+
 }) => {
 
   if(featuredHome) className += ' featuredHome'
+
+  const contentType = _get(fields, 'contentType') || ''
 
   return <Link to={slug} className={`PostCard ${className}`}>
       {featuredImage && (
@@ -62,9 +67,9 @@ const PostCard = ({
             </Fragment>
           )}
         </div>
-        {name && <p className="PostCard--Subtitle">{name}</p>}
+        {contentType === 'happySailors' && <p className="PostCard--Subtitle">{title}</p>}
         {icon && <Image src={icon} alt='' />}
-        {title && <h3 className="PostCard--Title">{title}</h3>}
+        {cruiseType ? <h3 className="PostCard--Title">{cruiseType}</h3> : <h3 className="PostCard--Title">{title}</h3>}
         {excerpt &&
           <Fragment>
             <p className='excerpt'>{excerpt.slice(0, 70) + '...'}</p>

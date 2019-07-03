@@ -65,7 +65,7 @@ class PostSection extends React.Component {
           <div className="PostSection--Grid">
             {visiblePosts.map((post, index) => {
               const title = _get(post, 'title') || ''
-              return <PostCard key={title + index} {...post}/>
+              return <PostCard key={title + index} {...post} />
             })}
           </div>
         )}

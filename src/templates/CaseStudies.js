@@ -16,7 +16,7 @@ export const CaseStudiesTemplate = ({
   featuredImage,
   posts = [],
   columnBanner,
-  meta
+  meta,
 }) => {
 
   return (
@@ -77,16 +77,17 @@ export const pageQuery = graphql`
       }
     }
     posts: allMarkdownRemark(
-      filter: { fields: { contentType: { eq: "caseStudies" } } }
+      filter: { fields: { contentType: { eq: "happySailors" } } }
     ) {
       edges {
         node {
           fields {
             slug
+            contentType
           }
           frontmatter {
             title
-            name
+            cruiseType
             featuredImage
           }
         }

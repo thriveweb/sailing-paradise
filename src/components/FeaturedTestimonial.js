@@ -10,10 +10,10 @@ export default ({ description, title, testimonial, caseStudies }) => {
     if(!testimonial) return null
 
     caseStudies = caseStudies ? caseStudies.edges.map(edge => ({ ...edge.node })) : []
-    testimonial = caseStudies.filter(caseStudy => caseStudy.frontmatter.name === testimonial)
+    testimonial = caseStudies.filter(caseStudy => caseStudy.frontmatter.title === testimonial)
 
     const { fields, frontmatter } = testimonial[0]
-    const { name, excerpt, featuredImage } = frontmatter
+    const { excerpt, featuredImage } = frontmatter
     const { slug } = fields
 
     return <section className='featuredTestimonial'>
@@ -37,7 +37,7 @@ export default ({ description, title, testimonial, caseStudies }) => {
                 </div>
               }
               <div className='testimonial-content'>
-                  {name && <p className='title'>{name}</p>}
+                  {frontmatter.title && <p className='title'>{frontmatter.title}</p>}
                   {excerpt && <Content src={excerpt} />}
                   <p className='read-more'>See more</p>
               </div>

@@ -175,14 +175,14 @@ export const pageQuery = graphql`
         }
       }
     }
-    caseStudies: allMarkdownRemark(filter: {fields: {contentType: {eq: "caseStudies"}}}) {
+    caseStudies: allMarkdownRemark(filter: {fields: {contentType: {eq: "happySailors"}}}) {
       edges {
         node {
           fields {
             slug
           }
           frontmatter {
-            name
+            title
             featuredImage
             excerpt
           }

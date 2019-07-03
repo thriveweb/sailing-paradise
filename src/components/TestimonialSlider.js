@@ -53,7 +53,7 @@ class Slider extends Component {
             </div>
             <div className='slider'>
                 {testimonials.map(({ frontmatter, fields }, index) => {
-                        const { name, excerpt, featuredImage } = frontmatter
+                        const { title, excerpt, featuredImage } = frontmatter
                         const { slug } = fields
                         const contentLimited = excerpt.slice(0, 220)
                         const content = excerpt.length > contentLimited.length ? contentLimited + '...' : contentLimited
@@ -79,13 +79,13 @@ class Slider extends Component {
                               >
                               </div>
                             }
-                            {name && <p className='title'>{name}</p>}
+                            {title && <p className='title'>{title}</p>}
                             {content && <Content src={content} />}
                             <Link className='read-more' to={slug}>see more</Link>
                         </div>
                 })}
                 <div className='slider-dots'>
-                    {testimonials.map(({ name }, index) =>
+                    {testimonials.map(({ title }, index) =>
                         <span
                             key={index}
                             onClick={() => this.setState({ activeSlide: index })}
