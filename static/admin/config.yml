@@ -478,7 +478,7 @@ collections: # A list of collections the CMS should be able to edit
 
 
   - name: caseStudy
-    label: Case Study
+    label: Happy Sailor
     editor:
       preview: true
     folder: content/caseStudies
