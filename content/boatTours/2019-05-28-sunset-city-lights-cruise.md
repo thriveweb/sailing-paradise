@@ -3,8 +3,7 @@ template: SingleBoatTour
 tourType: Cruise
 title: Sunset & City Lights Cruise
 icon: /images/uploads/DSC_0357-1703.jpg
-featuredImage: >-
-  https://ucarecdn.com/a472ede7-7040-420b-9f25-765eb30d513a/
+featuredImage: 'https://ucarecdn.com/a472ede7-7040-420b-9f25-765eb30d513a/'
 intro: >-
   ## Gold Coast Sunset Cruise
 
@@ -19,7 +18,12 @@ intro: >-
   of the Gold Coast Broadwater.  
 
 
+
+
   We've got the champagne on ice!
+
+
+  ![](https://ucarecdn.com/8a40d774-fa73-4d47-a959-ac6ae55e9ddb/)
 contentBox:
   buttonTitle: BOOK TO JOIN OUR NEXT CRUISE
   buttonUrl: booking-enquiry
@@ -92,3 +96,4 @@ columnBanner:
     featuredImage: /images/uploads/girl-img-column2.jpg
   - featuredImage: /images/uploads/dsc_0087_2.jpg
 ---
+
