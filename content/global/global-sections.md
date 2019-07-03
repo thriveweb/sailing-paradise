@@ -11,7 +11,7 @@ columnBanner:
   - buttonTitle: See More
     buttonUrl: cruises
     featuredImage: 'https://ucarecdn.com/5798424d-df2f-42a9-b270-f2d4eec3dcd8/'
-    title: Want to join other guests aboard a ticketed cruise?
+    title: Want to join a ticketed cruise?
 globalVideo:
   imageOverlay: /images/uploads/home-banner.jpg
   title: climb aboard and get to know us
