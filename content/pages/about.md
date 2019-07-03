@@ -110,7 +110,8 @@ crewSection:
         background in 6-star hospitality and amazing skill behind the camera you
         will be well looked after by Chanelle either on board the boat or in the
         office.
-      image: 'https://ucarecdn.com/da877823-bfc4-4c7f-8a35-44aeff6b7664/'
+      image: >-
+        https://ucarecdn.com/839ed449-4aaf-4f18-a320-15bd026be749/-/crop/748x586/0,32/-/preview/
       name: 'Chanelle '
       title: '"Cruise Hostess/Guest Relations"'
     - content: "Anthony joined our crew after many years in the international superyacht industry.\r\n\nOriginally hailing from Adelaide Anthony has travelled the world working on various vessels and is now looking at settling on the Gold Coast.  Always the consummate professional, Anthony has from time to time been witnessed twerking on the back deck (with a bit of encouragement from our guests that is)."

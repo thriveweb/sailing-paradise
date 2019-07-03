@@ -37,7 +37,6 @@ bookingIframe: >-
   class="rezdy"
   src="https://sailinginparadise.rezdy.com/calendarWidget/261907?iframe=true&targetFrame=_new_modal"></iframe>
 gallery:
-  - image: 'https://ucarecdn.com/a20c5320-401c-4de4-b32a-4a76ece68c9f/'
   - image: 'https://ucarecdn.com/402dadb7-f30d-46ce-8954-6c1c9b284af0/'
   - image: 'https://ucarecdn.com/22fa2713-7f3a-4f2e-8f6f-9c30fc21c798/'
   - image: 'https://ucarecdn.com/010205fa-7374-4ac5-ab1b-eea79c74a0f7/'
@@ -45,6 +44,7 @@ gallery:
   - image: 'https://ucarecdn.com/365c0d1d-28ce-4a17-94b3-08accecd3661/'
   - image: 'https://ucarecdn.com/540bb45d-f2de-42dc-9de7-1d469590d04a/'
   - image: 'https://ucarecdn.com/04344e4a-457e-43db-9afa-cb8cc510f96d/'
+  - image: 'https://ucarecdn.com/a20c5320-401c-4de4-b32a-4a76ece68c9f/'
   - image: 'https://ucarecdn.com/8038fa88-1413-43f9-9030-a3882c50d010/'
   - image: 'https://ucarecdn.com/b4941b61-ac59-48ac-94ae-7868a9819a62/'
   - image: 'https://ucarecdn.com/b4c6a5fe-3a90-4ff8-bafa-2434b1fde34a/'
