@@ -91,9 +91,7 @@ accordionSection:
 columnBanner:
   - buttonTitle: BUY NOW
     buttonUrl: gift cards
-    content: >-
-      Now available on the website with 12 months validity to use at your
-      leisure
+    content: Now available with 12 months validity to use at your leisure.
     title: 'SUNSET CRUISE GIFT VOUCHERS '
     featuredImage: /images/uploads/girl-img-column2.jpg
   - featuredImage: /images/uploads/dsc_0087_2.jpg
