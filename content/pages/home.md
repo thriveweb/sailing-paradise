@@ -48,7 +48,7 @@ services:
       description: >-
         A unique hen’s party idea on the Gold Coast. Whether you are looking for
         a relaxing day on the water with some delicious food and drinks, an
-        elegant morning tea cruise, or a raucous arty with all the trimmings...
+        elegant morning tea cruise, or a raucous party with all the trimmings...
       icon: /images/uploads/wine.svg
       title: Hens Party Specialists
 serviceBanner:
@@ -84,7 +84,7 @@ aboutSection:
 
 
     Everything is taken care of - the coolest tunes playing through state of the
-    art sound system with speakers inside and out, 2 large eskies stocked with
+    art sound system with speakers inside and out, large eskies stocked with
     ice, large central timber table for presenting your food, marine barbecue,
     inflatables, paddleboards and beach games, clean modern bathroom facilities,
     the list goes on and on.
@@ -98,8 +98,8 @@ aboutSection:
     but exceeded.
 
 
-    We know organising an event can sometimes be stressfull but Sailing In
-    Paradise's Guest Relations Gurus will take the stress out and replace it
+    We know organising an event can sometimes be stressful, but Sailing In
+    Paradise's Guest Relations Gurus will take away the stress and replace it
     with fun.
 
 
