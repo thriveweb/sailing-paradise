@@ -1,6 +1,6 @@
 ---
 template: SingleCaseStudy
-name: Lauren Maclachlan
+name: 'Lauren Maclachlan, Australia'
 title: Hen's Parties
 date: 2019-07-03T01:54:10.017Z
 featuredImage: >-
@@ -9,6 +9,12 @@ videoSection:
   title: ''
 secondaryImage: >-
   https://ucarecdn.com/23886cd1-ac2b-4cd5-8f30-40dee433457f/-/crop/1070x1080/216,0/-/preview/-/enhance/24/
+excerpt: >-
+  Lauren – “I highly recommend Sailing In Paradise! Had my sister’s hens party
+  with them on Saturday - it was the best day ever!! The crew were fantastic and
+  the planning process was so easy, they always got back to me in a timely
+  manner. Do yourself a favour and book a cruise with Sailing In Paradise -
+  10/10” Facebook review 
 gallery:
   - image: >-
       https://ucarecdn.com/4559d1d2-334e-48a7-87d6-e76d5987b8c8/-/preview/-/enhance/25/
@@ -22,4 +28,4 @@ gallery:
       https://ucarecdn.com/0fb2361f-8df7-43ca-8f4b-41df02f21bc4/-/preview/-/enhance/18/
   - {}
 ---
-
+We absolutely love hosting hens party charters, and hens parties love us too! It’s kind of our speciality! Lauren organized an afternoon charter for her sisters hens party which was a stress-free and easy process!
