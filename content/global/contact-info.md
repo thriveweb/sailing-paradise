@@ -13,7 +13,7 @@ address: >-
 
 
   [View Larger
-  Map](https://www.google.com.au/maps/place/74+Seaworld+Dr,+Main+Beach+QLD+4217/@-27.9684419,153.42393,17z/data=!3m1!4b1!4m5!3m4!1s0x6b910f9041786667:0x9b8b73ca900ff937!8m2!3d-27.9684419!4d153.4261187)
+  Map](https://www.google.com/maps/place/Sailing+In+Paradise+-+Gold+Coast+Cruises+and+Private+Charters/@-27.9690698,153.4220553,17z/data=!3m1!4b1!4m5!3m4!1s0x6b910fbb03d6e84f:0xba3d8c1c4e894ac3!8m2!3d-27.9690698!4d153.424244)
 hours: |-
   ### OPEN HOURS
 
@@ -22,9 +22,10 @@ hours: |-
   Sat - Sun: 10AM - 15PM
 map: 'https://ucarecdn.com/7eac0ffe-3500-4431-9583-da4a65ba39ea/'
 socialMedia:
-  facebook: 'https://facebook.com'
-  googlePlus: 'https://google.com'
-  instagram: 'https://instagram.com'
-  tripAdvisor: 'https://tripadvisor.com'
+  facebook: 'https://www.facebook.com/sailinginparadise'
+  googlePlus: ''
+  instagram: 'https://www.instagram.com/sailinginparadisegoldcoast/'
+  tripAdvisor: >-
+    https://www.tripadvisor.com.au/Attraction_Review-g658994-d4705796-Reviews-Sailing_In_Paradise-Main_Beach_Gold_Coast_Queensland.html
 ---
 
