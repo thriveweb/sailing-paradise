@@ -124,9 +124,9 @@ collections: # A list of collections the CMS should be able to edit
                     name: "testimonial"
                     required: false
                     widget: "relation"
-                    collection: "caseStudy"
-                    searchFields: ["name"]
-                    valueField: "name"
+                    collection: "happySailor"
+                    searchFields: ["title"]
+                    valueField: "title"
           - {label: Latest News, name: latestNews, widget: markdown, required: false}
           - label: "Meta"
             required: false
@@ -476,12 +476,11 @@ collections: # A list of collections the CMS should be able to edit
       - {label: Title, name: title, widget: string}
       - {label: Featured Image, name: featuredImage, widget: image, required: false}
 
-
-  - name: caseStudy
-    label: Happy Sailor
+  - name: happySailor
+    label: Happy Sailors
     editor:
       preview: true
-    folder: content/caseStudies
+    folder: content/happySailors
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     create: true # Allow users to create new documents in this collection
     fields: # The fields each document in this collection have
@@ -526,6 +525,56 @@ collections: # A list of collections the CMS should be able to edit
           - {label: Description, name: description, widget: text, required: false, pattern: [".{300}", "Must not exceed 300 characters"]}
           - {label: Canonical Link, name: canonicalLink, widget: string, required: false}
           - {label: Noindex, name: noindex, widget: boolean, required: false}
+
+  # - name: caseStudy
+  #   label: Case Study
+  #   editor:
+  #     preview: true
+  #   folder: content/caseStudies
+  #   slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+  #   create: true # Allow users to create new documents in this collection
+  #   fields: # The fields each document in this collection have
+  #     - {label: Template, name: template, widget: hidden, default: SingleCaseStudy}
+  #     - {label: Guest Name, name: name, widget: string, required: false}
+  #     - {label: Cruise Type, name: title, widget: string, required: false}
+  #     - {label: Date / Order, name: date, widget: date, required: false}
+  #     - {label: Featured Image, name: featuredImage, widget: image, required: false}
+  #     - label: Video Section
+  #       name: videoSection
+  #       required: false
+  #       widget: object
+  #       fields:
+  #         - {label: Image Overlay, name: imageOverlay, widget: image, required: false}
+  #         - {label: Title, name: title, widget: string, required: false, default: ''}
+  #         - {label: Video, name: video, widget: string, required: false}
+  #     - {label: Secondary Image, name: secondaryImage, widget: image, required: false}
+  #     - {label: Content, name: body, widget: markdown, required: false}
+  #     - {label: Review, name: excerpt, widget: text, required: false}
+  #     - label: "Gallery"
+  #       required: false
+  #       name: "gallery"
+  #       widget: "list"
+  #       fields:
+  #         - {label: Image, name: image, widget: image, required: false}
+  #     - label: "Secondary Banner"
+  #       required: false
+  #       name: "secondaryBanner"
+  #       widget: "object"
+  #       fields:
+  #         - {label: Title, name: title, widget: string, required: false}
+  #         - {label: Subtitle, name: subtitle, widget: string, required: false}
+  #         - {label: Button Title, name: buttonTitle, widget: string, required: false}
+  #         - {label: Button Url, name: buttonUrl, widget: string, required: false}
+  #         - {label: Featured Image, name: featuredImage, widget: image, required: false}
+  #     - label: "Meta"
+  #       required: false
+  #       name: "meta"
+  #       widget: "object"
+  #       fields:
+  #         - {label: Title, name: title, widget: string, required: false}
+  #         - {label: Description, name: description, widget: text, required: false, pattern: [".{300}", "Must not exceed 300 characters"]}
+  #         - {label: Canonical Link, name: canonicalLink, widget: string, required: false}
+  #         - {label: Noindex, name: noindex, widget: boolean, required: false}
 
   - name: boatTours
     label: Boat Tours
@@ -604,9 +653,9 @@ collections: # A list of collections the CMS should be able to edit
             name: "testimonial"
             required: false
             widget: "relation"
-            collection: "caseStudy"
-            searchFields: ["name"]
-            valueField: "name"
+            collection: "happySailor"
+            searchFields: ["title"]
+            valueField: "title"
       - label: "Meta"
         required: false
         name: "meta"
