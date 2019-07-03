@@ -87,7 +87,16 @@ exports.onCreateNode = ({ node, actions, getNode }) => {
     ) {
       slug = `/`
     } else if (_.get(node, 'frontmatter.title')) {
-      slug = `/${_.kebabCase(parsedFilePath.dir)}/${_.kebabCase(
+      let relPath
+      if(parsedFilePath.dir === 'boatTours' && _.get(node, 'frontmatter.tourType')) {
+        relPath = _.kebabCase(_.get(node, 'frontmatter.tourType'))
+
+      } else {
+        relPath = _.kebabCase(parsedFilePath.dir)
+      }
+
+
+      slug = `/${relPath}/${_.kebabCase(
         node.frontmatter.title
       )}/`
     } else if (parsedFilePath.dir === '') {
