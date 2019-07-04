@@ -120,7 +120,8 @@ crewSection:
       name: 'Anthony '
       title: Skipper
     - content: "Lucas has been on the water on the Gold Coast for %%years driving everything from jetski's, speedboats, jetboats, superyachts and sailing boats.\r\n\nHe knows the local area like the back of his hand and is a great fun guy to have on your charter!"
-      image: 'https://ucarecdn.com/685844a2-028d-4969-b09b-84adc73fa353/'
+      image: >-
+        https://ucarecdn.com/7702a75a-a5af-41a6-88cd-d673924f07fa/-/crop/1080x987/0,102/-/preview/
       name: 'Lucas '
       title: Skipper
     - content: >-
