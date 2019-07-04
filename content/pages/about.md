@@ -128,7 +128,8 @@ crewSection:
         Our newest recruit.  Anna joins the Sailing in Paradise family with
         years of hospitality experience under her belt.   A budding photographer
         and medicine student Anna grew up around boats in coastal England.
-      image: 'https://ucarecdn.com/8f7b3794-b298-47a7-883c-7ec5e9d54cac/'
+      image: >-
+        https://ucarecdn.com/4bbc0ae5-bc31-47fd-88f4-bd5a52293c50/-/crop/1080x1140/0,0/-/preview/
       name: 'Anna '
       title: Cruise Hostess
     - content: >-
