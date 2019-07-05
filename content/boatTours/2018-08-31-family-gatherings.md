@@ -42,16 +42,65 @@ gallery:
 videoSection:
   imageOverlay: ''
   video: ''
-contentColumnTitle: Get out on the water and bring the family together!
-contentColumn: "Our luxury catamarans are family friendly and ideal for guests of all ages and abilities, and the wide and spacious deck area makes it ideal for everyone to get around and get some fresh ocean air. There is lots of space to park a pram if required, or just laze back and watch the world sail by. We like to encourage our guests (big or small) to have fun and participate in hoisting the sails and manning the helm!\r\n\nKeep your eyes peeled throughout the cruise as you very well may spot some marine and wildlife creatures on the picturesque Broadwater. Friendly and playful dolphins, soaring sea-eagles and wallabies on the shoreline are often to be seen while underway.   We can arrange rods and bait for you and the kids to have a go at catching a fish if you wish, simply let us know when booking.  \r\n\nFor daytime cruises, the whole family can enjoy a stop at Wave Break Island, where our vessels unique beach landing capabilities come into their own!     With a secret ladder on the foredeck its easy to hop on and off.   There’s buckets and spades for the little ones to play and make sandcastles, and plenty of calm water for everyone to jump in for a swim or safely wade about in the shallows. The young and young at heart will love snorkelling the Islands diving site to discover a variety of colourful fish, we also have SUPing and inflatable toys for the family to enjoy. If you’re feeling energetic and want to bring the family together you can have a game of beach volleyball or cricket right there on the island! We have something for everyone!\r\n\nWe make chartering a boat easy and tailored to your family’s needs, so we give you the option of choosing where you would like to go and what you would like to do within your chartered time. We can offer adventure and family friendly activities or rest and relaxation, the choice is yours! You can choose to BYO food and drinks or a fully catered charter for easy planning. We supply the eskies, ice, BBQ and BBQ tools free of charge.\r\n\nlso."
+contentColumnTitle: Bring the family together!
+contentColumn: >-
+  Our luxury catamarans are family friendly with the wide and spacious deck area
+  makes it ideal for everyone to get around and enjoy some fresh ocean air.   We
+  like to encourage our guests (big or small) to have fun and participate in
+  hoisting the sails and manning the helm!
+
+
+  Keep your eyes peeled throughout the cruise as you very well may spot some
+  marine and wildlife creatures on the picturesque Broadwater. Friendly and
+  playful dolphins, soaring sea-eagles and wallabies on the shoreline are often
+  to be seen while underway.   We can arrange rods and bait for you and the kids
+  to have a go at catching a fish if you wish, simply let us know when
+  booking.  
+
+
+  For daytime cruises, the whole family will enjoy a stop at Wave Break Island,
+  where our vessel's unique beach landing capabilities come into their own!    
+  With a secret ladder on the foredeck its easy to hop on and off for a swim or
+  some serious sandcastle building!    There’s buckets and spades for the little
+  ones to play and plenty of calm water for everyone to jump in for a swim or
+  wade about in the shallows.   We also have SUPing and inflatable toys for the
+  family to enjoy.   If you’re feeling energetic and want to bring the family
+  together you can have a game of beach volleyball or cricket right there on the
+  island, we have all the gear on board! 
+
+
+  We make chartering a boat easy and tailored to your family’s needs, so we give
+  you the option of choosing where you would like to go and what you would like
+  to do within your chartered time. We can offer adventure and family friendly
+  activities or rest and relaxation, the choice is yours! You can choose to BYO
+  food and drinks or a fully catered charter for easy planning. We supply the
+  eskies, ice, BBQ and BBQ tools free of charge.
+
+
+  lso.
 accordionSection:
   accordion:
     - dropdownContent: "When you book a family charter with Sailing in Paradise you can expect a quality of service from years of experience in the industry but most of all your can expect a fun day (or evening) on the water that the whole family will love.  \r\n\nFrom your initial enquiry, we aim to make the booking process as simple as possible for you, offering a variety of optional extras including catering, beverages, motorised watersports should you wish to book them. But none of this is obligatory, we also welcome BYO.\r\n\nWe offer a personalised and customised service so if you have any questions or special requirements please feel free to reach out to our team and we will do our best to accommodate you."
       title: What to expect
     - dropdownContent: "* Hat\r\n* Sunscreen\r\n* Sunglasses\r\n* Swimwear\r\n* Towel\r\n* Jacket on cooler days\r\n* Camera\r\n* Food and drinks if you wish to BYO"
       title: What to Bring
+    - dropdownContent: >-
+        We operate in the calm, protected waters of the Gold Coast Broadwater.
+        Where to go very much depends on what you would like to do and how long
+        your boat charter is for so please feel free to discuss this with our
+        team. In a 3 hour charter during the day our guests usually love a swim
+        stop at Wavebreak Island where you can enjoy the range of island
+        activities on board. Your skipper can make recommendations on the day,
+        if you don't wish to swim you could also go up and sail around the
+        millionaires mansions at Sovereign Islands.
+
+
+        In the evening we usually recommend sailing north to watch the sunset
+        and returning to the southern part of the Broadwater to see the city
+        lights after dark which are just beautiful.
+      title: Where can we go?
     - dropdownContent: "* Private use of your own beautiful sailing catamaran for 3 to 6 hours.\r\n* Skipper plus 1 crew, (our crew are heaps of fun and have a laid-back yet professional nature) we promise you will love them, Check out our-crew page to meet the gang!\r\n* Island Activities for day charters incl. Stand up Paddle Boards, beach games and cute inflatables\r\n* Use of tablet with premium spotify and sound system on board\r\n* Use of small marine BBQ if required\r\n* Use of large eskies (ice supplied)\r\n* Instaworthy Memento Photos taken by our crew\r\n* Lots of FUN!!"
-      title: What's included;
+      title: What's included?
     - dropdownContent: >-
         **Where do your boats depart from?**
 
@@ -111,24 +160,6 @@ accordionSection:
 
         Yes we do and we also provide ice. The eskies are very large and can be
         used for food or drink.
-
-
-        **Where can we go on our charter?**
-
-
-        We operate in the calm, protected waters of the Gold Coast Broadwater.
-        Where to go very much depends on what you would like to do and how long
-        your boat charter is for so please feel free to discuss this with our
-        team. In a 3 hour charter during the day our guests usually love a swim
-        stop at Wavebreak Island where you can enjoy the range of island
-        activities on board. Your skipper can make recommendations on the day,
-        if you don't wish to swim you could also go up and sail around the
-        millionaires mansions at Sovereign Islands.
-
-
-        In the evening we usually recommend sailing north to watch the sunset
-        and returning to the southern part of the Broadwater to see the city
-        lights after dark which are just beautiful.
 
 
         **Will I get seasick?**
