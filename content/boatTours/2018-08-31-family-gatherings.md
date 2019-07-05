@@ -1,25 +1,27 @@
 ---
 template: SingleBoatTour
 tourType: Private Charter
-title: Family Gatherings
+title: Family Charters
 icon: ''
-featuredImage: >-
-  https://ucarecdn.com/9dc97703-5834-4418-9c0c-cd9c0af7b59c/
+featuredImage: 'https://ucarecdn.com/9dc97703-5834-4418-9c0c-cd9c0af7b59c/'
 intro: >-
-  ## gold coast Family Gatherings boat party
+  ## gold coast Family yacht charters
 
 
-  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean elementum
-  scelerisque ex interdum cursus. In hac habitasse platea dictumst. Sed porta
-  ultricies turpis, dapibus efficitur lectus dapibus eget. Sed pharetra urna
-  vitae tincidunt placerat. Sed mollis, ex et placerat malesuada, felis orci
-  ultrices tortor, in molestie augue odio sed nibh. Quisque eros leo, egestas
-  quis ante ac, pretium venenatis augue. Aenean blandit urna sit amet nisi
-  elementum auctor.
+  There is something about spending time with family on the water that spans
+  generations.  When you charter a boat with Sailing in Paradise we aim to
+  provide a special experience the whole family will enjoy.    Loved by the
+  grandparents just as much as the kids (and everybody in between) our 2
+  beautiful sailing catamarans are comfortable, spacious and stable making them
+  suitable for all ages and most abilities.    Whether it be for special family
+  birthday, a reunion, family holiday or if you are a Gold Coast local wanting
+  to show off our beautiful part of the world to visiting family members we
+  invite you to enjoy a private yacht charter during the day or at sunset and
+  create some new family memories to treasure for years to come.
 contentBox:
   buttonTitle: Make enquiry
   buttonUrl: booking-enquiry
-  title: Let us tailor your VIP Gold Coast Family Gatherings Party Experience
+  title: Ask about chartering a boat for your family on the Gold Coast
 gallery:
   - image: 'https://ucarecdn.com/647a22b9-b7f5-4d23-88f6-a99ff0582da0/'
   - image: 'https://ucarecdn.com/5361eaf7-70a8-4641-9835-1bc3ee1c20fb/'
@@ -38,30 +40,10 @@ gallery:
   - image: 'https://ucarecdn.com/9721286e-6cac-4932-995b-9833ef1c5fe8/'
   - image: 'https://ucarecdn.com/7bc31479-2cfe-4fea-983a-b12480f2a7bf/'
 videoSection:
-  imageOverlay: 'https://ucarecdn.com/a8b3131a-5e2c-4885-9ae0-b875fe2f8c9a/'
-  video: >-
-    https://www.youtube.com/watch?v=vr0qNXmkUJ8&list=PLNhzc-Os3JK8ExayVzzoHVvP2c0-4_oqt
-contentColumnTitle: We love Family Gatherings parties and Family Gatherings parties love us!
-contentColumn: >-
-  We have hosted over 1000 happy Family Gatherings parties and we are
-  continually striving to create the best experience possible for our guests.
-
-
-  We understand that you want your special day to be memorable, fun, relaxing
-  and stress free and that is exactly what we specialise in.
-
-
-  From the moment you send through an enquiry all the way through to the follow
-  up email with your free souvenir photo’s after your cruise, we pride ourselves
-  on our professional yet friendly and laid back attitude.
-
-
-  No matter what style of party you are after we can help. Whether you are
-  looking for a relaxing day on the water with some yummy food and a few drinks.
-  Or an elegant morning tea cruise with champagne and delicious cupcakes. Even a
-  raucous Family Gatherings party with a butler in the buff and all the
-  trimmings we are here for you. We have some great Gold Coast Family Gatherings
-  night ideas also.
+  imageOverlay: ''
+  video: ''
+contentColumnTitle: Get out on the water and bring the family together!
+contentColumn: "Our luxury catamarans are family friendly and ideal for guests of all ages and abilities, and the wide and spacious deck area makes it ideal for everyone to get around and get some fresh ocean air. There is lots of space to park a pram if required, or just laze back and watch the world sail by. We like to encourage our guests (big or small) to have fun and participate in hoisting the sails and manning the helm!\r\n\nKeep your eyes peeled throughout the cruise as you very well may spot some marine and wildlife creatures on the picturesque Broadwater. Friendly and playful dolphins, soaring sea-eagles and wallabies on the shoreline are often to be seen while underway.   We can arrange rods and bait for you and the kids to have a go at catching a fish if you wish, simply let us know when booking.  \r\n\nFor daytime cruises, the whole family can enjoy a stop at Wave Break Island, where our vessels unique beach landing capabilities come into their own!     With a secret ladder on the foredeck its easy to hop on and off.   There’s buckets and spades for the little ones to play and make sandcastles, and plenty of calm water for everyone to jump in for a swim or safely wade about in the shallows. The young and young at heart will love snorkelling the Islands diving site to discover a variety of colourful fish, we also have SUPing and inflatable toys for the family to enjoy. If you’re feeling energetic and want to bring the family together you can have a game of beach volleyball or cricket right there on the island! We have something for everyone!\r\n\nWe make chartering a boat easy and tailored to your family’s needs, so we give you the option of choosing where you would like to go and what you would like to do within your chartered time. We can offer adventure and family friendly activities or rest and relaxation, the choice is yours! You can choose to BYO food and drinks or a fully catered charter for easy planning. We supply the eskies, ice, BBQ and BBQ tools free of charge.\r\n\nlso."
 accordionSection:
   accordion:
     - dropdownContent: >-
@@ -154,6 +136,7 @@ accordionSection:
         wonderful cruise.  Let the crew pamper you the way you deserve with our
         Ultimate VIP Family Gatherings Party Cruise.
       title: Family Gatherings Party FAQ's
+  sectionTitle: More info on our charters
 columnBanner:
   - buttonTitle: Make Enquiry
     buttonUrl: booking-enquiry
@@ -164,3 +147,4 @@ columnBanner:
     featuredImage: ''
   - featuredImage: ''
 ---
+
