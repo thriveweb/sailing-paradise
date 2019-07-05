@@ -1,6 +1,6 @@
 ---
 template: SingleCaseStudy
-title: 'Sean G, Australia'
+title: 'Sean G, Aus'
 cruiseType: Sunset & City Lights Cruise
 date: '2019-03-31'
 featuredImage: 'https://ucarecdn.com/311c7d0b-0fae-4d85-b181-ac57844a406a/'
