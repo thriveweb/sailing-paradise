@@ -9,8 +9,8 @@ intro: >-
 
 
   Hen's Parties are totally our thing!  We love them and, well,...they love
-  us... (blush).   Its a mutual admiration kind of vibe and we couldn't think of
-  any place we'd rather be :-).     
+  us... (blush).   Its a mutual admiration kind of situation and we couldn't
+  think of any place we'd rather be :-).     
 
 
   Any style, any vibe the choice is yours, we don't bring pre-prescribed ideas
@@ -55,98 +55,192 @@ videoSection:
   video: >-
     https://www.youtube.com/watch?v=vr0qNXmkUJ8&list=PLNhzc-Os3JK8ExayVzzoHVvP2c0-4_oqt
 contentColumnTitle: So what will your hen's parry cruise look like?
-contentColumn: "We have hosted thousands of happy Hens parties but no two have ever been alike.   So what will you party be?  A relaxed afternoon on the water with swimming and sunbaking, an elegant morning tea with mimosas or a wild hen's night party with all the hen's party trimmings?  The choice is totally yours and we are here to help with whatever you wish.    \n\nWe are continually striving to create the best experience possible for our guests.  We understand that you want your special day to be memorable, fun, relaxing and stress free and that is exactly where we come in.\n\nFrom the moment you send through an enquiry all the way through to the follow up email with your free souvenir photos after your cruise, we pride ourselves on our professional yet friendly and laid back attitude.\n\n## the perfect hen's party boats\n\nWith 2 beautiful sailing catamarans available for charter we can accommodate groups of up to 20 or 30 guests.    Click here for a tour of our boats.  \n\nThe large trampoline-style fore-decks are perfect for lazing in the sunshine or dancing, while we sail the calm, clear waters of the Gold Coast. The ample undercover space makes the vessel perfect for those seeking shade. Facilities are plentiful to ensure you have everything on hand to enjoy a perfect day! \n\n## Looking for some hen's party ideas?\n\nWe have the largest range of novelty floating inflatables available. Kick back on one of our supersized flamingos or swans, laze on a giant slice of watermelon or pull up a pineapple.\r\n\nWe also offer a range of free activities including stand up paddleboards, beach cricket, snorkelling, beach volleyball or frisbees.\r\n\nBe sure to dress for the occasion, as we always take photos on the day to capture all those precious moments so you can take lots of great memories home.\r\n\nSome great themed ideas we have seen in the past include nautical (sailors, blue and white stripes, etc), all white, pink or another colour of your choice (and maybe contrast the hen to make her feel even more special) and tropical (to match our fruit flavoured floaties).\r\n\nFor even more great ideas and inspiration be sure to check out our instagram page @sailinginparadisegoldcoast our facebook page @sailinginparadise, email or call and ask one of our friendly and experienced staff.\r\n\nWe are confident that a Gold Coast hen’s party with Sailing In Paradise, is an experience your group will be talking about for years to come!"
+contentColumn: >-
+  We have hosted thousands of happy Hens parties but no two have ever been
+  alike.   So what will you party be?  A relaxed afternoon on the water with
+  swimming and sunbaking, an elegant morning tea with mimosas or a wild hen's
+  night party with all the hen's party trimmings?  The choice is totally yours
+  and we are here to help with whatever you wish.    
+
+
+  We are continually striving to create the best experience possible for our
+  guests.  We understand that you want your special day to be memorable, fun,
+  relaxing and stress free and that is exactly where we come in.
+
+
+  From the moment you send through an enquiry all the way through to the follow
+  up email with your free souvenir photos after your cruise, we pride ourselves
+  on our professional yet friendly and laid back attitude.
+
+
+  ## the perfect hen's party boats
+
+
+  With 2 beautiful sailing catamarans available for charter we can accommodate
+  groups of up to 20 or 30 guests.    Click here for a tour of our boats.  
+
+
+  The large trampoline-style fore-decks are perfect for lazing in the sunshine
+  or dancing, while we sail the calm, clear waters of the Gold Coast. The ample
+  undercover space makes the vessel perfect for those seeking shade. Facilities
+  are plentiful to ensure you have everything on hand to enjoy a perfect day! 
+
+
+  ## All the hens party extras
+
+
+  We have the largest range of novelty floating inflatables available. Kick back
+  on one of our supersized flamingos or swans, laze on a giant slice of
+  watermelon or pull up a pineapple.
+
+
+  We also offer a range of free activities including stand up paddleboards,
+  beach cricket, snorkelling, beach volleyball or frisbees.
+
+
+  Be sure to dress for the occasion, as we always take photos on the day to
+  capture all those precious moments so you can take lots of great memories
+  home.  Practically all of the photos you will see on [our Instagam page
+  ](https://www.instagram.com/sailinginparadisegoldcoast/)are taken by our crew
+  on board actual charters so that's a sample of what you can expect.  
+
+
+  We are confident that a Gold Coast hen’s party with Sailing In Paradise, is an
+  experience your group will be talking about for years to come!
 accordionSection:
   accordion:
     - dropdownContent: >-
-        Why settle for ordinary when you can sail away on the Gold Coast’s most
-        luxurious and unique sailing catamaran.
+        When you book a hen's party cruise with Sailing in Paradise you can
+        expect a quality of service from years of experience in the industry
+        coupled with the essential hen's party ingredient - LOTS OF FUN!    
 
 
-        Our stable sailing catamaran is ideal for groups of up to 30 ladies. The
-        large trampoline-style fore-deck is perfect for lazing in the sunshine
-        or dancing, while we sail the calm, clear waters of the Gold Coast. The
-        ample undercover space makes the vessel perfect for those seeking shade.
-        Facilities are plentiful to ensure you have everything on hand to enjoy
-        a perfect day! Definitely the boat to be seen on and with room for up to
-        30 passengers, this smooth and stable yacht is the ideal venue for a
-        wonderful cruise.  Let the crew pamper you the way you deserve with our
-        Ultimate VIP Hens Party Cruise.
+        Don't expect a cookie-cutter hens party!   We realise that every hen is
+        different and therefore every hen's party is different.  We celebrate
+        that and will adapt our service on the day to suit your vibe whatever
+        that may be.
+
+
+        From your initial enquiry we aim to streamline the booking process
+        offering a variety of optional extras including catering, beverages,
+        motorised watersports and butlers should you wish to book them.   But
+        none of this is obligatory, we also welcome BYO.
+
+
+        We offer a personalised and customised service so if you have any
+        questions or special requirements please feel free to reach out to our
+        team and we will do our best to accommodate you.
       title: What to expect
     - dropdownContent: >-
-        Why settle for ordinary when you can sail away on the Gold Coast’s most
-        luxurious and unique sailing catamaran.
+        * Skipper plus 1 crew, (our crew are heaps of fun and have a laid-back
+        yet professional nature) we promise you will love them,
+          Check out our-crew page to meet the gang!
+        * Island Activities for day charters incl. Stand up Paddle Boards, beach
+        games and cute inflatables
+
+        * Use of tablet with premium spotify and sound system on board
+
+        * Use of small marine BBQ if required 
+
+        * Use of large eskies (ice supplied) 
+
+        * 
 
 
-        Our stable sailing catamaran is ideal for groups of up to 30 ladies. The
-        large trampoline-style fore-deck is perfect for lazing in the sunshine
-        or dancing, while we sail the calm, clear waters of the Gold Coast. The
-        ample undercover space makes the vessel perfect for those seeking shade.
-        Facilities are plentiful to ensure you have everything on hand to enjoy
-        a perfect day! Definitely the boat to be seen on and with room for up to
-        30 passengers, this smooth and stable yacht is the ideal venue for a
-        wonderful cruise.  Let the crew pamper you the way you deserve with our
-        Ultimate VIP Hens Party Cruise.
+        Instaworthy Memento Photos taken by our crew
+
+
+        * Lots of FUN!!
+      title: What's included
+    - dropdownContent: |-
+        This really depends on what you want from your experience but;
+
+        * a sense of fun (essential)
+        * swimmers and towel (if you plan to swim)
+        * sunglasses, sunscreen 
+        * jacket for cooler days
+        * shoes that you can slip off if required
+        * perhaps some decorations or mementos for the bride
+        * Food and drink/cups etc if BYO
       title: What to Bring
     - dropdownContent: >-
-        Why settle for ordinary when you can sail away on the Gold Coast’s most
-        luxurious and unique sailing catamaran.
+        So you've decided you want a boat party...now time to plan it!   
 
 
-        Our stable sailing catamaran is ideal for groups of up to 30 ladies. The
-        large trampoline-style fore-deck is perfect for lazing in the sunshine
-        or dancing, while we sail the calm, clear waters of the Gold Coast. The
-        ample undercover space makes the vessel perfect for those seeking shade.
-        Facilities are plentiful to ensure you have everything on hand to enjoy
-        a perfect day! Definitely the boat to be seen on and with room for up to
-        30 passengers, this smooth and stable yacht is the ideal venue for a
-        wonderful cruise.  Let the crew pamper you the way you deserve with our
-        Ultimate VIP Hens Party Cruise.
-      title: Considerations
-    - dropdownContent: >-
-        Why settle for ordinary when you can sail away on the Gold Coast’s most
-        luxurious and unique sailing catamaran.
+        You can take whatever approach you wish towards planning your party and
+        we've got your back.  We understand that life gets busy (especially when
+        there is a wedding to help plan) so if you would like us to take care of
+        things like catering, drinks and cheeky butlers so you can just turn up
+        and enjoy then we will take the helm and sort everything out on your
+        behalf!  
 
 
-        Our stable sailing catamaran is ideal for groups of up to 30 ladies. The
-        large trampoline-style fore-deck is perfect for lazing in the sunshine
-        or dancing, while we sail the calm, clear waters of the Gold Coast. The
-        ample undercover space makes the vessel perfect for those seeking shade.
-        Facilities are plentiful to ensure you have everything on hand to enjoy
-        a perfect day! Definitely the boat to be seen on and with room for up to
-        30 passengers, this smooth and stable yacht is the ideal venue for a
-        wonderful cruise.  Let the crew pamper you the way you deserve with our
-        Ultimate VIP Hens Party Cruise.
-      title: VIP Packages
-    - dropdownContent: >-
-        Why settle for ordinary when you can sail away on the Gold Coast’s most
-        luxurious and unique sailing catamaran.
+        If you have heaps of ideas of your own and want to customise or theme
+        your party let us know what you've got planned and we are happy to give
+        advice and ideas on how it may work.  
 
 
-        Our stable sailing catamaran is ideal for groups of up to 30 ladies. The
-        large trampoline-style fore-deck is perfect for lazing in the sunshine
-        or dancing, while we sail the calm, clear waters of the Gold Coast. The
-        ample undercover space makes the vessel perfect for those seeking shade.
-        Facilities are plentiful to ensure you have everything on hand to enjoy
-        a perfect day! Definitely the boat to be seen on and with room for up to
-        30 passengers, this smooth and stable yacht is the ideal venue for a
-        wonderful cruise.  Let the crew pamper you the way you deserve with our
-        Ultimate VIP Hens Party Cruise.
-      title: More Hens Ideas
-    - dropdownContent: >-
-        Why settle for ordinary when you can sail away on the Gold Coast’s most
-        luxurious and unique sailing catamaran.
+        Here are a few extra hen's party ideas;
 
 
-        Our stable sailing catamaran is ideal for groups of up to 30 ladies. The
-        large trampoline-style fore-deck is perfect for lazing in the sunshine
-        or dancing, while we sail the calm, clear waters of the Gold Coast. The
-        ample undercover space makes the vessel perfect for those seeking shade.
-        Facilities are plentiful to ensure you have everything on hand to enjoy
-        a perfect day! Definitely the boat to be seen on and with room for up to
-        30 passengers, this smooth and stable yacht is the ideal venue for a
-        wonderful cruise.  Let the crew pamper you the way you deserve with our
-        Ultimate VIP Hens Party Cruise.
+        ## Pick a theme
+
+
+        We love a themed hen's party!   Some of our faves have included nautical
+        (sailors hats, stripes), mermaids, all white (classic and always looks
+        so chic) and tropical (just perfect for a boat/island party)
+
+
+        If you are looking at our BYO option why not carry the theme into your
+        food and drink.  We also welcome themed decorations (there are a few
+        guidelines around this so please do check in with us first).   
+        Generally we recommend the table is a great place to start with theming
+        since these are centrally located on both boats and provide a nice focal
+        point.  
+
+
+        ## Plan some hen's party games
+
+
+        We have seen it all on board the boat from;
+
+
+        * how well do you know the groom games
+
+        * cardboard cut outs of the groom ha ha
+
+        * toilet paper wedding dress creations 
+
+        * tug of war on the beach
+
+        * Bridal Bingo
+
+        * Hen's Party Dares
+
+        * Plus some very cheeky games involving our cheeky butlers ha ha
+
+
+
+
+        ## Talking of cheeky butlers...
+
+
+        If you are looking for the perfect ice breaker guaranteed to make the
+        bride smile and her nan giggle we can't recommend these guys enough.  
+        Wearing just an apron, bow tie and a smile our butlers are not just
+        pretty faces.  With a personality guaranteed to get the party started
+        your personal butler will serve drinks, play games and keep your guests
+        entertained all while making the perfect hen's party eye candy.   
+
+
+        For even more great ideas and inspiration be sure to check out our
+        [instagram page
+        @sailinginparadisegoldcoast](https://www.instagram.com/sailinginparadisegoldcoast/)
+        our [facebook page
+        @sailinginparadise](https://www.facebook.com/sailinginparadise), email
+        or call and ask one of our friendly and experienced staff.
+      title: Hen's Party Ideas
+    - dropdownContent: "**Where do your boats depart from?**\r\n\nOur boats are berthed at D9 and D10 at Marina Mirage. Please see the 'contact us' page on our website\r www.sailinginparadise.com.au for further details and a map. Marina Mirage is about 10 mins from Surfers and 15 mins\r from Broadbeach.\r\n\n**Where can I park?**\r\n\nThere is plentiful free parking underneath the Marina Mirage Shopping Centre which you are permitted to use.\r\n\n**What about other transport options?**\r\n\nThere are lots of ways to get to the boat! The most popular (and cost effective/convenient) if often via\r Maxi Taxis. We can also assist in organizing bus, hummer or limo transfers if you are after more of an experience.\n\n**Can I BYO?**\r\n\nYes if you would like to bring your own food and drinks on board that is completely fine.\r\n\n**I am short on time can you please help me out with catering/drinks?**\r\n\nYes, we also offer catering and drinks service for your convenience. Please request our full catering list as advance\r bookings are required. We offer a range of catering options from grazing boards, to tapas and private chefs.\r\n\n**Do you have Eskies on board?**\r\n\nYes we do and we also provide ice. The eskies are very large and can be used for food or drink.\n\n**Where can we go on our charter?**\r\n\nWe operate in the calm, protected waters of the Gold Coast Broadwater. Where to go very much depends on what you\r would like to do and how long your boat charter is for so please feel free to discuss this with our team.   In a 3 hour charter during the day our guests usually love a swim stop at Wavebreak Island where you can enjoy the range of island activities on board.   Your skipper can make recommendations on the day, if you don't wish to swim you could also go\r up and sail around the millionaires mansions at Sovereign Islands.   \n\nIn the evening we usually recommend sailing north to watch the sunset and returning to the southern part of the Broadwater to see the city lights after dark which are just beautiful.  \n\n**Will I get seasick?**  \n\nNope.   We operate in the calm, protected waters of the Gold Coast Broadwater. We do not go\r\n\noffshore (into the open ocean) so we do not experience large waves. Our catamarans are very stable, and do\r not have the same side to side rocking motion as experienced by single hull vessels so you won't get seasick or spill your drink either :-).  \n\n**What happens if it rains?**\n\nFirst of all remember...a little rain doesn't stop a great party on our boats ha ha...   But do rest assured that we have a very generous wet weather policy as we want you to enjoy your time on board the boat, so if there is torrential rain or storms at the time you will be able to cancel or reschedule your cruise.  Please see the full booking policy provided with your invoice for full details or contact our team."
       title: Hens Party FAQ's
 columnBanner:
   - buttonTitle: Make Enquiry
