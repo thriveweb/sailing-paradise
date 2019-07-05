@@ -11,7 +11,7 @@ navItems:
       - title: Hen's Parties
       - title: Romantic Sails
       - title: Corporate Events
-      - title: Family Gatherings
+      - title: Family Charters
       - title: Raft Up Parties
       - title: Memorials
       - title: Christmas Parties
