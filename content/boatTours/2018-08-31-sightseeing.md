@@ -3,8 +3,7 @@ template: SingleBoatTour
 tourType: Private Charter
 title: Sightseeing
 icon: ''
-featuredImage: >-
-  https://ucarecdn.com/468e330d-05a6-467b-b098-fcdff53fc4f8/
+featuredImage: 'https://ucarecdn.com/468e330d-05a6-467b-b098-fcdff53fc4f8/'
 intro: "## gold coast Sightseeing Cruise\n\nIf you’re looking for things to do on the Gold Coast, we invite you on a unique Gold Coast experience... sailing the calm, clear waters of the Gold Coast Broadwater aboard a beautiful sailing catamaran. \r\n\nWith 2 boats available for private charter, and catering for groups of 2-50 guests, our private sightseeing charters are ideal for families, colleagues and friends looking to explore the area and see the Gold Coast from a different perspective.   \n\nWhether you are a Gold Coast local or on vacation as an international visitor, experiencing the many attractions on the Gold Coast Broadwater from a luxury catamaran is the perfect way to make a memorable experience for your group!"
 contentBox:
   buttonTitle: Make enquiry
@@ -40,35 +39,20 @@ accordionSection:
     - dropdownContent: "* Hat\r\n* Sunscreen\r\n* Sunglasses\r\n* Swimwear \r\n* Towel\r\n* Jacket on cooler days\r\n* Camera\r\n* Food and drinks if you wish to BYO"
       title: What to Bring
     - dropdownContent: >-
-        Why settle for ordinary when you can sail away on the Gold Coast’s most
-        luxurious and unique sailing catamaran.
+        Dependent on the length of your charter there are other optional
+        destinations including;
 
 
-        Our stable sailing catamaran is ideal for groups of up to 30 ladies. The
-        large trampoline-style fore-deck is perfect for lazing in the sunshine
-        or dancing, while we sail the calm, clear waters of the Gold Coast. The
-        ample undercover space makes the vessel perfect for those seeking shade.
-        Facilities are plentiful to ensure you have everything on hand to enjoy
-        a perfect day! Definitely the boat to be seen on and with room for up to
-        30 passengers, this smooth and stable yacht is the ideal venue for a
-        wonderful cruise.  Let the crew pamper you the way you deserve with our
-        Ultimate VIP Sightseeing Party Cruise.
+        * Sanctuary Cove
+
+        * Couran Cove, South Stradbroke Island
+
+        * Pelican Feeding and Seafood Lunch at Charis Seafoods
+
+        * Snorkelling at the GC Seaway Dive Spot
       title: More Sightseeing Ideas
-    - dropdownContent: >-
-        Why settle for ordinary when you can sail away on the Gold Coast’s most
-        luxurious and unique sailing catamaran.
-
-
-        Our stable sailing catamaran is ideal for groups of up to 30 ladies. The
-        large trampoline-style fore-deck is perfect for lazing in the sunshine
-        or dancing, while we sail the calm, clear waters of the Gold Coast. The
-        ample undercover space makes the vessel perfect for those seeking shade.
-        Facilities are plentiful to ensure you have everything on hand to enjoy
-        a perfect day! Definitely the boat to be seen on and with room for up to
-        30 passengers, this smooth and stable yacht is the ideal venue for a
-        wonderful cruise.  Let the crew pamper you the way you deserve with our
-        Ultimate VIP Sightseeing Party Cruise.
-      title: Sightseeing Party FAQ's
+    - dropdownContent: "**Where do your boats depart from?**\r\n\nOur boats are berthed at D9 and D10 at Marina Mirage. Please see the 'contact us' page on our website www.sailinginparadise.com.au for further details and a map. Marina Mirage is about 10 mins from Surfers and 15 mins from Broadbeach.\r\n\n\r****\n\n**Where can I park?**\r\n\nThere is plentiful free parking underneath the Marina Mirage Shopping Centre which you are permitted to use.\r\n\n\r****\n\n**What about other transport options?**\r\n\nThere are lots of ways to get to the boat! The most popular (and cost effective/convenient) if often via Maxi Taxis. \n\n\r****\n\n**Can I BYO food and drink?**\r\n\nYes if you would like to bring your own food and drinks on board that is completely fine.\r\n\n\r****\n\n**I am short on time can you please help me out with catering/drinks?**\r\n\nYes, we also offer catering and drinks service for your convenience. Please request our full catering list as advance bookings are required. We offer a range of catering options from grazing boards, to tapas and private chefs.\r\n\n\r****\n\n**Do you have Eskies on board?**\r\n\nYes we do and we also provide ice. The eskies are very large and can be used for food or drink.\r\n\n\r****\n\n**Where can we go on our charter?**\r\n\nWe operate in the calm, protected waters of the Gold Coast Broadwater. Where to go very much depends on what you would like to do and how long your boat charter is for so please feel free to discuss this with our team. In a 3 hour charter during the day our guests usually love a swim stop at Wavebreak Island where you can enjoy the range of island activities on board. Your skipper can make recommendations on the day, if you don't wish to swim you could also go up and sail around the millionaires mansions at Sovereign Islands.\r\n\nIn the evening we usually recommend sailing north to watch the sunset and returning to the southern part of the Broadwater to see the city lights after dark which are just beautiful.\r\n\n\r\n\n**Will I get seasick?**\r\n\nNope. We operate in the calm, protected waters of the Gold Coast Broadwater. We do not go\r\n\noffshore (into the open ocean) so we do not experience large waves. Our catamarans are very stable, and do not have the same side to side rocking motion as experienced by single hull vessels so you won't get seasick :-).\r\n\n\r****\n\n**What happens if it rains?**\r\n\nFirst of all remember...a little rain doesn't stop a great time on our boats especially in the warm Gold Coast endless summer... But do rest assured that we have a very generous wet weather policy as we want you to enjoy your time on board the boat, so if there is torrential rain or storms at the time you will be able to cancel or reschedule your cruise. Please see the full booking policy provided with your invoice for full details or contact our team."
+      title: 'Sightseeing Charter FAQ''s '
 columnBanner:
   - buttonTitle: Make Enquiry
     buttonUrl: booking-enquiry
@@ -79,3 +63,4 @@ columnBanner:
     featuredImage: /images/uploads/girl-img-column2.jpg
   - featuredImage: /images/uploads/girl-img-column.jpg
 ---
+
