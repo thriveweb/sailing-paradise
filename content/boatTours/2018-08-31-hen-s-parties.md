@@ -172,15 +172,15 @@ accordionSection:
 
         You can take whatever approach you wish towards planning your party and
         we've got your back.  We understand that life gets busy (especially when
-        there is a wedding to help plan) so if you would like us to take care of
+        there is a wedding to plan) so if you would like us to take care of
         things like catering, drinks and cheeky butlers so you can just turn up
         and enjoy then we will take the helm and sort everything out on your
         behalf!  
 
 
-        If you have heaps of ideas of your own and want to customise or theme
-        your party let us know what you've got planned and we are happy to give
-        advice and ideas on how it may work.  
+        Alternatively, if you have heaps of ideas of your own and want to
+        customise or theme your party let us know what you've got planned and we
+        are happy to give advice and ideas on how it may work.  
 
 
         Here are a few extra hen's party ideas;
@@ -192,8 +192,9 @@ accordionSection:
 
 
         We love a themed hen's party!   Some of our faves have included nautical
-        (sailors hats, stripes), mermaids, all white (classic and always looks
-        so chic) and tropical (just perfect for a boat/island party)
+        (think sailors hats, stripes), mermaids (Tails 'n all), white parties (a
+        total classic and always looks so chic) and tropical (just perfect for a
+        boat/island party)
 
 
         If you are looking at our BYO option why not carry the theme into your
@@ -209,16 +210,18 @@ accordionSection:
         **Plan some hen's party games**
 
 
-        We have seen it all on board the boat from;
+        We have seen it all...trust us and what happens on the boat stays on the
+        boat he he...  Here are a few of the hen's party games our guests have
+        enjoyed in the past;
 
 
-        * how well do you know the groom games
+        * Bride and Groom trivia games
 
-        * cardboard cut outs of the groom ha ha
+        * Pin the pants on the cardboard cut out of the groom 
 
-        * toilet paper wedding dress creations 
+        * Toilet paper wedding dress creation contests
 
-        * tug of war on the beach
+        * Tug of war on the beach
 
         * Bridal Bingo
 
@@ -232,20 +235,19 @@ accordionSection:
         **Talking of cheeky butlers...**
 
 
-        If you are looking for the perfect ice breaker guaranteed to make the
+        If you are looking for the perfect ice breaker, guaranteed to make the
         bride smile and her nan giggle we can't recommend these guys enough.  
-        Wearing just an apron, bow tie and a smile our butlers are not just
-        pretty faces.  With a personality guaranteed to get the party started
+        Wearing just an apron, bow tie and a smile, our butlers are the best in
+        the business.  With a personality guaranteed to get the party started
         your personal butler will serve drinks, play games and keep your guests
         entertained all while making the perfect hen's party eye candy.   
 
 
-        For even more great ideas and inspiration be sure to check out our
+        For even more great ideas and inspiration be sure to follow our
         [instagram page
         @sailinginparadisegoldcoast](https://www.instagram.com/sailinginparadisegoldcoast/)
-        our [facebook page
-        @sailinginparadise](https://www.facebook.com/sailinginparadise), email
-        or call and ask one of our friendly and experienced staff.
+        or our [facebook page
+        @sailinginparadise](https://www.facebook.com/sailinginparadise)
       title: Hen's Party Ideas
     - dropdownContent: "**Where do your boats depart from?**\r\n\nOur boats are berthed at D9 and D10 at Marina Mirage. Please see the 'contact us' page on our website\r www.sailinginparadise.com.au for further details and a map. Marina Mirage is about 10 mins from Surfers and 15 mins\r from Broadbeach.\r\n\n**Where can I park?**\r\n\nThere is plentiful free parking underneath the Marina Mirage Shopping Centre which you are permitted to use.\r\n\n**What about other transport options?**\r\n\nThere are lots of ways to get to the boat! The most popular (and cost effective/convenient) if often via\r Maxi Taxis. We can also assist in organizing bus, hummer or limo transfers if you are after more of an experience.\n\n**Can I BYO?**\r\n\nYes if you would like to bring your own food and drinks on board that is completely fine.\r\n\n**I am short on time can you please help me out with catering/drinks?**\r\n\nYes, we also offer catering and drinks service for your convenience. Please request our full catering list as advance\r bookings are required. We offer a range of catering options from grazing boards, to tapas and private chefs.\r\n\n**Do you have Eskies on board?**\r\n\nYes we do and we also provide ice. The eskies are very large and can be used for food or drink.\n\n**Where can we go on our charter?**\r\n\nWe operate in the calm, protected waters of the Gold Coast Broadwater. Where to go very much depends on what you\r would like to do and how long your boat charter is for so please feel free to discuss this with our team.   In a 3 hour charter during the day our guests usually love a swim stop at Wavebreak Island where you can enjoy the range of island activities on board.   Your skipper can make recommendations on the day, if you don't wish to swim you could also go\r up and sail around the millionaires mansions at Sovereign Islands.   \n\nIn the evening we usually recommend sailing north to watch the sunset and returning to the southern part of the Broadwater to see the city lights after dark which are just beautiful.  \n\n**Will I get seasick?**  \n\nNope.   We operate in the calm, protected waters of the Gold Coast Broadwater. We do not go\r\n\noffshore (into the open ocean) so we do not experience large waves. Our catamarans are very stable, and do\r not have the same side to side rocking motion as experienced by single hull vessels so you won't get seasick or spill your drink either :-).  \n\n**What happens if it rains?**\n\nFirst of all remember...a little rain doesn't stop a great party on our boats ha ha...   But do rest assured that we have a very generous wet weather policy as we want you to enjoy your time on board the boat, so if there is torrential rain or storms at the time you will be able to cancel or reschedule your cruise.  Please see the full booking policy provided with your invoice for full details or contact our team."
       title: Hens Party FAQ's
