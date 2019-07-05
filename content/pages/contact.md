@@ -15,10 +15,10 @@ intro: >-
   perhaps check out our FAQ's page, drop us an email or give us a bell!   We
   look forward to talking with you!
 secondaryBanner:
-  buttonTitle: Book and enquiry now
+  buttonTitle: Book or enquire now
   buttonUrl: booking-enquiry
   featuredImage: 'https://ucarecdn.com/a3732d58-dd7a-44d2-bc7e-ec65d4073729/'
-  subtitle: Make a booking now
+  subtitle: ...you know you want to!
   title: Let’s go sailing in paradise
 ---
 ### HOW TO FIND THE BOAT AT THE MARINA
