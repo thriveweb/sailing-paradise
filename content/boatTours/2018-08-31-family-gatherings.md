@@ -72,10 +72,10 @@ columnBanner:
   - buttonTitle: Make Enquiry
     buttonUrl: booking-enquiry
     content: >-
-      Let our friendly and experienced team tailor a VIP Gold Coast Family
-      Gatherings Party Experience that they won’t forget.
-    title: Give your friend the party they deserve!
-    featuredImage: ''
-  - featuredImage: ''
+      Let our friendly and experienced team tailor a Family Boat Charter that
+      they won’t forget.
+    title: Give your family the experience of a lifetime!
+    featuredImage: 'https://ucarecdn.com/c3349743-5713-4c0b-86f5-1911221ab1e9/'
+  - featuredImage: 'https://ucarecdn.com/17f9895a-62ef-4d6e-8cd5-ac79c1db17fb/'
 ---
 
