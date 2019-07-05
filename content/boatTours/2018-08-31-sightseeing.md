@@ -60,7 +60,7 @@ columnBanner:
       Let our friendly and experienced team tailor Sightseeing Charter for your
       group.
     title: Get out on the water and see the real Gold Coast
-    featuredImage: /images/uploads/girl-img-column2.jpg
-  - featuredImage: /images/uploads/girl-img-column.jpg
+    featuredImage: 'https://ucarecdn.com/90d8ee6c-008c-40a2-a620-e532aab1315f/'
+  - featuredImage: 'https://ucarecdn.com/575b03dc-b8cb-4ea8-a6b9-94bf796b5b92/'
 ---
 
