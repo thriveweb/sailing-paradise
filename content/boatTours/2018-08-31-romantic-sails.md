@@ -66,10 +66,8 @@ columnBanner:
       https://ucarecdn.com/e98f8f7e-49cf-466f-9272-6263fc989671/-/crop/3107x2956/881,0/-/preview/
 featuredTestimonials:
   description: >-
-    Mark and I had such an amazing day - thank you! Mark really enjoyed Steve’s
-    sailing tips and the experience. Chanelle did a beautiful job with our
-    photos, some lovely keepsakes here. The whole day was very memorable for us
-    both. Many thanks Taryn & Mark
+    Check out this lovely review from Taryn who chartered a boat for a romantic
+    sail with us...
   testimonial: 'Taryn Poole, Australia'
   title: Taryn
 ---
