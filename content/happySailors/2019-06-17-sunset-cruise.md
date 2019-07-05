@@ -1,6 +1,6 @@
 ---
 template: SingleCaseStudy
-title: 'Sean Gilliland, Australia'
+title: 'Sean G, Australia'
 cruiseType: Sunset & City Lights Cruise
 date: '2019-03-31'
 featuredImage: 'https://ucarecdn.com/311c7d0b-0fae-4d85-b181-ac57844a406a/'
@@ -23,5 +23,10 @@ gallery:
   - image: >-
       https://ucarecdn.com/4ebf741d-4e0a-4e47-a981-143da9abec15/-/crop/1080x1210/0,170/-/preview/
   - {}
+secondaryBanner:
+  buttonTitle: Take me back
+  buttonUrl: Happy Sailors
+  title: Want to meet more Happy Sailors?
+  featuredImage: 'https://ucarecdn.com/1b127403-fa18-4904-b975-46cfe5789712/'
 ---
 Sean arranged for his family of 7 to join our Sunset and City Lights Cruise as a special gift to his father.  We were delighted to help make this a special occasion for the family.  For smaller groups, joining one of our ticketed cruises can be an ideal option to celebrate a special occasion.
