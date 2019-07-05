@@ -158,12 +158,12 @@ accordionSection:
     - dropdownContent: |-
         This really depends on what you want from your experience but;
 
-        * a sense of fun (essential)
-        * swimmers and towel (if you plan to swim)
-        * sunglasses, sunscreen 
-        * jacket for cooler days
-        * shoes that you can slip off if required
-        * perhaps some decorations or mementos for the bride
+        * A sense of fun (essential)
+        * Swimmers and towel (if you plan to swim)
+        * Sunglasses, sunscreen 
+        * Jacket for cooler days
+        * Shoes that you can slip off if required
+        * Perhaps some decorations or mementos for the bride
         * Food and drink/cups etc if BYO
       title: What to Bring
     - dropdownContent: >-
@@ -186,7 +186,9 @@ accordionSection:
         Here are a few extra hen's party ideas;
 
 
-        ## Pick a theme
+
+
+        **Pick a theme**
 
 
         We love a themed hen's party!   Some of our faves have included nautical
@@ -202,7 +204,9 @@ accordionSection:
         point.  
 
 
-        ## Plan some hen's party games
+
+
+        **Plan some hen's party games**
 
 
         We have seen it all on board the boat from;
@@ -225,7 +229,7 @@ accordionSection:
 
 
 
-        ## Talking of cheeky butlers...
+        **Talking of cheeky butlers...**
 
 
         If you are looking for the perfect ice breaker guaranteed to make the
