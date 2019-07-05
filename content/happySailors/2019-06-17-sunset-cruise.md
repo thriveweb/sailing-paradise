@@ -25,7 +25,7 @@ gallery:
   - {}
 secondaryBanner:
   buttonTitle: Take me back
-  buttonUrl: Happy Sailors
+  buttonUrl: happy-sailors
   title: Want to meet more Happy Sailors?
   featuredImage: 'https://ucarecdn.com/1b127403-fa18-4904-b975-46cfe5789712/'
 ---
