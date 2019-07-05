@@ -62,5 +62,14 @@ columnBanner:
     title: Get out on the water and see the real Gold Coast
     featuredImage: 'https://ucarecdn.com/90d8ee6c-008c-40a2-a620-e532aab1315f/'
   - featuredImage: 'https://ucarecdn.com/575b03dc-b8cb-4ea8-a6b9-94bf796b5b92/'
+featuredTestimonials:
+  description: >-
+    “Steve, Jessica and the team provided a fantastic experience for our family.
+    The lunch was superb, Steve interacted with the kids to get them involved in
+    getting the sails up which they loved. They took some amazing pictures which
+    was all part of the service, not a chargeable extra. I can't recommend them
+    enough.” 
+  testimonial: 'Tim Walker, Australia'
+  title: Tim Walker - Australia
 ---
 
