@@ -54,7 +54,7 @@ videoSection:
   imageOverlay: 'https://ucarecdn.com/013dd280-261c-4b1a-857a-4a582aaa8f3b/'
   video: >-
     https://www.youtube.com/watch?v=vr0qNXmkUJ8&list=PLNhzc-Os3JK8ExayVzzoHVvP2c0-4_oqt
-contentColumnTitle: So what will your hen's parry cruise look like?
+contentColumnTitle: Plan your perfect hens party cruise
 contentColumn: >-
   We have hosted thousands of happy Hens parties but no two have ever been
   alike.   So what will you party be?  A relaxed afternoon on the water with
@@ -82,8 +82,13 @@ contentColumn: >-
 
   The large trampoline-style fore-decks are perfect for lazing in the sunshine
   or dancing, while we sail the calm, clear waters of the Gold Coast. The ample
-  undercover space makes the vessel perfect for those seeking shade. Facilities
+  undercover space makes the vessels perfect for those seeking shade. Facilities
   are plentiful to ensure you have everything on hand to enjoy a perfect day! 
+
+
+  ![hen's party boat gold
+  coast](https://ucarecdn.com/647b0819-971a-4e28-bd2f-6976e07abd49/-/crop/3269x2226/0,209/-/preview/
+  "hen's party boat gold coast")
 
 
   ## All the hens party extras
