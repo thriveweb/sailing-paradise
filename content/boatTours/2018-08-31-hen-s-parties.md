@@ -94,9 +94,9 @@ contentColumn: >-
   ## All the hens party extras
 
 
-  We have a great novelty floating inflatables available. Kick back on one of
-  our supersized flamingos or swans, laze on a giant slice of watermelon or pull
-  up a pineapple.
+  We have a great range of novelty floating inflatables available. Kick back on
+  one of our supersized flamingos or swans, laze on a giant slice of watermelon
+  or pull up a pineapple.
 
 
   We also offer a range of free activities including stand up paddleboards,
