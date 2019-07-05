@@ -57,9 +57,9 @@ columnBanner:
   - buttonTitle: Make Enquiry
     buttonUrl: booking-enquiry
     content: >-
-      Let our friendly and experienced team tailor a VIP Gold Coast Sightseeing
-      Party Experience that they won’t forget.
-    title: Give your friend the party they deserve!
+      Let our friendly and experienced team tailor Sightseeing Charter for your
+      group.
+    title: Get out on the water and see the real Gold Coast
     featuredImage: /images/uploads/girl-img-column2.jpg
   - featuredImage: /images/uploads/girl-img-column.jpg
 ---
