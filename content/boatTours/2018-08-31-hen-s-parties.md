@@ -3,23 +3,24 @@ template: SingleBoatTour
 tourType: Private Charter
 title: Hen's Parties
 icon: ''
-featuredImage: >-
-  https://ucarecdn.com/dccf71c8-c148-421b-982f-e57f5f10deec/
+featuredImage: 'https://ucarecdn.com/dccf71c8-c148-421b-982f-e57f5f10deec/'
 intro: >-
-  ## gold coast Hens boat party
+  ## gold coast Hens party boat
 
 
-  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean elementum
-  scelerisque ex interdum cursus. In hac habitasse platea dictumst. Sed porta
-  ultricies turpis, dapibus efficitur lectus dapibus eget. Sed pharetra urna
-  vitae tincidunt placerat. Sed mollis, ex et placerat malesuada, felis orci
-  ultrices tortor, in molestie augue odio sed nibh. Quisque eros leo, egestas
-  quis ante ac, pretium venenatis augue. Aenean blandit urna sit amet nisi
-  elementum auctor.
+  Hen's Parties are totally our thing!  We love them and, well,...they love
+  us... (blush).   Its a mutual admiration kind of vibe and we couldn't think of
+  any place we'd rather be :-).     
+
+
+  Any style, any vibe the choice is yours, we don't bring pre-prescribed ideas
+  of what a hens party should be.  We simply bring beautiful, spacious (and
+  totally photogenic) boats with a super-fun, professional crew to help you host
+  the hen's party of your dreams.
 contentBox:
   buttonTitle: Make enquiry
   buttonUrl: booking-enquiry
-  title: Let us tailor your VIP Gold Coast Hens Party Experience
+  title: Let us tailor your Gold Coast Hens Party Boat Charter
 gallery:
   - image: 'https://ucarecdn.com/bf29c995-9a6f-4a59-b508-237f6ba3e9c6/'
   - image: 'https://ucarecdn.com/dfe2a61f-4c13-4a9f-9f2c-621df754ab3d/'
@@ -53,26 +54,8 @@ videoSection:
   imageOverlay: 'https://ucarecdn.com/013dd280-261c-4b1a-857a-4a582aaa8f3b/'
   video: >-
     https://www.youtube.com/watch?v=vr0qNXmkUJ8&list=PLNhzc-Os3JK8ExayVzzoHVvP2c0-4_oqt
-contentColumnTitle: We love Hens parties and Hens parties love us!
-contentColumn: >-
-  We have hosted over 1000 happy Hens parties and we are continually striving to
-  create the best experience possible for our guests.
-
-
-  We understand that you want your special day to be memorable, fun, relaxing
-  and stress free and that is exactly what we specialise in.
-
-
-  From the moment you send through an enquiry all the way through to the follow
-  up email with your free souvenir photo’s after your cruise, we pride ourselves
-  on our professional yet friendly and laid back attitude.
-
-
-  No matter what style of party you are after we can help. Whether you are
-  looking for a relaxing day on the water with some yummy food and a few drinks.
-  Or an elegant morning tea cruise with champagne and delicious cupcakes. Even a
-  raucous Hens party with a butler in the buff and all the trimmings we are here
-  for you. We have some great Gold Coast Hens night ideas also.
+contentColumnTitle: So what will your hen's parry cruise look like?
+contentColumn: "We have hosted thousands of happy Hens parties but no two have ever been alike.   So what will you party be?  A relaxed afternoon on the water with swimming and sunbaking, an elegant morning tea with mimosas or a wild hen's night party with all the hen's party trimmings?  The choice is totally yours and we are here to help with whatever you wish.    \n\nWe are continually striving to create the best experience possible for our guests.  We understand that you want your special day to be memorable, fun, relaxing and stress free and that is exactly where we come in.\n\nFrom the moment you send through an enquiry all the way through to the follow up email with your free souvenir photos after your cruise, we pride ourselves on our professional yet friendly and laid back attitude.\n\n## the perfect hen's party boats\n\nWith 2 beautiful sailing catamarans available for charter we can accommodate groups of up to 20 or 30 guests.    Click here for a tour of our boats.  \n\nThe large trampoline-style fore-decks are perfect for lazing in the sunshine or dancing, while we sail the calm, clear waters of the Gold Coast. The ample undercover space makes the vessel perfect for those seeking shade. Facilities are plentiful to ensure you have everything on hand to enjoy a perfect day! \n\n## Looking for some hen's party ideas?\n\nWe have the largest range of novelty floating inflatables available. Kick back on one of our supersized flamingos or swans, laze on a giant slice of watermelon or pull up a pineapple.\r\n\nWe also offer a range of free activities including stand up paddleboards, beach cricket, snorkelling, beach volleyball or frisbees.\r\n\nBe sure to dress for the occasion, as we always take photos on the day to capture all those precious moments so you can take lots of great memories home.\r\n\nSome great themed ideas we have seen in the past include nautical (sailors, blue and white stripes, etc), all white, pink or another colour of your choice (and maybe contrast the hen to make her feel even more special) and tropical (to match our fruit flavoured floaties).\r\n\nFor even more great ideas and inspiration be sure to check out our instagram page @sailinginparadisegoldcoast our facebook page @sailinginparadise, email or call and ask one of our friendly and experienced staff.\r\n\nWe are confident that a Gold Coast hen’s party with Sailing In Paradise, is an experience your group will be talking about for years to come!"
 accordionSection:
   accordion:
     - dropdownContent: >-
@@ -175,3 +158,4 @@ columnBanner:
     featuredImage: ''
   - featuredImage: ''
 ---
+
