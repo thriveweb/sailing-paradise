@@ -122,14 +122,14 @@ accordionSection:
 
         Don't expect a cookie-cutter hens party!   We realise that every hen is
         different and therefore every hen's party is different.  We celebrate
-        that and will adapt our service on the day to suit your vibe whatever
+        that, and will adapt our service on the day to suit your vibe, whatever
         that may be.
 
 
-        From your initial enquiry we aim to streamline the booking process
-        offering a variety of optional extras including catering, beverages,
-        motorised watersports and butlers should you wish to book them.   But
-        none of this is obligatory, we also welcome BYO.
+        From your initial enquiry, we aim to make the booking process as simple
+        as possible for you, offering a variety of optional extras including
+        catering, beverages, motorised watersports and butlers should you wish
+        to book them.   But none of this is obligatory, we also welcome BYO.
 
 
         We offer a personalised and customised service so if you have any
@@ -137,6 +137,8 @@ accordionSection:
         team and we will do our best to accommodate you.
       title: What to expect
     - dropdownContent: >-
+        * Private use of your own beautiful sailing catamaran for 3 to 6 hours.
+
         * Skipper plus 1 crew, (our crew are heaps of fun and have a laid-back
         yet professional nature) we promise you will love them,
           Check out our-crew page to meet the gang!
@@ -149,11 +151,7 @@ accordionSection:
 
         * Use of large eskies (ice supplied) 
 
-        * 
-
-
-        Instaworthy Memento Photos taken by our crew
-
+        * Instaworthy Memento Photos taken by our crew
 
         * Lots of FUN!!
       title: What's included
