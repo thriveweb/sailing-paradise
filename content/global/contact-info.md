@@ -17,15 +17,11 @@ address: >-
 hours: |-
   ### OFFICE HOURS
 
-  Mon - Fri: 9AM - 4PM
-
-  Sat - Sun: 10AM - 2PM
-
-
+  9AM - 4PM
 
   ### SAILING HOURS
 
-  6AM - 11PM daily on request
+  6AM - 11PM
 map: 'https://ucarecdn.com/5d8cf521-0b29-4b5d-9b4d-16ae8f0a4974/'
 socialMedia:
   facebook: 'https://www.facebook.com/sailinginparadise'
