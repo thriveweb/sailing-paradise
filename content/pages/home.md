@@ -128,9 +128,9 @@ featuredTestimonials:
     It's smiles all round with our top guest satisfaction rating across all
     review sites...
   testimonialsListing:
-    - testimonial: Lydia
-    - testimonial: Tahlia
-    - testimonial: 'Robyn Aydon, Australia'
+    - testimonial: 'Lauren Faye Baxter, Australia'
+    - testimonial: 'Kalina Dominika Michalowska, Australia'
+    - testimonial: 'Mariella Luisa, Australia'
   title: Happy Sailors
 latestNews: >-
   ## Latest News
