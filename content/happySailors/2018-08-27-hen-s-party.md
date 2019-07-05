@@ -3,7 +3,8 @@ template: SingleCaseStudy
 title: 'Tahlia, Aus'
 cruiseType: Birthday Party
 date: 2018-09-12T22:00:00.000Z
-featuredImage: 'https://ucarecdn.com/a6993c65-b26c-40a8-bf85-6d08a0cc982c/'
+featuredImage: >-
+  https://ucarecdn.com/a6993c65-b26c-40a8-bf85-6d08a0cc982c/-/crop/1080x1112/0,86/-/preview/
 videoSection:
   imageOverlay: 'https://ucarecdn.com/fd046926-f6a5-4353-9617-641ac157b744/'
   title: ''
