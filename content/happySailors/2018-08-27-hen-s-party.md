@@ -24,7 +24,7 @@ secondaryBanner:
   buttonTitle: Back
   buttonUrl: case-studies
   featuredImage: 'https://ucarecdn.com/14403775-d743-4516-9e97-d9a0b8109e75/'
-  subtitle: Subtitle
+  subtitle: ''
   title: back to all happy sailors
 ---
 Tahlia organised a beautiful afternoon on the Broadwater with family to celebrate a very special family birthday!   With littlies on board the whole family enjoyed a swim stop at Wavebreak Island with Stand Up Paddleboarding and Sand Castle Building the highlights...   A special mention must go to the beautiful birthday cake hand baked by Tahlia - wow!   Happy birthday Leigh!
