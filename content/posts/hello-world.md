@@ -5,20 +5,17 @@ status: Featured / Published
 date: '2018-03-27'
 categories:
   - category: News
-featuredImage: /images/uploads/DSC_0038.jpg
+featuredImage: 'https://ucarecdn.com/21846993-44c8-4e96-96e2-e0549d8be1d9/'
 excerpt: >-
-  Etiam ac quam eget lectus venenatis ullamcorper sit amet non arcu. Nullam
-  interdum arcu vitae augue pulvinar sodales. Sed non dui diam. Quisque lectus
-  est, lobortis ac efficitur vitae, posuere a mauris. Phasellus ac dui
-  pellentesque, lacinia risus ut, imperdiet eros.
+  Burleigh’s heady mix of cool boutiques, hipster dining, golden beaches, surf
+  breaks and awesome walks have long endeared Burleigh with the local crowd and
+  are frequented by the Gold Coast’s beautiful people.
 meta:
   canonicalLink: ''
   description: ''
   noindex: false
   title: ''
 ---
-
-
 ![Test Image](/images/uploads/vyouw5byhlc.jpeg)
 
 Ask any Gold Coast local about their favourite places on the GC and Burleigh Heads (or simply Burleigh as it’s known to the locals) is sure to factor in pretty high on the list.   And it’s not hard to see why.  Burleigh’s heady mix of cool boutiques, hipster dining, golden beaches, surf breaks and awesome walks have long endeared Burleigh with the local crowd and are frequented by the Gold Coast’s beautiful people.
@@ -39,25 +36,20 @@ Once you have trodden the well-worn path around the headland you will be treated
 
 If you aren’t up for the walk, there are some great spots on Burleigh hill to take a load off, bring along a picnic and enjoy the view.  There is also a great kid’s play ground.
 
-
-
 **Surf and Sand**
 
 Renowned worldwide as a pro-surf spot, Burleigh delivers the goods when it comes to its amazing beach.   If you aren’t quite up for the paddle out and just fancy a quick dip, you are sure to find a calm spot most days at Burleigh.
 
-
+![](https://ucarecdn.com/bfc9a668-3424-45d2-8f3e-e1b343b4df21/-/crop/2663x1347/0,275/-/preview/)
 
 **Shop, Shop, Shop (hint: bring your credit card)**
 
 Once a sleepy seaside suburb, Burleigh has most definitely come of age in recent years.   The plethora of designer fashion and homewares on offer in James Street really speaks for itself in this regard.  It is a great place to head if you are looking for unique finds on the Gold Coast.
 
-
-
 We also love the Village Markets, held bi-monthly at the Burleigh Heads State School for amazing vintage and eclectic designer fashion and lifestyle offerings.  Check their website for forthcoming market dates http://www.thevillagemarkets.co/
 
-
-
-**Relax with a coffee and watch the world go by, or dine in a world class restaurant.**
+**Relax with a coffee and watch the world go by,
+ or dine in a world class restaurant.**
 
 The café and dining scene in Burleigh will not disappoint, whether you are after a funky café, a special restaurant or something in between.   You’ll find absolute ocean-front dining, roof top dining and laneway bars and cafes aplenty.   A great spot for an Acai Bowl breakfast before taking on the Burleigh Headland walk.
 
@@ -65,13 +57,9 @@ Notable restaurants definitely worth a mention include Rick Shores, The Fish Hou
 
 There are even a couple of secret night spots for those in the know... just ask a local.
 
-
-
 **Getting to Burleigh**
 
 Parking is always at a premium in Burleigh and can be hard to find. Make sure you feed the recently introduced parking meters or you'll quickly find yourself with a $78 parking fine. If at all possible, it is so much easier to catch the bus to this spot!
-
-
 
 **Getting to Sailing in Paradise from Burleigh Heads**
 
