@@ -95,10 +95,6 @@ columnBanner:
       Now available with 12 months validity to use at your leisure.
 
 
-      <script type="text/javascript"
-      src="https://sailinginparadise.rezdy.com/pluginJs?script=external_modal"></script>
-
-
       <iframe seamless="" width="300px" height="1000px" frameborder="0"
       class="rezdy"
       src="https://sailinginparadise.rezdy.com/calendarWidget/261907?iframe=true&targetFrame=_new_modal"></iframe>
