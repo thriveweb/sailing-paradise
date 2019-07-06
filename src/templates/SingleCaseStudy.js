@@ -96,7 +96,7 @@ export const SingleCaseStudyTemplate = ({
               {body && <Content src={body} />}
               {excerpt && (
                 <div className='quote'>
-                  <p className='name'>{name}</p>
+                  <p className='name'>{title}</p>
                   <ICONQuotes />
                   <p>{excerpt}</p>
                 </div>
