@@ -4,7 +4,6 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
-import Image from './Image'
 import { ICONMagnify, ICONClose } from './Icons'
 import './GallerySlider.css'
 

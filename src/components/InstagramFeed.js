@@ -1,5 +1,4 @@
 import React, { Component } from 'react'
-import Image from '../components/Image'
 
 import { ICONInstagram, ICONButtonArrows } from './Icons'
 

@@ -1,5 +1,4 @@
 import React, { Component } from 'react'
-import Image from './Image'
 import { ICONPlay, ICONButtonArrows } from './Icons'
 import FeaturedSlider from './FeaturedSlider'
 import SocialLinks from './SocialLinks'

@@ -1,6 +1,5 @@
 import React from 'react'
 
-import Image from './Image'
 import Content from './Content'
 import GallerySlider from './GallerySlider'
 import Video from './Video'

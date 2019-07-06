@@ -9,7 +9,6 @@ import Layout from '../components/Layout'
 import { ICONSail } from '../components/Icons'
 import Content from '../components/Content'
 import Video from '../components/Video'
-import Image from '../components/Image'
 import SocialShare from '../components/SocialShare'
 import './SinglePost.css'
 

@@ -1,5 +1,4 @@
 import React from 'react'
-import Image from './Image'
 import Content from './Content'
 import { Link } from 'gatsby'
 import _get from 'lodash/get'

@@ -2,7 +2,6 @@ import React, { Component } from 'react'
 import _get from 'lodash/get'
 import { Link } from 'gatsby'
 import Button from './Button'
-import Image from './Image'
 import Content from './Content'
 
 import './TestimonialSlider.css'

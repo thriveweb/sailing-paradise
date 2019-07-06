@@ -61,7 +61,7 @@ export default props => {
             <Link className="NavLink" to="/about/">
               About us
             </Link>
-            <Link className="NavLink" to="/case-studies/">
+            <Link className="NavLink" to="/happy-sailors/">
               Happy Sailors
             </Link>
             <Link className="NavLink" to="/blog/">

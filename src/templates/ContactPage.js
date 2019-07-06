@@ -7,7 +7,6 @@ import { graphql } from 'gatsby'
 
 import PageHeader from '../components/PageHeader'
 import IntroText from '../components/IntroText'
-import Image from '../components/Image'
 import Content from '../components/Content'
 import SecondaryBanner from '../components/SecondaryBanner'
 import './ContactPage.css'

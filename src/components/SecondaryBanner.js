@@ -1,5 +1,4 @@
 import React from 'react'
-import Image from './Image'
 import Button from './Button'
 
 import './SecondaryBanner.css'

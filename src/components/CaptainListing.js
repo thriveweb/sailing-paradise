@@ -1,6 +1,5 @@
 import React from 'react'
 import IntroText from './IntroText'
-import Image from './Image'
 import Content from './Content'
 import SocialLinks from './SocialLinks'
 

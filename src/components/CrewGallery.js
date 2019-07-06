@@ -5,7 +5,6 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
 import IntroText from './IntroText'
-import Image from './Image'
 import Content from './Content'
 
 import { ICONClose } from './Icons'
@@ -22,7 +21,7 @@ class CrewGallery extends Component {
     this.setState({
       popupActive: index
     })
-    
+
     document.body.style.overflow = index || index === 0 ? 'hidden' : 'auto'
     document.documentElement.style.overflow = index || index === 0 ? 'hidden' : 'auto'
   }
