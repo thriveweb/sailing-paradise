@@ -2,6 +2,7 @@ import React from 'react'
 import Image from './Image'
 import Content from './Content'
 import { Link } from 'gatsby'
+import _get from 'lodash/get'
 
 import './FeaturedTestimonial.css'
 
@@ -12,7 +13,9 @@ export default ({ description, title, testimonial, caseStudies }) => {
     caseStudies = caseStudies ? caseStudies.edges.map(edge => ({ ...edge.node })) : []
     testimonial = caseStudies.filter(caseStudy => caseStudy.frontmatter.title === testimonial)
 
-    const { fields, frontmatter } = testimonial[0]
+    const fields = _get(testimonial[0], 'fields') || []
+    const frontmatter = _get(testimonial[0], 'frontmatter') || []
+
     const { excerpt, featuredImage } = frontmatter
     const { slug } = fields
 

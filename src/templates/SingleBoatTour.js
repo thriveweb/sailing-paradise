@@ -71,7 +71,7 @@ export const SingleBoatTourTemplate = ({
           bookingIframe={bookingIframe}
         />
       )}
-      <FeaturedTestimonial {...featuredTestimonials} caseStudies={caseStudies} />
+      <FeaturedTestimonial {...featuredTestimonials} caseStudies={caseStudies} />}
     </main>
   )
 }
