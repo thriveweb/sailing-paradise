@@ -51,9 +51,9 @@ CMS.registerPreviewTemplate('case-studies-page', ({ entry }) => (
 CMS.registerPreviewTemplate('ourBoats', ({ entry }) => (
   <BoatsPageTemplate {...entry.toJS().data} />
 ))
-// CMS.registerPreviewTemplate('caseStudy', ({ entry }) => (
-//   <SingleCaseStudyTemplate {...entry.toJS().data} />
-// ))
+CMS.registerPreviewTemplate('caseStudy', ({ entry }) => (
+  <SingleCaseStudyTemplate {...entry.toJS().data} />
+))
 CMS.registerPreviewTemplate('boatTours', ({ entry }) => (
   <SingleBoatTourTemplate {...entry.toJS().data} />
 ))

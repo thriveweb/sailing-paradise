@@ -47,7 +47,7 @@ export const SingleCaseStudyTemplate = ({
           )
         })}
 
-      <div className="container">
+      {/*<div className="container">
         <div className="SingleCaseStudy--Content">
           {name && <h2>{name}</h2>}
           <div className="SinglePost--Meta">
@@ -110,7 +110,7 @@ export const SingleCaseStudyTemplate = ({
         </div>
       </div>
       {gallery && <GallerySlider gallery={gallery} />}
-      {secondaryBanner && <SecondaryBanner {...secondaryBanner} />}
+      {secondaryBanner && <SecondaryBanner {...secondaryBanner} />*/}
     </main>
   )
 }
