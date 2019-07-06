@@ -1,8 +1,8 @@
-// import React, { Fragment } from 'react'
+import React, { Fragment } from 'react'
 // import Helmet from 'react-helmet'
 // import _format from 'date-fns/format'
 // import { graphql } from 'gatsby'
-// import Layout from '../components/Layout'
+import Layout from '../components/Layout'
 //
 // import { ICONQuotes } from '../components/Icons'
 // import PageHeader from '../components/PageHeader'
@@ -133,7 +133,15 @@
 //   )
 // }
 //
-// export default SingleCaseStudy
+
+const SingleCaseStudy = () => {
+  return (
+    <Layout>
+    <p>test</p>
+    </Layout>
+  )
+}
+export default SingleCaseStudy
 //
 // export const pageQuery = graphql`
 //   ## Query for SingleCaseStudy data
