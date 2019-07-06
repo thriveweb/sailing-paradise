@@ -68,26 +68,30 @@ export const SingleCaseStudyTemplate = ({
           <div className="SingleCaseStudy--Body">
             <div className="columnLeft">
               {featuredImage &&
-                <div
-                  style={{
-                    backgroundImage: `url(${`${featuredImage}-/resize/100x/`})`,
-                    backgroundSize: 'cover'
-                  }}
-                  data-src={`${featuredImage}-/resize/500/`}
-                  className='BackgroundImage absolute lazy'
-                >
+                <div className='img-container'>
+                  <div
+                    style={{
+                      backgroundImage: `url(${`${featuredImage}-/resize/100x/`})`,
+                      backgroundSize: 'cover'
+                    }}
+                    data-src={`${featuredImage}-/resize/500/`}
+                    className='BackgroundImage absolute lazy'
+                  >
+                  </div>
                 </div>
               }
               {secondaryImage
-                ? <div
-        						style={{
-        							backgroundImage: `url(${`${secondaryImage}-/resize/100x/`})`,
-        							backgroundSize: 'cover'
-        						}}
-        						data-src={`${secondaryImage}-/resize/1000/`}
-        						className='BackgroundImage absolute lazy'
-        					>
-        					</div>
+                ? <div className='img-container'>
+                    <div
+          						style={{
+          							backgroundImage: `url(${`${secondaryImage}-/resize/100x/`})`,
+          							backgroundSize: 'cover'
+          						}}
+          						data-src={`${secondaryImage}-/resize/1000/`}
+          						className='BackgroundImage absolute lazy'
+          					>
+          					</div>
+                  </div>
                 : <Video {...videoSection} />
               }
             </div>

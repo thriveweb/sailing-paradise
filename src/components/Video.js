@@ -29,7 +29,8 @@ class Video extends Component {
 
 		const url = video.replace(/^.+v=/,'').replace(/&.*/,'')
 
-		if(homeVideo) return <div className={`video-section homeVideo`}>
+		if(homeVideo)
+			return <div className={`video-section homeVideo`}>
 				{!videoPlaying &&
 					<div className='overlay-content'>
 						<div className='container'>
