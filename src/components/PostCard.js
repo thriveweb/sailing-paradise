@@ -45,14 +45,23 @@ const PostCard = ({
       )}
       <div className="PostCard--Content">
         <div className="SinglePost--Meta">
-          {date &&
-            <time
+          {contentType === 'happySailors' && date
+          ? <time
               className="SinglePost--Meta--Date"
               itemProp="dateCreated pubdate datePublished"
               date={date}
             >
-              {_format(date, 'D.MM.YYYY')}
+              {_format(date, 'MMM YYYY')}
             </time>
+          : contentType !== 'happySailors' && date
+            ? <time
+                className="SinglePost--Meta--Date"
+                itemProp="dateCreated pubdate datePublished"
+                date={date}
+              >
+                {_format(date, 'D.MM.YYYY')}
+              </time>
+            : ''
           }
           {!!categories.length && (
             <Fragment>
