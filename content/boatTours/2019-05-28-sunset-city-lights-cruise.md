@@ -91,13 +91,7 @@ accordionSection:
 columnBanner:
   - buttonTitle: BUY NOW
     buttonUrl: gift cards
-    content: >-
-      Now available with 12 months validity to use at your leisure.
-
-
-      <iframe seamless="" width="300px" height="1000px" frameborder="0"
-      class="rezdy"
-      src="https://sailinginparadise.rezdy.com/calendarWidget/261907?iframe=true&targetFrame=_new_modal"></iframe>
+    content: Now available with 12 months validity to use at your leisure.
     title: 'SUNSET CRUISE GIFT VOUCHERS '
     featuredImage: 'https://ucarecdn.com/03aaaef0-bc70-4e9d-8533-3309e9a7d59f/'
   - featuredImage: 'https://ucarecdn.com/c6767657-504f-42da-9e05-e9388170030d/'
