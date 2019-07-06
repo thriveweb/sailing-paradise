@@ -22,7 +22,7 @@ gallery:
   - image: 'https://ucarecdn.com/1d7120d3-c25a-42ca-9f30-33ed223334a3/'
 secondaryBanner:
   buttonTitle: Back
-  buttonUrl: case-studies
+  buttonUrl: happy-sailors
   featuredImage: 'https://ucarecdn.com/14403775-d743-4516-9e97-d9a0b8109e75/'
   subtitle: ''
   title: back to all happy sailors
