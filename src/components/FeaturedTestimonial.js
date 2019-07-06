@@ -15,8 +15,9 @@ export default ({ description, title, testimonial, caseStudies }) => {
     const fields = _get(testimonial[0], 'fields') || []
     const frontmatter = _get(testimonial[0], 'frontmatter') || []
 
-    const { excerpt, featuredImage } = frontmatter
-    const { slug } = fields
+    const slug = _get(fields, 'slug') || ''
+    const excerpt = _get(frontmatter, 'excerpt') || ''
+    const featuredImage = _get(frontmatter, 'featuredImage') || ''
 
     return <section className='featuredTestimonial'>
         <div className='container large'>

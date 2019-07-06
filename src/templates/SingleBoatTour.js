@@ -63,15 +63,15 @@ export const SingleBoatTourTemplate = ({
         <IntroText content={contentColumn} title={contentColumnTitle} />
       )}
       <Accordion accordionSection={accordionSection} />
-      {columnBanner && (
+      {columnBanner &&
         <ColumnBanner
           columnBanner={columnBanner}
           boatTour
           charterUrl={charterUrl}
           bookingIframe={bookingIframe}
         />
-      )}
-      <FeaturedTestimonial {...featuredTestimonials} caseStudies={caseStudies} />}
+      }
+      <FeaturedTestimonial {...featuredTestimonials} caseStudies={caseStudies} />
     </main>
   )
 }
