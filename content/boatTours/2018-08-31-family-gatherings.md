@@ -193,5 +193,10 @@ columnBanner:
     title: Give your family the experience of a lifetime!
     featuredImage: 'https://ucarecdn.com/c3349743-5713-4c0b-86f5-1911221ab1e9/'
   - featuredImage: 'https://ucarecdn.com/17f9895a-62ef-4d6e-8cd5-ac79c1db17fb/'
+featuredTestimonials:
+  description: >-
+    We took Tim and his family out with us for a private charter, read about
+    their experience with us here...
+  testimonial: 'Tim, Aus'
 ---
 
