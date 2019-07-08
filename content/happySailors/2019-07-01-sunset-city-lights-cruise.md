@@ -2,7 +2,7 @@
 template: SingleCaseStudy
 title: 'Sandy, UK'
 cruiseType: Sunset & City Lights Cruise
-date: 2019-07-01T03:15:59.270Z
+date: 2018-11-04T03:15:59.270Z
 featuredImage: >-
   https://ucarecdn.com/75cdea3e-3ab0-4b17-bd9d-4a24965cab7d/-/crop/1246x796/165,71/-/preview/
 videoSection:
