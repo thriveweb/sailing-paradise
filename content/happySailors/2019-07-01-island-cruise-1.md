@@ -1,6 +1,6 @@
 ---
 template: SingleCaseStudy
-title: 'Mandy, Brisbane'
+title: 'Mandy, Aus'
 cruiseType: Island Cruise
 date: 2018-10-04T04:50:01.480Z
 featuredImage: 'https://ucarecdn.com/20b1b791-84dc-4744-8df2-99a7e2dea762/'
@@ -8,11 +8,11 @@ videoSection:
   title: ''
 secondaryImage: 'https://ucarecdn.com/9b808110-dfd2-4176-be58-85c441467bc4/'
 excerpt: >-
-  Mandy, Brisbane - “We did the cruise on 4th of Oct with my family visiting
-  from China. It’s a beautiful day and perfect weather. All my family enjoy the
-  fantastic sailing excursion, especially kids! The service are sooo nice!!! And
-  the photos took by Steve are really awesome. We didn’t need to hold the phone
-  when we play water sport. Highly recommend this cruise.
+  “We did the cruise on 4th of Oct with my family visiting from China. It’s a
+  beautiful day and perfect weather. All my family enjoy the fantastic sailing
+  excursion, especially kids! The service are sooo nice!!! And the photos took
+  by Steve are really awesome. We didn’t need to hold the phone when we play
+  water sport. Highly recommend this cruise.
 
 
   特别棒的一次体验。十一黄金周时和全家一起出海。天气好，船也很棒。小朋友们特别开心，整个船上跑来跑去，还体验了扬帆。老板提供的火烈鸟游泳圈特别适合照相，还有paddle很有挑战性。服务贴心，人超级好。特别还提供免费的照相服务，随时抓拍，不怕没有好照片。强烈推荐！”
