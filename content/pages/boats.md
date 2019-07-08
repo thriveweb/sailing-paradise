@@ -100,7 +100,8 @@ boats:
 secondaryBanner:
   buttonTitle: Meet our Crew...
   buttonUrl: about
-  featuredImage: 'https://ucarecdn.com/489e881e-3ff8-4293-87f4-cfa6d53d7545/'
+  featuredImage: >-
+    https://ucarecdn.com/427a43aa-1572-4c00-8f67-f2be6fced132/-/crop/5211x2779/223,254/-/preview/
   subtitle: ''
   title: Climb Aboard and get to know us
 ---
