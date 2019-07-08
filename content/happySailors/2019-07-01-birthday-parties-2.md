@@ -7,7 +7,7 @@ featuredImage: >-
   https://ucarecdn.com/d126f1c8-2a34-4d57-a6d6-0e4b417e8201/-/crop/1080x1067/0,0/-/preview/
 videoSection:
   title: ''
-secondaryImage: 'https://ucarecdn.com/b53f352e-3df3-44db-939e-c26c4944dd76/'
+secondaryImage: 'https://ucarecdn.com/b53f352e-3df3-44db-939e-c26c4944dd76/-/preview/'
 excerpt: >-
   “Highly recommend this company. I had impeccable customer service from
   beginning till the end. Jess rescheduled my cruise after we experienced
