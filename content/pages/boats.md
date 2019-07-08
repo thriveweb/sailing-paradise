@@ -51,16 +51,22 @@ boats:
       imageOverlay: /images/uploads/home-banner.jpg
       video: ''
   - boatFeatures:
-      - content: |-
-          10m long
-
-          5.8m wide
-
-          20 passengers + 2 crew
-      - content: "\LThe modern, luxury version of the popular Seawind 1000 (2011 model)\n\nComfortable dining saloon\n\nSide access to foredeck"
-      - content: "\LAmple undercover area\n\nTrampoline style foredeck\n\nModern bathroom"
-      - content: "\LHot and Cold Deck Shower\n\nRear over-water bench seating\n\nMain sail and jib"
-      - content: "\LFront and rear boarding ladders with extended transom for easy beach and water access\n\nBBQ\n\nEskies\n\nSound System\n\nTV available"
+      - content: '10m long, 5.8m wide'
+      - content: 20 passengers + 2 crew
+      - content: "\LThe modern, luxury version of the popular Seawind 1000 (2011 model)"
+      - content: Comfortable dining saloon
+      - content: Side access to foredeck
+      - content: "\LAmple undercover area"
+      - content: Trampoline style foredeck
+      - content: Modern bathroom
+      - content: "\LHot and Cold Deck Shower"
+      - content: Rear over-water bench seating
+      - content: Main sail and jib
+      - content: "\LFront and rear boarding ladders with extended transom for easy beach and water access"
+      - content: BBQ
+      - content: Eskies
+      - content: Sound System
+      - content: TV available
     description: >-
       The latest addition to our fleet is a Seawind 1000XL. These catamarans are
       extremely popular in bareboat charter fleets as they have a great layout
@@ -89,8 +95,7 @@ boats:
     featuredImage: 'https://ucarecdn.com/af3f2648-a2a8-42e2-930e-06451f1b0e3b/'
     videoSection:
       imageOverlay: 'https://ucarecdn.com/fc05fd1e-bb43-43e1-b90d-9be6dc1c57e7/'
-      video: >-
-        https://www.youtube.com/watch?v=vr0qNXmkUJ8&list=PLNhzc-Os3JK8ExayVzzoHVvP2c0-4_oqt
+      video: ''
 secondaryBanner:
   buttonTitle: Meet our Crew...
   buttonUrl: about
