@@ -2,13 +2,13 @@
 template: SingleCaseStudy
 title: 'RACEVIEW STATE SCHOOL, Aus '
 cruiseType: Christmas Parties
-date: 2019-07-03T01:40:15.229Z
+date: 2018-12-20T01:40:15.229Z
 featuredImage: >-
-  https://ucarecdn.com/bba874c6-290c-48ed-98d0-47d428e0ae49/-/crop/1338x927/66,46/-/preview/
+  https://ucarecdn.com/bba874c6-290c-48ed-98d0-47d428e0ae49/-/crop/1208x748/116,225/-/preview/
 videoSection:
   title: ''
 secondaryImage: >-
-  https://ucarecdn.com/268155e6-e257-4463-8d2f-2bcbabbe5a83/-/crop/1123x1080/109,0/-/preview/
+  https://ucarecdn.com/268155e6-e257-4463-8d2f-2bcbabbe5a83/-/crop/1326x886/0,142/-/preview/
 excerpt: >-
   Jade – “Organising my event with Sailing in Paradise was made super easy
   thanks to their helpful staff. They promptly replied to all of my emails and
