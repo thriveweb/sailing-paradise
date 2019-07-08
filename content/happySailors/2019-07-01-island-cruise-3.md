@@ -2,7 +2,7 @@
 template: SingleCaseStudy
 title: 'Mr Apple, New South Wales'
 cruiseType: Island Cruise
-date: 2019-07-01T05:09:30.701Z
+date: 2018-11-08T05:09:30.701Z
 featuredImage: 'https://ucarecdn.com/b52aac9f-5410-4769-8149-5761eb27696b/'
 videoSection:
   title: ''
