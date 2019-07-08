@@ -1,6 +1,6 @@
 ---
 template: SingleCaseStudy
-title: 'Jade Rachelle; RACEVIEW, Australia '
+title: 'RACEVIEW STATE SCHOOL, Aus '
 cruiseType: Christmas Parties
 date: 2019-07-03T01:40:15.229Z
 featuredImage: >-
@@ -10,12 +10,12 @@ videoSection:
 secondaryImage: >-
   https://ucarecdn.com/268155e6-e257-4463-8d2f-2bcbabbe5a83/-/crop/1123x1080/109,0/-/preview/
 excerpt: >-
-  Jade, RACEVIEW – “Organising my event with Sailing in Paradise was made super
-  easy thanks to their helpful staff. They promptly replied to all of my emails
-  and answered every question I threw at them. The crew onboard were just as
-  helpful and soooo friendly...they felt like apart of our group after just
-  3hrs. I’m sure I will be joining them again sometime, for another fun and
-  relaxing time on the water.” Facebook
+  Jade – “Organising my event with Sailing in Paradise was made super easy
+  thanks to their helpful staff. They promptly replied to all of my emails and
+  answered every question I threw at them. The crew onboard were just as helpful
+  and soooo friendly...they felt like apart of our group after just 3hrs. I’m
+  sure I will be joining them again sometime, for another fun and relaxing time
+  on the water.” Facebook
 gallery:
   - image: >-
       https://ucarecdn.com/dbf4a107-a551-4a20-8359-f79688d53e08/-/preview/-/enhance/18/
@@ -33,4 +33,4 @@ gallery:
   - image: >-
       https://ucarecdn.com/37ecbd0f-217c-4288-836a-d025547ae466/-/preview/-/enhance/21/
 ---
-Jade from Raceview organized a morning private charter with us for her Christmas party event. Morning charters are an amazing time to get out on the water, especially if you want some beach time. We love being apart of our guests special occasions and love making them feel welcome!
+Jade from Raceview State School organized a morning private charter with us for her Christmas party event. Morning charters are an amazing time to get out on the water, especially if you want some beach time. We love being apart of our guests special occasions and love making them feel welcome!
