@@ -1,21 +1,21 @@
 ---
 template: SingleCaseStudy
-title: ' Sam Creamer, Australia'
+title: ' Sam, Aus'
 cruiseType: Romantic Sails
-date: 2019-07-01T09:13:06.008Z
+date: 2018-09-23T09:13:06.008Z
 featuredImage: >-
   https://ucarecdn.com/27bce0bb-a3ce-471d-af32-c9bfa026dabe/-/crop/1080x1010/0,0/-/preview/
 videoSection:
   title: ''
-secondaryImage: 'https://ucarecdn.com/d2f8baf2-e5ca-4d7c-9596-b405deb9887e/'
+secondaryImage: 'https://ucarecdn.com/60a11795-f261-4e6f-9fc1-34374cde17a0/'
 excerpt: >-
-  Sam, Australia - “The sunset cruise was absolutely perfect to surprise my wife
-  with a different kind of date while childless for the weekend. The SIP crew
-  were very friendly and relaxed, making for an enjoyable experience. The
-  knowledge of local scenery and precise timing of the cruise allowed for many
-  brilliant photos with hardly any filters required. The dolphins coming out to
-  play was the cherry on the cake! Will definitely be back when it’s time to
-  forget life and chill out again!” Facebook review
+  “The sunset cruise was absolutely perfect to surprise my wife with a different
+  kind of date while childless for the weekend. The SIP crew were very friendly
+  and relaxed, making for an enjoyable experience. The knowledge of local
+  scenery and precise timing of the cruise allowed for many brilliant photos
+  with hardly any filters required. The dolphins coming out to play was the
+  cherry on the cake! Will definitely be back when it’s time to forget life and
+  chill out again!” Facebook review
 gallery:
   - image: 'https://ucarecdn.com/fe0485a9-749d-4c8f-b1f4-42ca1d404c2c/'
   - image: 'https://ucarecdn.com/f0ac5661-ce35-4c1c-8a84-e5836e318152/'
