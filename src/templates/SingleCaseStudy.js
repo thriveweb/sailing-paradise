@@ -46,7 +46,7 @@ export const SingleCaseStudyTemplate = ({
             />
           )
         })}
-
+ 
       <div className="container">
         <div className="SingleCaseStudy--Content">
           {name && <h2>{name}</h2>}
