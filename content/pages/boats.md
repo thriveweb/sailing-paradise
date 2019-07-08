@@ -2,7 +2,8 @@
 template: BoatsPage
 slug: boats
 title: Our Boats
-featuredImage: 'https://ucarecdn.com/f38b6d32-0efd-404a-bd61-e9701cae77b3/'
+featuredImage: >-
+  https://ucarecdn.com/dc12310c-23c9-4684-b664-d5b9f8710624/-/crop/5757x2234/0,1198/-/preview/
 intro: '# 2 beautiful sailing catamarans available for charter'
 boats:
   - boatFeatures:
