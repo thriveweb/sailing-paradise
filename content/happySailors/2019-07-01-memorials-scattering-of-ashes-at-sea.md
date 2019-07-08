@@ -1,8 +1,8 @@
 ---
 template: SingleCaseStudy
-title: 'Elyce Gale, Penrith, Australia '
+title: 'Elyce, Penrith'
 cruiseType: Memorials/ Scattering of Ashes at Sea
-date: 2019-07-01T08:46:27.096Z
+date: 2018-10-31T08:46:27.096Z
 featuredImage: 'https://ucarecdn.com/71a94c16-679f-4534-a6a5-b6803f0e165b/'
 videoSection:
   title: ''
