@@ -1,8 +1,8 @@
 ---
 template: SingleCaseStudy
-title: 'Mariella Luisa, Australia'
+title: 'Mariella, Aus'
 cruiseType: Island Cruise
-date: 2019-07-01T04:41:08.733Z
+date: 2018-11-05T04:41:08.733Z
 featuredImage: 'https://ucarecdn.com/d8f6166b-2a66-4813-86d1-5ebdf6fc1830/'
 videoSection:
   title: ''
