@@ -1,8 +1,8 @@
 ---
 template: SingleCaseStudy
-title: 'Rich Zednem, Australia'
+title: 'Rich, Aus'
 cruiseType: Sunset & City Lights Cruise
-date: 2019-07-01T04:19:32.987Z
+date: 2018-06-26T04:19:32.987Z
 featuredImage: 'https://ucarecdn.com/b34ed9ce-c478-4c4b-9dea-db3170fea712/'
 videoSection:
   title: ''
