@@ -26,5 +26,7 @@ gallery:
   - image: 'https://ucarecdn.com/a198176d-3f10-4752-a548-a35d253390d7/'
   - image: 'https://ucarecdn.com/9f064240-af78-42f3-a4e5-6fe68d78cebf/'
   - image: 'https://ucarecdn.com/8f7034e3-66e5-4e83-8d81-a06add42889d/'
+  - image: >-
+      https://ucarecdn.com/c5381856-2766-4772-bb23-730140b9b865/-/crop/1080x860/0,197/-/preview/
 ---
 The fit and active team from Lululemon organized their corporate team building day out with us. There was delicious catering, a private chef serving gourmet food, team building exercises, impressive flips off the boat, speeches and laughter all around! Our crew took some photos of the day to help ensure an unforgettable experience for their team.
