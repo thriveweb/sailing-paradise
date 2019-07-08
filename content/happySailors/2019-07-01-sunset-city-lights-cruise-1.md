@@ -1,8 +1,8 @@
 ---
 template: SingleCaseStudy
-title: 'Julila Caskey, Australia'
+title: 'Julila, Aus'
 cruiseType: Sunset & City Lights Cruise
-date: 2019-07-01T04:12:14.168Z
+date: 2018-09-23T04:12:14.168Z
 featuredImage: >-
   https://ucarecdn.com/90057a2f-61fe-43e3-b5ac-435118f250bd/-/crop/1215x853/64,0/-/preview/
 videoSection:
