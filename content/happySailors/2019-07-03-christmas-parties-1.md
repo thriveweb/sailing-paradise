@@ -1,8 +1,8 @@
 ---
 template: SingleCaseStudy
-title: 'Jasmine Scarr; BELLA BRONZE MAKEUP, Australia'
+title: 'BELLA BRONZE TAN, Aus'
 cruiseType: Christmas Parties
-date: 2019-07-03T01:23:50.165Z
+date: 2018-11-28T01:23:50.165Z
 featuredImage: >-
   https://ucarecdn.com/32cc2f84-e32b-40e8-91ce-3327f3b01533/-/crop/1080x931/0,106/-/preview/-/enhance/24/
 videoSection:
@@ -10,11 +10,10 @@ videoSection:
 secondaryImage: >-
   https://ucarecdn.com/df1ec833-2ff2-41cd-a09f-1d083ddb3406/-/crop/1237x1080/183,0/-/preview/
 excerpt: >-
-  Jasmine, Bella Bronze Makeup – “Highly recommend this company to everyone. We
-  had our Xmas party on the 20-person catamaran, and it was even better than
-  expected! So, accommodating and Chanelle (staff member) took professional
-  photos of the group all day. Will definitely be booking again - thank you!”
-  Facebook review
+  Jasmine – “Highly recommend this company to everyone. We had our Xmas party on
+  the 20-person catamaran, and it was even better than expected! So,
+  accommodating and Chanelle (staff member) took professional photos of the
+  group all day. Will definitely be booking again - thank you!” Facebook review
 gallery:
   - image: >-
       https://ucarecdn.com/99d8ed89-e777-4546-b0aa-bf94dcef57d7/-/preview/-/enhance/50/
