@@ -8,7 +8,7 @@ featuredImage: >-
 videoSection:
   title: ''
 secondaryImage: >-
-  https://ucarecdn.com/b25e3d75-dbd7-47df-8591-313d2f6af6aa/-/crop/1080x1519/0,0/-/preview/
+  https://ucarecdn.com/b25e3d75-dbd7-47df-8591-313d2f6af6aa/-/crop/1080x767/0,183/-/preview/
 excerpt: >-
   Tristan - “Sailing in Paradise allowed Lululemon to throw an incredible event
   that was full of unforgettable experiences and good times!” Facebook and
