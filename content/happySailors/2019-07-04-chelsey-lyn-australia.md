@@ -1,20 +1,19 @@
 ---
 template: SingleCaseStudy
-title: 'Chelsey Lyn, Australia'
+title: 'Chelsey, Aus'
 cruiseType: Private Charter
-date: ''
+date: 2019-05-24T14:00:00.000Z
 featuredImage: >-
-  https://ucarecdn.com/4355b769-3eea-4974-9744-be4c71bc9b22/-/crop/1349x936/0,0/-/preview/
+  https://ucarecdn.com/efc8c23d-8516-4e07-a118-030a58beb8e5/-/preview/-/enhance/22/
 videoSection:
   title: ''
 secondaryImage: >-
-  https://ucarecdn.com/88cd27d7-0472-44a7-bedc-020d5687562b/-/crop/894x1067/296,0/-/preview/
+  https://ucarecdn.com/ad9edb55-ad34-4d1c-a28a-82223edf168a/-/preview/-/enhance/50/
 excerpt: >-
-  Chelsey – “I have sailed with Sailing in Paradise at both sunrise and sunset.
-  Both times offered two very different experiences. The morning cruise was
-  swimming and sun baking while the evening cruise was champagne and dancing. I
-  highly recommend Sailing in Paradise for both experience and service.”
-  Facebook 
+  “I have sailed with Sailing in Paradise at both sunrise and sunset. Both times
+  offered two very different experiences. The morning cruise was swimming and
+  sun baking while the evening cruise was champagne and dancing. I highly
+  recommend Sailing in Paradise for both experience and service.” Facebook 
 gallery:
   - image: >-
       https://ucarecdn.com/0bfc4b5f-4bac-4d19-b846-3d2c1eed3c54/-/preview/-/enhance/50/
