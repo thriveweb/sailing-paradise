@@ -6,12 +6,12 @@ date: 2018-06-26T04:19:32.987Z
 featuredImage: 'https://ucarecdn.com/b34ed9ce-c478-4c4b-9dea-db3170fea712/'
 videoSection:
   title: ''
-secondaryImage: 'https://ucarecdn.com/1e15a446-13e0-4eeb-b7c2-6643228d5ee7/'
+secondaryImage: 'https://ucarecdn.com/79762945-9d5b-4cc1-b6eb-e3f0f389a5e9/'
 excerpt: >-
-  Rich – “Accommodating and very friendly the entire time. Boat is very stable
-  and even though I can experience motion sickness I didn’t on this boat. Nice
-  photos too. The winter sunset is perfect and they offered blankets.  Dropbox
-  3rd June 2018 (only sunset cruise)” can find this guy anywhere
+  “Accommodating and very friendly the entire time. Boat is very stable and even
+  though I can experience motion sickness I didn’t on this boat. Nice photos
+  too. The winter sunset is perfect and they offered blankets.  Dropbox 3rd June
+  2018 (only sunset cruise)” can find this guy anywhere
 gallery:
   - image: 'https://ucarecdn.com/3ab335dd-6b7d-4492-aba8-cde98859672b/'
   - image: 'https://ucarecdn.com/b536740a-e738-4085-937a-efc4766f12c4/'
