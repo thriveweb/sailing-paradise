@@ -2,7 +2,7 @@
 template: SingleCaseStudy
 title: 'Kalina, Aus'
 cruiseType: Birthday Parties
-date: 2019-07-01T11:16:05.312Z
+date: 2018-09-02T11:16:05.312Z
 featuredImage: >-
   https://ucarecdn.com/31a7aa07-a5d6-4770-b6ed-76722e00142a/-/crop/1080x1057/0,0/-/preview/
 videoSection:
@@ -10,16 +10,16 @@ videoSection:
 secondaryImage: >-
   https://ucarecdn.com/895beb20-2dd8-4c6a-bfee-86077e041072/-/crop/1081x1080/183,0/-/preview/
 excerpt: >-
-  Kalina, Chermside – “I engaged services of Sailing in Paradise for my
-  boyfriend's surprise 40th Birthday Party. The Sailing in Paradise team and
-  crew were extremely helpful and accommodating for all our needs. They assisted
-  us with organising the catering and provided eskies with ice for our own
-  alcohol. Sailing was beautiful and boat was very luxurious and clean. We were
-  taken to an island where the crew set up a beach volleyball and cricket for
-  us, so we enjoyed some activities as well as sailing. Everyone had a fantastic
-  time. Plus, we were given complimentary photos to memorise this wonderful day,
-  as we all had too much fun to remember to take photos ourselves. I highly
-  recommend Sailing in Paradise.” Facebook review
+  “I engaged services of Sailing in Paradise for my boyfriend's surprise 40th
+  Birthday Party. The Sailing in Paradise team and crew were extremely helpful
+  and accommodating for all our needs. They assisted us with organising the
+  catering and provided eskies with ice for our own alcohol. Sailing was
+  beautiful and boat was very luxurious and clean. We were taken to an island
+  where the crew set up a beach volleyball and cricket for us, so we enjoyed
+  some activities as well as sailing. Everyone had a fantastic time. Plus, we
+  were given complimentary photos to memorise this wonderful day, as we all had
+  too much fun to remember to take photos ourselves. I highly recommend Sailing
+  in Paradise.” Facebook review
 gallery:
   - image: 'https://ucarecdn.com/fba99f43-cf9a-4da2-aba6-bd085ae699c5/'
   - image: 'https://ucarecdn.com/0592818d-d73f-41da-9e35-6abf78377905/'
