@@ -1,6 +1,6 @@
 ---
 template: SingleCaseStudy
-title: 'Kalina Dominika Michalowska, Australia'
+title: 'Kalina, Aus'
 cruiseType: Birthday Parties
 date: 2019-07-01T11:16:05.312Z
 featuredImage: >-
