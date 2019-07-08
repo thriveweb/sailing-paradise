@@ -8,9 +8,7 @@ featuredImage: >-
 videoSection:
   title: ''
 secondaryImage: 'https://ucarecdn.com/acef4539-3dfe-4d81-8d85-14c0cc0062eb/'
-excerpt: >-
-  Julita – “Lovely view of the Broadwater, $5 champers! Dolphins and the magic
-  sunset!”
+excerpt: '“Lovely view of the Broadwater, $5 champers! Dolphins and the magic sunset!”'
 gallery:
   - image: 'https://ucarecdn.com/2efe3078-f70f-432c-acbe-1c449ed70a0f/'
   - image: 'https://ucarecdn.com/0446b273-0523-448b-9eae-310c2b154846/'
