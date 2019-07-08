@@ -104,7 +104,8 @@ aboutSection:
 
 
     On the day you will be greeted with smiles.. and good times will follow.
-  featuredImage: 'https://ucarecdn.com/0736a162-0c60-4441-ba02-2566ebca95a7/'
+  featuredImage: >-
+    https://ucarecdn.com/ef63baa0-cab6-40a7-ae8d-1ac5f8348de4/-/crop/5434x3069/0,105/-/preview/
   subtitle: Our Boats & Crew
   title: Meet Us
 highlightsIntro: '## PRIVATE CHARTER HIGHLIGHTS'
