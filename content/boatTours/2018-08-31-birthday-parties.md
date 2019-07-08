@@ -242,9 +242,9 @@ columnBanner:
   - featuredImage: 'https://ucarecdn.com/f3bf4df1-6f8a-405b-b07f-96343f6aa19c/'
 featuredTestimonials:
   description: >-
-    See our five start Trip Advisor reviews for more testimonial feedback from
-    our satisfied clients.
-  testimonial: Tahlia
+    Lucy booked a charter with us for her husband's 30th birthday, read what she
+    had to say about the experience...
+  testimonial: 'Lucy, Aus'
   title: Happy Sailors
 ---
 
