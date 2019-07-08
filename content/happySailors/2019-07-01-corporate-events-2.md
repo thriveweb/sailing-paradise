@@ -1,8 +1,8 @@
 ---
 template: SingleCaseStudy
-title: 'Tristan Forbes; LULULEMON, Australia'
+title: 'LULULEMON, Aus'
 cruiseType: Corporate Events
-date: 2019-07-01T12:13:11.332Z
+date: 2018-12-09T12:13:11.332Z
 featuredImage: >-
   https://ucarecdn.com/2c40991c-5bed-4f4c-8f3b-0c88e065f923/-/crop/1080x1207/0,0/-/preview/
 videoSection:
@@ -10,9 +10,9 @@ videoSection:
 secondaryImage: >-
   https://ucarecdn.com/b25e3d75-dbd7-47df-8591-313d2f6af6aa/-/crop/1080x1519/0,0/-/preview/
 excerpt: >-
-  Tristan, Lululemon - “Sailing in Paradise allowed Lululemon to throw an
-  incredible event that was full of unforgettable experiences and good times!”
-  Facebook and TripAdvisor
+  Tristan - “Sailing in Paradise allowed Lululemon to throw an incredible event
+  that was full of unforgettable experiences and good times!” Facebook and
+  TripAdvisor
 gallery:
   - image: >-
       https://ucarecdn.com/f70fd94a-874a-4c94-8361-17e3df06923b/-/crop/1080x1048/0,484/-/preview/
