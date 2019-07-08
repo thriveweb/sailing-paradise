@@ -1,17 +1,16 @@
 ---
 template: SingleCaseStudy
-title: 'Tash Morson; KOJO, Sydney, Australia '
+title: 'KOJO, Aus '
 cruiseType: Corporate Events
-date: 2019-07-02T01:51:21.580Z
+date: 2018-03-21T01:51:21.580Z
 featuredImage: >-
   https://ucarecdn.com/b8a63f79-0abe-4035-8dca-9b3cfa9ef086/-/crop/1063x861/0,83/-/preview/
 videoSection:
   title: ''
-secondaryImage: >-
-  https://ucarecdn.com/c02f5a2a-fbc3-4c23-90ed-51712c09d73f/-/crop/973x1068/0,0/-/preview/
+secondaryImage: 'https://ucarecdn.com/050a8916-1039-4af4-b08d-3071b3a878b4/'
 excerpt: >-
-  Tash, Sydney – “This sunset cruise comes highly recommended. Jess from Sailing
-  in Paradise was excellent to deal with and very accommodating! The team were
+  Tash – “This sunset cruise comes highly recommended. Jess from Sailing in
+  Paradise was excellent to deal with and very accommodating! The team were
   highly flexible and was able to set sail from the Sanctuary Cove rather than
   Surfers Paradise, very accommodating for the private group. Food, hospitality
   and cruise was FANTASTIC! Cannot recommend this highly enough especially for

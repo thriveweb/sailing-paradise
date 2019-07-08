@@ -1,19 +1,18 @@
 ---
 template: SingleCaseStudy
-title: 'Jenny Campbell, Australia'
+title: 'Jenny, Aus'
 cruiseType: Hen's Parties
-date: ''
+date: 2018-05-04T14:00:00.000Z
 featuredImage: >-
   https://ucarecdn.com/b0cccb72-7054-410f-8d56-9e87b0a9e5e8/-/crop/1080x1223/0,0/-/preview/
 videoSection:
   title: ''
-secondaryImage: >-
-  https://ucarecdn.com/f6049fe4-b264-43f8-9db9-875cb700424f/-/crop/1065x1080/207,0/-/preview/
+secondaryImage: 'https://ucarecdn.com/f6049fe4-b264-43f8-9db9-875cb700424f/-/preview/'
 excerpt: >-
-  Jenny – “We had a sunset cruise for my daughters hens night on Saturday night.
-  I can highly recommend this company as an excellent party boat. The food &
-  service was amazing. They are so flexible with making this a no stress event.
-  We booked the butler in the buff as a last minute this was money well spent he
+  “We had a sunset cruise for my daughters hens night on Saturday night. I can
+  highly recommend this company as an excellent party boat. The food & service
+  was amazing. They are so flexible with making this a no stress event. We
+  booked the butler in the buff as a last minute this was money well spent he
   made us all feel comfortable & helped everyone to mix...good work Pete. Thanks
   again Sailing in Paradise that was a night that won't be forgotten.” Facebook
   review 

@@ -1,21 +1,21 @@
 ---
 template: SingleCaseStudy
-title: 'Laura Bennington, Australia'
+title: 'Laura, Aus'
 cruiseType: Hen's Parties
-date: ''
+date: 2018-09-07T14:00:00.000Z
 featuredImage: 'https://ucarecdn.com/a69345de-fd27-4fcb-b585-ba0797f5ce48/'
 videoSection:
   title: ''
 secondaryImage: >-
-  https://ucarecdn.com/e25a6552-f03e-4207-aafa-7b2429f4b256/-/crop/3605x4988/0,419/-/preview/
+  https://ucarecdn.com/737898e4-da7a-452e-a66a-ce2dccabe340/-/crop/3605x3106/0,2030/-/preview/
 excerpt: >-
-  Laura – “This was one of the best days I’ve had in a while. Wanted to do
-  something a little different for my best friends hens party.  The whole team
-  at sailing in paradise are so lovely and helpful. We docked because we ran out
-  of alcohol (thank god we could dock for more hahah)  We also got to go for a
-  swim on the floaties and sup boards! Music, dancing and some amazing views.
-  Highly recommended! Thank you so much to the team for helping execute an
-  amazing hens party!!” Tripadvisor
+  “This was one of the best days I’ve had in a while. Wanted to do something a
+  little different for my best friends hens party.  The whole team at sailing in
+  paradise are so lovely and helpful. We docked because we ran out of alcohol
+  (thank god we could dock for more hahah)  We also got to go for a swim on the
+  floaties and sup boards! Music, dancing and some amazing views. Highly
+  recommended! Thank you so much to the team for helping execute an amazing hens
+  party!!” Tripadvisor
 gallery:
   - image: 'https://ucarecdn.com/377f3776-0ab9-4404-a5fd-3a7e2f76c19b/'
   - image: >-

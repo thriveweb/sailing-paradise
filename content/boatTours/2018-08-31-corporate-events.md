@@ -76,5 +76,10 @@ columnBanner:
     title: Start planning your event now!
     featuredImage: 'https://ucarecdn.com/15c3a790-7deb-4ba8-89f4-312b9d178290/'
   - featuredImage: 'https://ucarecdn.com/d26a63a1-2a8e-41e6-a90c-d185bec84c13/'
+featuredTestimonials:
+  description: >-
+    KOJO organized a corporate charter with us, take a look at their
+    experience...
+  testimonial: 'KOJO, Aus '
 ---
 

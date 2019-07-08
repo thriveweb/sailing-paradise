@@ -4,7 +4,7 @@ tourType: Private Charter
 title: Romantic Sails
 icon: ''
 featuredImage: >-
-  https://ucarecdn.com/9bbb113f-fe89-437c-98df-e90815546d20/-/crop/6000x3192/0,188/-/preview/
+  https://ucarecdn.com/9bbb113f-fe89-437c-98df-e90815546d20/-/crop/5407x2329/0,399/-/preview/
 intro: >-
   ## gold coast Romantic Sails boat party
 

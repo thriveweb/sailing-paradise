@@ -2,17 +2,17 @@
 template: SingleCaseStudy
 title: 'Sandy, UK'
 cruiseType: Sunset & City Lights Cruise
-date: 2019-07-01T03:15:59.270Z
+date: 2018-11-04T03:15:59.270Z
 featuredImage: >-
   https://ucarecdn.com/75cdea3e-3ab0-4b17-bd9d-4a24965cab7d/-/crop/1246x796/165,71/-/preview/
 videoSection:
   title: ''
 secondaryImage: 'https://ucarecdn.com/c91d697b-d8f3-46cb-8618-f13b79cc42a5/'
 excerpt: >-
-  Sandy, UK – “We did the 2-hour sunset cruise and very glad we did! The
-  Catamaran was clean and spacious. The staff were friendly and provided us with
-  a complimentary drink and nibbles, some stunning photographs and chill vibing
-  tunes as we sailed into the sunset. A must do on the Gold Coast!” TripAdvisor
+  “We did the 2-hour sunset cruise and very glad we did! The Catamaran was clean
+  and spacious. The staff were friendly and provided us with a complimentary
+  drink and nibbles, some stunning photographs and chill vibing tunes as we
+  sailed into the sunset. A must do on the Gold Coast!” TripAdvisor
 gallery:
   - image: 'https://ucarecdn.com/45419433-2b8c-462c-b00b-060e0420c5c8/'
   - image: 'https://ucarecdn.com/868456d1-d814-4f94-a006-96379652503b/'

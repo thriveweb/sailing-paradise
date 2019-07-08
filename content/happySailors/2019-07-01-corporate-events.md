@@ -1,8 +1,8 @@
 ---
 template: SingleCaseStudy
-title: 'Wyndham Vacations, Australia'
+title: 'Wyndham Vacations, Aus'
 cruiseType: Corporate Events
-date: 2019-07-01T11:52:01.515Z
+date: 2018-10-18T11:52:01.515Z
 featuredImage: >-
   https://ucarecdn.com/81bae4a9-51de-40e6-9ad8-8e7023e724fb/-/preview/-/enhance/60/
 videoSection:
@@ -24,5 +24,7 @@ gallery:
   - image: 'https://ucarecdn.com/15887f08-7e45-454d-8879-6913af229d4f/'
   - image: >-
       https://ucarecdn.com/fc89fb7b-36a4-45d6-97ac-63862daea61d/-/crop/1080x987/0,0/-/preview/
+  - image: >-
+      https://ucarecdn.com/869ae824-3b8f-4edc-8508-2b7b8993f4b7/-/crop/1080x810/0,675/-/preview/
 ---
 Our private charters are ideal for planning corporate events with a difference!  We were delighted to host Wyndham’s corporate team build event with gourmet food from a private chef and beach activities! It was a relaxing and enjoyable day out with their colleagues, one they will remember for years to come!

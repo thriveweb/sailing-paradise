@@ -1,19 +1,19 @@
 ---
 template: SingleCaseStudy
-title: 'Jessica, Australia'
+title: 'Jessica, Aus'
 cruiseType: Proposals
-date: 2019-07-01T08:54:43.874Z
-featuredImage: >-
-  https://ucarecdn.com/4233956e-05ae-4f3b-9e40-2662e65d1fa3/-/crop/1068x1186/0,0/-/preview/
+date: 2019-02-02T08:54:43.874Z
+featuredImage: 'https://ucarecdn.com/dad04ddf-9033-44d3-8027-ca6677d15e66/'
 videoSection:
   title: ''
-secondaryImage: 'https://ucarecdn.com/b2059e94-3d2b-44ce-af9f-0111f250fcc2/'
+secondaryImage: >-
+  https://ucarecdn.com/67fb9678-c22b-46b5-8b8f-a292ee9b2149/-/preview/-/enhance/20/
 excerpt: >-
-  Jessica, Australia – “Amazing scenery, very comfortable boat and really
-  friendly professional staff, we had a fantastic time and the crew made it a
-  very memorable occasion. We saw dolphins and other various marine life and the
-  cruise back looking at the lights of the coast was spectacular. would
-  defiantly recommend to anyone thinking of doing this.”
+  “Amazing scenery, very comfortable boat and really friendly professional
+  staff, we had a fantastic time and the crew made it a very memorable occasion.
+  We saw dolphins and other various marine life and the cruise back looking at
+  the lights of the coast was spectacular. would defiantly recommend to anyone
+  thinking of doing this.”
 gallery:
   - image: 'https://ucarecdn.com/7c8738cf-d336-4d35-9cd0-8dc7fa717cbb/'
   - image: 'https://ucarecdn.com/868a7f0b-e787-47ff-b69b-54a491f4140a/'
