@@ -1,8 +1,8 @@
 ---
 template: SingleCaseStudy
-title: 'Jill Foreman, Maroochydore '
+title: 'Jill, Maroochydore '
 cruiseType: Raft up Parties
-date: 2019-07-01T08:23:06.749Z
+date: 2018-10-03T08:23:06.749Z
 featuredImage: 'https://ucarecdn.com/6339d664-e1e3-413b-81e2-b3bdf3bfb3a5/'
 videoSection:
   title: ''
