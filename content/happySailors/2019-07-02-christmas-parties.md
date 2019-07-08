@@ -1,14 +1,14 @@
 ---
 template: SingleCaseStudy
-title: 'Suzy M; BETTER LIVING, Australia'
+title: 'BETTER LIVING, Aus'
 cruiseType: Christmas Parties
-date: 2019-07-02T06:24:13.123Z
+date: 2018-12-01T06:24:13.123Z
 featuredImage: >-
   https://ucarecdn.com/d6f105f2-242c-46ce-8260-2e2d5afdea42/-/crop/998x847/0,83/-/preview/
 videoSection:
   title: ''
 secondaryImage: >-
-  https://ucarecdn.com/8d0ddc7f-35c4-4cf9-abf8-db9f2ca7b4ce/-/crop/1080x1537/0,83/-/preview/
+  https://ucarecdn.com/8d0ddc7f-35c4-4cf9-abf8-db9f2ca7b4ce/-/crop/1080x905/0,715/-/preview/
 excerpt: >-
   Suzy – “This is the 2nd year that we have used Jess & Steve @ Sailing in
   Paradise for our staff Christmas Party and once again they did not disappoint!
@@ -27,5 +27,7 @@ gallery:
   - image: >-
       https://ucarecdn.com/907af023-76a4-43dd-b5e6-904e620165d2/-/preview/-/enhance/66/
   - image: 'https://ucarecdn.com/44bf3d7e-e32b-4e15-ba73-e0906567a739/'
+  - image: >-
+      https://ucarecdn.com/671b7276-1ec6-47c4-b649-2b2c5304b9b3/-/crop/1080x932/0,618/-/preview/
 ---
 We love hosting Christmas parties and are honoured when our clients come back the next year like Suzy from Better Living Australia. Suzy organized an extra surprise treat for her colleagues, and we stayed out longer so they could watch the GC fireworks from the water, it complimented the Christmas party occasion perfectly.
