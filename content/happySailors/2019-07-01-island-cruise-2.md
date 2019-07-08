@@ -1,16 +1,16 @@
 ---
 template: SingleCaseStudy
-title: 'Mbo, Melbourne '
+title: 'Mbo, Aus'
 cruiseType: Island Cruise
-date: 2019-01-07T04:58:56.382Z
+date: 2019-01-19T04:58:56.382Z
 featuredImage: 'https://ucarecdn.com/9d883d75-3ef4-42bf-9951-8c4a047abe3f/'
 videoSection:
   title: ''
 secondaryImage: 'https://ucarecdn.com/742175a3-3db7-4446-9ba3-4f1949d210cb/'
 excerpt: >-
-  Mbo, Melbourne – “Excellent afternoon cruise! More food than I expected & was
-  very tasty. Crew were excellent with kids. Overall a really lovely arvo, very
-  relaxed & fun. Thanks so much!!! Definitely recommend! :)”  TripAdvisor
+  “Excellent afternoon cruise! More food than I expected & was very tasty. Crew
+  were excellent with kids. Overall a really lovely arvo, very relaxed & fun.
+  Thanks so much!!! Definitely recommend! :)”  TripAdvisor
 gallery:
   - image: 'https://ucarecdn.com/ef2d7e4a-602a-464e-bfc3-13e7ea09b0fc/'
   - image: 'https://ucarecdn.com/9b3a1a21-108c-4fde-a002-e8b1a8f19d4c/'
