@@ -1,22 +1,21 @@
 ---
 template: SingleCaseStudy
-title: 'Rebecca Murphy, Australia'
+title: 'Rebecca, Aus'
 cruiseType: Hen's Parties
-date: ''
+date: 2018-05-04T14:00:00.000Z
 featuredImage: >-
-  https://ucarecdn.com/32278ad1-e44a-4b6f-8412-539672594fc2/-/crop/1402x1080/176,0/-/preview/-/enhance/19/
+  https://ucarecdn.com/32278ad1-e44a-4b6f-8412-539672594fc2/-/preview/-/enhance/19/
 videoSection:
   title: ''
-secondaryImage: >-
-  https://ucarecdn.com/3d6bb45e-1b46-47ef-8a07-f84547cb5f91/-/crop/1020x1080/203,0/-/preview/
+secondaryImage: 'https://ucarecdn.com/3d6bb45e-1b46-47ef-8a07-f84547cb5f91/-/preview/'
 excerpt: >-
-  Rebecca – “My friends arranged for my Hen's party with Sailing in Paradise.
-  Each and every aspect of the entire 3 hour sunset cruise exceed my
-  expectations. The staff, cleanliness of the catamaran and general organisation
-  of the event was amazing. The team think about everything! They have you
-  covered from the little things like providing ample esky storage and ice to a
-  bluetooth speaker. Not to mention the cruise comes with a photographer! “ 
-  Facebook review
+  “My friends arranged for my Hen's party with Sailing in Paradise. Each and
+  every aspect of the entire 3 hour sunset cruise exceed my expectations. The
+  staff, cleanliness of the catamaran and general organisation of the event was
+  amazing. The team think about everything! They have you covered from the
+  little things like providing ample esky storage and ice to a bluetooth
+  speaker. Not to mention the cruise comes with a photographer! “  Facebook
+  review
 gallery:
   - image: >-
       https://ucarecdn.com/3a0aca15-eb74-4020-9cb2-37b06987126d/-/crop/1504x1080/116,0/-/preview/
