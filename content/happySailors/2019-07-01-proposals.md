@@ -3,8 +3,7 @@ template: SingleCaseStudy
 title: 'Jessica, Aus'
 cruiseType: Proposals
 date: 2019-02-02T08:54:43.874Z
-featuredImage: >-
-  https://ucarecdn.com/4233956e-05ae-4f3b-9e40-2662e65d1fa3/-/crop/1068x1186/0,0/-/preview/
+featuredImage: 'https://ucarecdn.com/dad04ddf-9033-44d3-8027-ca6677d15e66/'
 videoSection:
   title: ''
 secondaryImage: >-
