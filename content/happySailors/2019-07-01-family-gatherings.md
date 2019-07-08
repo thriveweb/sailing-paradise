@@ -1,19 +1,19 @@
 ---
 template: SingleCaseStudy
-title: 'Tim Walker, Australia'
+title: 'Tim, Aus'
 cruiseType: Family Gatherings
-date: 2019-07-01T09:24:01.247Z
+date: 2018-04-22T09:24:01.247Z
 featuredImage: >-
   https://ucarecdn.com/5c5c1a66-a4bc-4ab2-a0af-df24681e5c07/-/crop/1248x931/138,0/-/preview/
 videoSection:
   title: ''
 secondaryImage: 'https://ucarecdn.com/56cc7685-a6c9-4989-920a-57780b2b0551/'
 excerpt: >-
-  Tim, Australia – “Steve, Jessica and the team provided a fantastic experience
-  for our family. The lunch was superb, Steve interacted with the kids to get
-  them involved in getting the sails up which they loved. They took some amazing
-  pictures which was all part of the service, not a chargeable extra. I can't
-  recommend them enough.” Facebook review
+  “Steve, Jessica and the team provided a fantastic experience for our family.
+  The lunch was superb, Steve interacted with the kids to get them involved in
+  getting the sails up which they loved. They took some amazing pictures which
+  was all part of the service, not a chargeable extra. I can't recommend them
+  enough.” Facebook review
 gallery:
   - image: 'https://ucarecdn.com/f891f9b4-5327-4bfb-a773-95fa9e8a74f9/'
   - image: 'https://ucarecdn.com/4caa7386-28c8-4233-9f98-8a8faa0e143c/'
