@@ -1,18 +1,18 @@
 ---
 template: SingleCaseStudy
-title: 'Paula Watson, Australia'
+title: 'Paula, Aus'
 cruiseType: Hen's Parties
-date: ''
+date: 2019-01-11T14:00:00.000Z
 featuredImage: >-
   https://ucarecdn.com/89f53542-43d2-41e7-8a3f-8587525f5e37/-/crop/497x522/0,0/-/preview/
 videoSection:
   title: ''
-secondaryImage: 'https://ucarecdn.com/6f251463-ef7a-4651-8b91-4508447bb756/'
+secondaryImage: 'https://ucarecdn.com/a4bbb762-9b58-4333-8ba7-7defb1ed5153/'
 excerpt: >-
-  Paula – “We had my friends hens on Saturday night and these guys were
-  amazing!! Food was great, staff were so friendly and happy to help with
-  anything. Everyone on the hens said it was the best hens ever. Excellent
-  value. Thank you so much Sailing In Paradise you did not disappoint.” Facebook
+  “We had my friends hens on Saturday night and these guys were amazing!! Food
+  was great, staff were so friendly and happy to help with anything. Everyone on
+  the hens said it was the best hens ever. Excellent value. Thank you so much
+  Sailing In Paradise you did not disappoint.” Facebook
 gallery:
   - image: 'https://ucarecdn.com/f86a2cea-867c-4d92-b03e-1368f4be8551/'
   - image: 'https://ucarecdn.com/2d05dcb0-994e-4bb5-8279-21ef0c449094/'
