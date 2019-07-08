@@ -180,7 +180,7 @@ columnBanner:
   - featuredImage: /images/uploads/Sailing-in-Paradise-sunset.jpg
 featuredTestimonials:
   description: >-
-    See what the staff at Raceview State Shool had to say about their Christmas
+    See what the staff at Raceview State School had to say about their Christmas
     Party with us...
   testimonial: 'RACEVIEW STATE SCHOOL, Aus '
 ---
