@@ -1,8 +1,8 @@
 ---
 template: SingleCaseStudy
-title: 'Ruby Williams, Australia'
+title: 'Ruby, Aus'
 cruiseType: Hen's Parties
-date: ''
+date: 2018-03-16T14:00:00.000Z
 featuredImage: >-
   https://ucarecdn.com/da4cb43c-5902-4ed7-bea2-6f583edd2258/-/crop/1200x1536/0,64/-/preview/
 videoSection:
@@ -10,13 +10,13 @@ videoSection:
 secondaryImage: >-
   https://ucarecdn.com/c2e79b73-de12-4434-a6bf-4263e96f4033/-/crop/1200x1324/0,0/-/preview/
 excerpt: >-
-  Ruby, Melbourne – “WOW! What a day out!! We had 10 girls from Melbourne up for
-  a Hens party, and Steve and the team really know how to host a day on the
-  water. With an onboard photographer, it was great to not have to worry about
-  capturing photos and enjoy ourselves. We received the photos the same or the
-  very next day, efficient!!! such an amazing and fun day, I couldn't recommend
-  this sail more. The boat was amazing, so much room for activities. Keep up the
-  good work Steve! I will be recommending you to anyone heading up to the GC!!”
+  “WOW! What a day out!! We had 10 girls from Melbourne up for a Hens party, and
+  Steve and the team really know how to host a day on the water. With an onboard
+  photographer, it was great to not have to worry about capturing photos and
+  enjoy ourselves. We received the photos the same or the very next day,
+  efficient!!! such an amazing and fun day, I couldn't recommend this sail more.
+  The boat was amazing, so much room for activities. Keep up the good work
+  Steve! I will be recommending you to anyone heading up to the GC!!”
   TripAdvisor
 gallery:
   - image: >-
