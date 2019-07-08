@@ -23,5 +23,6 @@ gallery:
   - image: 'https://ucarecdn.com/af9554fd-128f-4031-9c33-a3915172bfa1/'
   - image: >-
       https://ucarecdn.com/c2aa6997-6ffc-4d0d-b755-34832a89d666/-/crop/1068x972/0,204/-/preview/
+  - image: 'https://ucarecdn.com/e5b709ad-ea2d-49b6-8a12-af87e7174aff/'
 ---
 If you have guests who may get seasick like Alicia’s group, don’t worry our skippers ensure a safe and comfortable sailing experience. Our catamarans are renowned for their smooth and stable rides ensuring no motion sickness for your guests. You can spend your time socialising or relaxing on the trampoline style foredeck while we sail to Wave Break Island for some family friendly beach activities and sandcastles for the little ones!
