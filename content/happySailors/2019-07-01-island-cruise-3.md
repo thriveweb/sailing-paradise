@@ -1,6 +1,6 @@
 ---
 template: SingleCaseStudy
-title: 'Mr Apple, New South Wales'
+title: 'Mr Apple, Aus'
 cruiseType: Island Cruise
 date: 2018-11-08T05:09:30.701Z
 featuredImage: 'https://ucarecdn.com/b52aac9f-5410-4769-8149-5761eb27696b/'
@@ -8,10 +8,10 @@ videoSection:
   title: ''
 secondaryImage: 'https://ucarecdn.com/55b31a5a-ae4b-45fb-8953-66db8bdf376f/'
 excerpt: >-
-  Mr Apple - “This cruise was a great way to spend the afternoon taking in the
-  views and relaxing in the sun. The crew was very friendly and obliging. It was
-  fun on the island using the SUPs and floats. The highlight was seeing a
-  dolphin pod close up as we returned from the island.” TripAdvisor
+  "This cruise was a great way to spend the afternoon taking in the views and
+  relaxing in the sun. The crew was very friendly and obliging. It was fun on
+  the island using the SUPs and floats. The highlight was seeing a dolphin pod
+  close up as we returned from the island.” TripAdvisor
 gallery:
   - image: 'https://ucarecdn.com/b6baef0f-9c92-4496-a3f6-67d618cbb340/'
   - image: 'https://ucarecdn.com/12eb622b-d3c3-4534-ae98-2ca818e42dca/'
@@ -24,4 +24,4 @@ gallery:
   - image: 'https://ucarecdn.com/c8e1bfcc-0161-47f4-9214-d7a38b454d02/'
   - image: 'https://ucarecdn.com/523c9cf0-2f46-4289-a5c1-7c838a781e06/'
 ---
-On our Island cruise suits those seeking a relaxing afternoon in the sunshine and those after some awesome fun! Mr Apple and his group enjoyed a blissful afternoon relaxing on the trampoline style fore-deck as well as making use of our beach activities at the picturesque Wave Break Island. The highlight was having the friendly dolphins come to say hello!
+Our Island cruise suits those seeking a relaxing afternoon in the sunshine and those after some awesome fun! Mr Apple and his group enjoyed a blissful afternoon relaxing on the trampoline style fore-deck as well as making use of our beach activities at the picturesque Wave Break Island. The highlight was having the friendly dolphins come to say hello!
