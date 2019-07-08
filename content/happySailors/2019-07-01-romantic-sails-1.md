@@ -1,18 +1,18 @@
 ---
 template: SingleCaseStudy
-title: 'Taryn Poole, Australia'
+title: 'Taryn, Aus'
 cruiseType: Romantic Sails
-date: 2019-07-01T09:17:55.239Z
+date: 2018-05-18T09:17:55.239Z
 featuredImage: 'https://ucarecdn.com/de397cd4-4e39-4ed3-948f-dc0a0e879de7/'
 videoSection:
   title: ''
 secondaryImage: >-
   https://ucarecdn.com/19c84fbb-e32b-4527-8cc8-7818bd4e5f36/-/crop/1308x1041/253,0/-/preview/
 excerpt: >-
-  Taryn, Australia- “Mark and I had such an amazing day - thank you! Mark really
-  enjoyed Steve’s sailing tips and the experience. Chanelle did a beautiful job
-  with our photos, some lovely keepsakes here. The whole day was very memorable
-  for us both. Many thanks Taryn & Mark” Facebook review
+  “Mark and I had such an amazing day - thank you! Mark really enjoyed Steve’s
+  sailing tips and the experience. Chanelle did a beautiful job with our photos,
+  some lovely keepsakes here. The whole day was very memorable for us both. Many
+  thanks Taryn & Mark” Facebook review
 gallery:
   - image: 'https://ucarecdn.com/8ed24b29-b43e-4344-8067-4924f127b32e/'
   - image: 'https://ucarecdn.com/88a71f08-7fdd-4819-9013-613aa5922dba/'
