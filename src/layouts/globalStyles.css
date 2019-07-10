@@ -352,6 +352,35 @@ input::placeholder {
   color: white;
 }
 
+.error-404 {
+	position: fixed;
+	z-index: 999999;
+	background-color: white;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+
+.error-404 h1 {
+	color: #212121;
+	font-size: 12rem;
+	line-height: 1;
+	margin-bottom: 1rem;
+}
+
+.error-404 h3 {
+	margin-bottom: 3rem;
+}
+
+.error-404 .button {
+	display: inline-block;
+}
+
 
 /*input[type="number"] {
   -webkit-appearance: textfield;
